@@ -68,14 +68,11 @@ Ensure you are in the project directory and the virtual environment is activated
 
 The application automatically scrapes the website using Lang-chain. You can edit the config at `command/recursive/recursive.sh`. 
 
-<iframe src="https://player.vimeo.com/video/984342499?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="base_url"></iframe>
+https://github.com/user-attachments/assets/cf4a0ff2-f3c4-4bad-b918-2c18323aec87
 
 Then, convert the data into separate `.txt` files using the command `command/recursive/csv2converter.sh`. You can decide the output file format as `.docx`, `.csv`, or `.txt`.
 
-[![Watch the video](https://player.vimeo.com/video/984342580?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479)](https://player.vimeo.com/video/984342580?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479)
-
-
-<iframe src="https://player.vimeo.com/video/984342580?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="data"></iframe>
+https://github.com/user-attachments/assets/db420ea4-7df3-4e24-bd45-a2b8e7dc3996
 
 ##### Configuring AnythingLLM
 
@@ -97,7 +94,8 @@ This is the example for the response:
 
 Video demo
 
-<iframe src="https://player.vimeo.com/video/984342676?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="demo"></iframe>
+
+https://github.com/user-attachments/assets/98efe973-59ea-44e3-b0d5-9f757197a37e
 
 
 ### 5. Other features
