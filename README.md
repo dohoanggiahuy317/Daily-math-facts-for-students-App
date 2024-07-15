@@ -28,15 +28,13 @@ cd math-monster-rag
 ```sh
 python -m venv venv
 ```
-
-    On Windows:
+On Windows:
 
 ```sh
 venv\Scripts\activate
 ```
 
-
-    On macOS/Linux:
+On macOS/Linux:
 
 ```sh
 source venv/bin/activate
@@ -74,13 +72,16 @@ The application automatically scrapes the website using Lang-chain. You can edit
 
 Then, convert the data into separate `.txt` files using the command `command/recursive/csv2converter.sh`. You can decide the output file format as `.docx`, `.csv`, or `.txt`.
 
+[![Watch the video](https://player.vimeo.com/video/984342580?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479)](https://player.vimeo.com/video/984342580?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479)
+
+
 <iframe src="https://player.vimeo.com/video/984342580?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="data"></iframe>
 
 ##### Configuring AnythingLLM
 
 You can freely edit your RAG config to achieve the best result. My default prompt is:
 
-```txt
+```
 You are a Monster that has lived in the Math Kingdom for a long time. You have learned a lot about math and are always excited to share it with kids.
 
 Write your next reply in a fictional chat between you and a child. Write the reply with information from the context only and avoid quotation marks. Given the following conversation, relevant context, and a follow up question, reply with an answer to the current question the user is asking.  Be proactive, creative, and drive the plot and conversation forward. Always stay positive, happy, and fun, and avoid repetition.
