@@ -1,0 +1,537 @@
+Volume - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 History Toggle History subsection 1.
+
+1 Ancient history 1.
+
+2 Calculus and standardization of units 1.
+
+3 Metrication and redefinitions 2 Properties 3 Measurement Toggle Measurement subsection 3.
+
+1 Units 3.
+
+2 Capacity and volume 4 Computation Toggle Computation subsection 4.
+
+1 Basic shapes 4.
+
+2 Integral calculus 4.
+
+3 Geometric modeling 5 Derived quantities 6 See also 7 Notes 8 References 9 External links Toggle the table of contents Volume 115 languages Afrikaans अंगिका العربية Asturianu Azərbaycanca বাংলা 閩南語 / Bân-lâm-gú Башҡортса Беларуская Беларуская (тарашкевіца) भोजपुरी Bikol Central Български Bosanski Català Чӑвашла Čeština ChiShona Cymraeg Dansk الدارجة Deutsch Eesti Ελληνικά Español Esperanto Euskara فارسی Fiji Hindi Français Gaeilge Galego 贛語 客家語/Hak-kâ-ngî 한국어 Հայերեն हिन्दी Hrvatski Ido Bahasa Indonesia Interlingua Íslenska Italiano עברית Jawa Kabɩyɛ ქართული Қазақша Kiswahili Kreyòl ayisyen Kriyòl gwiyannen Kurdî Кыргызча Latgaļu Latina Latviešu Lëtzebuergesch Lietuvių Ligure Magyar Македонски Malagasy മലയാളം मराठी Bahasa Melayu 閩東語 / Mìng-dĕ̤ng-ngṳ̄ Монгол မြန်မာဘာသာ Nederlands नेपाली 日本語 Nordfriisk Norsk bokmål Norsk nynorsk Occitan Oromoo Oʻzbekcha / ўзбекча ਪੰਜਾਬੀ پنجابی Patois Polski Português Română Runa Simi Русский संस्कृतम् Scots Shqip Sicilianu Simple English Slovenčina Slovenščina Ślůnski Soomaaliga کوردی Српски / srpski Srpskohrvatski / српскохрватски Suomi Svenska Tagalog தமிழ் Taqbaylit తెలుగు ไทย Тоҷикӣ Türkçe Türkmençe Українська اردو Vèneto Tiếng Việt Winaray 吴语 粵語 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia Quantity of three-dimensional space For other uses, see Volume (disambiguation).
+
+Volume A measuring cup can be used to measure volumes of liquids.
+
+This cup measures volume in units of cups , fluid ounces , and millilitres.
+
+Common symbols V SI unit cubic metre Other units Litre , fluid ounce , gallon , quart , pint , tsp , fluid dram , in 3 , yd 3 , barrel In SI base units m 3 Extensive ? yes Intensive ? no Conserved ? yes for solids and liquids , no for gases , and plasma [a] Behaviour under coord transformation conserved Dimension L 3 Volume is a measure of regions in three-dimensional space.
+
+[1] It is often quantified numerically using SI derived units (such as the cubic metre and litre ) or by various imperial or US customary units (such as the gallon , quart , cubic inch ).
+
+The definition of length and height (cubed) is interrelated with volume.
+
+The volume of a container is generally understood to be the capacity of the container; i.
+
+e.
+
+, the amount of fluid (gas or liquid) that the container could hold, rather than the amount of space the container itself displaces.
+
+By metonymy , the term "volume" sometimes is used to refer to the corresponding region (e.
+
+g.
+
+, bounding volume ).
+
+[2] [3] In ancient times, volume was measured using similar-shaped natural containers.
+
+Later on, standardized containers were used.
+
+Some simple three-dimensional shapes can have their volume easily calculated using arithmetic formulas.
+
+Volumes of more complicated shapes can be calculated with integral calculus if a formula exists for the shape's boundary.
+
+Zero- , one- and two-dimensional objects have no volume; in fourth and higher dimensions, an analogous concept to the normal volume is the hypervolume.
+
+History [ edit ] Ancient history [ edit ] 6 volumetric measures from the mens ponderia in Pompeii , an ancient municipal institution for the control of weights and measures The precision of volume measurements in the ancient period usually ranges between 10–50 mL (0.
+
+3–2 US fl oz; 0.
+
+4–2 imp fl oz).
+
+[4] : 8 The earliest evidence of volume calculation came from ancient Egypt and Mesopotamia as mathematical problems, approximating volume of simple shapes such as cuboids , cylinders , frustum and cones.
+
+These math problems have been written in the Moscow Mathematical Papyrus (c.
+
+1820 BCE).
+
+[5] : 403 In the Reisner Papyrus , ancient Egyptians have written concrete units of volume for grain and liquids, as well as a table of length, width, depth, and volume for blocks of material.
+
+[4] : 116 The Egyptians use their units of length (the cubit , palm , digit ) to devise their units of volume, such as the volume cubit [4] : 117 or deny [5] : 396 (1 cubit × 1 cubit × 1 cubit), volume palm (1 cubit × 1 cubit × 1 palm), and volume digit (1 cubit × 1 cubit × 1 digit).
+
+[4] : 117 The last three books of Euclid's Elements , written in around 300 BCE, detailed the exact formulas for calculating the volume of parallelepipeds , cones, pyramids , cylinders, and spheres.
+
+The formula were determined by prior mathematicians by using a primitive form of integration , by breaking the shapes into smaller and simpler pieces.
+
+[5] : 403 A century later, Archimedes ( c.
+
+287 – 212 BCE ) devised approximate volume formula of several shapes using the method of exhaustion approach, meaning to derive solutions from previous known formulas from similar shapes.
+
+Primitive integration of shapes was also discovered independently by Liu Hui in the 3rd century CE, Zu Chongzhi in the 5th century CE, the Middle East and India.
+
+[5] : 404 Archimedes also devised a way to calculate the volume of an irregular object, by submerging it underwater and measure the difference between the initial and final water volume.
+
+The water volume difference is the volume of the object.
+
+[5] : 404 Though highly popularized, Archimedes probably does not submerge the golden crown to find its volume, and thus its density and purity, due to the extreme precision involved.
+
+[6] Instead, he likely have devised a primitive form of a hydrostatic balance.
+
+Here, the crown and a chunk of pure gold with a similar weight are put on both ends of a weighing scale submerged underwater, which will tip accordingly due to the Archimedes' principle.
+
+[7] Calculus and standardization of units [ edit ] Further information: History of calculus and Apothecaries' system Diagram showing how to measure volume using a graduated cylinder with fluid dram markings, 1926 In the Middle Ages , many units for measuring volume were made, such as the sester , amber , coomb , and seam.
+
+The sheer quantity of such units motivated British kings to standardize them, culminated in the Assize of Bread and Ale statute in 1258 by Henry III of England.
+
+The statute standardized weight, length and volume as well as introduced the peny, ounce, pound, gallon and bushel.
+
+[4] : 73–74 In 1618, the London Pharmacopoeia (medicine compound catalog) adopted the Roman gallon [8] or congius [9] as a basic unit of volume and gave a conversion table to the apothecaries' units of weight.
+
+[8] Around this time, volume measurements are becoming more precise and the uncertainty is narrowed to between 1–5 mL (0.
+
+03–0.
+
+2 US fl oz; 0.
+
+04–0.
+
+2 imp fl oz).
+
+[4] : 8 Around the early 17th century, Bonaventura Cavalieri applied the philosophy of modern integral calculus to calculate the volume of any object.
+
+He devised Cavalieri's principle , which said that using thinner and thinner slices of the shape would make the resulting volume more and more accurate.
+
+This idea would then be later expanded by Pierre de Fermat , John Wallis , Isaac Barrow , James Gregory , Isaac Newton , Gottfried Wilhelm Leibniz and Maria Gaetana Agnesi in the 17th and 18th centuries to form the modern integral calculus, which remains in use in the 21st century.
+
+[5] : 404 Metrication and redefinitions [ edit ] Further information: History of the metric system On 7 April 1795, the metric system was formally defined in French law using six units.
+
+Three of these are related to volume: the stère (1 m 3 ) for volume of firewood; the litre (1 dm 3 ) for volumes of liquid; and the gramme , for mass—defined as the mass of one cubic centimetre of water at the temperature of melting ice.
+
+[10] Thirty years later in 1824, the imperial gallon was defined to be the volume occupied by ten pounds of water at 17 °C (62 °F).
+
+[5] : 394 This definition was further refined until the United Kingdom's Weights and Measures Act 1985 , which makes 1 imperial gallon precisely equal to 4.
+
+54609 litres with no use of water.
+
+[11] The 1960 redefinition of the metre from the International Prototype Metre to the orange-red emission line of krypton-86 atoms unbounded the metre, cubic metre, and litre from physical objects.
+
+This also make the metre and metre-derived units of volume resilient to changes to the International Prototype Metre.
+
+[12] The definition of the metre was redefined again in 1983 to use the speed of light and second (which is derived from the caesium standard ) and reworded for clarity in 2019.
+
+[13] Properties [ edit ] Further information: Volume element and Volume form As a measure of the Euclidean three-dimensional space , volume cannot be physically measured as a negative value, similar to length and area.
+
+Like all continuous monotonic (order-preserving) measures, volumes of bodies can be compared against each other and thus can be ordered.
+
+Volume can also be added together and be decomposed indefinitely; the latter property is integral to Cavalieri's principle and to the infinitesimal calculus of three-dimensional bodies.
+
+[14] A 'unit' of infinitesimally small volume in integral calculus is the volume element ; this formulation is useful when working with different coordinate systems , spaces and manifolds.
+
+Measurement [ edit ] The oldest way to roughly measure a volume of an object is using the human body, such as using hand size and pinches.
+
+However, the human body's variations make it extremely unreliable.
+
+A better way to measure volume is to use roughly consistent and durable containers found in nature, such as gourds , sheep or pig stomachs , and bladders.
+
+Later on, as metallurgy and glass production improved, small volumes nowadays are usually measured using standardized human-made containers.
+
+[5] : 393 This method is common for measuring small volume of fluids or granular materials , by using a multiple or fraction of the container.
+
+For granular materials, the container is shaken or leveled off to form a roughly flat surface.
+
+This method is not the most accurate way to measure volume but is often used to measure cooking ingredients.
+
+[5] : 399 Air displacement pipette is used in biology and biochemistry to measure volume of fluids at the microscopic scale.
+
+[15] Calibrated measuring cups and spoons are adequate for cooking and daily life applications, however, they are not precise enough for laboratories.
+
+There, volume of liquids is measured using graduated cylinders , pipettes and volumetric flasks.
+
+The largest of such calibrated containers are petroleum storage tanks , some can hold up to 1,000,000 bbl (160,000,000 L) of fluids.
+
+[5] : 399 Even at this scale, by knowing petroleum's density and temperature, very precise volume measurement in these tanks can still be made.
+
+[5] : 403 For even larger volumes such as in a reservoir , the container's volume is modeled by shapes and calculated using mathematics.
+
+[5] : 403 Units [ edit ] Main articles: Unit of volume and Orders of magnitude (volume) Some SI units of volume to scale and approximate corresponding mass of water To ease calculations, a unit of volume is equal to the volume occupied by a unit cube (with a side length of one).
+
+Because the volume occupies three dimensions, if the metre (m) is chosen as a unit of length, the corresponding unit of volume is the cubic metre (m 3 ).
+
+The cubic metre is also a SI derived unit.
+
+[16] Therefore, volume has a unit dimension of L 3.
+
+[17] The metric units of volume uses metric prefixes , strictly in powers of ten.
+
+When applying prefixes to units of volume, which are expressed in units of length cubed, the cube operators are applied to the unit of length including the prefix.
+
+An example of converting cubic centimetre to cubic metre is: 2.
+
+3 cm 3 = 2.
+
+3 (cm) 3 = 2.
+
+3 (0.
+
+01 m) 3 = 0.
+
+0000023 m 3 (five zeros).
+
+[18] : 143 Commonly used prefixes for cubed length units are the cubic millimetre (mm 3 ), cubic centimetre (cm 3 ), cubic decimetre (dm 3 ), cubic metre (m 3 ) and the cubic kilometre (km 3 ).
+
+The conversion between the prefix units are as follows: 1000 mm 3 = 1 cm 3 , 1000 cm 3 = 1 dm 3 , and 1000 dm 3 = 1 m 3.
+
+[1] The metric system also includes the litre (L) as a unit of volume, where 1 L = 1 dm 3 = 1000 cm 3 = 0.
+
+001 m 3.
+
+[18] : 145 For the litre unit, the commonly used prefixes are the millilitre (mL), centilitre (cL), and the litre (L), with 1000 mL = 1 L, 10 mL = 1 cL, 10 cL = 1 dL, and 10 dL = 1 L.
+
+[1] Various other imperial or U.
+
+S.
+
+customary units of volume are also in use, including: [5] : 396–398 cubic inch , cubic foot , cubic yard , acre-foot , cubic mile ; minim , drachm , fluid ounce , pint ; teaspoon , tablespoon ; gill , quart , gallon , barrel ; cord , peck , bushel , hogshead.
+
+Capacity and volume [ edit ] Capacity is the maximum amount of material that a container can hold, measured in volume or weight.
+
+However, the contained volume does not need to fill towards the container's capacity, or vice versa.
+
+Containers can only hold a specific amount of physical volume, not weight (excluding practical concerns).
+
+For example, a 50,000 bbl (7,900,000 L) tank that can just hold 7,200 t (15,900,000 lb) of fuel oil will not be able to contain the same 7,200 t (15,900,000 lb) of naphtha , due to naphtha's lower density and thus larger volume.
+
+[5] : 390–391 Computation [ edit ] Basic shapes [ edit ] See also: List of formulas in elementary geometry For many shapes such as the cube , cuboid and cylinder , they have an essentially the same volume calculation formula as one for the prism : the base of the shape multiplied by its height.
+
+Integral calculus [ edit ] Further information: Volume integral Illustration of a solid of revolution, which the volume of rotated g(x) subtracts the volume of rotated f(x).
+
+The calculation of volume is a vital part of integral calculus.
+
+One of which is calculating the volume of solids of revolution , by rotating a plane curve around a line on the same plane.
+
+The washer or disc integration method is used when integrating by an axis parallel to the axis of rotation.
+
+The general equation can be written as: V = π ∫ a b | f ( x ) 2 − g ( x ) 2 | d x {\displaystyle V=\pi \int _{a}^{b}\left|f(x)^{2}-g(x)^{2}\right|\,dx} where f ( x ) {\textstyle f(x)} and g ( x ) {\textstyle g(x)} are the plane curve boundaries.
+
+[19] : 1, 3 The shell integration method is used when integrating by an axis perpendicular to the axis of rotation.
+
+The equation can be written as: [19] : 6 V = 2 π ∫ a b x | f ( x ) − g ( x ) | d x {\displaystyle V=2\pi \int _{a}^{b}x|f(x)-g(x)|\,dx} The volume of a region D in three-dimensional space is given by the triple or volume integral of the constant function f ( x , y , z ) = 1 {\displaystyle f(x,y,z)=1} over the region.
+
+It is usually written as: [20] : Section 14.
+
+4 ∭ D 1 d x d y d z.
+
+{\displaystyle \iiint _{D}1\,dx\,dy\,dz.
+
+} In cylindrical coordinates , the volume integral is ∭ D r d r d θ d z , {\displaystyle \iiint _{D}r\,dr\,d\theta \,dz,} In spherical coordinates (using the convention for angles with θ {\displaystyle \theta } as the azimuth and φ {\displaystyle \varphi } measured from the polar axis; see more on conventions ), the volume integral is ∭ D ρ 2 sin ⁡ φ d ρ d θ d φ.
+
+{\displaystyle \iiint _{D}\rho ^{2}\sin \varphi \,d\rho \,d\theta \,d\varphi.
+
+} Geometric modeling [ edit ] Low poly triangle mesh of a dolphin A polygon mesh is a representation of the object's surface, using polygons.
+
+The volume mesh explicitly define its volume and surface properties.
+
+Derived quantities [ edit ] See also: List of physical quantities Density is the substance's mass per unit volume, or total mass divided by total volume.
+
+[21] Specific volume is total volume divided by mass, or the inverse of density.
+
+[22] The volumetric flow rate or discharge is the volume of fluid which passes through a given surface per unit time.
+
+The volumetric heat capacity is the heat capacity of the substance divided by its volume.
+
+See also [ edit ] Banach–Tarski paradox Dimensional weight Dimensioning Notes [ edit ] ^ At constant temperature and pressure, ignoring other states of matter for brevity References [ edit ] ^ a b c "SI Units - Volume".
+
+National Institute of Standards and Technology.
+
+April 13, 2022.
+
+Archived from the original on August 7, 2022.
+
+Retrieved August 7, 2022.
+
+^ "IEC 60050 — Details for IEV number 102-04-40: "volume" ".
+
+International Electrotechnical Vocabulary (in Japanese).
+
+Retrieved 2023-09-19.
+
+^ "IEC 60050 — Details for IEV number 102-04-39: "three-dimensional domain" ".
+
+International Electrotechnical Vocabulary (in Japanese).
+
+Retrieved 2023-09-19.
+
+^ a b c d e f Imhausen, Annette (2016).
+
+Mathematics in Ancient Egypt: A Contextual History.
+
+Princeton University Press.
+
+ISBN 978-1-4008-7430-9.
+
+OCLC 934433864.
+
+^ a b c d e f g h i j k l m n Treese, Steven A.
+
+(2018).
+
+History and Measurement of the Base and Derived Units.
+
+Cham, Switzerland: Springer Science+Business Media.
+
+ISBN 978-3-319-77577-7.
+
+LCCN 2018940415.
+
+OCLC 1036766223.
+
+^ Rorres, Chris.
+
+"The Golden Crown".
+
+Drexel University.
+
+Archived from the original on 11 March 2009.
+
+Retrieved 24 March 2009.
+
+^ Graf, E.
+
+H.
+
+(2004).
+
+"Just what did Archimedes say about buoyancy?".
+
+The Physics Teacher.
+
+42 (5): 296–299.
+
+Bibcode : 2004PhTea.
+
+42.
+
+296G.
+
+doi : 10.
+
+1119/1.
+
+1737965.
+
+Archived from the original on 2021-04-14.
+
+Retrieved 2022-08-07.
+
+^ a b "Balances, Weights and Measures" (PDF).
+
+Royal Pharmaceutical Society.
+
+4 Feb 2020.
+
+p.
+
+1.
+
+Archived (PDF) from the original on 20 May 2022.
+
+Retrieved 13 August 2022.
+
+^ Cardarelli, François (6 Dec 2012).
+
+Scientific Unit Conversion: A Practical Guide to Metrication (2nd ed.
+
+).
+
+London: Springer Science+Business Media.
+
+p.
+
+151.
+
+ISBN 978-1-4471-0805-4.
+
+OCLC 828776235.
+
+^ Cox, Edward Franklin (1958).
+
+A History of the Metric System of Weights and Measures, with Emphasis on Campaigns for its Adoption in Great Britain, and in The United States Prior to 1914 (PhD thesis).
+
+Indiana University.
+
+pp.
+
+99–100.
+
+ProQuest 301905667.
+
+^ Cook, James L.
+
+(1991).
+
+Conversion Factors.
+
+Oxford [England]: Oxford University Press.
+
+pp.
+
+xvi.
+
+ISBN 0-19-856349-3.
+
+OCLC 22861139.
+
+^ Marion, Jerry B.
+
+(1982).
+
+Physics For Science and Engineering.
+
+CBS College Publishing.
+
+p.
+
+3.
+
+ISBN 978-4-8337-0098-6.
+
+^ " Mise en pratique for the definition of the metre in the SI" (PDF).
+
+International Bureau of Weights and Measures.
+
+Consultative Committee for Length.
+
+20 May 2019.
+
+p.
+
+1.
+
+Archived (PDF) from the original on 13 August 2022.
+
+Retrieved 13 August 2022.
+
+^ "Volume - Encyclopedia of Mathematics".
+
+encyclopediaofmath.
+
+org.
+
+Retrieved 2023-05-27.
+
+^ "Use of Micropipettes" (PDF).
+
+Buffalo State College.
+
+Archived from the original (PDF) on 4 August 2016.
+
+Retrieved 19 June 2016.
+
+^ "Area and Volume".
+
+National Institute of Standards and Technology.
+
+February 25, 2022.
+
+Archived from the original on August 7, 2022.
+
+Retrieved August 7, 2022.
+
+^ Lemons, Don S.
+
+(16 March 2017).
+
+A Student's Guide to Dimensional Analysis.
+
+New York: Cambridge University Press.
+
+p.
+
+38.
+
+ISBN 978-1-107-16115-3.
+
+OCLC 959922612.
+
+^ a b Le Système international d’unités [ The International System of Units ] (PDF) (in French and English) (9th ed.
+
+).
+
+International Bureau of Weights and Measures.
+
+2019.
+
+ISBN 978-92-822-2272-0.
+
+^ a b "Volumes by Integration" (PDF).
+
+Rochester Institute of Technology.
+
+22 September 2014.
+
+Archived (PDF) from the original on 2 February 2022.
+
+Retrieved 12 August 2022.
+
+^ Stewart, James (2008).
+
+Calculus: Early Transcendentals (6th ed.
+
+).
+
+Brooks Cole Cengage Learning.
+
+ISBN 978-0-495-01166-8.
+
+^ Benson, Tom (7 May 2021).
+
+"Gas Density".
+
+Glenn Research Center.
+
+Archived from the original on 2022-08-09.
+
+Retrieved 2022-08-13.
+
+^ Cengel, Yunus A.
+
+; Boles, Michael A.
+
+(2002).
+
+Thermodynamics: an engineering approach.
+
+Boston: McGraw-Hill.
+
+p.
+
+11.
+
+ISBN 0-07-238332-1.
+
+External links [ edit ] Wikimedia Commons has media related to Volumes.
+
+Perimeters, Areas, Volumes at Wikibooks Volume at Wikibooks Authority control databases : National Germany Israel United States Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Volume&oldid=1231904730 " Category : Volume Hidden categories: CS1 Japanese-language sources (ja) CS1 French-language sources (fr) Articles with short description Short description matches Wikidata Commons category link from Wikidata Articles with GND identifiers Articles with J9U identifiers Articles with LCCN identifiers This page was last edited on 30 June 2024, at 22:28 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

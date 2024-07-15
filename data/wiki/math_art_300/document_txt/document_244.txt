@@ -1,0 +1,105 @@
+Law of continuity - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Leibniz's formulation 2 See also 3 References Toggle the table of contents Law of continuity 4 languages বাংলা Русский Türkçe Українська Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Principle that whatever succeeds for the finite also succeeds for the infinite "Principle of continuity" redirects here.
+
+For other uses, see Dedekind cut.
+
+The law of continuity is a heuristic principle introduced by Gottfried Leibniz based on earlier work by Nicholas of Cusa and Johannes Kepler.
+
+It is the principle that "whatever succeeds for the finite, also succeeds for the infinite".
+
+[1] Kepler used the law of continuity to calculate the area of the circle by representing it as an infinite-sided polygon with infinitesimal sides, and adding the areas of infinitely many triangles with infinitesimal bases.
+
+Leibniz used the principle to extend concepts such as arithmetic operations from ordinary numbers to infinitesimals , laying the groundwork for infinitesimal calculus.
+
+The transfer principle provides a mathematical implementation of the law of continuity in the context of the hyperreal numbers.
+
+A related law of continuity concerning intersection numbers in geometry was promoted by Jean-Victor Poncelet in his "Traité des propriétés projectives des figures".
+
+[2] [3] Leibniz's formulation [ edit ] Leibniz expressed the law in the following terms in 1701: In any supposed continuous transition, ending in any terminus, it is permissible to institute a general reasoning, in which the final terminus may also be included ( Cum Prodiisset ).
+
+[4] In a 1702 letter to French mathematician Pierre Varignon subtitled “Justification of the Infinitesimal Calculus by that of Ordinary Algebra," Leibniz adequately summed up the true meaning of his law, stating that "the rules of the finite are found to succeed in the infinite.
+
+" [5] The law of continuity became important to Leibniz's justification and conceptualization of the infinitesimal calculus.
+
+See also [ edit ] Transcendental law of homogeneity References [ edit ] ^ Karin Usadi Katz and Mikhail G.
+
+Katz (2011) A Burgessian Critique of Nominalistic Tendencies in Contemporary Mathematics and its Historiography.
+
+Foundations of Science.
+
+doi : 10.
+
+1007/s10699-011-9223-1 See arxiv ^ Poncelet, Jean Victor.
+
+Traité des propriétés projectives des figures : T.
+
+1.
+
+Ouvrage utile à ceux qui s' occupent des applications de la géométrie descriptive et d'opérations géométriques sur le terrain.
+
+" (1865), pp.
+
+13–14 ^ Fulton, William.
+
+Introduction to intersection theory in algebraic geometry.
+
+No.
+
+54.
+
+American Mathematical Soc.
+
+, 1984, p.
+
+1 ^ Child, J.
+
+M.
+
+(ed.
+
+): The early mathematical manuscripts of Leibniz.
+
+Translated from the Latin texts published by Carl Immanuel Gerhardt with critical and historical notes by J.
+
+M.
+
+Child.
+
+Chicago-London: The Open Court Publishing Co.
+
+, 1920.
+
+^ Leibniz, Gottfried Wilhelm, and Leroy E.
+
+Loemker.
+
+Philosophical Papers and Letters.
+
+2d ed.
+
+Dordrecht: D.
+
+Reidel, 1970, p.
+
+544 v t e Gottfried Wilhelm Leibniz Mathematics and philosophy Alternating series test Best of all possible worlds Calculus controversy Calculus ratiocinator Characteristica universalis Compossibility Difference Dynamism Identity of indiscernibles Individuation Law of continuity Leibniz wheel Leibniz's gap Leibniz's notation Lingua generalis Mathesis universalis Pre-established harmony Plenitude Sufficient reason Salva veritate Theodicy Transcendental law of homogeneity Rationalism Universal science Vis viva Well-founded phenomenon Works De Arte Combinatoria (1666) Discourse on Metaphysics (1686) New Essays on Human Understanding (1704) Théodicée (1710) Monadology (1714) Leibniz–Clarke correspondence (1715–1716) Category v t e Infinitesimals History Adequality Leibniz's notation Integral symbol Criticism of nonstandard analysis The Analyst The Method of Mechanical Theorems Cavalieri's principle Related branches Nonstandard analysis Nonstandard calculus Internal set theory Synthetic differential geometry Smooth infinitesimal analysis Constructive nonstandard analysis Infinitesimal strain theory (physics) Formalizations Differentials Hyperreal numbers Dual numbers Surreal numbers Individual concepts Standard part function Transfer principle Hyperinteger Increment theorem Monad Internal set Levi-Civita field Hyperfinite set Law of continuity Overspill Microcontinuity Transcendental law of homogeneity Mathematicians Gottfried Wilhelm Leibniz Abraham Robinson Pierre de Fermat Augustin-Louis Cauchy Leonhard Euler Textbooks Analyse des Infiniment Petits Elementary Calculus Cours d'Analyse This article about the history of mathematics is a stub.
+
+You can help Wikipedia by expanding it.
+
+v t e Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Law_of_continuity&oldid=1166901946 " Categories : Nonstandard analysis Gottfried Wilhelm Leibniz Infinity History of calculus Mathematics of infinitesimals Metaphysical principles History of mathematics stubs Hidden categories: Articles with short description Short description matches Wikidata All stub articles This page was last edited on 24 July 2023, at 13:12 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

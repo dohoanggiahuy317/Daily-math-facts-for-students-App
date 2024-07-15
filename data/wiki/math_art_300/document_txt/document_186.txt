@@ -1,0 +1,81 @@
+Quadratic integral - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Positive-discriminant case 2 Negative-discriminant case 3 References Toggle the table of contents Quadratic integral 2 languages Bahasa Indonesia ភាសាខ្មែរ Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia In mathematics , a quadratic integral is an integral of the form ∫ d x a + b x + c x 2.
+
+{\displaystyle \int {\frac {dx}{a+bx+cx^{2}}}.
+
+} It can be evaluated by completing the square in the denominator.
+
+∫ d x a + b x + c x 2 = 1 c ∫ d x ( x + b 2 c ) 2 + ( a c − b 2 4 c 2 ).
+
+{\displaystyle \int {\frac {dx}{a+bx+cx^{2}}}={\frac {1}{c}}\int {\frac {dx}{\left(x+{\frac {b}{2c}}\right)^{\!2}+\left({\frac {a}{c}}-{\frac {b^{2}}{4c^{2}}}\right)}}.
+
+} Positive-discriminant case [ edit ] Assume that the discriminant q = b 2 − 4 ac is positive.
+
+In that case, define u and A by u = x + b 2 c , {\displaystyle u=x+{\frac {b}{2c}},} and − A 2 = a c − b 2 4 c 2 = 1 4 c 2 ( 4 a c − b 2 ).
+
+{\displaystyle -A^{2}={\frac {a}{c}}-{\frac {b^{2}}{4c^{2}}}={\frac {1}{4c^{2}}}(4ac-b^{2}).
+
+} The quadratic integral can now be written as ∫ d x a + b x + c x 2 = 1 c ∫ d u u 2 − A 2 = 1 c ∫ d u ( u + A ) ( u − A ).
+
+{\displaystyle \int {\frac {dx}{a+bx+cx^{2}}}={\frac {1}{c}}\int {\frac {du}{u^{2}-A^{2}}}={\frac {1}{c}}\int {\frac {du}{(u+A)(u-A)}}.
+
+} The partial fraction decomposition 1 ( u + A ) ( u − A ) = 1 2 A ( 1 u − A − 1 u + A ) {\displaystyle {\frac {1}{(u+A)(u-A)}}={\frac {1}{2A}}\!\left({\frac {1}{u-A}}-{\frac {1}{u+A}}\right)} allows us to evaluate the integral: 1 c ∫ d u ( u + A ) ( u − A ) = 1 2 A c ln ⁡ ( u − A u + A ) + constant.
+
+{\displaystyle {\frac {1}{c}}\int {\frac {du}{(u+A)(u-A)}}={\frac {1}{2Ac}}\ln \left({\frac {u-A}{u+A}}\right)+{\text{constant}}.
+
+} The final result for the original integral, under the assumption that q > 0, is ∫ d x a + b x + c x 2 = 1 q ln ⁡ ( 2 c x + b − q 2 c x + b + q ) + constant.
+
+{\displaystyle \int {\frac {dx}{a+bx+cx^{2}}}={\frac {1}{\sqrt {q}}}\ln \left({\frac {2cx+b-{\sqrt {q}}}{2cx+b+{\sqrt {q}}}}\right)+{\text{constant}}.
+
+} Negative-discriminant case [ edit ] In case the discriminant q = b 2 − 4 ac is negative, the second term in the denominator in ∫ d x a + b x + c x 2 = 1 c ∫ d x ( x + b 2 c ) 2 + ( a c − b 2 4 c 2 ).
+
+{\displaystyle \int {\frac {dx}{a+bx+cx^{2}}}={\frac {1}{c}}\int {\frac {dx}{\left(x+{\frac {b}{2c}}\right)^{\!2}+\left({\frac {a}{c}}-{\frac {b^{2}}{4c^{2}}}\right)}}.
+
+} is positive.
+
+Then the integral becomes 1 c ∫ d u u 2 + A 2 = 1 c A ∫ d u / A ( u / A ) 2 + 1 = 1 c A ∫ d w w 2 + 1 = 1 c A arctan ⁡ ( w ) + c o n s t a n t = 1 c A arctan ⁡ ( u A ) + constant = 1 c a c − b 2 4 c 2 arctan ⁡ ( x + b 2 c a c − b 2 4 c 2 ) + constant = 2 4 a c − b 2 arctan ⁡ ( 2 c x + b 4 a c − b 2 ) + constant.
+
+{\displaystyle {\begin{aligned}{\frac {1}{c}}\int {\frac {du}{u^{2}+A^{2}}}&={\frac {1}{cA}}\int {\frac {du/A}{(u/A)^{2}+1}}\\[9pt]&={\frac {1}{cA}}\int {\frac {dw}{w^{2}+1}}\\[9pt]&={\frac {1}{cA}}\arctan(w)+\mathrm {constant} \\[9pt]&={\frac {1}{cA}}\arctan \left({\frac {u}{A}}\right)+{\text{constant}}\\[9pt]&={\frac {1}{c{\sqrt {{\frac {a}{c}}-{\frac {b^{2}}{4c^{2}}}}}}}\arctan \left({\frac {x+{\frac {b}{2c}}}{\sqrt {{\frac {a}{c}}-{\frac {b^{2}}{4c^{2}}}}}}\right)+{\text{constant}}\\[9pt]&={\frac {2}{\sqrt {4ac-b^{2}\,}}}\arctan \left({\frac {2cx+b}{\sqrt {4ac-b^{2}}}}\right)+{\text{constant}}.
+
+\end{aligned}}} References [ edit ] Weisstein, Eric W.
+
+" Quadratic Integral.
+
+" From MathWorld --A Wolfram Web Resource, wherein the following is referenced: Gradshteyn, Izrail Solomonovich ; Ryzhik, Iosif Moiseevich ; Geronimus, Yuri Veniaminovich ; Tseytlin, Michail Yulyevich ; Jeffrey, Alan (2015) [October 2014].
+
+Zwillinger, Daniel; Moll, Victor Hugo (eds.
+
+).
+
+Table of Integrals, Series, and Products.
+
+Translated by Scripta Technica, Inc.
+
+(8 ed.
+
+).
+
+Academic Press, Inc.
+
+ISBN 978-0-12-384933-5.
+
+LCCN 2014010276.
+
+v t e Calculus Precalculus Binomial theorem Concave function Continuous function Factorial Finite difference Free variables and bound variables Graph of a function Linear function Radian Rolle's theorem Secant Slope Tangent Limits Indeterminate form Limit of a function One-sided limit Limit of a sequence Order of approximation (ε, δ)-definition of limit Differential calculus Derivative Second derivative Partial derivative Differential Differential operator Mean value theorem Notation Leibniz's notation Newton's notation Rules of differentiation linearity Power Sum Chain L'Hôpital's Product General Leibniz's rule Quotient Other techniques Implicit differentiation Inverse functions and differentiation Logarithmic derivative Related rates Stationary points First derivative test Second derivative test Extreme value theorem Maximum and minimum Further applications Newton's method Taylor's theorem Differential equation Ordinary differential equation Partial differential equation Stochastic differential equation Integral calculus Antiderivative Arc length Riemann integral Basic properties Constant of integration Fundamental theorem of calculus Differentiating under the integral sign Integration by parts Integration by substitution trigonometric Euler Tangent half-angle substitution Partial fractions in integration Quadratic integral Trapezoidal rule Volumes Washer method Shell method Integral equation Integro-differential equation Vector calculus Derivatives Curl Directional derivative Divergence Gradient Laplacian Basic theorems Line integrals Green's Stokes' Gauss' Multivariable calculus Divergence theorem Geometric Hessian matrix Jacobian matrix and determinant Lagrange multiplier Line integral Matrix Multiple integral Partial derivative Surface integral Volume integral Advanced topics Differential forms Exterior derivative Generalized Stokes' theorem Tensor calculus Sequences and series Arithmetico-geometric sequence Types of series Alternating Binomial Fourier Geometric Harmonic Infinite Power Maclaurin Taylor Telescoping Tests of convergence Abel's Alternating series Cauchy condensation Direct comparison Dirichlet's Integral Limit comparison Ratio Root Term Special functions and numbers Bernoulli numbers e (mathematical constant) Exponential function Natural logarithm Stirling's approximation History of calculus Adequality Brook Taylor Colin Maclaurin Generality of algebra Gottfried Wilhelm Leibniz Infinitesimal Infinitesimal calculus Isaac Newton Fluxion Law of Continuity Leonhard Euler Method of Fluxions The Method of Mechanical Theorems Lists Integrals rational functions irrational functions exponential functions logarithmic functions hyperbolic functions inverse trigonometric functions inverse Secant Secant cubed List of limits List of derivatives Miscellaneous topics Complex calculus Contour integral Differential geometry Manifold Curvature of curves of surfaces Tensor Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Regiomontanus' angle maximization problem Steinmetz solid Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Quadratic_integral&oldid=1069728369 " Category : Integral calculus This page was last edited on 3 February 2022, at 19:37 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

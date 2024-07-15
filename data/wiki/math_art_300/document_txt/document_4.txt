@@ -1,0 +1,2161 @@
+Lambda calculus - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Explanation and applications 2 History Toggle History subsection 2.
+
+1 Origin of the λ symbol 3 Informal description Toggle Informal description subsection 3.
+
+1 Motivation 3.
+
+2 The lambda calculus 3.
+
+2.
+
+1 Lambda terms 3.
+
+2.
+
+2 Functions that operate on functions 3.
+
+2.
+
+3 Alpha equivalence 3.
+
+2.
+
+4 Free variables 3.
+
+2.
+
+5 Capture-avoiding substitutions 3.
+
+2.
+
+6 β-reduction 4 Formal definition Toggle Formal definition subsection 4.
+
+1 Definition 4.
+
+2 Notation 4.
+
+3 Free and bound variables 5 Reduction Toggle Reduction subsection 5.
+
+1 α-conversion 5.
+
+1.
+
+1 Substitution 5.
+
+2 β-reduction 5.
+
+3 η-reduction 6 Normal forms and confluence 7 Encoding datatypes Toggle Encoding datatypes subsection 7.
+
+1 Arithmetic in lambda calculus 7.
+
+2 Logic and predicates 7.
+
+3 Pairs 8 Additional programming techniques Toggle Additional programming techniques subsection 8.
+
+1 Named constants 8.
+
+2 Recursion and fixed points 8.
+
+3 Standard terms 8.
+
+4 Abstraction elimination 9 Typed lambda calculus 10 Reduction strategies 11 Computability 12 Complexity 13 Lambda calculus and programming languages Toggle Lambda calculus and programming languages subsection 13.
+
+1 Anonymous functions 13.
+
+2 Parallelism and concurrency 14 Semantics 15 Variations and extensions 16 See also 17 Further reading 18 Notes 19 References 20 External links Toggle the table of contents Lambda calculus 44 languages العربية Azərbaycanca বাংলা Bosanski Català Čeština Dansk Deutsch Eesti Ελληνικά Español Esperanto فارسی Français 한국어 Հայերեն Hrvatski Ido Íslenska Italiano עברית Magyar Nederlands 日本語 Нохчийн Norsk bokmål Polski Português Русский Simple English Slovenčina کوردی Српски / srpski Srpskohrvatski / српскохрватски Suomi Svenska Tagalog தமிழ் ไทย Türkçe Українська Tiếng Việt 粵語 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikibooks Appearance move to sidebar hide From Wikipedia, the free encyclopedia Mathematical-logic system based on functions Lambda calculus (also written as λ -calculus ) is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution.
+
+Untyped lambda calculus, the topic of this article, is a universal model of computation that can be used to simulate any Turing machine (and vice versa).
+
+It was introduced by the mathematician Alonzo Church in the 1930s as part of his research into the foundations of mathematics.
+
+In 1936, Church found a formulation which was logically consistent , and documented it in 1940.
+
+Lambda calculus consists of constructing lambda terms and performing reduction operations on them.
+
+In the simplest form of lambda calculus, terms are built using only the following rules: [a] x {\textstyle x} : A variable is a character or string representing a parameter.
+
+( λ x.
+
+M ) {\textstyle (\lambda x.
+
+M)} : A lambda abstraction is a function definition, taking as input the bound variable x {\displaystyle x} (between the λ and the punctum/dot.
+
+) and returning the body M {\textstyle M}.
+
+( M N ) {\textstyle (M\ N)} : An application , applying a function M {\textstyle M} to an argument N {\textstyle N}.
+
+Both M {\textstyle M} and N {\textstyle N} are lambda terms.
+
+The reduction operations include: ( λ x.
+
+M [ x ] ) → ( λ y.
+
+M [ y ] ) {\textstyle (\lambda x.
+
+M[x])\rightarrow (\lambda y.
+
+M[y])} : α-conversion , renaming the bound variables in the expression.
+
+Used to avoid name collisions.
+
+( ( λ x.
+
+M ) N ) → ( M [ x := N ] ) {\textstyle ((\lambda x.
+
+M)\ N)\rightarrow (M[x:=N])} : β-reduction , [b] replacing the bound variables with the argument expression in the body of the abstraction.
+
+If De Bruijn indexing is used, then α-conversion is no longer required as there will be no name collisions.
+
+If repeated application of the reduction steps eventually terminates, then by the Church–Rosser theorem it will produce a β-normal form.
+
+Variable names are not needed if using a universal lambda function, such as Iota and Jot , which can create any function behavior by calling it on itself in various combinations.
+
+Explanation and applications [ edit ] Lambda calculus is Turing complete , that is, it is a universal model of computation that can be used to simulate any Turing machine.
+
+[3] Its namesake, the Greek letter lambda (λ), is used in lambda expressions and lambda terms to denote binding a variable in a function.
+
+Lambda calculus may be untyped or typed.
+
+In typed lambda calculus, functions can be applied only if they are capable of accepting the given input's "type" of data.
+
+Typed lambda calculi are weaker than the untyped lambda calculus, which is the primary subject of this article, in the sense that typed lambda calculi can express less than the untyped calculus can.
+
+On the other hand, typed lambda calculi allow more things to be proven.
+
+For example, in the simply typed lambda calculus it is a theorem that every evaluation strategy terminates for every simply typed lambda-term, whereas evaluation of untyped lambda-terms need not terminate (see below ).
+
+One reason there are many different typed lambda calculi has been the desire to do more (of what the untyped calculus can do) without giving up on being able to prove strong theorems about the calculus.
+
+Lambda calculus has applications in many different areas in mathematics , philosophy , [4] linguistics , [5] [6] and computer science.
+
+[7] [8] Lambda calculus has played an important role in the development of the theory of programming languages.
+
+Functional programming languages implement lambda calculus.
+
+Lambda calculus is also a current research topic in category theory.
+
+[9] History [ edit ] Lambda calculus was introduced by mathematician Alonzo Church in the 1930s as part of an investigation into the foundations of mathematics.
+
+[10] [c] The original system was shown to be logically inconsistent in 1935 when Stephen Kleene and J.
+
+B.
+
+Rosser developed the Kleene–Rosser paradox.
+
+[11] [12] Subsequently, in 1936 Church isolated and published just the portion relevant to computation, what is now called the untyped lambda calculus.
+
+[13] In 1940, he also introduced a computationally weaker, but logically consistent system, known as the simply typed lambda calculus.
+
+[14] Until the 1960s when its relation to programming languages was clarified, the lambda calculus was only a formalism.
+
+Thanks to Richard Montague and other linguists' applications in the semantics of natural language, the lambda calculus has begun to enjoy a respectable place in both linguistics [15] and computer science.
+
+[16] Origin of the λ symbol [ edit ] There is some uncertainty over the reason for Church's use of the Greek letter lambda (λ) as the notation for function-abstraction in the lambda calculus, perhaps in part due to conflicting explanations by Church himself.
+
+According to Cardone and Hindley (2006): By the way, why did Church choose the notation “λ”? In [an unpublished 1964 letter to Harald Dickson] he stated clearly that it came from the notation “ x ^ {\displaystyle {\hat {x}}} ” used for class-abstraction by Whitehead and Russell , by first modifying “ x ^ {\displaystyle {\hat {x}}} ” to “ ∧ x {\displaystyle \land x} ” to distinguish function-abstraction from class-abstraction, and then changing “ ∧ {\displaystyle \land } ” to “λ” for ease of printing.
+
+This origin was also reported in [Rosser, 1984, p.
+
+338].
+
+On the other hand, in his later years Church told two enquirers that the choice was more accidental: a symbol was needed and λ just happened to be chosen.
+
+Dana Scott has also addressed this question in various public lectures.
+
+[17] Scott recounts that he once posed a question about the origin of the lambda symbol to Church's former student and son-in-law John W.
+
+Addison Jr.
+
+, who then wrote his father-in-law a postcard: Dear Professor Church, Russell had the iota operator , Hilbert had the epsilon operator.
+
+Why did you choose lambda for your operator? According to Scott, Church's entire response consisted of returning the postcard with the following annotation: " eeny, meeny, miny, moe ".
+
+Informal description [ edit ] Motivation [ edit ] Computable functions are a fundamental concept within computer science and mathematics.
+
+The lambda calculus provides simple semantics for computation which are useful for formally studying properties of computation.
+
+The lambda calculus incorporates two simplifications that make its semantics simple.
+
+The first simplification is that the lambda calculus treats functions "anonymously;" it does not give them explicit names.
+
+For example, the function s q u a r e _ s u m ⁡ ( x , y ) = x 2 + y 2 {\displaystyle \operatorname {square\_sum} (x,y)=x^{2}+y^{2}} can be rewritten in anonymous form as ( x , y ) ↦ x 2 + y 2 {\displaystyle (x,y)\mapsto x^{2}+y^{2}} (which is read as "a tuple of x and y is mapped to x 2 + y 2 {\textstyle x^{2}+y^{2}} ").
+
+[d] Similarly, the function id ⁡ ( x ) = x {\displaystyle \operatorname {id} (x)=x} can be rewritten in anonymous form as x ↦ x {\displaystyle x\mapsto x} where the input is simply mapped to itself.
+
+[d] The second simplification is that the lambda calculus only uses functions of a single input.
+
+An ordinary function that requires two inputs, for instance the s q u a r e _ s u m {\textstyle \operatorname {square\_sum} } function, can be reworked into an equivalent function that accepts a single input, and as output returns another function, that in turn accepts a single input.
+
+For example, ( x , y ) ↦ x 2 + y 2 {\displaystyle (x,y)\mapsto x^{2}+y^{2}} can be reworked into x ↦ ( y ↦ x 2 + y 2 ) {\displaystyle x\mapsto (y\mapsto x^{2}+y^{2})} This method, known as currying , transforms a function that takes multiple arguments into a chain of functions each with a single argument.
+
+Function application of the s q u a r e _ s u m {\textstyle \operatorname {square\_sum} } function to the arguments (5, 2), yields at once ( ( x , y ) ↦ x 2 + y 2 ) ( 5 , 2 ) {\textstyle ((x,y)\mapsto x^{2}+y^{2})(5,2)} = 5 2 + 2 2 {\textstyle =5^{2}+2^{2}} = 29 {\textstyle =29} , whereas evaluation of the curried version requires one more step ( ( x ↦ ( y ↦ x 2 + y 2 ) ) ( 5 ) ) ( 2 ) {\textstyle {\Bigl (}{\bigl (}x\mapsto (y\mapsto x^{2}+y^{2}){\bigr )}(5){\Bigr )}(2)} = ( y ↦ 5 2 + y 2 ) ( 2 ) {\textstyle =(y\mapsto 5^{2}+y^{2})(2)} // the definition of x {\displaystyle x} has been used with 5 {\displaystyle 5} in the inner expression.
+
+This is like β-reduction.
+
+= 5 2 + 2 2 {\textstyle =5^{2}+2^{2}} // the definition of y {\displaystyle y} has been used with 2 {\displaystyle 2}.
+
+Again, similar to β-reduction.
+
+= 29 {\textstyle =29} to arrive at the same result.
+
+The lambda calculus [ edit ] The lambda calculus consists of a language of lambda terms , that are defined by a certain formal syntax, and a set of transformation rules for manipulating the lambda terms.
+
+These transformation rules can be viewed as an equational theory or as an operational definition.
+
+As described above, having no names, all functions in the lambda calculus are anonymous functions.
+
+They only accept one input variable, so currying is used to implement functions of several variables.
+
+Lambda terms [ edit ] The syntax of the lambda calculus defines some expressions as valid lambda calculus expressions and some as invalid, just as some strings of characters are valid C programs and some are not.
+
+A valid lambda calculus expression is called a " lambda term ".
+
+The following three rules give an inductive definition that can be applied to build all syntactically valid lambda terms: [e] variable x is itself a valid lambda term.
+
+if t is a lambda term, and x is a variable, then ( λ x.
+
+t ) {\displaystyle (\lambda x.
+
+t)} [f] is a lambda term (called an abstraction ); if t and s are lambda terms, then ( t {\displaystyle (t} s ) {\displaystyle s)} is a lambda term (called an application ).
+
+Nothing else is a lambda term.
+
+That is, a lambda term is valid if and only if it can be obtained by repeated application of these three rules.
+
+For convenience, some parentheses can be omitted when writing a lambda term.
+
+For example, the outermost parentheses are usually not written.
+
+See § Notation , below, for an explicit description of which parentheses are optional.
+
+It is also common to extend the syntax presented here with additional operations, which allows making sense of terms such as λ x.
+
+x 2.
+
+{\displaystyle \lambda x.
+
+x^{2}.
+
+} The focus of this article is the pure lambda calculus without extensions, but lambda terms extended with arithmetic operations are used for explanatory purposes.
+
+An abstraction λ x.
+
+t {\displaystyle \lambda x.
+
+t} denotes an § anonymous function [g] that takes a single input x and returns t.
+
+For example, λ x.
+
+( x 2 + 2 ) {\displaystyle \lambda x.
+
+(x^{2}+2)} is an abstraction representing the function f {\displaystyle f} defined by f ( x ) = x 2 + 2 , {\displaystyle f(x)=x^{2}+2,} using the term x 2 + 2 {\displaystyle x^{2}+2} for t.
+
+The name f {\displaystyle f} is superfluous when using abstraction.
+
+The syntax ( λ x.
+
+t ) {\displaystyle (\lambda x.
+
+t)} binds the variable x in the term t.
+
+The definition of a function with an abstraction merely "sets up" the function but does not invoke it.
+
+An application t {\displaystyle t} s {\displaystyle s} represents the application of a function t to an input s , that is, it represents the act of calling function t on input s to produce t ( s ) {\displaystyle t(s)}.
+
+A lambda term may refer to a variable that has not been bound, such as the term λ x.
+
+( x + y ) {\displaystyle \lambda x.
+
+(x+y)} (which represents the function definition f ( x ) = x + y {\displaystyle f(x)=x+y} ).
+
+In this term, the variable y has not been defined and is considered an unknown.
+
+The abstraction λ x.
+
+( x + y ) {\displaystyle \lambda x.
+
+(x+y)} is a syntactically valid term and represents a function that adds its input to the yet-unknown y.
+
+Parentheses may be used and might be needed to disambiguate terms.
+
+For example, λ x.
+
+( ( λ x.
+
+x ) x ) {\displaystyle \lambda x.
+
+((\lambda x.
+
+x)x)} is of form λ x.
+
+B {\displaystyle \lambda x.
+
+B} and is therefore an abstraction, while ( λ x.
+
+( λ x.
+
+x ) ) {\displaystyle (\lambda x.
+
+(\lambda x.
+
+x))} x {\displaystyle x} is of form M {\displaystyle M} N {\displaystyle N} and is therefore an application.
+
+The examples 1 and 2 denote different terms, differing only in where the parentheses are placed.
+
+They have different meanings: example 1 is a function definition, while example 2 is a function application.
+
+The lambda variable x is a placeholder in both examples.
+
+Here, example 1 defines a function λ x.
+
+B {\displaystyle \lambda x.
+
+B} , where B {\displaystyle B} is ( λ x.
+
+x ) x {\displaystyle (\lambda x.
+
+x)x} , an anonymous function ( λ x.
+
+x ) {\displaystyle (\lambda x.
+
+x)} , with input x {\displaystyle x} ; while example 2, M {\displaystyle M} N {\displaystyle N} , is M applied to N, where M {\displaystyle M} is the lambda term ( λ x.
+
+( λ x.
+
+x ) ) {\displaystyle (\lambda x.
+
+(\lambda x.
+
+x))} being applied to the input N {\displaystyle N} which is x {\displaystyle x}.
+
+Both examples 1 and 2 would evaluate to the identity function λ x.
+
+x {\displaystyle \lambda x.
+
+x}.
+
+Functions that operate on functions [ edit ] In lambda calculus, functions are taken to be ' first class values ', so functions may be used as the inputs, or be returned as outputs from other functions.
+
+For example, the lambda term λ x.
+
+x {\displaystyle \lambda x.
+
+x} represents the identity function , x ↦ x {\displaystyle x\mapsto x}.
+
+Further, λ x.
+
+y {\displaystyle \lambda x.
+
+y} represents the constant function x ↦ y {\displaystyle x\mapsto y} , the function that always returns y {\displaystyle y} , no matter the input.
+
+As an example of a function operating on functions, the function composition can be defined as λ f.
+
+λ g.
+
+λ x.
+
+( f ( g x ) ) {\displaystyle \lambda f.
+
+\lambda g.
+
+\lambda x.
+
+(f(gx))}.
+
+There are several notions of "equivalence" and "reduction" that allow lambda terms to be "reduced" to "equivalent" lambda terms.
+
+Alpha equivalence [ edit ] A basic form of equivalence, definable on lambda terms, is alpha equivalence.
+
+It captures the intuition that the particular choice of a bound variable, in an abstraction, does not (usually) matter.
+
+For instance, λ x.
+
+x {\displaystyle \lambda x.
+
+x} and λ y.
+
+y {\displaystyle \lambda y.
+
+y} are alpha-equivalent lambda terms, and they both represent the same function (the identity function).
+
+The terms x {\displaystyle x} and y {\displaystyle y} are not alpha-equivalent, because they are not bound in an abstraction.
+
+In many presentations, it is usual to identify alpha-equivalent lambda terms.
+
+The following definitions are necessary in order to be able to define β-reduction: Free variables [ edit ] The free variables [h] of a term are those variables not bound by an abstraction.
+
+The set of free variables of an expression is defined inductively: The free variables of x {\displaystyle x} are just x {\displaystyle x} The set of free variables of λ x.
+
+t {\displaystyle \lambda x.
+
+t} is the set of free variables of t {\displaystyle t} , but with x {\displaystyle x} removed The set of free variables of t {\displaystyle t} s {\displaystyle s} is the union of the set of free variables of t {\displaystyle t} and the set of free variables of s {\displaystyle s}.
+
+For example, the lambda term representing the identity λ x.
+
+x {\displaystyle \lambda x.
+
+x} has no free variables, but the function λ x.
+
+y {\displaystyle \lambda x.
+
+y} x {\displaystyle x} has a single free variable, y {\displaystyle y}.
+
+Capture-avoiding substitutions [ edit ] Suppose t {\displaystyle t} , s {\displaystyle s} and r {\displaystyle r} are lambda terms, and x {\displaystyle x} and y {\displaystyle y} are variables.
+
+The notation t [ x := r ] {\displaystyle t[x:=r]} indicates substitution of r {\displaystyle r} for x {\displaystyle x} in t {\displaystyle t} in a capture-avoiding manner.
+
+This is defined so that: x [ x := r ] = r {\displaystyle x[x:=r]=r} ; with r {\displaystyle r} substituted for x {\displaystyle x} , x {\displaystyle x} becomes r {\displaystyle r} y [ x := r ] = y {\displaystyle y[x:=r]=y} if x ≠ y {\displaystyle x\neq y} ; with r {\displaystyle r} substituted for x {\displaystyle x} , y {\displaystyle y} (which is not x {\displaystyle x} ) remains y {\displaystyle y} ( t {\displaystyle (t} s ) [ x := r ] = ( t [ x := r ] ) ( s [ x := r ] ) {\displaystyle s)[x:=r]=(t[x:=r])(s[x:=r])} ; substitution distributes to both sides of an application ( λ x.
+
+t ) [ x := r ] = λ x.
+
+t {\displaystyle (\lambda x.
+
+t)[x:=r]=\lambda x.
+
+t} ; a variable bound by an abstraction is not subject to substitution; substituting such variable leaves the abstraction unchanged ( λ y.
+
+t ) [ x := r ] = λ y.
+
+( t [ x := r ] ) {\displaystyle (\lambda y.
+
+t)[x:=r]=\lambda y.
+
+(t[x:=r])} if x ≠ y {\displaystyle x\neq y} and y {\displaystyle y} does not appear among the free variables of r {\displaystyle r} ( y {\displaystyle y} is said to be " fresh " for r {\displaystyle r} ) ; substituting a variable which is not bound by an abstraction proceeds in the abstraction's body, provided that the abstracted variable y {\displaystyle y} is "fresh" for the substitution term r {\displaystyle r}.
+
+For example, ( λ x.
+
+x ) [ y := y ] = λ x.
+
+( x [ y := y ] ) = λ x.
+
+x {\displaystyle (\lambda x.
+
+x)[y:=y]=\lambda x.
+
+(x[y:=y])=\lambda x.
+
+x} , and ( ( λ x.
+
+y ) x ) [ x := y ] = ( ( λ x.
+
+y ) [ x := y ] ) ( x [ x := y ] ) = ( λ x.
+
+y ) y {\displaystyle ((\lambda x.
+
+y)x)[x:=y]=((\lambda x.
+
+y)[x:=y])(x[x:=y])=(\lambda x.
+
+y)y}.
+
+The freshness condition (requiring that y {\displaystyle y} is not in the free variables of r {\displaystyle r} ) is crucial in order to ensure that substitution does not change the meaning of functions.
+
+For example, a substitution that ignores the freshness condition could lead to errors: ( λ x.
+
+y ) [ y := x ] = λ x.
+
+( y [ y := x ] ) = λ x.
+
+x {\displaystyle (\lambda x.
+
+y)[y:=x]=\lambda x.
+
+(y[y:=x])=\lambda x.
+
+x}.
+
+This erroneous substitution would turn the constant function λ x.
+
+y {\displaystyle \lambda x.
+
+y} into the identity λ x.
+
+x {\displaystyle \lambda x.
+
+x}.
+
+In general, failure to meet the freshness condition can be remedied by alpha-renaming first, with a suitable fresh variable.
+
+For example, switching back to our correct notion of substitution, in ( λ x.
+
+y ) [ y := x ] {\displaystyle (\lambda x.
+
+y)[y:=x]} the abstraction can be renamed with a fresh variable z {\displaystyle z} , to obtain ( λ z.
+
+y ) [ y := x ] = λ z.
+
+( y [ y := x ] ) = λ z.
+
+x {\displaystyle (\lambda z.
+
+y)[y:=x]=\lambda z.
+
+(y[y:=x])=\lambda z.
+
+x} , and the meaning of the function is preserved by substitution.
+
+β-reduction [ edit ] The β-reduction rule [b] states that an application of the form ( λ x.
+
+t ) s {\displaystyle (\lambda x.
+
+t)s} reduces to the term t [ x := s ] {\displaystyle t[x:=s]}.
+
+The notation ( λ x.
+
+t ) s → t [ x := s ] {\displaystyle (\lambda x.
+
+t)s\to t[x:=s]} is used to indicate that ( λ x.
+
+t ) s {\displaystyle (\lambda x.
+
+t)s} β-reduces to t [ x := s ] {\displaystyle t[x:=s]}.
+
+For example, for every s {\displaystyle s} , ( λ x.
+
+x ) s → x [ x := s ] = s {\displaystyle (\lambda x.
+
+x)s\to x[x:=s]=s}.
+
+This demonstrates that λ x.
+
+x {\displaystyle \lambda x.
+
+x} really is the identity.
+
+Similarly, ( λ x.
+
+y ) s → y [ x := s ] = y {\displaystyle (\lambda x.
+
+y)s\to y[x:=s]=y} , which demonstrates that λ x.
+
+y {\displaystyle \lambda x.
+
+y} is a constant function.
+
+The lambda calculus may be seen as an idealized version of a functional programming language, like Haskell or Standard ML.
+
+Under this view, β-reduction corresponds to a computational step.
+
+This step can be repeated by additional β-reductions until there are no more applications left to reduce.
+
+In the untyped lambda calculus, as presented here, this reduction process may not terminate.
+
+For instance, consider the term Ω = ( λ x.
+
+x x ) ( λ x.
+
+x x ) {\displaystyle \Omega =(\lambda x.
+
+xx)(\lambda x.
+
+xx)}.
+
+Here ( λ x.
+
+x x ) ( λ x.
+
+x x ) → ( x x ) [ x := λ x.
+
+x x ] = ( x [ x := λ x.
+
+x x ] ) ( x [ x := λ x.
+
+x x ] ) = ( λ x.
+
+x x ) ( λ x.
+
+x x ) {\displaystyle (\lambda x.
+
+xx)(\lambda x.
+
+xx)\to (xx)[x:=\lambda x.
+
+xx]=(x[x:=\lambda x.
+
+xx])(x[x:=\lambda x.
+
+xx])=(\lambda x.
+
+xx)(\lambda x.
+
+xx)}.
+
+That is, the term reduces to itself in a single β-reduction, and therefore the reduction process will never terminate.
+
+Another aspect of the untyped lambda calculus is that it does not distinguish between different kinds of data.
+
+For instance, it may be desirable to write a function that only operates on numbers.
+
+However, in the untyped lambda calculus, there is no way to prevent a function from being applied to truth values , strings, or other non-number objects.
+
+Formal definition [ edit ] Main article: Lambda calculus definition Definition [ edit ] Lambda expressions are composed of: variables v 1 , v 2 ,.
+
+; the abstraction symbols λ (lambda) and.
+
+(dot); parentheses ().
+
+The set of lambda expressions, Λ , can be defined inductively : If x is a variable, then x ∈ Λ.
+
+If x is a variable and M ∈ Λ, then (λ x.
+
+M ) ∈ Λ.
+
+If M , N ∈ Λ, then ( M N ) ∈ Λ.
+
+Instances of rule 2 are known as abstractions and instances of rule 3 are known as applications.
+
+[18] See § reducible expression This set of rules may be written in Backus–Naur form as: < expression > :== < abstraction > | < application > | < variable > < abstraction > :== λ < variable >.
+
+< expression > < application > :== ( < expression > < expression > ) < variable > :== v1 | v2 |.
+
+Notation [ edit ] To keep the notation of lambda expressions uncluttered, the following conventions are usually applied: Outermost parentheses are dropped: M N instead of ( M N ).
+
+Applications are assumed to be left associative: M N P may be written instead of (( M N ) P ).
+
+[19] When all variables are single-letter, the space in applications may be omitted: MNP instead of M N P.
+
+[20] The body of an abstraction extends as far right as possible : λ x.
+
+M N means λ x.
+
+( M N ) and not (λ x.
+
+M ) N.
+
+A sequence of abstractions is contracted: λ x.
+
+λ y.
+
+λ z.
+
+N is abbreviated as λ xyz.
+
+N.
+
+[21] [19] Free and bound variables [ edit ] The abstraction operator, λ, is said to bind its variable wherever it occurs in the body of the abstraction.
+
+Variables that fall within the scope of an abstraction are said to be bound.
+
+In an expression λ x.
+
+M , the part λ x is often called binder , as a hint that the variable x is getting bound by prepending λ x to M.
+
+All other variables are called free.
+
+For example, in the expression λ y.
+
+x x y , y is a bound variable and x is a free variable.
+
+Also a variable is bound by its nearest abstraction.
+
+In the following example the single occurrence of x in the expression is bound by the second lambda: λ x.
+
+y (λ x.
+
+z x ).
+
+The set of free variables of a lambda expression, M , is denoted as FV( M ) and is defined by recursion on the structure of the terms, as follows: FV( x ) = { x }, where x is a variable.
+
+FV(λ x.
+
+M ) = FV( M ) \ { x }.
+
+[i] FV( M N ) = FV( M ) ∪ FV( N ).
+
+[j] An expression that contains no free variables is said to be closed.
+
+Closed lambda expressions are also known as combinators and are equivalent to terms in combinatory logic.
+
+Reduction [ edit ] The meaning of lambda expressions is defined by how expressions can be reduced.
+
+[22] There are three kinds of reduction: α-conversion : changing bound variables; β-reduction : applying functions to their arguments; η-reduction : which captures a notion of extensionality.
+
+We also speak of the resulting equivalences: two expressions are α-equivalent , if they can be α-converted into the same expression.
+
+β-equivalence and η-equivalence are defined similarly.
+
+The term redex , short for reducible expression , refers to subterms that can be reduced by one of the reduction rules.
+
+For example, (λ x.
+
+M ) N is a β-redex in expressing the substitution of N for x in M.
+
+The expression to which a redex reduces is called its reduct ; the reduct of (λ x.
+
+M ) N is M [ x := N ].
+
+[b] If x is not free in M , λ x.
+
+M x is also an η-redex, with a reduct of M.
+
+α-conversion [ edit ] α-conversion ( alpha -conversion), sometimes known as α-renaming, [23] allows bound variable names to be changed.
+
+For example, α-conversion of λ x.
+
+x might yield λ y.
+
+y.
+
+Terms that differ only by α-conversion are called α-equivalent.
+
+Frequently, in uses of lambda calculus, α-equivalent terms are considered to be equivalent.
+
+The precise rules for α-conversion are not completely trivial.
+
+First, when α-converting an abstraction, the only variable occurrences that are renamed are those that are bound to the same abstraction.
+
+For example, an α-conversion of λ x.
+
+λ x.
+
+x could result in λ y.
+
+λ x.
+
+x , but it could not result in λ y.
+
+λ x.
+
+y.
+
+The latter has a different meaning from the original.
+
+This is analogous to the programming notion of variable shadowing.
+
+Second, α-conversion is not possible if it would result in a variable getting captured by a different abstraction.
+
+For example, if we replace x with y in λ x.
+
+λ y.
+
+x , we get λ y.
+
+λ y.
+
+y , which is not at all the same.
+
+In programming languages with static scope, α-conversion can be used to make name resolution simpler by ensuring that no variable name masks a name in a containing scope (see α-renaming to make name resolution trivial ).
+
+In the De Bruijn index notation, any two α-equivalent terms are syntactically identical.
+
+Substitution [ edit ] Substitution, written M [ x := N ], is the process of replacing all free occurrences of the variable x in the expression M with expression N.
+
+Substitution on terms of the lambda calculus is defined by recursion on the structure of terms, as follows (note: x and y are only variables while M and N are any lambda expression): x [ x := N ] = N y [ x := N ] = y , if x ≠ y ( M 1 M 2 )[ x := N ] = M 1 [ x := N ] M 2 [ x := N ] (λ x.
+
+M )[ x := N ] = λ x.
+
+M (λ y.
+
+M )[ x := N ] = λ y.
+
+( M [ x := N ]), if x ≠ y and y ∉ FV( N ) See above for the FV To substitute into an abstraction, it is sometimes necessary to α-convert the expression.
+
+For example, it is not correct for (λ x.
+
+y )[ y := x ] to result in λ x.
+
+x , because the substituted x was supposed to be free but ended up being bound.
+
+The correct substitution in this case is λ z.
+
+x , up to α-equivalence.
+
+Substitution is defined uniquely up to α-equivalence.
+
+See Capture-avoiding substitutions above β-reduction [ edit ] β-reduction ( beta reduction) captures the idea of function application.
+
+β-reduction is defined in terms of substitution: the β-reduction of (λ x.
+
+M ) N is M [ x := N ].
+
+[b] For example, assuming some encoding of 2, 7, ×, we have the following β-reduction: (λ n.
+
+n × 2) 7 → 7 × 2.
+
+β-reduction can be seen to be the same as the concept of local reducibility in natural deduction , via the Curry–Howard isomorphism.
+
+η-reduction [ edit ] η-reduction ( eta reduction) expresses the idea of extensionality , [24] which in this context is that two functions are the same if and only if they give the same result for all arguments.
+
+η-reduction converts between λ x.
+
+f x and f whenever x does not appear free in f.
+
+η-reduction can be seen to be the same as the concept of local completeness in natural deduction , via the Curry–Howard isomorphism.
+
+Normal forms and confluence [ edit ] Main article: Normalization property (abstract rewriting) For the untyped lambda calculus, β-reduction as a rewriting rule is neither strongly normalising nor weakly normalising.
+
+However, it can be shown that β-reduction is confluent when working up to α-conversion (i.
+
+e.
+
+we consider two normal forms to be equal if it is possible to α-convert one into the other).
+
+Therefore, both strongly normalising terms and weakly normalising terms have a unique normal form.
+
+For strongly normalising terms, any reduction strategy is guaranteed to yield the normal form, whereas for weakly normalising terms, some reduction strategies may fail to find it.
+
+Encoding datatypes [ edit ] Main articles: Church encoding and Mogensen–Scott encoding The basic lambda calculus may be used to model arithmetic , booleans, data structures, and recursion, as illustrated in the following sub-sections i , ii , iii , and § iv.
+
+Arithmetic in lambda calculus [ edit ] There are several possible ways to define the natural numbers in lambda calculus, but by far the most common are the Church numerals , which can be defined as follows: 0 := λ f.
+
+λ x.
+
+x 1 := λ f.
+
+λ x.
+
+f x 2 := λ f.
+
+λ x.
+
+f ( f x ) 3 := λ f.
+
+λ x.
+
+f ( f ( f x )) and so on.
+
+Or using the alternative syntax presented above in Notation : 0 := λ fx.
+
+x 1 := λ fx.
+
+f x 2 := λ fx.
+
+f ( f x ) 3 := λ fx.
+
+f ( f ( f x )) A Church numeral is a higher-order function —it takes a single-argument function f , and returns another single-argument function.
+
+The Church numeral n is a function that takes a function f as argument and returns the n -th composition of f , i.
+
+e.
+
+the function f composed with itself n times.
+
+This is denoted f ( n ) and is in fact the n -th power of f (considered as an operator); f (0) is defined to be the identity function.
+
+Such repeated compositions (of a single function f ) obey the laws of exponents , which is why these numerals can be used for arithmetic.
+
+(In Church's original lambda calculus, the formal parameter of a lambda expression was required to occur at least once in the function body, which made the above definition of 0 impossible.
+
+) One way of thinking about the Church numeral n , which is often useful when analysing programs, is as an instruction 'repeat n times'.
+
+For example, using the PAIR and NIL functions defined below, one can define a function that constructs a (linked) list of n elements all equal to x by repeating 'prepend another x element' n times, starting from an empty list.
+
+The lambda term is λ n.
+
+λ x.
+
+n (PAIR x ) NIL By varying what is being repeated, and varying what argument that function being repeated is applied to, a great many different effects can be achieved.
+
+We can define a successor function, which takes a Church numeral n and returns n + 1 by adding another application of f , where '(mf)x' means the function 'f' is applied 'm' times on 'x': SUCC := λ n.
+
+λ f.
+
+λ x.
+
+f ( n f x ) Because the m -th composition of f composed with the n -th composition of f gives the m + n -th composition of f , addition can be defined as follows: PLUS := λ m.
+
+λ n.
+
+λ f.
+
+λ x.
+
+m f ( n f x ) PLUS can be thought of as a function taking two natural numbers as arguments and returning a natural number; it can be verified that PLUS 2 3 and 5 are β-equivalent lambda expressions.
+
+Since adding m to a number n can be accomplished by adding 1 m times, an alternative definition is: PLUS := λ m.
+
+λ n.
+
+m SUCC n [25] Similarly, multiplication can be defined as MULT := λ m.
+
+λ n.
+
+λ f.
+
+m ( n f ) [21] Alternatively MULT := λ m.
+
+λ n.
+
+m (PLUS n ) 0 since multiplying m and n is the same as repeating the add n function m times and then applying it to zero.
+
+Exponentiation has a rather simple rendering in Church numerals, namely POW := λ b.
+
+λ e.
+
+e b [1] The predecessor function defined by PRED n = n − 1 for a positive integer n and PRED 0 = 0 is considerably more difficult.
+
+The formula PRED := λ n.
+
+λ f.
+
+λ x.
+
+n (λ g.
+
+λ h.
+
+h ( g f )) (λ u.
+
+x ) (λ u.
+
+u ) can be validated by showing inductively that if T denotes (λ g.
+
+λ h.
+
+h ( g f )) , then T ( n ) (λ u.
+
+x ) = (λ h.
+
+h ( f ( n −1) ( x ))) for n > 0.
+
+Two other definitions of PRED are given below, one using conditionals and the other using pairs.
+
+With the predecessor function, subtraction is straightforward.
+
+Defining SUB := λ m.
+
+λ n.
+
+n PRED m , SUB m n yields m − n when m > n and 0 otherwise.
+
+Logic and predicates [ edit ] By convention, the following two definitions (known as Church booleans) are used for the boolean values TRUE and FALSE : TRUE := λ x.
+
+λ y.
+
+x FALSE := λ x.
+
+λ y.
+
+y Then, with these two lambda terms, we can define some logic operators (these are just possible formulations; other expressions could be equally correct): AND := λ p.
+
+λ q.
+
+p q p OR := λ p.
+
+λ q.
+
+p p q NOT := λ p.
+
+p FALSE TRUE IFTHENELSE := λ p.
+
+λ a.
+
+λ b.
+
+p a b We are now able to compute some logic functions, for example: AND TRUE FALSE ≡ (λ p.
+
+λ q.
+
+p q p ) TRUE FALSE → β TRUE FALSE TRUE ≡ (λ x.
+
+λ y.
+
+x ) FALSE TRUE → β FALSE and we see that AND TRUE FALSE is equivalent to FALSE.
+
+A predicate is a function that returns a boolean value.
+
+The most fundamental predicate is ISZERO , which returns TRUE if its argument is the Church numeral 0 , but FALSE if its argument were any other Church numeral: ISZERO := λ n.
+
+n (λ x.
+
+FALSE) TRUE The following predicate tests whether the first argument is less-than-or-equal-to the second: LEQ := λ m.
+
+λ n.
+
+ISZERO (SUB m n ) , and since m = n , if LEQ m n and LEQ n m , it is straightforward to build a predicate for numerical equality.
+
+The availability of predicates and the above definition of TRUE and FALSE make it convenient to write "if-then-else" expressions in lambda calculus.
+
+For example, the predecessor function can be defined as: PRED := λ n.
+
+n (λ g.
+
+λ k.
+
+ISZERO ( g 1) k (PLUS ( g k ) 1)) (λ v.
+
+0) 0 which can be verified by showing inductively that n (λ g.
+
+λ k.
+
+ISZERO ( g 1) k (PLUS ( g k ) 1)) (λ v.
+
+0) is the add n − 1 function for n > 0.
+
+Pairs [ edit ] A pair (2-tuple) can be defined in terms of TRUE and FALSE , by using the Church encoding for pairs.
+
+For example, PAIR encapsulates the pair ( x , y ), FIRST returns the first element of the pair, and SECOND returns the second.
+
+PAIR := λ x.
+
+λ y.
+
+λ f.
+
+f x y FIRST := λ p.
+
+p TRUE SECOND := λ p.
+
+p FALSE NIL := λ x.
+
+TRUE NULL := λ p.
+
+p (λ x.
+
+λ y.
+
+FALSE) A linked list can be defined as either NIL for the empty list, or the PAIR of an element and a smaller list.
+
+The predicate NULL tests for the value NIL.
+
+(Alternatively, with NIL := FALSE , the construct l (λ h.
+
+λ t.
+
+λ z.
+
+deal_with_head_ h _and_tail_ t ) (deal_with_nil) obviates the need for an explicit NULL test).
+
+As an example of the use of pairs, the shift-and-increment function that maps ( m , n ) to ( n , n + 1) can be defined as Φ := λ x.
+
+PAIR (SECOND x ) (SUCC (SECOND x )) which allows us to give perhaps the most transparent version of the predecessor function: PRED := λ n.
+
+FIRST ( n Φ (PAIR 0 0)).
+
+Additional programming techniques [ edit ] There is a considerable body of programming idioms for lambda calculus.
+
+Many of these were originally developed in the context of using lambda calculus as a foundation for programming language semantics , effectively using lambda calculus as a low-level programming language.
+
+Because several programming languages include the lambda calculus (or something very similar) as a fragment, these techniques also see use in practical programming, but may then be perceived as obscure or foreign.
+
+Named constants [ edit ] In lambda calculus, a library would take the form of a collection of previously defined functions, which as lambda-terms are merely particular constants.
+
+The pure lambda calculus does not have a concept of named constants since all atomic lambda-terms are variables, but one can emulate having named constants by setting aside a variable as the name of the constant, using abstraction to bind that variable in the main body, and apply that abstraction to the intended definition.
+
+Thus to use f to mean N (some explicit lambda-term) in M (another lambda-term, the "main program"), one can say (λ f.
+
+M ) N Authors often introduce syntactic sugar , such as let , [k] to permit writing the above in the more intuitive order let f = N in M By chaining such definitions, one can write a lambda calculus "program" as zero or more function definitions, followed by one lambda-term using those functions that constitutes the main body of the program.
+
+A notable restriction of this let is that the name f be not defined in N , for N to be outside the scope of the abstraction binding f ; this means a recursive function definition cannot be used as the N with let.
+
+The letrec [l] construction would allow writing recursive function definitions.
+
+Recursion and fixed points [ edit ] Main article: Fixed-point combinator See also: SKI combinator calculus § Self-application and recursion Recursion is the definition of a function using the function itself.
+
+A definition containing itself inside itself, by value, leads to the whole value being of infinite size.
+
+Other notations which support recursion natively overcome this by referring to the function definition by name.
+
+Lambda calculus cannot express this: all functions are anonymous in lambda calculus, so we can't refer by name to a value which is yet to be defined, inside the lambda term defining that same value.
+
+However, a lambda expression can receive itself as its own argument, for example in (λ x.
+
+x x ) E.
+
+Here E should be an abstraction, applying its parameter to a value to express recursion.
+
+Consider the factorial function F( n ) recursively defined by F( n ) = 1, if n = 0; else n × F( n − 1).
+
+In the lambda expression which is to represent this function, a parameter (typically the first one) will be assumed to receive the lambda expression itself as its value, so that calling it – applying it to an argument – will amount to recursion.
+
+Thus to achieve recursion, the intended-as-self-referencing argument (called r here) must always be passed to itself within the function body, at a call point: G := λ r.
+
+λ n.
+
+(1, if n = 0; else n × ( r r ( n −1))) with r r x = F x = G r x to hold, so r = G and F := G G = (λ x.
+
+x x ) G The self-application achieves replication here, passing the function's lambda expression on to the next invocation as an argument value, making it available to be referenced and called there.
+
+This solves it but requires re-writing each recursive call as self-application.
+
+We would like to have a generic solution, without a need for any re-writes: G := λ r.
+
+λ n.
+
+(1, if n = 0; else n × ( r ( n −1))) with r x = F x = G r x to hold, so r = G r =: FIX G and F := FIX G where FIX g := ( r where r = g r ) = g (FIX g ) so that FIX G = G (FIX G) = (λ n.
+
+(1, if n = 0; else n × ((FIX G) ( n −1)))) Given a lambda term with first argument representing recursive call (e.
+
+g.
+
+G here), the fixed-point combinator FIX will return a self-replicating lambda expression representing the recursive function (here, F ).
+
+The function does not need to be explicitly passed to itself at any point, for the self-replication is arranged in advance, when it is created, to be done each time it is called.
+
+Thus the original lambda expression (FIX G) is re-created inside itself, at call-point, achieving self-reference.
+
+In fact, there are many possible definitions for this FIX operator, the simplest of them being: Y := λ g.
+
+(λ x.
+
+g ( x x )) (λ x.
+
+g ( x x )) In the lambda calculus, Y g is a fixed-point of g , as it expands to: Y g (λ h.
+
+(λ x.
+
+h ( x x )) (λ x.
+
+h ( x x ))) g (λ x.
+
+g ( x x )) (λ x.
+
+g ( x x )) g ((λ x.
+
+g ( x x )) (λ x.
+
+g ( x x ))) g ( Y g ) Now, to perform our recursive call to the factorial function, we would simply call ( Y G) n , where n is the number we are calculating the factorial of.
+
+Given n = 4, for example, this gives: ( Y G) 4 G ( Y G) 4 (λ r.
+
+λ n.
+
+(1, if n = 0; else n × ( r ( n −1)))) ( Y G) 4 (λ n.
+
+(1, if n = 0; else n × (( Y G) ( n −1)))) 4 1, if 4 = 0; else 4 × (( Y G) (4−1)) 4 × (G ( Y G) (4−1)) 4 × ((λ n.
+
+(1, if n = 0; else n × (( Y G) ( n −1)))) (4−1)) 4 × (1, if 3 = 0; else 3 × (( Y G) (3−1))) 4 × (3 × (G ( Y G) (3−1))) 4 × (3 × ((λ n.
+
+(1, if n = 0; else n × (( Y G) ( n −1)))) (3−1))) 4 × (3 × (1, if 2 = 0; else 2 × (( Y G) (2−1)))) 4 × (3 × (2 × (G ( Y G) (2−1)))) 4 × (3 × (2 × ((λ n.
+
+(1, if n = 0; else n × (( Y G) ( n −1)))) (2−1)))) 4 × (3 × (2 × (1, if 1 = 0; else 1 × (( Y G) (1−1))))) 4 × (3 × (2 × (1 × (G ( Y G) (1−1))))) 4 × (3 × (2 × (1 × ((λ n.
+
+(1, if n = 0; else n × (( Y G) ( n −1)))) (1−1))))) 4 × (3 × (2 × (1 × (1, if 0 = 0; else 0 × (( Y G) (0−1)))))) 4 × (3 × (2 × (1 × (1)))) 24 Every recursively defined function can be seen as a fixed point of some suitably defined function closing over the recursive call with an extra argument, and therefore, using Y , every recursively defined function can be expressed as a lambda expression.
+
+In particular, we can now cleanly define the subtraction, multiplication and comparison predicate of natural numbers recursively.
+
+Standard terms [ edit ] Certain terms have commonly accepted names: [27] [28] [29] I := λ x.
+
+x S := λ x.
+
+λ y.
+
+λ z.
+
+x z ( y z ) K := λ x.
+
+λ y.
+
+x B := λ x.
+
+λ y.
+
+λ z.
+
+x ( y z ) C := λ x.
+
+λ y.
+
+λ z.
+
+x z y W := λ x.
+
+λ y.
+
+x y y ω or Δ or U := λ x.
+
+x x Ω := ω ω I is the identity function.
+
+SK and BCKW form complete combinator calculus systems that can express any lambda term - see the next section.
+
+Ω is UU , the smallest term that has no normal form.
+
+YI is another such term.
+
+Y is standard and defined above , and can also be defined as Y = BU(CBU) , so that Y g=g( Y g).
+
+TRUE and FALSE defined above are commonly abbreviated as T and F.
+
+Abstraction elimination [ edit ] Main article: Combinatory logic § Completeness of the S-K basis If N is a lambda-term without abstraction, but possibly containing named constants ( combinators ), then there exists a lambda-term T ( x , N ) which is equivalent to λ x.
+
+N but lacks abstraction (except as part of the named constants, if these are considered non-atomic).
+
+This can also be viewed as anonymising variables, as T ( x , N ) removes all occurrences of x from N , while still allowing argument values to be substituted into the positions where N contains an x.
+
+The conversion function T can be defined by: T ( x , x ) := I T ( x , N ) := K N if x is not free in N.
+
+T ( x , M N ) := S T ( x , M ) T ( x , N ) In either case, a term of the form T ( x , N ) P can reduce by having the initial combinator I , K , or S grab the argument P , just like β-reduction of (λ x.
+
+N ) P would do.
+
+I returns that argument.
+
+K throws the argument away, just like (λ x.
+
+N ) would do if x has no free occurrence in N.
+
+S passes the argument on to both subterms of the application, and then applies the result of the first to the result of the second.
+
+The combinators B and C are similar to S , but pass the argument on to only one subterm of an application ( B to the "argument" subterm and C to the "function" subterm), thus saving a subsequent K if there is no occurrence of x in one subterm.
+
+In comparison to B and C , the S combinator actually conflates two functionalities: rearranging arguments, and duplicating an argument so that it may be used in two places.
+
+The W combinator does only the latter, yielding the B, C, K, W system as an alternative to SKI combinator calculus.
+
+Typed lambda calculus [ edit ] Main article: Typed lambda calculus A typed lambda calculus is a typed formalism that uses the lambda-symbol ( λ {\displaystyle \lambda } ) to denote anonymous function abstraction.
+
+In this context, types are usually objects of a syntactic nature that are assigned to lambda terms; the exact nature of a type depends on the calculus considered (see Kinds of typed lambda calculi ).
+
+From a certain point of view, typed lambda calculi can be seen as refinements of the untyped lambda calculus but from another point of view, they can also be considered the more fundamental theory and untyped lambda calculus a special case with only one type.
+
+[30] Typed lambda calculi are foundational programming languages and are the base of typed functional programming languages such as ML and Haskell and, more indirectly, typed imperative programming languages.
+
+Typed lambda calculi play an important role in the design of type systems for programming languages; here typability usually captures desirable properties of the program, e.
+
+g.
+
+the program will not cause a memory access violation.
+
+Typed lambda calculi are closely related to mathematical logic and proof theory via the Curry–Howard isomorphism and they can be considered as the internal language of classes of categories , e.
+
+g.
+
+the simply typed lambda calculus is the language of Cartesian closed categories (CCCs).
+
+Reduction strategies [ edit ] Main article: Reduction strategy § Lambda calculus Whether a term is normalising or not, and how much work needs to be done in normalising it if it is, depends to a large extent on the reduction strategy used.
+
+Common lambda calculus reduction strategies include: [31] [32] [33] Normal order The leftmost outermost redex is reduced first.
+
+That is, whenever possible, arguments are substituted into the body of an abstraction before the arguments are reduced.
+
+If a term has a beta-normal form, normal order reduction will always reach that normal form.
+
+Applicative order The leftmost innermost redex is reduced first.
+
+As a consequence, a function's arguments are always reduced before they are substituted into the function.
+
+Unlike normal order reduction, applicative order reduction may fail to find the beta-normal form of an expression, even if such a normal form exists.
+
+For example, the term ( λ x.
+
+y ( λ z.
+
+( z z ) λ z.
+
+( z z ) ) ) {\displaystyle (\;\lambda x.
+
+y\;\;(\lambda z.
+
+(zz)\;\lambda z.
+
+(zz))\;)} is reduced to itself by applicative order, while normal order reduces it to its beta-normal form y {\displaystyle y}.
+
+Full β-reductions Any redex can be reduced at any time.
+
+This means essentially the lack of any particular reduction strategy—with regard to reducibility, "all bets are off".
+
+Weak reduction strategies do not reduce under lambda abstractions: Call by value Like applicative order, but no reductions are performed inside abstractions.
+
+This is similar to the evaluation order of strict languages like C: the arguments to a function are evaluated before calling the function, and function bodies are not even partially evaluated until the arguments are substituted in.
+
+Call by name Like normal order, but no reductions are performed inside abstractions.
+
+For example, λ x.
+
+(λ y.
+
+y ) x is in normal form according to this strategy, although it contains the redex (λ y.
+
+y ) x.
+
+Strategies with sharing reduce computations that are "the same" in parallel: Optimal reduction As normal order, but computations that have the same label are reduced simultaneously.
+
+Call by need As call by name (hence weak), but function applications that would duplicate terms instead name the argument.
+
+The argument may be evaluated "when needed," at which point the name binding is updated with the reduced value.
+
+This can save time compared to normal order evaluation.
+
+Computability [ edit ] There is no algorithm that takes as input any two lambda expressions and outputs TRUE or FALSE depending on whether one expression reduces to the other.
+
+[13] More precisely, no computable function can decide the question.
+
+This was historically the first problem for which undecidability could be proven.
+
+As usual for such a proof, computable means computable by any model of computation that is Turing complete.
+
+In fact computability can itself be defined via the lambda calculus: a function F : N → N of natural numbers is a computable function if and only if there exists a lambda expression f such that for every pair of x , y in N , F ( x )= y if and only if f x = β y , where x and y are the Church numerals corresponding to x and y , respectively and = β meaning equivalence with β-reduction.
+
+See the Church–Turing thesis for other approaches to defining computability and their equivalence.
+
+Church's proof of uncomputability first reduces the problem to determining whether a given lambda expression has a normal form.
+
+Then he assumes that this predicate is computable, and can hence be expressed in lambda calculus.
+
+Building on earlier work by Kleene and constructing a Gödel numbering for lambda expressions, he constructs a lambda expression e that closely follows the proof of Gödel's first incompleteness theorem.
+
+If e is applied to its own Gödel number, a contradiction results.
+
+Complexity [ edit ] The notion of computational complexity for the lambda calculus is a bit tricky, because the cost of a β-reduction may vary depending on how it is implemented.
+
+[34] To be precise, one must somehow find the location of all of the occurrences of the bound variable V in the expression E , implying a time cost, or one must keep track of the locations of free variables in some way, implying a space cost.
+
+A naïve search for the locations of V in E is O ( n ) in the length n of E.
+
+Director strings were an early approach that traded this time cost for a quadratic space usage.
+
+[35] More generally this has led to the study of systems that use explicit substitution.
+
+In 2014, it was shown that the number of β-reduction steps taken by normal order reduction to reduce a term is a reasonable time cost model, that is, the reduction can be simulated on a Turing machine in time polynomially proportional to the number of steps.
+
+[36] This was a long-standing open problem, due to size explosion , the existence of lambda terms which grow exponentially in size for each β-reduction.
+
+The result gets around this by working with a compact shared representation.
+
+The result makes clear that the amount of space needed to evaluate a lambda term is not proportional to the size of the term during reduction.
+
+It is not currently known what a good measure of space complexity would be.
+
+[37] An unreasonable model does not necessarily mean inefficient.
+
+Optimal reduction reduces all computations with the same label in one step, avoiding duplicated work, but the number of parallel β-reduction steps to reduce a given term to normal form is approximately linear in the size of the term.
+
+This is far too small to be a reasonable cost measure, as any Turing machine may be encoded in the lambda calculus in size linearly proportional to the size of the Turing machine.
+
+The true cost of reducing lambda terms is not due to β-reduction per se but rather the handling of the duplication of redexes during β-reduction.
+
+[38] It is not known if optimal reduction implementations are reasonable when measured with respect to a reasonable cost model such as the number of leftmost-outermost steps to normal form, but it has been shown for fragments of the lambda calculus that the optimal reduction algorithm is efficient and has at most a quadratic overhead compared to leftmost-outermost.
+
+[37] In addition the BOHM prototype implementation of optimal reduction outperformed both Caml Light and Haskell on pure lambda terms.
+
+[38] Lambda calculus and programming languages [ edit ] As pointed out by Peter Landin 's 1965 paper "A Correspondence between ALGOL 60 and Church's Lambda-notation", [39] sequential procedural programming languages can be understood in terms of the lambda calculus, which provides the basic mechanisms for procedural abstraction and procedure (subprogram) application.
+
+Anonymous functions [ edit ] Main article: Anonymous function For example, in Python the "square" function can be expressed as a lambda expression as follows: ( lambda x : x ** 2 ) The above example is an expression that evaluates to a first-class function.
+
+The symbol lambda creates an anonymous function, given a list of parameter names, x – just a single argument in this case, and an expression that is evaluated as the body of the function, x**2.
+
+Anonymous functions are sometimes called lambda expressions.
+
+For example, Pascal and many other imperative languages have long supported passing subprograms as arguments to other subprograms through the mechanism of function pointers.
+
+However, function pointers are not a sufficient condition for functions to be first class datatypes, because a function is a first class datatype if and only if new instances of the function can be created at run-time.
+
+And this run-time creation of functions is supported in Smalltalk , JavaScript and Wolfram Language , and more recently in Scala , Eiffel ("agents"), C# ("delegates") and C++11 , among others.
+
+Parallelism and concurrency [ edit ] The Church–Rosser property of the lambda calculus means that evaluation (β-reduction) can be carried out in any order , even in parallel.
+
+This means that various nondeterministic evaluation strategies are relevant.
+
+However, the lambda calculus does not offer any explicit constructs for parallelism.
+
+One can add constructs such as Futures to the lambda calculus.
+
+Other process calculi have been developed for describing communication and concurrency.
+
+Semantics [ edit ] The fact that lambda calculus terms act as functions on other lambda calculus terms, and even on themselves, led to questions about the semantics of the lambda calculus.
+
+Could a sensible meaning be assigned to lambda calculus terms? The natural semantics was to find a set D isomorphic to the function space D → D , of functions on itself.
+
+However, no nontrivial such D can exist, by cardinality constraints because the set of all functions from D to D has greater cardinality than D , unless D is a singleton set.
+
+In the 1970s, Dana Scott showed that if only continuous functions were considered, a set or domain D with the required property could be found, thus providing a model for the lambda calculus.
+
+[40] This work also formed the basis for the denotational semantics of programming languages.
+
+Variations and extensions [ edit ] These extensions are in the lambda cube : Typed lambda calculus – Lambda calculus with typed variables (and functions) System F – A typed lambda calculus with type-variables Calculus of constructions – A typed lambda calculus with types as first-class values These formal systems are extensions of lambda calculus that are not in the lambda cube: Binary lambda calculus – A version of lambda calculus with binary I/O, a binary encoding of terms, and a designated universal machine.
+
+Lambda-mu calculus – An extension of the lambda calculus for treating classical logic These formal systems are variations of lambda calculus: Kappa calculus – A first-order analogue of lambda calculus These formal systems are related to lambda calculus: Combinatory logic – A notation for mathematical logic without variables SKI combinator calculus – A computational system based on the S , K and I combinators, equivalent to lambda calculus, but reducible without variable substitutions See also [ edit ] Mathematics portal Applicative computing systems – Treatment of objects in the style of the lambda calculus Cartesian closed category – A setting for lambda calculus in category theory Categorical abstract machine – A model of computation applicable to lambda calculus Clojure , programming language Curry–Howard isomorphism – The formal correspondence between programs and proofs De Bruijn index – notation disambiguating alpha conversions De Bruijn notation – notation using postfix modification functions Domain theory – Study of certain posets giving denotational semantics for lambda calculus Evaluation strategy – Rules for the evaluation of expressions in programming languages Explicit substitution – The theory of substitution, as used in β-reduction Functional programming Harrop formula – A kind of constructive logical formula such that proofs are lambda terms Interaction nets Kleene–Rosser paradox – A demonstration that some form of lambda calculus is inconsistent Knights of the Lambda Calculus – A semi-fictional organization of LISP and Scheme hackers Krivine machine – An abstract machine to interpret call-by-name in lambda calculus Lambda calculus definition – Formal definition of the lambda calculus.
+
+Let expression – An expression closely related to an abstraction.
+
+Minimalism (computing) Rewriting – Transformation of formulæ in formal systems SECD machine – A virtual machine designed for the lambda calculus Scott–Curry theorem – A theorem about sets of lambda terms To Mock a Mockingbird – An introduction to combinatory logic Universal Turing machine – A formal computing machine that is equivalent to lambda calculus Unlambda – An esoteric functional programming language based on combinatory logic Further reading [ edit ] Abelson, Harold & Gerald Jay Sussman.
+
+Structure and Interpretation of Computer Programs.
+
+The MIT Press.
+
+ISBN 0-262-51087-1.
+
+Barendregt, Hendrik Pieter Introduction to Lambda Calculus.
+
+Barendregt, Hendrik Pieter, The Impact of the Lambda Calculus in Logic and Computer Science.
+
+The Bulletin of Symbolic Logic, Volume 3, Number 2, June 1997.
+
+Barendregt, Hendrik Pieter, The Type Free Lambda Calculus pp1091–1132 of Handbook of Mathematical Logic , North-Holland (1977) ISBN 0-7204-2285-X Cardone, Felice and Hindley, J.
+
+Roger, 2006.
+
+History of Lambda-calculus and Combinatory Logic Archived 2021-05-06 at the Wayback Machine.
+
+In Gabbay and Woods (eds.
+
+), Handbook of the History of Logic , vol.
+
+5.
+
+Elsevier.
+
+Church, Alonzo, An unsolvable problem of elementary number theory , American Journal of Mathematics , 58 (1936), pp.
+
+345–363.
+
+This paper contains the proof that the equivalence of lambda expressions is in general not decidable.
+
+Church, Alonzo (1941).
+
+The Calculi of Lambda-Conversion.
+
+Princeton: Princeton University Press.
+
+Retrieved 2020-04-14.
+
+( ISBN 978-0-691-08394-0 ) Frink Jr.
+
+, Orrin (1944).
+
+"Review: The Calculi of Lambda-Conversion by Alonzo Church" (PDF).
+
+Bull.
+
+Amer.
+
+Math.
+
+Soc.
+
+50 (3): 169–172.
+
+doi : 10.
+
+1090/s0002-9904-1944-08090-7.
+
+Kleene, Stephen, A theory of positive integers in formal logic , American Journal of Mathematics , 57 (1935), pp.
+
+153–173 and 219–244.
+
+Contains the lambda calculus definitions of several familiar functions.
+
+Landin, Peter , A Correspondence Between ALGOL 60 and Church's Lambda-Notation , Communications of the ACM , vol.
+
+8, no.
+
+2 (1965), pages 89–101.
+
+Available from the ACM site.
+
+A classic paper highlighting the importance of lambda calculus as a basis for programming languages.
+
+Larson, Jim, An Introduction to Lambda Calculus and Scheme.
+
+A gentle introduction for programmers.
+
+Michaelson, Greg (10 April 2013).
+
+An Introduction to Functional Programming Through Lambda Calculus.
+
+Courier Corporation.
+
+ISBN 978-0-486-28029-5.
+
+[41] Schalk, A.
+
+and Simmons, H.
+
+(2005) An introduction to λ-calculi and arithmetic with a decent selection of exercises.
+
+Notes for a course in the Mathematical Logic MSc at Manchester University.
+
+de Queiroz, Ruy J.
+
+G.
+
+B.
+
+(2008).
+
+"On Reduction Rules, Meaning-as-Use and Proof-Theoretic Semantics".
+
+Studia Logica.
+
+90 (2): 211–247.
+
+doi : 10.
+
+1007/s11225-008-9150-5.
+
+S2CID 11321602.
+
+A paper giving a formal underpinning to the idea of 'meaning-is-use' which, even if based on proofs, it is different from proof-theoretic semantics as in the Dummett–Prawitz tradition since it takes reduction as the rules giving meaning.
+
+Hankin, Chris, An Introduction to Lambda Calculi for Computer Scientists, ISBN 0954300653 Monographs/textbooks for graduate students Sørensen, Morten Heine and Urzyczyn, Paweł (2006), Lectures on the Curry–Howard isomorphism , Elsevier, ISBN 0-444-52077-5 is a recent monograph that covers the main topics of lambda calculus from the type-free variety, to most typed lambda calculi , including more recent developments like pure type systems and the lambda cube.
+
+It does not cover subtyping extensions.
+
+Pierce, Benjamin (2002), Types and Programming Languages , MIT Press, ISBN 0-262-16209-1 covers lambda calculi from a practical type system perspective; some topics like dependent types are only mentioned, but subtyping is an important topic.
+
+Documents A Short Introduction to the Lambda Calculus -( PDF ) by Achim Jung A timeline of lambda calculus -( PDF ) by Dana Scott A Tutorial Introduction to the Lambda Calculus -( PDF ) by Raúl Rojas Lecture Notes on the Lambda Calculus -( PDF ) by Peter Selinger Graphic lambda calculus by Marius Buliga Lambda Calculus as a Workflow Model by Peter Kelly, Paul Coddington, and Andrew Wendelborn; mentions graph reduction as a common means of evaluating lambda expressions and discusses the applicability of lambda calculus for distributed computing (due to the Church–Rosser property, which enables parallel graph reduction for lambda expressions).
+
+Notes [ edit ] ^ These rules produce expressions such as: ( λ x.
+
+λ y.
+
+( λ z.
+
+( λ x.
+
+z x ) ( λ y.
+
+z y ) ) ( x y ) ) {\displaystyle (\lambda x.
+
+\lambda y.
+
+(\lambda z.
+
+(\lambda x.
+
+z\ x)\ (\lambda y.
+
+z\ y))(x\ y))}.
+
+Parentheses can be dropped if the expression is unambiguous.
+
+For some applications, terms for logical and mathematical constants and operations may be included.
+
+^ a b c d Barendregt,Barendsen (2000) call this form axiom β : (λx.
+
+M[x]) N = M[N] , rewritten as (λx.
+
+M) N = M[x := N], "where M[x := N] denotes the substitution of N for every occurrence of x in M".
+
+[1] : 7 Also denoted M[N/x], "the substitution of N for x in M".
+
+[2] ^ For a full history, see Cardone and Hindley's "History of Lambda-calculus and Combinatory Logic" (2006).
+
+^ a b ↦ {\displaystyle \mapsto } is pronounced " maps to ".
+
+^ The expression e can be: variables x, lambda abstractions, or applications —in BNF, e ::= x ∣ λ x.
+
+e ∣ e e {\displaystyle e::=x\mid \lambda x.
+
+e\mid e\,e}.
+
+— from Wikipedia's Simply typed lambda calculus#Syntax for untyped lambda calculus ^ ( λ x.
+
+t ) {\displaystyle (\lambda x.
+
+t)} is sometimes written in ASCII as L x.
+
+t {\displaystyle Lx.
+
+t} ^ The lambda term ( λ x.
+
+t ) {\displaystyle (\lambda x.
+
+t)} represents the function x ↦ t {\displaystyle x\mapsto t} written in anonymous form.
+
+^ free variables in lambda Notation and its Calculus are comparable to linear algebra and mathematical concepts of the same name ^ The set of free variables of M, but with { x } removed ^ The union of the set of free variables of M {\displaystyle M} and the set of free variables of N {\displaystyle N} [1] ^ (λ f.
+
+M ) N can be pronounced "let f be N in M".
+
+^ Ariola and Blom [26] employ 1) axioms for a representational calculus using well-formed cyclic lambda graphs extended with letrec , to detect possibly infinite unwinding trees; 2) the representational calculus with β-reduction of scoped lambda graphs constitute Ariola/Blom's cyclic extension of lambda calculus; 3) Ariola/Blom reason about strict languages using § call-by-value , and compare to Moggi's calculus, and to Hasegawa's calculus.
+
+Conclusions on p.
+
+111.
+
+[26] References [ edit ] Some parts of this article are based on material from FOLDOC , used with permission.
+
+^ a b c Barendregt, Henk ; Barendsen, Erik (March 2000), Introduction to Lambda Calculus (PDF) ^ explicit substitution at the n Lab ^ Turing, Alan M.
+
+(December 1937).
+
+"Computability and λ-Definability".
+
+The Journal of Symbolic Logic.
+
+2 (4): 153–163.
+
+doi : 10.
+
+2307/2268280.
+
+JSTOR 2268280.
+
+S2CID 2317046.
+
+^ Coquand, Thierry (8 February 2006).
+
+Zalta, Edward N.
+
+(ed.
+
+).
+
+"Type Theory".
+
+The Stanford Encyclopedia of Philosophy (Summer 2013 ed.
+
+).
+
+Retrieved November 17, 2020.
+
+^ Moortgat, Michael (1988).
+
+Categorial Investigations: Logical and Linguistic Aspects of the Lambek Calculus.
+
+Foris Publications.
+
+ISBN 9789067653879.
+
+^ Bunt, Harry; Muskens, Reinhard, eds.
+
+(2008).
+
+Computing Meaning.
+
+Springer.
+
+ISBN 978-1-4020-5957-5.
+
+^ Mitchell, John C.
+
+(2003).
+
+Concepts in Programming Languages.
+
+Cambridge University Press.
+
+p.
+
+57.
+
+ISBN 978-0-521-78098-8.
+
+^ Chacón Sartori, Camilo (2023-12-05).
+
+Introduction to Lambda Calculus using Racket (Technical report).
+
+Archived from the original on 2023-12-07.
+
+^ Pierce, Benjamin C.
+
+Basic Category Theory for Computer Scientists.
+
+p.
+
+53.
+
+^ Church, Alonzo (1932).
+
+"A set of postulates for the foundation of logic".
+
+Annals of Mathematics.
+
+Series 2.
+
+33 (2): 346–366.
+
+doi : 10.
+
+2307/1968337.
+
+JSTOR 1968337.
+
+^ Kleene, Stephen C.
+
+; Rosser, J.
+
+B.
+
+(July 1935).
+
+"The Inconsistency of Certain Formal Logics".
+
+The Annals of Mathematics.
+
+36 (3): 630.
+
+doi : 10.
+
+2307/1968646.
+
+JSTOR 1968646.
+
+^ Church, Alonzo (December 1942).
+
+"Review of Haskell B.
+
+Curry, The Inconsistency of Certain Formal Logics ".
+
+The Journal of Symbolic Logic.
+
+7 (4): 170–171.
+
+doi : 10.
+
+2307/2268117.
+
+JSTOR 2268117.
+
+^ a b Church, Alonzo (1936).
+
+"An unsolvable problem of elementary number theory".
+
+American Journal of Mathematics.
+
+58 (2): 345–363.
+
+doi : 10.
+
+2307/2371045.
+
+JSTOR 2371045.
+
+^ Church, Alonzo (1940).
+
+"A Formulation of the Simple Theory of Types".
+
+Journal of Symbolic Logic.
+
+5 (2): 56–68.
+
+doi : 10.
+
+2307/2266170.
+
+JSTOR 2266170.
+
+S2CID 15889861.
+
+^ Partee, B.
+
+B.
+
+H.
+
+; ter Meulen, A.
+
+; Wall, R.
+
+E.
+
+(1990).
+
+Mathematical Methods in Linguistics.
+
+Springer.
+
+ISBN 9789027722454.
+
+Retrieved 29 Dec 2016.
+
+^ Alama, Jesse.
+
+Zalta, Edward N.
+
+(ed.
+
+).
+
+"The Lambda Calculus".
+
+The Stanford Encyclopedia of Philosophy (Summer 2013 ed.
+
+).
+
+Retrieved November 17, 2020.
+
+^ Dana Scott, " Looking Backward; Looking Forward ", Invited Talk at the Workshop in honour of Dana Scott’s 85th birthday and 50 years of domain theory, 7–8 July, FLoC 2018 (talk 7 July 2018).
+
+The relevant passage begins at 32:50.
+
+(See also this extract of a May 2016 talk at the University of Birmingham, UK.
+
+) ^ Barendregt, Hendrik Pieter (1984).
+
+The Lambda Calculus: Its Syntax and Semantics.
+
+Studies in Logic and the Foundations of Mathematics.
+
+Vol.
+
+103 (Revised ed.
+
+).
+
+North Holland.
+
+ISBN 0-444-87508-5.
+
+( Corrections ).
+
+^ a b "Example for Rules of Associativity".
+
+Lambda-bound.
+
+com.
+
+Retrieved 2012-06-18.
+
+^ "The Basic Grammar of Lambda Expressions".
+
+SoftOption.
+
+Some other systems use juxtaposition to mean application, so 'ab' means 'a@b'.
+
+This is fine except that it requires that variables have length one so that we know that 'ab' is two variables juxtaposed not one variable of length 2.
+
+But we want to labels like 'firstVariable' to mean a single variable, so we cannot use this juxtaposition convention.
+
+^ a b Selinger, Peter (2008), Lecture Notes on the Lambda Calculus (PDF) , vol.
+
+0804, Department of Mathematics and Statistics, University of Ottawa, p.
+
+9, arXiv : 0804.
+
+3434 , Bibcode : 2008arXiv0804.
+
+3434S ^ de Queiroz, Ruy J.
+
+G.
+
+B.
+
+(1988).
+
+"A Proof-Theoretic Account of Programming and the Role of Reduction Rules".
+
+Dialectica.
+
+42 (4): 265–282.
+
+doi : 10.
+
+1111/j.
+
+1746-8361.
+
+1988.
+
+tb00919.
+
+x.
+
+^ Turbak, Franklyn; Gifford, David (2008), Design concepts in programming languages , MIT press, p.
+
+251, ISBN 978-0-262-20175-9 ^ Luke Palmer (29 Dec 2010) Haskell-cafe: What's the motivation for η rules? ^ Felleisen, Matthias; Flatt, Matthew (2006), Programming Languages and Lambda Calculi (PDF) , p.
+
+26, archived from the original (PDF) on 2009-02-05 ; A note (accessed 2017) at the original location suggests that the authors consider the work originally referenced to have been superseded by a book.
+
+^ a b Zena M.
+
+Ariola and Stefan Blom, Proc.
+
+TACS '94 Sendai, Japan 1997 (1997) Cyclic lambda calculi 114 pages.
+
+^ Ker, Andrew D.
+
+"Lambda Calculus and Types" (PDF).
+
+p.
+
+6.
+
+Retrieved 14 January 2022.
+
+^ Dezani-Ciancaglini, Mariangiola; Ghilezan, Silvia (2014).
+
+"Preciseness of Subtyping on Intersection and Union Types" (PDF).
+
+Rewriting and Typed Lambda Calculi.
+
+Lecture Notes in Computer Science.
+
+Vol.
+
+8560.
+
+p.
+
+196.
+
+doi : 10.
+
+1007/978-3-319-08918-8_14.
+
+hdl : 2318/149874.
+
+ISBN 978-3-319-08917-1.
+
+Retrieved 14 January 2022.
+
+^ Forster, Yannick; Smolka, Gert (August 2019).
+
+"Call-by-Value Lambda Calculus as a Model of Computation in Coq" (PDF).
+
+Journal of Automated Reasoning.
+
+63 (2): 393–413.
+
+doi : 10.
+
+1007/s10817-018-9484-2.
+
+S2CID 53087112.
+
+Retrieved 14 January 2022.
+
+^ Types and Programming Languages, p.
+
+273, Benjamin C.
+
+Pierce ^ Pierce, Benjamin C.
+
+(2002).
+
+Types and Programming Languages.
+
+MIT Press.
+
+p.
+
+56.
+
+ISBN 0-262-16209-1.
+
+^ Sestoft, Peter (2002).
+
+"Demonstrating Lambda Calculus Reduction" (PDF).
+
+The Essence of Computation.
+
+Lecture Notes in Computer Science.
+
+Vol.
+
+2566.
+
+pp.
+
+420–435.
+
+doi : 10.
+
+1007/3-540-36377-7_19.
+
+ISBN 978-3-540-00326-7.
+
+Retrieved 22 August 2022.
+
+^ Biernacka, Małgorzata; Charatonik, Witold; Drab, Tomasz (2022).
+
+Andronick, June; de Moura, Leonardo (eds.
+
+).
+
+"The Zoo of Lambda-Calculus Reduction Strategies, and Coq" (PDF).
+
+13th International Conference on Interactive Theorem Proving (ITP 2022).
+
+237.
+
+Schloss Dagstuhl – Leibniz-Zentrum für Informatik: 7:1–7:19.
+
+doi : 10.
+
+4230/LIPIcs.
+
+ITP.
+
+2022.
+
+7.
+
+Retrieved 22 August 2022.
+
+^ Frandsen, Gudmund Skovbjerg; Sturtivant, Carl (26 August 1991).
+
+"What is an efficient implementation of the λ-calculus?".
+
+Functional Programming Languages and Computer Architecture: 5th ACM Conference.
+
+Cambridge, MA, USA, August 26-30, 1991.
+
+Proceedings.
+
+Lecture Notes in Computer Science.
+
+Vol.
+
+523.
+
+Springer-Verlag.
+
+pp.
+
+289–312.
+
+CiteSeerX 10.
+
+1.
+
+1.
+
+139.
+
+6913.
+
+doi : 10.
+
+1007/3540543961_14.
+
+ISBN 9783540543961.
+
+^ Sinot, F.
+
+-R.
+
+(2005).
+
+"Director Strings Revisited: A Generic Approach to the Efficient Representation of Free Variables in Higher-order Rewriting" (PDF).
+
+Journal of Logic and Computation.
+
+15 (2): 201–218.
+
+doi : 10.
+
+1093/logcom/exi010.
+
+^ Accattoli, Beniamino; Dal Lago, Ugo (14 July 2014).
+
+"Beta reduction is invariant, indeed".
+
+Proceedings of the Joint Meeting of the Twenty-Third EACSL Annual Conference on Computer Science Logic (CSL) and the Twenty-Ninth Annual ACM/IEEE Symposium on Logic in Computer Science (LICS).
+
+pp.
+
+1–10.
+
+arXiv : 1601.
+
+01233.
+
+doi : 10.
+
+1145/2603088.
+
+2603105.
+
+ISBN 9781450328869.
+
+S2CID 11485010.
+
+^ a b Accattoli, Beniamino (October 2018).
+
+"(In)Efficiency and Reasonable Cost Models".
+
+Electronic Notes in Theoretical Computer Science.
+
+338 : 23–43.
+
+doi : 10.
+
+1016/j.
+
+entcs.
+
+2018.
+
+10.
+
+003.
+
+^ a b Asperti, Andrea (16 Jan 2017).
+
+"About the efficient reduction of lambda terms".
+
+arXiv : 1701.
+
+04240v1 [ cs.
+
+LO ].
+
+^ Landin, P.
+
+J.
+
+(1965).
+
+"A Correspondence between ALGOL 60 and Church's Lambda-notation".
+
+Communications of the ACM.
+
+8 (2): 89–101.
+
+doi : 10.
+
+1145/363744.
+
+363749.
+
+S2CID 6505810.
+
+^ Scott, Dana (1993).
+
+"A type-theoretical alternative to ISWIM, CUCH, OWHY" (PDF).
+
+Theoretical Computer Science.
+
+121 (1–2): 411–440.
+
+doi : 10.
+
+1016/0304-3975(93)90095-B.
+
+Retrieved 2022-12-01.
+
+Written 1969, widely circulated as an unpublished manuscript.
+
+^ "Greg Michaelson's Homepage".
+
+Mathematical and Computer Sciences.
+
+Riccarton, Edinburgh: Heriot-Watt University.
+
+Retrieved 6 November 2022.
+
+External links [ edit ] Wikimedia Commons has media related to Lambda calculus.
+
+Graham Hutton, Lambda Calculus , a short (12 minutes) Computerphile video on the Lambda Calculus Helmut Brandl, Step by Step Introduction to Lambda Calculus "Lambda-calculus" , Encyclopedia of Mathematics , EMS Press , 2001 [1994] David C.
+
+Keenan, To Dissect a Mockingbird: A Graphical Notation for the Lambda Calculus with Animated Reduction L.
+
+Allison, Some executable λ-calculus examples Georg P.
+
+Loczewski, The Lambda Calculus and A++ Bret Victor, Alligator Eggs: A Puzzle Game Based on Lambda Calculus Lambda Calculus Archived 2012-10-14 at the Wayback Machine on Safalra's Website Archived 2021-05-02 at the Wayback Machine LCI Lambda Interpreter a simple yet powerful pure calculus interpreter Lambda Calculus links on Lambda-the-Ultimate Mike Thyer, Lambda Animator , a graphical Java applet demonstrating alternative reduction strategies.
+
+Implementing the Lambda calculus using C++ Templates Shane Steinert-Threlkeld, "Lambda Calculi" , Internet Encyclopedia of Philosophy Anton Salikhmetov, Macro Lambda Calculus v t e Alonzo Church Notable ideas Lambda calculus Simply typed lambda calculus Church–Turing thesis Church encoding Frege–Church ontology Church–Rosser theorem Students Alan Turing C.
+
+Anthony Anderson Peter Andrews George Alfred Barnard William Boone Martin Davis William Easton Alfred Foster Leon Henkin John George Kemeny Stephen Cole Kleene Simon B.
+
+Kochen Maurice L'Abbé Gary R.
+
+Mar Michael O.
+
+Rabin Nicholas Rescher Hartley Rogers, Jr J.
+
+Barkley Rosser Dana Scott Norman Shapiro Raymond Smullyan Institutions Princeton University University of California, Los Angeles Family Alonzo Church (college president) A.
+
+C.
+
+Croom v t e Mathematical logic General Axiom list Cardinality First-order logic Formal proof Formal semantics Foundations of mathematics Information theory Lemma Logical consequence Model Theorem Theory Type theory Theorems ( list ) and paradoxes Gödel's completeness and incompleteness theorems Tarski's undefinability Banach–Tarski paradox Cantor's theorem, paradox and diagonal argument Compactness Halting problem Lindström's Löwenheim–Skolem Russell's paradox Logics Traditional Classical logic Logical truth Tautology Proposition Inference Logical equivalence Consistency Equiconsistency Argument Soundness Validity Syllogism Square of opposition Venn diagram Propositional Boolean algebra Boolean functions Logical connectives Propositional calculus Propositional formula Truth tables Many-valued logic 3 finite ∞ Predicate First-order list Second-order Monadic Higher-order Fixed-point Free Quantifiers Predicate Monadic predicate calculus Set theory Set hereditary Class ( Ur- ) Element Ordinal number Extensionality Forcing Relation equivalence partition Set operations: intersection union complement Cartesian product power set identities Types of sets Countable Uncountable Empty Inhabited Singleton Finite Infinite Transitive Ultrafilter Recursive Fuzzy Universal Universe constructible Grothendieck Von Neumann Maps and cardinality Function / Map domain codomain image In / Sur / Bi -jection Schröder–Bernstein theorem Isomorphism Gödel numbering Enumeration Large cardinal inaccessible Aleph number Operation binary Set theories Zermelo–Fraenkel axiom of choice continuum hypothesis General Kripke–Platek Morse–Kelley Naive New Foundations Tarski–Grothendieck Von Neumann–Bernays–Gödel Ackermann Constructive Formal systems ( list ), language and syntax Alphabet Arity Automata Axiom schema Expression ground Extension by definition conservative Relation Formation rule Grammar Formula atomic closed ground open Free/bound variable Language Metalanguage Logical connective ¬ ∨ ∧ → ↔ = Predicate functional variable propositional variable Proof Quantifier ∃ ! ∀ rank Sentence atomic spectrum Signature String Substitution Symbol function logical/constant non-logical variable Term Theory list Example axiomatic systems ( list ) of arithmetic : Peano second-order elementary function primitive recursive Robinson Skolem of the real numbers Tarski's axiomatization of Boolean algebras canonical minimal axioms of geometry : Euclidean : Elements Hilbert's Tarski's non-Euclidean Principia Mathematica Proof theory Formal proof Natural deduction Logical consequence Rule of inference Sequent calculus Theorem Systems axiomatic deductive Hilbert list Complete theory Independence ( from ZFC ) Proof of impossibility Ordinal analysis Reverse mathematics Self-verifying theories Model theory Interpretation function of models Model equivalence finite saturated spectrum submodel Non-standard model of arithmetic Diagram elementary Categorical theory Model complete theory Satisfiability Semantics of logic Strength Theories of truth semantic Tarski's Kripke's T-schema Transfer principle Truth predicate Truth value Type Ultraproduct Validity Computability theory Church encoding Church–Turing thesis Computably enumerable Computable function Computable set Decision problem decidable undecidable P NP P versus NP problem Kolmogorov complexity Lambda calculus Primitive recursive function Recursion Recursive set Turing machine Type theory Related Abstract logic Algebraic logic Automated theorem proving Category theory Concrete / Abstract category Category of sets History of logic History of mathematical logic timeline Logicism Mathematical object Philosophy of mathematics Supertask Mathematics portal Authority control databases National France BnF data Germany Israel United States Latvia Other IdRef v t e Formal semantics (natural language) Central concepts Compositionality Denotation Entailment Extension Generalized quantifier Intension Logical form Presupposition Proposition Reference Scope Speech act Syntax–semantics interface Truth conditions Topics Areas Anaphora Ambiguity Binding Conditionals Definiteness Disjunction Evidentiality Focus Indexicality Lexical semantics Modality Negation Propositional attitudes Tense–aspect–mood Quantification Vagueness Phenomena Antecedent-contained deletion Cataphora Coercion Conservativity Counterfactuals Crossover effects Cumulativity De dicto and de re De se Deontic modality Discourse relations Donkey anaphora Epistemic modality Exhaustivity Faultless disagreement Free choice inferences Givenness Homogeneity (linguistics) Hurford disjunction Inalienable possession Intersective modification Logophoricity Mirativity Modal subordination Opaque contexts Performatives Polarity items Privative adjectives Quantificational variability effect Responsive predicate Rising declaratives Scalar implicature Sloppy identity Subsective modification Subtrigging Telicity Temperature paradox Veridicality Formalism Formal systems Alternative semantics Categorial grammar Combinatory categorial grammar Discourse representation theory (DRT) Dynamic semantics Generative grammar Glue semantics Inquisitive semantics Intensional logic Lambda calculus Mereology Montague grammar Segmented discourse representation theory (SDRT) Situation semantics Supervaluationism Type theory TTR Concepts Autonomy of syntax Context set Continuation Conversational scoreboard Existential closure Function application Meaning postulate Monads Plural quantification Possible world Quantifier raising Quantization Question under discussion Semantic parsing Squiggle operator Strict conditional Type shifter Universal grinder See also Cognitive semantics Computational semantics Distributional semantics Formal grammar Inferentialism Logic translation Linguistics wars Philosophy of language Pragmatics Semantics of logic Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Lambda_calculus&oldid=1233826292 " Categories : Lambda calculus 1936 in computing Computability theory Formal methods Models of computation Theoretical computer science Hidden categories: Articles with short description Short description is different from Wikidata Webarchive template wayback links Commons category link from Wikidata Articles with BNF identifiers Articles with BNFdata identifiers Articles with GND identifiers Articles with J9U identifiers Articles with LCCN identifiers Articles with LNB identifiers Articles with SUDOC identifiers Articles with example Lisp (programming language) code This page was last edited on 11 July 2024, at 02:49 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

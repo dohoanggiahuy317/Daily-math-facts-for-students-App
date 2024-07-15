@@ -1,0 +1,93 @@
+Microcontinuity - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 History 2 Continuity and uniform continuity 3 Example 1 4 Example 2 5 Uniform convergence 6 See also 7 Bibliography 8 References Toggle the table of contents Microcontinuity Add languages Add links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Mathematical term In nonstandard analysis , a discipline within classical mathematics , microcontinuity (or S -continuity) of an internal function f at a point a is defined as follows: for all x infinitely close to a , the value f ( x ) is infinitely close to f ( a ).
+
+Here x runs through the domain of f.
+
+In formulas, this can be expressed as follows: if x ≈ a {\displaystyle x\approx a} then f ( x ) ≈ f ( a ) {\displaystyle f(x)\approx f(a)}.
+
+For a function f defined on R {\displaystyle \mathbb {R} } , the definition can be expressed in terms of the halo as follows: f is microcontinuous at c ∈ R {\displaystyle c\in \mathbb {R} } if and only if f ( h a l ( c ) ) ⊆ h a l ( f ( c ) ) {\displaystyle f(hal(c))\subseteq hal(f(c))} , where the natural extension of f to the hyperreals is still denoted f.
+
+Alternatively, the property of microcontinuity at c can be expressed by stating that the composition st ∘ f {\displaystyle {\text{st}}\circ f} is constant on the halo of c , where "st" is the standard part function.
+
+History [ edit ] The modern property of continuity of a function was first defined by Bolzano in 1817.
+
+However, Bolzano's work was not noticed by the larger mathematical community until its rediscovery in Heine in the 1860s.
+
+Meanwhile, Cauchy 's textbook Cours d'Analyse defined continuity in 1821 using infinitesimals as above.
+
+[1] Continuity and uniform continuity [ edit ] The property of microcontinuity is typically applied to the natural extension f* of a real function f.
+
+Thus, f defined on a real interval I is continuous if and only if f* is microcontinuous at every point of I.
+
+Meanwhile, f is uniformly continuous on I if and only if f* is microcontinuous at every point (standard and nonstandard) of the natural extension I* of its domain I (see Davis, 1977, p.
+
+96).
+
+Example 1 [ edit ] The real function f ( x ) = 1 x {\displaystyle f(x)={\tfrac {1}{x}}} on the open interval (0,1) is not uniformly continuous because the natural extension f* of f fails to be microcontinuous at an infinitesimal a > 0 {\displaystyle a>0}.
+
+Indeed, for such an a , the values a and 2a are infinitely close, but the values of f* , namely 1 a {\displaystyle {\tfrac {1}{a}}} and 1 2 a {\displaystyle {\tfrac {1}{2a}}} are not infinitely close.
+
+Example 2 [ edit ] The function f ( x ) = x 2 {\displaystyle f(x)=x^{2}} on R {\displaystyle \mathbb {R} } is not uniformly continuous because f* fails to be microcontinuous at an infinite point H ∈ R ∗ {\displaystyle H\in \mathbb {R} ^{*}}.
+
+Namely, setting e = 1 H {\displaystyle e={\tfrac {1}{H}}} and K = H + e , one easily sees that H and K are infinitely close but f *( H ) and f *( K ) are not infinitely close.
+
+Uniform convergence [ edit ] Uniform convergence similarly admits a simplified definition in a hyperreal setting.
+
+Thus, a sequence f n {\displaystyle f_{n}} converges to f uniformly if for all x in the domain of f* and all infinite n , f n ∗ ( x ) {\displaystyle f_{n}^{*}(x)} is infinitely close to f ∗ ( x ) {\displaystyle f^{*}(x)}.
+
+See also [ edit ] Standard part function Bibliography [ edit ] Martin Davis (1977) Applied nonstandard analysis.
+
+Pure and Applied Mathematics.
+
+Wiley-Interscience [John Wiley & Sons], New York-London-Sydney.
+
+xii+181 pp.
+
+ISBN 0-471-19897-8 Gordon, E.
+
+I.
+
+; Kusraev, A.
+
+G.
+
+; Kutateladze , S.
+
+S.
+
+: Infinitesimal analysis.
+
+Updated and revised translation of the 2001 Russian original.
+
+Translated by Kutateladze.
+
+Mathematics and its Applications, 544.
+
+Kluwer Academic Publishers, Dordrecht, 2002.
+
+References [ edit ] ^ Borovik, Alexandre ; Katz, Mikhail G.
+
+(2011), "Who gave you the Cauchy--Weierstrass tale? The dual history of rigorous calculus", Foundations of Science , arXiv : 1108.
+
+2885 , doi : 10.
+
+1007/s10699-011-9235-x.
+
+v t e Infinitesimals History Adequality Leibniz's notation Integral symbol Criticism of nonstandard analysis The Analyst The Method of Mechanical Theorems Cavalieri's principle Related branches Nonstandard analysis Nonstandard calculus Internal set theory Synthetic differential geometry Smooth infinitesimal analysis Constructive nonstandard analysis Infinitesimal strain theory (physics) Formalizations Differentials Hyperreal numbers Dual numbers Surreal numbers Individual concepts Standard part function Transfer principle Hyperinteger Increment theorem Monad Internal set Levi-Civita field Hyperfinite set Law of continuity Overspill Microcontinuity Transcendental law of homogeneity Mathematicians Gottfried Wilhelm Leibniz Abraham Robinson Pierre de Fermat Augustin-Louis Cauchy Leonhard Euler Textbooks Analyse des Infiniment Petits Elementary Calculus Cours d'Analyse Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Microcontinuity&oldid=1075003805 " Category : Nonstandard analysis Hidden categories: Articles with short description Short description matches Wikidata This page was last edited on 3 March 2022, at 10:34 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

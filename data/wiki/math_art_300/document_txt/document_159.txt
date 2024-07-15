@@ -1,0 +1,795 @@
+Law of excluded middle - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 History Toggle History subsection 1.
+
+1 Aristotle 1.
+
+2 Leibniz 1.
+
+3 Bertrand Russell and Principia Mathematica 1.
+
+3.
+
+1 Consequences of the law of excluded middle in Principia Mathematica 1.
+
+4 Reichenbach 1.
+
+5 Formalists versus Intuitionists 1.
+
+6 Intuitionist definitions of the law (principle) of excluded middle 2 Examples Toggle Examples subsection 2.
+
+1 Non-constructive proofs over the infinite 3 Criticisms Toggle Criticisms subsection 3.
+
+1 In mathematical logic 4 Analogous laws Toggle Analogous laws subsection 4.
+
+1 Law of the weak excluded middle 5 See also 6 Footnotes 7 References 8 External links Toggle the table of contents Law of excluded middle 37 languages العربية Български Català Čeština Dansk Deutsch Eesti Ελληνικά Español Esperanto Euskara فارسی Français 한국어 Հայերեն Íslenska Italiano עברית Қазақша Кыргызча Magyar Nederlands 日本語 Norsk bokmål Oʻzbekcha / ўзбекча Piemontèis Polski Português Русский Simple English کوردی Suomi Svenska Türkçe Українська 粵語 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Logic theorem Not to be confused with fallacy of the excluded middle.
+
+This article uses forms of logical notation.
+
+For a concise description of the symbols used in this notation, see List of logic symbols.
+
+In logic , the law of excluded middle or the principle of excluded middle states that for every proposition , either this proposition or its negation is true.
+
+[1] [2] It is one of the three laws of thought , along with the law of noncontradiction , and the law of identity ; however, no system of logic is built on just these laws, and none of these laws provides inference rules , such as modus ponens or De Morgan's laws.
+
+The law is also known as the law / principle of the excluded third , in Latin principium tertii exclusi.
+
+Another Latin designation for this law is tertium non datur or "no third [possibility] is given".
+
+In classical logic , the law is a tautology.
+
+The principle should not be confused with the semantical principle of bivalence , which states that every proposition is either true or false.
+
+The principle of bivalence always implies the law of excluded middle, while the converse is not always true.
+
+A commonly cited counterexample uses statements unprovable now, but provable in the future to show that the law of excluded middle may apply when the principle of bivalence fails.
+
+[3] History [ edit ] Aristotle [ edit ] The earliest known formulation is in Aristotle's discussion of the principle of non-contradiction , first proposed in On Interpretation , [4] where he says that of two contradictory propositions (i.
+
+e.
+
+where one proposition is the negation of the other) one must be true, and the other false.
+
+[5] He also states it as a principle in the Metaphysics book 3, saying that it is necessary in every case to affirm or deny, [6] and that it is impossible that there should be anything between the two parts of a contradiction.
+
+[7] Aristotle wrote that ambiguity can arise from the use of ambiguous names, but cannot exist in the facts themselves: It is impossible, then, that "being a man" should mean precisely "not being a man", if "man" not only signifies something about one subject but also has one significance.
+
+… And it will not be possible to be and not to be the same thing, except in virtue of an ambiguity, just as if one whom we call "man", and others were to call "not-man"; but the point in question is not this, whether the same thing can at the same time be and not be a man in name, but whether it can be in fact.
+
+( Metaphysics 4.
+
+4, W.
+
+D.
+
+Ross (trans.
+
+), GBWW 8, 525–526).
+
+Aristotle's assertion that "it will not be possible to be and not to be the same thing" would be written in propositional logic as ~( P ∧ ~ P ).
+
+In modern so called classical logic, this statement is equivalent to the law of excluded middle ( P ∨ ~ P ), through distribution of the negation in Aristotle's assertion.
+
+The former claims that no statement is both true and false, while the latter requires that any statement is either true or false.
+
+But Aristotle also writes, "since it is impossible that contradictories should be at the same time true of the same thing, obviously contraries also cannot belong at the same time to the same thing" (Book IV, CH 6, p.
+
+531).
+
+He then proposes that "there cannot be an intermediate between contradictories, but of one subject we must either affirm or deny any one predicate" (Book IV, CH 7, p.
+
+531).
+
+In the context of Aristotle's traditional logic , this is a remarkably precise statement of the law of excluded middle, P ∨ ~ P.
+
+Also in On Interpretation , Aristotle seems to deny the law of excluded middle in the case of future contingents , in his discussion on the sea battle.
+
+Leibniz [ edit ] Its usual form, "Every judgment is either true or false" [footnote 9] …"(from Kolmogorov in van Heijenoort, p.
+
+421) footnote 9: "This is Leibniz 's very simple formulation (see Nouveaux Essais , IV,2)" (ibid p 421) Bertrand Russell and Principia Mathematica [ edit ] The principle was stated as a theorem of propositional logic by Russell and Whitehead in Principia Mathematica as: ∗ 2 ⋅ 11.
+
+⊢.
+
+p ∨ ∼ p {\displaystyle \mathbf {*2\cdot 11}.
+
+\ \ \vdash.
+
+\ p\ \vee \thicksim p}.
+
+[8] So just what is "truth" and "falsehood"? At the opening PM quickly announces some definitions: Truth-values.
+
+The "truth-value" of a proposition is truth if it is true and falsehood if it is false* [*This phrase is due to Frege] … the truth-value of "p ∨ q" is truth if the truth-value of either p or q is truth, and is falsehood otherwise … that of "~ p" is the opposite of that of p …" (pp.
+
+7–8) This is not much help.
+
+But later, in a much deeper discussion ("Definition and systematic ambiguity of Truth and Falsehood" Chapter II part III, p.
+
+41 ff), PM defines truth and falsehood in terms of a relationship between the "a" and the "b" and the "percipient".
+
+For example "This 'a' is 'b ' " (e.
+
+g.
+
+"This 'object a' is 'red ' ") really means " 'object a' is a sense-datum" and " 'red' is a sense-datum", and they "stand in relation" to one another and in relation to "I".
+
+Thus what we really mean is: "I perceive that 'This object a is red ' " and this is an undeniable-by-3rd-party "truth".
+
+PM further defines a distinction between a "sense-datum" and a "sensation": That is, when we judge (say) "this is red", what occurs is a relation of three terms, the mind, and "this", and "red".
+
+On the other hand, when we perceive "the redness of this", there is a relation of two terms, namely the mind and the complex object "the redness of this" (pp.
+
+43–44).
+
+Russell reiterated his distinction between "sense-datum" and "sensation" in his book The Problems of Philosophy (1912), published at the same time as PM (1910–1913): Let us give the name of "sense-data" to the things that are immediately known in sensation: such things as colours, sounds, smells, hardnesses, roughnesses, and so on.
+
+We shall give the name "sensation" to the experience of being immediately aware of these things … The colour itself is a sense-datum, not a sensation.
+
+(p.
+
+12) Russell further described his reasoning behind his definitions of "truth" and "falsehood" in the same book (Chapter XII, Truth and Falsehood ).
+
+Consequences of the law of excluded middle in Principia Mathematica [ edit ] From the law of excluded middle, formula ✸2.
+
+1 in Principia Mathematica , Whitehead and Russell derive some of the most powerful tools in the logician's argumentation toolkit.
+
+(In Principia Mathematica, formulas and propositions are identified by a leading asterisk and two numbers, such as "✸2.
+
+1".
+
+) ✸2.
+
+1 ~ p ∨ p "This is the Law of excluded middle" ( PM , p.
+
+101).
+
+The proof of ✸2.
+
+1 is roughly as follows: "primitive idea" 1.
+
+08 defines p → q = ~ p ∨ q.
+
+Substituting p for q in this rule yields p → p = ~ p ∨ p.
+
+Since p → p is true (this is Theorem 2.
+
+08, which is proved separately), then ~ p ∨ p must be true.
+
+✸2.
+
+11 p ∨ ~ p (Permutation of the assertions is allowed by axiom 1.
+
+4) ✸2.
+
+12 p → ~(~ p ) (Principle of double negation, part 1: if "this rose is red" is true then it's not true that " 'this rose is not-red' is true".
+
+) ✸2.
+
+13 p ∨ ~{~(~ p )} (Lemma together with 2.
+
+12 used to derive 2.
+
+14) ✸2.
+
+14 ~(~ p ) → p (Principle of double negation, part 2) ✸2.
+
+15 (~ p → q ) → (~ q → p ) (One of the four "Principles of transposition".
+
+Similar to 1.
+
+03, 1.
+
+16 and 1.
+
+17.
+
+A very long demonstration was required here.
+
+) ✸2.
+
+16 ( p → q ) → (~ q → ~ p ) (If it's true that "If this rose is red then this pig flies" then it's true that "If this pig doesn't fly then this rose isn't red.
+
+") ✸2.
+
+17 ( ~ p → ~ q ) → ( q → p ) (Another of the "Principles of transposition".
+
+) ✸2.
+
+18 (~ p → p ) → p (Called "The complement of reductio ad absurdum.
+
+It states that a proposition which follows from the hypothesis of its own falsehood is true" ( PM , pp.
+
+103–104).
+
+) Most of these theorems—in particular ✸2.
+
+1, ✸2.
+
+11, and ✸2.
+
+14—are rejected by intuitionism.
+
+These tools are recast into another form that Kolmogorov cites as "Hilbert's four axioms of implication" and "Hilbert's two axioms of negation" (Kolmogorov in van Heijenoort, p.
+
+335).
+
+Propositions ✸2.
+
+12 and ✸2.
+
+14, "double negation": The intuitionist writings of L.
+
+E.
+
+J.
+
+Brouwer refer to what he calls "the principle of the reciprocity of the multiple species , that is, the principle that for every system the correctness of a property follows from the impossibility of the impossibility of this property" (Brouwer, ibid, p.
+
+335).
+
+This principle is commonly called "the principle of double negation" ( PM , pp.
+
+101–102).
+
+From the law of excluded middle (✸2.
+
+1 and ✸2.
+
+11), PM derives principle ✸2.
+
+12 immediately.
+
+We substitute ~ p for p in 2.
+
+11 to yield ~ p ∨ ~(~ p ), and by the definition of implication (i.
+
+e.
+
+1.
+
+01 p → q = ~p ∨ q) then ~p ∨ ~(~p)= p → ~(~p).
+
+QED (The derivation of 2.
+
+14 is a bit more involved.
+
+) Reichenbach [ edit ] It is correct, at least for bivalent logic—i.
+
+e.
+
+it can be seen with a Karnaugh map —that this law removes "the middle" of the inclusive-or used in his law (3).
+
+And this is the point of Reichenbach's demonstration that some believe the exclusive -or should take the place of the inclusive -or.
+
+About this issue (in admittedly very technical terms) Reichenbach observes: The tertium non datur 29.
+
+( x )[ f ( x ) ∨ ~ f ( x )] is not exhaustive in its major terms and is therefore an inflated formula.
+
+This fact may perhaps explain why some people consider it unreasonable to write (29) with the inclusive-'or', and want to have it written with the sign of the exclusive -'or' 30.
+
+( x )[ f ( x ) ⊕ ~ f ( x )], where the symbol "⊕" signifies exclusive-or [9] in which form it would be fully exhaustive and therefore nomological in the narrower sense.
+
+(Reichenbach, p.
+
+376) In line (30) the "(x)" means "for all" or "for every", a form used by Russell and Reichenbach; today the symbolism is usually ∀ {\displaystyle \forall } x.
+
+Thus an example of the expression would look like this: ( pig ): ( Flies ( pig ) ⊕ ~ Flies ( pig )) (For all instances of "pig" seen and unseen): ("Pig does fly" or "Pig does not fly" but not both simultaneously) Formalists versus Intuitionists [ edit ] From the late 1800s through the 1930s, a bitter, persistent debate raged between Hilbert and his followers versus Hermann Weyl and L.
+
+E.
+
+J.
+
+Brouwer.
+
+Brouwer's philosophy, called intuitionism , started in earnest with Leopold Kronecker in the late 1800s.
+
+Hilbert intensely disliked Kronecker's ideas: Kronecker insisted that there could be no existence without construction.
+
+For him, as for Paul Gordan [another elderly mathematician], Hilbert's proof of the finiteness of the basis of the invariant system was simply not mathematics.
+
+Hilbert, on the other hand, throughout his life was to insist that if one can prove that the attributes assigned to a concept will never lead to a contradiction, the mathematical existence of the concept is thereby established (Reid p.
+
+34) It was his [Kronecker's] contention that nothing could be said to have mathematical existence unless it could actually be constructed with a finite number of positive integers (Reid p.
+
+26) The debate had a profound effect on Hilbert.
+
+Reid indicates that Hilbert's second problem (one of Hilbert's problems from the Second International Conference in Paris in 1900) evolved from this debate (italics in the original): In his second problem, [Hilbert] had asked for a mathematical proof of the consistency of the axioms of the arithmetic of real numbers.
+
+To show the significance of this problem, he added the following observation: "If contradictory attributes be assigned to a concept, I say that mathematically the concept does not exist " (Reid p.
+
+71) Thus, Hilbert was saying: "If p and ~ p are both shown to be true, then p does not exist", and was thereby invoking the law of excluded middle cast into the form of the law of contradiction.
+
+And finally constructivists … restricted mathematics to the study of concrete operations on finite or potentially (but not actually) infinite structures; completed infinite totalities … were rejected, as were indirect proof based on the Law of Excluded Middle.
+
+Most radical among the constructivists were the intuitionists, led by the erstwhile topologist L.
+
+E.
+
+J.
+
+Brouwer (Dawson p.
+
+49) The rancorous debate continued through the early 1900s into the 1920s; in 1927 Brouwer complained about "polemicizing against it [intuitionism] in sneering tones" (Brouwer in van Heijenoort, p.
+
+492).
+
+But the debate was fertile: it resulted in Principia Mathematica (1910–1913), and that work gave a precise definition to the law of excluded middle, and all this provided an intellectual setting and the tools necessary for the mathematicians of the early 20th century: Out of the rancor, and spawned in part by it, there arose several important logical developments; Zermelo's axiomatization of set theory (1908a), that was followed two years later by the first volume of Principia Mathematica , in which Russell and Whitehead showed how, via the theory of types: much of arithmetic could be developed by logicist means (Dawson p.
+
+49) Brouwer reduced the debate to the use of proofs designed from "negative" or "non-existence" versus "constructive" proof: According to Brouwer, a statement that an object exists having a given property means that, and is only proved, when a method is known which in principle at least will enable such an object to be found or constructed … Hilbert naturally disagreed.
+
+"pure existence proofs have been the most important landmarks in the historical development of our science," he maintained.
+
+(Reid p.
+
+155) Brouwer refused to accept the logical principle of the excluded middle, His argument was the following: "Suppose that A is the statement "There exists a member of the set S having the property P.
+
+" If the set is finite, it is possible—in principle—to examine each member of S and determine whether there is a member of S with the property P or that every member of S lacks the property P.
+
+" (this was missing a closing quote) For finite sets, therefore, Brouwer accepted the principle of the excluded middle as valid.
+
+He refused to accept it for infinite sets because if the set S is infinite, we cannot—even in principle—examine each member of the set.
+
+If, during the course of our examination, we find a member of the set with the property P , the first alternative is substantiated; but if we never find such a member, the second alternative is still not substantiated.
+
+Since mathematical theorems are often proved by establishing that the negation would involve us in a contradiction, this third possibility which Brouwer suggested would throw into question many of the mathematical statements currently accepted.
+
+"Taking the Principle of the Excluded Middle from the mathematician," Hilbert said, "is the same as … prohibiting the boxer the use of his fists.
+
+" "The possible loss did not seem to bother Weyl … Brouwer's program was the coming thing, he insisted to his friends in Zürich.
+
+" (Reid, p.
+
+149) In his lecture in 1941 at Yale and the subsequent paper, Gödel proposed a solution: "that the negation of a universal proposition was to be understood as asserting the existence … of a counterexample" (Dawson, p.
+
+157) Gödel's approach to the law of excluded middle was to assert that objections against "the use of 'impredicative definitions ' " had "carried more weight" than "the law of excluded middle and related theorems of the propositional calculus" (Dawson p.
+
+156).
+
+He proposed his "system Σ … and he concluded by mentioning several applications of his interpretation.
+
+Among them were a proof of the consistency with intuitionistic logic of the principle ~ (∀A: (A ∨ ~A)) (despite the inconsistency of the assumption ∃ A: ~ (A ∨ ~A))" (Dawson, p.
+
+157) (no closing parenthesis had been placed) The debate seemed to weaken: mathematicians, logicians and engineers continue to use the law of excluded middle (and double negation) in their daily work.
+
+Intuitionist definitions of the law (principle) of excluded middle [ edit ] The following highlights the deep mathematical and philosophic problem behind what it means to "know", and also helps elucidate what the "law" implies (i.
+
+e.
+
+what the law really means).
+
+Their difficulties with the law emerge: that they do not want to accept as true implications drawn from that which is unverifiable (untestable, unknowable) or from the impossible or the false.
+
+(All quotes are from van Heijenoort, italics added).
+
+Brouwer offers his definition of "principle of excluded middle"; we see here also the issue of "testability": On the basis of the testability just mentioned, there hold, for properties conceived within a specific finite main system, the "principle of excluded middle", that is, the principle that for every system every property is either correct [richtig] or impossible , and in particular the principle of the reciprocity of the complementary species, that is, the principle that for every system the correctness of a property follows from the impossibility of the impossibility of this property.
+
+(335) [ citation needed ] Kolmogorov' s definition cites Hilbert's two axioms of negation A → (~ A → B ) ( A → B ) → { (~ A → B ) → B } Hilbert's first axiom of negation, "anything follows from the false", made its appearance only with the rise of symbolic logic, as did the first axiom of implication … while … the axiom under consideration [axiom 5] asserts something about the consequences of something impossible: we have to accept B if the true judgment A is regarded as false … Hilbert's second axiom of negation expresses the principle of excluded middle.
+
+The principle is expressed here in the form in which is it used for derivations: if B follows from A as well as from ~ A , then B is true.
+
+Its usual form, "every judgment is either true or false" is equivalent to that given above".
+
+From the first interpretation of negation, that is, the interdiction from regarding the judgment as true, it is impossible to obtain the certitude that the principle of excluded middle is true … Brouwer showed that in the case of such transfinite judgments the principle of excluded middle cannot be considered obvious footnote 9: "This is Leibniz's very simple formulation (see Nouveaux Essais , IV,2).
+
+The formulation " A is either B or not- B " has nothing to do with the logic of judgments.
+
+footnote 10: "Symbolically the second form is expressed thus A ∨ ~ A where ∨ means "or".
+
+The equivalence of the two forms is easily proved (p.
+
+421) Examples [ edit ] For example, if P is the proposition: Socrates is mortal.
+
+then the law of excluded middle holds that the logical disjunction : Either Socrates is mortal, or it is not the case that Socrates is mortal.
+
+is true by virtue of its form alone.
+
+That is, the "middle" position, that Socrates is neither mortal nor not-mortal, is excluded by logic, and therefore either the first possibility ( Socrates is mortal ) or its negation ( it is not the case that Socrates is mortal ) must be true.
+
+An example of an argument that depends on the law of excluded middle follows.
+
+[10] We seek to prove that there exist two irrational numbers a {\displaystyle a} and b {\displaystyle b} such that a b {\displaystyle a^{b}} is rational.
+
+It is known that 2 {\displaystyle {\sqrt {2}}} is irrational (see proof ).
+
+Consider the number 2 2 {\displaystyle {\sqrt {2}}^{\sqrt {2}}}.
+
+Clearly (excluded middle) this number is either rational or irrational.
+
+If it is rational, the proof is complete, and a = 2 {\displaystyle a={\sqrt {2}}} and b = 2 {\displaystyle b={\sqrt {2}}}.
+
+But if 2 2 {\displaystyle {\sqrt {2}}^{\sqrt {2}}} is irrational, then let a = 2 2 {\displaystyle a={\sqrt {2}}^{\sqrt {2}}} and b = 2 {\displaystyle b={\sqrt {2}}}.
+
+Then a b = ( 2 2 ) 2 = 2 ( 2 ⋅ 2 ) = 2 2 = 2 {\displaystyle a^{b}=\left({\sqrt {2}}^{\sqrt {2}}\right)^{\sqrt {2}}={\sqrt {2}}^{\left({\sqrt {2}}\cdot {\sqrt {2}}\right)}={\sqrt {2}}^{2}=2} , and 2 is certainly rational.
+
+This concludes the proof.
+
+In the above argument, the assertion "this number is either rational or irrational" invokes the law of excluded middle.
+
+An intuitionist , for example, would not accept this argument without further support for that statement.
+
+This might come in the form of a proof that the number in question is in fact irrational (or rational, as the case may be); or a finite algorithm that could determine whether the number is rational.
+
+Non-constructive proofs over the infinite [ edit ] The above proof is an example of a non-constructive proof disallowed by intuitionists: The proof is non-constructive because it doesn't give specific numbers a {\displaystyle a} and b {\displaystyle b} that satisfy the theorem but only two separate possibilities, one of which must work.
+
+(Actually a = 2 2 {\displaystyle a={\sqrt {2}}^{\sqrt {2}}} is irrational but there is no known easy proof of that fact.
+
+) (Davis 2000:220) (Constructive proofs of the specific example above are not hard to produce; for example a = 2 {\displaystyle a={\sqrt {2}}} and b = log 2 ⁡ 9 {\displaystyle b=\log _{2}9} are both easily shown to be irrational, and a b = 3 {\displaystyle a^{b}=3} ; a proof allowed by intuitionists).
+
+By non-constructive Davis means that "a proof that there actually are mathematic entities satisfying certain conditions would not have to provide a method to exhibit explicitly the entities in question.
+
+" (p.
+
+85).
+
+Such proofs presume the existence of a totality that is complete, a notion disallowed by intuitionists when extended to the infinite —for them the infinite can never be completed: In classical mathematics there occur non-constructive or indirect existence proofs, which intuitionists do not accept.
+
+For example, to prove there exists an n such that P ( n ), the classical mathematician may deduce a contradiction from the assumption for all n , not P ( n ).
+
+Under both the classical and the intuitionistic logic, by reductio ad absurdum this gives not for all n, not P ( n ).
+
+The classical logic allows this result to be transformed into there exists an n such that P ( n ), but not in general the intuitionistic … the classical meaning, that somewhere in the completed infinite totality of the natural numbers there occurs an n such that P ( n ), is not available to him, since he does not conceive the natural numbers as a completed totality.
+
+[11] (Kleene 1952:49–50) David Hilbert and Luitzen E.
+
+J.
+
+Brouwer both give examples of the law of excluded middle extended to the infinite.
+
+Hilbert's example: "the assertion that either there are only finitely many prime numbers or there are infinitely many" (quoted in Davis 2000:97); and Brouwer's: "Every mathematical species is either finite or infinite.
+
+" (Brouwer 1923 in van Heijenoort 1967:336).
+
+In general, intuitionists allow the use of the law of excluded middle when it is confined to discourse over finite collections (sets), but not when it is used in discourse over infinite sets (e.
+
+g.
+
+the natural numbers).
+
+Thus intuitionists absolutely disallow the blanket assertion: "For all propositions P concerning infinite sets D : P or ~ P " (Kleene 1952:48).
+
+[12] Putative counterexamples to the law of excluded middle include the liar paradox or Quine's paradox.
+
+Certain resolutions of these paradoxes, particularly Graham Priest 's dialetheism as formalised in LP, have the law of excluded middle as a theorem, but resolve out the Liar as both true and false.
+
+In this way, the law of excluded middle is true, but because truth itself, and therefore disjunction, is not exclusive, it says next to nothing if one of the disjuncts is paradoxical, or both true and false.
+
+Criticisms [ edit ] The Catuṣkoṭi (tetralemma) is an ancient alternative to the law of excluded middle, which examines all four possible assignments of truth values to a proposition and its negation.
+
+It has been important in Indian logic and Buddhist logic as well as the ancient Greek philosophical school known as Pyrrhonism.
+
+Many modern logic systems replace the law of excluded middle with the concept of negation as failure.
+
+Instead of a proposition's being either true or false, a proposition is either true or not able to be proved true.
+
+[13] These two dichotomies only differ in logical systems that are not complete.
+
+The principle of negation as failure is used as a foundation for autoepistemic logic , and is widely used in logic programming.
+
+In these systems, the programmer is free to assert the law of excluded middle as a true fact, but it is not built-in a priori into these systems.
+
+Mathematicians such as L.
+
+E.
+
+J.
+
+Brouwer and Arend Heyting have also contested the usefulness of the law of excluded middle in the context of modern mathematics.
+
+[14] In mathematical logic [ edit ] In modern mathematical logic , the excluded middle has been argued to result in possible self-contradiction.
+
+It is possible in logic to make well-constructed propositions that can be neither true nor false; a common example of this is the " Liar's paradox ", [15] the statement "this statement is false", which is argued to itself be neither true nor false.
+
+Arthur Prior has argued that The Paradox is not an example of a statement that cannot be true or false.
+
+The law of excluded middle still holds here as the negation of this statement "This statement is not false", can be assigned true.
+
+In set theory , such a self-referential paradox can be constructed by examining the set "the set of all sets that do not contain themselves".
+
+This set is unambiguously defined, but leads to a Russell's paradox : [16] [17] does the set contain, as one of its elements, itself? However, in the modern Zermelo–Fraenkel set theory , this type of contradiction is no longer admitted.
+
+Furthermore, paradoxes of self reference can be constructed without even invoking negation at all, as in Curry's paradox.
+
+[ citation needed ] Very few mathematicians work in areas which allow for The Law of Excluded Middle to be false, as it is not compatible with the standard axiomatic system, ZFC.
+
+Namely, it is not compatible with the Axiom of Choice.
+
+[18] Analogous laws [ edit ] Some systems of logic have different but analogous laws.
+
+For some finite n -valued logics , there is an analogous law called the law of excluded n +1th.
+
+If negation is cyclic and "∨" is a "max operator", then the law can be expressed in the object language by (P ∨ ~P ∨ ~~P ∨.
+
+∨ ~.
+
+~P), where "~.
+
+~" represents n −1 negation signs and "∨.
+
+∨" n −1 disjunction signs.
+
+It is easy to check that the sentence must receive at least one of the n truth values (and not a value that is not one of the n ).
+
+Other systems reject the law entirely.
+
+[ specify ] Law of the weak excluded middle [ edit ] A particularly well-studied intermediate logic is given by De Morgan logic , which adds the axiom ¬ P ∨ ¬ ¬ P {\displaystyle \neg P\lor \neg \neg P} to intuitionistic logic , which is sometimes called the law of the weak excluded middle.
+
+This is equivalent to a few other statements: Satisfying all of De Morgan's laws including ¬ ( P ∧ Q ) ↔ ¬ P ∨ ¬ Q {\displaystyle \neg (P\land Q)\,\leftrightarrow \,\neg P\lor \neg Q} ( P → Q ) ∨ ( ¬ P → ¬ Q ) {\displaystyle (P\to Q)\lor (\neg P\to \neg Q)} ( P → ( Q ∨ ¬ R ) ) → ( ( P → Q ) ∨ ( P → ¬ R ) ) {\displaystyle (P\to (Q\lor \neg R))\to ((P\to Q)\lor (P\to \neg R))} See also [ edit ] Brouwer–Hilbert controversy – foundational controversy in twentieth-century mathematics Pages displaying wikidata descriptions as a fallback : an account on the formalist-intuitionist divide around the Law of the excluded middle Consequentia mirabilis – Pattern of reasoning in propositional logic Constructive set theory Diaconescu's theorem Dichotomy – Splitting of a whole into exactly two non-overlapping parts; dyadic relations and processes Homogeneity (linguistics) – Semantic property of plurals Pages displaying short descriptions of redirect targets : cases where LEM appears to fail in natural language Law of excluded fourth – System including an indeterminate value Pages displaying short descriptions of redirect targets Law of excluded middle is untrue in many-valued logic – Propositional calculus in which there are more than two truth values such as ternary logic – System including an indeterminate value Pages displaying short descriptions of redirect targets and fuzzy logic – System for reasoning about vagueness Laws of thought – Axioms of rational discourse Pages displaying short descriptions of redirect targets Limited principle of omniscience – Mathematical concept Logical graph – Type of diagrammatic or visual notation for logical expressions Pages displaying short descriptions of redirect targets : a graphical syntax for propositional logic Logical determinism – view that a proposition about the future is either necessarily true, or its negation is necessarily true Pages displaying wikidata descriptions as a fallback : the application excluded middle to modal – Type of formal logic propositions Mathematical constructivism Non-affirming negation in the Prasangika – Doctrinal distinction within Tibetan Buddhism Pages displaying short descriptions of redirect targets school of Buddhism, another system in which the law of excluded middle is untrue Peirce's law – Axiom used in logic and philosophy: another way of turning intuition classical Footnotes [ edit ] ^ "Laws of thought".
+
+Encyclopedia Britannica.
+
+Retrieved 20 March 2021.
+
+^ "Realism – Metaphysical realism and objective truth".
+
+Encyclopedia Britannica.
+
+Retrieved 20 March 2021.
+
+^ Tomassi, Paul (1999).
+
+Logic.
+
+Routledge.
+
+p.
+
+124.
+
+ISBN 978-0-415-16696-6.
+
+^ P.
+
+T.
+
+Geach, The Law of Excluded Middle in Logic Matters, p.
+
+74 ^ On Interpretation , c.
+
+9 ^ Metaphysics B 2, 996b 26–30 ^ Metaphysics Γ 7, 1011b 26–27 ^ Alfred North Whitehead , Bertrand Russell (1910), Principia Mathematica , Cambridge , p.
+
+105 ^ The original symbol as used by Reichenbach is an upside down V, nowadays used for AND.
+
+The AND for Reichenbach is the same as that used in Principia Mathematica – a "dot" cf p.
+
+27 where he shows a truth table where he defines "a.
+
+b".
+
+Reichenbach defines the exclusive-or on p.
+
+35 as "the negation of the equivalence".
+
+One sign used nowadays is a circle with a + in it, i.
+
+e.
+
+⊕ (because in binary, a ⊕ b yields modulo-2 addition – addition without carry).
+
+Other signs are ≢ (not identical to), or ≠ (not equal to).
+
+^ This well-known example of a non-constructive proof depending on the law of excluded middle can be found in many places, for example: Megill, Norman.
+
+Metamath: A Computer Language for Pure Mathematics.
+
+footnote on p.
+
+17.
+
+and Davis 2000:220, footnote 2.
+
+^ In a comparative analysis (pp.
+
+43–59) of the three "-isms" (and their foremost spokesmen)—Logicism (Russell and Whitehead), Intuitionism (Brouwer) and Formalism (Hilbert)—Kleene turns his thorough eye toward intuitionism, its "founder" Brouwer, and the intuitionists' complaints with respect to the law of excluded middle as applied to arguments over the "completed infinite".
+
+^ For more about the conflict between the intuitionists (e.
+
+g.
+
+Brouwer) and the formalists (Hilbert) see Foundations of mathematics and Intuitionism.
+
+^ Clark, Keith (1978).
+
+Logic and Data Bases (PDF).
+
+Springer-Verlag.
+
+pp.
+
+293–322 (Negation as a failure).
+
+doi : 10.
+
+1007/978-1-4684-3384-5_11.
+
+^ Detlefsen, Michael (January 1992).
+
+"Proof and Knowledge in Mathematics" by Michael Detlefsen.
+
+Routledge.
+
+ISBN 9780415068055.
+
+^ Priest, Graham (28 November 2010).
+
+"Paradoxical Truth".
+
+Opinionator.
+
+Retrieved 10 September 2023.
+
+^ Kevin C.
+
+Klement, "Russell's Paradox".
+
+Internet Encyclopedia of Philosophy.
+
+^ Priest, Graham (1983).
+
+"The Logical Paradoxes and the Law of Excluded Middle".
+
+The Philosophical Quarterly.
+
+33 (131): 160–165.
+
+doi : 10.
+
+2307/2218742.
+
+JSTOR 2218742.
+
+^ Diaconescu, Radu (August 1975).
+
+"Axiom of Choice and Complementation" (PDF).
+
+Proceedings of the American Mathematical Society.
+
+51 (1): 176–178.
+
+doi : 10.
+
+1090/S0002-9939-1975-0373893-X.
+
+Retrieved 13 March 2024.
+
+References [ edit ] Aquinas, Thomas , " Summa Theologica ", Fathers of the English Dominican Province (trans.
+
+), Daniel J.
+
+Sullivan (ed.
+
+), vols.
+
+19–20 in Robert Maynard Hutchins (ed.
+
+), Great Books of the Western World , Encyclopædia Britannica, Inc.
+
+, Chicago, Illinois, 1952.
+
+Cited as GB 19–20.
+
+Aristotle , " Metaphysics ", W.
+
+D.
+
+Ross (trans.
+
+), vol.
+
+8 in Robert Maynard Hutchins (ed.
+
+), Great Books of the Western World , Encyclopædia Britannica, Inc.
+
+, Chicago, Illinois, 1952.
+
+Cited as GB 8.
+
+1st published, W.
+
+D.
+
+Ross (trans.
+
+), The Works of Aristotle , Oxford University Press, Oxford, UK.
+
+Martin Davis 2000, Engines of Logic: Mathematicians and the Origin of the Computer , W.
+
+W.
+
+Norton & Company, NewYork, New York, ISBN 0-393-32229-7 pbk.
+
+Dawson, J.
+
+, Logical Dilemmas, The Life and Work of Kurt Gödel , A.
+
+K.
+
+Peters, Wellesley, Massachusetts, 1997.
+
+van Heijenoort, J.
+
+, From Frege to Gödel, A Source Book in Mathematical Logic, 1879–1931 , Harvard University Press, Cambridge, Massachusetts, 1967.
+
+Reprinted with corrections, 1977.
+
+Luitzen Egbertus Jan Brouwer , 1923, On the significance of the principle of excluded middle in mathematics, especially in function theory [reprinted with commentary, p.
+
+334, van Heijenoort] Andrei Nikolaevich Kolmogorov , 1925, On the principle of excluded middle , [reprinted with commentary, p.
+
+414, van Heijenoort] Luitzen Egbertus Jan Brouwer , 1927, On the domains of definitions of functions ,[reprinted with commentary, p.
+
+446, van Heijenoort] Although not directly germane, in his (1923) Brouwer uses certain words defined in this paper.
+
+Luitzen Egbertus Jan Brouwer , 1927(2), Intuitionistic reflections on formalism ,[reprinted with commentary, p.
+
+490, van Heijenoort] Stephen C.
+
+Kleene 1952 original printing, 1971 6th printing with corrections, 10th printing 1991, Introduction to Metamathematics , North-Holland Publishing Company, Amsterdam, New York, ISBN 0-7204-2103-9.
+
+Kneale, W.
+
+and Kneale, M.
+
+, The Development of Logic , Oxford University Press, Oxford, UK, 1962.
+
+Reprinted with corrections, 1975.
+
+Alfred North Whitehead and Bertrand Russell , Principia Mathematica to *56 , Cambridge at the University Press 1962 (Second Edition of 1927, reprinted).
+
+Extremely difficult because of arcane symbolism, but a must-have for serious logicians.
+
+Bertrand Russell , An Inquiry Into Meaning and Truth.
+
+The William James Lectures for 1940 delivered at Harvard University.
+
+Bertrand Russell , The Problems of Philosophy, With a New Introduction by John Perry , Oxford University Press, New York, 1997 edition (first published 1912).
+
+Easy to read.
+
+Bertrand Russell , The Art of Philosophizing and Other Essays , Littlefield, Adams & Co.
+
+, Totowa, New Jersey, 1974 edition (first published 1968).
+
+Includes a wonderful essay on "The Art of drawing Inferences".
+
+Hans Reichenbach , Elements of Symbolic Logic , Dover, New York, 1947, 1975.
+
+Tom Mitchell , Machine Learning , WCB McGraw–Hill, 1997.
+
+Constance Reid , Hilbert , Copernicus: Springer–Verlag New York, Inc.
+
+1996, first published 1969.
+
+Contains a wealth of biographical information, much derived from interviews.
+
+Bart Kosko , Fuzzy Thinking: The New Science of Fuzzy Logic , Hyperion, New York, 1993.
+
+Fuzzy thinking at its finest but a good introduction to the concepts.
+
+David Hume , An Inquiry Concerning Human Understanding , reprinted in Great Books of the Western World Encyclopædia Britannica, Volume 35, 1952, p.
+
+449 ff.
+
+This work was published by Hume in 1758 as his rewrite of his "juvenile" Treatise of Human Nature: Being An attempt to introduce the experimental method of Reasoning into Moral Subjects Vol.
+
+I, Of The Understanding first published 1739, reprinted as: David Hume, A Treatise of Human Nature , Penguin Classics, 1985.
+
+Also see: David Applebaum , The Vision of Hume , Vega, London, 2001: a reprint of a portion of An Inquiry starts on p.
+
+94 ff External links [ edit ] "Contradiction" entry in the Stanford Encyclopedia of Philosophy v t e Classical logic General Quantifiers Predicate Connective Tautology Truth tables Truth function Truth value Well-formed formula Idempotency of entailment Logicism Problem of multiple generality Associativity Distribution Validity Soundness Classical logics Term Propositional First-order Second-order Higher-order Principles Commutativity of conjunction Excluded middle Bivalence Noncontradiction Monotonicity of entailment Explosion Rules De Morgan's laws Material implication Transposition modus ponens modus tollens modus ponendo tollens Constructive dilemma Destructive dilemma Disjunctive syllogism Hypothetical syllogism Absorption Introduction Negation Double negation Existential Universal Biconditional Conjunction Disjunction Elimination Double negation Existential Universal Biconditional Conjunction Disjunction People Bernard Bolzano George Boole Georg Cantor Richard Dedekind Augustus De Morgan Gottlob Frege Kurt Gödel Hugh MacColl Giuseppe Peano Charles Sanders Peirce Bertrand Russell Ernst Schröder Henry M.
+
+Sheffer Alfred Tarski Willard Van Orman Quine Ludwig Wittgenstein Jan Łukasiewicz Works Begriffsschrift Function and Concept The Principles of Mathematics Principia Mathematica Tractatus Logico-Philosophicus v t e Mathematical logic General Axiom list Cardinality First-order logic Formal proof Formal semantics Foundations of mathematics Information theory Lemma Logical consequence Model Theorem Theory Type theory Theorems ( list ) and paradoxes Gödel's completeness and incompleteness theorems Tarski's undefinability Banach–Tarski paradox Cantor's theorem, paradox and diagonal argument Compactness Halting problem Lindström's Löwenheim–Skolem Russell's paradox Logics Traditional Classical logic Logical truth Tautology Proposition Inference Logical equivalence Consistency Equiconsistency Argument Soundness Validity Syllogism Square of opposition Venn diagram Propositional Boolean algebra Boolean functions Logical connectives Propositional calculus Propositional formula Truth tables Many-valued logic 3 finite ∞ Predicate First-order list Second-order Monadic Higher-order Fixed-point Free Quantifiers Predicate Monadic predicate calculus Set theory Set hereditary Class ( Ur- ) Element Ordinal number Extensionality Forcing Relation equivalence partition Set operations: intersection union complement Cartesian product power set identities Types of sets Countable Uncountable Empty Inhabited Singleton Finite Infinite Transitive Ultrafilter Recursive Fuzzy Universal Universe constructible Grothendieck Von Neumann Maps and cardinality Function / Map domain codomain image In / Sur / Bi -jection Schröder–Bernstein theorem Isomorphism Gödel numbering Enumeration Large cardinal inaccessible Aleph number Operation binary Set theories Zermelo–Fraenkel axiom of choice continuum hypothesis General Kripke–Platek Morse–Kelley Naive New Foundations Tarski–Grothendieck Von Neumann–Bernays–Gödel Ackermann Constructive Formal systems ( list ), language and syntax Alphabet Arity Automata Axiom schema Expression ground Extension by definition conservative Relation Formation rule Grammar Formula atomic closed ground open Free/bound variable Language Metalanguage Logical connective ¬ ∨ ∧ → ↔ = Predicate functional variable propositional variable Proof Quantifier ∃ ! ∀ rank Sentence atomic spectrum Signature String Substitution Symbol function logical/constant non-logical variable Term Theory list Example axiomatic systems ( list ) of arithmetic : Peano second-order elementary function primitive recursive Robinson Skolem of the real numbers Tarski's axiomatization of Boolean algebras canonical minimal axioms of geometry : Euclidean : Elements Hilbert's Tarski's non-Euclidean Principia Mathematica Proof theory Formal proof Natural deduction Logical consequence Rule of inference Sequent calculus Theorem Systems axiomatic deductive Hilbert list Complete theory Independence ( from ZFC ) Proof of impossibility Ordinal analysis Reverse mathematics Self-verifying theories Model theory Interpretation function of models Model equivalence finite saturated spectrum submodel Non-standard model of arithmetic Diagram elementary Categorical theory Model complete theory Satisfiability Semantics of logic Strength Theories of truth semantic Tarski's Kripke's T-schema Transfer principle Truth predicate Truth value Type Ultraproduct Validity Computability theory Church encoding Church–Turing thesis Computably enumerable Computable function Computable set Decision problem decidable undecidable P NP P versus NP problem Kolmogorov complexity Lambda calculus Primitive recursive function Recursion Recursive set Turing machine Type theory Related Abstract logic Algebraic logic Automated theorem proving Category theory Concrete / Abstract category Category of sets History of logic History of mathematical logic timeline Logicism Mathematical object Philosophy of mathematics Supertask Mathematics portal Authority control databases National France BnF data Germany Other IdRef Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Law_of_excluded_middle&oldid=1233962629 " Categories : Classical logic Theorems in propositional logic Hidden categories: Articles with Internet Encyclopedia of Philosophy links Articles with short description Short description is different from Wikidata Use dmy dates from March 2024 All articles with unsourced statements Articles with unsourced statements from January 2022 Articles with unsourced statements from February 2022 Articles needing more detailed references Pages displaying wikidata descriptions as a fallback via Module:Annotated link Pages displaying short descriptions of redirect targets via Module:Annotated link Articles with BNF identifiers Articles with BNFdata identifiers Articles with GND identifiers Articles with SUDOC identifiers Articles containing proofs This page was last edited on 11 July 2024, at 21:00 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

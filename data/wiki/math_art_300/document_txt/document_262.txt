@@ -1,0 +1,151 @@
+Logarithmic differentiation - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Overview Toggle Overview subsection 1.
+
+1 Higher order derivatives 2 Applications Toggle Applications subsection 2.
+
+1 Products 2.
+
+2 Quotients 2.
+
+3 Functional exponents 2.
+
+3.
+
+1 General case 3 See also 4 Notes Toggle the table of contents Logarithmic differentiation 10 languages Български Eesti Español فارسی Bahasa Indonesia Nederlands 日本語 Português தமிழ் 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Method of mathematical differentiation For the derivative, see Logarithmic derivative.
+
+Part of a series of articles about Calculus ∫ a b f ′ ( t ) d t = f ( b ) − f ( a ) {\displaystyle \int _{a}^{b}f'(t)\,dt=f(b)-f(a)} Fundamental theorem Limits Continuity Rolle's theorem Mean value theorem Inverse function theorem Differential Definitions Derivative ( generalizations ) Differential infinitesimal of a function total Concepts Differentiation notation Second derivative Implicit differentiation Logarithmic differentiation Related rates Taylor's theorem Rules and identities Sum Product Chain Power Quotient L'Hôpital's rule Inverse General Leibniz Faà di Bruno's formula Reynolds Integral Lists of integrals Integral transform Leibniz integral rule Definitions Antiderivative Integral ( improper ) Riemann integral Lebesgue integration Contour integration Integral of inverse functions Integration by Parts Discs Cylindrical shells Substitution ( trigonometric , tangent half-angle , Euler ) Euler's formula Partial fractions Changing order Reduction formulae Differentiating under the integral sign Risch algorithm Series Geometric ( arithmetico-geometric ) Harmonic Alternating Power Binomial Taylor Convergence tests Summand limit (term test) Ratio Root Integral Direct comparison Limit comparison Alternating series Cauchy condensation Dirichlet Abel Vector Gradient Divergence Curl Laplacian Directional derivative Identities Theorems Gradient Green's Stokes' Divergence generalized Stokes Helmholtz decomposition Multivariable Formalisms Matrix Tensor Exterior Geometric Definitions Partial derivative Multiple integral Line integral Surface integral Volume integral Jacobian Hessian Advanced Calculus on Euclidean space Generalized functions Limit of distributions Specialized Fractional Malliavin Stochastic Variations Miscellaneous Precalculus History Glossary List of topics Integration Bee Mathematical analysis Nonstandard analysis v t e In calculus , logarithmic differentiation or differentiation by taking logarithms is a method used to differentiate functions by employing the logarithmic derivative of a function f , [1] ( ln ⁡ f ) ′ = f ′ f ⟹ f ′ = f ⋅ ( ln ⁡ f ) ′.
+
+{\displaystyle (\ln f)'={\frac {f'}{f}}\quad \implies \quad f'=f\cdot (\ln f)'.
+
+} The technique is often performed in cases where it is easier to differentiate the logarithm of a function rather than the function itself.
+
+This usually occurs in cases where the function of interest is composed of a product of a number of parts, so that a logarithmic transformation will turn it into a sum of separate parts (which is much easier to differentiate).
+
+It can also be useful when applied to functions raised to the power of variables or functions.
+
+Logarithmic differentiation relies on the chain rule as well as properties of logarithms (in particular, the natural logarithm , or the logarithm to the base e ) to transform products into sums and divisions into subtractions.
+
+[2] [3] The principle can be implemented, at least in part, in the differentiation of almost all differentiable functions , providing that these functions are non-zero.
+
+Overview [ edit ] The method is used because the properties of logarithms provide avenues to quickly simplify complicated functions to be differentiated.
+
+[4] These properties can be manipulated after the taking of natural logarithms on both sides and before the preliminary differentiation.
+
+The most commonly used logarithm laws are [3] ln ⁡ ( a b ) = ln ⁡ ( a ) + ln ⁡ ( b ) , ln ⁡ ( a b ) = ln ⁡ ( a ) − ln ⁡ ( b ) , ln ⁡ ( a n ) = n ln ⁡ ( a ).
+
+{\displaystyle \ln(ab)=\ln(a)+\ln(b),\qquad \ln \left({\frac {a}{b}}\right)=\ln(a)-\ln(b),\qquad \ln(a^{n})=n\ln(a).
+
+} Higher order derivatives [ edit ] Using Faà di Bruno's formula , the n-th order logarithmic derivative is, d n d x n ln ⁡ f ( x ) = ∑ m 1 + 2 m 2 + ⋯ + n m n = n n ! m 1 ! m 2 ! ⋯ m n ! ⋅ ( − 1 ) m 1 + ⋯ + m n − 1 ( m 1 + ⋯ + m n − 1 ) ! f ( x ) m 1 + ⋯ + m n ⋅ ∏ j = 1 n ( f ( j ) ( x ) j ! ) m j.
+
+{\displaystyle {\frac {d^{n}}{dx^{n}}}\ln f(x)=\sum _{m_{1}+2m_{2}+\cdots +nm_{n}=n}{\frac {n!}{m_{1}!\,m_{2}!\,\cdots \,m_{n}!}}\cdot {\frac {(-1)^{m_{1}+\cdots +m_{n}-1}(m_{1}+\cdots +m_{n}-1)!}{f(x)^{m_{1}+\cdots +m_{n}}}}\cdot \prod _{j=1}^{n}\left({\frac {f^{(j)}(x)}{j!}}\right)^{m_{j}}.
+
+} Using this, the first four derivatives are, d 2 d x 2 ln ⁡ f ( x ) = f ″ ( x ) f ( x ) − ( f ′ ( x ) f ( x ) ) 2 d 3 d x 3 ln ⁡ f ( x ) = f ( 3 ) ( x ) f ( x ) − 3 f ′ ( x ) f ″ ( x ) f ( x ) 2 + 2 ( f ′ ( x ) f ( x ) ) 3 d 4 d x 4 ln ⁡ f ( x ) = f ( 4 ) ( x ) f ( x ) − 4 f ′ ( x ) f ( 3 ) ( x ) f ( x ) 2 − 3 ( f ″ ( x ) f ( x ) ) 2 + 12 f ′ ( x ) 2 f ″ ( x ) f ( x ) 3 − 6 ( f ′ ( x ) f ( x ) ) 4 {\displaystyle {\begin{aligned}{\frac {d^{2}}{dx^{2}}}\ln f(x)&={\frac {f''(x)}{f(x)}}-\left({\frac {f'(x)}{f(x)}}\right)^{2}\\[1ex]{\frac {d^{3}}{dx^{3}}}\ln f(x)&={\frac {f^{(3)}(x)}{f(x)}}-3{\frac {f'(x)f''(x)}{f(x)^{2}}}+2\left({\frac {f'(x)}{f(x)}}\right)^{3}\\[1ex]{\frac {d^{4}}{dx^{4}}}\ln f(x)&={\frac {f^{(4)}(x)}{f(x)}}-4{\frac {f'(x)f^{(3)}(x)}{f(x)^{2}}}-3\left({\frac {f''(x)}{f(x)}}\right)^{2}+12{\frac {f'(x)^{2}f''(x)}{f(x)^{3}}}-6\left({\frac {f'(x)}{f(x)}}\right)^{4}\end{aligned}}} Applications [ edit ] Products [ edit ] Main article: Product rule A natural logarithm is applied to a product of two functions f ( x ) = g ( x ) h ( x ) {\displaystyle f(x)=g(x)h(x)} to transform the product into a sum ln ⁡ ( f ( x ) ) = ln ⁡ ( g ( x ) h ( x ) ) = ln ⁡ ( g ( x ) ) + ln ⁡ ( h ( x ) ).
+
+{\displaystyle \ln(f(x))=\ln(g(x)h(x))=\ln(g(x))+\ln(h(x)).
+
+} Differentiating by applying the chain and the sum rules yields f ′ ( x ) f ( x ) = g ′ ( x ) g ( x ) + h ′ ( x ) h ( x ) , {\displaystyle {\frac {f'(x)}{f(x)}}={\frac {g'(x)}{g(x)}}+{\frac {h'(x)}{h(x)}},} and, after rearranging, yields [5] f ′ ( x ) = f ( x ) × { g ′ ( x ) g ( x ) + h ′ ( x ) h ( x ) } = g ( x ) h ( x ) × { g ′ ( x ) g ( x ) + h ′ ( x ) h ( x ) } = g ′ ( x ) h ( x ) + g ( x ) h ′ ( x ) , {\displaystyle f'(x)=f(x)\times \left\{{\frac {g'(x)}{g(x)}}+{\frac {h'(x)}{h(x)}}\right\}=g(x)h(x)\times \left\{{\frac {g'(x)}{g(x)}}+{\frac {h'(x)}{h(x)}}\right\}=g'(x)h(x)+g(x)h'(x),} which is the product rule for derivatives.
+
+Quotients [ edit ] Main article: Quotient rule A natural logarithm is applied to a quotient of two functions f ( x ) = g ( x ) h ( x ) {\displaystyle f(x)={\frac {g(x)}{h(x)}}} to transform the division into a subtraction ln ⁡ ( f ( x ) ) = ln ⁡ ( g ( x ) h ( x ) ) = ln ⁡ ( g ( x ) ) − ln ⁡ ( h ( x ) ) {\displaystyle \ln(f(x))=\ln \left({\frac {g(x)}{h(x)}}\right)=\ln(g(x))-\ln(h(x))} Differentiating by applying the chain and the sum rules yields f ′ ( x ) f ( x ) = g ′ ( x ) g ( x ) − h ′ ( x ) h ( x ) , {\displaystyle {\frac {f'(x)}{f(x)}}={\frac {g'(x)}{g(x)}}-{\frac {h'(x)}{h(x)}},} and, after rearranging, yields f ′ ( x ) = f ( x ) × { g ′ ( x ) g ( x ) − h ′ ( x ) h ( x ) } = g ( x ) h ( x ) × { g ′ ( x ) g ( x ) − h ′ ( x ) h ( x ) } = g ′ ( x ) h ( x ) − g ( x ) h ′ ( x ) h ( x ) 2 , {\displaystyle f'(x)=f(x)\times \left\{{\frac {g'(x)}{g(x)}}-{\frac {h'(x)}{h(x)}}\right\}={\frac {g(x)}{h(x)}}\times \left\{{\frac {g'(x)}{g(x)}}-{\frac {h'(x)}{h(x)}}\right\}={\frac {g'(x)h(x)-g(x)h'(x)}{h(x)^{2}}},} which is the quotient rule for derivatives.
+
+Functional exponents [ edit ] For a function of the form f ( x ) = g ( x ) h ( x ) {\displaystyle f(x)=g(x)^{h(x)}} the natural logarithm transforms the exponentiation into a product ln ⁡ ( f ( x ) ) = ln ⁡ ( g ( x ) h ( x ) ) = h ( x ) ln ⁡ ( g ( x ) ) {\displaystyle \ln(f(x))=\ln \left(g(x)^{h(x)}\right)=h(x)\ln(g(x))} Differentiating by applying the chain and the product rules yields f ′ ( x ) f ( x ) = h ′ ( x ) ln ⁡ ( g ( x ) ) + h ( x ) g ′ ( x ) g ( x ) , {\displaystyle {\frac {f'(x)}{f(x)}}=h'(x)\ln(g(x))+h(x){\frac {g'(x)}{g(x)}},} and, after rearranging, yields f ′ ( x ) = f ( x ) × { h ′ ( x ) ln ⁡ ( g ( x ) ) + h ( x ) g ′ ( x ) g ( x ) } = g ( x ) h ( x ) × { h ′ ( x ) ln ⁡ ( g ( x ) ) + h ( x ) g ′ ( x ) g ( x ) }.
+
+{\displaystyle f'(x)=f(x)\times \left\{h'(x)\ln(g(x))+h(x){\frac {g'(x)}{g(x)}}\right\}=g(x)^{h(x)}\times \left\{h'(x)\ln(g(x))+h(x){\frac {g'(x)}{g(x)}}\right\}.
+
+} The same result can be obtained by rewriting f in terms of exp and applying the chain rule.
+
+General case [ edit ] Using capital pi notation , let f ( x ) = ∏ i ( f i ( x ) ) α i ( x ) {\displaystyle f(x)=\prod _{i}(f_{i}(x))^{\alpha _{i}(x)}} be a finite product of functions with functional exponents.
+
+The application of natural logarithms results in (with capital sigma notation ) ln ⁡ ( f ( x ) ) = ∑ i α i ( x ) ⋅ ln ⁡ ( f i ( x ) ) , {\displaystyle \ln(f(x))=\sum _{i}\alpha _{i}(x)\cdot \ln(f_{i}(x)),} and after differentiation, f ′ ( x ) f ( x ) = ∑ i [ α i ′ ( x ) ⋅ ln ⁡ ( f i ( x ) ) + α i ( x ) ⋅ f i ′ ( x ) f i ( x ) ].
+
+{\displaystyle {\frac {f'(x)}{f(x)}}=\sum _{i}\left[\alpha _{i}'(x)\cdot \ln(f_{i}(x))+\alpha _{i}(x)\cdot {\frac {f_{i}'(x)}{f_{i}(x)}}\right].
+
+} Rearrange to get the derivative of the original function, f ′ ( x ) = ∏ i ( f i ( x ) ) α i ( x ) ⏞ f ( x ) × ∑ i { α i ′ ( x ) ⋅ ln ⁡ ( f i ( x ) ) + α i ( x ) ⋅ f i ′ ( x ) f i ( x ) } ⏞ [ ln ⁡ ( f ( x ) ) ] ′.
+
+{\displaystyle f'(x)=\overbrace {\prod _{i}(f_{i}(x))^{\alpha _{i}(x)}} ^{f(x)}\times \overbrace {\sum _{i}\left\{\alpha _{i}'(x)\cdot \ln(f_{i}(x))+\alpha _{i}(x)\cdot {\frac {f_{i}'(x)}{f_{i}(x)}}\right\}} ^{[\ln(f(x))]'}.
+
+} See also [ edit ] Darboux derivative – derivative of a map between a manifold and a Lie group Pages displaying wikidata descriptions as a fallback Generalizations of the derivative – Fundamental construction of differential calculus Lie group – Group that is also a differentiable manifold with group operations that are smooth List of logarithm topics List of logarithmic identities Maurer–Cartan form – Mathematical concept Notes [ edit ] ^ Krantz, Steven G.
+
+(2003).
+
+Calculus demystified.
+
+McGraw-Hill Professional.
+
+p.
+
+170.
+
+ISBN 0-07-139308-0.
+
+^ N.
+
+P.
+
+Bali (2005).
+
+Golden Differential Calculus.
+
+Firewall Media.
+
+p.
+
+282.
+
+ISBN 81-7008-152-1.
+
+^ a b Bird, John (2006).
+
+Higher Engineering Mathematics.
+
+Newnes.
+
+p.
+
+324.
+
+ISBN 0-7506-8152-7.
+
+^ Blank, Brian E.
+
+(2006).
+
+Calculus, single variable.
+
+Springer.
+
+p.
+
+457.
+
+ISBN 1-931914-59-1.
+
+^ Williamson, Benjamin (2008).
+
+An Elementary Treatise on the Differential Calculus.
+
+BiblioBazaar, LLC.
+
+pp.
+
+25–26.
+
+ISBN 978-0-559-47577-1.
+
+v t e Calculus Precalculus Binomial theorem Concave function Continuous function Factorial Finite difference Free variables and bound variables Graph of a function Linear function Radian Rolle's theorem Secant Slope Tangent Limits Indeterminate form Limit of a function One-sided limit Limit of a sequence Order of approximation (ε, δ)-definition of limit Differential calculus Derivative Second derivative Partial derivative Differential Differential operator Mean value theorem Notation Leibniz's notation Newton's notation Rules of differentiation linearity Power Sum Chain L'Hôpital's Product General Leibniz's rule Quotient Other techniques Implicit differentiation Inverse functions and differentiation Logarithmic derivative Related rates Stationary points First derivative test Second derivative test Extreme value theorem Maximum and minimum Further applications Newton's method Taylor's theorem Differential equation Ordinary differential equation Partial differential equation Stochastic differential equation Integral calculus Antiderivative Arc length Riemann integral Basic properties Constant of integration Fundamental theorem of calculus Differentiating under the integral sign Integration by parts Integration by substitution trigonometric Euler Tangent half-angle substitution Partial fractions in integration Quadratic integral Trapezoidal rule Volumes Washer method Shell method Integral equation Integro-differential equation Vector calculus Derivatives Curl Directional derivative Divergence Gradient Laplacian Basic theorems Line integrals Green's Stokes' Gauss' Multivariable calculus Divergence theorem Geometric Hessian matrix Jacobian matrix and determinant Lagrange multiplier Line integral Matrix Multiple integral Partial derivative Surface integral Volume integral Advanced topics Differential forms Exterior derivative Generalized Stokes' theorem Tensor calculus Sequences and series Arithmetico-geometric sequence Types of series Alternating Binomial Fourier Geometric Harmonic Infinite Power Maclaurin Taylor Telescoping Tests of convergence Abel's Alternating series Cauchy condensation Direct comparison Dirichlet's Integral Limit comparison Ratio Root Term Special functions and numbers Bernoulli numbers e (mathematical constant) Exponential function Natural logarithm Stirling's approximation History of calculus Adequality Brook Taylor Colin Maclaurin Generality of algebra Gottfried Wilhelm Leibniz Infinitesimal Infinitesimal calculus Isaac Newton Fluxion Law of Continuity Leonhard Euler Method of Fluxions The Method of Mechanical Theorems Lists Integrals rational functions irrational functions exponential functions logarithmic functions hyperbolic functions inverse trigonometric functions inverse Secant Secant cubed List of limits List of derivatives Miscellaneous topics Complex calculus Contour integral Differential geometry Manifold Curvature of curves of surfaces Tensor Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Regiomontanus' angle maximization problem Steinmetz solid Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Logarithmic_differentiation&oldid=1210451802 " Categories : Differential calculus Logarithms Hidden categories: Articles with short description Short description is different from Wikidata Pages using sidebar with the child parameter Pages displaying wikidata descriptions as a fallback via Module:Annotated link This page was last edited on 26 February 2024, at 17:58 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

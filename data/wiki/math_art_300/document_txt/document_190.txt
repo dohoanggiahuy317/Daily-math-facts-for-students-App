@@ -1,0 +1,37 @@
+Editing Template:Math topics sidebar - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Editing Template:Math topics sidebar Add languages Template Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Page information Get shortened URL Download QR code Wikidata item Appearance move to sidebar hide When making major changes to this template please be sure to update its documentation.
+
+You are not logged in.
+
+Your IP address will be publicly visible if you make any edits.
+
+If you log in or create an account , your edits will be attributed to a username, among other benefits.
+
+Content that violates any copyrights will be deleted.
+
+Encyclopedic content must be verifiable through citations to reliable sources.
+
+Anti-spam check.
+
+Do not fill this in! {{sidebar | name = Math topics sidebar | pretitle = Part of a series on | title = [[Mathematics]] | bodyclass = hlist | abovestyle = padding-bottom:0.
+
+35em;<!--(as above)--> | above = * [[History of mathematics|History]] * [[Lists of mathematics topics|Index]] | content1 = {{Sidebar with collapsible lists |child = yes | wraplinks = true | headingstyle = | titlestyle = | listtitlestyle = border-top:1px solid #aaa;background:#ddddff;text-align:center; | listclass = hlist | expanded = {{{expanded|{{{1|all}}}}}} | list1name = Areas | list1title = [[Areas of mathematics|Areas]] | list1 = * [[Number theory]] * [[Geometry]] * [[Algebra]] * [[Calculus]] and [[Mathematical analysis|Analysis]] * [[Discrete mathematics]] * [[Mathematical logic|Logic]] and [[Set theory]] * [[Probability]] * [[Statistics]] and [[Decision theory]] | list2name = Relations | list2title = Relationship with sciences | list2 = * [[Mathematical physics|Physics]] * [[Mathematical chemistry|Chemistry]] * [[Geomathematics|Geosciences]] * [[Computational mathematics|Computation]] * [[Mathematical and theoretical biology|Biology]] * [[Computational linguistics|Linguistics]] * [[Mathematical economics|Economics]] * [[Philosophy of mathematics|Philosophy]] * [[Mathematics education|Education]] }} | heading2 = [[File:Nuvola apps edu mathematics blue-p.
+
+svg|20px]] [[Portal:Mathematics|Mathematics Portal]] }}<noinclude> {{Documentation}} </noinclude> Edit summary (Briefly describe your changes) By publishing changes, you agree to the Terms of Use , and you irrevocably agree to release your contribution under the CC BY-SA 4.
+
+0 License and the GFDL.
+
+You agree that a hyperlink or URL is sufficient attribution under the Creative Commons license.
+
+Cancel Editing help (opens in new window) Preview page with this template ( what's this? ) Copy and paste: – — ° ′ ″ ≈ ≠ ≤ ≥ ± − × ÷ ← → · § Sign your posts on talk pages: ~~~~ Cite your sources: <ref></ref> {{}} {{{}}} | [] [[]] [[Category:]] #REDIRECT [[]] &nbsp; <s></s> <sup></sup> <sub></sub> <code></code> <pre></pre> <blockquote></blockquote> <ref></ref> <ref name="" /> {{Reflist}} <references /> <includeonly></includeonly> <noinclude></noinclude> {{DEFAULTSORT:}} <nowiki></nowiki> <!-- --> <span class="plainlinks"></span> Symbols: ~ | ¡ ¿ † ‡ ↔ ↑ ↓ • ¶ # ∞ ‹› «» ¤ ₳ ฿ ₵ ¢ ₡ ₢ $ ₫ ₯ € ₠ ₣ ƒ ₴ ₭ ₤ ℳ ₥ ₦ № ₧ ₰ £ ៛ ₨ ₪ ৳ ₮ ₩ ¥ ♠ ♣ ♥ ♦ 𝄫 ♭ ♮ ♯ 𝄪 © ® ™ Latin: A a Á á À à Â â Ä ä Ǎ ǎ Ă ă Ā ā Ã ã Å å Ą ą Æ æ Ǣ ǣ B b C c Ć ć Ċ ċ Ĉ ĉ Č č Ç ç D d Ď ď Đ đ Ḍ ḍ Ð ð E e É é È è Ė ė Ê ê Ë ë Ě ě Ĕ ĕ Ē ē Ẽ ẽ Ę ę Ẹ ẹ Ɛ ɛ Ǝ ǝ Ə ə F f G g Ġ ġ Ĝ ĝ Ğ ğ Ģ ģ H h Ĥ ĥ Ħ ħ Ḥ ḥ I i İ ı Í í Ì ì Î î Ï ï Ǐ ǐ Ĭ ĭ Ī ī Ĩ ĩ Į į Ị ị J j Ĵ ĵ K k Ķ ķ L l Ĺ ĺ Ŀ ŀ Ľ ľ Ļ ļ Ł ł Ḷ ḷ Ḹ ḹ M m Ṃ ṃ N n Ń ń Ň ň Ñ ñ Ņ ņ Ṇ ṇ Ŋ ŋ O o Ó ó Ò ò Ô ô Ö ö Ǒ ǒ Ŏ ŏ Ō ō Õ õ Ǫ ǫ Ọ ọ Ő ő Ø ø Œ œ Ɔ ɔ P p Q q R r Ŕ ŕ Ř ř Ŗ ŗ Ṛ ṛ Ṝ ṝ S s Ś ś Ŝ ŝ Š š Ş ş Ș ș Ṣ ṣ ß T t Ť ť Ţ ţ Ț ț Ṭ ṭ Þ þ U u Ú ú Ù ù Û û Ü ü Ǔ ǔ Ŭ ŭ Ū ū Ũ ũ Ů ů Ų ų Ụ ụ Ű ű Ǘ ǘ Ǜ ǜ Ǚ ǚ Ǖ ǖ V v W w Ŵ ŵ X x Y y Ý ý Ŷ ŷ Ÿ ÿ Ỹ ỹ Ȳ ȳ Z z Ź ź Ż ż Ž ž ß Ð ð Þ þ Ŋ ŋ Ə ə Greek: Ά ά Έ έ Ή ή Ί ί Ό ό Ύ ύ Ώ ώ Α α Β β Γ γ Δ δ Ε ε Ζ ζ Η η Θ θ Ι ι Κ κ Λ λ Μ μ Ν ν Ξ ξ Ο ο Π π Ρ ρ Σ σ ς Τ τ Υ υ Φ φ Χ χ Ψ ψ Ω ω {{Polytonic|}} Cyrillic: А а Б б В в Г г Ґ ґ Ѓ ѓ Д д Ђ ђ Е е Ё ё Є є Ж ж З з Ѕ ѕ И и І і Ї ї Й й Ј ј К к Ќ ќ Л л Љ љ М м Н н Њ њ О о П п Р р С с Т т Ћ ћ У у Ў ў Ф ф Х х Ц ц Ч ч Џ џ Ш ш Щ щ Ъ ъ Ы ы Ь ь Э э Ю ю Я я ́ IPA: t̪ d̪ ʈ ɖ ɟ ɡ ɢ ʡ ʔ ɸ β θ ð ʃ ʒ ɕ ʑ ʂ ʐ ç ʝ ɣ χ ʁ ħ ʕ ʜ ʢ ɦ ɱ ɳ ɲ ŋ ɴ ʋ ɹ ɻ ɰ ʙ ⱱ ʀ ɾ ɽ ɫ ɬ ɮ ɺ ɭ ʎ ʟ ɥ ʍ ɧ ʼ ɓ ɗ ʄ ɠ ʛ ʘ ǀ ǃ ǂ ǁ ɨ ʉ ɯ ɪ ʏ ʊ ø ɘ ɵ ɤ ə ɚ ɛ œ ɜ ɝ ɞ ʌ ɔ æ ɐ ɶ ɑ ɒ ʰ ʱ ʷ ʲ ˠ ˤ ⁿ ˡ ˈ ˌ ː ˑ ̪ {{IPA|}} Wikidata entities used in this page Template:Math topics TOC : Sitelink, Description: en Pages transcluded onto the current version of this page ( help ) : Template:Documentation ( view source ) (template editor protected) Template:Documentation subpage ( view source ) (template editor protected) Template:Hlist/styles.
+
+css ( view source ) (protected) Template:Math topics sidebar/doc ( edit ) Template:Sandbox other ( view source ) (template editor protected) Template:Sidebar ( view source ) (template editor protected) Template:Sidebar with collapsible lists ( view source ) (template editor protected) Module:Arguments ( view source ) (protected) Module:Documentation ( view source ) (template editor protected) Module:Documentation/config ( view source ) (template editor protected) Module:Documentation/styles.
+
+css ( view source ) (template editor protected) Module:Navbar ( view source ) (protected) Module:Navbar/configuration ( view source ) (protected) Module:Navbar/styles.
+
+css ( view source ) (protected) Module:Sidebar ( view source ) (template editor protected) Module:Sidebar/configuration ( view source ) (template editor protected) Module:Sidebar/styles.
+
+css ( view source ) (template editor protected) Module:String ( view source ) (protected) This page is a member of 2 hidden categories ( help ) : Category:Pages using sidebar with the child parameter Category:Sidebars with styles needing conversion Retrieved from " https://en.
+
+wikipedia.
+
+org/wiki/Template:Math_topics_sidebar " Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

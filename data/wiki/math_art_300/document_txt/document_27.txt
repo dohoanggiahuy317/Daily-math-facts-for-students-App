@@ -1,0 +1,531 @@
+Rotating spheres - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Background 2 Formulation of the argument Toggle Formulation of the argument subsection 2.
+
+1 Inertial frame 2.
+
+1.
+
+1 Rotating frame 2.
+
+1.
+
+2 Coriolis force 2.
+
+1.
+
+3 General case 2.
+
+1.
+
+3.
+
+1 Is the fictitious force ad hoc ? 3 Rotation and cosmic background radiation 4 See also 5 References and notes Toggle the table of contents Rotating spheres 2 languages Español Oʻzbekcha / ўзбекча Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Isaac Newton 's rotating spheres argument attempts to demonstrate that true rotational motion can be defined by observing the tension in the string joining two identical spheres.
+
+The basis of the argument is that all observers make two observations: the tension in the string joining the bodies (which is the same for all observers) and the rate of rotation of the spheres (which is different for observers with differing rates of rotation).
+
+Only for the truly non-rotating observer will the tension in the string be explained using only the observed rate of rotation.
+
+For all other observers a "correction" is required (a centrifugal force) that accounts for the tension calculated being different from the one expected using the observed rate of rotation.
+
+[1] It is one of five arguments from the "properties, causes, and effects" of true motion and rest that support his contention that, in general, true motion and rest cannot be defined as special instances of motion or rest relative to other bodies, but instead can be defined only by reference to absolute space.
+
+Alternatively, these experiments provide an operational definition of what is meant by " absolute rotation ", and do not pretend to address the question of "rotation relative to what ?" [2] General relativity dispenses with absolute space and with physics whose cause is external to the system, with the concept of geodesics of spacetime.
+
+[3] Background [ edit ] Newton was concerned to address the problem of how it is that we can experimentally determine the true motions of bodies in light of the fact that absolute space is not something that can be perceived.
+
+Such determination, he says, can be accomplished by observing the causes of motion (that is, forces ) and not simply the apparent motions of bodies relative to one another (as in the bucket argument ).
+
+As an example where causes can be observed, if two globes , floating in space , are connected by a cord, measuring the amount of tension in the cord, with no other clues to assess the situation, alone suffices to indicate how fast the two objects are revolving around the common center of mass.
+
+(This experiment involves observation of a force, the tension).
+
+Also, the sense of the rotation—whether it is in the clockwise or the counter-clockwise direction—can be discovered by applying forces to opposite faces of the globes and ascertaining whether this leads to an increase or a decrease in the tension of the cord (again involving a force).
+
+Alternatively, the sense of the rotation can be determined by measuring the apparent motion of the globes with respect to a background system of bodies that, according to the preceding methods, have been established already as not in a state of rotation, as an example from Newton's time, the fixed stars.
+
+In the 1846 Andrew Motte translation of Newton's words: [4] [5] We have some arguments to guide us, partly from the apparent motions, which are the differences of the true motions; partly from the forces, which are the causes and effects of the true motions.
+
+For instance, if two globes kept at a given distance one from the other, by means of a cord that connects them, were revolved about their common center of gravity; we might, from the tension of the cord, discover the endeavor of the globes to recede from the axis of their motion.
+
+And thus we might find both the quantity and the determination of this circular motion, even in an immense vacuum, where there was nothing external or sensible with which the globes could be compared.
+
+— Isaac Newton, Principia , Book 1, Scholium To summarize this proposal, here is a quote from Born: [6] If the earth were at rest, and if, instead, the whole stellar system were to rotate in the opposite sense once around the earth in twenty-four hours, then, according to Newton, the centrifugal forces [presently attributed to the earth's rotation] would not occur.
+
+— Max Born: Einstein's Theory of Relativity , pp.
+
+81-82 Mach took some issue with the argument, pointing out that the rotating sphere experiment could never be done in an empty universe, where possibly Newton's laws do not apply, so the experiment really only shows what happens when the spheres rotate in our universe, and therefore, for example, may indicate only rotation relative to the entire mass of the universe.
+
+[2] [7] For me, only relative motions exist…When a body rotates relatively to the fixed stars, centrifugal forces are produced; when it rotates relatively to some different body and not relative to the fixed stars, no centrifugal forces are produced.
+
+— Ernst Mach; as quoted by Ciufolini and Wheeler : Gravitation and Inertia , p.
+
+387 An interpretation that avoids this conflict is to say that the rotating spheres experiment does not really define rotation relative to anything in particular (for example, absolute space or fixed stars); rather the experiment is an operational definition of what is meant by the motion called absolute rotation.
+
+[2] Figure 1: Two spheres tied with a string and rotating at an angular rate ω.
+
+Because of the rotation, the string tying the spheres together is under tension.
+
+Figure 2: Exploded view of rotating spheres in an inertial frame of reference showing the centripetal forces on the spheres provided by the tension in the tying string.
+
+Formulation of the argument [ edit ] This sphere example was used by Newton himself to discuss the detection of rotation relative to absolute space.
+
+[8] Checking the fictitious force needed to account for the tension in the string is one way for an observer to decide whether or not they are rotating – if the fictitious force is zero, they are not rotating.
+
+[9] (Of course, in an extreme case like the gravitron amusement ride, you do not need much convincing that you are rotating, but standing on the Earth's surface, the matter is more subtle.
+
+) Below, the mathematical details behind this observation are presented.
+
+Figure 1 shows two identical spheres rotating about the center of the string joining them.
+
+The axis of rotation is shown as a vector Ω with direction given by the right-hand rule and magnitude equal to the rate of rotation: |Ω| = ω.
+
+The angular rate of rotation ω is assumed independent of time ( uniform circular motion ).
+
+Because of the rotation, the string is under tension.
+
+(See reactive centrifugal force.
+
+) The description of this system next is presented from the viewpoint of an inertial frame and from a rotating frame of reference.
+
+Inertial frame [ edit ] Adopt an inertial frame centered at the midpoint of the string.
+
+The balls move in a circle about the origin of our coordinate system.
+
+Look first at one of the two balls.
+
+To travel in a circular path, which is not uniform motion with constant velocity, but circular motion at constant speed, requires a force to act on the ball so as to continuously change the direction of its velocity.
+
+This force is directed inward, along the direction of the string, and is called a centripetal force.
+
+The other ball has the same requirement, but being on the opposite end of the string, requires a centripetal force of the same size, but opposite in direction.
+
+See Figure 2.
+
+These two forces are provided by the string, putting the string under tension, also shown in Figure 2.
+
+Rotating frame [ edit ] Adopt a rotating frame at the midpoint of the string.
+
+Suppose the frame rotates at the same angular rate as the balls, so the balls appear stationary in this rotating frame.
+
+Because the balls are not moving, observers say they are at rest.
+
+If they now apply Newton's law of inertia, they would say no force acts on the balls, so the string should be relaxed.
+
+However, they clearly see the string is under tension.
+
+(For example, they could split the string and put a spring in its center, which would stretch.
+
+) [10] To account for this tension, they propose that in their frame a centrifugal force acts on the two balls, pulling them apart.
+
+This force originates from nowhere – it is just a "fact of life" in this rotating world, and acts on everything they observe, not just these spheres.
+
+In resisting this ubiquitous centrifugal force, the string is placed under tension, accounting for their observation, despite the fact that the spheres are at rest.
+
+[11] Coriolis force [ edit ] Main article: Coriolis effect What if the spheres are not rotating in the inertial frame (string tension is zero)? Then string tension in the rotating frame also is zero.
+
+But how can that be? The spheres in the rotating frame now appear to be rotating and should require an inward force to do that.
+
+According to the analysis of uniform circular motion : [12] [13] F c e n t r i p e t a l = − m Ω × ( Ω × x B ) {\displaystyle \mathbf {F} _{\mathrm {centripetal} }=-m\mathbf {\Omega \ \times } \left(\mathbf {\Omega \times x_{B}} \right)\ } = − m ω 2 R u R , {\displaystyle =-m\omega ^{2}R\ \mathbf {u} _{R}\ ,} where u R is a unit vector pointing from the axis of rotation to one of the spheres, and Ω is a vector representing the angular rotation, with magnitude ω and direction normal to the plane of rotation given by the right-hand rule , m is the mass of the ball, and R is the distance from the axis of rotation to the spheres (the magnitude of the displacement vector, | x B | = R , locating one or the other of the spheres).
+
+According to the rotating observer, shouldn't the tension in the string be twice as big as before (the tension from the centrifugal force plus the extra tension needed to provide the centripetal force of rotation)? The reason the rotating observer sees zero tension is because of yet another fictitious force in the rotating world, the Coriolis force , which depends on the velocity of a moving object.
+
+In this zero-tension case, according to the rotating observer, the spheres now are moving, and the Coriolis force (which depends upon velocity) is activated.
+
+According to the article fictitious force , the Coriolis force is: [12] F f i c t = − 2 m Ω × v B {\displaystyle \mathbf {F} _{\mathrm {fict} }=-2m{\boldsymbol {\Omega }}\times \mathbf {v} _{B}\ } = − 2 m ω ( ω R ) u R , {\displaystyle =-2m\omega \left(\omega R\right)\ \mathbf {u} _{R},} where R is the distance to the object from the center of rotation, and v B is the velocity of the object subject to the Coriolis force, | v B | = ω R.
+
+In the geometry of this example, this Coriolis force has twice the magnitude of the ubiquitous centrifugal force and is exactly opposite in direction.
+
+Therefore, it cancels out the ubiquitous centrifugal force found in the first example, and goes a step further to provide exactly the centripetal force demanded by uniform circular motion, so the rotating observer calculates there is no need for tension in the string − the Coriolis force looks after everything.
+
+General case [ edit ] What happens if the spheres rotate at one angular rate, say ω I ( I = inertial), and the frame rotates at a different rate ω R ( R = rotational)? The inertial observers see circular motion and the tension in the string exerts a centripetal inward force on the spheres of: T = − m ω I 2 R u R.
+
+{\displaystyle \mathbf {T} =-m\omega _{I}^{2}R\mathbf {u} _{R}\.
+
+} This force also is the force due to tension seen by the rotating observers.
+
+The rotating observers see the spheres in circular motion with angular rate ω S = ω I − ω R ( S = spheres).
+
+That is, if the frame rotates more slowly than the spheres, ω S > 0 and the spheres advance counterclockwise around a circle, while for a more rapidly moving frame, ω S < 0, and the spheres appear to retreat clockwise around a circle.
+
+In either case, the rotating observers see circular motion and require a net inward centripetal force: F C e n t r i p e t a l = − m ω S 2 R u R.
+
+{\displaystyle \mathbf {F} _{\mathrm {Centripetal} }=-m\omega _{S}^{2}R\mathbf {u} _{R}\.
+
+} However, this force is not the tension in the string.
+
+So the rotational observers conclude that a force exists (which the inertial observers call a fictitious force) so that: F C e n t r i p e t a l = T + F F i c t , {\displaystyle \mathbf {F} _{\mathrm {Centripetal} }=\mathbf {T} +\mathbf {F} _{\mathrm {Fict} }\ ,} or, F F i c t = − m ( ω S 2 R − ω I 2 R ) u R.
+
+{\displaystyle \mathbf {F} _{\mathrm {Fict} }=-m\left(\omega _{S}^{2}R-\omega _{I}^{2}R\right)\mathbf {u} _{R}\.
+
+} The fictitious force changes sign depending upon which of ω I and ω S is greater.
+
+The reason for the sign change is that when ω I > ω S , the spheres actually are moving faster than the rotating observers measure, so they measure a tension in the string that actually is larger than they expect; hence, the fictitious force must increase the tension (point outward).
+
+When ω I < ω S , things are reversed so the fictitious force has to decrease the tension, and therefore has the opposite sign (points inward).
+
+Is the fictitious force ad hoc ? [ edit ] The introduction of F Fict allows the rotational observers and the inertial observers to agree on the tension in the string.
+
+However, we might ask: "Does this solution fit in with general experience with other situations, or is it simply a "cooked up" ad hoc solution?" That question is answered by seeing how this value for F Fict squares with the general result (derived in Fictitious force ): [14] F F i c t = − 2 m Ω × v B − m Ω × ( Ω × x B ) {\displaystyle \mathbf {F} _{\mathrm {Fict} }=-2m{\boldsymbol {\Omega }}\times \mathbf {v} _{B}-m{\boldsymbol {\Omega }}\times ({\boldsymbol {\Omega }}\times \mathbf {x} _{B})} − m d Ω d t × x B.
+
+{\displaystyle \ -m{\frac {d{\boldsymbol {\Omega }}}{dt}}\times \mathbf {x} _{B}\.
+
+} The subscript B refers to quantities referred to the non-inertial coordinate system.
+
+Full notational details are in Fictitious force.
+
+For constant angular rate of rotation the last term is zero.
+
+To evaluate the other terms we need the position of one of the spheres: x B = R u R , {\displaystyle \mathbf {x} _{B}=R\mathbf {u} _{R}\ ,} and the velocity of this sphere as seen in the rotating frame: v B = ω S R u θ , {\displaystyle \mathbf {v} _{B}=\omega _{S}R\mathbf {u} _{\theta }\ ,} where u θ is a unit vector perpendicular to u R pointing in the direction of motion.
+
+The frame rotates at a rate ω R , so the vector of rotation is Ω = ω R u z ( u z a unit vector in the z -direction), and Ω × u R = ω R ( u z × u R ) = ω R u θ ; Ω × u θ = −ω R u R.
+
+The centrifugal force is then: F C f g l = − m Ω × ( Ω × x B ) = m ω R 2 R u R , {\displaystyle \mathbf {F} _{\mathrm {Cfgl} }=-m{\boldsymbol {\Omega }}\times ({\boldsymbol {\Omega }}\times \mathbf {x} _{B})=m\omega _{R}^{2}R\mathbf {u} _{R}\ ,} which naturally depends only on the rate of rotation of the frame and is always outward.
+
+The Coriolis force is F C o r = − 2 m Ω × v B = 2 m ω S ω R R u R {\displaystyle \mathbf {F} _{\mathrm {Cor} }=-2m{\boldsymbol {\Omega }}\times \mathbf {v} _{B}=2m\omega _{S}\omega _{R}R\mathbf {u} _{R}} and has the ability to change sign, being outward when the spheres move faster than the frame ( ω S > 0 ) and being inward when the spheres move slower than the frame ( ω S < 0 ).
+
+[15] Combining the terms: [16] F F i c t = F C f g l + F C o r {\displaystyle \mathbf {F} _{\mathrm {Fict} }=\mathbf {F} _{\mathrm {Cfgl} }+\mathbf {F} _{\mathrm {Cor} }} = ( m ω R 2 R + 2 m ω S ω R R ) u R = m ω R ( ω R + 2 ω S ) R u R {\displaystyle =\left(m\omega _{R}^{2}R+2m\omega _{S}\omega _{R}R\right)\mathbf {u} _{R}=m\omega _{R}\left(\omega _{R}+2\omega _{S}\right)R\mathbf {u} _{R}} = m ( ω I − ω S ) ( ω I + ω S ) R u R = − m ( ω S 2 − ω I 2 ) R u R.
+
+{\displaystyle =m(\omega _{I}-\omega _{S})(\omega _{I}+\omega _{S})\ R\mathbf {u} _{R}=-m\left(\omega _{S}^{2}-\omega _{I}^{2}\right)\ R\mathbf {u} _{R}.
+
+} Consequently, the fictitious force found above for this problem of rotating spheres is consistent with the general result and is not an ad hoc solution just "cooked up" to bring about agreement for this single example.
+
+Moreover, it is the Coriolis force that makes it possible for the fictitious force to change sign depending upon which of ω I , ω S is the greater, inasmuch as the centrifugal force contribution always is outward.
+
+Rotation and cosmic background radiation [ edit ] The isotropy of the cosmic background radiation is another indicator that the universe does not rotate.
+
+[17] See also [ edit ] Bucket argument Centrifugal force (rotating reference frame) Fictitious force Mach's principle Mechanics of planar particle motion Sagnac effect Wilkinson Microwave Anisotropy Probe References and notes [ edit ] ^ See Louis N.
+
+Hand; Janet D.
+
+Finch (1998).
+
+Analytical Mechanics.
+
+Cambridge University Press.
+
+p.
+
+324.
+
+ISBN 0-521-57572-9.
+
+and I.
+
+Bernard Cohen; George Edwin Smith (2002).
+
+The Cambridge companion to Newton.
+
+Cambridge University Press.
+
+p.
+
+43.
+
+ISBN 0-521-65696-6.
+
+^ a b c Robert Disalle (2002).
+
+I.
+
+Bernard Cohen; George E.
+
+Smith (eds.
+
+).
+
+The Cambridge Companion to Newton.
+
+Cambridge University Press.
+
+p.
+
+43.
+
+ISBN 0-521-65696-6.
+
+^ Gilson, James G.
+
+(September 1, 2004), Mach's Principle II , arXiv : physics/0409010 , Bibcode : 2004physics.
+
+9010G ^ See the Principia on line at "Definitions".
+
+The Principia.
+
+Retrieved 2010-05-13.
+
+^ Max Born (1962).
+
+Einstein's Theory of Relativity.
+
+Courier Dover Publications.
+
+p.
+
+80.
+
+ISBN 0-486-60769-0.
+
+inertial forces.
+
+^ Max Born (1962).
+
+Einstein's Theory of Relativity (Greatly revised and enlarged ed.
+
+).
+
+Courier Dover Publications.
+
+p.
+
+82.
+
+ISBN 0-486-60769-0.
+
+inertial forces.
+
+^ Ignazio Ciufolini; John Archibald Wheeler (1995).
+
+Gravitation and Inertia.
+
+Princeton University Press.
+
+pp.
+
+386–387.
+
+ISBN 0-691-03323-4.
+
+^ Max Born (1962).
+
+Einstein's Theory of Relativity.
+
+Courier Dover Publications.
+
+p.
+
+Figure 43, p.
+
+79.
+
+ISBN 0-486-60769-0.
+
+inertial forces.
+
+^ D.
+
+Lynden-Bell (1996).
+
+Igorʹ Dmitrievich Novikov; Bernard Jean Trefor Jones; Draza Marković (eds.
+
+).
+
+Relativistic Astrophysics.
+
+Cambridge University Press.
+
+p.
+
+167.
+
+ISBN 0-521-62113-5.
+
+^ Barry Dainton (2001).
+
+Time and Space.
+
+McGill-Queen's Press.
+
+p.
+
+175.
+
+ISBN 0-7735-2306-5.
+
+^ Jens M.
+
+Knudsen & Poul G.
+
+Hjorth (2000).
+
+Elements of Newtonian Mechanics.
+
+Springer.
+
+p.
+
+161.
+
+ISBN 3-540-67652-X.
+
+^ a b Georg Joos & Ira M.
+
+Freeman (1986).
+
+Theoretical Physics.
+
+New York: Courier Dover Publications.
+
+p.
+
+233.
+
+ISBN 0-486-65227-0.
+
+^ John Robert Taylor (2004).
+
+Classical Mechanics.
+
+Sausalito CA: University Science Books.
+
+pp.
+
+348–349.
+
+ISBN 1-891389-22-X.
+
+^ Many sources are cited in Fictitious force.
+
+Here are two more: PF Srivastava (2007).
+
+Mechanics.
+
+New Delhi: New Age International Publishers.
+
+p.
+
+43.
+
+ISBN 978-81-224-1905-4.
+
+and NC Rana & PS Joag (2004).
+
+Mechanics.
+
+New Delhi: Tata McGraw-Hill.
+
+p.
+
+99ff.
+
+ISBN 0-07-460315-9.
+
+^ The case ω S < 0 applies to the earlier example with spheres at rest in the inertial frame.
+
+^ This result can be compared with Eq.
+
+(3.
+
+3) in Stommel and Moore.
+
+They obtain the equation r ¨ − ω S 2 r = 2 ω S ω R r + ω R 2 r {\displaystyle {\ddot {r}}-\omega _{S}^{2}r=2\omega _{S}\omega _{R}r+\omega _{R}^{2}r} where ω S = ϕ ˙ ′ {\displaystyle \omega _{S}={\dot {\phi }}'} and ω R = Ω {\displaystyle \omega _{R}=\Omega \ } in their notation, and the left-hand side is the radial acceleration in polar coordinates according to the rotating observers.
+
+In this example, their Eq.
+
+(3.
+
+4) for the azimuthal acceleration is zero because the radius is fixed and there is no angular acceleration.
+
+See Henry Stommel; Dennis W.
+
+Moore (1989).
+
+An Introduction to the Coriolis Force.
+
+Columbia University Press.
+
+p.
+
+55.
+
+ISBN 0-231-06636-8.
+
+coriolis Stommel.
+
+^ R.
+
+B.
+
+Partridge (1995).
+
+3 K: The Cosmic Microwave Background Radiation.
+
+Cambridge University Press.
+
+pp.
+
+279–280.
+
+ISBN 0-521-35254-1.
+
+[ permanent dead link ] , D.
+
+Lynden-Bell (1996).
+
+Relativistic Astrophysics (Igorʹ Dmitrievich Novikov, Bernard Jean Trefor Jones, Draza Marković (Editors) ed.
+
+).
+
+p.
+
+167.
+
+ISBN 0-521-62113-5.
+
+, and Ralph A.
+
+Alpher and Robert Herman (1975).
+
+Big bang cosmology and the cosmic black-body radiation (in Proc.
+
+Am.
+
+Philos.
+
+Soc.
+
+vol.
+
+119, no.
+
+5 (1975) ed.
+
+).
+
+pp.
+
+325–348.
+
+ISBN 9781422371077.
+
+Henning Genz (2001).
+
+Nothingness.
+
+Da Capo Press.
+
+p.
+
+275.
+
+ISBN 0-7382-0610-5.
+
+[ permanent dead link ] v t e Sir Isaac Newton Publications Fluxions (1671) De Motu (1684) Principia (1687) Opticks (1704) Queries (1704) Arithmetica (1707) De Analysi (1711) Other writings Quaestiones (1661–1665) " standing on the shoulders of giants " (1675) Notes on the Jewish Temple (c.
+
+1680) " General Scholium " (1713; " hypotheses non fingo " ) Ancient Kingdoms Amended (1728) Corruptions of Scripture (1754) Contributions Calculus fluxion Impact depth Inertia Newton disc Newton polygon Newton–Okounkov body Newton's reflector Newtonian telescope Newton scale Newton's metal Spectrum Structural coloration Newtonianism Bucket argument Newton's inequalities Newton's law of cooling Newton's law of universal gravitation post-Newtonian expansion parameterized gravitational constant Newton–Cartan theory Schrödinger–Newton equation Newton's laws of motion Kepler's laws Newtonian dynamics Newton's method in optimization Apollonius's problem truncated Newton method Gauss–Newton algorithm Newton's rings Newton's theorem about ovals Newton–Pepys problem Newtonian potential Newtonian fluid Classical mechanics Corpuscular theory of light Leibniz–Newton calculus controversy Newton's notation Rotating spheres Newton's cannonball Newton–Cotes formulas Newton's method generalized Gauss–Newton method Newton fractal Newton's identities Newton polynomial Newton's theorem of revolving orbits Newton–Euler equations Newton number kissing number problem Newton's quotient Parallelogram of force Newton–Puiseux theorem Absolute space and time Luminiferous aether Newtonian series table Personal life Woolsthorpe Manor (birthplace) Cranbury Park (home) Early life Later life Apple tree Religious views Occult studies Scientific Revolution Copernican Revolution Relations Catherine Barton (niece) John Conduitt (nephew-in-law) Isaac Barrow (professor) William Clarke (mentor) Benjamin Pulleyn (tutor) John Keill (disciple) William Stukeley (friend) William Jones (friend) Abraham de Moivre (friend) Depictions Newton by Blake (monotype) Newton by Paolozzi (sculpture) Isaac Newton Gargoyle Astronomers Monument Namesake Newton (unit) Newton's cradle Isaac Newton Institute Isaac Newton Medal Isaac Newton Telescope Isaac Newton Group of Telescopes XMM-Newton Sir Isaac Newton Sixth Form Statal Institute of Higher Education Isaac Newton Newton International Fellowship Categories Isaac Newton Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Rotating_spheres&oldid=1183035365 " Categories : Isaac Newton Classical mechanics Thought experiments in physics Hidden categories: All articles with dead external links Articles with dead external links from November 2023 Articles with permanently dead external links This page was last edited on 1 November 2023, at 20:55 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

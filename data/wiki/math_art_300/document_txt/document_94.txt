@@ -1,0 +1,93 @@
+Limit comparison test - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Statement 2 Proof 3 Example 4 One-sided version 5 Example 6 Converse of the one-sided comparison test 7 Example 8 See also 9 References 10 Further reading 11 External links Toggle the table of contents Limit comparison test 7 languages Deutsch 한국어 हिन्दी Nederlands Oʻzbekcha / ўзбекча Українська 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Method of testing for the convergence of an infinite series Part of a series of articles about Calculus ∫ a b f ′ ( t ) d t = f ( b ) − f ( a ) {\displaystyle \int _{a}^{b}f'(t)\,dt=f(b)-f(a)} Fundamental theorem Limits Continuity Rolle's theorem Mean value theorem Inverse function theorem Differential Definitions Derivative ( generalizations ) Differential infinitesimal of a function total Concepts Differentiation notation Second derivative Implicit differentiation Logarithmic differentiation Related rates Taylor's theorem Rules and identities Sum Product Chain Power Quotient L'Hôpital's rule Inverse General Leibniz Faà di Bruno's formula Reynolds Integral Lists of integrals Integral transform Leibniz integral rule Definitions Antiderivative Integral ( improper ) Riemann integral Lebesgue integration Contour integration Integral of inverse functions Integration by Parts Discs Cylindrical shells Substitution ( trigonometric , tangent half-angle , Euler ) Euler's formula Partial fractions Changing order Reduction formulae Differentiating under the integral sign Risch algorithm Series Geometric ( arithmetico-geometric ) Harmonic Alternating Power Binomial Taylor Convergence tests Summand limit (term test) Ratio Root Integral Direct comparison Limit comparison Alternating series Cauchy condensation Dirichlet Abel Vector Gradient Divergence Curl Laplacian Directional derivative Identities Theorems Gradient Green's Stokes' Divergence generalized Stokes Helmholtz decomposition Multivariable Formalisms Matrix Tensor Exterior Geometric Definitions Partial derivative Multiple integral Line integral Surface integral Volume integral Jacobian Hessian Advanced Calculus on Euclidean space Generalized functions Limit of distributions Specialized Fractional Malliavin Stochastic Variations Miscellaneous Precalculus History Glossary List of topics Integration Bee Mathematical analysis Nonstandard analysis v t e In mathematics , the limit comparison test (LCT) (in contrast with the related direct comparison test ) is a method of testing for the convergence of an infinite series.
+
+Statement [ edit ] Suppose that we have two series Σ n a n {\displaystyle \Sigma _{n}a_{n}} and Σ n b n {\displaystyle \Sigma _{n}b_{n}} with a n ≥ 0 , b n > 0 {\displaystyle a_{n}\geq 0,b_{n}>0} for all n {\displaystyle n}.
+
+Then if lim n → ∞ a n b n = c {\displaystyle \lim _{n\to \infty }{\frac {a_{n}}{b_{n}}}=c} with 0 < c < ∞ {\displaystyle 0<c<\infty } , then either both series converge or both series diverge.
+
+[1] Proof [ edit ] Because lim n → ∞ a n b n = c {\displaystyle \lim _{n\to \infty }{\frac {a_{n}}{b_{n}}}=c} we know that for every ε > 0 {\displaystyle \varepsilon >0} there is a positive integer n 0 {\displaystyle n_{0}} such that for all n ≥ n 0 {\displaystyle n\geq n_{0}} we have that | a n b n − c | < ε {\displaystyle \left|{\frac {a_{n}}{b_{n}}}-c\right|<\varepsilon } , or equivalently − ε < a n b n − c < ε {\displaystyle -\varepsilon <{\frac {a_{n}}{b_{n}}}-c<\varepsilon } c − ε < a n b n < c + ε {\displaystyle c-\varepsilon <{\frac {a_{n}}{b_{n}}}<c+\varepsilon } ( c − ε ) b n < a n < ( c + ε ) b n {\displaystyle (c-\varepsilon )b_{n}<a_{n}<(c+\varepsilon )b_{n}} As c > 0 {\displaystyle c>0} we can choose ε {\displaystyle \varepsilon } to be sufficiently small such that c − ε {\displaystyle c-\varepsilon } is positive.
+
+So b n < 1 c − ε a n {\displaystyle b_{n}<{\frac {1}{c-\varepsilon }}a_{n}} and by the direct comparison test , if ∑ n a n {\displaystyle \sum _{n}a_{n}} converges then so does ∑ n b n {\displaystyle \sum _{n}b_{n}}.
+
+Similarly a n < ( c + ε ) b n {\displaystyle a_{n}<(c+\varepsilon )b_{n}} , so if ∑ n a n {\displaystyle \sum _{n}a_{n}} diverges, again by the direct comparison test, so does ∑ n b n {\displaystyle \sum _{n}b_{n}}.
+
+That is, both series converge or both series diverge.
+
+Example [ edit ] We want to determine if the series ∑ n = 1 ∞ 1 n 2 + 2 n {\displaystyle \sum _{n=1}^{\infty }{\frac {1}{n^{2}+2n}}} converges.
+
+For this we compare it with the convergent series ∑ n = 1 ∞ 1 n 2 = π 2 6 {\displaystyle \sum _{n=1}^{\infty }{\frac {1}{n^{2}}}={\frac {\pi ^{2}}{6}}} As lim n → ∞ 1 n 2 + 2 n n 2 1 = 1 > 0 {\displaystyle \lim _{n\to \infty }{\frac {1}{n^{2}+2n}}{\frac {n^{2}}{1}}=1>0} we have that the original series also converges.
+
+One-sided version [ edit ] One can state a one-sided comparison test by using limit superior.
+
+Let a n , b n ≥ 0 {\displaystyle a_{n},b_{n}\geq 0} for all n {\displaystyle n}.
+
+Then if lim sup n → ∞ a n b n = c {\displaystyle \limsup _{n\to \infty }{\frac {a_{n}}{b_{n}}}=c} with 0 ≤ c < ∞ {\displaystyle 0\leq c<\infty } and Σ n b n {\displaystyle \Sigma _{n}b_{n}} converges, necessarily Σ n a n {\displaystyle \Sigma _{n}a_{n}} converges.
+
+Example [ edit ] Let a n = 1 − ( − 1 ) n n 2 {\displaystyle a_{n}={\frac {1-(-1)^{n}}{n^{2}}}} and b n = 1 n 2 {\displaystyle b_{n}={\frac {1}{n^{2}}}} for all natural numbers n {\displaystyle n}.
+
+Now lim n → ∞ a n b n = lim n → ∞ ( 1 − ( − 1 ) n ) {\displaystyle \lim _{n\to \infty }{\frac {a_{n}}{b_{n}}}=\lim _{n\to \infty }(1-(-1)^{n})} does not exist, so we cannot apply the standard comparison test.
+
+However, lim sup n → ∞ a n b n = lim sup n → ∞ ( 1 − ( − 1 ) n ) = 2 ∈ [ 0 , ∞ ) {\displaystyle \limsup _{n\to \infty }{\frac {a_{n}}{b_{n}}}=\limsup _{n\to \infty }(1-(-1)^{n})=2\in [0,\infty )} and since ∑ n = 1 ∞ 1 n 2 {\displaystyle \sum _{n=1}^{\infty }{\frac {1}{n^{2}}}} converges, the one-sided comparison test implies that ∑ n = 1 ∞ 1 − ( − 1 ) n n 2 {\displaystyle \sum _{n=1}^{\infty }{\frac {1-(-1)^{n}}{n^{2}}}} converges.
+
+Converse of the one-sided comparison test [ edit ] Let a n , b n ≥ 0 {\displaystyle a_{n},b_{n}\geq 0} for all n {\displaystyle n}.
+
+If Σ n a n {\displaystyle \Sigma _{n}a_{n}} diverges and Σ n b n {\displaystyle \Sigma _{n}b_{n}} converges, then necessarily lim sup n → ∞ a n b n = ∞ {\displaystyle \limsup _{n\to \infty }{\frac {a_{n}}{b_{n}}}=\infty } , that is, lim inf n → ∞ b n a n = 0 {\displaystyle \liminf _{n\to \infty }{\frac {b_{n}}{a_{n}}}=0}.
+
+The essential content here is that in some sense the numbers a n {\displaystyle a_{n}} are larger than the numbers b n {\displaystyle b_{n}}.
+
+Example [ edit ] Let f ( z ) = ∑ n = 0 ∞ a n z n {\displaystyle f(z)=\sum _{n=0}^{\infty }a_{n}z^{n}} be analytic in the unit disc D = { z ∈ C : | z | < 1 } {\displaystyle D=\{z\in \mathbb {C} :|z|<1\}} and have image of finite area.
+
+By Parseval's formula the area of the image of f {\displaystyle f} is proportional to ∑ n = 1 ∞ n | a n | 2 {\displaystyle \sum _{n=1}^{\infty }n|a_{n}|^{2}}.
+
+Moreover, ∑ n = 1 ∞ 1 / n {\displaystyle \sum _{n=1}^{\infty }1/n} diverges.
+
+Therefore, by the converse of the comparison test, we have lim inf n → ∞ n | a n | 2 1 / n = lim inf n → ∞ ( n | a n | ) 2 = 0 {\displaystyle \liminf _{n\to \infty }{\frac {n|a_{n}|^{2}}{1/n}}=\liminf _{n\to \infty }(n|a_{n}|)^{2}=0} , that is, lim inf n → ∞ n | a n | = 0 {\displaystyle \liminf _{n\to \infty }n|a_{n}|=0}.
+
+See also [ edit ] Convergence tests Direct comparison test References [ edit ] ^ Swokowski, Earl (1983), Calculus with analytic geometry (Alternate ed.
+
+), Prindle, Weber & Schmidt, p.
+
+516 , ISBN 0-87150-341-7 Further reading [ edit ] Rinaldo B.
+
+Schinazi: From Calculus to Analysis.
+
+Springer, 2011, ISBN 9780817682897 , pp.
+
+50 Michele Longo and Vincenzo Valori: The Comparison Test: Not Just for Nonnegative Series.
+
+Mathematics Magazine, Vol.
+
+79, No.
+
+3 (Jun.
+
+, 2006), pp.
+
+205–210 ( JSTOR ) J.
+
+Marshall Ash: The Limit Comparison Test Needs Positivity.
+
+Mathematics Magazine, Vol.
+
+85, No.
+
+5 (December 2012), pp.
+
+374–375 ( JSTOR ) External links [ edit ] Pauls Online Notes on Comparison Test v t e Calculus Precalculus Binomial theorem Concave function Continuous function Factorial Finite difference Free variables and bound variables Graph of a function Linear function Radian Rolle's theorem Secant Slope Tangent Limits Indeterminate form Limit of a function One-sided limit Limit of a sequence Order of approximation (ε, δ)-definition of limit Differential calculus Derivative Second derivative Partial derivative Differential Differential operator Mean value theorem Notation Leibniz's notation Newton's notation Rules of differentiation linearity Power Sum Chain L'Hôpital's Product General Leibniz's rule Quotient Other techniques Implicit differentiation Inverse functions and differentiation Logarithmic derivative Related rates Stationary points First derivative test Second derivative test Extreme value theorem Maximum and minimum Further applications Newton's method Taylor's theorem Differential equation Ordinary differential equation Partial differential equation Stochastic differential equation Integral calculus Antiderivative Arc length Riemann integral Basic properties Constant of integration Fundamental theorem of calculus Differentiating under the integral sign Integration by parts Integration by substitution trigonometric Euler Tangent half-angle substitution Partial fractions in integration Quadratic integral Trapezoidal rule Volumes Washer method Shell method Integral equation Integro-differential equation Vector calculus Derivatives Curl Directional derivative Divergence Gradient Laplacian Basic theorems Line integrals Green's Stokes' Gauss' Multivariable calculus Divergence theorem Geometric Hessian matrix Jacobian matrix and determinant Lagrange multiplier Line integral Matrix Multiple integral Partial derivative Surface integral Volume integral Advanced topics Differential forms Exterior derivative Generalized Stokes' theorem Tensor calculus Sequences and series Arithmetico-geometric sequence Types of series Alternating Binomial Fourier Geometric Harmonic Infinite Power Maclaurin Taylor Telescoping Tests of convergence Abel's Alternating series Cauchy condensation Direct comparison Dirichlet's Integral Limit comparison Ratio Root Term Special functions and numbers Bernoulli numbers e (mathematical constant) Exponential function Natural logarithm Stirling's approximation History of calculus Adequality Brook Taylor Colin Maclaurin Generality of algebra Gottfried Wilhelm Leibniz Infinitesimal Infinitesimal calculus Isaac Newton Fluxion Law of Continuity Leonhard Euler Method of Fluxions The Method of Mechanical Theorems Lists Integrals rational functions irrational functions exponential functions logarithmic functions hyperbolic functions inverse trigonometric functions inverse Secant Secant cubed List of limits List of derivatives Miscellaneous topics Complex calculus Contour integral Differential geometry Manifold Curvature of curves of surfaces Tensor Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Regiomontanus' angle maximization problem Steinmetz solid Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Limit_comparison_test&oldid=1144481127 " Category : Convergence tests Hidden categories: Articles with short description Short description matches Wikidata Pages using sidebar with the child parameter Articles containing proofs This page was last edited on 14 March 2023, at 00:16 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

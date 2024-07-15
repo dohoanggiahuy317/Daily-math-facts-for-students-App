@@ -1,0 +1,519 @@
+Newton's identities - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Mathematical statement Toggle Mathematical statement subsection 1.
+
+1 Formulation in terms of symmetric polynomials 1.
+
+2 Application to the roots of a polynomial 1.
+
+3 Application to the characteristic polynomial of a matrix 1.
+
+4 Relation with Galois theory 2 Related identities Toggle Related identities subsection 2.
+
+1 A variant using complete homogeneous symmetric polynomials 2.
+
+2 Expressing elementary symmetric polynomials in terms of power sums 2.
+
+3 Expressing complete homogeneous symmetric polynomials in terms of power sums 2.
+
+4 Expressing power sums in terms of elementary symmetric polynomials 2.
+
+5 Expressing power sums in terms of complete homogeneous symmetric polynomials 2.
+
+6 Expressions as determinants 3 Derivation of the identities Toggle Derivation of the identities subsection 3.
+
+1 From the special case n = k 3.
+
+2 Comparing coefficients in series 3.
+
+3 As a telescopic sum of symmetric function identities 3.
+
+4 Combinatorial Proof 4 See also 5 References 6 External links Toggle the table of contents Newton's identities 11 languages العربية Deutsch Español Français 한국어 Italiano 日本語 Português Русский Українська 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Relations between power sums and elementary symmetric functions In mathematics , Newton's identities , also known as the Girard–Newton formulae , give relations between two types of symmetric polynomials , namely between power sums and elementary symmetric polynomials.
+
+Evaluated at the roots of a monic polynomial P in one variable, they allow expressing the sums of the k -th powers of all roots of P (counted with their multiplicity) in terms of the coefficients of P , without actually finding those roots.
+
+These identities were found by Isaac Newton around 1666, apparently in ignorance of earlier work (1629) by Albert Girard.
+
+They have applications in many areas of mathematics, including Galois theory , invariant theory , group theory , combinatorics , as well as further applications outside mathematics, including general relativity.
+
+Mathematical statement [ edit ] Formulation in terms of symmetric polynomials [ edit ] Let x 1 ,.
+
+, x n be variables, denote for k ≥ 1 by p k ( x 1 ,.
+
+, x n ) the k -th power sum : p k ( x 1 , … , x n ) = ∑ i = 1 n x i k = x 1 k + ⋯ + x n k , {\displaystyle p_{k}(x_{1},\ldots ,x_{n})=\sum _{i=1}^{n}x_{i}^{k}=x_{1}^{k}+\cdots +x_{n}^{k},} and for k ≥ 0 denote by e k ( x 1 ,.
+
+, x n ) the elementary symmetric polynomial (that is, the sum of all distinct products of k distinct variables), so e 0 ( x 1 , … , x n ) = 1 , e 1 ( x 1 , … , x n ) = x 1 + x 2 + ⋯ + x n , e 2 ( x 1 , … , x n ) = ∑ 1 ≤ i < j ≤ n x i x j , ⋮ e n ( x 1 , … , x n ) = x 1 x 2 ⋯ x n , e k ( x 1 , … , x n ) = 0 , for k > n.
+
+{\displaystyle {\begin{aligned}e_{0}(x_{1},\ldots ,x_{n})&=1,\\e_{1}(x_{1},\ldots ,x_{n})&=x_{1}+x_{2}+\cdots +x_{n},\\e_{2}(x_{1},\ldots ,x_{n})&=\sum _{1\leq i<j\leq n}x_{i}x_{j},\\&\;\;\vdots \\e_{n}(x_{1},\ldots ,x_{n})&=x_{1}x_{2}\cdots x_{n},\\e_{k}(x_{1},\ldots ,x_{n})&=0,\quad {\text{for}}\ k>n.
+
+\\\end{aligned}}} Then Newton's identities can be stated as k e k ( x 1 , … , x n ) = ∑ i = 1 k ( − 1 ) i − 1 e k − i ( x 1 , … , x n ) p i ( x 1 , … , x n ) , {\displaystyle ke_{k}(x_{1},\ldots ,x_{n})=\sum _{i=1}^{k}(-1)^{i-1}e_{k-i}(x_{1},\ldots ,x_{n})p_{i}(x_{1},\ldots ,x_{n}),} valid for all n ≥ k ≥ 1.
+
+Also, one has 0 = ∑ i = k − n k ( − 1 ) i − 1 e k − i ( x 1 , … , x n ) p i ( x 1 , … , x n ) , {\displaystyle 0=\sum _{i=k-n}^{k}(-1)^{i-1}e_{k-i}(x_{1},\ldots ,x_{n})p_{i}(x_{1},\ldots ,x_{n}),} for all k > n ≥ 1.
+
+Concretely, one gets for the first few values of k : e 1 ( x 1 , … , x n ) = p 1 ( x 1 , … , x n ) , 2 e 2 ( x 1 , … , x n ) = e 1 ( x 1 , … , x n ) p 1 ( x 1 , … , x n ) − p 2 ( x 1 , … , x n ) , 3 e 3 ( x 1 , … , x n ) = e 2 ( x 1 , … , x n ) p 1 ( x 1 , … , x n ) − e 1 ( x 1 , … , x n ) p 2 ( x 1 , … , x n ) + p 3 ( x 1 , … , x n ).
+
+{\displaystyle {\begin{aligned}e_{1}(x_{1},\ldots ,x_{n})&=p_{1}(x_{1},\ldots ,x_{n}),\\2e_{2}(x_{1},\ldots ,x_{n})&=e_{1}(x_{1},\ldots ,x_{n})p_{1}(x_{1},\ldots ,x_{n})-p_{2}(x_{1},\ldots ,x_{n}),\\3e_{3}(x_{1},\ldots ,x_{n})&=e_{2}(x_{1},\ldots ,x_{n})p_{1}(x_{1},\ldots ,x_{n})-e_{1}(x_{1},\ldots ,x_{n})p_{2}(x_{1},\ldots ,x_{n})+p_{3}(x_{1},\ldots ,x_{n}).
+
+\end{aligned}}} The form and validity of these equations do not depend on the number n of variables (although the point where the left-hand side becomes 0 does, namely after the n -th identity), which makes it possible to state them as identities in the ring of symmetric functions.
+
+In that ring one has e 1 = p 1 , 2 e 2 = e 1 p 1 − p 2 = p 1 2 − p 2 , 3 e 3 = e 2 p 1 − e 1 p 2 + p 3 = 1 2 p 1 3 − 3 2 p 1 p 2 + p 3 , 4 e 4 = e 3 p 1 − e 2 p 2 + e 1 p 3 − p 4 = 1 6 p 1 4 − p 1 2 p 2 + 4 3 p 1 p 3 + 1 2 p 2 2 − p 4 , {\displaystyle {\begin{aligned}e_{1}&=p_{1},\\2e_{2}&=e_{1}p_{1}-p_{2}=p_{1}^{2}-p_{2},\\3e_{3}&=e_{2}p_{1}-e_{1}p_{2}+p_{3}={\tfrac {1}{2}}p_{1}^{3}-{\tfrac {3}{2}}p_{1}p_{2}+p_{3},\\4e_{4}&=e_{3}p_{1}-e_{2}p_{2}+e_{1}p_{3}-p_{4}={\tfrac {1}{6}}p_{1}^{4}-p_{1}^{2}p_{2}+{\tfrac {4}{3}}p_{1}p_{3}+{\tfrac {1}{2}}p_{2}^{2}-p_{4},\\\end{aligned}}} and so on; here the left-hand sides never become zero.
+
+These equations allow to recursively express the e i in terms of the p k ; to be able to do the inverse, one may rewrite them as p 1 = e 1 , p 2 = e 1 p 1 − 2 e 2 = e 1 2 − 2 e 2 , p 3 = e 1 p 2 − e 2 p 1 + 3 e 3 = e 1 3 − 3 e 1 e 2 + 3 e 3 , p 4 = e 1 p 3 − e 2 p 2 + e 3 p 1 − 4 e 4 = e 1 4 − 4 e 1 2 e 2 + 4 e 1 e 3 + 2 e 2 2 − 4 e 4 , ⋮ {\displaystyle {\begin{aligned}p_{1}&=e_{1},\\p_{2}&=e_{1}p_{1}-2e_{2}=e_{1}^{2}-2e_{2},\\p_{3}&=e_{1}p_{2}-e_{2}p_{1}+3e_{3}=e_{1}^{3}-3e_{1}e_{2}+3e_{3},\\p_{4}&=e_{1}p_{3}-e_{2}p_{2}+e_{3}p_{1}-4e_{4}=e_{1}^{4}-4e_{1}^{2}e_{2}+4e_{1}e_{3}+2e_{2}^{2}-4e_{4},\\&{}\ \ \vdots \end{aligned}}} In general, we have p k ( x 1 , … , x n ) = ( − 1 ) k − 1 k e k ( x 1 , … , x n ) + ∑ i = 1 k − 1 ( − 1 ) k − 1 + i e k − i ( x 1 , … , x n ) p i ( x 1 , … , x n ) , {\displaystyle p_{k}(x_{1},\ldots ,x_{n})=(-1)^{k-1}ke_{k}(x_{1},\ldots ,x_{n})+\sum _{i=1}^{k-1}(-1)^{k-1+i}e_{k-i}(x_{1},\ldots ,x_{n})p_{i}(x_{1},\ldots ,x_{n}),} valid for all n ≥ k ≥ 1.
+
+Also, one has p k ( x 1 , … , x n ) = ∑ i = k − n k − 1 ( − 1 ) k − 1 + i e k − i ( x 1 , … , x n ) p i ( x 1 , … , x n ) , {\displaystyle p_{k}(x_{1},\ldots ,x_{n})=\sum _{i=k-n}^{k-1}(-1)^{k-1+i}e_{k-i}(x_{1},\ldots ,x_{n})p_{i}(x_{1},\ldots ,x_{n}),} for all k > n ≥ 1.
+
+Application to the roots of a polynomial [ edit ] The polynomial with roots x i may be expanded as ∏ i = 1 n ( x − x i ) = ∑ k = 0 n ( − 1 ) k e k x n − k , {\displaystyle \prod _{i=1}^{n}(x-x_{i})=\sum _{k=0}^{n}(-1)^{k}e_{k}x^{n-k},} where the coefficients e k ( x 1 , … , x n ) {\displaystyle e_{k}(x_{1},\ldots ,x_{n})} are the symmetric polynomials defined above.
+
+Given the power sums of the roots p k ( x 1 , … , x n ) = ∑ i = 1 n x i k , {\displaystyle p_{k}(x_{1},\ldots ,x_{n})=\sum _{i=1}^{n}x_{i}^{k},} the coefficients of the polynomial with roots x 1 , … , x n {\displaystyle x_{1},\ldots ,x_{n}} may be expressed recursively in terms of the power sums as e 0 = 1 , − e 1 = − p 1 , e 2 = 1 2 ( e 1 p 1 − p 2 ) , − e 3 = − 1 3 ( e 2 p 1 − e 1 p 2 + p 3 ) , e 4 = 1 4 ( e 3 p 1 − e 2 p 2 + e 1 p 3 − p 4 ) , ⋮ {\displaystyle {\begin{aligned}e_{0}&=1,\\[4pt]-e_{1}&=-p_{1},\\[4pt]e_{2}&={\frac {1}{2}}(e_{1}p_{1}-p_{2}),\\[4pt]-e_{3}&=-{\frac {1}{3}}(e_{2}p_{1}-e_{1}p_{2}+p_{3}),\\[4pt]e_{4}&={\frac {1}{4}}(e_{3}p_{1}-e_{2}p_{2}+e_{1}p_{3}-p_{4}),\\&{}\ \ \vdots \end{aligned}}} Formulating polynomials in this way is useful in using the method of Delves and Lyness [1] to find the zeros of an analytic function.
+
+Application to the characteristic polynomial of a matrix [ edit ] When the polynomial above is the characteristic polynomial of a matrix A {\displaystyle \mathbf {A} } (in particular when A {\displaystyle \mathbf {A} } is the companion matrix of the polynomial), the roots x i {\displaystyle x_{i}} are the eigenvalues of the matrix, counted with their algebraic multiplicity.
+
+For any positive integer k {\displaystyle k} , the matrix A k {\displaystyle \mathbf {A} ^{k}} has as eigenvalues the powers x i k {\displaystyle x_{i}^{k}} , and each eigenvalue x i {\displaystyle x_{i}} of A {\displaystyle \mathbf {A} } contributes its multiplicity to that of the eigenvalue x i k {\displaystyle x_{i}^{k}} of A k {\displaystyle \mathbf {A} ^{k}}.
+
+Then the coefficients of the characteristic polynomial of A k {\displaystyle \mathbf {A} ^{k}} are given by the elementary symmetric polynomials in those powers x i k {\displaystyle x_{i}^{k}}.
+
+In particular, the sum of the x i k {\displaystyle x_{i}^{k}} , which is the k {\displaystyle k} -th power sum p k {\displaystyle p_{k}} of the roots of the characteristic polynomial of A {\displaystyle \mathbf {A} } , is given by its trace : p k = tr ⁡ ( A k ).
+
+{\displaystyle p_{k}=\operatorname {tr} (\mathbf {A} ^{k})\,.
+
+} The Newton identities now relate the traces of the powers A k {\displaystyle \mathbf {A} ^{k}} to the coefficients of the characteristic polynomial of A {\displaystyle \mathbf {A} }.
+
+Using them in reverse to express the elementary symmetric polynomials in terms of the power sums, they can be used to find the characteristic polynomial by computing only the powers A k {\displaystyle \mathbf {A} ^{k}} and their traces.
+
+This computation requires computing the traces of matrix powers A k {\displaystyle \mathbf {A} ^{k}} and solving a triangular system of equations.
+
+Both can be done in complexity class NC (solving a triangular system can be done by divide-and-conquer).
+
+Therefore, characteristic polynomial of a matrix can be computed in NC.
+
+By the Cayley–Hamilton theorem , every matrix satisfies its characteristic polynomial, and a simple transformation allows to find the adjugate matrix in NC.
+
+Rearranging the computations into an efficient form leads to the Faddeev–LeVerrier algorithm (1840), a fast parallel implementation of it is due to L.
+
+Csanky (1976).
+
+Its disadvantage is that it requires division by integers, so in general the field should have characteristic 0.
+
+Relation with Galois theory [ edit ] For a given n , the elementary symmetric polynomials e k ( x 1 ,.
+
+, x n ) for k = 1,.
+
+, n form an algebraic basis for the space of symmetric polynomials in x 1 ,.
+
+x n : every polynomial expression in the x i that is invariant under all permutations of those variables is given by a polynomial expression in those elementary symmetric polynomials, and this expression is unique up to equivalence of polynomial expressions.
+
+This is a general fact known as the fundamental theorem of symmetric polynomials , and Newton's identities provide explicit formulae in the case of power sum symmetric polynomials.
+
+Applied to the monic polynomial t n + ∑ k = 1 n ( − 1 ) k a k t n − k {\textstyle t^{n}+\sum _{k=1}^{n}(-1)^{k}a_{k}t^{n-k}} with all coefficients a k considered as free parameters, this means that every symmetric polynomial expression S ( x 1 ,.
+
+, x n ) in its roots can be expressed instead as a polynomial expression P ( a 1 ,.
+
+, a n ) in terms of its coefficients only, in other words without requiring knowledge of the roots.
+
+This fact also follows from general considerations in Galois theory (one views the a k as elements of a base field with roots in an extension field whose Galois group permutes them according to the full symmetric group, and the field fixed under all elements of the Galois group is the base field).
+
+The Newton identities also permit expressing the elementary symmetric polynomials in terms of the power sum symmetric polynomials, showing that any symmetric polynomial can also be expressed in the power sums.
+
+In fact the first n power sums also form an algebraic basis for the space of symmetric polynomials.
+
+Related identities [ edit ] There are a number of (families of) identities that, while they should be distinguished from Newton's identities, are very closely related to them.
+
+A variant using complete homogeneous symmetric polynomials [ edit ] Denoting by h k the complete homogeneous symmetric polynomial (that is, the sum of all monomials of degree k ), the power sum polynomials also satisfy identities similar to Newton's identities, but not involving any minus signs.
+
+Expressed as identities of in the ring of symmetric functions , they read k h k = ∑ i = 1 k h k − i p i , {\displaystyle kh_{k}=\sum _{i=1}^{k}h_{k-i}p_{i},} valid for all n ≥ k ≥ 1.
+
+Contrary to Newton's identities, the left-hand sides do not become zero for large k , and the right-hand sides contain ever more non-zero terms.
+
+For the first few values of k , one has h 1 = p 1 , 2 h 2 = h 1 p 1 + p 2 , 3 h 3 = h 2 p 1 + h 1 p 2 + p 3.
+
+{\displaystyle {\begin{aligned}h_{1}&=p_{1},\\2h_{2}&=h_{1}p_{1}+p_{2},\\3h_{3}&=h_{2}p_{1}+h_{1}p_{2}+p_{3}.
+
+\\\end{aligned}}} These relations can be justified by an argument analogous to the one by comparing coefficients in power series given above, based in this case on the generating function identity ∑ k = 0 ∞ h k ( x 1 , … , x n ) t k = ∏ i = 1 n 1 1 − x i t.
+
+{\displaystyle \sum _{k=0}^{\infty }h_{k}(x_{1},\ldots ,x_{n})t^{k}=\prod _{i=1}^{n}{\frac {1}{1-x_{i}t}}.
+
+} Proofs of Newton's identities, like these given below, cannot be easily adapted to prove these variants of those identities.
+
+Expressing elementary symmetric polynomials in terms of power sums [ edit ] As mentioned, Newton's identities can be used to recursively express elementary symmetric polynomials in terms of power sums.
+
+Doing so requires the introduction of integer denominators, so it can be done in the ring Λ Q of symmetric functions with rational coefficients: e 1 = p 1 , e 2 = 1 2 p 1 2 − 1 2 p 2 = 1 2 ( p 1 2 − p 2 ) , e 3 = 1 6 p 1 3 − 1 2 p 1 p 2 + 1 3 p 3 = 1 6 ( p 1 3 − 3 p 1 p 2 + 2 p 3 ) , e 4 = 1 24 p 1 4 − 1 4 p 1 2 p 2 + 1 8 p 2 2 + 1 3 p 1 p 3 − 1 4 p 4 = 1 24 ( p 1 4 − 6 p 1 2 p 2 + 3 p 2 2 + 8 p 1 p 3 − 6 p 4 ) , ⋮ e n = ( − 1 ) n ∑ m 1 + 2 m 2 + ⋯ + n m n = n m 1 ≥ 0 , … , m n ≥ 0 ∏ i = 1 n ( − p i ) m i m i ! i m i {\displaystyle {\begin{aligned}e_{1}&=p_{1},\\e_{2}&=\textstyle {\frac {1}{2}}p_{1}^{2}-{\frac {1}{2}}p_{2}&&=\textstyle {\frac {1}{2}}(p_{1}^{2}-p_{2}),\\e_{3}&=\textstyle {\frac {1}{6}}p_{1}^{3}-{\frac {1}{2}}p_{1}p_{2}+{\frac {1}{3}}p_{3}&&=\textstyle {\frac {1}{6}}(p_{1}^{3}-3p_{1}p_{2}+2p_{3}),\\e_{4}&=\textstyle {\frac {1}{24}}p_{1}^{4}-{\frac {1}{4}}p_{1}^{2}p_{2}+{\frac {1}{8}}p_{2}^{2}+{\frac {1}{3}}p_{1}p_{3}-{\frac {1}{4}}p_{4}&&=\textstyle {\frac {1}{24}}(p_{1}^{4}-6p_{1}^{2}p_{2}+3p_{2}^{2}+8p_{1}p_{3}-6p_{4}),\\&~~\vdots \\e_{n}&=(-1)^{n}\sum _{m_{1}+2m_{2}+\cdots +nm_{n}=n \atop m_{1}\geq 0,\ldots ,m_{n}\geq 0}\prod _{i=1}^{n}{\frac {(-p_{i})^{m_{i}}}{m_{i}!\,i^{m_{i}}}}\\\end{aligned}}} and so forth.
+
+[2] The general formula can be conveniently expressed as e k = ( − 1 ) k k ! B k ( − p 1 , − 1 ! p 2 , − 2 ! p 3 , … , − ( k − 1 ) ! p k ) , {\displaystyle e_{k}={\frac {(-1)^{k}}{k!}}B_{k}(-p_{1},-1!\,p_{2},-2!\,p_{3},\ldots ,-(k-1)!\,p_{k}),} where the B n is the complete exponential Bell polynomial.
+
+This expression also leads to the following identity for generating functions: ∑ k = 0 ∞ e k t k = exp ⁡ ( ∑ k = 1 ∞ ( − 1 ) k + 1 k p k t k ).
+
+{\displaystyle \sum _{k=0}^{\infty }e_{k}\,t^{k}=\exp \left(\sum _{k=1}^{\infty }{\frac {(-1)^{k+1}}{k}}p_{k}\,t^{k}\right).
+
+} Applied to a monic polynomial, these formulae express the coefficients in terms of the power sums of the roots: replace each e i by a i and each p k by s k.
+
+Expressing complete homogeneous symmetric polynomials in terms of power sums [ edit ] The analogous relations involving complete homogeneous symmetric polynomials can be similarly developed, giving equations h 1 = p 1 , h 2 = 1 2 p 1 2 + 1 2 p 2 = 1 2 ( p 1 2 + p 2 ) , h 3 = 1 6 p 1 3 + 1 2 p 1 p 2 + 1 3 p 3 = 1 6 ( p 1 3 + 3 p 1 p 2 + 2 p 3 ) , h 4 = 1 24 p 1 4 + 1 4 p 1 2 p 2 + 1 8 p 2 2 + 1 3 p 1 p 3 + 1 4 p 4 = 1 24 ( p 1 4 + 6 p 1 2 p 2 + 3 p 2 2 + 8 p 1 p 3 + 6 p 4 ) , ⋮ h k = ∑ m 1 + 2 m 2 + ⋯ + k m k = k m 1 ≥ 0 , … , m k ≥ 0 ∏ i = 1 k p i m i m i ! i m i {\displaystyle {\begin{aligned}h_{1}&=p_{1},\\h_{2}&=\textstyle {\frac {1}{2}}p_{1}^{2}+{\frac {1}{2}}p_{2}&&=\textstyle {\frac {1}{2}}(p_{1}^{2}+p_{2}),\\h_{3}&=\textstyle {\frac {1}{6}}p_{1}^{3}+{\frac {1}{2}}p_{1}p_{2}+{\frac {1}{3}}p_{3}&&=\textstyle {\frac {1}{6}}(p_{1}^{3}+3p_{1}p_{2}+2p_{3}),\\h_{4}&=\textstyle {\frac {1}{24}}p_{1}^{4}+{\frac {1}{4}}p_{1}^{2}p_{2}+{\frac {1}{8}}p_{2}^{2}+{\frac {1}{3}}p_{1}p_{3}+{\frac {1}{4}}p_{4}&&=\textstyle {\frac {1}{24}}(p_{1}^{4}+6p_{1}^{2}p_{2}+3p_{2}^{2}+8p_{1}p_{3}+6p_{4}),\\&~~\vdots \\h_{k}&=\sum _{m_{1}+2m_{2}+\cdots +km_{k}=k \atop m_{1}\geq 0,\ldots ,m_{k}\geq 0}\prod _{i=1}^{k}{\frac {p_{i}^{m_{i}}}{m_{i}!\,i^{m_{i}}}}\end{aligned}}} and so forth, in which there are only plus signs.
+
+In terms of the complete Bell polynomial, h k = 1 k ! B k ( p 1 , 1 ! p 2 , 2 ! p 3 , … , ( k − 1 ) ! p k ).
+
+{\displaystyle h_{k}={\frac {1}{k!}}B_{k}(p_{1},1!\,p_{2},2!\,p_{3},\ldots ,(k-1)!\,p_{k}).
+
+} These expressions correspond exactly to the cycle index polynomials of the symmetric groups , if one interprets the power sums p i as indeterminates: the coefficient in the expression for h k of any monomial p 1 m 1 p 2 m 2.
+
+p l m l is equal to the fraction of all permutations of k that have m 1 fixed points, m 2 cycles of length 2,.
+
+, and m l cycles of length l.
+
+Explicitly, this coefficient can be written as 1 / N {\displaystyle 1/N} where N = ∏ i = 1 l ( m i ! i m i ) {\textstyle N=\prod _{i=1}^{l}(m_{i}!\,i^{m_{i}})} ; this N is the number permutations commuting with any given permutation π of the given cycle type.
+
+The expressions for the elementary symmetric functions have coefficients with the same absolute value, but a sign equal to the sign of π , namely (−1) m 2 + m 4 +.
+
+It can be proved by considering the following inductive step: m f ( m ; m 1 , … , m n ) = f ( m − 1 ; m 1 − 1 , … , m n ) + ⋯ + f ( m − n ; m 1 , … , m n − 1 ) m 1 ∏ i = 1 n 1 i m i m i ! + ⋯ + n m n ∏ i = 1 n 1 i m i m i ! = m ∏ i = 1 n 1 i m i m i ! {\displaystyle {\begin{aligned}mf(m;m_{1},\ldots ,m_{n})&=f(m-1;m_{1}-1,\ldots ,m_{n})+\cdots +f(m-n;m_{1},\ldots ,m_{n}-1)\\m_{1}\prod _{i=1}^{n}{\frac {1}{i^{m_{i}}m_{i}!}}+\cdots +nm_{n}\prod _{i=1}^{n}{\frac {1}{i^{m_{i}}m_{i}!}}&=m\prod _{i=1}^{n}{\frac {1}{i^{m_{i}}m_{i}!}}\end{aligned}}} By analogy with the derivation of the generating function of the e n {\displaystyle e_{n}} , we can also obtain the generating function of the h n {\displaystyle h_{n}} , in terms of the power sums, as: ∑ k = 0 ∞ h k t k = exp ⁡ ( ∑ k = 1 ∞ p k k t k ).
+
+{\displaystyle \sum _{k=0}^{\infty }h_{k}\,t^{k}=\exp \left(\sum _{k=1}^{\infty }{\frac {p_{k}}{k}}\,t^{k}\right).
+
+} This generating function is thus the plethystic exponential of p 1 t = ( x 1 + ⋯ + x n ) t {\displaystyle p_{1}t=(x_{1}+\cdots +x_{n})t}.
+
+Expressing power sums in terms of elementary symmetric polynomials [ edit ] One may also use Newton's identities to express power sums in terms of elementary symmetric polynomials, which does not introduce denominators: p 1 = e 1 , p 2 = e 1 2 − 2 e 2 , p 3 = e 1 3 − 3 e 2 e 1 + 3 e 3 , p 4 = e 1 4 − 4 e 2 e 1 2 + 4 e 3 e 1 + 2 e 2 2 − 4 e 4 , p 5 = e 1 5 − 5 e 2 e 1 3 + 5 e 3 e 1 2 + 5 e 2 2 e 1 − 5 e 4 e 1 − 5 e 3 e 2 + 5 e 5 , p 6 = e 1 6 − 6 e 2 e 1 4 + 6 e 3 e 1 3 + 9 e 2 2 e 1 2 − 6 e 4 e 1 2 − 12 e 3 e 2 e 1 + 6 e 5 e 1 − 2 e 2 3 + 3 e 3 2 + 6 e 4 e 2 − 6 e 6.
+
+{\displaystyle {\begin{aligned}p_{1}&=e_{1},\\p_{2}&=e_{1}^{2}-2e_{2},\\p_{3}&=e_{1}^{3}-3e_{2}e_{1}+3e_{3},\\p_{4}&=e_{1}^{4}-4e_{2}e_{1}^{2}+4e_{3}e_{1}+2e_{2}^{2}-4e_{4},\\p_{5}&=e_{1}^{5}-5e_{2}e_{1}^{3}+5e_{3}e_{1}^{2}+5e_{2}^{2}e_{1}-5e_{4}e_{1}-5e_{3}e_{2}+5e_{5},\\p_{6}&=e_{1}^{6}-6e_{2}e_{1}^{4}+6e_{3}e_{1}^{3}+9e_{2}^{2}e_{1}^{2}-6e_{4}e_{1}^{2}-12e_{3}e_{2}e_{1}+6e_{5}e_{1}-2e_{2}^{3}+3e_{3}^{2}+6e_{4}e_{2}-6e_{6}.
+
+\end{aligned}}} The first four formulas were obtained by Albert Girard in 1629 (thus before Newton).
+
+[3] The general formula (for all positive integers m ) is: p m = ( − 1 ) m m ∑ r 1 + 2 r 2 + ⋯ + m r m = m r 1 ≥ 0 , … , r m ≥ 0 ( r 1 + r 2 + ⋯ + r m − 1 ) ! r 1 ! r 2 ! ⋯ r m ! ∏ i = 1 m ( − e i ) r i.
+
+{\displaystyle p_{m}=(-1)^{m}m\sum _{r_{1}+2r_{2}+\cdots +mr_{m}=m \atop r_{1}\geq 0,\ldots ,r_{m}\geq 0}{\frac {(r_{1}+r_{2}+\cdots +r_{m}-1)!}{r_{1}!\,r_{2}!\cdots r_{m}!}}\prod _{i=1}^{m}(-e_{i})^{r_{i}}.
+
+} This can be conveniently stated in terms of ordinary Bell polynomials as p m = ( − 1 ) m m ∑ k = 1 m 1 k B ^ m , k ( − e 1 , … , − e m − k + 1 ) , {\displaystyle p_{m}=(-1)^{m}m\sum _{k=1}^{m}{\frac {1}{k}}{\hat {B}}_{m,k}(-e_{1},\ldots ,-e_{m-k+1}),} or equivalently as the generating function : [4] ∑ k = 1 ∞ ( − 1 ) k − 1 p k t k k = ln ⁡ ( 1 + e 1 t + e 2 t 2 + e 3 t 3 + ⋯ ) = e 1 t − 1 2 ( e 1 2 − 2 e 2 ) t 2 + 1 3 ( e 1 3 − 3 e 1 e 2 + 3 e 3 ) t 3 + ⋯ , {\displaystyle {\begin{aligned}\sum _{k=1}^{\infty }(-1)^{k-1}p_{k}{\frac {t^{k}}{k}}&=\ln \left(1+e_{1}t+e_{2}t^{2}+e_{3}t^{3}+\cdots \right)\\&=e_{1}t-{\frac {1}{2}}\left(e_{1}^{2}-2e_{2}\right)t^{2}+{\frac {1}{3}}\left(e_{1}^{3}-3e_{1}e_{2}+3e_{3}\right)t^{3}+\cdots ,\end{aligned}}} which is analogous to the Bell polynomial exponential generating function given in the previous subsection.
+
+The multiple summation formula above can be proved by considering the following inductive step: f ( m ; r 1 , … , r n ) = f ( m − 1 ; r 1 − 1 , ⋯ , r n ) + ⋯ + f ( m − n ; r 1 , … , r n − 1 ) = 1 ( r 1 − 1 ) ! ⋯ r n ! ( m − 1 ) ( r 1 + ⋯ + r n − 2 ) ! + ⋯ ⋯ + 1 r 1 ! ⋯ ( r n − 1 ) ! ( m − n ) ( r 1 + ⋯ + r n − 2 ) ! = 1 r 1 ! ⋯ r n ! [ r 1 ( m − 1 ) + ⋯ + r n ( m − n ) ] [ r 1 + ⋯ + r n − 2 ] ! = 1 r 1 ! ⋯ r n ! [ m ( r 1 + ⋯ + r n ) − m ] [ r 1 + ⋯ + r n − 2 ] ! = m ( r 1 + ⋯ + r n − 1 ) ! r 1 ! ⋯ r n ! {\displaystyle {\begin{aligned}f(m;\;r_{1},\ldots ,r_{n})={}&f(m-1;\;r_{1}-1,\cdots ,r_{n})+\cdots +f(m-n;\;r_{1},\ldots ,r_{n}-1)\\[8pt]={}&{\frac {1}{(r_{1}-1)!\cdots r_{n}!}}(m-1)(r_{1}+\cdots +r_{n}-2)!+\cdots \\&\cdots +{\frac {1}{r_{1}!\cdots (r_{n}-1)!}}(m-n)(r_{1}+\cdots +r_{n}-2)!\\[8pt]={}&{\frac {1}{r_{1}!\cdots r_{n}!}}\left[r_{1}(m-1)+\cdots +r_{n}(m-n)\right]\left[r_{1}+\cdots +r_{n}-2\right]!\\[8pt]={}&{\frac {1}{r_{1}!\cdots r_{n}!}}\left[m(r_{1}+\cdots +r_{n})-m\right]\left[r_{1}+\cdots +r_{n}-2\right]!\\[8pt]={}&{\frac {m(r_{1}+\cdots +r_{n}-1)!}{r_{1}!\cdots r_{n}!}}\end{aligned}}} Expressing power sums in terms of complete homogeneous symmetric polynomials [ edit ] Finally one may use the variant identities involving complete homogeneous symmetric polynomials similarly to express power sums in term of them: p 1 = + h 1 , p 2 = − h 1 2 + 2 h 2 , p 3 = + h 1 3 − 3 h 2 h 1 + 3 h 3 , p 4 = − h 1 4 + 4 h 2 h 1 2 − 4 h 3 h 1 − 2 h 2 2 + 4 h 4 , p 5 = + h 1 5 − 5 h 2 h 1 3 + 5 h 2 2 h 1 + 5 h 3 h 1 2 − 5 h 3 h 2 − 5 h 4 h 1 + 5 h 5 , p 6 = − h 1 6 + 6 h 2 h 1 4 − 9 h 2 2 h 1 2 − 6 h 3 h 1 3 + 2 h 2 3 + 12 h 3 h 2 h 1 + 6 h 4 h 1 2 − 3 h 3 2 − 6 h 4 h 2 − 6 h 1 h 5 + 6 h 6 , {\displaystyle {\begin{aligned}p_{1}&=+h_{1},\\p_{2}&=-h_{1}^{2}+2h_{2},\\p_{3}&=+h_{1}^{3}-3h_{2}h_{1}+3h_{3},\\p_{4}&=-h_{1}^{4}+4h_{2}h_{1}^{2}-4h_{3}h_{1}-2h_{2}^{2}+4h_{4},\\p_{5}&=+h_{1}^{5}-5h_{2}h_{1}^{3}+5h_{2}^{2}h_{1}+5h_{3}h_{1}^{2}-5h_{3}h_{2}-5h_{4}h_{1}+5h_{5},\\p_{6}&=-h_{1}^{6}+6h_{2}h_{1}^{4}-9h_{2}^{2}h_{1}^{2}-6h_{3}h_{1}^{3}+2h_{2}^{3}+12h_{3}h_{2}h_{1}+6h_{4}h_{1}^{2}-3h_{3}^{2}-6h_{4}h_{2}-6h_{1}h_{5}+6h_{6},\\\end{aligned}}} and so on.
+
+Apart from the replacement of each e i by the corresponding h i , the only change with respect to the previous family of identities is in the signs of the terms, which in this case depend just on the number of factors present: the sign of the monomial ∏ i = 1 l h i m i {\textstyle \prod _{i=1}^{l}h_{i}^{m_{i}}} is −(−1) m 1 + m 2 + m 3 +.
+
+In particular the above description of the absolute value of the coefficients applies here as well.
+
+The general formula (for all non-negative integers m ) is: p m = − ∑ r 1 + 2 r 2 + ⋯ + m r m = m r 1 ≥ 0 , … , r m ≥ 0 m ( r 1 + r 2 + ⋯ + r m − 1 ) ! r 1 ! r 2 ! ⋯ r m ! ∏ i = 1 m ( − h i ) r i {\displaystyle p_{m}=-\sum _{r_{1}+2r_{2}+\cdots +mr_{m}=m \atop r_{1}\geq 0,\ldots ,r_{m}\geq 0}{\frac {m(r_{1}+r_{2}+\cdots +r_{m}-1)!}{r_{1}!\,r_{2}!\cdots r_{m}!}}\prod _{i=1}^{m}(-h_{i})^{r_{i}}} Expressions as determinants [ edit ] One can obtain explicit formulas for the above expressions in the form of determinants, by considering the first n of Newton's identities (or it counterparts for the complete homogeneous polynomials) as linear equations in which the elementary symmetric functions are known and the power sums are unknowns (or vice versa), and apply Cramer's rule to find the solution for the final unknown.
+
+For instance taking Newton's identities in the form e 1 = 1 p 1 , 2 e 2 = e 1 p 1 − 1 p 2 , 3 e 3 = e 2 p 1 − e 1 p 2 + 1 p 3 , ⋮ n e n = e n − 1 p 1 − e n − 2 p 2 + ⋯ + ( − 1 ) n e 1 p n − 1 + ( − 1 ) n − 1 p n {\displaystyle {\begin{aligned}e_{1}&=1p_{1},\\2e_{2}&=e_{1}p_{1}-1p_{2},\\3e_{3}&=e_{2}p_{1}-e_{1}p_{2}+1p_{3},\\&\,\,\,\vdots \\ne_{n}&=e_{n-1}p_{1}-e_{n-2}p_{2}+\cdots +(-1)^{n}e_{1}p_{n-1}+(-1)^{n-1}p_{n}\end{aligned}}} we consider p 1 , − p 2 , p 3 , … , ( − 1 ) n p n − 1 {\displaystyle p_{1},-p_{2},p_{3},\ldots ,(-1)^{n}p_{n-1}} and p n {\displaystyle p_{n}} as unknowns, and solve for the final one, giving p n = | 1 0 ⋯ e 1 e 1 1 0 ⋯ 2 e 2 e 2 e 1 1 3 e 3 ⋮ ⋱ ⋱ ⋮ e n − 1 ⋯ e 2 e 1 n e n | | 1 0 ⋯ e 1 1 0 ⋯ e 2 e 1 1 ⋮ ⋱ ⋱ e n − 1 ⋯ e 2 e 1 1 | − 1 = ( − 1 ) n − 1 | 1 0 ⋯ e 1 e 1 1 0 ⋯ 2 e 2 e 2 e 1 1 3 e 3 ⋮ ⋱ ⋱ ⋮ e n − 1 ⋯ e 2 e 1 n e n | = | e 1 1 0 ⋯ 2 e 2 e 1 1 0 ⋯ 3 e 3 e 2 e 1 1 ⋮ ⋱ ⋱ n e n e n − 1 ⋯ e 1 |.
+
+{\displaystyle {\begin{aligned}p_{n}={}&{\begin{vmatrix}1&0&\cdots &&e_{1}\\e_{1}&1&0&\cdots &2e_{2}\\e_{2}&e_{1}&1&&3e_{3}\\\vdots &&\ddots &\ddots &\vdots \\e_{n-1}&\cdots &e_{2}&e_{1}&ne_{n}\end{vmatrix}}{\begin{vmatrix}1&0&\cdots &\\e_{1}&1&0&\cdots \\e_{2}&e_{1}&1&\\\vdots &&\ddots &\ddots \\e_{n-1}&\cdots &e_{2}&e_{1}&1\end{vmatrix}}^{-1}\\[7pt]={(-1)^{n-1}}&{\begin{vmatrix}1&0&\cdots &&e_{1}\\e_{1}&1&0&\cdots &2e_{2}\\e_{2}&e_{1}&1&&3e_{3}\\\vdots &&\ddots &\ddots &\vdots \\e_{n-1}&\cdots &e_{2}&e_{1}&ne_{n}\end{vmatrix}}\\[7pt]={}&{\begin{vmatrix}e_{1}&1&0&\cdots \\2e_{2}&e_{1}&1&0&\cdots \\3e_{3}&e_{2}&e_{1}&1\\\vdots &&&\ddots &\ddots \\ne_{n}&e_{n-1}&\cdots &&e_{1}\end{vmatrix}}.
+
+\end{aligned}}} Solving for e n {\displaystyle e_{n}} instead of for p n {\displaystyle p_{n}} is similar, as the analogous computations for the complete homogeneous symmetric polynomials; in each case the details are slightly messier than the final results, which are (Macdonald 1979, p.
+
+20): e n = 1 n ! | p 1 1 0 ⋯ p 2 p 1 2 0 ⋯ ⋮ ⋱ ⋱ p n − 1 p n − 2 ⋯ p 1 n − 1 p n p n − 1 ⋯ p 2 p 1 | p n = ( − 1 ) n − 1 | h 1 1 0 ⋯ 2 h 2 h 1 1 0 ⋯ 3 h 3 h 2 h 1 1 ⋮ ⋱ ⋱ n h n h n − 1 ⋯ h 1 | h n = 1 n ! | p 1 − 1 0 ⋯ p 2 p 1 − 2 0 ⋯ ⋮ ⋱ ⋱ p n − 1 p n − 2 ⋯ p 1 1 − n p n p n − 1 ⋯ p 2 p 1 |.
+
+{\displaystyle {\begin{aligned}e_{n}={\frac {1}{n!}}&{\begin{vmatrix}p_{1}&1&0&\cdots \\p_{2}&p_{1}&2&0&\cdots \\\vdots &&\ddots &\ddots \\p_{n-1}&p_{n-2}&\cdots &p_{1}&n-1\\p_{n}&p_{n-1}&\cdots &p_{2}&p_{1}\end{vmatrix}}\\[7pt]p_{n}=(-1)^{n-1}&{\begin{vmatrix}h_{1}&1&0&\cdots \\2h_{2}&h_{1}&1&0&\cdots \\3h_{3}&h_{2}&h_{1}&1\\\vdots &&&\ddots &\ddots \\nh_{n}&h_{n-1}&\cdots &&h_{1}\end{vmatrix}}\\[7pt]h_{n}={\frac {1}{n!}}&{\begin{vmatrix}p_{1}&-1&0&\cdots \\p_{2}&p_{1}&-2&0&\cdots \\\vdots &&\ddots &\ddots \\p_{n-1}&p_{n-2}&\cdots &p_{1}&1-n\\p_{n}&p_{n-1}&\cdots &p_{2}&p_{1}\end{vmatrix}}.
+
+\end{aligned}}} Note that the use of determinants makes that the formula for h n {\displaystyle h_{n}} has additional minus signs compared to the one for e n {\displaystyle e_{n}} , while the situation for the expanded form given earlier is opposite.
+
+As remarked in (Littlewood 1950, p.
+
+84) one can alternatively obtain the formula for h n {\displaystyle h_{n}} by taking the permanent of the matrix for e n {\displaystyle e_{n}} instead of the determinant, and more generally an expression for any Schur polynomial can be obtained by taking the corresponding immanant of this matrix.
+
+Derivation of the identities [ edit ] Each of Newton's identities can easily be checked by elementary algebra; however, their validity in general needs a proof.
+
+Here are some possible derivations.
+
+From the special case n = k [ edit ] One can obtain the k -th Newton identity in k variables by substitution into ∏ i = 1 k ( t − x i ) = ∑ i = 0 k ( − 1 ) k − i e k − i ( x 1 , … , x k ) t i {\displaystyle \prod _{i=1}^{k}(t-x_{i})=\sum _{i=0}^{k}(-1)^{k-i}e_{k-i}(x_{1},\ldots ,x_{k})t^{i}} as follows.
+
+Substituting x j for t gives 0 = ∑ i = 0 k ( − 1 ) k − i e k − i ( x 1 , … , x k ) x j i for 1 ≤ j ≤ k {\displaystyle 0=\sum _{i=0}^{k}(-1)^{k-i}e_{k-i}(x_{1},\ldots ,x_{k}){x_{j}}^{i}\quad {\text{for }}1\leq j\leq k} Summing over all j gives 0 = ( − 1 ) k k e k ( x 1 , … , x k ) + ∑ i = 1 k ( − 1 ) k − i e k − i ( x 1 , … , x k ) p i ( x 1 , … , x k ) , {\displaystyle 0=(-1)^{k}ke_{k}(x_{1},\ldots ,x_{k})+\sum _{i=1}^{k}(-1)^{k-i}e_{k-i}(x_{1},\ldots ,x_{k})p_{i}(x_{1},\ldots ,x_{k}),} where the terms for i = 0 were taken out of the sum because p 0 is (usually) not defined.
+
+This equation immediately gives the k -th Newton identity in k variables.
+
+Since this is an identity of symmetric polynomials (homogeneous) of degree k , its validity for any number of variables follows from its validity for k variables.
+
+Concretely, the identities in n < k variables can be deduced by setting k − n variables to zero.
+
+The k -th Newton identity in n > k variables contains more terms on both sides of the equation than the one in k variables, but its validity will be assured if the coefficients of any monomial match.
+
+Because no individual monomial involves more than k of the variables, the monomial will survive the substitution of zero for some set of n − k (other) variables, after which the equality of coefficients is one that arises in the k -th Newton identity in k (suitably chosen) variables.
+
+Comparing coefficients in series [ edit ] Another derivation can be obtained by computations in the ring of formal power series R [[ t ]], where R is Z [ x 1 ,.
+
+, x n ], the ring of polynomials in n variables x 1 ,.
+
+, x n over the integers.
+
+Starting again from the basic relation ∏ i = 1 n ( t − x i ) = ∑ k = 0 n ( − 1 ) k a k t n − k {\displaystyle \prod _{i=1}^{n}(t-x_{i})=\sum _{k=0}^{n}(-1)^{k}a_{k}t^{n-k}} and "reversing the polynomials" by substituting 1/ t for t and then multiplying both sides by t n to remove negative powers of t , gives ∏ i = 1 n ( 1 − x i t ) = ∑ k = 0 n ( − 1 ) k a k t k.
+
+{\displaystyle \prod _{i=1}^{n}(1-x_{i}t)=\sum _{k=0}^{n}(-1)^{k}a_{k}t^{k}.
+
+} (the above computation should be performed in the field of fractions of R [[ t ]]; alternatively, the identity can be obtained simply by evaluating the product on the left side) Swapping sides and expressing the a i as the elementary symmetric polynomials they stand for gives the identity ∑ k = 0 n ( − 1 ) k e k ( x 1 , … , x n ) t k = ∏ i = 1 n ( 1 − x i t ).
+
+{\displaystyle \sum _{k=0}^{n}(-1)^{k}e_{k}(x_{1},\ldots ,x_{n})t^{k}=\prod _{i=1}^{n}(1-x_{i}t).
+
+} One formally differentiates both sides with respect to t , and then (for convenience) multiplies by t , to obtain ∑ k = 0 n ( − 1 ) k k e k ( x 1 , … , x n ) t k = t ∑ i = 1 n [ ( − x i ) ∏ j ≠ i ( 1 − x j t ) ] = − ( ∑ i = 1 n x i t 1 − x i t ) ∏ j = 1 n ( 1 − x j t ) = − [ ∑ i = 1 n ∑ j = 1 ∞ ( x i t ) j ] [ ∑ ℓ = 0 n ( − 1 ) ℓ e ℓ ( x 1 , … , x n ) t ℓ ] = [ ∑ j = 1 ∞ p j ( x 1 , … , x n ) t j ] [ ∑ ℓ = 0 n ( − 1 ) ℓ − 1 e ℓ ( x 1 , … , x n ) t ℓ ] , {\displaystyle {\begin{aligned}\sum _{k=0}^{n}(-1)^{k}ke_{k}(x_{1},\ldots ,x_{n})t^{k}&=t\sum _{i=1}^{n}\left[(-x_{i})\prod \nolimits _{j\neq i}(1-x_{j}t)\right]\\&=-\left(\sum _{i=1}^{n}{\frac {x_{i}t}{1-x_{i}t}}\right)\prod \nolimits _{j=1}^{n}(1-x_{j}t)\\&=-\left[\sum _{i=1}^{n}\sum _{j=1}^{\infty }(x_{i}t)^{j}\right]\left[\sum _{\ell =0}^{n}(-1)^{\ell }e_{\ell }(x_{1},\ldots ,x_{n})t^{\ell }\right]\\&=\left[\sum _{j=1}^{\infty }p_{j}(x_{1},\ldots ,x_{n})t^{j}\right]\left[\sum _{\ell =0}^{n}(-1)^{\ell -1}e_{\ell }(x_{1},\ldots ,x_{n})t^{\ell }\right],\\\end{aligned}}} where the polynomial on the right hand side was first rewritten as a rational function in order to be able to factor out a product out of the summation, then the fraction in the summand was developed as a series in t , using the formula X 1 − X = X + X 2 + X 3 + X 4 + X 5 + ⋯ , {\displaystyle {\frac {X}{1-X}}=X+X^{2}+X^{3}+X^{4}+X^{5}+\cdots ,} and finally the coefficient of each t j was collected, giving a power sum.
+
+(The series in t is a formal power series, but may alternatively be thought of as a series expansion for t sufficiently close to 0, for those more comfortable with that; in fact one is not interested in the function here, but only in the coefficients of the series.
+
+) Comparing coefficients of t k on both sides one obtains ( − 1 ) k k e k ( x 1 , … , x n ) = ∑ j = 1 k ( − 1 ) k − j − 1 p j ( x 1 , … , x n ) e k − j ( x 1 , … , x n ) , {\displaystyle (-1)^{k}ke_{k}(x_{1},\ldots ,x_{n})=\sum _{j=1}^{k}(-1)^{k-j-1}p_{j}(x_{1},\ldots ,x_{n})e_{k-j}(x_{1},\ldots ,x_{n}),} which gives the k -th Newton identity.
+
+As a telescopic sum of symmetric function identities [ edit ] The following derivation, given essentially in (Mead, 1992), is formulated in the ring of symmetric functions for clarity (all identities are independent of the number of variables).
+
+Fix some k > 0, and define the symmetric function r ( i ) for 2 ≤ i ≤ k as the sum of all distinct monomials of degree k obtained by multiplying one variable raised to the power i with k − i distinct other variables (this is the monomial symmetric function m γ where γ is a hook shape ( i ,1,1,.
+
+,1)).
+
+In particular r ( k ) = p k ; for r (1) the description would amount to that of e k , but this case was excluded since here monomials no longer have any distinguished variable.
+
+All products p i e k − i can be expressed in terms of the r ( j ) with the first and last case being somewhat special.
+
+One has p i e k − i = r ( i ) + r ( i + 1 ) for 1 < i < k {\displaystyle p_{i}e_{k-i}=r(i)+r(i+1)\quad {\text{for }}1<i<k} since each product of terms on the left involving distinct variables contributes to r ( i ), while those where the variable from p i already occurs among the variables of the term from e k − i contributes to r ( i + 1), and all terms on the right are so obtained exactly once.
+
+For i = k one multiplies by e 0 = 1, giving trivially p k e 0 = p k = r ( k ).
+
+{\displaystyle p_{k}e_{0}=p_{k}=r(k).
+
+} Finally the product p 1 e k −1 for i = 1 gives contributions to r ( i + 1) = r (2) like for other values i < k , but the remaining contributions produce k times each monomial of e k , since any one of the variables may come from the factor p 1 ; thus p 1 e k − 1 = k e k + r ( 2 ).
+
+{\displaystyle p_{1}e_{k-1}=ke_{k}+r(2).
+
+} The k -th Newton identity is now obtained by taking the alternating sum of these equations, in which all terms of the form r ( i ) cancel out.
+
+Combinatorial Proof [ edit ] A short combinatorial proof of Newton's Identities is given in (Zeilberger, 1984) [5] See also [ edit ] Power sum symmetric polynomial Elementary symmetric polynomial Newton's inequalities Symmetric function Fluid solutions , an article giving an application of Newton's identities to computing the characteristic polynomial of the Einstein tensor in the case of a perfect fluid , and similar articles on other types of exact solutions in general relativity.
+
+References [ edit ] ^ Delves, L.
+
+M.
+
+(1967).
+
+"A Numerical Method of Locating the Zeros of an Analytic Function".
+
+Mathematics of Computation.
+
+21 (100): 543–560.
+
+doi : 10.
+
+2307/2004999.
+
+JSTOR 2004999.
+
+^ N.
+
+b.
+
+, the coefficients of the weighted product terms in the sum given by the identity above are related to the M2 numbers in Section 26.
+
+4 of the DLMF and/or the coefficients involved in the expansions of Faa di Bruno's formula ^ Tignol, Jean-Pierre (2004).
+
+Galois' theory of algebraic equations (Reprinted ed.
+
+).
+
+River Edge, NJ: World Scientific.
+
+pp.
+
+37 –38.
+
+ISBN 981-02-4541-6.
+
+^ Weisstein, Eric W.
+
+"Symmetric Polynomial".
+
+MathWorld.
+
+^ Zeilberger, Doron (1984).
+
+"A Combinatorial Proof of Newton's Identities".
+
+Discrete Mathematics.
+
+49 (3): 319.
+
+doi : 10.
+
+1016/0012-365X(84)90171-7.
+
+Tignol, Jean-Pierre (2001).
+
+Galois' theory of algebraic equations.
+
+Singapore: World Scientific.
+
+ISBN 978-981-02-4541-2.
+
+Bergeron, F.
+
+; Labelle, G.
+
+& Leroux, P.
+
+(1998).
+
+Combinatorial species and tree-like structures.
+
+Cambridge: Cambridge University Press.
+
+ISBN 978-0-521-57323-8.
+
+Cameron, Peter J.
+
+(1999).
+
+Permutation Groups.
+
+Cambridge: Cambridge University Press.
+
+ISBN 978-0-521-65378-7.
+
+Cox, David ; Little, John & O'Shea, Donal (1992).
+
+Ideals, Varieties, and Algorithms.
+
+New York: Springer-Verlag.
+
+ISBN 978-0-387-97847-5.
+
+Eppstein, D.
+
+; Goodrich, M.
+
+T.
+
+(2007).
+
+"Space-efficient straggler identification in round-trip data streams via Newton's identities and invertible Bloom filters".
+
+Algorithms and Data Structures, 10th International Workshop, WADS 2007.
+
+Springer-Verlag, Lecture Notes in Computer Science 4619.
+
+pp.
+
+637–648.
+
+arXiv : 0704.
+
+3313.
+
+Bibcode : 2007arXiv0704.
+
+3313E.
+
+Littlewood, D.
+
+E.
+
+(1950).
+
+The theory of group characters and matrix representations of groups.
+
+Oxford: Oxford University Press.
+
+viii+310.
+
+ISBN 0-8218-4067-3.
+
+Macdonald, I.
+
+G.
+
+(1979).
+
+Symmetric functions and Hall polynomials.
+
+Oxford Mathematical Monographs.
+
+Oxford: The Clarendon Press, Oxford University Press.
+
+viii+180.
+
+ISBN 0-19-853530-9.
+
+MR 0553598.
+
+Macdonald, I.
+
+G.
+
+(1995).
+
+Symmetric functions and Hall polynomials.
+
+Oxford Mathematical Monographs (Second ed.
+
+).
+
+New York: Oxford Science Publications.
+
+The Clarendon Press, Oxford University Press.
+
+p.
+
+x+475.
+
+ISBN 0-19-853489-2.
+
+MR 1354144.
+
+Mead, D.
+
+G.
+
+(1992).
+
+"Newton's Identities".
+
+The American Mathematical Monthly.
+
+99 (8).
+
+Mathematical Association of America: 749–751.
+
+doi : 10.
+
+2307/2324242.
+
+JSTOR 2324242.
+
+Stanley, Richard P.
+
+(1999).
+
+Enumerative Combinatorics, Vol.
+
+2.
+
+Cambridge University Press.
+
+ISBN 0-521-56069-1.
+
+(hardback).
+
+(paperback).
+
+Sturmfels, Bernd (1992).
+
+Algorithms in Invariant Theory.
+
+New York: Springer-Verlag.
+
+ISBN 978-0-387-82445-1.
+
+Tucker, Alan (1980).
+
+Applied Combinatorics (5/e ed.
+
+).
+
+New York: Wiley.
+
+ISBN 978-0-471-73507-6.
+
+External links [ edit ] Newton–Girard formulas on MathWorld A Matrix Proof of Newton's Identities in Mathematics Magazine Application on the number of real roots A Combinatorial Proof of Newton's Identities by Doron Zeilberger v t e Sir Isaac Newton Publications Fluxions (1671) De Motu (1684) Principia (1687) Opticks (1704) Queries (1704) Arithmetica (1707) De Analysi (1711) Other writings Quaestiones (1661–1665) " standing on the shoulders of giants " (1675) Notes on the Jewish Temple (c.
+
+1680) " General Scholium " (1713; " hypotheses non fingo " ) Ancient Kingdoms Amended (1728) Corruptions of Scripture (1754) Contributions Calculus fluxion Impact depth Inertia Newton disc Newton polygon Newton–Okounkov body Newton's reflector Newtonian telescope Newton scale Newton's metal Spectrum Structural coloration Newtonianism Bucket argument Newton's inequalities Newton's law of cooling Newton's law of universal gravitation post-Newtonian expansion parameterized gravitational constant Newton–Cartan theory Schrödinger–Newton equation Newton's laws of motion Kepler's laws Newtonian dynamics Newton's method in optimization Apollonius's problem truncated Newton method Gauss–Newton algorithm Newton's rings Newton's theorem about ovals Newton–Pepys problem Newtonian potential Newtonian fluid Classical mechanics Corpuscular theory of light Leibniz–Newton calculus controversy Newton's notation Rotating spheres Newton's cannonball Newton–Cotes formulas Newton's method generalized Gauss–Newton method Newton fractal Newton's identities Newton polynomial Newton's theorem of revolving orbits Newton–Euler equations Newton number kissing number problem Newton's quotient Parallelogram of force Newton–Puiseux theorem Absolute space and time Luminiferous aether Newtonian series table Personal life Woolsthorpe Manor (birthplace) Cranbury Park (home) Early life Later life Apple tree Religious views Occult studies Scientific Revolution Copernican Revolution Relations Catherine Barton (niece) John Conduitt (nephew-in-law) Isaac Barrow (professor) William Clarke (mentor) Benjamin Pulleyn (tutor) John Keill (disciple) William Stukeley (friend) William Jones (friend) Abraham de Moivre (friend) Depictions Newton by Blake (monotype) Newton by Paolozzi (sculpture) Isaac Newton Gargoyle Astronomers Monument Namesake Newton (unit) Newton's cradle Isaac Newton Institute Isaac Newton Medal Isaac Newton Telescope Isaac Newton Group of Telescopes XMM-Newton Sir Isaac Newton Sixth Form Statal Institute of Higher Education Isaac Newton Newton International Fellowship Categories Isaac Newton Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Newton%27s_identities&oldid=1233316957 " Categories : Isaac Newton Group theory Invariant theory Linear algebra Algebraic identities Symmetric functions Algebraic combinatorics Galois theory Hidden categories: Articles with short description Short description matches Wikidata This page was last edited on 8 July 2024, at 12:54 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

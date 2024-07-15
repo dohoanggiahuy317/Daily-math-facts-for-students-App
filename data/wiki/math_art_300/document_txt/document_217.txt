@@ -1,0 +1,57 @@
+Informal mathematics - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Terminology 2 History 3 See also 4 References Toggle the table of contents Informal mathematics 2 languages العربية Español Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Any informal mathematical practices used in everyday life Informal mathematics , also called naïve mathematics , has historically been the predominant form of mathematics at most times and in most cultures, and is the subject of modern ethno-cultural studies of mathematics.
+
+The philosopher Imre Lakatos in his Proofs and Refutations aimed to sharpen the formulation of informal mathematics, by reconstructing its role in nineteenth century mathematical debates and concept formation, opposing the predominant assumptions of mathematical formalism.
+
+[1] Informality may not discern between statements given by inductive reasoning (as in approximations which are deemed "correct" merely because they are useful), and statements derived by deductive reasoning.
+
+Terminology [ edit ] Informal mathematics means any informal mathematical practices, as used in everyday life, or by aboriginal or ancient peoples, without historical or geographical limitation.
+
+Modern mathematics, exceptionally from that point of view, emphasizes formal and strict proofs of all statements from given axioms.
+
+This can usefully be called therefore formal mathematics.
+
+Informal practices are usually understood intuitively and justified with examples—there are no axioms.
+
+This is of direct interest in anthropology and psychology : it casts light on the perceptions and agreements of other cultures.
+
+It is also of interest in developmental psychology as it reflects a naïve understanding of the relationships between numbers and things.
+
+Another term used for informal mathematics is folk mathematics , which is ambiguous; the mathematical folklore article is dedicated to the usage of that term among professional mathematicians.
+
+The field of naïve physics is concerned with similar understandings of physics.
+
+People use mathematics and physics in everyday life, without really understanding (or caring) how mathematical and physical ideas were historically derived and justified.
+
+History [ edit ] There has long been a standard account of the development of geometry in ancient Egypt , followed by Greek mathematics and the emergence of deductive logic.
+
+The modern sense of the term mathematics , as meaning only those systems justified with reference to axioms, is however an anachronism if read back into history.
+
+Several ancient societies built impressive mathematical systems and carried out complex calculations based on proofless heuristics and practical approaches.
+
+Mathematical facts were accepted on a pragmatic basis.
+
+Empirical methods , as in science, provided the justification for a given technique.
+
+Commerce, engineering , calendar creation and the prediction of eclipses and stellar progression were practiced by ancient cultures on at least three continents.
+
+See also [ edit ] Ethnomathematics Folk psychology Mathematical Platonism Numeracy Pseudomathematics References [ edit ] ^ Imre Lakatos, Proofs and Refutations (1976), especially the Introduction.
+
+v t e Major mathematics areas History Timeline Future Lists Glossary Foundations Category theory Information theory Mathematical logic Philosophy of mathematics Set theory Type theory Algebra Abstract Commutative Elementary Group theory Linear Multilinear Universal Homological Analysis Calculus Real analysis Complex analysis Hypercomplex analysis Differential equations Functional analysis Harmonic analysis Measure theory Discrete Combinatorics Graph theory Order theory Geometry Algebraic Analytic Arithmetic Differential Discrete Euclidean Finite Number theory Arithmetic Algebraic number theory Analytic number theory Diophantine geometry Topology General Algebraic Differential Geometric Homotopy theory Applied Engineering mathematics Mathematical biology Mathematical chemistry Mathematical economics Mathematical finance Mathematical physics Mathematical psychology Mathematical sociology Mathematical statistics Probability Statistics Systems science Control theory Game theory Operations research Computational Computer science Theory of computation Computational complexity theory Numerical analysis Optimization Computer algebra Related topics Mathematicians lists Informal mathematics Films about mathematicians Recreational mathematics Mathematics and art Mathematics education Mathematics portal Category Commons WikiProject Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Informal_mathematics&oldid=1227186311 " Categories : Philosophy of mathematics Critical pedagogy Sociology of scientific knowledge Mathematics and culture Scientific folklore Hidden categories: Articles with short description Short description matches Wikidata This page was last edited on 4 June 2024, at 07:27 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

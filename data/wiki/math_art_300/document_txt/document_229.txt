@@ -1,0 +1,387 @@
+Zu Chongzhi - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Life and works 2 Astronomy 3 Mathematics 4 Inventions and innovations Toggle Inventions and innovations subsection 4.
+
+1 Hammer mills 4.
+
+2 Paddle boats 4.
+
+3 South pointing chariot 5 Literature 6 Named after him 7 Notes 8 References 9 Further reading 10 External links Toggle the table of contents Zu Chongzhi 34 languages العربية Беларуская Català Čeština Dansk Deutsch Español Esperanto Euskara فارسی Français 한국어 Italiano Kernowek Magyar مصرى Nederlands 日本語 Norsk bokmål Piemontèis Português Русский Simple English Slovenščina Srpskohrvatski / српскохрватски Suomi Tagalog Українська Vahcuengh Tiếng Việt 文言 Winaray 粵語 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia Chinese mathematician-astronomer (429–500) In this Chinese name , the family name is Zu.
+
+Statue of Zu Chongzhi Zu Chongzhi ( Chinese : 祖沖之 ; 429–500 AD), courtesy name Wenyuan ( Chinese : 文遠 ), was a Chinese astronomer, inventor, mathematician, politician, and writer during the Liu Song and Southern Qi dynasties.
+
+He was most notable for calculating pi as between 3.
+
+1415926 and 3.
+
+1415927, a record in precision which would not be surpassed for nearly 900 years.
+
+Zu Chongzhi Traditional Chinese 祖沖之 Simplified Chinese 祖冲之 Transcriptions Standard Mandarin Hanyu Pinyin Zǔ Chōngzhī Wade–Giles Tsu Ch'ung-chih Wenyuan ( courtesy name ) Traditional Chinese 文遠 Simplified Chinese 文远 Transcriptions Standard Mandarin Hanyu Pinyin Wényuǎn Life and works [ edit ] This section needs additional citations for verification.
+
+Please help improve this article by adding citations to reliable sources in this section.
+
+Unsourced material may be challenged and removed.
+
+( October 2018 ) ( Learn how and when to remove this message ) Chongzhi's ancestry was from modern Baoding, Hebei.
+
+To flee from the ravages of war, Zu's grandfather Zu Chang moved to the Yangtze , as part of the massive population movement during the Eastern Jin.
+
+Zu Chang ( 祖昌 ) at one point held the position of Chief Minister for the Palace Buildings ( 大匠卿 ) within the Liu Song and was in charge of government construction projects.
+
+Zu's father, Zu Shuozhi ( 祖朔之 ), also served the court and was greatly respected for his erudition.
+
+Zu was born in Jiankang.
+
+His family had historically been involved in astronomical research, and from childhood Zu was exposed to both astronomy and mathematics.
+
+When he was only a youth his talent earned him much repute.
+
+When Emperor Xiaowu of Liu Song heard of him, he was sent to the Hualin Xuesheng ( 華林學省 ) academy, and later the Imperial Nanjing University (Zongmingguan) to perform research.
+
+In 461 in Nanxu (today Zhenjiang, Jiangsu ), he was engaged in work at the office of the local governor.
+
+Zu Chongzhi, along with his son Zu Gengzhi , wrote a mathematical text entitled Zhui Shu ( 綴述 ; " Methods for Interpolation ").
+
+It is said that the treatise contained formulas for the volume of a sphere, cubic equations and an accurate value of pi.
+
+[1] This book has been lost since the Song Dynasty.
+
+His mathematical achievements included the Daming calendar ( 大明曆 ) introduced by him in 465.
+
+distinguishing the sidereal year and the tropical year.
+
+He measured 45 years and 11 months per degree between those two; today we know the difference is 70.
+
+7 years per degree.
+
+calculating one year as 365.
+
+24281481 days, which is very close to 365.
+
+24219878 days as we know today.
+
+calculating the number of overlaps between sun and moon as 27.
+
+21223, which is very close to 27.
+
+21222 as we know today; using this number he successfully predicted an eclipse four times during 23 years (from 436 to 459).
+
+calculating the Jupiter year as about 11.
+
+858 Earth years, which is very close to 11.
+
+862 as we know of today.
+
+deriving two approximations of pi , (3.
+
+1415926535897932.
+
+) which held as the most accurate approximation for π for over nine hundred years.
+
+His best approximation was between 3.
+
+1415926 and 3.
+
+1415927, with ⁠ 355 / 113 ⁠ ( 密率 , milü , close ratio) and ⁠ 22 / 7 ⁠ ( 約率 , yuelü, approximate ratio) being the other notable approximations.
+
+He obtained the result by approximating a circle with a 24,576 (= 2 13 × 3) sided polygon.
+
+[2] This was an impressive feat for the time, especially considering that the counting rods he used for recording intermediate results were merely a pile of wooden sticks laid out in certain patterns.
+
+Japanese mathematician Yoshio Mikami pointed out, " ⁠ 22 / 7 ⁠ was nothing more than the π value obtained several hundred years earlier by the Greek mathematician Archimedes , however milü π = ⁠ 355 / 113 ⁠ could not be found in any Greek, Indian or Arabian manuscripts, not until 1585 Dutch mathematician Adriaan Anthoniszoon obtained this fraction; the Chinese possessed this most extraordinary fraction over a whole millennium earlier than Europe".
+
+Hence Mikami strongly urged that the fraction ⁠ 355 / 113 ⁠ be named after Zu Chongzhi as Zu's fraction.
+
+[3] In Chinese literature, this fraction is known as "Zu's ratio".
+
+Zu's ratio is a best rational approximation to π , and is the closest rational approximation to π from all fractions with denominator less than 16600.
+
+[4] finding the volume of a sphere as π D 3 /6 where D is diameter (equivalent to 4/3 π r 3 ).
+
+Astronomy [ edit ] Zu was an accomplished astronomer who calculated the time values with unprecedented precision.
+
+His methods of interpolation and the use of integration were far ahead of his time.
+
+Even the results of the astronomer Yi Xing (who was beginning to utilize foreign knowledge) were not comparable.
+
+The Sung dynasty calendar was backwards to the "Northern barbarians" because they were implementing their daily lives with the Da Ming Li.
+
+[ clarification needed ] It is said that his methods of calculation were so advanced, the scholars of the Sung dynasty and Indo influence astronomers of the Tang dynasty found it confusing.
+
+Mathematics [ edit ] Further information: Milü Part of a series of articles on the mathematical constant π 3.
+
+14159 26535 89793 23846 26433.
+
+Uses Area of a circle Circumference Use in other formulae Properties Irrationality Transcendence Value Less than 22/7 Approximations Madhava's correction term Memorization People Archimedes Liu Hui Zu Chongzhi Aryabhata Madhava Jamshīd al-Kāshī Ludolph van Ceulen François Viète Seki Takakazu Takebe Kenko William Jones John Machin William Shanks Srinivasa Ramanujan John Wrench Chudnovsky brothers Yasumasa Kanada History Chronology A History of Pi In culture Indiana pi bill Pi Day Related topics Squaring the circle Basel problem Six nines in π Other topics related to π v t e The majority of Zu's great mathematical works are recorded in his lost text the Zhui Shu.
+
+Most schools argue about his complexity since traditionally the Chinese had developed mathematics as algebraic and equational.
+
+Logically, scholars assume that the Zhui Shu yields methods of cubic equations.
+
+His works on the accurate value of pi describe the lengthy calculations involved.
+
+Zu used the Liu Hui's π algorithm described earlier by Liu Hui to inscribe a 12,288-gon.
+
+Zu's value of pi is precise to six decimal places and for almost nine hundred years thereafter no subsequent mathematician computed a value this precise.
+
+[5] Zu also worked on deducing the formula for the volume of a sphere.
+
+Inventions and innovations [ edit ] Hammer mills [ edit ] In 488, Zu Chongzhi was responsible for erecting water powered trip hammer mills which was inspected by Emperor Wu of Southern Qi during the early 490s.
+
+[6] [7] [8] Paddle boats [ edit ] Zu is also credited with inventing Chinese paddle boats or Qianli chuan in the late 5th century AD during the Southern Qi Dynasty.
+
+[9] [10] [11] [8] The boats made sailing a more reliable form of transportation and based on the shipbuilding technology of its day, numerous paddle wheel ships were constructed during the Tang era as the boats were able to cruise at faster speeds than the existing vessels at the time as well as being able to cover hundreds of kilometers of distance without the aid of wind.
+
+[9] South pointing chariot [ edit ] The south-pointing chariot device was first invented by the Chinese mechanical engineer Ma Jun (c.
+
+200–265 AD).
+
+It was a wheeled vehicle that incorporated an early use of differential gears to operate a fixed figurine that would constantly point south, hence enabling one to accurately measure their directional bearings.
+
+This effect was achieved not by magnetics (like in a compass ), but through intricate mechanics, the same design that allows equal amounts of torque applied to wheels rotating at different speeds for the modern automobile.
+
+After the Three Kingdoms period, the device fell out of use temporarily.
+
+However, it was Zu Chongzhi who successfully re-invented it in 478, as described in the texts of the Book of Song and the Book of Qi , with a passage from the latter below: When Emperor Wu of Liu Song subdued Guanzhong he obtained the south-pointing carriage of Yao Xing, but it was only the shell with no machinery inside.
+
+Whenever it moved it had to have a man inside to turn (the figure).
+
+In the Sheng-Ming reign period, Gao Di commissioned Zi Zu Chongzhi to reconstruct it according to the ancient rules.
+
+He accordingly made new machinery of bronze, which would turn round about without a hitch and indicate the direction with uniformity.
+
+Since Ma Jun's time such a thing had not been.
+
+[12] [13] Literature [ edit ] Zu's paradoxographical work Accounts of Strange Things [ 述異記 ] survives.
+
+[14] [15] Named after him [ edit ] π ≈ ⁠ 355 / 113 ⁠ as Zu Chongzhi's π ratio.
+
+The lunar crater Tsu Chung-Chi 1888 Zu Chong-Zhi is the name of asteroid 1964 VO1.
+
+ZUC stream cipher is a new encryption algorithm.
+
+Notes [ edit ] ^ Ho Peng Yoke (1987) [1985].
+
+Li, Qi & Shu: An Introduction to Science & Civilization in China (University of Washington Press ed.
+
+).
+
+Hong Kong University Press.
+
+p.
+
+76.
+
+ISBN 9780295963624.
+
+OCLC 17656687.
+
+^ Strogatz, Steven (2024-03-07).
+
+"Pi Day: How One Irrational Number Made Us Modern".
+
+The New York Times.
+
+ISSN 0362-4331.
+
+Retrieved 2024-03-15.
+
+^ Yoshio Mikami (1913).
+
+Development of Mathematics in China and Japan.
+
+B.
+
+G.
+
+Teubner.
+
+p.
+
+50.
+
+^ The next "best rational approximation" to π is ⁠ 52163 / 16604 ⁠ = 3.
+
+1415923874.
+
+^ Du & He (2000).
+
+^ Liu, Heping (2002).
+
+" "The Water Mill" and Northern Song Imperial Patronage of Art, Commerce, and Science".
+
+The Art Bulletin.
+
+84 (4).
+
+CAA: 574.
+
+doi : 10.
+
+2307/3177285.
+
+JSTOR 3177285.
+
+^ Needham, Joseph (1965).
+
+Science and Civilization in China, Vol.
+
+IV: Physics and Physical Technology , p.
+
+400.
+
+ISBN 978-0-521-05802-5.
+
+^ a b Yongxiang Lu, ed.
+
+(2014).
+
+A History of Chinese Science and Technology, Volume 3.
+
+Springer.
+
+p.
+
+280.
+
+ISBN 9783662441664.
+
+^ a b Needham, 416 ^ Selin, Helaine (2008).
+
+Encyclopaedia of the History of Science, Technology, and Medicine in Non-Western Cultures (2nd ed.
+
+).
+
+Springer (published April 16, 2008).
+
+p.
+
+1061.
+
+Bibcode : 2008ehst.
+
+book.
+
+S.
+
+ISBN 978-1402045592.
+
+^ Wang, Hsien-Chun (January 1, 2019).
+
+"Discovering Steam Power in China, 1840s–1860s".
+
+Technology and Culture.
+
+51.
+
+Johns Hopkins University Press: 38.
+
+^ Needham, Volume 4, Part 2, 289.
+
+^ Book of Qi , 52.
+
+905 ^ 中国大百科全书（第二版） [ Encyclopedia of China (2nd Edition) ] (in Chinese).
+
+Vol.
+
+30.
+
+Encyclopedia of China Publishing House.
+
+2009.
+
+p.
+
+205.
+
+ISBN 978-7-500-07958-3.
+
+^ Owen, Stephen (2010).
+
+The Cambridge History of Chinese Literature.
+
+Vol.
+
+1.
+
+Cambridge University Press.
+
+p.
+
+242.
+
+ISBN 978-0-521-11677-0.
+
+References [ edit ] Needham, Joseph (1986).
+
+Science and Civilization in China: Volume 4, Part 2.
+
+Cambridge University Press Du Shiran (杜石然); He Shaogeng (何紹庚) (2000).
+
+"Zu Chongzhi".
+
+Encyclopedia of China (Mathematics Edition) (1st ed.
+
+).
+
+Further reading [ edit ] Needham, Joseph (1986).
+
+Science and Civilization in China: Volume 3, Mathematics and the Sciences of the Heavens and the Earth.
+
+Cambridge University Press.
+
+Xiao Zixian , ed.
+
+(1974) [537].
+
+南齊書 [ Book of Qi ].
+
+Vol.
+
+52.
+
+Beijing: Zhonghua Publishing.
+
+pp.
+
+903–906.
+
+Li Dashi ; Li Yanshou (李延壽) [in Chinese] , eds.
+
+(1975) [659].
+
+南史 [ History of the Southern Dynasties ].
+
+Vol.
+
+72.
+
+Beijing: Zhonghua Publishing.
+
+pp.
+
+1773–1774.
+
+External links [ edit ] Encyclopædia Britannica's description of Zu Chongzhi Zu Chongzhi at Chinaculture.
+
+org Zu Chongzhi at the University of Maine Archived 2010-06-14 at the Wayback Machine O'Connor, John J.
+
+; Robertson, Edmund F.
+
+, "Zu Chongzhi" , MacTutor History of Mathematics Archive , University of St Andrews Authority control databases International ISNI VIAF 2 WorldCat National United States Korea Netherlands Academics MathSciNet zbMATH Other IdRef Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Zu_Chongzhi&oldid=1229054944 " Categories : Zu Chongzhi 429 births 500 deaths 5th-century Chinese mathematicians 5th-century Chinese astronomers Ancient Chinese mathematicians Chinese inventors Liu Song government officials Liu Song writers Pi-related people Politicians from Nanjing Scientists from Nanjing Southern Qi government officials Writers from Nanjing Hidden categories: CS1 uses Chinese-language script (zh) CS1 Chinese-language sources (zh) Articles with short description Short description is different from Wikidata Articles containing Chinese-language text Articles needing additional references from October 2018 All articles needing additional references Wikipedia articles needing clarification from May 2019 Webarchive template wayback links Articles with ISNI identifiers Articles with VIAF identifiers Articles with WorldCat Entities identifiers Articles with LCCN identifiers Articles with NLK identifiers Articles with NTA identifiers Articles with MATHSN identifiers Articles with ZBMATH identifiers Articles with SUDOC identifiers This page was last edited on 14 June 2024, at 16:14 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

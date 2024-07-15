@@ -1,0 +1,39 @@
+Template:Integrals - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Template : Integrals 9 languages Беларуская Чӑвашла فارسی 日本語 Polski Português Русский Српски / srpski Tiếng Việt Edit links Template Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia v t e Integrals Types of integrals Riemann integral Lebesgue integral Burkill integral Bochner integral Daniell integral Darboux integral Henstock–Kurzweil integral Haar integral Hellinger integral Khinchin integral Kolmogorov integral Lebesgue–Stieltjes integral Pettis integral Pfeffer integral Riemann–Stieltjes integral Regulated integral Integration techniques Substitution Trigonometric Euler Weierstrass By parts Partial fractions Euler's formula Inverse functions Changing order Reduction formulas Parametric derivatives Differentiation under the integral sign Laplace transform Contour integration Laplace's method Numerical integration Simpson's rule Trapezoidal rule Risch algorithm Improper integrals Gaussian integral Dirichlet integral Fermi–Dirac integral complete incomplete Bose–Einstein integral Frullani integral Common integrals in quantum field theory Stochastic integrals Itô integral Russo–Vallois integral Stratonovich integral Skorokhod integral Miscellaneous Basel problem Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Volumes Washers Shells Template documentation This template's initial visibility currently defaults to expanded , meaning that it is fully visible.
+
+To change this template's initial visibility, the |state= parameter may be used: {{ Integrals | state = collapsed }} will show the template collapsed, i.
+
+e.
+
+hidden apart from its title bar.
+
+{{ Integrals | state = autocollapse }} will show the template autocollapsed, i.
+
+e.
+
+if there is another collapsible item on the page (a navbox, sidebar , or table with the collapsible attribute ), it is hidden apart from its title bar, but if not, it is fully visible.
+
+See also Template:Intmath , to display an inline definite integral (or, double integral, path integral, etc.
+
+) without using <math> Editors can experiment in this template's sandbox ( create | mirror ) and testcases ( create ) pages.
+
+Subpages of this template.
+
+Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Template:Integrals&oldid=1217135201 " Category : Infinitesimal calculus navigational boxes This page was last edited on 4 April 2024, at 01:26 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

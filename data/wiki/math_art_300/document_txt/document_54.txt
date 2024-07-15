@@ -1,0 +1,393 @@
+Henstock–Kurzweil integral - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Definition 2 Properties 3 Utility 4 McShane integral 5 See also 6 References Toggle References subsection 6.
+
+1 Footnotes 6.
+
+2 General 7 External links Toggle the table of contents Henstock–Kurzweil integral 12 languages Català Deutsch Français Italiano עברית Nederlands 日本語 Polski Português Русский Suomi 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Generalization of the Riemann integral This article includes a list of general references , but it lacks sufficient corresponding inline citations.
+
+Please help to improve this article by introducing more precise citations.
+
+( February 2016 ) ( Learn how and when to remove this message ) In mathematics , the Henstock–Kurzweil integral or generalized Riemann integral or gauge integral – also known as the (narrow) Denjoy integral (pronounced [dɑ̃ˈʒwa] ), Luzin integral or Perron integral , but not to be confused with the more general wide Denjoy integral – is one of a number of inequivalent definitions of the integral of a function.
+
+It is a generalization of the Riemann integral , and in some situations is more general than the Lebesgue integral.
+
+In particular, a function is Lebesgue integrable if and only if the function and its absolute value are Henstock–Kurzweil integrable.
+
+This integral was first defined by Arnaud Denjoy (1912).
+
+Denjoy was interested in a definition that would allow one to integrate functions like f ( x ) = 1 x sin ⁡ ( 1 x 3 ).
+
+{\displaystyle f(x)={\frac {1}{x}}\sin \left({\frac {1}{x^{3}}}\right).
+
+} This function has a singularity at 0, and is not Lebesgue integrable.
+
+However, it seems natural to calculate its integral except over the interval [− ε , δ ] and then let ε , δ → 0.
+
+Trying to create a general theory, Denjoy used transfinite induction over the possible types of singularities, which made the definition quite complicated.
+
+Other definitions were given by Nikolai Luzin (using variations on the notions of absolute continuity ), and by Oskar Perron , who was interested in continuous major and minor functions.
+
+It took a while to understand that the Perron and Denjoy integrals are actually identical.
+
+Later, in 1957, the Czech mathematician Jaroslav Kurzweil discovered a new definition of this integral elegantly similar in nature to Riemann 's original definition which he named the gauge integral.
+
+Ralph Henstock independently introduced a similar integral that extended the theory in 1961, citing his investigations of Ward's extensions to the Perron integral.
+
+[1] Due to these two important contributions, it is now commonly known as the Henstock–Kurzweil integral.
+
+The simplicity of Kurzweil's definition made some educators advocate that this integral should replace the Riemann integral in introductory calculus courses.
+
+[2] Definition [ edit ] Following Bartle (2001) , given a tagged partition P of [ a , b ] , that is, a = u 0 < u 1 < ⋯ < u n = b {\displaystyle a=u_{0}<u_{1}<\cdots <u_{n}=b} together with each subinterval's tag defined as a point t i ∈ [ u i − 1 , u i ] , {\displaystyle t_{i}\in [u_{i-1},u_{i}],} we define the Riemann sum for a function f : [ a , b ] → R {\displaystyle f\colon [a,b]\to \mathbb {R} } to be ∑ P f = ∑ i = 1 n f ( t i ) Δ u i.
+
+{\displaystyle \sum _{P}f=\sum _{i=1}^{n}f(t_{i})\Delta u_{i}.
+
+} where Δ u i := u i − u i − 1.
+
+{\displaystyle \Delta u_{i}:=u_{i}-u_{i-1}.
+
+} This is the summation of each subinterval's length ( Δ u i {\displaystyle \Delta u_{i}} ) multiplied by the function evaluated at that subinterval's tag ( f ( t i ) {\displaystyle f(t_{i})} ).
+
+Given a positive function δ : [ a , b ] → ( 0 , ∞ ) , {\displaystyle \delta \colon [a,b]\to (0,\infty ),} which we call a gauge , we say a tagged partition P is δ {\displaystyle \delta } -fine if ( ∀ i ∈ { 1 , … , n } ) ( [ u i − 1 , u i ] ⊂ [ t i − δ ( t i ) , t i + δ ( t i ) ] ).
+
+{\displaystyle (\forall i\in \{1,\dots ,n\})\ (\ [u_{i-1},u_{i}]\subset [t_{i}-\delta (t_{i}),t_{i}+\delta (t_{i})]).
+
+} We now define a number I to be the Henstock–Kurzweil integral of f if for every ε > 0 there exists a gauge δ {\displaystyle \delta } such that whenever P is δ {\displaystyle \delta } -fine, we have | I − ∑ P f | < ε.
+
+{\displaystyle \left\vert I-\sum _{P}f\right\vert <\varepsilon.
+
+} If such an I exists, we say that f is Henstock–Kurzweil integrable on [ a , b ].
+
+Cousin's theorem states that for every gauge δ {\displaystyle \delta } , such a δ {\displaystyle \delta } -fine partition P does exist, so this condition cannot be satisfied vacuously.
+
+The Riemann integral can be regarded as the special case where we only allow constant gauges.
+
+Properties [ edit ] Let f : [ a , b ] → R be any function.
+
+Given a < c < b , f is Henstock–Kurzweil integrable on [ a , b ] if and only if it is Henstock–Kurzweil integrable on both [ a , c ] and [ c , b ] ; in which case ( Bartle 2001 , 3.
+
+7), ∫ a b f ( x ) d x = ∫ a c f ( x ) d x + ∫ c b f ( x ) d x.
+
+{\displaystyle \int _{a}^{b}f(x)\,dx=\int _{a}^{c}f(x)\,dx+\int _{c}^{b}f(x)\,dx.
+
+} Henstock–Kurzweil integrals are linear : given integrable functions f , g and real numbers α , β , the expression αf + βg is integrable ( Bartle 2001 , 3.
+
+1); for example, ∫ a b ( α f ( x ) + β g ( x ) ) d x = α ∫ a b f ( x ) d x + β ∫ a b g ( x ) d x.
+
+{\displaystyle \int _{a}^{b}\left(\alpha f(x)+\beta g(x)\right)dx=\alpha \int _{a}^{b}f(x)\,dx+\beta \int _{a}^{b}g(x)\,dx.
+
+} If f is Riemann or Lebesgue integrable, then it is also Henstock–Kurzweil integrable, and calculating that integral gives the same result by all three formulations.
+
+The important Hake's theorem ( Bartle 2001 , 12.
+
+8) states that ∫ a b f ( x ) d x = lim c → b − ∫ a c f ( x ) d x {\displaystyle \int _{a}^{b}f(x)\,dx=\lim _{c\to b^{-}}\int _{a}^{c}f(x)\,dx} whenever either side of the equation exists, and likewise symmetrically for the lower integration bound.
+
+This means that if f is " improperly Henstock–Kurzweil integrable", then it is properly Henstock–Kurzweil integrable; in particular, improper Riemann or Lebesgue integrals of types such as ∫ 0 1 sin ⁡ ( 1 / x ) x d x {\displaystyle \int _{0}^{1}{\frac {\sin(1/x)}{x}}\,dx} are also proper Henstock–Kurzweil integrals.
+
+To study an "improper Henstock–Kurzweil integral" with finite bounds would not be meaningful.
+
+However, it does make sense to consider improper Henstock–Kurzweil integrals with infinite bounds such as ∫ a ∞ f ( x ) d x := lim b → ∞ ∫ a b f ( x ) d x.
+
+{\displaystyle \int _{a}^{\infty }f(x)\,dx:=\lim _{b\to \infty }\int _{a}^{b}f(x)\,dx.
+
+} For many types of functions the Henstock–Kurzweil integral is no more general than Lebesgue integral.
+
+For example, if f is bounded with compact support , the following are equivalent: f is Henstock–Kurzweil integrable, f is Lebesgue integrable, f is Lebesgue measurable.
+
+In general, every Henstock–Kurzweil integrable function is measurable, and f is Lebesgue integrable if and only if both f and | f | are Henstock–Kurzweil integrable.
+
+This means that the Henstock–Kurzweil integral can be thought of as a " non-absolutely convergent version of the Lebesgue integral".
+
+It also implies that the Henstock–Kurzweil integral satisfies appropriate versions of the monotone convergence theorem (without requiring the functions to be nonnegative) and dominated convergence theorem (where the condition of dominance is loosened to g ( x ) ≤ f n ( x ) ≤ h ( x ) for some integrable g , h ).
+
+If F is differentiable everywhere (or with countably many exceptions), the derivative F ′ is Henstock–Kurzweil integrable, and its indefinite Henstock–Kurzweil integral is F.
+
+(Note that F ′ need not be Lebesgue integrable.
+
+) In other words, we obtain a simpler and more satisfactory version of the second fundamental theorem of calculus : each differentiable function is, up to a constant, the integral of its derivative: F ( x ) − F ( a ) = ∫ a x F ′ ( t ) d t.
+
+{\displaystyle F(x)-F(a)=\int _{a}^{x}F'(t)\,dt.
+
+} Conversely , the Lebesgue differentiation theorem continues to hold for the Henstock–Kurzweil integral: if f is Henstock–Kurzweil integrable on [ a , b ] , and F ( x ) = ∫ a x f ( t ) d t , {\displaystyle F(x)=\int _{a}^{x}f(t)\,dt,} then F ′( x ) = f ( x ) almost everywhere in [ a , b ] (in particular, F is differentiable almost everywhere).
+
+The space of all Henstock–Kurzweil-integrable functions is often endowed with the Alexiewicz norm , with respect to which it is barrelled but incomplete.
+
+Utility [ edit ] The gauge integral has increased utility when compared to the Riemann Integral in that the gauge integral of any function f : [ a , b ] → R which has a constant value c except possibly at a countable number of points C = { c i : i ∈ N } {\displaystyle C=\{c_{i}:i\in \mathbb {N} \}} can be calculated.
+
+Consider for example the piecewise function f ( t ) = { 0 , if t ∈ [ 0 , 1 ] and rational, 1 , if t ∈ [ 0 , 1 ] and irrational {\displaystyle f(t)={\begin{cases}0,&{\text{if }}t\in [0,1]{\text{ and rational,}}\\1,&{\text{if }}t\in [0,1]{\text{ and irrational}}\end{cases}}} which is equal to one minus the Dirichlet function on the interval.
+
+This function is impossible to integrate using a Riemann integral because it is impossible to make intervals [ u i − 1 , u i ] {\displaystyle [u_{i-1},u_{i}]} small enough to encapsulate the changing values of f ( x ) with the mapping nature of δ {\displaystyle \delta } -fine tagged partitions.
+
+The value of the type of integral described above is equal to c ( b − a ) {\displaystyle c(b-a)} , where c is the constant value of the function, and a, b are the function's endpoints.
+
+To demonstrate this, let ε > 0 {\displaystyle \varepsilon >0} be given and let D = { ( z j , J j ) : 1 ≤ j ≤ n } {\displaystyle D=\{(z_{j},J_{j}):1\leq j\leq n\}} be a δ {\displaystyle \delta } -fine tagged partition of [ 0 , 1 ] {\displaystyle [0,1]} with tags z j {\displaystyle z_{j}} and intervals J j {\displaystyle J_{j}} , and let f ( t ) {\displaystyle f(t)} be the piecewise function described above.
+
+Consider that | ∑ f ( z j ) l ( J j ) − 1 ( 1 − 0 ) | = | ∑ [ f ( z j ) − 1 ] l ( J j ) | {\displaystyle \left|\sum f(z_{j})l(J_{j})-1(1-0)\right|=\left|\sum [f(z_{j})-1]l(J_{j})\right|} where l ( J j ) {\displaystyle l(J_{j})} represents the length of interval J j {\displaystyle J_{j}}.
+
+Note this equivalence is established because the summation of the consecutive differences in length of all intervals J j {\displaystyle J_{j}} is equal to the length of the interval (or ( 1 − 0 ) {\displaystyle (1-0)} ).
+
+By the definition of the gauge integral, we want to show that the above equation is less than any given ε {\displaystyle \varepsilon }.
+
+This produces two cases: Case 1: z j ∉ C {\displaystyle z_{j}\notin C} (All tags of D {\displaystyle D} are irrational ): If none of the tags of the tagged partition D {\displaystyle D} are rational , then f ( z j ) {\displaystyle f(z_{j})} will always be 1 by the definition of f ( t ) {\displaystyle f(t)} , meaning f ( z j ) − 1 = 0 {\displaystyle f(z_{j})-1=0}.
+
+If this term is zero, then for any interval length, the following inequality will be true: | ∑ [ f ( z j ) − 1 ] l ( J j ) | ≤ ε , {\displaystyle \left|\sum [f(z_{j})-1]l(J_{j})\right|\leq \varepsilon ,} So for this case, 1 is the integral of f ( t ) {\displaystyle f(t)}.
+
+Case 2: z k = c k {\displaystyle z_{k}=c_{k}} (Some tag of D {\displaystyle D} is rational): If a tag of D {\displaystyle D} is rational, then the function evaluated at that point will be 0, which is a problem.
+
+Since we know D {\displaystyle D} is δ {\displaystyle \delta } -fine, the inequality | ∑ [ f ( z j ) − 1 ] l ( J j ) | ≤ | ∑ [ f ( z j ) − 1 ] l ( δ ( c k ) ) | {\displaystyle \left|\sum [f(z_{j})-1]l(J_{j})\right|\leq \left|\sum [f(z_{j})-1]l(\delta (c_{k}))\right|} holds because the length of any interval J j {\displaystyle J_{j}} is shorter than its covering by the definition of being δ {\displaystyle \delta } -fine.
+
+If we can construct a gauge δ {\displaystyle \delta } out of the right side of the inequality, then we can show the criteria are met for an integral to exist.
+
+To do this, let γ k = ε / [ f ( c k ) − c ] 2 k + 2 {\displaystyle \gamma _{k}=\varepsilon /[f(c_{k})-c]2^{k+2}} and set our covering gauges δ ( c k ) = ( c k − γ k , c k + γ k ) {\displaystyle \delta (c_{k})=(c_{k}-\gamma _{k},c_{k}+\gamma _{k})} , which makes | ∑ [ f ( z j ) − c ] l ( J j ) | < ε / 2 k + 1.
+
+{\displaystyle \left|\sum [f(z_{j})-c]l(J_{j})\right|<\varepsilon /2^{k+1}.
+
+} From this, we have that | ∑ [ f ( z j ) − 1 ] l ( J j ) | ≤ 2 ∑ ε / 2 k + 1 = ε {\displaystyle \left|\sum [f(z_{j})-1]l(J_{j})\right|\leq 2\sum \varepsilon /2^{k+1}=\varepsilon } Because 2 ∑ 1 / 2 k + 1 = 1 {\displaystyle 2\sum 1/2^{k+1}=1} as a geometric series.
+
+This indicates that for this case, 1 is the integral of f ( t ) {\displaystyle f(t)}.
+
+Since cases 1 and 2 are exhaustive, this shows that the integral of f ( t ) {\displaystyle f(t)} is 1 and all properties from the above section hold.
+
+McShane integral [ edit ] Lebesgue integral on a line can also be presented in a similar fashion.
+
+If we take the definition of the Henstock–Kurzweil integral from above, and we drop the condition t i ∈ [ u i − 1 , u i ] , {\displaystyle t_{i}\in [u_{i-1},u_{i}],} then we get a definition of the McShane integral , which is equivalent to the Lebesgue integral.
+
+Note that the condition ∀ i [ u i − 1 , u i ] ⊂ [ t i − δ ( t i ) , t i + δ ( t i ) ] {\displaystyle \forall i\ \ [u_{i-1},u_{i}]\subset [t_{i}-\delta (t_{i}),t_{i}+\delta (t_{i})]} does still apply, and we technically also require t i ∈ [ a , b ] {\textstyle t_{i}\in [a,b]} for f ( t i ) {\textstyle f(t_{i})} to be defined.
+
+See also [ edit ] Pfeffer integral Cauchy principal value Hadamard finite part integral References [ edit ] Footnotes [ edit ] ^ Generalized ordinary differential equations in abstract spaces and applications.
+
+Everaldo M.
+
+Bonotto, Marcia Federson, Jacqueline G.
+
+Mesquita.
+
+Hoboken, NJ.
+
+2021.
+
+pp.
+
+1–3.
+
+ISBN 978-1-119-65502-2.
+
+OCLC 1269499134.
+
+{{ cite book }} : CS1 maint: location missing publisher ( link ) CS1 maint: others ( link ) ^ "An Open Letter to Authors of Calculus Books".
+
+Retrieved 27 February 2014.
+
+General [ edit ] Bartle, Robert G.
+
+(2001).
+
+A Modern Theory of Integration.
+
+Graduate Studies in Mathematics.
+
+Vol.
+
+32.
+
+American Mathematical Society.
+
+ISBN 978-0-8218-0845-0.
+
+A Modern Integration Theory in 21st Century Bartle, Robert G.
+
+; Sherbert, Donald R.
+
+(1999).
+
+Introduction to Real Analysis (3rd ed.
+
+).
+
+Wiley.
+
+ISBN 978-0-471-32148-4.
+
+Čelidze, V G; Džvaršeǐšvili, A G (1989).
+
+The Theory of the Denjoy Integral and Some Applications.
+
+Series in Real Analysis.
+
+Vol.
+
+3.
+
+World Scientific Publishing Company.
+
+ISBN 978-981-02-0021-3.
+
+Das, A.
+
+G.
+
+(2008).
+
+The Riemann, Lebesgue, and Generalized Riemann Integrals.
+
+Narosa Publishers.
+
+ISBN 978-81-7319-933-2.
+
+Gordon, Russell A.
+
+(1994).
+
+The integrals of Lebesgue, Denjoy, Perron, and Henstock.
+
+Graduate Studies in Mathematics.
+
+Vol.
+
+4.
+
+Providence, RI: American Mathematical Society.
+
+ISBN 978-0-8218-3805-1.
+
+Henstock, Ralph (1988).
+
+Lectures on the Theory of Integration.
+
+Series in Real Analysis.
+
+Vol.
+
+1.
+
+World Scientific Publishing Company.
+
+ISBN 978-9971-5-0450-2.
+
+Kurzweil, Jaroslav (2000).
+
+Henstock–Kurzweil Integration: Its Relation to Topological Vector Spaces.
+
+Series in Real Analysis.
+
+Vol.
+
+7.
+
+World Scientific Publishing Company.
+
+ISBN 978-981-02-4207-7.
+
+Kurzweil, Jaroslav (2002).
+
+Integration Between the Lebesgue Integral and the Henstock–Kurzweil Integral: Its Relation to Locally Convex Vector Spaces.
+
+Series in Real Analysis.
+
+Vol.
+
+8.
+
+World Scientific Publishing Company.
+
+ISBN 978-981-238-046-3.
+
+Leader, Solomon (2001).
+
+The Kurzweil–Henstock Integral & Its Differentials.
+
+Pure and Applied Mathematics Series.
+
+CRC.
+
+ISBN 978-0-8247-0535-0.
+
+Lee, Peng-Yee (1989).
+
+Lanzhou Lectures on Henstock Integration.
+
+Series in Real Analysis.
+
+Vol.
+
+2.
+
+World Scientific Publishing Company.
+
+ISBN 978-9971-5-0891-3.
+
+Lee, Peng-Yee; Výborný, Rudolf (2000).
+
+Integral: An Easy Approach after Kurzweil and Henstock.
+
+Australian Mathematical Society Lecture Series.
+
+Cambridge University Press.
+
+ISBN 978-0-521-77968-5.
+
+McLeod, Robert M.
+
+(1980).
+
+The generalized Riemann integral.
+
+Carus Mathematical Monographs.
+
+Vol.
+
+20.
+
+Washington, D.
+
+C.
+
+: Mathematical Association of America.
+
+ISBN 978-0-88385-021-3.
+
+Swartz, Charles W.
+
+(2001).
+
+Introduction to Gauge Integrals.
+
+World Scientific Publishing Company.
+
+ISBN 978-981-02-4239-8.
+
+Swartz, Charles W.
+
+; Kurtz, Douglas S.
+
+(2004).
+
+Theories of Integration: The Integrals of Riemann, Lebesgue, Henstock–Kurzweil, and McShane.
+
+Series in Real Analysis.
+
+Vol.
+
+9.
+
+World Scientific Publishing Company.
+
+ISBN 978-981-256-611-9.
+
+External links [ edit ] The following are additional resources on the web for learning more: "Kurzweil-Henstock integral" , Encyclopedia of Mathematics , EMS Press , 2001 [1994] An Introduction to The Gauge Integral An Open Suggestion: To replace the Riemann integral with the gauge integral in calculus textbooks signed by Bartle, Henstock, Kurzweil, Schechter, Schwabik, and Výborný v t e Integrals Types of integrals Riemann integral Lebesgue integral Burkill integral Bochner integral Daniell integral Darboux integral Henstock–Kurzweil integral Haar integral Hellinger integral Khinchin integral Kolmogorov integral Lebesgue–Stieltjes integral Pettis integral Pfeffer integral Riemann–Stieltjes integral Regulated integral Integration techniques Substitution Trigonometric Euler Weierstrass By parts Partial fractions Euler's formula Inverse functions Changing order Reduction formulas Parametric derivatives Differentiation under the integral sign Laplace transform Contour integration Laplace's method Numerical integration Simpson's rule Trapezoidal rule Risch algorithm Improper integrals Gaussian integral Dirichlet integral Fermi–Dirac integral complete incomplete Bose–Einstein integral Frullani integral Common integrals in quantum field theory Stochastic integrals Itô integral Russo–Vallois integral Stratonovich integral Skorokhod integral Miscellaneous Basel problem Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Volumes Washers Shells Authority control databases : National Czech Republic Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Henstock–Kurzweil_integral&oldid=1218554315 " Category : Definitions of mathematical integration Hidden categories: CS1 maint: location missing publisher CS1 maint: others Articles with short description Short description matches Wikidata Articles lacking in-text citations from February 2016 All articles lacking in-text citations Pages with French IPA Articles with NKC identifiers This page was last edited on 12 April 2024, at 12:02 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

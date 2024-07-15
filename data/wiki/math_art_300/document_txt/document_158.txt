@@ -1,0 +1,41 @@
+Outline of calculus - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Branches of calculus 2 History of calculus 3 General calculus concepts 4 Calculus scholars 5 Calculus lists 6 See also 7 References 8 External links Toggle the table of contents Outline of calculus Add languages Add links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Overview of and topical guide to calculus Calculus is a branch of mathematics focused on limits , functions , derivatives , integrals , and infinite series.
+
+This subject constitutes a major part of contemporary mathematics education.
+
+Calculus has widespread applications in science , economics , and engineering and can solve many problems for which algebra alone is insufficient.
+
+Branches of calculus [ edit ] Differential calculus Integral calculus Multivariable calculus Fractional calculus Differential Geometry History of calculus [ edit ] History of calculus Important publications in calculus General calculus concepts [ edit ] Continuous function Derivative Fundamental theorem of calculus Integral Limit Non-standard analysis Partial derivative Infinite Series Calculus scholars [ edit ] Sir Isaac Newton Gottfried Leibniz Calculus lists [ edit ] List of calculus topics See also [ edit ] Glossary of calculus Table of mathematical symbols References [ edit ] External links [ edit ] Calculus at Wikipedia's sister projects Definitions from Wiktionary Media from Commons News from Wikinews Quotations from Wikiquote Texts from Wikisource Textbooks from Wikibooks Resources from Wikiversity Weisstein, Eric W.
+
+"Calculus".
+
+MathWorld.
+
+Topics on Calculus at PlanetMath.
+
+Calculus Made Easy (1914) by Silvanus P.
+
+Thompson Full text in PDF Calculus.
+
+org: The Calculus page at University of California, Davis – contains resources and links to other sites COW: Calculus on the Web at Temple University - contains resources ranging from pre-calculus and associated algebra Online Integrator (WebMathematica) from Wolfram Research The Role of Calculus in College Mathematics from ERICDigests.
+
+org OpenCourseWare Calculus from the Massachusetts Institute of Technology Infinitesimal Calculus – an article on its historical development, in Encyclopaedia of Mathematics, Michiel Hazewinkel ed.
+
+v t e Wikipedia outlines General reference Culture and the arts Geography and places Health and fitness History and events Mathematics and logic Natural and physical sciences People and self Philosophy and thinking Religion and belief systems Society and social sciences Technology and applied sciences Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Outline_of_calculus&oldid=1182626431 " Categories : Outlines of mathematics and logic Outlines Calculus Mathematics-related lists Hidden categories: Articles with short description Short description matches Wikidata Pages using Sister project links with default search This page was last edited on 30 October 2023, at 12:05 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

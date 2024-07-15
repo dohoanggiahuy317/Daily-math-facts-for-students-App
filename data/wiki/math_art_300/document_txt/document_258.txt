@@ -1,0 +1,1063 @@
+Fourier series - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Common forms of the Fourier series Toggle Common forms of the Fourier series subsection 1.
+
+1 Exponential form coefficients 1.
+
+2 Complex-valued functions 1.
+
+3 Derivation 1.
+
+4 Other common notations 1.
+
+5 Analysis example 1.
+
+6 Convergence 2 History Toggle History subsection 2.
+
+1 Beginnings 2.
+
+2 Fourier's motivation 2.
+
+3 Other applications 3 Table of common Fourier series 4 Table of basic properties 5 Symmetry properties 6 Other properties Toggle Other properties subsection 6.
+
+1 Riemann–Lebesgue lemma 6.
+
+2 Parseval's theorem 6.
+
+3 Plancherel's theorem 6.
+
+4 Convolution theorems 6.
+
+5 Derivative property 6.
+
+6 Compact groups 6.
+
+7 Riemannian manifolds 6.
+
+8 Locally compact Abelian groups 7 Extensions Toggle Extensions subsection 7.
+
+1 Fourier series on a square 7.
+
+2 Fourier series of Bravais-lattice-periodic-function 7.
+
+3 Hilbert space interpretation 8 Fourier theorem proving convergence of Fourier series Toggle Fourier theorem proving convergence of Fourier series subsection 8.
+
+1 Least squares property 8.
+
+2 Convergence theorems 8.
+
+3 Divergence 9 See also 10 Notes 11 References Toggle References subsection 11.
+
+1 Further reading 12 External links Toggle the table of contents Fourier series 64 languages Afrikaans አማርኛ العربية Asturianu Azərbaycanca বাংলা Башҡортса Беларуская Български Bosanski Català Чӑвашла Čeština Cymraeg Dansk Deutsch Eesti Ελληνικά Español Esperanto Euskara فارسی Français Galego 한국어 Հայերեն हिन्दी Bahasa Indonesia Italiano עברית ಕನ್ನಡ Қазақша Latina Lietuvių Magyar Македонски Malti Nederlands 日本語 Norsk nynorsk Piemontèis Polski Português Română Русский Shqip සිංහල Simple English Slovenčina Slovenščina Српски / srpski Srpskohrvatski / српскохрватски Sunda Suomi Svenska Татарча / tatarça ไทย Türkçe Українська اردو Tiếng Việt 吴语 粵語 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikiversity Appearance move to sidebar hide From Wikipedia, the free encyclopedia Decomposition of periodic functions into sums of simpler sinusoidal forms "Fourier's theorem" redirects here.
+
+For the number of real roots of a polynomial, see Budan's theorem § Fourier's theorem.
+
+Fourier transforms Fourier transform Fourier series Discrete-time Fourier transform Discrete Fourier transform Discrete Fourier transform over a ring Fourier transform on finite groups Fourier analysis Related transforms A Fourier series ( / ˈ f ʊr i eɪ , - i ər / [1] ) is an expansion of a periodic function into a sum of trigonometric functions.
+
+The Fourier series is an example of a trigonometric series , but not all trigonometric series are Fourier series.
+
+[2] By expressing a function as a sum of sines and cosines, many problems involving the function become easier to analyze because trigonometric functions are well understood.
+
+For example, Fourier series were first used by Joseph Fourier to find solutions to the heat equation.
+
+This application is possible because the derivatives of trigonometric functions fall into simple patterns.
+
+Fourier series cannot be used to approximate arbitrary functions, because most functions have infinitely many terms in their Fourier series, and the series do not always converge.
+
+Well-behaved functions, for example smooth functions, have Fourier series that converge to the original function.
+
+The coefficients of the Fourier series are determined by integrals of the function multiplied by trigonometric functions, described in Common forms of the Fourier series below.
+
+The study of the convergence of Fourier series focus on the behaviors of the partial sums , which means studying the behavior of the sum as more and more terms from the series are summed.
+
+The figures below illustrate some partial Fourier series results for the components of a square wave.
+
+A square wave (represented as the blue dot) is approximated by its sixth partial sum (represented as the purple dot), formed by summing the first six terms (represented as arrows) of the square wave's Fourier series.
+
+Each arrow starts at the vertical sum of all the arrows to its left (i.
+
+e.
+
+the previous partial sum).
+
+The first four partial sums of the Fourier series for a square wave.
+
+As more harmonics are added, the partial sums converge to (become more and more like) the square wave.
+
+Function s 6 ( x ) {\displaystyle s_{6}(x)} (in red) is a Fourier series sum of 6 harmonically related sine waves (in blue).
+
+Its Fourier transform S ( f ) {\displaystyle S(f)} is a frequency-domain representation that reveals the amplitudes of the summed sine waves.
+
+Fourier series are closely related to the Fourier transform , which can be used to find the frequency information for functions that are not periodic.
+
+Periodic functions can be identified with functions on a circle; for this reason Fourier series are the subject of Fourier analysis on a circle, usually denoted as T {\displaystyle \mathbb {T} } or S 1 {\displaystyle S_{1}}.
+
+The Fourier transform is also part of Fourier analysis , but is defined for functions on R n {\displaystyle \mathbb {R} ^{n}}.
+
+Since Fourier's time, many different approaches to defining and understanding the concept of Fourier series have been discovered, all of which are consistent with one another, but each of which emphasizes different aspects of the topic.
+
+Some of the more powerful and elegant approaches are based on mathematical ideas and tools that were not available in Fourier's time.
+
+Fourier originally defined the Fourier series for real -valued functions of real arguments, and used the sine and cosine functions in the decomposition.
+
+Many other Fourier-related transforms have since been defined, extending his initial idea to many applications and birthing an area of mathematics called Fourier analysis.
+
+Common forms of the Fourier series [ edit ] A Fourier series is a continuous, periodic function created by a summation of harmonically related sinusoidal functions.
+
+It has several different, but equivalent, forms, shown here as partial sums.
+
+But in theory N → ∞.
+
+{\displaystyle N\rightarrow \infty.
+
+} The subscripted symbols, called coefficients , and the period, P , {\displaystyle P,} determine the function s N ( x ) {\displaystyle s_{\scriptscriptstyle N}(x)} as follows : Fig 1.
+
+The top graph shows a non-periodic function s ( x ) in blue defined only over the red interval from 0 to P.
+
+The function can be analyzed over this interval to produce the Fourier series in the bottom graph.
+
+The Fourier series is always a periodic function, even if original function s ( x ) isn't.
+
+Fourier series, amplitude-phase form s N ( x ) = D 0 + ∑ n = 1 N D n cos ⁡ ( 2 π n P x − φ n ) {\displaystyle s_{_{N}}(x)=D_{0}+\sum _{n=1}^{N}D_{n}\cos \left(2\pi {\tfrac {n}{P}}x-\varphi _{n}\right)} ( Eq.
+
+1 ) Fourier series, sine-cosine form s N ( x ) = A 0 + ∑ n = 1 N ( A n cos ⁡ ( 2 π n P x ) + B n sin ⁡ ( 2 π n P x ) ) {\displaystyle s_{_{N}}(x)=A_{0}+\sum _{n=1}^{N}\left(A_{n}\cos \left(2\pi {\tfrac {n}{P}}x\right)+B_{n}\sin \left(2\pi {\tfrac {n}{P}}x\right)\right)} ( Eq.
+
+2 ) Fourier series, exponential form s N ( x ) = ∑ n = − N N C n e i 2 π n P x {\displaystyle s_{_{N}}(x)=\sum _{n=-N}^{N}C_{n}\ e^{i2\pi {\tfrac {n}{P}}x}} ( Eq.
+
+3 ) The harmonics are indexed by an integer, n , {\displaystyle n,} which is also the number of cycles the corresponding sinusoids make in interval P {\displaystyle P}.
+
+Therefore, the sinusoids have : a wavelength equal to P n {\displaystyle {\tfrac {P}{n}}} in the same units as x {\displaystyle x}.
+
+a frequency equal to n P {\displaystyle {\tfrac {n}{P}}} in the reciprocal units of x {\displaystyle x}.
+
+Clearly these series can represent functions that are just a sum of one or more of the harmonic frequencies.
+
+The remarkable thing is that it can also represent the intermediate frequencies and/or non-sinusoidal functions because of the infinite number of terms.
+
+The amplitude-phase form is particularly useful for its insight into the rationale for the series coefficients.
+
+(see § Derivation ) The exponential form is most easily generalized for complex-valued functions.
+
+(see § Complex-valued functions ) The equivalence of these forms requires certain relationships among the coefficients.
+
+For instance, the trigonometric identity : Equivalence of polar and rectangular forms cos ⁡ ( 2 π n P x − φ n ) ≡ cos ⁡ ( φ n ) ⋅ cos ⁡ ( 2 π n P x ) + sin ⁡ ( φ n ) ⋅ sin ⁡ ( 2 π n P x ) {\displaystyle \cos \left(2\pi {\tfrac {n}{P}}x-\varphi _{n}\right)\ \equiv \ \cos(\varphi _{n})\cdot \cos \left(2\pi {\tfrac {n}{P}}x\right)+\sin(\varphi _{n})\cdot \sin \left(2\pi {\tfrac {n}{P}}x\right)} ( Eq.
+
+4 ) means that : A n = D n cos ⁡ ( φ n ) and B n = D n sin ⁡ ( φ n ) D n = A n 2 + B n 2 and φ n = arctan ⁡ ( B n , A n ).
+
+{\displaystyle {\begin{aligned}&A_{n}=D_{n}\cos(\varphi _{n})\quad {\text{and}}\quad B_{n}=D_{n}\sin(\varphi _{n})\\\\&D_{n}={\sqrt {A_{n}^{2}+B_{n}^{2}}}\quad {\text{and}}\quad \varphi _{n}=\arctan(B_{n},A_{n}).
+
+\end{aligned}}} ( Eq.
+
+4.
+
+1 ) Therefore A n {\displaystyle A_{n}} and B n {\displaystyle B_{n}} are the rectangular coordinates of a vector with polar coordinates D n {\displaystyle D_{n}} and φ n.
+
+{\displaystyle \varphi _{n}.
+
+} The coefficients can be given/assumed, such as a music synthesizer or time samples of a waveform.
+
+In the latter case, the exponential form of Fourier series synthesizes a discrete-time Fourier transform where variable x {\displaystyle x} represents frequency instead of time.
+
+But typically the coefficients are determined by frequency/harmonic analysis of a given real-valued function s ( x ) , {\displaystyle s(x),} and x {\displaystyle x} represents time : Fourier series analysis A 0 = 1 P ∫ P s ( x ) d x A n = 2 P ∫ P s ( x ) cos ⁡ ( 2 π n P x ) d x for n ≥ 1 B n = 2 P ∫ P s ( x ) sin ⁡ ( 2 π n P x ) d x , for n ≥ 1 {\displaystyle {\begin{aligned}A_{0}&={\frac {1}{P}}\int _{P}s(x)\,dx\\A_{n}&={\frac {2}{P}}\int _{P}s(x)\cos \left(2\pi {\tfrac {n}{P}}x\right)\,dx\qquad {\text{for }}n\geq 1\qquad \\B_{n}&={\frac {2}{P}}\int _{P}s(x)\sin \left(2\pi {\tfrac {n}{P}}x\right)dx,\qquad {\text{for }}n\geq 1\end{aligned}}} ( Eq.
+
+5 ) The objective is for s ∞ {\displaystyle s_{\scriptstyle {\infty }}} to converge to s ( x ) {\displaystyle s(x)} at most or all values of x {\displaystyle x} in an interval of length P.
+
+{\displaystyle P.
+
+} For the well-behaved functions typical of physical processes, equality is customarily assumed, and the Dirichlet conditions provide sufficient conditions.
+
+The notation ∫ P {\displaystyle \int _{P}} represents integration over the chosen interval.
+
+Typical choices are [ − P / 2 , P / 2 ] {\displaystyle [-P/2,P/2]} and [ 0 , P ] {\displaystyle [0,P]}.
+
+Some authors define P ≜ 2 π {\displaystyle P\triangleq 2\pi } because it simplifies the arguments of the sinusoid functions, at the expense of generality.
+
+And some authors assume that s ( x ) {\displaystyle s(x)} is also P {\displaystyle P} -periodic, in which case s ∞ {\displaystyle s_{\scriptstyle {\infty }}} approximates the entire function.
+
+The 2 P {\displaystyle {\tfrac {2}{P}}} scaling factor is explained by taking a simple case : s ( x ) = cos ⁡ ( 2 π k P x ).
+
+{\displaystyle s(x)=\cos \left(2\pi {\tfrac {k}{P}}x\right).
+
+} Only the n = k {\displaystyle n=k} term of Eq.
+
+2 is needed for convergence, with A k = 1 {\displaystyle A_{k}=1} and B k = 0.
+
+{\displaystyle B_{k}=0.
+
+} Accordingly Eq.
+
+5 provides : A k = 2 P ∫ P cos 2 ⁡ ( 2 π k P x ) d x ⏟ P / 2 = 1 , {\displaystyle A_{k}={\frac {2}{P}}\underbrace {\int _{P}\cos ^{2}\left(2\pi {\tfrac {k}{P}}x\right)\,dx} _{P/2}=1,} as required.
+
+Exponential form coefficients [ edit ] Another applicable identity is Euler's formula : cos ⁡ ( 2 π n P x − φ n ) ≡ 1 2 e i ( 2 π n P x − φ n ) + 1 2 e − i ( 2 π n P x − φ n ) = ( 1 2 e − i φ n ) ⋅ e i 2 π + n P x + ( 1 2 e − i φ n ) ∗ ⋅ e i 2 π − n P x {\displaystyle {\begin{aligned}\cos \left(2\pi {\tfrac {n}{P}}x-\varphi _{n}\right)&{}\equiv {\tfrac {1}{2}}e^{i\left(2\pi {\tfrac {n}{P}}x-\varphi _{n}\right)}+{\tfrac {1}{2}}e^{-i\left(2\pi {\tfrac {n}{P}}x-\varphi _{n}\right)}\\[6pt]&=\left({\tfrac {1}{2}}e^{-i\varphi _{n}}\right)\cdot e^{i2\pi {\tfrac {+n}{P}}x}+\left({\tfrac {1}{2}}e^{-i\varphi _{n}}\right)^{*}\cdot e^{i2\pi {\tfrac {-n}{P}}x}\end{aligned}}} (Note : the ∗ denotes complex conjugation.
+
+) Substituting this into Eq.
+
+1 and comparison with Eq.
+
+3 ultimately reveals : Exponential form coefficients C n ≜ { A 0 , n = 0 D n 2 e − i φ n = 1 2 ( A n − i B n ) , n > 0 C | n | ∗ , n < 0 } {\displaystyle C_{n}\triangleq \left\{{\begin{array}{lll}A_{0},\quad &&n=0\\{\tfrac {D_{n}}{2}}e^{-i\varphi _{n}}&={\tfrac {1}{2}}(A_{n}-iB_{n}),\quad &n>0\\C_{|n|}^{*},\quad &&n<0\end{array}}\right\}} ( Eq.
+
+6 ) Conversely : Inverse relationships A 0 = C 0 A n = C n + C − n for n > 0 B n = i ( C n − C − n ) for n > 0 {\displaystyle {\begin{aligned}A_{0}&=C_{0}&\\A_{n}&=C_{n}+C_{-n}\qquad &{\textrm {for}}~n>0\\B_{n}&=i(C_{n}-C_{-n})\qquad &{\textrm {for}}~n>0\end{aligned}}} Substituting Eq.
+
+5 into Eq.
+
+6 also reveals : [3] Fourier series analysis C n = 1 P ∫ P s ( x ) e − i 2 π n P x d x ; ∀ n ∈ Z {\displaystyle C_{n}={\frac {1}{P}}\int _{P}s(x)e^{-i2\pi {\tfrac {n}{P}}x}\,dx;\quad \forall \ n\in \mathbb {Z} \,} ( all integers ) ( Eq.
+
+7 ) Complex-valued functions [ edit ] Eq.
+
+7 and Eq.
+
+3 also apply when s ( x ) {\displaystyle s(x)} is a complex-valued function.
+
+[A] This follows by expressing Re ⁡ ( s N ( x ) ) {\displaystyle \operatorname {Re} (s_{N}(x))} and Im ⁡ ( s N ( x ) ) {\displaystyle \operatorname {Im} (s_{N}(x))} as separate real-valued Fourier series, and s N ( x ) = Re ⁡ ( s N ( x ) ) + i Im ⁡ ( s N ( x ) ).
+
+{\displaystyle s_{N}(x)=\operatorname {Re} (s_{N}(x))+i\ \operatorname {Im} (s_{N}(x)).
+
+} Derivation [ edit ] The coefficients D n {\displaystyle D_{n}} and φ n {\displaystyle \varphi _{n}} can be understood and derived in terms of the cross-correlation between s ( x ) {\displaystyle s(x)} and a sinusoid at frequency n P {\displaystyle {\tfrac {n}{P}}}.
+
+For a general frequency f , {\displaystyle f,} and an analysis interval [ x 0 , x 0 + P ] , {\displaystyle [x_{0},x_{0}+P],} the cross-correlation function : Fig 2.
+
+The blue curve is the cross-correlation of a square wave and a cosine function, as the phase lag of the cosine varies over one cycle.
+
+The amplitude and phase lag at the maximum value are the polar coordinates of one harmonic in the Fourier series expansion of the square wave.
+
+The corresponding rectangular coordinates can be determined by evaluating the cross-correlation at just two phase lags separated by 90º.
+
+Derivation of Eq.
+
+1 X f ( τ ) = 2 P ∫ x 0 x 0 + P s ( x ) ⋅ cos ⁡ ( 2 π f ( x − τ ) ) d x ; τ ∈ [ 0 , 1 f ] {\displaystyle \mathrm {X} _{f}(\tau )={\tfrac {2}{P}}\int _{x_{0}}^{x_{0}+P}s(x)\cdot \cos \left(2\pi f(x-\tau )\right)\,dx;\quad \tau \in \left[0,{\tfrac {1}{f}}\right]} ( Eq.
+
+8 ) is essentially a matched filter , with template cos ⁡ ( 2 π f x ) {\displaystyle \cos(2\pi fx)}.
+
+The maximum of X f ( τ ) {\displaystyle \mathrm {X} _{f}(\tau )} is a measure of the amplitude ( D ) {\displaystyle (D)} of frequency f {\displaystyle f} in the function s ( x ) {\displaystyle s(x)} , and the value of τ {\displaystyle \tau } at the maximum determines the phase ( φ ) {\displaystyle (\varphi )} of that frequency.
+
+Figure 2 is an example, where s ( x ) {\displaystyle s(x)} is a square wave (not shown), and frequency f {\displaystyle f} is the 4 th {\displaystyle 4^{\text{th}}} harmonic.
+
+It is also an example of deriving the maximum from just two samples, instead of searching the entire function.
+
+Combining Eq.
+
+8 with Eq.
+
+4 gives : X n ( φ ) = 2 P ∫ P s ( x ) ⋅ cos ⁡ ( 2 π n P x − φ ) d x ; φ ∈ [ 0 , 2 π ] = cos ⁡ ( φ ) ⋅ 2 P ∫ P s ( x ) ⋅ cos ⁡ ( 2 π n P x ) d x ⏟ A + sin ⁡ ( φ ) ⋅ 2 P ∫ P s ( x ) ⋅ sin ⁡ ( 2 π n P x ) d x ⏟ B = cos ⁡ ( φ ) ⋅ A + sin ⁡ ( φ ) ⋅ B {\displaystyle {\begin{aligned}\mathrm {X} _{n}(\varphi )&={\tfrac {2}{P}}\int _{P}s(x)\cdot \cos \left(2\pi {\tfrac {n}{P}}x-\varphi \right)\,dx;\quad \varphi \in [0,2\pi ]\\&=\cos(\varphi )\cdot \underbrace {{\tfrac {2}{P}}\int _{P}s(x)\cdot \cos \left(2\pi {\tfrac {n}{P}}x\right)\,dx} _{A}+\sin(\varphi )\cdot \underbrace {{\tfrac {2}{P}}\int _{P}s(x)\cdot \sin \left(2\pi {\tfrac {n}{P}}x\right)\,dx} _{B}\\&=\cos(\varphi )\cdot A+\sin(\varphi )\cdot B\end{aligned}}} The derivative of X n ( φ ) {\displaystyle \mathrm {X} _{n}(\varphi )} is zero at the phase of maximum correlation.
+
+X n ′ ( φ ) = sin ⁡ ( φ ) ⋅ A − cos ⁡ ( φ ) ⋅ B = 0 ⟶ tan ⁡ ( φ ) = B A ⟶ φ = arctan ⁡ ( B , A ) {\displaystyle \mathrm {X} '_{n}(\varphi )=\sin(\varphi )\cdot A-\cos(\varphi )\cdot B=0\quad \longrightarrow \quad \tan(\varphi )={\frac {B}{A}}\quad \longrightarrow \quad \varphi =\arctan(B,A)} Therefore, computing A n {\displaystyle A_{n}} and B n {\displaystyle B_{n}} according to Eq.
+
+5 creates the component's phase φ n {\displaystyle \varphi _{n}} of maximum correlation.
+
+And the component's amplitude is : D n ≜ X n ( φ n ) = cos ⁡ ( φ n ) ⋅ A n + sin ⁡ ( φ n ) ⋅ B n = A n A n 2 + B n 2 ⋅ A n + B n A n 2 + B n 2 ⋅ B n = A n 2 + B n 2 A n 2 + B n 2 = A n 2 + B n 2.
+
+{\displaystyle {\begin{aligned}D_{n}\triangleq \mathrm {X} _{n}(\varphi _{n})\ &=\cos(\varphi _{n})\cdot A_{n}+\sin(\varphi _{n})\cdot B_{n}\\&={\frac {A_{n}}{\sqrt {A_{n}^{2}+B_{n}^{2}}}}\cdot A_{n}+{\frac {B_{n}}{\sqrt {A_{n}^{2}+B_{n}^{2}}}}\cdot B_{n}={\frac {A_{n}^{2}+B_{n}^{2}}{\sqrt {A_{n}^{2}+B_{n}^{2}}}}&={\sqrt {A_{n}^{2}+B_{n}^{2}}}.
+
+\end{aligned}}} Other common notations [ edit ] The notation C n {\displaystyle C_{n}} is inadequate for discussing the Fourier coefficients of several different functions.
+
+Therefore, it is customarily replaced by a modified form of the function ( s , {\displaystyle s,} in this case), such as s ^ ( n ) {\displaystyle {\widehat {s}}(n)} or S [ n ] {\displaystyle S[n]} , and functional notation often replaces subscripting : s ( x ) = ∑ n = − ∞ ∞ s ^ ( n ) ⋅ e i 2 π n P x common mathematics notation = ∑ n = − ∞ ∞ S [ n ] ⋅ e i 2 π n P x common engineering notation {\displaystyle {\begin{aligned}s(x)&=\sum _{n=-\infty }^{\infty }{\widehat {s}}(n)\cdot e^{i2\pi {\tfrac {n}{P}}x}&&\scriptstyle {\text{common mathematics notation}}\\&=\sum _{n=-\infty }^{\infty }S[n]\cdot e^{i2\pi {\tfrac {n}{P}}x}&&\scriptstyle {\text{common engineering notation}}\end{aligned}}} In engineering, particularly when the variable x {\displaystyle x} represents time, the coefficient sequence is called a frequency domain representation.
+
+Square brackets are often used to emphasize that the domain of this function is a discrete set of frequencies.
+
+Another commonly used frequency domain representation uses the Fourier series coefficients to modulate a Dirac comb : S ( f ) ≜ ∑ n = − ∞ ∞ S [ n ] ⋅ δ ( f − n P ) , {\displaystyle S(f)\ \triangleq \ \sum _{n=-\infty }^{\infty }S[n]\cdot \delta \left(f-{\frac {n}{P}}\right),} where f {\displaystyle f} represents a continuous frequency domain.
+
+When variable x {\displaystyle x} has units of seconds, f {\displaystyle f} has units of hertz.
+
+The "teeth" of the comb are spaced at multiples (i.
+
+e.
+
+harmonics ) of 1 P {\displaystyle {\tfrac {1}{P}}} , which is called the fundamental frequency.
+
+s ∞ ( x ) {\displaystyle s_{\infty }(x)} can be recovered from this representation by an inverse Fourier transform : F − 1 { S ( f ) } = ∫ − ∞ ∞ ( ∑ n = − ∞ ∞ S [ n ] ⋅ δ ( f − n P ) ) e i 2 π f x d f , = ∑ n = − ∞ ∞ S [ n ] ⋅ ∫ − ∞ ∞ δ ( f − n P ) e i 2 π f x d f , = ∑ n = − ∞ ∞ S [ n ] ⋅ e i 2 π n P x ≜ s ∞ ( x ).
+
+{\displaystyle {\begin{aligned}{\mathcal {F}}^{-1}\{S(f)\}&=\int _{-\infty }^{\infty }\left(\sum _{n=-\infty }^{\infty }S[n]\cdot \delta \left(f-{\frac {n}{P}}\right)\right)e^{i2\pi fx}\,df,\\[6pt]&=\sum _{n=-\infty }^{\infty }S[n]\cdot \int _{-\infty }^{\infty }\delta \left(f-{\frac {n}{P}}\right)e^{i2\pi fx}\,df,\\[6pt]&=\sum _{n=-\infty }^{\infty }S[n]\cdot e^{i2\pi {\tfrac {n}{P}}x}\ \ \triangleq \ s_{\infty }(x).
+
+\end{aligned}}} The constructed function S ( f ) {\displaystyle S(f)} is therefore commonly referred to as a Fourier transform , even though the Fourier integral of a periodic function is not convergent at the harmonic frequencies.
+
+[B] Analysis example [ edit ] Plot of the sawtooth wave , a periodic continuation of the linear function s ( x ) = x / π {\displaystyle s(x)=x/\pi } on the interval ( − π , π ] {\displaystyle (-\pi ,\pi ]} Animated plot of the first five successive partial Fourier series Consider a sawtooth function : s ( x ) = x π , f o r − π < x < π , {\displaystyle s(x)={\frac {x}{\pi }},\quad \mathrm {for} -\pi <x<\pi ,} s ( x + 2 π k ) = s ( x ) , f o r − π < x < π and k ∈ Z.
+
+{\displaystyle s(x+2\pi k)=s(x),\quad \mathrm {for} -\pi <x<\pi {\text{ and }}k\in \mathbb {Z}.
+
+} In this case, the Fourier coefficients are given by A n = 1 π ∫ − π π s ( x ) cos ⁡ ( n x ) d x = 0 , n ≥ 0.
+
+B n = 1 π ∫ − π π s ( x ) sin ⁡ ( n x ) d x = − 2 π n cos ⁡ ( n π ) + 2 π 2 n 2 sin ⁡ ( n π ) = 2 ( − 1 ) n + 1 π n , n ≥ 1.
+
+{\displaystyle {\begin{aligned}A_{n}&={\frac {1}{\pi }}\int _{-\pi }^{\pi }s(x)\cos(nx)\,dx=0,\quad n\geq 0.
+
+\\[4pt]B_{n}&={\frac {1}{\pi }}\int _{-\pi }^{\pi }s(x)\sin(nx)\,dx\\[4pt]&=-{\frac {2}{\pi n}}\cos(n\pi )+{\frac {2}{\pi ^{2}n^{2}}}\sin(n\pi )\\[4pt]&={\frac {2\,(-1)^{n+1}}{\pi n}},\quad n\geq 1.
+
+\end{aligned}}} It can be shown that the Fourier series converges to s ( x ) {\displaystyle s(x)} at every point x {\displaystyle x} where s {\displaystyle s} is differentiable, and therefore : s ( x ) = a 0 2 + ∑ n = 1 ∞ [ A n cos ⁡ ( n x ) + B n sin ⁡ ( n x ) ] = 2 π ∑ n = 1 ∞ ( − 1 ) n + 1 n sin ⁡ ( n x ) , f o r ( x − π ) is not a multiple of 2 π.
+
+{\displaystyle {\begin{aligned}s(x)&={\frac {a_{0}}{2}}+\sum _{n=1}^{\infty }\left[A_{n}\cos \left(nx\right)+B_{n}\sin \left(nx\right)\right]\\[4pt]&={\frac {2}{\pi }}\sum _{n=1}^{\infty }{\frac {(-1)^{n+1}}{n}}\sin(nx),\quad \mathrm {for} \ (x-\pi )\ {\text{is not a multiple of}}\ 2\pi.
+
+\end{aligned}}} ( Eq.
+
+9 ) When x = π {\displaystyle x=\pi } , the Fourier series converges to 0, which is the half-sum of the left- and right-limit of s at x = π {\displaystyle x=\pi }.
+
+This is a particular instance of the Dirichlet theorem for Fourier series.
+
+This example leads to a solution of the Basel problem.
+
+Convergence [ edit ] Main article: Convergence of Fourier series A proof that a Fourier series is a valid representation of any periodic function (that satisfies the Dirichlet conditions ) is overviewed in § Fourier theorem proving convergence of Fourier series.
+
+In engineering applications, the Fourier series is generally assumed to converge except at jump discontinuities since the functions encountered in engineering are better-behaved than functions encountered in other disciplines.
+
+In particular, if s {\displaystyle s} is continuous and the derivative of s ( x ) {\displaystyle s(x)} (which may not exist everywhere) is square integrable, then the Fourier series of s {\displaystyle s} converges absolutely and uniformly to s ( x ) {\displaystyle s(x)}.
+
+[4] If a function is square-integrable on the interval [ x 0 , x 0 + P ] {\displaystyle [x_{0},x_{0}+P]} , then the Fourier series converges to the function at almost everywhere.
+
+It is possible to define Fourier coefficients for more general functions or distributions, in which case point wise convergence often fails, and convergence in norm or weak convergence is usually studied.
+
+Four partial sums (Fourier series) of lengths 1, 2, 3, and 4 terms, showing how the approximation to a square wave improves as the number of terms increases (animation) Four partial sums (Fourier series) of lengths 1, 2, 3, and 4 terms, showing how the approximation to a sawtooth wave improves as the number of terms increases (animation) Example of convergence to a somewhat arbitrary function.
+
+Note the development of the "ringing" ( Gibbs phenomenon ) at the transitions to/from the vertical sections.
+
+History [ edit ] See also: Fourier analysis § History The Fourier series is named in honor of Jean-Baptiste Joseph Fourier (1768–1830), who made important contributions to the study of trigonometric series , after preliminary investigations by Leonhard Euler , Jean le Rond d'Alembert , and Daniel Bernoulli.
+
+[C] Fourier introduced the series for the purpose of solving the heat equation in a metal plate, publishing his initial results in his 1807 Mémoire sur la propagation de la chaleur dans les corps solides ( Treatise on the propagation of heat in solid bodies ), and publishing his Théorie analytique de la chaleur ( Analytical theory of heat ) in 1822.
+
+The Mémoire introduced Fourier analysis, specifically Fourier series.
+
+Through Fourier's research the fact was established that an arbitrary (at first, continuous [5] and later generalized to any piecewise -smooth [6] ) function can be represented by a trigonometric series.
+
+The first announcement of this great discovery was made by Fourier in 1807, before the French Academy.
+
+[7] Early ideas of decomposing a periodic function into the sum of simple oscillating functions date back to the 3rd century BC, when ancient astronomers proposed an empiric model of planetary motions, based on deferents and epicycles.
+
+The heat equation is a partial differential equation.
+
+Prior to Fourier's work, no solution to the heat equation was known in the general case, although particular solutions were known if the heat source behaved in a simple way, in particular, if the heat source was a sine or cosine wave.
+
+These simple solutions are now sometimes called eigensolutions.
+
+Fourier's idea was to model a complicated heat source as a superposition (or linear combination ) of simple sine and cosine waves, and to write the solution as a superposition of the corresponding eigensolutions.
+
+This superposition or linear combination is called the Fourier series.
+
+From a modern point of view, Fourier's results are somewhat informal, due to the lack of a precise notion of function and integral in the early nineteenth century.
+
+Later, Peter Gustav Lejeune Dirichlet [8] and Bernhard Riemann [9] [10] [11] expressed Fourier's results with greater precision and formality.
+
+Although the original motivation was to solve the heat equation, it later became obvious that the same techniques could be applied to a wide array of mathematical and physical problems, and especially those involving linear differential equations with constant coefficients, for which the eigensolutions are sinusoids.
+
+The Fourier series has many such applications in electrical engineering , vibration analysis, acoustics , optics , signal processing , image processing , quantum mechanics , econometrics , [12] shell theory , [13] etc.
+
+Beginnings [ edit ] Joseph Fourier wrote: [ dubious – discuss ] φ ( y ) = a 0 cos ⁡ π y 2 + a 1 cos ⁡ 3 π y 2 + a 2 cos ⁡ 5 π y 2 + ⋯.
+
+{\displaystyle \varphi (y)=a_{0}\cos {\frac {\pi y}{2}}+a_{1}\cos 3{\frac {\pi y}{2}}+a_{2}\cos 5{\frac {\pi y}{2}}+\cdots.
+
+} Multiplying both sides by cos ⁡ ( 2 k + 1 ) π y 2 {\displaystyle \cos(2k+1){\frac {\pi y}{2}}} , and then integrating from y = − 1 {\displaystyle y=-1} to y = + 1 {\displaystyle y=+1} yields: a k = ∫ − 1 1 φ ( y ) cos ⁡ ( 2 k + 1 ) π y 2 d y.
+
+{\displaystyle a_{k}=\int _{-1}^{1}\varphi (y)\cos(2k+1){\frac {\pi y}{2}}\,dy.
+
+} — Joseph Fourier, Mémoire sur la propagation de la chaleur dans les corps solides.
+
+(1807) [14] [D] This immediately gives any coefficient a k of the trigonometrical series for φ( y ) for any function which has such an expansion.
+
+It works because if φ has such an expansion, then (under suitable convergence assumptions) the integral a k = ∫ − 1 1 φ ( y ) cos ⁡ ( 2 k + 1 ) π y 2 d y = ∫ − 1 1 ( a cos ⁡ π y 2 cos ⁡ ( 2 k + 1 ) π y 2 + a ′ cos ⁡ 3 π y 2 cos ⁡ ( 2 k + 1 ) π y 2 + ⋯ ) d y {\displaystyle {\begin{aligned}a_{k}&=\int _{-1}^{1}\varphi (y)\cos(2k+1){\frac {\pi y}{2}}\,dy\\&=\int _{-1}^{1}\left(a\cos {\frac {\pi y}{2}}\cos(2k+1){\frac {\pi y}{2}}+a'\cos 3{\frac {\pi y}{2}}\cos(2k+1){\frac {\pi y}{2}}+\cdots \right)\,dy\end{aligned}}} can be carried out term-by-term.
+
+But all terms involving cos ⁡ ( 2 j + 1 ) π y 2 cos ⁡ ( 2 k + 1 ) π y 2 {\displaystyle \cos(2j+1){\frac {\pi y}{2}}\cos(2k+1){\frac {\pi y}{2}}} for j ≠ k vanish when integrated from −1 to 1, leaving only the k th {\displaystyle k^{\text{th}}} term.
+
+In these few lines, which are close to the modern formalism used in Fourier series, Fourier revolutionized both mathematics and physics.
+
+Although similar trigonometric series were previously used by Euler , d'Alembert , Daniel Bernoulli and Gauss , Fourier believed that such trigonometric series could represent any arbitrary function.
+
+In what sense that is actually true is a somewhat subtle issue and the attempts over many years to clarify this idea have led to important discoveries in the theories of convergence , function spaces , and harmonic analysis.
+
+When Fourier submitted a later competition essay in 1811, the committee (which included Lagrange , Laplace , Malus and Legendre , among others) concluded:.
+
+the manner in which the author arrives at these equations is not exempt of difficulties and.
+
+his analysis to integrate them still leaves something to be desired on the score of generality and even rigour.
+
+[ citation needed ] Fourier's motivation [ edit ] Heat distribution in a metal plate, using Fourier's method The Fourier series expansion of the sawtooth function (above) looks more complicated than the simple formula s ( x ) = x π {\displaystyle s(x)={\tfrac {x}{\pi }}} , so it is not immediately apparent why one would need the Fourier series.
+
+While there are many applications, Fourier's motivation was in solving the heat equation.
+
+For example, consider a metal plate in the shape of a square whose sides measure π {\displaystyle \pi } meters, with coordinates ( x , y ) ∈ [ 0 , π ] × [ 0 , π ] {\displaystyle (x,y)\in [0,\pi ]\times [0,\pi ]}.
+
+If there is no heat source within the plate, and if three of the four sides are held at 0 degrees Celsius, while the fourth side, given by y = π {\displaystyle y=\pi } , is maintained at the temperature gradient T ( x , π ) = x {\displaystyle T(x,\pi )=x} degrees Celsius, for x {\displaystyle x} in ( 0 , π ) {\displaystyle (0,\pi )} , then one can show that the stationary heat distribution (or the heat distribution after a long period of time has elapsed) is given by T ( x , y ) = 2 ∑ n = 1 ∞ ( − 1 ) n + 1 n sin ⁡ ( n x ) sinh ⁡ ( n y ) sinh ⁡ ( n π ).
+
+{\displaystyle T(x,y)=2\sum _{n=1}^{\infty }{\frac {(-1)^{n+1}}{n}}\sin(nx){\sinh(ny) \over \sinh(n\pi )}.
+
+} Here, sinh is the hyperbolic sine function.
+
+This solution of the heat equation is obtained by multiplying each term of Eq.
+
+9 by sinh ⁡ ( n y ) / sinh ⁡ ( n π ) {\displaystyle \sinh(ny)/\sinh(n\pi )}.
+
+While our example function s ( x ) {\displaystyle s(x)} seems to have a needlessly complicated Fourier series, the heat distribution T ( x , y ) {\displaystyle T(x,y)} is nontrivial.
+
+The function T {\displaystyle T} cannot be written as a closed-form expression.
+
+This method of solving the heat problem was made possible by Fourier's work.
+
+Other applications [ edit ] Another application is to solve the Basel problem by using Parseval's theorem.
+
+The example generalizes and one may compute ζ (2 n ), for any positive integer n.
+
+Table of common Fourier series [ edit ] Some common pairs of periodic functions and their Fourier series coefficients are shown in the table below.
+
+s ( x ) {\displaystyle s(x)} designates a periodic function with period P {\displaystyle P}.
+
+A 0 , A n , B n {\displaystyle A_{0},A_{n},B_{n}} designate the Fourier series coefficients (sine-cosine form) of the periodic function s ( x ) {\displaystyle s(x)}.
+
+Time domain s ( x ) {\displaystyle s(x)} Plot Frequency domain (sine-cosine form) A 0 A n for n ≥ 1 B n for n ≥ 1 {\displaystyle {\begin{aligned}&A_{0}\\&A_{n}\quad {\text{for }}n\geq 1\\&B_{n}\quad {\text{for }}n\geq 1\end{aligned}}} Remarks Reference s ( x ) = A | sin ⁡ ( 2 π P x ) | for 0 ≤ x < P {\displaystyle s(x)=A\left|\sin \left({\frac {2\pi }{P}}x\right)\right|\quad {\text{for }}0\leq x<P} A 0 = 2 A π A n = { − 4 A π 1 n 2 − 1 n even 0 n odd B n = 0 {\displaystyle {\begin{aligned}A_{0}=&{\frac {2A}{\pi }}\\A_{n}=&{\begin{cases}{\frac {-4A}{\pi }}{\frac {1}{n^{2}-1}}&\quad n{\text{ even}}\\0&\quad n{\text{ odd}}\end{cases}}\\B_{n}=&0\\\end{aligned}}} Full-wave rectified sine [15] : p.
+
+193 s ( x ) = { A sin ⁡ ( 2 π P x ) for 0 ≤ x < P / 2 0 for P / 2 ≤ x < P {\displaystyle s(x)={\begin{cases}A\sin \left({\frac {2\pi }{P}}x\right)&\quad {\text{for }}0\leq x<P/2\\0&\quad {\text{for }}P/2\leq x<P\\\end{cases}}} A 0 = A π A n = { − 2 A π 1 n 2 − 1 n even 0 n odd B n = { A 2 n = 1 0 n > 1 {\displaystyle {\begin{aligned}A_{0}=&{\frac {A}{\pi }}\\A_{n}=&{\begin{cases}{\frac {-2A}{\pi }}{\frac {1}{n^{2}-1}}&\quad n{\text{ even}}\\0&\quad n{\text{ odd}}\end{cases}}\\B_{n}=&{\begin{cases}{\frac {A}{2}}&\quad n=1\\0&\quad n>1\end{cases}}\\\end{aligned}}} Half-wave rectified sine [15] : p.
+
+193 s ( x ) = { A for 0 ≤ x < D ⋅ P 0 for D ⋅ P ≤ x < P {\displaystyle s(x)={\begin{cases}A&\quad {\text{for }}0\leq x<D\cdot P\\0&\quad {\text{for }}D\cdot P\leq x<P\\\end{cases}}} A 0 = A D A n = A n π sin ⁡ ( 2 π n D ) B n = 2 A n π ( sin ⁡ ( π n D ) ) 2 {\displaystyle {\begin{aligned}A_{0}=&AD\\A_{n}=&{\frac {A}{n\pi }}\sin \left(2\pi nD\right)\\B_{n}=&{\frac {2A}{n\pi }}\left(\sin \left(\pi nD\right)\right)^{2}\\\end{aligned}}} 0 ≤ D ≤ 1 {\displaystyle 0\leq D\leq 1} s ( x ) = A x P for 0 ≤ x < P {\displaystyle s(x)={\frac {Ax}{P}}\quad {\text{for }}0\leq x<P} A 0 = A 2 A n = 0 B n = − A n π {\displaystyle {\begin{aligned}A_{0}=&{\frac {A}{2}}\\A_{n}=&0\\B_{n}=&{\frac {-A}{n\pi }}\\\end{aligned}}} [15] : p.
+
+192 s ( x ) = A − A x P for 0 ≤ x < P {\displaystyle s(x)=A-{\frac {Ax}{P}}\quad {\text{for }}0\leq x<P} A 0 = A 2 A n = 0 B n = A n π {\displaystyle {\begin{aligned}A_{0}=&{\frac {A}{2}}\\A_{n}=&0\\B_{n}=&{\frac {A}{n\pi }}\\\end{aligned}}} [15] : p.
+
+192 s ( x ) = 4 A P 2 ( x − P 2 ) 2 for 0 ≤ x < P {\displaystyle s(x)={\frac {4A}{P^{2}}}\left(x-{\frac {P}{2}}\right)^{2}\quad {\text{for }}0\leq x<P} A 0 = A 3 A n = 4 A π 2 n 2 B n = 0 {\displaystyle {\begin{aligned}A_{0}=&{\frac {A}{3}}\\A_{n}=&{\frac {4A}{\pi ^{2}n^{2}}}\\B_{n}=&0\\\end{aligned}}} [15] : p.
+
+193 Table of basic properties [ edit ] This table shows some mathematical operations in the time domain and the corresponding effect in the Fourier series coefficients.
+
+Notation: Complex conjugation is denoted by an asterisk.
+
+s ( x ) , r ( x ) {\displaystyle s(x),r(x)} designate P {\displaystyle P} -periodic functions or functions defined only for x ∈ [ 0 , P ].
+
+{\displaystyle x\in [0,P].
+
+} S [ n ] , R [ n ] {\displaystyle S[n],R[n]} designate the Fourier series coefficients (exponential form) of s {\displaystyle s} and r.
+
+{\displaystyle r.
+
+} Property Time domain Frequency domain (exponential form) Remarks Reference Linearity a ⋅ s ( x ) + b ⋅ r ( x ) {\displaystyle a\cdot s(x)+b\cdot r(x)} a ⋅ S [ n ] + b ⋅ R [ n ] {\displaystyle a\cdot S[n]+b\cdot R[n]} a , b ∈ C {\displaystyle a,b\in \mathbb {C} } Time reversal / Frequency reversal s ( − x ) {\displaystyle s(-x)} S [ − n ] {\displaystyle S[-n]} [16] : p.
+
+610 Time conjugation s ∗ ( x ) {\displaystyle s^{*}(x)} S ∗ [ − n ] {\displaystyle S^{*}[-n]} [16] : p.
+
+610 Time reversal & conjugation s ∗ ( − x ) {\displaystyle s^{*}(-x)} S ∗ [ n ] {\displaystyle S^{*}[n]} Real part in time Re ⁡ ( s ( x ) ) {\displaystyle \operatorname {Re} {(s(x))}} 1 2 ( S [ n ] + S ∗ [ − n ] ) {\displaystyle {\frac {1}{2}}(S[n]+S^{*}[-n])} Imaginary part in time Im ⁡ ( s ( x ) ) {\displaystyle \operatorname {Im} {(s(x))}} 1 2 i ( S [ n ] − S ∗ [ − n ] ) {\displaystyle {\frac {1}{2i}}(S[n]-S^{*}[-n])} Real part in frequency 1 2 ( s ( x ) + s ∗ ( − x ) ) {\displaystyle {\frac {1}{2}}(s(x)+s^{*}(-x))} Re ⁡ ( S [ n ] ) {\displaystyle \operatorname {Re} {(S[n])}} Imaginary part in frequency 1 2 i ( s ( x ) − s ∗ ( − x ) ) {\displaystyle {\frac {1}{2i}}(s(x)-s^{*}(-x))} Im ⁡ ( S [ n ] ) {\displaystyle \operatorname {Im} {(S[n])}} Shift in time / Modulation in frequency s ( x − x 0 ) {\displaystyle s(x-x_{0})} S [ n ] ⋅ e − i 2 π x 0 P n {\displaystyle S[n]\cdot e^{-i2\pi {\tfrac {x_{0}}{P}}n}} x 0 ∈ R {\displaystyle x_{0}\in \mathbb {R} } [16] : p.
+
+610 Shift in frequency / Modulation in time s ( x ) ⋅ e i 2 π n 0 P x {\displaystyle s(x)\cdot e^{i2\pi {\frac {n_{0}}{P}}x}} S [ n − n 0 ] {\displaystyle S[n-n_{0}]\!} n 0 ∈ Z {\displaystyle n_{0}\in \mathbb {Z} } [16] : p.
+
+610 Symmetry properties [ edit ] When the real and imaginary parts of a complex function are decomposed into their even and odd parts , there are four components, denoted below by the subscripts RE, RO, IE, and IO.
+
+And there is a one-to-one mapping between the four components of a complex time function and the four components of its complex frequency transform: [17] Time domain s = s RE + s RO + i s IE + i s IO ⏟ ⇕ F ⇕ F ⇕ F ⇕ F ⇕ F Frequency domain S = S RE + i S IO ⏞ + i S IE + S RO {\displaystyle {\begin{array}{rccccccccc}{\text{Time domain}}&s&=&s_{_{\text{RE}}}&+&s_{_{\text{RO}}}&+&is_{_{\text{IE}}}&+&\underbrace {i\ s_{_{\text{IO}}}} \\&{\Bigg \Updownarrow }{\mathcal {F}}&&{\Bigg \Updownarrow }{\mathcal {F}}&&\ \ {\Bigg \Updownarrow }{\mathcal {F}}&&\ \ {\Bigg \Updownarrow }{\mathcal {F}}&&\ \ {\Bigg \Updownarrow }{\mathcal {F}}\\{\text{Frequency domain}}&S&=&S_{\text{RE}}&+&\overbrace {\,i\ S_{\text{IO}}\,} &+&iS_{\text{IE}}&+&S_{\text{RO}}\end{array}}} From this, various relationships are apparent, for example: The transform of a real-valued function ( s RE + s RO ) is the even symmetric function S RE + i S IO.
+
+Conversely, an even-symmetric transform implies a real-valued time-domain.
+
+The transform of an imaginary-valued function ( i s IE + i s IO ) is the odd symmetric function S RO + i S IE , and the converse is true.
+
+The transform of an even-symmetric function ( s RE + i s IO ) is the real-valued function S RE + S RO , and the converse is true.
+
+The transform of an odd-symmetric function ( s RO + i s IE ) is the imaginary-valued function i S IE + i S IO , and the converse is true.
+
+Other properties [ edit ] Riemann–Lebesgue lemma [ edit ] If S {\displaystyle S} is integrable , lim | n | → ∞ S [ n ] = 0 {\textstyle \lim _{|n|\to \infty }S[n]=0} , lim n → + ∞ a n = 0 {\textstyle \lim _{n\to +\infty }a_{n}=0} and lim n → + ∞ b n = 0.
+
+{\textstyle \lim _{n\to +\infty }b_{n}=0.
+
+} This result is known as the Riemann–Lebesgue lemma.
+
+Parseval's theorem [ edit ] Main article: Parseval's theorem If s {\displaystyle s} belongs to L 2 ( P ) {\displaystyle L^{2}(P)} (periodic over an interval of length P {\displaystyle P} ) then : 1 P ∫ P | s ( x ) | 2 d x = ∑ n = − ∞ ∞ | S [ n ] | 2.
+
+{\textstyle {\frac {1}{P}}\int _{P}|s(x)|^{2}\,dx=\sum _{n=-\infty }^{\infty }{\Bigl |}S[n]{\Bigr |}^{2}.
+
+} Plancherel's theorem [ edit ] Main article: Plancherel theorem If c 0 , c ± 1 , c ± 2 , … {\displaystyle c_{0},\,c_{\pm 1},\,c_{\pm 2},\ldots } are coefficients and ∑ n = − ∞ ∞ | c n | 2 < ∞ {\textstyle \sum _{n=-\infty }^{\infty }|c_{n}|^{2}<\infty } then there is a unique function s ∈ L 2 ( P ) {\displaystyle s\in L^{2}(P)} such that S [ n ] = c n {\displaystyle S[n]=c_{n}} for every n {\displaystyle n}.
+
+Convolution theorems [ edit ] Main article: Convolution theorem § Periodic convolution (Fourier series coefficients) Given P {\displaystyle P} -periodic functions, s P {\displaystyle s_{_{P}}} and r P {\displaystyle r_{_{P}}} with Fourier series coefficients S [ n ] {\displaystyle S[n]} and R [ n ] , {\displaystyle R[n],} n ∈ Z , {\displaystyle n\in \mathbb {Z} ,} The pointwise product : h P ( x ) ≜ s P ( x ) ⋅ r P ( x ) {\displaystyle h_{_{P}}(x)\triangleq s_{_{P}}(x)\cdot r_{_{P}}(x)} is also P {\displaystyle P} -periodic, and its Fourier series coefficients are given by the discrete convolution of the S {\displaystyle S} and R {\displaystyle R} sequences : H [ n ] = { S ∗ R } [ n ].
+
+{\displaystyle H[n]=\{S*R\}[n].
+
+} The periodic convolution : h P ( x ) ≜ ∫ P s P ( τ ) ⋅ r P ( x − τ ) d τ {\displaystyle h_{_{P}}(x)\triangleq \int _{P}s_{_{P}}(\tau )\cdot r_{_{P}}(x-\tau )\,d\tau } is also P {\displaystyle P} -periodic, with Fourier series coefficients : H [ n ] = P ⋅ S [ n ] ⋅ R [ n ].
+
+{\displaystyle H[n]=P\cdot S[n]\cdot R[n].
+
+} A doubly infinite sequence { c n } n ∈ Z {\displaystyle \left\{c_{n}\right\}_{n\in Z}} in c 0 ( Z ) {\displaystyle c_{0}(\mathbb {Z} )} is the sequence of Fourier coefficients of a function in L 1 ( [ 0 , 2 π ] ) {\displaystyle L^{1}([0,2\pi ])} if and only if it is a convolution of two sequences in ℓ 2 ( Z ) {\displaystyle \ell ^{2}(\mathbb {Z} )}.
+
+See [18] Derivative property [ edit ] We say that s {\displaystyle s} belongs to C k ( T ) {\displaystyle C^{k}(\mathbb {T} )} if s {\displaystyle s} is a 2 π -periodic function on R {\displaystyle \mathbb {R} } which is k {\displaystyle k} times differentiable, and its k th {\displaystyle k^{\text{th}}} derivative is continuous.
+
+If s ∈ C 1 ( T ) {\displaystyle s\in C^{1}(\mathbb {T} )} , then the Fourier coefficients s ′ ^ [ n ] {\displaystyle {\widehat {s'}}[n]} of the derivative s ′ {\displaystyle s'} can be expressed in terms of the Fourier coefficients s ^ [ n ] {\displaystyle {\widehat {s}}[n]} of the function s {\displaystyle s} , via the formula s ′ ^ [ n ] = i n s ^ [ n ] {\displaystyle {\widehat {s'}}[n]=in{\widehat {s}}[n]}.
+
+If s ∈ C k ( T ) {\displaystyle s\in C^{k}(\mathbb {T} )} , then s ( k ) ^ [ n ] = ( i n ) k s ^ [ n ] {\displaystyle {\widehat {s^{(k)}}}[n]=(in)^{k}{\widehat {s}}[n]}.
+
+In particular, since for a fixed k ≥ 1 {\displaystyle k\geq 1} we have s ( k ) ^ [ n ] → 0 {\displaystyle {\widehat {s^{(k)}}}[n]\to 0} as n → ∞ {\displaystyle n\to \infty } , it follows that | n | k s ^ [ n ] {\displaystyle |n|^{k}{\widehat {s}}[n]} tends to zero, which means that the Fourier coefficients converge to zero faster than the k th power of n for any k ≥ 1 {\displaystyle k\geq 1}.
+
+Compact groups [ edit ] Main articles: Compact group , Lie group , and Peter–Weyl theorem One of the interesting properties of the Fourier transform which we have mentioned, is that it carries convolutions to pointwise products.
+
+If that is the property which we seek to preserve, one can produce Fourier series on any compact group.
+
+Typical examples include those classical groups that are compact.
+
+This generalizes the Fourier transform to all spaces of the form L 2 ( G ), where G is a compact group, in such a way that the Fourier transform carries convolutions to pointwise products.
+
+The Fourier series exists and converges in similar ways to the [− π , π ] case.
+
+An alternative extension to compact groups is the Peter–Weyl theorem , which proves results about representations of compact groups analogous to those about finite groups.
+
+The atomic orbitals of chemistry are partially described by spherical harmonics , which can be used to produce Fourier series on the sphere.
+
+Riemannian manifolds [ edit ] Main articles: Laplace operator and Riemannian manifold If the domain is not a group, then there is no intrinsically defined convolution.
+
+However, if X {\displaystyle X} is a compact Riemannian manifold , it has a Laplace–Beltrami operator.
+
+The Laplace–Beltrami operator is the differential operator that corresponds to Laplace operator for the Riemannian manifold X {\displaystyle X}.
+
+Then, by analogy, one can consider heat equations on X {\displaystyle X}.
+
+Since Fourier arrived at his basis by attempting to solve the heat equation, the natural generalization is to use the eigensolutions of the Laplace–Beltrami operator as a basis.
+
+This generalizes Fourier series to spaces of the type L 2 ( X ) {\displaystyle L^{2}(X)} , where X {\displaystyle X} is a Riemannian manifold.
+
+The Fourier series converges in ways similar to the [ − π , π ] {\displaystyle [-\pi ,\pi ]} case.
+
+A typical example is to take X {\displaystyle X} to be the sphere with the usual metric, in which case the Fourier basis consists of spherical harmonics.
+
+Locally compact Abelian groups [ edit ] Main article: Pontryagin duality The generalization to compact groups discussed above does not generalize to noncompact, nonabelian groups.
+
+However, there is a straightforward generalization to Locally Compact Abelian (LCA) groups.
+
+This generalizes the Fourier transform to L 1 ( G ) {\displaystyle L^{1}(G)} or L 2 ( G ) {\displaystyle L^{2}(G)} , where G {\displaystyle G} is an LCA group.
+
+If G {\displaystyle G} is compact, one also obtains a Fourier series, which converges similarly to the [ − π , π ] {\displaystyle [-\pi ,\pi ]} case, but if G {\displaystyle G} is noncompact, one obtains instead a Fourier integral.
+
+This generalization yields the usual Fourier transform when the underlying locally compact Abelian group is R {\displaystyle \mathbb {R} }.
+
+Extensions [ edit ] Fourier series on a square [ edit ] We can also define the Fourier series for functions of two variables x {\displaystyle x} and y {\displaystyle y} in the square [ − π , π ] × [ − π , π ] {\displaystyle [-\pi ,\pi ]\times [-\pi ,\pi ]} : f ( x , y ) = ∑ j , k ∈ Z c j , k e i j x e i k y , c j , k = 1 4 π 2 ∫ − π π ∫ − π π f ( x , y ) e − i j x e − i k y d x d y.
+
+{\displaystyle {\begin{aligned}f(x,y)&=\sum _{j,k\in \mathbb {Z} }c_{j,k}e^{ijx}e^{iky},\\[5pt]c_{j,k}&={\frac {1}{4\pi ^{2}}}\int _{-\pi }^{\pi }\int _{-\pi }^{\pi }f(x,y)e^{-ijx}e^{-iky}\,dx\,dy.
+
+\end{aligned}}} Aside from being useful for solving partial differential equations such as the heat equation, one notable application of Fourier series on the square is in image compression.
+
+In particular, the JPEG image compression standard uses the two-dimensional discrete cosine transform , a discrete form of the Fourier cosine transform , which uses only cosine as the basis function.
+
+For two-dimensional arrays with a staggered appearance, half of the Fourier series coefficients disappear, due to additional symmetry.
+
+[19] Fourier series of Bravais-lattice-periodic-function [ edit ] A three-dimensional Bravais lattice is defined as the set of vectors of the form: R = n 1 a 1 + n 2 a 2 + n 3 a 3 {\displaystyle \mathbf {R} =n_{1}\mathbf {a} _{1}+n_{2}\mathbf {a} _{2}+n_{3}\mathbf {a} _{3}} where n i {\displaystyle n_{i}} are integers and a i {\displaystyle \mathbf {a} _{i}} are three linearly independent vectors.
+
+Assuming we have some function, f ( r ) {\displaystyle f(\mathbf {r} )} , such that it obeys the condition of periodicity for any Bravais lattice vector R {\displaystyle \mathbf {R} } , f ( r ) = f ( R + r ) {\displaystyle f(\mathbf {r} )=f(\mathbf {R} +\mathbf {r} )} , we could make a Fourier series of it.
+
+This kind of function can be, for example, the effective potential that one electron "feels" inside a periodic crystal.
+
+It is useful to make the Fourier series of the potential when applying Bloch's theorem.
+
+First, we may write any arbitrary position vector r {\displaystyle \mathbf {r} } in the coordinate-system of the lattice: r = x 1 a 1 a 1 + x 2 a 2 a 2 + x 3 a 3 a 3 , {\displaystyle \mathbf {r} =x_{1}{\frac {\mathbf {a} _{1}}{a_{1}}}+x_{2}{\frac {\mathbf {a} _{2}}{a_{2}}}+x_{3}{\frac {\mathbf {a} _{3}}{a_{3}}},} where a i ≜ | a i | , {\displaystyle a_{i}\triangleq |\mathbf {a} _{i}|,} meaning that a i {\displaystyle a_{i}} is defined to be the magnitude of a i {\displaystyle \mathbf {a} _{i}} , so a i ^ = a i a i {\displaystyle {\hat {\mathbf {a} _{i}}}={\frac {\mathbf {a} _{i}}{a_{i}}}} is the unit vector directed along a i {\displaystyle \mathbf {a} _{i}}.
+
+Thus we can define a new function, g ( x 1 , x 2 , x 3 ) ≜ f ( r ) = f ( x 1 a 1 a 1 + x 2 a 2 a 2 + x 3 a 3 a 3 ).
+
+{\displaystyle g(x_{1},x_{2},x_{3})\triangleq f(\mathbf {r} )=f\left(x_{1}{\frac {\mathbf {a} _{1}}{a_{1}}}+x_{2}{\frac {\mathbf {a} _{2}}{a_{2}}}+x_{3}{\frac {\mathbf {a} _{3}}{a_{3}}}\right).
+
+} This new function, g ( x 1 , x 2 , x 3 ) {\displaystyle g(x_{1},x_{2},x_{3})} , is now a function of three-variables, each of which has periodicity a 1 {\displaystyle a_{1}} , a 2 {\displaystyle a_{2}} , and a 3 {\displaystyle a_{3}} respectively: g ( x 1 , x 2 , x 3 ) = g ( x 1 + a 1 , x 2 , x 3 ) = g ( x 1 , x 2 + a 2 , x 3 ) = g ( x 1 , x 2 , x 3 + a 3 ).
+
+{\displaystyle g(x_{1},x_{2},x_{3})=g(x_{1}+a_{1},x_{2},x_{3})=g(x_{1},x_{2}+a_{2},x_{3})=g(x_{1},x_{2},x_{3}+a_{3}).
+
+} This enables us to build up a set of Fourier coefficients, each being indexed by three independent integers m 1 , m 2 , m 3 {\displaystyle m_{1},m_{2},m_{3}}.
+
+In what follows, we use function notation to denote these coefficients, where previously we used subscripts.
+
+If we write a series for g {\displaystyle g} on the interval [ 0 , a 1 ] {\displaystyle \left[0,a_{1}\right]} for x 1 {\displaystyle x_{1}} , we can define the following: h o n e ( m 1 , x 2 , x 3 ) ≜ 1 a 1 ∫ 0 a 1 g ( x 1 , x 2 , x 3 ) ⋅ e − i 2 π m 1 a 1 x 1 d x 1 {\displaystyle h^{\mathrm {one} }(m_{1},x_{2},x_{3})\triangleq {\frac {1}{a_{1}}}\int _{0}^{a_{1}}g(x_{1},x_{2},x_{3})\cdot e^{-i2\pi {\tfrac {m_{1}}{a_{1}}}x_{1}}\,dx_{1}} And then we can write: g ( x 1 , x 2 , x 3 ) = ∑ m 1 = − ∞ ∞ h o n e ( m 1 , x 2 , x 3 ) ⋅ e i 2 π m 1 a 1 x 1 {\displaystyle g(x_{1},x_{2},x_{3})=\sum _{m_{1}=-\infty }^{\infty }h^{\mathrm {one} }(m_{1},x_{2},x_{3})\cdot e^{i2\pi {\tfrac {m_{1}}{a_{1}}}x_{1}}} Further defining: h t w o ( m 1 , m 2 , x 3 ) ≜ 1 a 2 ∫ 0 a 2 h o n e ( m 1 , x 2 , x 3 ) ⋅ e − i 2 π m 2 a 2 x 2 d x 2 = 1 a 2 ∫ 0 a 2 d x 2 1 a 1 ∫ 0 a 1 d x 1 g ( x 1 , x 2 , x 3 ) ⋅ e − i 2 π ( m 1 a 1 x 1 + m 2 a 2 x 2 ) {\displaystyle {\begin{aligned}h^{\mathrm {two} }(m_{1},m_{2},x_{3})&\triangleq {\frac {1}{a_{2}}}\int _{0}^{a_{2}}h^{\mathrm {one} }(m_{1},x_{2},x_{3})\cdot e^{-i2\pi {\tfrac {m_{2}}{a_{2}}}x_{2}}\,dx_{2}\\[12pt]&={\frac {1}{a_{2}}}\int _{0}^{a_{2}}dx_{2}{\frac {1}{a_{1}}}\int _{0}^{a_{1}}dx_{1}g(x_{1},x_{2},x_{3})\cdot e^{-i2\pi \left({\tfrac {m_{1}}{a_{1}}}x_{1}+{\tfrac {m_{2}}{a_{2}}}x_{2}\right)}\end{aligned}}} We can write g {\displaystyle g} once again as: g ( x 1 , x 2 , x 3 ) = ∑ m 1 = − ∞ ∞ ∑ m 2 = − ∞ ∞ h t w o ( m 1 , m 2 , x 3 ) ⋅ e i 2 π m 1 a 1 x 1 ⋅ e i 2 π m 2 a 2 x 2 {\displaystyle g(x_{1},x_{2},x_{3})=\sum _{m_{1}=-\infty }^{\infty }\sum _{m_{2}=-\infty }^{\infty }h^{\mathrm {two} }(m_{1},m_{2},x_{3})\cdot e^{i2\pi {\tfrac {m_{1}}{a_{1}}}x_{1}}\cdot e^{i2\pi {\tfrac {m_{2}}{a_{2}}}x_{2}}} Finally applying the same for the third coordinate, we define: h t h r e e ( m 1 , m 2 , m 3 ) ≜ 1 a 3 ∫ 0 a 3 h t w o ( m 1 , m 2 , x 3 ) ⋅ e − i 2 π m 3 a 3 x 3 d x 3 = 1 a 3 ∫ 0 a 3 d x 3 1 a 2 ∫ 0 a 2 d x 2 1 a 1 ∫ 0 a 1 d x 1 g ( x 1 , x 2 , x 3 ) ⋅ e − i 2 π ( m 1 a 1 x 1 + m 2 a 2 x 2 + m 3 a 3 x 3 ) {\displaystyle {\begin{aligned}h^{\mathrm {three} }(m_{1},m_{2},m_{3})&\triangleq {\frac {1}{a_{3}}}\int _{0}^{a_{3}}h^{\mathrm {two} }(m_{1},m_{2},x_{3})\cdot e^{-i2\pi {\tfrac {m_{3}}{a_{3}}}x_{3}}\,dx_{3}\\[12pt]&={\frac {1}{a_{3}}}\int _{0}^{a_{3}}dx_{3}{\frac {1}{a_{2}}}\int _{0}^{a_{2}}dx_{2}{\frac {1}{a_{1}}}\int _{0}^{a_{1}}dx_{1}g(x_{1},x_{2},x_{3})\cdot e^{-i2\pi \left({\tfrac {m_{1}}{a_{1}}}x_{1}+{\tfrac {m_{2}}{a_{2}}}x_{2}+{\tfrac {m_{3}}{a_{3}}}x_{3}\right)}\end{aligned}}} We write g {\displaystyle g} as: g ( x 1 , x 2 , x 3 ) = ∑ m 1 = − ∞ ∞ ∑ m 2 = − ∞ ∞ ∑ m 3 = − ∞ ∞ h t h r e e ( m 1 , m 2 , m 3 ) ⋅ e i 2 π m 1 a 1 x 1 ⋅ e i 2 π m 2 a 2 x 2 ⋅ e i 2 π m 3 a 3 x 3 {\displaystyle g(x_{1},x_{2},x_{3})=\sum _{m_{1}=-\infty }^{\infty }\sum _{m_{2}=-\infty }^{\infty }\sum _{m_{3}=-\infty }^{\infty }h^{\mathrm {three} }(m_{1},m_{2},m_{3})\cdot e^{i2\pi {\tfrac {m_{1}}{a_{1}}}x_{1}}\cdot e^{i2\pi {\tfrac {m_{2}}{a_{2}}}x_{2}}\cdot e^{i2\pi {\tfrac {m_{3}}{a_{3}}}x_{3}}} Re-arranging: g ( x 1 , x 2 , x 3 ) = ∑ m 1 , m 2 , m 3 ∈ Z h t h r e e ( m 1 , m 2 , m 3 ) ⋅ e i 2 π ( m 1 a 1 x 1 + m 2 a 2 x 2 + m 3 a 3 x 3 ).
+
+{\displaystyle g(x_{1},x_{2},x_{3})=\sum _{m_{1},m_{2},m_{3}\in \mathbb {Z} }h^{\mathrm {three} }(m_{1},m_{2},m_{3})\cdot e^{i2\pi \left({\tfrac {m_{1}}{a_{1}}}x_{1}+{\tfrac {m_{2}}{a_{2}}}x_{2}+{\tfrac {m_{3}}{a_{3}}}x_{3}\right)}.
+
+} Now, every reciprocal lattice vector can be written (but does not mean that it is the only way of writing) as G = m 1 g 1 + m 2 g 2 + m 3 g 3 {\displaystyle \mathbf {G} =m_{1}\mathbf {g} _{1}+m_{2}\mathbf {g} _{2}+m_{3}\mathbf {g} _{3}} , where m i {\displaystyle m_{i}} are integers and g i {\displaystyle \mathbf {g} _{i}} are reciprocal lattice vectors to satisfy g i ⋅ a j = 2 π δ i j {\displaystyle \mathbf {g_{i}} \cdot \mathbf {a_{j}} =2\pi \delta _{ij}} ( δ i j = 1 {\displaystyle \delta _{ij}=1} for i = j {\displaystyle i=j} , and δ i j = 0 {\displaystyle \delta _{ij}=0} for i ≠ j {\displaystyle i\neq j} ).
+
+Then for any arbitrary reciprocal lattice vector G {\displaystyle \mathbf {G} } and arbitrary position vector r {\displaystyle \mathbf {r} } in the original Bravais lattice space, their scalar product is: G ⋅ r = ( m 1 g 1 + m 2 g 2 + m 3 g 3 ) ⋅ ( x 1 a 1 a 1 + x 2 a 2 a 2 + x 3 a 3 a 3 ) = 2 π ( x 1 m 1 a 1 + x 2 m 2 a 2 + x 3 m 3 a 3 ).
+
+{\displaystyle \mathbf {G} \cdot \mathbf {r} =\left(m_{1}\mathbf {g} _{1}+m_{2}\mathbf {g} _{2}+m_{3}\mathbf {g} _{3}\right)\cdot \left(x_{1}{\frac {\mathbf {a} _{1}}{a_{1}}}+x_{2}{\frac {\mathbf {a} _{2}}{a_{2}}}+x_{3}{\frac {\mathbf {a} _{3}}{a_{3}}}\right)=2\pi \left(x_{1}{\frac {m_{1}}{a_{1}}}+x_{2}{\frac {m_{2}}{a_{2}}}+x_{3}{\frac {m_{3}}{a_{3}}}\right).
+
+} So it is clear that in our expansion of g ( x 1 , x 2 , x 3 ) = f ( r ) {\displaystyle g(x_{1},x_{2},x_{3})=f(\mathbf {r} )} , the sum is actually over reciprocal lattice vectors: f ( r ) = ∑ G h ( G ) ⋅ e i G ⋅ r , {\displaystyle f(\mathbf {r} )=\sum _{\mathbf {G} }h(\mathbf {G} )\cdot e^{i\mathbf {G} \cdot \mathbf {r} },} where h ( G ) = 1 a 3 ∫ 0 a 3 d x 3 1 a 2 ∫ 0 a 2 d x 2 1 a 1 ∫ 0 a 1 d x 1 f ( x 1 a 1 a 1 + x 2 a 2 a 2 + x 3 a 3 a 3 ) ⋅ e − i G ⋅ r.
+
+{\displaystyle h(\mathbf {G} )={\frac {1}{a_{3}}}\int _{0}^{a_{3}}dx_{3}\,{\frac {1}{a_{2}}}\int _{0}^{a_{2}}dx_{2}\,{\frac {1}{a_{1}}}\int _{0}^{a_{1}}dx_{1}\,f\left(x_{1}{\frac {\mathbf {a} _{1}}{a_{1}}}+x_{2}{\frac {\mathbf {a} _{2}}{a_{2}}}+x_{3}{\frac {\mathbf {a} _{3}}{a_{3}}}\right)\cdot e^{-i\mathbf {G} \cdot \mathbf {r} }.
+
+} Assuming r = ( x , y , z ) = x 1 a 1 a 1 + x 2 a 2 a 2 + x 3 a 3 a 3 , {\displaystyle \mathbf {r} =(x,y,z)=x_{1}{\frac {\mathbf {a} _{1}}{a_{1}}}+x_{2}{\frac {\mathbf {a} _{2}}{a_{2}}}+x_{3}{\frac {\mathbf {a} _{3}}{a_{3}}},} we can solve this system of three linear equations for x {\displaystyle x} , y {\displaystyle y} , and z {\displaystyle z} in terms of x 1 {\displaystyle x_{1}} , x 2 {\displaystyle x_{2}} and x 3 {\displaystyle x_{3}} in order to calculate the volume element in the original rectangular coordinate system.
+
+Once we have x {\displaystyle x} , y {\displaystyle y} , and z {\displaystyle z} in terms of x 1 {\displaystyle x_{1}} , x 2 {\displaystyle x_{2}} and x 3 {\displaystyle x_{3}} , we can calculate the Jacobian determinant : | ∂ x 1 ∂ x ∂ x 1 ∂ y ∂ x 1 ∂ z ∂ x 2 ∂ x ∂ x 2 ∂ y ∂ x 2 ∂ z ∂ x 3 ∂ x ∂ x 3 ∂ y ∂ x 3 ∂ z | {\displaystyle {\begin{vmatrix}{\dfrac {\partial x_{1}}{\partial x}}&{\dfrac {\partial x_{1}}{\partial y}}&{\dfrac {\partial x_{1}}{\partial z}}\\[12pt]{\dfrac {\partial x_{2}}{\partial x}}&{\dfrac {\partial x_{2}}{\partial y}}&{\dfrac {\partial x_{2}}{\partial z}}\\[12pt]{\dfrac {\partial x_{3}}{\partial x}}&{\dfrac {\partial x_{3}}{\partial y}}&{\dfrac {\partial x_{3}}{\partial z}}\end{vmatrix}}} which after some calculation and applying some non-trivial cross-product identities can be shown to be equal to: a 1 a 2 a 3 a 1 ⋅ ( a 2 × a 3 ) {\displaystyle {\frac {a_{1}a_{2}a_{3}}{\mathbf {a} _{1}\cdot (\mathbf {a} _{2}\times \mathbf {a} _{3})}}} (it may be advantageous for the sake of simplifying calculations, to work in such a rectangular coordinate system, in which it just so happens that a 1 {\displaystyle \mathbf {a} _{1}} is parallel to the x axis, a 2 {\displaystyle \mathbf {a} _{2}} lies in the xy -plane, and a 3 {\displaystyle \mathbf {a} _{3}} has components of all three axes).
+
+The denominator is exactly the volume of the primitive unit cell which is enclosed by the three primitive-vectors a 1 {\displaystyle \mathbf {a} _{1}} , a 2 {\displaystyle \mathbf {a} _{2}} and a 3 {\displaystyle \mathbf {a} _{3}}.
+
+In particular, we now know that d x 1 d x 2 d x 3 = a 1 a 2 a 3 a 1 ⋅ ( a 2 × a 3 ) ⋅ d x d y d z.
+
+{\displaystyle dx_{1}\,dx_{2}\,dx_{3}={\frac {a_{1}a_{2}a_{3}}{\mathbf {a} _{1}\cdot (\mathbf {a} _{2}\times \mathbf {a} _{3})}}\cdot dx\,dy\,dz.
+
+} We can write now h ( G ) {\displaystyle h(\mathbf {G} )} as an integral with the traditional coordinate system over the volume of the primitive cell, instead of with the x 1 {\displaystyle x_{1}} , x 2 {\displaystyle x_{2}} and x 3 {\displaystyle x_{3}} variables: h ( G ) = 1 a 1 ⋅ ( a 2 × a 3 ) ∫ C d r f ( r ) ⋅ e − i G ⋅ r {\displaystyle h(\mathbf {G} )={\frac {1}{\mathbf {a} _{1}\cdot (\mathbf {a} _{2}\times \mathbf {a} _{3})}}\int _{C}d\mathbf {r} f(\mathbf {r} )\cdot e^{-i\mathbf {G} \cdot \mathbf {r} }} writing d r {\displaystyle d\mathbf {r} } for the volume element d x d y d z {\displaystyle dx\,dy\,dz} ; and where C {\displaystyle C} is the primitive unit cell, thus, a 1 ⋅ ( a 2 × a 3 ) {\displaystyle \mathbf {a} _{1}\cdot (\mathbf {a} _{2}\times \mathbf {a} _{3})} is the volume of the primitive unit cell.
+
+Hilbert space interpretation [ edit ] Main article: Hilbert space In the language of Hilbert spaces , the set of functions { e n = e i n x : n ∈ Z } {\displaystyle \left\{e_{n}=e^{inx}:n\in \mathbb {Z} \right\}} is an orthonormal basis for the space L 2 ( [ − π , π ] ) {\displaystyle L^{2}([-\pi ,\pi ])} of square-integrable functions on [ − π , π ] {\displaystyle [-\pi ,\pi ]}.
+
+This space is actually a Hilbert space with an inner product given for any two elements f {\displaystyle f} and g {\displaystyle g} by: ⟨ f , g ⟩ ≜ 1 2 π ∫ − π π f ( x ) g ∗ ( x ) d x , {\displaystyle \langle f,\,g\rangle \;\triangleq \;{\frac {1}{2\pi }}\int _{-\pi }^{\pi }f(x)g^{*}(x)\,dx,} where g ∗ ( x ) {\displaystyle g^{*}(x)} is the complex conjugate of g ( x ).
+
+{\displaystyle g(x).
+
+} The basic Fourier series result for Hilbert spaces can be written as f = ∑ n = − ∞ ∞ ⟨ f , e n ⟩ e n.
+
+{\displaystyle f=\sum _{n=-\infty }^{\infty }\langle f,e_{n}\rangle \,e_{n}.
+
+} Sines and cosines form an orthogonal set, as illustrated above.
+
+The integral of sine, cosine and their product is zero (green and red areas are equal, and cancel out) when m {\displaystyle m} , n {\displaystyle n} or the functions are different, and π only if m {\displaystyle m} and n {\displaystyle n} are equal, and the function used is the same.
+
+They would form an orthonormal set, if the integral equaled 1 (that is, each function would need to be scaled by 1 / π {\displaystyle 1/{\sqrt {\pi }}} ).
+
+This corresponds exactly to the complex exponential formulation given above.
+
+The version with sines and cosines is also justified with the Hilbert space interpretation.
+
+Indeed, the sines and cosines form an orthogonal set : ∫ − π π cos ⁡ ( m x ) cos ⁡ ( n x ) d x = 1 2 ∫ − π π cos ⁡ ( ( n − m ) x ) + cos ⁡ ( ( n + m ) x ) d x = π δ m n , m , n ≥ 1 , {\displaystyle \int _{-\pi }^{\pi }\cos(mx)\,\cos(nx)\,dx={\frac {1}{2}}\int _{-\pi }^{\pi }\cos((n-m)x)+\cos((n+m)x)\,dx=\pi \delta _{mn},\quad m,n\geq 1,} ∫ − π π sin ⁡ ( m x ) sin ⁡ ( n x ) d x = 1 2 ∫ − π π cos ⁡ ( ( n − m ) x ) − cos ⁡ ( ( n + m ) x ) d x = π δ m n , m , n ≥ 1 {\displaystyle \int _{-\pi }^{\pi }\sin(mx)\,\sin(nx)\,dx={\frac {1}{2}}\int _{-\pi }^{\pi }\cos((n-m)x)-\cos((n+m)x)\,dx=\pi \delta _{mn},\quad m,n\geq 1} (where δ mn is the Kronecker delta ), and ∫ − π π cos ⁡ ( m x ) sin ⁡ ( n x ) d x = 1 2 ∫ − π π sin ⁡ ( ( n + m ) x ) + sin ⁡ ( ( n − m ) x ) d x = 0 ; {\displaystyle \int _{-\pi }^{\pi }\cos(mx)\,\sin(nx)\,dx={\frac {1}{2}}\int _{-\pi }^{\pi }\sin((n+m)x)+\sin((n-m)x)\,dx=0;} furthermore, the sines and cosines are orthogonal to the constant function 1 {\displaystyle 1}.
+
+An orthonormal basis for L 2 ( [ − π , π ] ) {\displaystyle L^{2}([-\pi ,\pi ])} consisting of real functions is formed by the functions 1 {\displaystyle 1} and 2 cos ⁡ ( n x ) {\displaystyle {\sqrt {2}}\cos(nx)} , 2 sin ⁡ ( n x ) {\displaystyle {\sqrt {2}}\sin(nx)} with n = 1,2,.
+
+The density of their span is a consequence of the Stone–Weierstrass theorem , but follows also from the properties of classical kernels like the Fejér kernel.
+
+Fourier theorem proving convergence of Fourier series [ edit ] Main article: Convergence of Fourier series These theorems, and informal variations of them that don't specify the convergence conditions, are sometimes referred to generically as Fourier's theorem or the Fourier theorem.
+
+[20] [21] [22] [23] The earlier Eq.
+
+3 : s N ( x ) = ∑ n = − N N S [ n ] e i 2 π n P x , {\displaystyle s_{_{N}}(x)=\sum _{n=-N}^{N}S[n]\ e^{i2\pi {\tfrac {n}{P}}x},} is a trigonometric polynomial of degree N {\displaystyle N} that can be generally expressed as : p N ( x ) = ∑ n = − N N p [ n ] e i 2 π n P x.
+
+{\displaystyle p_{_{N}}(x)=\sum _{n=-N}^{N}p[n]\ e^{i2\pi {\tfrac {n}{P}}x}.
+
+} Least squares property [ edit ] Parseval's theorem implies that: Theorem — The trigonometric polynomial s N {\displaystyle s_{_{N}}} is the unique best trigonometric polynomial of degree N {\displaystyle N} approximating s ( x ) {\displaystyle s(x)} , in the sense that, for any trigonometric polynomial p N ≠ s N {\displaystyle p_{_{N}}\neq s_{_{N}}} of degree N {\displaystyle N} , we have: ‖ s N − s ‖ 2 < ‖ p N − s ‖ 2 , {\displaystyle \|s_{_{N}}-s\|_{2}<\|p_{_{N}}-s\|_{2},} where the Hilbert space norm is defined as: ‖ g ‖ 2 = 1 P ∫ P | g ( x ) | 2 d x.
+
+{\displaystyle \|g\|_{2}={\sqrt {{1 \over P}\int _{P}|g(x)|^{2}\,dx}}.
+
+} Convergence theorems [ edit ] See also: Gibbs phenomenon Because of the least squares property, and because of the completeness of the Fourier basis, we obtain an elementary convergence result.
+
+Theorem — If s {\displaystyle s} belongs to L 2 ( P ) {\displaystyle L^{2}(P)} (an interval of length P {\displaystyle P} ), then s ∞ {\displaystyle s_{\infty }} converges to s {\displaystyle s} in L 2 ( P ) {\displaystyle L^{2}(P)} , that is, ‖ s N − s ‖ 2 {\displaystyle \|s_{_{N}}-s\|_{2}} converges to 0 as N → ∞ {\displaystyle N\to \infty }.
+
+We have already mentioned that if s {\displaystyle s} is continuously differentiable, then ( i ⋅ n ) S [ n ] {\displaystyle (i\cdot n)S[n]} is the n th {\displaystyle n^{\text{th}}} Fourier coefficient of the derivative s ′ {\displaystyle s'}.
+
+It follows, essentially from the Cauchy–Schwarz inequality , that s ∞ {\displaystyle s_{\infty }} is absolutely summable.
+
+The sum of this series is a continuous function, equal to s {\displaystyle s} , since the Fourier series converges in the mean to s {\displaystyle s} : Theorem — If s ∈ C 1 ( T ) {\displaystyle s\in C^{1}(\mathbb {T} )} , then s ∞ {\displaystyle s_{\infty }} converges to s {\displaystyle s} uniformly (and hence also pointwise.
+
+) This result can be proven easily if s {\displaystyle s} is further assumed to be C 2 {\displaystyle C^{2}} , since in that case n 2 S [ n ] {\displaystyle n^{2}S[n]} tends to zero as n → ∞ {\displaystyle n\rightarrow \infty }.
+
+More generally, the Fourier series is absolutely summable, thus converges uniformly to s {\displaystyle s} , provided that s {\displaystyle s} satisfies a Hölder condition of order α > 1 / 2 {\displaystyle \alpha >1/2}.
+
+In the absolutely summable case, the inequality: sup x | s ( x ) − s N ( x ) | ≤ ∑ | n | > N | S [ n ] | {\displaystyle \sup _{x}|s(x)-s_{_{N}}(x)|\leq \sum _{|n|>N}|S[n]|} proves uniform convergence.
+
+Many other results concerning the convergence of Fourier series are known, ranging from the moderately simple result that the series converges at x {\displaystyle x} if s {\displaystyle s} is differentiable at x {\displaystyle x} , to Lennart Carleson 's much more sophisticated result that the Fourier series of an L 2 {\displaystyle L^{2}} function actually converges almost everywhere.
+
+Divergence [ edit ] Since Fourier series have such good convergence properties, many are often surprised by some of the negative results.
+
+For example, the Fourier series of a continuous T -periodic function need not converge pointwise.
+
+[ citation needed ] The uniform boundedness principle yields a simple non-constructive proof of this fact.
+
+In 1922, Andrey Kolmogorov published an article titled Une série de Fourier-Lebesgue divergente presque partout in which he gave an example of a Lebesgue-integrable function whose Fourier series diverges almost everywhere.
+
+He later constructed an example of an integrable function whose Fourier series diverges everywhere.
+
+[24] See also [ edit ] ATS theorem Carleson's theorem Dirichlet kernel Discrete Fourier transform Fast Fourier transform Fejér's theorem Fourier analysis Fourier sine and cosine series Fourier transform Gibbs phenomenon Half range Fourier series Laurent series – the substitution q = e ix transforms a Fourier series into a Laurent series, or conversely.
+
+This is used in the q -series expansion of the j -invariant.
+
+Least-squares spectral analysis Multidimensional transform Spectral theory Sturm–Liouville theory Residue theorem integrals of f ( z ), singularities, poles Notes [ edit ] ^ But C − n ≠ C n ∗ {\displaystyle C_{-n}\neq C_{n}^{*}} , in general.
+
+^ Since the integral defining the Fourier transform of a periodic function is not convergent, it is necessary to view the periodic function and its transform as distributions.
+
+In this sense F { e i 2 π n P x } {\displaystyle {\mathcal {F}}\{e^{i2\pi {\tfrac {n}{P}}x}\}} is a Dirac delta function , which is an example of a distribution.
+
+^ These three did some important early work on the wave equation , especially D'Alembert.
+
+Euler's work in this area was mostly comtemporaneous/ in collaboration with Bernoulli , although the latter made some independent contributions to the theory of waves and vibrations.
+
+(See Fetter & Walecka 2003 , pp.
+
+209–210).
+
+^ These words are not strictly Fourier's.
+
+Whilst the cited article does list the author as Fourier, a footnote indicates that the article was actually written by Poisson (that it was not written by Fourier is also clear from the consistent use of the third person to refer to him) and that it is, "for reasons of historical interest", presented as though it were Fourier's original memoire.
+
+References [ edit ] ^ "Fourier".
+
+Dictionary.
+
+com Unabridged (Online).
+
+n.
+
+d.
+
+^ Zygmund, A.
+
+(2002).
+
+Trigonometric Series (3nd ed.
+
+).
+
+Cambridge, UK: Cambridge University Press.
+
+ISBN 0-521-89053-5.
+
+^ Pinkus, Allan; Zafrany, Samy (1997).
+
+Fourier Series and Integral Transforms (1st ed.
+
+).
+
+Cambridge, UK: Cambridge University Press.
+
+pp.
+
+42–44.
+
+ISBN 0-521-59771-4.
+
+^ Tolstov, Georgi P.
+
+(1976).
+
+Fourier Series.
+
+Courier-Dover.
+
+ISBN 0-486-63317-9.
+
+^ Stillwell, John (2013).
+
+"Logic and the philosophy of mathematics in the nineteenth century".
+
+In Ten, C.
+
+L.
+
+(ed.
+
+).
+
+Routledge History of Philosophy.
+
+Vol.
+
+VII: The Nineteenth Century.
+
+Routledge.
+
+p.
+
+204.
+
+ISBN 978-1-134-92880-4.
+
+^ Fasshauer, Greg (2015).
+
+"Fourier Series and Boundary Value Problems" (PDF).
+
+Math 461 Course Notes, Ch 3.
+
+Department of Applied Mathematics, Illinois Institute of Technology.
+
+Retrieved 6 November 2020.
+
+^ Cajori, Florian (1893).
+
+A History of Mathematics.
+
+Macmillan.
+
+p.
+
+283.
+
+^ Lejeune-Dirichlet, Peter Gustav (1829).
+
+"Sur la convergence des séries trigonométriques qui servent à représenter une fonction arbitraire entre des limites données" [On the convergence of trigonometric series which serve to represent an arbitrary function between two given limits].
+
+Journal für die reine und angewandte Mathematik (in French).
+
+4 : 157–169.
+
+arXiv : 0806.
+
+1294.
+
+^ "Ueber die Darstellbarkeit einer Function durch eine trigonometrische Reihe" [About the representability of a function by a trigonometric series].
+
+Habilitationsschrift , Göttingen ; 1854.
+
+Abhandlungen der Königlichen Gesellschaft der Wissenschaften zu Göttingen , vol.
+
+13, 1867.
+
+Published posthumously for Riemann by Richard Dedekind (in German).
+
+Archived from the original on 20 May 2008.
+
+Retrieved 19 May 2008.
+
+^ Mascre, D.
+
+; Riemann, Bernhard (1867), "Posthumous Thesis on the Representation of Functions by Trigonometric Series", in Grattan-Guinness, Ivor (ed.
+
+), Landmark Writings in Western Mathematics 1640–1940 , Elsevier (published 2005), p.
+
+49, ISBN 9780080457444 ^ Remmert, Reinhold (1991).
+
+Theory of Complex Functions: Readings in Mathematics.
+
+Springer.
+
+p.
+
+29.
+
+ISBN 9780387971957.
+
+^ Nerlove, Marc; Grether, David M.
+
+; Carvalho, Jose L.
+
+(1995).
+
+Analysis of Economic Time Series.
+
+Economic Theory, Econometrics, and Mathematical Economics.
+
+Elsevier.
+
+ISBN 0-12-515751-7.
+
+^ Wilhelm Flügge , Stresses in Shells (1973) 2nd edition.
+
+ISBN 978-3-642-88291-3.
+
+Originally published in German as Statik und Dynamik der Schalen (1937).
+
+^ Fourier, Jean-Baptiste-Joseph (1888).
+
+Gaston Darboux (ed.
+
+).
+
+Oeuvres de Fourier [ The Works of Fourier ] (in French).
+
+Paris: Gauthier-Villars et Fils.
+
+pp.
+
+218–219 – via Gallica.
+
+^ a b c d e Papula, Lothar (2009).
+
+Mathematische Formelsammlung: für Ingenieure und Naturwissenschaftler [ Mathematical Functions for Engineers and Physicists ] (in German).
+
+Vieweg+Teubner Verlag.
+
+ISBN 978-3834807571.
+
+^ a b c d Shmaliy, Y.
+
+S.
+
+(2007).
+
+Continuous-Time Signals.
+
+Springer.
+
+ISBN 978-1402062711.
+
+^ Proakis, John G.
+
+; Manolakis, Dimitris G.
+
+(1996).
+
+Digital Signal Processing: Principles, Algorithms, and Applications (3rd ed.
+
+).
+
+Prentice Hall.
+
+p.
+
+291.
+
+ISBN 978-0-13-373762-2.
+
+^ "Characterizations of a linear subspace associated with Fourier series".
+
+MathOverflow.
+
+2010-11-19.
+
+Retrieved 2014-08-08.
+
+^ Vanishing of Half the Fourier Coefficients in Staggered Arrays ^ Siebert, William McC.
+
+(1985).
+
+Circuits, signals, and systems.
+
+MIT Press.
+
+p.
+
+402.
+
+ISBN 978-0-262-19229-3.
+
+^ Marton, L.
+
+; Marton, Claire (1990).
+
+Advances in Electronics and Electron Physics.
+
+Academic Press.
+
+p.
+
+369.
+
+ISBN 978-0-12-014650-5.
+
+^ Kuzmany, Hans (1998).
+
+Solid-state spectroscopy.
+
+Springer.
+
+p.
+
+14.
+
+ISBN 978-3-540-63913-8.
+
+^ Pribram, Karl H.
+
+; Yasue, Kunio; Jibu, Mari (1991).
+
+Brain and perception.
+
+Lawrence Erlbaum Associates.
+
+p.
+
+26.
+
+ISBN 978-0-89859-995-4.
+
+^ Katznelson, Yitzhak (1976).
+
+An introduction to Harmonic Analysis (2nd corrected ed.
+
+).
+
+New York, NY: Dover Publications, Inc.
+
+ISBN 0-486-63331-4.
+
+Further reading [ edit ] William E.
+
+Boyce; Richard C.
+
+DiPrima (2005).
+
+Elementary Differential Equations and Boundary Value Problems (8th ed.
+
+).
+
+New Jersey: John Wiley & Sons, Inc.
+
+ISBN 0-471-43338-1.
+
+Joseph Fourier, translated by Alexander Freeman (2003).
+
+The Analytical Theory of Heat.
+
+Dover Publications.
+
+ISBN 0-486-49531-0.
+
+2003 unabridged republication of the 1878 English translation by Alexander Freeman of Fourier's work Théorie Analytique de la Chaleur , originally published in 1822.
+
+Enrique A.
+
+Gonzalez-Velasco (1992).
+
+"Connections in Mathematical Analysis: The Case of Fourier Series".
+
+American Mathematical Monthly.
+
+99 (5): 427–441.
+
+doi : 10.
+
+2307/2325087.
+
+JSTOR 2325087.
+
+Fetter, Alexander L.
+
+; Walecka, John Dirk (2003).
+
+Theoretical Mechanics of Particles and Continua.
+
+Courier.
+
+ISBN 978-0-486-43261-8.
+
+Felix Klein , Development of mathematics in the 19th century.
+
+Mathsci Press Brookline, Mass, 1979.
+
+Translated by M.
+
+Ackerman from Vorlesungen über die Entwicklung der Mathematik im 19 Jahrhundert , Springer, Berlin, 1928.
+
+Walter Rudin (1976).
+
+Principles of mathematical analysis (3rd ed.
+
+).
+
+New York: McGraw-Hill, Inc.
+
+ISBN 0-07-054235-X.
+
+A.
+
+Zygmund (2002).
+
+Trigonometric Series (third ed.
+
+).
+
+Cambridge: Cambridge University Press.
+
+ISBN 0-521-89053-5.
+
+The first edition was published in 1935.
+
+External links [ edit ] "Fourier series" , Encyclopedia of Mathematics , EMS Press , 2001 [1994] Hobson, Ernest (1911).
+
+"Fourier's Series".
+
+Encyclopædia Britannica.
+
+Vol.
+
+10 (11th ed.
+
+).
+
+pp.
+
+753–758.
+
+Weisstein, Eric W.
+
+"Fourier Series".
+
+MathWorld.
+
+Joseph Fourier – A site on Fourier's life which was used for the historical section of this article at the Wayback Machine (archived December 5, 2001) This article incorporates material from example of Fourier series on PlanetMath , which is licensed under the Creative Commons Attribution/Share-Alike License.
+
+v t e Sequences and series Integer sequences Basic Arithmetic progression Geometric progression Harmonic progression Square number Cubic number Factorial Powers of two Powers of three Powers of 10 Advanced ( list ) Complete sequence Fibonacci sequence Figurate number Heptagonal number Hexagonal number Lucas number Pell number Pentagonal number Polygonal number Triangular number array Properties of sequences Cauchy sequence Monotonic function Periodic sequence Properties of series Series Alternating Convergent Divergent Telescoping Convergence Absolute Conditional Uniform Explicit series Convergent 1/2 − 1/4 + 1/8 − 1/16 + ⋯ 1/2 + 1/4 + 1/8 + 1/16 + ⋯ 1/4 + 1/16 + 1/64 + 1/256 + ⋯ 1 + 1/2 s + 1/3 s +.
+
+(Riemann zeta function) Divergent 1 + 1 + 1 + 1 + ⋯ 1 − 1 + 1 − 1 + ⋯ (Grandi's series) 1 + 2 + 3 + 4 + ⋯ 1 − 2 + 3 − 4 + ⋯ 1 + 2 + 4 + 8 + ⋯ 1 − 2 + 4 − 8 + ⋯ Infinite arithmetic series 1 − 1 + 2 − 6 + 24 − 120 + ⋯ (alternating factorials) 1 + 1/2 + 1/3 + 1/4 + ⋯ (harmonic series) 1/2 + 1/3 + 1/5 + 1/7 + 1/11 + ⋯ (inverses of primes) Kinds of series Taylor series Power series Formal power series Laurent series Puiseux series Dirichlet series Trigonometric series Fourier series Generating series Hypergeometric series Generalized hypergeometric series Hypergeometric function of a matrix argument Lauricella hypergeometric series Modular hypergeometric series Riemann's differential equation Theta hypergeometric series Category Authority control databases : National Spain France BnF data Germany Israel United States Japan Czech Republic Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Fourier_series&oldid=1230454359 " Categories : Fourier series Joseph Fourier Hidden categories: CS1: long volume value CS1 French-language sources (fr) CS1 German-language sources (de) Articles with short description Short description matches Wikidata All accuracy disputes Articles with disputed statements from February 2020 All articles with unsourced statements Articles with unsourced statements from November 2012 Articles with unsourced statements from September 2020 Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference Webarchive template wayback links Wikipedia articles incorporating text from PlanetMath Articles with BNE identifiers Articles with BNF identifiers Articles with BNFdata identifiers Articles with GND identifiers Articles with J9U identifiers Articles with LCCN identifiers Articles with NDL identifiers Articles with NKC identifiers This page was last edited on 22 June 2024, at 20:04 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

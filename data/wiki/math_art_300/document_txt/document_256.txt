@@ -1,0 +1,55 @@
+Beyond Infinity (mathematics book) - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Topics 2 Audience and reception 3 References Toggle the table of contents Beyond Infinity (mathematics book) 1 language Bahasa Indonesia Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Popular mathematics book on infinity First edition (US) Beyond Infinity : An Expedition to the Outer Limits of Mathematics is a popular mathematics book by Eugenia Cheng centered on concepts of infinity.
+
+It was published by Basic Books and (with a slightly different title) by Profile Books in 2017, [1] [2] [3] and in a paperback edition in 2018.
+
+[4] It was shortlisted for the 2017 Royal Society Insight Investment Science Book Prize.
+
+[5] Topics [ edit ] The book is divided into two parts, with the first exploring notions leading to concepts of actual infinity , concrete but infinite mathematical values.
+
+After an exploration of number systems , this part discusses set theory , cardinal numbers , and ordinal numbers , transfinite arithmetic , and the existence of different infinite sizes of sets.
+
+Topics used to illustrate these concepts include Hilbert's paradox of the Grand Hotel , Cantor's diagonal argument , [4] and the unprovability of the continuum hypothesis.
+
+[2] The second part concerns mathematics related to the idea of potential infinity , the assignment of finite values to the results of infinite processes including growth rates , limits , and infinite series.
+
+[4] [2] This part also discusses Zeno's paradoxes , Dedekind cuts , [2] the dimensions of spaces, and the possibility of spaces of infinite dimensions, with a mention of higher category theory , [4] Cheng's research specialty.
+
+[1] [2] The mathematics is frequently lightened and made accessible with personal experiences and stories, [3] [6] [7] involving such subjects as the Loch Ness Monster , puff pastry , boating, dance contests, shoes, [3] "Legos, the iPod Shuffle, snorkeling, Battenberg cakes and Winnie-the-Pooh".
+
+[6] Audience and reception [ edit ] The Royal Society judges called Beyond Infinity "a very engaging introduction to a forbidding subject".
+
+[5] Similarly, reviewer Anne Haworth calls it "engaging and readable", [3] and Wall Street Journal reviewer Sam Kean writes that its "chatty tone keeps things fresh".
+
+[6] It is aimed at a popular audience, not assumed to have a significant background in mathematics, including "the young or those brimming with curiosity" [1] as well as college or secondary-school students, [4] [2] although it may be "too elementary for mathematicians or mathematics students".
+
+[2] As similar reading material, reviewer Andrew James Simoson suggests placing this book alongside The Book of Numbers by John Horton Conway and Richard K.
+
+Guy (1996), One Two Three.
+
+Infinity by George Gamow (1947), and Really Big Numbers by Richard Schwartz (2014).
+
+[1] References [ edit ] ^ a b c d Simoson, Andrew James, Review of Beyond Infinity , MR 3617029 ^ a b c d e f g Bultheel, Adhemar (April 2017), "Review of Beyond Infinity " , EMS Reviews , European Mathematical Society ^ a b c d Haworth, Anne (June 2021), "Review of Beyond Infinity ", The Mathematical Gazette , 105 (563): 381–382, doi : 10.
+
+1017/mag.
+
+2021.
+
+100 ^ a b c d e Guadarrama, Zdeňka (April 2019), "Review of Beyond Infinity " , MAA Reviews , Mathematical Association of America ^ a b " Beyond Infinity: An Expedition to the Outer Limits of the Mathematical by Eugenia Cheng" , 2017 Royal Society Insight Investment Science Book Prize , Royal Society , retrieved 2021-08-29 ^ a b c Kean, Sam (5 April 2017), "The Neverending Story (review of Beyond Infinity )" , The Wall Street Journal ^ "Review of Beyond Infinity " , Publishers Weekly Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Beyond_Infinity_(mathematics_book)&oldid=1131805635 " Categories : Popular mathematics books 2017 non-fiction books Infinity Basic Books books Profile Books books Hidden categories: Articles with short description Short description matches Wikidata Use dmy dates from August 2021 Use list-defined references from August 2021 This page was last edited on 5 January 2023, at 21:19 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

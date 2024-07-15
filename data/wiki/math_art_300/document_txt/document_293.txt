@@ -1,0 +1,127 @@
+MathWorld - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 History 2 CRC lawsuit 3 See also 4 References 5 External links Toggle the table of contents MathWorld 36 languages العربية বাংলা Български Català Čeština Deutsch Ελληνικά Español Esperanto Euskara فارسی Français 한국어 हिन्दी Bahasa Indonesia Italiano עברית Magyar Македонски Bahasa Melayu Nederlands 日本語 Norsk bokmål Polski Português Română Русский Slovenščina کوردی Sunda Svenska ไทย Türkçe Українська Tiếng Việt 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Online mathematics reference work This article relies excessively on references to primary sources.
+
+Please improve this article by adding secondary or tertiary sources.
+
+Find sources: "MathWorld" – news · newspapers · books · scholar · JSTOR ( July 2017 ) ( Learn how and when to remove this message ) MathWorld Type of business Private Type of site Internet encyclopedia project Available in English Owner Wolfram Research, Inc.
+
+Created by Eric W.
+
+Weisstein [1] URL mathworld.
+
+wolfram.
+
+com Launched November 1999 ; 24 years ago ( 1999-11 ) Current status Active MathWorld is an online mathematics reference work, created and largely written by Eric W.
+
+Weisstein.
+
+[2] [3] It is sponsored by and licensed to Wolfram Research, Inc.
+
+and was partially funded by the National Science Foundation 's National Science Digital Library grant to the University of Illinois at Urbana–Champaign.
+
+[3] History [ edit ] Eric W.
+
+Weisstein , the creator of the site, was a physics and astronomy student who got into the habit of writing notes on his mathematical readings.
+
+In 1995 he put his notes online and called it "Eric's Treasure Trove of Mathematics.
+
+" It contained hundreds of pages/articles, covering a wide range of mathematical topics.
+
+The site became popular as an extensive single resource on mathematics on the web.
+
+In 1998, he made a contract with CRC Press and the contents of the site were published in print and CD-ROM form, titled "CRC Concise Encyclopedia of Mathematics.
+
+" The free online version became only partially accessible to the public.
+
+In 1999 Weisstein went to work for Wolfram Research, Inc.
+
+(WRI), and WRI renamed the Math Treasure Trove to MathWorld and hosted it on the company's website [ citation needed ] without access restrictions.
+
+[ citation needed ] CRC lawsuit [ edit ] In 2000, CRC Press sued Wolfram Research Inc.
+
+(WRI) , WRI president Stephen Wolfram , and author Eric W.
+
+Weisstein , due to what they considered a breach of contract: that the MathWorld content was to remain in print only.
+
+The site was taken down by a court injunction.
+
+[4] The case was later settled out of court, with WRI paying an unspecified amount and complying with other stipulations.
+
+Among these stipulations is the inclusion of a copyright notice at the bottom of the website and broad rights for the CRC Press to produce MathWorld in printed book form.
+
+The site then became once again available free to the public.
+
+[ citation needed ] This case made a wave of headlines in online publishing circles.
+
+The PlanetMath project was a result of MathWorld's being unavailable.
+
+[5] See also [ edit ] List of online encyclopedias Mathematica References [ edit ] ^ Eric Weisstein (2007).
+
+"Making MathWorld".
+
+Mathematica Journal.
+
+10 (3).
+
+Archived from the original on 2012-07-09.
+
+Retrieved 2010-08-22.
+
+^ "Wolfram MathWorld : the web's most extensive mathematics resource | WorldCat.
+
+org".
+
+www.
+
+worldcat.
+
+org.
+
+Retrieved 2023-03-28.
+
+^ a b "Making MathWorld « The Mathematica Journal".
+
+Retrieved 2023-03-28.
+
+^ "CRC Press, LLC v.
+
+Wolfram Research, Inc.
+
+, 149 F.
+
+Supp.
+
+2d 500 | Casetext Search + Citator".
+
+casetext.
+
+com.
+
+Retrieved 2023-03-28.
+
+^ Corneli, Joseph (2011).
+
+"The PlanetMath Encyclopedia" (PDF).
+
+ITP 2011 Workshop on Mathematical Wikis (MathWikis 2011) Nijmegen, Netherlands, August 27, 2011.
+
+External links [ edit ] Official website v t e Wolfram Research Products Computable Document Format Mathematica GridMathematica MathWorld WolframAlpha Wolfram Demonstrations Project Wolfram Language Wolfram SystemModeler People Stephen Wolfram Conrad Wolfram Theodore Gray Eric Weisstein Ed Pegg Jr.
+
+Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=MathWorld&oldid=1212388911 " Categories : Mathematics websites American educational websites American online encyclopedias Wolfram Research Encyclopedias of mathematics Hidden categories: Articles with short description Short description is different from Wikidata Articles lacking reliable references from July 2017 All articles lacking reliable references All articles with unsourced statements Articles with unsourced statements from April 2023 This page was last edited on 7 March 2024, at 16:18 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

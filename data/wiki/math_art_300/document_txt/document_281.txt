@@ -1,0 +1,743 @@
+Least-squares spectral analysis - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Historical background 2 Development of LSSA and variants Toggle Development of LSSA and variants subsection 2.
+
+1 The Vaníček method 2.
+
+2 The Lomb method 2.
+
+3 The generalized Lomb–Scargle periodogram 2.
+
+4 Korenberg's "fast orthogonal search" method 2.
+
+5 Palmer's Chi-squared method 3 Applications 4 Implementation 5 See also 6 References 7 External links Toggle the table of contents Least-squares spectral analysis 3 languages Eesti Svenska 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Periodicity computation method Part of a series on Regression analysis Models Linear regression Simple regression Polynomial regression General linear model Generalized linear model Vector generalized linear model Discrete choice Binomial regression Binary regression Logistic regression Multinomial logistic regression Mixed logit Probit Multinomial probit Ordered logit Ordered probit Poisson Multilevel model Fixed effects Random effects Linear mixed-effects model Nonlinear mixed-effects model Nonlinear regression Nonparametric Semiparametric Robust Quantile Isotonic Principal components Least angle Local Segmented Errors-in-variables Estimation Least squares Linear Non-linear Ordinary Weighted Generalized Generalized estimating equation Partial Total Non-negative Ridge regression Regularized Least absolute deviations Iteratively reweighted Bayesian Bayesian multivariate Least-squares spectral analysis Background Regression validation Mean and predicted response Errors and residuals Goodness of fit Studentized residual Gauss–Markov theorem Mathematics portal v t e The result of fitting a set of data points with a quadratic function Least-squares spectral analysis ( LSSA ) is a method of estimating a frequency spectrum based on a least-squares fit of sinusoids to data samples, similar to Fourier analysis.
+
+[1] [2] Fourier analysis, the most used spectral method in science, generally boosts long-periodic noise in the long and gapped records; LSSA mitigates such problems.
+
+[3] Unlike in Fourier analysis, data need not be equally spaced to use LSSA.
+
+Developed in 1969 [4] and 1971, [5] LSSA is also known as the Vaníček method and the Gauss-Vaniček method after Petr Vaníček , [6] [7] and as the Lomb method [3] or the Lomb–Scargle periodogram , [2] [8] based on the simplifications first by Nicholas R.
+
+Lomb [9] and then by Jeffrey D.
+
+Scargle.
+
+[10] Historical background [ edit ] The close connections between Fourier analysis , the periodogram , and the least-squares fitting of sinusoids have been known for a long time.
+
+[11] However, most developments are restricted to complete data sets of equally spaced samples.
+
+In 1963, Freek J.
+
+M.
+
+Barning of Mathematisch Centrum , Amsterdam, handled unequally spaced data by similar techniques, [12] including both a periodogram analysis equivalent to what nowadays is called the Lomb method and least-squares fitting of selected frequencies of sinusoids determined from such periodograms — and connected by a procedure known today as the matching pursuit with post-back fitting [13] or the orthogonal matching pursuit.
+
+[14] Petr Vaníček , a Canadian geophysicist and geodesist of the University of New Brunswick , proposed in 1969 also the matching-pursuit approach for equally and unequally spaced data, which he called "successive spectral analysis" and the result a "least-squares periodogram".
+
+[4] He generalized this method to account for any systematic components beyond a simple mean, such as a "predicted linear (quadratic, exponential,.
+
+) secular trend of unknown magnitude", and applied it to a variety of samples, in 1971.
+
+[5] Vaníček's strictly least-squares method was then simplified in 1976 by Nicholas R.
+
+Lomb of the University of Sydney , who pointed out its close connection to periodogram analysis.
+
+[9] Subsequently, the definition of a periodogram of unequally spaced data was modified and analyzed by Jeffrey D.
+
+Scargle of NASA Ames Research Center , [10] who showed that, with minor changes, it becomes identical to Lomb's least-squares formula for fitting individual sinusoid frequencies.
+
+Scargle states that his paper "does not introduce a new detection technique, but instead studies the reliability and efficiency of detection with the most commonly used technique, the periodogram, in the case where the observation times are unevenly spaced ," and further points out regarding least-squares fitting of sinusoids compared to periodogram analysis, that his paper "establishes, apparently for the first time, that (with the proposed modifications) these two methods are exactly equivalent.
+
+" [10] Press [3] summarizes the development this way: A completely different method of spectral analysis for unevenly sampled data, one that mitigates these difficulties and has some other very desirable properties, was developed by Lomb, based in part on earlier work by Barning and Vanicek, and additionally elaborated by Scargle.
+
+In 1989, Michael J.
+
+Korenberg of Queen's University in Kingston, Ontario, developed the "fast orthogonal search" method of more quickly finding a near-optimal decomposition of spectra or other problems, [15] similar to the technique that later became known as the orthogonal matching pursuit.
+
+Development of LSSA and variants [ edit ] The Vaníček method [ edit ] In linear regression , the observations ( red ) are assumed to be the result of random deviations ( green ) from an underlying relationship ( blue ) between a dependent variable ( y ) and an independent variable ( x ).
+
+Then in a normed fitting, such as by the criterion of least squares , the data points ( red ) are represented by the line of normatively best fit ( blue ), from which there always remain "residuals" ( green ).
+
+In the Vaníček method, a discrete data set is approximated by a weighted sum of sinusoids of progressively determined frequencies using a standard linear regression or least-squares fit.
+
+[16] The frequencies are chosen using a method similar to Barning's, but going further in optimizing the choice of each successive new frequency by picking the frequency that minimizes the residual after least-squares fitting (equivalent to the fitting technique now known as matching pursuit with pre-backfitting [13] ).
+
+The number of sinusoids must be less than or equal to the number of data samples (counting sines and cosines of the same frequency as separate sinusoids).
+
+A data vector Φ is represented as a weighted sum of sinusoidal basis functions, tabulated in a matrix A by evaluating each function at the sample times, with weight vector x : ϕ ≈ A x {\displaystyle \phi \approx {\textbf {A}}x} , where the weights vector x is chosen to minimize the sum of squared errors in approximating Φ.
+
+The solution for x is closed-form, using standard linear regression : [17] x = ( A T A ) − 1 A T ϕ.
+
+{\displaystyle x=({\textbf {A}}^{\mathrm {T} }{\textbf {A}})^{-1}{\textbf {A}}^{\mathrm {T} }\phi.
+
+} Here the matrix A can be based on any set of functions mutually independent (not necessarily orthogonal) when evaluated at the sample times; functions used for spectral analysis are typically sines and cosines evenly distributed over the frequency range of interest.
+
+If we choose too many frequencies in a too-narrow frequency range, the functions will be insufficiently independent, the matrix ill-conditioned, and the resulting spectrum meaningless.
+
+[17] When the basis functions in A are orthogonal (that is, not correlated, meaning the columns have zero pair-wise dot products ), the matrix A T A is diagonal; when the columns all have the same power (sum of squares of elements), then that matrix is an identity matrix times a constant, so the inversion is trivial.
+
+The latter is the case when the sample times are equally spaced and sinusoids chosen as sines and cosines equally spaced in pairs on the frequency interval 0 to a half cycle per sample (spaced by 1/N cycles per sample, omitting the sine phases at 0 and maximum frequency where they are identically zero).
+
+This case is known as the discrete Fourier transform , slightly rewritten in terms of measurements and coefficients.
+
+[17] x = A T ϕ {\displaystyle x={\textbf {A}}^{\mathrm {T} }\phi } — DFT case for N equally spaced samples and frequencies, within a scalar factor.
+
+The Lomb method [ edit ] A power spectrum (magnitude-squared) of two sinusoidal basis functions , calculated by the periodogram method Trying to lower the computational burden of the Vaníček method in 1976 [9] (no longer an issue), Lomb proposed using the above simplification in general, except for pair-wise correlations between sine and cosine bases of the same frequency, since the correlations between pairs of sinusoids are often small, at least when they are not tightly spaced.
+
+This formulation is essentially that of the traditional periodogram but adapted for use with unevenly spaced samples.
+
+The vector x is a reasonably good estimate of an underlying spectrum, but since we ignore any correlations, A x is no longer a good approximation to the signal, and the method is no longer a least-squares method — yet in the literature continues to be referred to as such.
+
+Rather than just taking dot products of the data with sine and cosine waveforms directly, Scargle modified the standard periodogram formula so to find a time delay τ {\displaystyle \tau } first, such that this pair of sinusoids would be mutually orthogonal at sample times t j {\displaystyle t_{j}} and also adjusted for the potentially unequal powers of these two basis functions, to obtain a better estimate of the power at a frequency.
+
+[3] [10] This procedure made his modified periodogram method exactly equivalent to Lomb's method.
+
+Time delay τ {\displaystyle \tau } by definition equals to tan ⁡ 2 ω τ = ∑ j sin ⁡ 2 ω t j ∑ j cos ⁡ 2 ω t j.
+
+{\displaystyle \tan {2\omega \tau }={\frac {\sum _{j}\sin 2\omega t_{j}}{\sum _{j}\cos 2\omega t_{j}}}.
+
+} Then the periodogram at frequency ω {\displaystyle \omega } is estimated as: P x ( ω ) = 1 2 ( [ ∑ j X j cos ⁡ ω ( t j − τ ) ] 2 ∑ j cos 2 ⁡ ω ( t j − τ ) + [ ∑ j X j sin ⁡ ω ( t j − τ ) ] 2 ∑ j sin 2 ⁡ ω ( t j − τ ) ) {\displaystyle P_{x}(\omega )={\frac {1}{2}}\left({\frac {\left[\sum _{j}X_{j}\cos \omega (t_{j}-\tau )\right]^{2}}{\sum _{j}\cos ^{2}\omega (t_{j}-\tau )}}+{\frac {\left[\sum _{j}X_{j}\sin \omega (t_{j}-\tau )\right]^{2}}{\sum _{j}\sin ^{2}\omega (t_{j}-\tau )}}\right)} , which, as Scargle reports, has the same statistical distribution as the periodogram in the evenly sampled case.
+
+[10] At any individual frequency ω {\displaystyle \omega } , this method gives the same power as does a least-squares fit to sinusoids of that frequency and of the form: ϕ ( t ) = A sin ⁡ ω t + B cos ⁡ ω t.
+
+{\displaystyle \phi (t)=A\sin \omega t+B\cos \omega t.
+
+} [18] In practice, it is always difficult to judge if a given Lomb peak is significant or not, especially when the nature of the noise is unknown, so for example a false-alarm spectral peak in the Lomb periodogram analysis of noisy periodic signal may result from noise in turbulence data.
+
+[19] Fourier methods can also report false spectral peaks when analyzing patched-up or data edited otherwise.
+
+[7] The generalized Lomb–Scargle periodogram [ edit ] The standard Lomb–Scargle periodogram is only valid for a model with a zero mean.
+
+Commonly, this is approximated — by subtracting the mean of the data before calculating the periodogram.
+
+However, this is an inaccurate assumption when the mean of the model (the fitted sinusoids) is non-zero.
+
+The generalized Lomb–Scargle periodogram removes this assumption and explicitly solves for the mean.
+
+In this case, the function fitted is ϕ ( t ) = A sin ⁡ ω t + B cos ⁡ ω t + C.
+
+{\displaystyle \phi (t)=A\sin \omega t+B\cos \omega t+C.
+
+} [20] The generalized Lomb–Scargle periodogram has also been referred to in the literature as a floating mean periodogram.
+
+[21] Korenberg's "fast orthogonal search" method [ edit ] Michael Korenberg of Queen's University in Kingston, Ontario , developed a method for choosing a sparse set of components from an over-complete set — such as sinusoidal components for spectral analysis — called the fast orthogonal search (FOS).
+
+Mathematically, FOS uses a slightly modified Cholesky decomposition in a mean-square error reduction (MSER) process, implemented as a sparse matrix inversion.
+
+[15] [22] As with the other LSSA methods, FOS avoids the major shortcoming of discrete Fourier analysis, so it can accurately identify embedded periodicities and excel with unequally spaced data.
+
+The fast orthogonal search method was also applied to other problems, such as nonlinear system identification.
+
+Palmer's Chi-squared method [ edit ] Palmer has developed a method for finding the best-fit function to any chosen number of harmonics, allowing more freedom to find non-sinusoidal harmonic functions.
+
+[23] His is a fast ( FFT -based) technique for weighted least-squares analysis on arbitrarily spaced data with non-uniform standard errors.
+
+Source code that implements this technique is available.
+
+[24] Because data are often not sampled at uniformly spaced discrete times, this method "grids" the data by sparsely filling a time series array at the sample times.
+
+All intervening grid points receive zero statistical weight, equivalent to having infinite error bars at times between samples.
+
+Applications [ edit ] Beta distribution for different values of its parameters The most useful feature of LSSA is enabling incomplete records to be spectrally analyzed — without the need to manipulate data or to invent otherwise non-existent data.
+
+Magnitudes in the LSSA spectrum depict the contribution of a frequency or period to the variance of the time series.
+
+[4] Generally, spectral magnitudes thus defined enable the output's straightforward significance level regime.
+
+[25] Alternatively, spectral magnitudes in the Vaníček spectrum can also be expressed in dB.
+
+[26] Note that spectral magnitudes in the Vaníček spectrum follow β-distribution.
+
+[27] Inverse transformation of Vaníček's LSSA is possible, as is most easily seen by writing the forward transform as a matrix; the matrix inverse (when the matrix is not singular) or pseudo-inverse will then be an inverse transformation; the inverse will exactly match the original data if the chosen sinusoids are mutually independent at the sample points and their number is equal to the number of data points.
+
+[17] No such inverse procedure is known for the periodogram method.
+
+Implementation [ edit ] The LSSA can be implemented in less than a page of MATLAB code.
+
+[28] In essence: [16] "to compute the least-squares spectrum we must compute m spectral values.
+
+which involves performing the least-squares approximation m times, each time to get [the spectral power] for a different frequency" I.
+
+e.
+
+, for each frequency in a desired set of frequencies, sine and cosine functions are evaluated at the times corresponding to the data samples, and dot products of the data vector with the sinusoid vectors are taken and appropriately normalized; following the method known as Lomb/Scargle periodogram, a time shift is calculated for each frequency to orthogonalize the sine and cosine components before the dot product; [17] finally, a power is computed from those two amplitude components.
+
+This same process implements a discrete Fourier transform when the data are uniformly spaced in time and the frequencies chosen correspond to integer numbers of cycles over the finite data record.
+
+This method treats each sinusoidal component independently, or out of context, even though they may not be orthogonal to data points; it is Vaníček's original method.
+
+In addition, it is possible to perform a full simultaneous or in-context least-squares fit by solving a matrix equation and partitioning the total data variance between the specified sinusoid frequencies.
+
+[17] Such a matrix least-squares solution is natively available in MATLAB as the backslash operator.
+
+[29] Furthermore, the simultaneous or in-context method, as opposed to the independent or out-of-context version (as well as the periodogram version due to Lomb), cannot fit more components (sines and cosines) than there are data samples, so that: [17] ".
+
+serious repercussions can also arise if the selected frequencies result in some of the Fourier components (trig functions) becoming nearly linearly dependent with each other, thereby producing an ill-conditioned or near singular N.
+
+To avoid such ill conditioning it becomes necessary to either select a different set of frequencies to be estimated (e.
+
+g.
+
+, equally spaced frequencies) or simply neglect the correlations in N (i.
+
+e.
+
+, the off-diagonal blocks) and estimate the inverse least squares transform separately for the individual frequencies.
+
+" Lomb's periodogram method, on the other hand, can use an arbitrarily high number of, or density of, frequency components, as in a standard periodogram ; that is, the frequency domain can be over-sampled by an arbitrary factor.
+
+[3] However, as mentioned above, one should keep in mind that Lomb's simplification and diverging from the least squares criterion opened up his technique to grave sources of errors, resulting even in false spectral peaks.
+
+[19] In Fourier analysis, such as the Fourier transform and discrete Fourier transform , the sinusoids fitted to data are all mutually orthogonal, so there is no distinction between the simple out-of-context dot-product-based projection onto basis functions versus an in-context simultaneous least-squares fit; that is, no matrix inversion is required to least-squares partition the variance between orthogonal sinusoids of different frequencies.
+
+[30] In the past, Fourier's was for many a method of choice thanks to its processing-efficient fast Fourier transform implementation when complete data records with equally spaced samples are available, and they used the Fourier family of techniques to analyze gapped records as well, which, however, required manipulating and even inventing non-existent data just so to be able to run a Fourier-based algorithm.
+
+See also [ edit ] Non-uniform discrete Fourier transform Orthogonal functions SigSpec Sinusoidal model Spectral density Spectral density estimation , for competing alternatives References [ edit ] ^ Cafer Ibanoglu (2000).
+
+Variable Stars As Essential Astrophysical Tools.
+
+Springer.
+
+ISBN 0-7923-6084-2.
+
+^ a b D.
+
+Scott Birney; David Oesper; Guillermo Gonzalez (2006).
+
+Observational Astronomy.
+
+Cambridge University Press.
+
+ISBN 0-521-85370-2.
+
+^ a b c d e Press (2007).
+
+Numerical Recipes (3rd ed.
+
+).
+
+Cambridge University Press.
+
+ISBN 978-0-521-88068-8.
+
+^ a b c P.
+
+Vaníček (1 August 1969).
+
+"Approximate Spectral Analysis by Least-squares Fit" (PDF).
+
+Astrophysics and Space Science.
+
+4 (4): 387–391.
+
+Bibcode : 1969Ap&SS.
+
+4.
+
+387V.
+
+doi : 10.
+
+1007/BF00651344.
+
+OCLC 5654872875.
+
+S2CID 124921449.
+
+^ a b P.
+
+Vaníček (1 July 1971).
+
+"Further development and properties of the spectral analysis by least-squares fit" (PDF).
+
+Astrophysics and Space Science.
+
+12 (1): 10–33.
+
+Bibcode : 1971Ap&SS.
+
+12.
+
+10V.
+
+doi : 10.
+
+1007/BF00656134.
+
+S2CID 109404359.
+
+^ J.
+
+Taylor; S.
+
+Hamilton (20 March 1972).
+
+"Some tests of the Vaníček Method of spectral analysis".
+
+Astrophysics and Space Science.
+
+17 (2): 357–367.
+
+Bibcode : 1972Ap&SS.
+
+17.
+
+357T.
+
+doi : 10.
+
+1007/BF00642907.
+
+S2CID 123569059.
+
+^ a b M.
+
+Omerbashich (26 June 2006).
+
+"Gauss-Vanicek spectral analysis of the Sepkoski compendium: no new life cycles".
+
+Computing in Science & Engineering.
+
+8 (4): 26–30.
+
+arXiv : math-ph/0608014.
+
+Bibcode : 2006CSE.
+
+8d.
+
+26O.
+
+doi : 10.
+
+1109/MCSE.
+
+2006.
+
+68.
+
+^ Hans P.
+
+A.
+
+Van Dongen (1999).
+
+"Searching for Biological Rhythms: Peak Detection in the Periodogram of Unequally Spaced Data".
+
+Journal of Biological Rhythms.
+
+14 (6): 617–620.
+
+doi : 10.
+
+1177/074873099129000984.
+
+PMID 10643760.
+
+S2CID 14886901.
+
+^ a b c Lomb, N.
+
+R.
+
+(1976).
+
+"Least-squares frequency analysis of unequally spaced data".
+
+Astrophysics and Space Science.
+
+39 (2): 447–462.
+
+Bibcode : 1976Ap&SS.
+
+39.
+
+447L.
+
+doi : 10.
+
+1007/BF00648343.
+
+S2CID 2671466.
+
+^ a b c d e Scargle, J.
+
+D.
+
+(1982).
+
+"Studies in astronomical time series analysis.
+
+II - Statistical aspects of spectral analysis of unevenly spaced data".
+
+Astrophysical Journal.
+
+263 : 835.
+
+Bibcode : 1982ApJ.
+
+263.
+
+835S.
+
+doi : 10.
+
+1086/160554.
+
+^ David Brunt (1931).
+
+The Combination of Observations (2nd ed.
+
+).
+
+Cambridge University Press.
+
+^ Barning, F.
+
+J.
+
+M.
+
+(1963).
+
+"The numerical analysis of the light-curve of 12 Lacertae".
+
+Bulletin of the Astronomical Institutes of the Netherlands.
+
+17 : 22.
+
+Bibcode : 1963BAN.
+
+17.
+
+22B.
+
+^ a b Pascal Vincent; Yoshua Bengio (2002).
+
+"Kernel Matching Pursuit" (PDF).
+
+Machine Learning.
+
+48 : 165–187.
+
+doi : 10.
+
+1023/A:1013955821559.
+
+^ Y.
+
+C.
+
+Pati, R.
+
+Rezaiifar, and P.
+
+S.
+
+Krishnaprasad, "Orthogonal matching pursuit: Recursive function approximation with applications to wavelet decomposition," in Proc.
+
+27th Asilomar Conference on Signals, Systems and Computers, A.
+
+Singh, ed.
+
+, Los Alamitos, CA, USA, IEEE Computer Society Press, 1993 ^ a b Korenberg, M.
+
+J.
+
+(1989).
+
+"A robust orthogonal algorithm for system identification and time-series analysis".
+
+Biological Cybernetics.
+
+60 (4): 267–276.
+
+doi : 10.
+
+1007/BF00204124.
+
+PMID 2706281.
+
+S2CID 11712196.
+
+^ a b Wells, D.
+
+E.
+
+, P.
+
+Vaníček, S.
+
+Pagiatakis, 1985.
+
+Least-squares spectral analysis revisited.
+
+Department of Surveying Engineering Technical Report 84, University of New Brunswick, Fredericton, 68 pages, Available at [1].
+
+^ a b c d e f g Craymer, M.
+
+R.
+
+, The Least Squares Spectrum, Its Inverse Transform and Autocorrelation Function: Theory and Some Applications in Geodesy , Ph.
+
+D.
+
+Dissertation, University of Toronto, Canada (1998).
+
+^ William J.
+
+Emery; Richard E.
+
+Thomson (2001).
+
+Data Analysis Methods in Physical Oceanography.
+
+Elsevier.
+
+ISBN 0-444-50756-6.
+
+^ a b Zhou, W.
+
+-X.
+
+; Sornette, D.
+
+(October 2001).
+
+"Statistical significance of periodicity and log-periodicity with heavy-tailed correlated noise".
+
+International Journal of Modern Physics C.
+
+13 (2): 137–169.
+
+arXiv : cond-mat/0110445.
+
+Bibcode : 2002IJMPC.
+
+13.
+
+137Z.
+
+doi : 10.
+
+1142/S0129183102003024.
+
+S2CID 8256563.
+
+^ M.
+
+Zechmeister; M.
+
+Kürster (March 2009).
+
+"The generalised Lomb–Scargle periodogram.
+
+A new formalism for the floating-mean and Keplerian periodograms".
+
+Astronomy & Astrophysics.
+
+496 (2): 577–584.
+
+arXiv : 0901.
+
+2573.
+
+Bibcode : 2009A&A.
+
+496.
+
+577Z.
+
+doi : 10.
+
+1051/0004-6361:200811296.
+
+S2CID 10408194.
+
+^ Andrew Cumming; Geoffrey W.
+
+Marcy; R.
+
+Paul Butler (December 1999).
+
+"The Lick Planet Search: Detectability and Mass Thresholds".
+
+The Astrophysical Journal.
+
+526 (2): 890–915.
+
+arXiv : astro-ph/9906466.
+
+Bibcode : 1999ApJ.
+
+526.
+
+890C.
+
+doi : 10.
+
+1086/308020.
+
+S2CID 12560512.
+
+^ Korenberg, Michael J.
+
+; Brenan, Colin J.
+
+H.
+
+; Hunter, Ian W.
+
+(1997).
+
+"Raman Spectral Estimation via Fast Orthogonal Search".
+
+The Analyst.
+
+122 (9): 879–882.
+
+Bibcode : 1997Ana.
+
+122.
+
+879K.
+
+doi : 10.
+
+1039/a700902j.
+
+^ Palmer, David M.
+
+(2009).
+
+"A Fast Chi-squared Technique For Period Search of Irregularly Sampled Data".
+
+The Astrophysical Journal.
+
+695 (1): 496–502.
+
+arXiv : 0901.
+
+1913.
+
+Bibcode : 2009ApJ.
+
+695.
+
+496P.
+
+doi : 10.
+
+1088/0004-637X/695/1/496.
+
+S2CID 5991300.
+
+^ "David Palmer: The Fast Chi-squared Period Search".
+
+^ Beard, A.
+
+G.
+
+, Williams, P.
+
+J.
+
+S.
+
+, Mitchell, N.
+
+J.
+
+& Muller, H.
+
+G.
+
+A special climatology of planetary waves and tidal variability, J Atm.
+
+Solar-Ter.
+
+Phys.
+
+63 (09), p.
+
+801–811 (2001).
+
+^ Pagiatakis, S.
+
+Stochastic significance of peaks in the least-squares spectrum, J of Geodesy 73, p.
+
+67-78 (1999).
+
+^ Steeves, R.
+
+R.
+
+A statistical test for significance of peaks in the least squares spectrum, Collected Papers of the Geodetic Survey, Department of Energy, Mines and Resources, Surveys and Mapping, Ottawa, Canada, p.
+
+149-166 (1981) ^ Richard A.
+
+Muller ; Gordon J.
+
+MacDonald (2000).
+
+Ice Ages and Astronomical Causes: Data, spectral analysis and mechanisms (1st ed.
+
+).
+
+Springer Berlin Heidelberg.
+
+Bibcode : 2000iaac.
+
+book.
+
+M.
+
+ISBN 978-3-540-43779-6.
+
+OL 20645181M.
+
+Wikidata Q111312009.
+
+^ Timothy A.
+
+Davis; Kermit Sigmon (2005).
+
+MATLAB Primer.
+
+CRC Press.
+
+ISBN 1-58488-523-8.
+
+^ Darrell Williamson (1999).
+
+Discrete-Time Signal Processing: An Algebraic Approach.
+
+Springer.
+
+ISBN 1-85233-161-5.
+
+External links [ edit ] LSSA package freeware download , FORTRAN, Vaníček's least-squares spectral analysis method, from the University of New Brunswick.
+
+LSWAVE package freeware download , MATLAB, includes the Vaníček's least-squares spectral analysis method, from the U.
+
+S.
+
+National Geodetic Survey.
+
+v t e Major topics in mathematical analysis Calculus : Integration Differentiation Differential equations ordinary partial stochastic Fundamental theorem of calculus Calculus of variations Vector calculus Tensor calculus Matrix calculus Lists of integrals Table of derivatives Real analysis Complex analysis Hypercomplex analysis ( quaternionic analysis ) Functional analysis Fourier analysis Least-squares spectral analysis Harmonic analysis P-adic analysis ( P-adic numbers ) Measure theory Representation theory Functions Continuous function Special functions Limit Series Infinity Mathematics portal v t e Statistics Outline Index Descriptive statistics Continuous data Center Mean Arithmetic Arithmetic-Geometric Cubic Generalized/power Geometric Harmonic Heronian Heinz Lehmer Median Mode Dispersion Average absolute deviation Coefficient of variation Interquartile range Percentile Range Standard deviation Variance Shape Central limit theorem Moments Kurtosis L-moments Skewness Count data Index of dispersion Summary tables Contingency table Frequency distribution Grouped data Dependence Partial correlation Pearson product-moment correlation Rank correlation Kendall's τ Spearman's ρ Scatter plot Graphics Bar chart Biplot Box plot Control chart Correlogram Fan chart Forest plot Histogram Pie chart Q–Q plot Radar chart Run chart Scatter plot Stem-and-leaf display Violin plot Data collection Study design Effect size Missing data Optimal design Population Replication Sample size determination Statistic Statistical power Survey methodology Sampling Cluster Stratified Opinion poll Questionnaire Standard error Controlled experiments Blocking Factorial experiment Interaction Random assignment Randomized controlled trial Randomized experiment Scientific control Adaptive designs Adaptive clinical trial Stochastic approximation Up-and-down designs Observational studies Cohort study Cross-sectional study Natural experiment Quasi-experiment Statistical inference Statistical theory Population Statistic Probability distribution Sampling distribution Order statistic Empirical distribution Density estimation Statistical model Model specification L p space Parameter location scale shape Parametric family Likelihood (monotone) Location–scale family Exponential family Completeness Sufficiency Statistical functional Bootstrap U V Optimal decision loss function Efficiency Statistical distance divergence Asymptotics Robustness Frequentist inference Point estimation Estimating equations Maximum likelihood Method of moments M-estimator Minimum distance Unbiased estimators Mean-unbiased minimum-variance Rao–Blackwellization Lehmann–Scheffé theorem Median unbiased Plug-in Interval estimation Confidence interval Pivot Likelihood interval Prediction interval Tolerance interval Resampling Bootstrap Jackknife Testing hypotheses 1- & 2-tails Power Uniformly most powerful test Permutation test Randomization test Multiple comparisons Parametric tests Likelihood-ratio Score/Lagrange multiplier Wald Specific tests Z -test (normal) Student's t -test F -test Goodness of fit Chi-squared G -test Kolmogorov–Smirnov Anderson–Darling Lilliefors Jarque–Bera Normality (Shapiro–Wilk) Likelihood-ratio test Model selection Cross validation AIC BIC Rank statistics Sign Sample median Signed rank (Wilcoxon) Hodges–Lehmann estimator Rank sum (Mann–Whitney) Nonparametric anova 1-way (Kruskal–Wallis) 2-way (Friedman) Ordered alternative (Jonckheere–Terpstra) Van der Waerden test Bayesian inference Bayesian probability prior posterior Credible interval Bayes factor Bayesian estimator Maximum posterior estimator Correlation Regression analysis Correlation Pearson product-moment Partial correlation Confounding variable Coefficient of determination Regression analysis Errors and residuals Regression validation Mixed effects models Simultaneous equations models Multivariate adaptive regression splines (MARS) Linear regression Simple linear regression Ordinary least squares General linear model Bayesian regression Non-standard predictors Nonlinear regression Nonparametric Semiparametric Isotonic Robust Heteroscedasticity Homoscedasticity Generalized linear model Exponential families Logistic (Bernoulli) / Binomial / Poisson regressions Partition of variance Analysis of variance (ANOVA, anova) Analysis of covariance Multivariate ANOVA Degrees of freedom Categorical / Multivariate / Time-series / Survival analysis Categorical Cohen's kappa Contingency table Graphical model Log-linear model McNemar's test Cochran–Mantel–Haenszel statistics Multivariate Regression Manova Principal components Canonical correlation Discriminant analysis Cluster analysis Classification Structural equation model Factor analysis Multivariate distributions Elliptical distributions Normal Time-series General Decomposition Trend Stationarity Seasonal adjustment Exponential smoothing Cointegration Structural break Granger causality Specific tests Dickey–Fuller Johansen Q-statistic (Ljung–Box) Durbin–Watson Breusch–Godfrey Time domain Autocorrelation (ACF) partial (PACF) Cross-correlation (XCF) ARMA model ARIMA model (Box–Jenkins) Autoregressive conditional heteroskedasticity (ARCH) Vector autoregression (VAR) Frequency domain Spectral density estimation Fourier analysis Least-squares spectral analysis Wavelet Whittle likelihood Survival Survival function Kaplan–Meier estimator (product limit) Proportional hazards models Accelerated failure time (AFT) model First hitting time Hazard function Nelson–Aalen estimator Test Log-rank test Applications Biostatistics Bioinformatics Clinical trials / studies Epidemiology Medical statistics Engineering statistics Chemometrics Methods engineering Probabilistic design Process / quality control Reliability System identification Social statistics Actuarial science Census Crime statistics Demography Econometrics Jurimetrics National accounts Official statistics Population statistics Psychometrics Spatial statistics Cartography Environmental statistics Geographic information system Geostatistics Kriging Category Mathematics portal Commons WikiProject Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Least-squares_spectral_analysis&oldid=1226400035 " Categories : Algorithms Analysis of variance Applied mathematics Applied statistics Carl Friedrich Gauss Computational mathematics Computational science Data processing Digital signal processing Engineering statistics Frequency Frequency-domain analysis Harmonic analysis Iterative methods Least squares Linear algebra Mathematical analysis Mathematical optimization Mathematical physics Mathematics of computing Multivariate statistics Numerical analysis Numerical linear algebra Optimization algorithms and methods Signal processing Statistical forecasting Statistical methods Statistical signal processing Stochastic processes Theoretical computer science Time series Hidden categories: Articles with short description Short description is different from Wikidata Use dmy dates from April 2022 Use American English from April 2022 All Wikipedia articles written in American English This page was last edited on 30 May 2024, at 11:45 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

@@ -1,0 +1,105 @@
+Hypercomplex analysis - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 See also 2 References Toggle References subsection 2.
+
+1 Sources Toggle the table of contents Hypercomplex analysis 2 languages العربية 日本語 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia This article includes a list of general references , but it lacks sufficient corresponding inline citations.
+
+Please help to improve this article by introducing more precise citations.
+
+( February 2023 ) ( Learn how and when to remove this message ) In mathematics , hypercomplex analysis is the extension of complex analysis to the hypercomplex numbers.
+
+The first instance is functions of a quaternion variable , where the argument is a quaternion (in this case, the sub-field of hypercomplex analysis is called quaternionic analysis ).
+
+A second instance involves functions of a motor variable where arguments are split-complex numbers.
+
+In mathematical physics , there are hypercomplex systems called Clifford algebras.
+
+The study of functions with arguments from a Clifford algebra is called Clifford analysis.
+
+A matrix may be considered a hypercomplex number.
+
+For example, the study of functions of 2 × 2 real matrices shows that the topology of the space of hypercomplex numbers determines the function theory.
+
+Functions such as square root of a matrix , matrix exponential , and logarithm of a matrix are basic examples of hypercomplex analysis.
+
+[1] The function theory of diagonalizable matrices is particularly transparent since they have eigendecompositions.
+
+[2] Suppose T = ∑ i = 1 N λ i E i {\displaystyle \textstyle T=\sum _{i=1}^{N}\lambda _{i}E_{i}} where the E i are projections.
+
+Then for any polynomial f {\displaystyle f} , f ( T ) = ∑ i = 1 N f ( λ i ) E i.
+
+{\displaystyle f(T)=\sum _{i=1}^{N}f(\lambda _{i})E_{i}.
+
+} The modern terminology for a "system of hypercomplex numbers" is an algebra over the real numbers , and the algebras used in applications are often Banach algebras since Cauchy sequences can be taken to be convergent.
+
+Then the function theory is enriched by sequences and series.
+
+In this context the extension of holomorphic functions of a complex variable is developed as the holomorphic functional calculus.
+
+Hypercomplex analysis on Banach algebras is called functional analysis.
+
+See also [ edit ] Giovanni Battista Rizza References [ edit ] ^ Felix Gantmacher (1959) The Theory of Matrices , two volumes, translator: Kurt Hirsch , Chelsea Publishing , chapter 5: functions of matrices, chapter 8: roots and logarithms of matrices ^ Shaw, Ronald (1982) Linear Algebra and Group Representations , v.
+
+1, § 2.
+
+3, Diagonalizable linear operators, pages 78–81, Academic Press ISBN 0-12-639201-3.
+
+Sources [ edit ] Daniel Alpay (ed.
+
+) (2006) Wavelets, Multiscale systems and Hypercomplex Analysis , Springer, ISBN 9783764375881.
+
+Enrique Ramirez de Arellanon (1998) Operator theory for complex and hypercomplex analysis , American Mathematical Society (Conference proceedings from a meeting in Mexico City in December 1994).
+
+J.
+
+A.
+
+Emanuello (2015) Analysis of functions of split-complex, multi-complex, and split-quaternionic variables and their associated conformal geometries , Ph.
+
+D.
+
+Thesis, Florida State University Sorin D.
+
+Gal (2004) Introduction to the Geometric Function theory of Hypercomplex variables , Nova Science Publishers, ISBN 1-59033-398-5.
+
+R.
+
+Lavika & A.
+
+G.
+
+O’Farrell & I.
+
+Short (2007) "Reversible maps in the group of quaternionic Möbius transformations", Mathematical Proceedings of the Cambridge Philosophical Society 143:57–69.
+
+Irene Sabadini and Franciscus Sommen (eds.
+
+) (2011) Hypercomplex Analysis and Applications , Birkhauser Mathematics.
+
+Irene Sabadini & Michael V.
+
+Shapiro & F.
+
+Sommen (editors) (2009) Hypercomplex Analysis , Birkhauser ISBN 978-3-7643-9892-7.
+
+Sabadini, Sommen, Struppa (eds.
+
+) (2012) Advances in Hypercomplex Analysis , Springer.
+
+Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Hypercomplex_analysis&oldid=1167465995 " Categories : Functions and mappings Hypercomplex numbers Mathematical analysis Hidden categories: Articles lacking in-text citations from February 2023 All articles lacking in-text citations This page was last edited on 27 July 2023, at 22:49 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

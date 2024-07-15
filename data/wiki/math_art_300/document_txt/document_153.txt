@@ -1,0 +1,375 @@
+Mathematical statistics - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Introduction 2 Topics Toggle Topics subsection 2.
+
+1 Probability distributions 2.
+
+1.
+
+1 Special distributions 2.
+
+2 Statistical inference 2.
+
+3 Regression 2.
+
+4 Nonparametric statistics 3 Statistics, mathematics, and mathematical statistics 4 See also 5 References 6 Further reading Toggle the table of contents Mathematical statistics 38 languages العربية Azərbaycanca Беларуская Беларуская (тарашкевіца) Català Чӑвашла Čeština Deutsch Eesti Ελληνικά Español فارسی Français 한국어 Հայերեն हिन्दी Ido Bahasa Indonesia Ирон ქართული Қазақша Lietuvių Македонски Norsk nynorsk Oʻzbekcha / ўзбекча پښتو Polski Română Русский Sicilianu Slovenčina Slovenščina Sunda Svenska Türkçe Українська Tiếng Việt 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Branch of statistics Not to be confused with Mathematics and statistics , Mathematics , or Statistics.
+
+Illustration of linear regression on a data set.
+
+Regression analysis is an important part of mathematical statistics.
+
+Statistics Outline Statisticians Glossary Notation Journals Lists of topics Articles Category Mathematics portal v t e Part of a series on Mathematics History Index Areas Number theory Geometry Algebra Calculus and Analysis Discrete mathematics Logic and Set theory Probability Statistics and Decision theory Relationship with sciences Physics Chemistry Geosciences Computation Biology Linguistics Economics Philosophy Education Mathematics Portal v t e Mathematical statistics is the application of probability theory , a branch of mathematics , to statistics , as opposed to techniques for collecting statistical data.
+
+Specific mathematical techniques which are used for this include mathematical analysis , linear algebra , stochastic analysis , differential equations , and measure theory.
+
+[1] [2] Introduction [ edit ] Statistical data collection is concerned with the planning of studies, especially with the design of randomized experiments and with the planning of surveys using random sampling.
+
+The initial analysis of the data often follows the study protocol specified prior to the study being conducted.
+
+The data from a study can also be analyzed to consider secondary hypotheses inspired by the initial results, or to suggest new studies.
+
+A secondary analysis of the data from a planned study uses tools from data analysis , and the process of doing this is mathematical statistics.
+
+Data analysis is divided into: descriptive statistics – the part of statistics that describes data, i.
+
+e.
+
+summarises the data and their typical properties.
+
+inferential statistics – the part of statistics that draws conclusions from data (using some model for the data): For example, inferential statistics involves selecting a model for the data, checking whether the data fulfill the conditions of a particular model, and with quantifying the involved uncertainty (e.
+
+g.
+
+using confidence intervals ).
+
+While the tools of data analysis work best on data from randomized studies, they are also applied to other kinds of data.
+
+For example, from natural experiments and observational studies , in which case the inference is dependent on the model chosen by the statistician, and so subjective.
+
+[3] [4] Topics [ edit ] The following are some of the important topics in mathematical statistics: [5] [6] Probability distributions [ edit ] Main article: Probability distribution A probability distribution is a function that assigns a probability to each measurable subset of the possible outcomes of a random experiment , survey , or procedure of statistical inference.
+
+Examples are found in experiments whose sample space is non-numerical, where the distribution would be a categorical distribution ; experiments whose sample space is encoded by discrete random variables , where the distribution can be specified by a probability mass function ; and experiments with sample spaces encoded by continuous random variables, where the distribution can be specified by a probability density function.
+
+More complex experiments, such as those involving stochastic processes defined in continuous time , may demand the use of more general probability measures.
+
+A probability distribution can either be univariate or multivariate.
+
+A univariate distribution gives the probabilities of a single random variable taking on various alternative values; a multivariate distribution (a joint probability distribution ) gives the probabilities of a random vector —a set of two or more random variables—taking on various combinations of values.
+
+Important and commonly encountered univariate probability distributions include the binomial distribution , the hypergeometric distribution , and the normal distribution.
+
+The multivariate normal distribution is a commonly encountered multivariate distribution.
+
+Special distributions [ edit ] Normal distribution , the most common continuous distribution Bernoulli distribution , for the outcome of a single Bernoulli trial (e.
+
+g.
+
+success/failure, yes/no) Binomial distribution , for the number of "positive occurrences" (e.
+
+g.
+
+successes, yes votes, etc.
+
+) given a fixed total number of independent occurrences Negative binomial distribution , for binomial-type observations but where the quantity of interest is the number of failures before a given number of successes occurs Geometric distribution , for binomial-type observations but where the quantity of interest is the number of failures before the first success; a special case of the negative binomial distribution, where the number of successes is one.
+
+Discrete uniform distribution , for a finite set of values (e.
+
+g.
+
+the outcome of a fair die) Continuous uniform distribution , for continuously distributed values Poisson distribution , for the number of occurrences of a Poisson-type event in a given period of time Exponential distribution , for the time before the next Poisson-type event occurs Gamma distribution , for the time before the next k Poisson-type events occur Chi-squared distribution , the distribution of a sum of squared standard normal variables; useful e.
+
+g.
+
+for inference regarding the sample variance of normally distributed samples (see chi-squared test ) Student's t distribution , the distribution of the ratio of a standard normal variable and the square root of a scaled chi squared variable; useful for inference regarding the mean of normally distributed samples with unknown variance (see Student's t-test ) Beta distribution , for a single probability (real number between 0 and 1); conjugate to the Bernoulli distribution and binomial distribution Statistical inference [ edit ] Main article: Statistical inference Statistical inference is the process of drawing conclusions from data that are subject to random variation, for example, observational errors or sampling variation.
+
+[7] Initial requirements of such a system of procedures for inference and induction are that the system should produce reasonable answers when applied to well-defined situations and that it should be general enough to be applied across a range of situations.
+
+Inferential statistics are used to test hypotheses and make estimations using sample data.
+
+Whereas descriptive statistics describe a sample, inferential statistics infer predictions about a larger population that the sample represents.
+
+The outcome of statistical inference may be an answer to the question "what should be done next?", where this might be a decision about making further experiments or surveys, or about drawing a conclusion before implementing some organizational or governmental policy.
+
+For the most part, statistical inference makes propositions about populations, using data drawn from the population of interest via some form of random sampling.
+
+More generally, data about a random process is obtained from its observed behavior during a finite period of time.
+
+Given a parameter or hypothesis about which one wishes to make inference, statistical inference most often uses: a statistical model of the random process that is supposed to generate the data, which is known when randomization has been used, and a particular realization of the random process; i.
+
+e.
+
+, a set of data.
+
+Regression [ edit ] Main article: Regression analysis In statistics , regression analysis is a statistical process for estimating the relationships among variables.
+
+It includes many ways for modeling and analyzing several variables, when the focus is on the relationship between a dependent variable and one or more independent variables.
+
+More specifically, regression analysis helps one understand how the typical value of the dependent variable (or 'criterion variable') changes when any one of the independent variables is varied, while the other independent variables are held fixed.
+
+Most commonly, regression analysis estimates the conditional expectation of the dependent variable given the independent variables – that is, the average value of the dependent variable when the independent variables are fixed.
+
+Less commonly, the focus is on a quantile , or other location parameter of the conditional distribution of the dependent variable given the independent variables.
+
+In all cases, the estimation target is a function of the independent variables called the regression function.
+
+In regression analysis, it is also of interest to characterize the variation of the dependent variable around the regression function which can be described by a probability distribution.
+
+Many techniques for carrying out regression analysis have been developed.
+
+Familiar methods, such as linear regression , are parametric , in that the regression function is defined in terms of a finite number of unknown parameters that are estimated from the data (e.
+
+g.
+
+using ordinary least squares ).
+
+Nonparametric regression refers to techniques that allow the regression function to lie in a specified set of functions , which may be infinite-dimensional.
+
+Nonparametric statistics [ edit ] Main article: Nonparametric statistics Nonparametric statistics are values calculated from data in a way that is not based on parameterized families of probability distributions.
+
+They include both descriptive and inferential statistics.
+
+The typical parameters are the expectations, variance, etc.
+
+Unlike parametric statistics , nonparametric statistics make no assumptions about the probability distributions of the variables being assessed.
+
+[8] Non-parametric methods are widely used for studying populations that take on a ranked order (such as movie reviews receiving one to four stars).
+
+The use of non-parametric methods may be necessary when data have a ranking but no clear numerical interpretation, such as when assessing preferences.
+
+In terms of levels of measurement , non-parametric methods result in "ordinal" data.
+
+As non-parametric methods make fewer assumptions, their applicability is much wider than the corresponding parametric methods.
+
+In particular, they may be applied in situations where less is known about the application in question.
+
+Also, due to the reliance on fewer assumptions, non-parametric methods are more robust.
+
+One drawback of non-parametric methods is that since they do not rely on assumptions, they are generally less powerful than their parametric counterparts.
+
+[9] Low power non-parametric tests are problematic because a common use of these methods is for when a sample has a low sample size.
+
+[9] Many parametric methods are proven to be the most powerful tests through methods such as the Neyman–Pearson lemma and the Likelihood-ratio test.
+
+Another justification for the use of non-parametric methods is simplicity.
+
+In certain cases, even when the use of parametric methods is justified, non-parametric methods may be easier to use.
+
+Due both to this simplicity and to their greater robustness, non-parametric methods are seen by some statisticians as leaving less room for improper use and misunderstanding.
+
+Statistics, mathematics, and mathematical statistics [ edit ] Mathematical statistics is a key subset of the discipline of statistics.
+
+Statistical theorists study and improve statistical procedures with mathematics, and statistical research often raises mathematical questions.
+
+Mathematicians and statisticians like Gauss , Laplace , and C.
+
+S.
+
+Peirce used decision theory with probability distributions and loss functions (or utility functions ).
+
+The decision-theoretic approach to statistical inference was reinvigorated by Abraham Wald and his successors, [10] [11] [12] [13] [14] [15] [16] and makes extensive use of scientific computing , analysis , and optimization ; for the design of experiments , statisticians use algebra and combinatorics.
+
+But while statistical practice often relies on probability and decision theory , their application can be controversial [4] See also [ edit ] Mathematics portal Asymptotic theory (statistics) References [ edit ] ^ Kannan, D.
+
+; Lakshmikantham, V.
+
+, eds.
+
+(2002).
+
+Handbook of stochastic analysis and applications.
+
+New York: M.
+
+Dekker.
+
+ISBN 0824706609.
+
+^ Schervish, Mark J.
+
+(1995).
+
+Theory of statistics (Corr.
+
+2nd print.
+
+ed.
+
+).
+
+New York: Springer.
+
+ISBN 0387945466.
+
+^ Freedman, D.
+
+A.
+
+(2005) Statistical Models: Theory and Practice , Cambridge University Press.
+
+ISBN 978-0-521-67105-7 ^ a b Freedman, David A.
+
+(2010).
+
+Collier, David; Sekhon, Jasjeet S.
+
+; Stark, Philp B.
+
+(eds.
+
+).
+
+Statistical Models and Causal Inference: A Dialogue with the Social Sciences.
+
+Cambridge University Press.
+
+ISBN 978-0-521-12390-7.
+
+^ Hogg, R.
+
+V.
+
+, A.
+
+Craig, and J.
+
+W.
+
+McKean.
+
+"Intro to Mathematical Statistics.
+
+" (2005).
+
+^ Larsen, Richard J.
+
+and Marx, Morris L.
+
+"An Introduction to Mathematical Statistics and Its Applications" (2012).
+
+Prentice Hall.
+
+^ Upton, G.
+
+, Cook, I.
+
+(2008) Oxford Dictionary of Statistics , OUP.
+
+ISBN 978-0-19-954145-4 ^ "Research Nonparametric Methods".
+
+Carnegie Mellon University.
+
+Retrieved August 30, 2022.
+
+^ a b "Nonparametric Tests".
+
+sphweb.
+
+bumc.
+
+bu.
+
+edu.
+
+Retrieved 2022-08-31.
+
+^ Wald, Abraham (1947).
+
+Sequential analysis.
+
+New York: John Wiley and Sons.
+
+ISBN 0-471-91806-7.
+
+See Dover reprint, 2004: ISBN 0-486-43912-7 ^ Wald, Abraham (1950).
+
+Statistical Decision Functions.
+
+John Wiley and Sons, New York.
+
+^ Lehmann, Erich (1997).
+
+Testing Statistical Hypotheses (2nd ed.
+
+).
+
+ISBN 0-387-94919-4.
+
+^ Lehmann, Erich ; Cassella, George (1998).
+
+Theory of Point Estimation (2nd ed.
+
+).
+
+ISBN 0-387-98502-6.
+
+^ Bickel, Peter J.
+
+; Doksum, Kjell A.
+
+(2001).
+
+Mathematical Statistics: Basic and Selected Topics.
+
+Vol.
+
+1 (Second (updated printing 2007) ed.
+
+).
+
+Pearson Prentice-Hall.
+
+^ Le Cam, Lucien (1986).
+
+Asymptotic Methods in Statistical Decision Theory.
+
+Springer-Verlag.
+
+ISBN 0-387-96307-3.
+
+^ Liese, Friedrich & Miescke, Klaus-J.
+
+(2008).
+
+Statistical Decision Theory: Estimation, Testing, and Selection.
+
+Springer.
+
+Further reading [ edit ] Borovkov, A.
+
+A.
+
+(1999).
+
+Mathematical Statistics.
+
+CRC Press.
+
+ISBN 90-5699-018-7 Virtual Laboratories in Probability and Statistics (Univ.
+
+of Ala.
+
+-Huntsville) StatiBot , interactive online expert system on statistical tests.
+
+Ray, Manohar; Sharma, Har Swarup (1966).
+
+Mathematical Statistics.
+
+Ram Prasad & Sons.
+
+ISBN 978-9383385188 v t e Statistics Outline Index Descriptive statistics Continuous data Center Mean Arithmetic Arithmetic-Geometric Cubic Generalized/power Geometric Harmonic Heronian Heinz Lehmer Median Mode Dispersion Average absolute deviation Coefficient of variation Interquartile range Percentile Range Standard deviation Variance Shape Central limit theorem Moments Kurtosis L-moments Skewness Count data Index of dispersion Summary tables Contingency table Frequency distribution Grouped data Dependence Partial correlation Pearson product-moment correlation Rank correlation Kendall's τ Spearman's ρ Scatter plot Graphics Bar chart Biplot Box plot Control chart Correlogram Fan chart Forest plot Histogram Pie chart Q–Q plot Radar chart Run chart Scatter plot Stem-and-leaf display Violin plot Data collection Study design Effect size Missing data Optimal design Population Replication Sample size determination Statistic Statistical power Survey methodology Sampling Cluster Stratified Opinion poll Questionnaire Standard error Controlled experiments Blocking Factorial experiment Interaction Random assignment Randomized controlled trial Randomized experiment Scientific control Adaptive designs Adaptive clinical trial Stochastic approximation Up-and-down designs Observational studies Cohort study Cross-sectional study Natural experiment Quasi-experiment Statistical inference Statistical theory Population Statistic Probability distribution Sampling distribution Order statistic Empirical distribution Density estimation Statistical model Model specification L p space Parameter location scale shape Parametric family Likelihood (monotone) Location–scale family Exponential family Completeness Sufficiency Statistical functional Bootstrap U V Optimal decision loss function Efficiency Statistical distance divergence Asymptotics Robustness Frequentist inference Point estimation Estimating equations Maximum likelihood Method of moments M-estimator Minimum distance Unbiased estimators Mean-unbiased minimum-variance Rao–Blackwellization Lehmann–Scheffé theorem Median unbiased Plug-in Interval estimation Confidence interval Pivot Likelihood interval Prediction interval Tolerance interval Resampling Bootstrap Jackknife Testing hypotheses 1- & 2-tails Power Uniformly most powerful test Permutation test Randomization test Multiple comparisons Parametric tests Likelihood-ratio Score/Lagrange multiplier Wald Specific tests Z -test (normal) Student's t -test F -test Goodness of fit Chi-squared G -test Kolmogorov–Smirnov Anderson–Darling Lilliefors Jarque–Bera Normality (Shapiro–Wilk) Likelihood-ratio test Model selection Cross validation AIC BIC Rank statistics Sign Sample median Signed rank (Wilcoxon) Hodges–Lehmann estimator Rank sum (Mann–Whitney) Nonparametric anova 1-way (Kruskal–Wallis) 2-way (Friedman) Ordered alternative (Jonckheere–Terpstra) Van der Waerden test Bayesian inference Bayesian probability prior posterior Credible interval Bayes factor Bayesian estimator Maximum posterior estimator Correlation Regression analysis Correlation Pearson product-moment Partial correlation Confounding variable Coefficient of determination Regression analysis Errors and residuals Regression validation Mixed effects models Simultaneous equations models Multivariate adaptive regression splines (MARS) Linear regression Simple linear regression Ordinary least squares General linear model Bayesian regression Non-standard predictors Nonlinear regression Nonparametric Semiparametric Isotonic Robust Heteroscedasticity Homoscedasticity Generalized linear model Exponential families Logistic (Bernoulli) / Binomial / Poisson regressions Partition of variance Analysis of variance (ANOVA, anova) Analysis of covariance Multivariate ANOVA Degrees of freedom Categorical / Multivariate / Time-series / Survival analysis Categorical Cohen's kappa Contingency table Graphical model Log-linear model McNemar's test Cochran–Mantel–Haenszel statistics Multivariate Regression Manova Principal components Canonical correlation Discriminant analysis Cluster analysis Classification Structural equation model Factor analysis Multivariate distributions Elliptical distributions Normal Time-series General Decomposition Trend Stationarity Seasonal adjustment Exponential smoothing Cointegration Structural break Granger causality Specific tests Dickey–Fuller Johansen Q-statistic (Ljung–Box) Durbin–Watson Breusch–Godfrey Time domain Autocorrelation (ACF) partial (PACF) Cross-correlation (XCF) ARMA model ARIMA model (Box–Jenkins) Autoregressive conditional heteroskedasticity (ARCH) Vector autoregression (VAR) Frequency domain Spectral density estimation Fourier analysis Least-squares spectral analysis Wavelet Whittle likelihood Survival Survival function Kaplan–Meier estimator (product limit) Proportional hazards models Accelerated failure time (AFT) model First hitting time Hazard function Nelson–Aalen estimator Test Log-rank test Applications Biostatistics Bioinformatics Clinical trials / studies Epidemiology Medical statistics Engineering statistics Chemometrics Methods engineering Probabilistic design Process / quality control Reliability System identification Social statistics Actuarial science Census Crime statistics Demography Econometrics Jurimetrics National accounts Official statistics Population statistics Psychometrics Spatial statistics Cartography Environmental statistics Geographic information system Geostatistics Kriging Category Mathematics portal Commons WikiProject v t e Major mathematics areas History Timeline Future Lists Glossary Foundations Category theory Information theory Mathematical logic Philosophy of mathematics Set theory Type theory Algebra Abstract Commutative Elementary Group theory Linear Multilinear Universal Homological Analysis Calculus Real analysis Complex analysis Hypercomplex analysis Differential equations Functional analysis Harmonic analysis Measure theory Discrete Combinatorics Graph theory Order theory Geometry Algebraic Analytic Arithmetic Differential Discrete Euclidean Finite Number theory Arithmetic Algebraic number theory Analytic number theory Diophantine geometry Topology General Algebraic Differential Geometric Homotopy theory Applied Engineering mathematics Mathematical biology Mathematical chemistry Mathematical economics Mathematical finance Mathematical physics Mathematical psychology Mathematical sociology Mathematical statistics Probability Statistics Systems science Control theory Game theory Operations research Computational Computer science Theory of computation Computational complexity theory Numerical analysis Optimization Computer algebra Related topics Mathematicians lists Informal mathematics Films about mathematicians Recreational mathematics Mathematics and art Mathematics education Mathematics portal Category Commons WikiProject Authority control databases National Israel Czech Republic Other Encyclopedia of Modern Ukraine Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Mathematical_statistics&oldid=1230036243 " Categories : Statistical theory Actuarial science Hidden categories: Articles with short description Short description is different from Wikidata Pages using sidebar with the child parameter Articles with J9U identifiers Articles with NKC identifiers Articles with EMU identifiers This page was last edited on 20 June 2024, at 06:21 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

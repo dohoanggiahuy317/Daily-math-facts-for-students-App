@@ -1,0 +1,777 @@
+Bhāskara II - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Date, place and family 2 The Siddhānta-Śiromaṇi Toggle The Siddhānta-Śiromaṇi subsection 2.
+
+1 Līlāvatī 2.
+
+2 Bijaganita 2.
+
+3 Grahaganita 3 Mathematics Toggle Mathematics subsection 3.
+
+1 Arithmetic 3.
+
+2 Algebra 3.
+
+3 Trigonometry 3.
+
+4 Calculus 4 Astronomy 5 Engineering 6 Legends Toggle Legends subsection 6.
+
+1 "Behold!" 7 Legacy 8 See also 9 Notes 10 References Toggle References subsection 10.
+
+1 Bibliography 11 Further reading 12 External links Toggle the table of contents Bhāskara II 53 languages العربية অসমীয়া Asturianu अवधी Azərbaycanca বাংলা Башҡортса भोजपुरी Català Čeština Dansk Deutsch Español Euskara فارسی Français Galego ગુજરાતી गोंयची कोंकणी / Gõychi Konknni 한국어 हिन्दी Bahasa Indonesia Italiano ಕನ್ನಡ ქართული Malagasy മലയാളം मराठी Nederlands 日本語 Norsk bokmål Norsk nynorsk Occitan ଓଡ଼ିଆ Piemontèis Polski Português Română Русский संस्कृतम् Slovenščina Српски / srpski Srpskohrvatski / српскохрватски Suomi Svenska தமிழ் తెలుగు Тоҷикӣ Türkçe Українська اردو Tiếng Việt 中文 Edit links Article Talk English Read View source View history Tools Tools move to sidebar hide Actions Read View source View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikisource Appearance move to sidebar hide From Wikipedia, the free encyclopedia Indian mathematician and astronomer (c.
+
+1114–1185) Not to be confused with Bhāskara I.
+
+This article should specify the language of its non-English content, using {{ lang }} , {{ transliteration }} for transliterated languages, and {{ IPA }} for phonetic transcriptions, with an appropriate ISO 639 code.
+
+Wikipedia's multilingual support templates may also be used.
+
+See why.
+
+( March 2022 ) Bhāskara II Statue of Bhaskara II at Patnadevi Born c.
+
+1114 Vijjadavida, Maharashtra (probably Patan [1] [2] in Khandesh or Beed [3] [4] [5] in Marathwada ) Died c.
+
+1185 (1185-00-00) (aged 70–71) Ujjain , Madhya Pradesh Other names Bhāskarācārya Occupation(s) Astronomer, mathematician Academic work Era Shaka era Discipline Mathematician, astronomer, geometer Main interests Algebra , arithmetic , trigonometry Notable works Siddhānta Shiromani Līlāvatī , Bījagaṇita , Karaṇa-Kautūhala Grahagaṇita and Golādhyāya Bhaskara's proof of the Pythagorean Theorem.
+
+Bhāskara II [a] ( [bʰɑːskərə] ; c.
+
+1114–1185), also known as Bhāskarāchārya ( lit.
+
+' Bhāskara the teacher ' ), was an Indian polymath, mathematician , astronomer and engineer.
+
+From verses in his main work, Siddhāṁta Śiromaṇī, it can be inferred that he was born in 1114 in Vijjadavida (Vijjalavida) and living in the Satpuda mountain ranges of Western Ghats , believed to be the town of Patana in Chalisgaon, located in present-day Khandesh region of Maharashtra by scholars.
+
+[6] In a temple in Maharashtra, an inscription supposedly created by his grandson Changadeva, lists Bhaskaracharya's ancestral lineage for several generations before him as well as two generations after him.
+
+[7] [8] Henry Colebrooke who was the first European to translate (1817) Bhaskaracharya II's mathematical classics refers to the family as Maharashtrian Brahmins residing on the banks of the Godavari.
+
+[9] Born in a Hindu Deshastha Brahmin family of scholars, mathematicians and astronomers, Bhaskara II was the leader of a cosmic observatory at Ujjain , the main mathematical centre of ancient India.
+
+[10] Bhāskara and his works represent a significant contribution to mathematical and astronomical knowledge in the 12th century.
+
+He has been called the greatest mathematician of medieval India.
+
+[11] His main work Siddhānta-Śiromaṇi , ( Sanskrit for "Crown of Treatises") [12] is divided into four parts called Līlāvatī , Bījagaṇita , Grahagaṇita and Golādhyāya , [13] which are also sometimes considered four independent works.
+
+[14] These four sections deal with arithmetic, algebra, mathematics of the planets, and spheres respectively.
+
+He also wrote another treatise named Karaṇā Kautūhala.
+
+[14] Date, place and family Bhāskara gives his date of birth, and date of composition of his major work, in a verse in the Āryā metre : [14] Rasa-guṇa-pūrṇa-mahī-sama-śakanṛpa-samaye ऽ bhavan-mamotpattiḥ । Rasa-guṇa-varṣeṇa mayā siddhānta-śiromaṇī racitaḥ ॥ [ citation needed ] This reveals that he was born in 1036 of the Shaka era (1114 CE ), and that he composed the Siddhānta Shiromani when he was 36 years old.
+
+[14] Siddhānta Shiromani was completed during 1150 CE.
+
+He also wrote another work called the Karaṇa-kutūhala when he was 69 (in 1183).
+
+[14] His works show the influence of Brahmagupta , Śrīdhara , Mahāvīra , Padmanābha and other predecessors.
+
+[14] Bhaskara lived in Patnadevi located near Patan (Chalisgaon) in the vicinity of Sahyadri.
+
+[15] He was born in a Deśastha Rigvedi Brahmin family [16] near Vijjadavida (Vijjalavida).
+
+Munishvara (17th century), a commentator on Siddhānta Shiromani of Bhaskara has given the information about the location of Vijjadavida in his work Marīci Tīkā as follows: [3] सह्यकुलपर्वतान्तर्गत भूप्रदेशे महाराष्ट्रदेशान्तर्गतविदर्भपरपर्यायविराटदेशादपि निकटे गोदावर्यां नातिदूरे पंचक्रोशान्तरे विज्जलविडम्। This description locates Vijjalavida in Maharashtra, near the Vidarbha region and close to the banks of Godavari river.
+
+However scholars differ about the exact location.
+
+Many scholars have placed the place near Patan in Chalisgaon Taluka of Jalgaon district [17] whereas a section of scholars identified it with the modern day Beed city.
+
+[1] Some sources identified Vijjalavida as Bijapur or Bidar in Karnataka.
+
+[18] Identification of Vijjalavida with Basar in Telangana has also been suggested.
+
+[19] Bhāskara is said to have been the head of an astronomical observatory at Ujjain , the leading mathematical centre of medieval India.
+
+History records his great-great-great-grandfather holding a hereditary post as a court scholar, as did his son and other descendants.
+
+His father Maheśvara [15] (Maheśvaropādhyāya [14] ) was a mathematician, astronomer [14] and astrologer, who taught him mathematics, which he later passed on to his son Lokasamudra.
+
+Lokasamudra's son helped to set up a school in 1207 for the study of Bhāskara's writings.
+
+He died in 1185 CE.
+
+The Siddhānta-Śiromaṇi Līlāvatī Page from Lilavati , the first volume of Siddhānta Śiromaṇī.
+
+Use of the Pythagorean theorem in the corner.
+
+1650 edition The first section Līlāvatī (also known as pāṭīgaṇita or aṅkagaṇita ), named after his daughter, consists of 277 verses.
+
+[14] It covers calculations, progressions, measurement , permutations, and other topics.
+
+[14] Bijaganita The second section Bījagaṇita (Algebra) has 213 verses.
+
+[14] It discusses zero, infinity, positive and negative numbers, and indeterminate equations including (the now called) Pell's equation , solving it using a kuṭṭaka method.
+
+[14] In particular, he also solved the 61 x 2 + 1 = y 2 {\displaystyle 61x^{2}+1=y^{2}} case that was to elude Fermat and his European contemporaries centuries later Grahaganita In the third section Grahagaṇita , while treating the motion of planets, he considered their instantaneous speeds.
+
+[14] He arrived at the approximation: [20] It consists of 451 verses sin ⁡ y ′ − sin ⁡ y ≈ ( y ′ − y ) cos ⁡ y {\displaystyle \sin y'-\sin y\approx (y'-y)\cos y} for.
+
+y ′ {\displaystyle y'} close to y {\displaystyle y} , or in modern notation: [20] d d y sin ⁡ y = cos ⁡ y {\displaystyle {\frac {d}{dy}}\sin y=\cos y}.
+
+In his words: [20] bimbārdhasya koṭijyā guṇastrijyāhāraḥ phalaṃ dorjyāyorantaram [ citation needed ] This result had also been observed earlier by Muñjalācārya (or Mañjulācārya) mānasam, in the context of a table of sines.
+
+[20] Bhāskara also stated that at its highest point a planet's instantaneous speed is zero.
+
+[20] Mathematics Bhaskaracharya proof of the pythagorean Theorem Some of Bhaskara's contributions to mathematics include the following: A proof of the Pythagorean theorem by calculating the same area in two different ways and then cancelling out terms to get a 2 + b 2 = c 2.
+
+[21] In Lilavati , solutions of quadratic , cubic and quartic indeterminate equations are explained.
+
+[22] Solutions of indeterminate quadratic equations (of the type ax 2 + b = y 2 ).
+
+Integer solutions of linear and quadratic indeterminate equations ( Kuṭṭaka ).
+
+The rules he gives are (in effect) the same as those given by the Renaissance European mathematicians of the 17th century.
+
+A cyclic Chakravala method for solving indeterminate equations of the form ax 2 + bx + c = y.
+
+The solution to this equation was traditionally attributed to William Brouncker in 1657, though his method was more difficult than the chakravala method.
+
+The first general method for finding the solutions of the problem x 2 − ny 2 = 1 (so-called " Pell's equation ") was given by Bhaskara II.
+
+[23] Solutions of Diophantine equations of the second order, such as 61 x 2 + 1 = y 2.
+
+This very equation was posed as a problem in 1657 by the French mathematician Pierre de Fermat , but its solution was unknown in Europe until the time of Euler in the 18th century.
+
+[22] Solved quadratic equations with more than one unknown, and found negative and irrational solutions.
+
+[ citation needed ] Preliminary concept of mathematical analysis.
+
+Preliminary concept of infinitesimal calculus , along with notable contributions towards integral calculus.
+
+[24] preliminary ideas of differential calculus and differential coefficient.
+
+Stated Rolle's theorem , a special case of one of the most important theorems in analysis, the mean value theorem.
+
+Traces of the general mean value theorem are also found in his works.
+
+Calculated the derivatives of trigonometric functions and formulae.
+
+(See Calculus section below.
+
+) In Siddhanta-Śiromaṇi , Bhaskara developed spherical trigonometry along with a number of other trigonometric results.
+
+(See Trigonometry section below.
+
+) Arithmetic Bhaskara's arithmetic text Līlāvatī covers the topics of definitions, arithmetical terms, interest computation, arithmetical and geometrical progressions, plane geometry , solid geometry , the shadow of the gnomon , methods to solve indeterminate equations, and combinations.
+
+Līlāvatī is divided into 13 chapters and covers many branches of mathematics, arithmetic, algebra, geometry, and a little trigonometry and measurement.
+
+More specifically the contents include: Definitions.
+
+Properties of zero (including division , and rules of operations with zero).
+
+Further extensive numerical work, including use of negative numbers and surds.
+
+Estimation of π.
+
+Arithmetical terms, methods of multiplication , and squaring.
+
+Inverse rule of three , and rules of 3, 5, 7, 9, and 11.
+
+Problems involving interest and interest computation.
+
+Indeterminate equations ( Kuṭṭaka ), integer solutions (first and second order).
+
+His contributions to this topic are particularly important, [ citation needed ] since the rules he gives are (in effect) the same as those given by the renaissance European mathematicians of the 17th century, yet his work was of the 12th century.
+
+Bhaskara's method of solving was an improvement of the methods found in the work of Aryabhata and subsequent mathematicians.
+
+His work is outstanding for its systematisation, improved methods and the new topics that he introduced.
+
+Furthermore, the Lilavati contained excellent problems and it is thought that Bhaskara's intention may have been that a student of 'Lilavati' should concern himself with the mechanical application of the method.
+
+[ citation needed ] Algebra His Bījaganita (" Algebra ") was a work in twelve chapters.
+
+It was the first text to recognize that a positive number has two square roots (a positive and negative square root).
+
+[25] His work Bījaganita is effectively a treatise on algebra and contains the following topics: Positive and negative numbers.
+
+The 'unknown' (includes determining unknown quantities).
+
+Determining unknown quantities.
+
+Surds (includes evaluating surds and their square roots).
+
+Kuṭṭaka (for solving indeterminate equations and Diophantine equations ).
+
+Simple equations (indeterminate of second, third and fourth degree).
+
+Simple equations with more than one unknown.
+
+Indeterminate quadratic equations (of the type ax 2 + b = y 2 ).
+
+Solutions of indeterminate equations of the second, third and fourth degree.
+
+Quadratic equations.
+
+Quadratic equations with more than one unknown.
+
+Operations with products of several unknowns.
+
+Bhaskara derived a cyclic, chakravala method for solving indeterminate quadratic equations of the form ax 2 + bx + c = y.
+
+[25] Bhaskara's method for finding the solutions of the problem Nx 2 + 1 = y 2 (the so-called " Pell's equation ") is of considerable importance.
+
+[23] Trigonometry The Siddhānta Shiromani (written in 1150) demonstrates Bhaskara's knowledge of trigonometry, including the sine table and relationships between different trigonometric functions.
+
+He also developed spherical trigonometry , along with other interesting trigonometrical results.
+
+In particular Bhaskara seemed more interested in trigonometry for its own sake than his predecessors who saw it only as a tool for calculation.
+
+Among the many interesting results given by Bhaskara, results found in his works include computation of sines of angles of 18 and 36 degrees, and the now well known formulae for sin ⁡ ( a + b ) {\displaystyle \sin \left(a+b\right)} and sin ⁡ ( a − b ) {\displaystyle \sin \left(a-b\right)}.
+
+Calculus His work, the Siddhānta Shiromani , is an astronomical treatise and contains many theories not found in earlier works.
+
+[ citation needed ] Preliminary concepts of infinitesimal calculus and mathematical analysis , along with a number of results in trigonometry , differential calculus and integral calculus that are found in the work are of particular interest.
+
+Evidence suggests Bhaskara was acquainted with some ideas of differential calculus.
+
+[25] Bhaskara also goes deeper into the 'differential calculus' and suggests the differential coefficient vanishes at an extremum value of the function, indicating knowledge of the concept of ' infinitesimals '.
+
+[26] There is evidence of an early form of Rolle's theorem in his work.
+
+The modern formulation of Rolle's theorem states that if f ( a ) = f ( b ) = 0 {\displaystyle f\left(a\right)=f\left(b\right)=0} , then f ′ ( x ) = 0 {\displaystyle f'\left(x\right)=0} for some x {\displaystyle x} with a < x < b {\displaystyle \ a<x<b}.
+
+In this astronomical work he gave one procedure that looks like a precursor to infinitesimal methods.
+
+In terms that is if x ≈ y {\displaystyle x\approx y} then sin ⁡ ( y ) − sin ⁡ ( x ) ≈ ( y − x ) cos ⁡ ( y ) {\displaystyle \sin(y)-\sin(x)\approx (y-x)\cos(y)} that is a derivative of sine although he did not develop the notion on derivative.
+
+[27] Bhaskara uses this result to work out the position angle of the ecliptic , a quantity required for accurately predicting the time of an eclipse.
+
+In computing the instantaneous motion of a planet, the time interval between successive positions of the planets was no greater than a truti , or a 1 ⁄ 33750 of a second, and his measure of velocity was expressed in this infinitesimal unit of time.
+
+He was aware that when a variable attains the maximum value, its differential vanishes.
+
+He also showed that when a planet is at its farthest from the earth, or at its closest, the equation of the centre (measure of how far a planet is from the position in which it is predicted to be, by assuming it is to move uniformly) vanishes.
+
+He therefore concluded that for some intermediate position the differential of the equation of the centre is equal to zero.
+
+[ citation needed ] In this result, there are traces of the general mean value theorem , one of the most important theorems in analysis, which today is usually derived from Rolle's theorem.
+
+The mean value formula for inverse interpolation of the sine was later founded by Parameshvara in the 15th century in the Lilavati Bhasya , a commentary on Bhaskara's Lilavati.
+
+Madhava (1340–1425) and the Kerala School mathematicians (including Parameshvara ) from the 14th century to the 16th century expanded on Bhaskara's work and further advanced the development of calculus in India.
+
+[ citation needed ] Astronomy Using an astronomical model developed by Brahmagupta in the 7th century, Bhāskara accurately defined many astronomical quantities, including, for example, the length of the sidereal year , the time that is required for the Earth to orbit the Sun, as approximately 365.
+
+2588 days which is the same as in Suryasiddhanta.
+
+[28] The modern accepted measurement is 365.
+
+25636 days , a difference of 3.
+
+5 minutes.
+
+[29] His mathematical astronomy text Siddhanta Shiromani is written in two parts: the first part on mathematical astronomy and the second part on the sphere.
+
+The twelve chapters of the first part cover topics such as: Mean longitudes of the planets.
+
+True longitudes of the planets.
+
+The three problems of diurnal rotation.
+
+Diurnal motion refers to the apparent daily motion of stars around the Earth, or more precisely around the two celestial poles.
+
+It is caused by the Earth's rotation on its axis, so every star apparently moves on a circle that is called the diurnal circle.
+
+Syzygies.
+
+Lunar eclipses.
+
+Solar eclipses.
+
+Latitudes of the planets.
+
+Sunrise equation.
+
+The Moon 's crescent.
+
+Conjunctions of the planets with each other.
+
+Conjunctions of the planets with the fixed stars.
+
+The paths of the Sun and Moon.
+
+The second part contains thirteen chapters on the sphere.
+
+It covers topics such as: Praise of study of the sphere.
+
+Nature of the sphere.
+
+Cosmography and geography.
+
+Planetary mean motion.
+
+Eccentric epicyclic model of the planets.
+
+The armillary sphere.
+
+Spherical trigonometry.
+
+Ellipse calculations.
+
+[ citation needed ] First visibilities of the planets.
+
+Calculating the lunar crescent.
+
+Astronomical instruments.
+
+The seasons.
+
+Problems of astronomical calculations.
+
+Engineering The earliest reference to a perpetual motion machine date back to 1150, when Bhāskara II described a wheel that he claimed would run forever.
+
+[30] Bhāskara II invented a variety of instruments one of which is Yaṣṭi-yantra.
+
+This device could vary from a simple stick to V-shaped staffs designed specifically for determining angles with the help of a calibrated scale.
+
+[31] Legends In his book Lilavati , he reasons: "In this quantity also which has zero as its divisor there is no change even when many quantities have entered into it or come out [of it], just as at the time of destruction and creation when throngs of creatures enter into and come out of [him, there is no change in] the infinite and unchanging [Vishnu]".
+
+[32] "Behold!" It has been stated, by several authors, that Bhaskara II proved the Pythagorean theorem by drawing a diagram and providing the single word "Behold!".
+
+[33] [34] Sometimes Bhaskara's name is omitted and this is referred to as the Hindu proof , well known by schoolchildren.
+
+[35] However, as mathematics historian Kim Plofker points out, after presenting a worked-out example, Bhaskara II states the Pythagorean theorem: Hence, for the sake of brevity, the square root of the sum of the squares of the arm and upright is the hypotenuse: thus it is demonstrated.
+
+[36] This is followed by: And otherwise, when one has set down those parts of the figure there [merely] seeing [it is sufficient].
+
+[36] Plofker suggests that this additional statement may be the ultimate source of the widespread "Behold!" legend.
+
+Legacy A number of institutes and colleges in India are named after him, including Bhaskaracharya Pratishthana in Pune, Bhaskaracharya College of Applied Sciences in Delhi, Bhaskaracharya Institute For Space Applications and Geo-Informatics in Gandhinagar.
+
+On 20 November 1981 the Indian Space Research Organisation (ISRO) launched the Bhaskara II satellite honouring the mathematician and astronomer.
+
+[37] Invis Multimedia released Bhaskaracharya , an Indian documentary short on the mathematician in 2015.
+
+[38] [39] See also List of Indian mathematicians Bride's Chair Bījapallava Notes ^ to avoid confusion with the 7th century mathematician Bhāskara I , References ^ a b Victor J.
+
+Katz, ed.
+
+(10 August 2021).
+
+The Mathematics of Egypt, Mesopotamia, China, India, and Islam: A Sourcebook.
+
+Princeton University press.
+
+p.
+
+447.
+
+ISBN 978-0691114859.
+
+^ Indian Journal of History of Science, Volume 35, National Institute of Sciences of India, 2000, p.
+
+77 ^ a b M.
+
+S.
+
+Mate; G.
+
+T.
+
+Kulkarni, eds.
+
+(1974).
+
+Studies in Indology and Medieval History: Prof.
+
+G.
+
+H.
+
+Khare Felicitation Volume.
+
+Joshi & Lokhande Prakashan.
+
+pp.
+
+42–47.
+
+OCLC 4136967.
+
+^ K.
+
+V.
+
+Ramesh; S.
+
+P.
+
+Tewari; M.
+
+J.
+
+Sharma, eds.
+
+(1990).
+
+Dr.
+
+G.
+
+S.
+
+Gai Felicitation Volume.
+
+Agam Kala Prakashan.
+
+p.
+
+119.
+
+ISBN 978-0-8364-2597-0.
+
+OCLC 464078172.
+
+^ Proceedings, Indian History Congress, Volume 40, Indian History Congress, 1979, p.
+
+71 ^ T.
+
+A.
+
+Saraswathi (2017).
+
+"Bhaskaracharya".
+
+Cultural Leaders of India - Scientists.
+
+Publications Division Ministry of Information & Broadcasting.
+
+ISBN 9788123024851.
+
+^ गणिती (Marathi term meaning Mathematicians) by Achyut Godbole and Dr.
+
+Thakurdesai, Manovikas, First Edition 23, December 2013.
+
+p.
+
+34.
+
+^ Mathematics in India by Kim Plofker, Princeton University Press, 2009, p.
+
+182 ^ Algebra with Arithmetic and Mensuration from the Sanscrit of Brahmegupta and Bhascara by Henry Colebrooke, Scholiasts of Bhascara p.
+
+, xxvii ^ Sahni 2019 , p.
+
+50.
+
+^ Chopra 1982 , pp.
+
+52–54.
+
+^ Plofker 2009 , p.
+
+71.
+
+^ Poulose 1991 , p.
+
+79.
+
+^ a b c d e f g h i j k l m S.
+
+Balachandra Rao (13 July 2014), ನವ ಜನ್ಮಶತಾಬ್ದಿಯ ಗಣಿತರ್ಷಿ ಭಾಸ್ಕರಾಚಾರ್ಯ , Vijayavani , p.
+
+17 [ unreliable source? ] ^ a b Pingree 1970 , p.
+
+299.
+
+^ The Illustrated Weekly of India, Volume 95.
+
+Bennett, Coleman & Company, Limited, at the Times of India Press.
+
+1974.
+
+p.
+
+30.
+
+Deshasthas have contributed to mathematics and literature as well as to the cultural and religious heritage of India.
+
+Bhaskaracharaya was one of the greatest mathematicians of ancient India.
+
+^ Bhau Daji (1865).
+
+"Brief Notes on the Age and Authenticity of the Works of Aryabhata, Varahamihira, Brahmagupta, Bhattotpala and Bhaskaracharya".
+
+Journal of the Royal Asiatic Society of Great Britain and Ireland.
+
+pp.
+
+392–406.
+
+^ "1.
+
+Ignited minds page 39 by APJ Abdul Kalam, 2.
+
+Prof Sudakara Divedi (1855-1910), 3.
+
+Dr B A Salethor (Indian Culture), 4.
+
+Govt of Karnataka Publications, 5.
+
+Dr Nararajan (Lilavati 1989), 6.
+
+Prof Sinivas details(Ganitashatra Chrithra by1955, 7.
+
+Aalur Venkarayaru (Karnataka Gathvibaya 1917, 8.
+
+Prime Minister Press Statement at sarawad in 2018, 9.
+
+Vasudev Herkal (Syukatha Karnataka articles), 10.
+
+Manjunath sulali (Deccan Herald 19/04/2010, 11.
+
+Indian Archaeology 1994-96 A Review page 32, Dr R K Kulkarni (Articles)" ^ B.
+
+I.
+
+S.
+
+M.
+
+quarterly, Poona, Vol.
+
+63, No.
+
+1, 1984, pp 14-22 ^ a b c d e Scientist (13 July 2014), ನವ ಜನ್ಮಶತಾಬ್ದಿಯ ಗಣಿತರ್ಷಿ ಭಾಸ್ಕರಾಚಾರ್ಯ , Vijayavani , p.
+
+21 [ unreliable source? ] ^ Verses 128, 129 in Bijaganita Plofker 2007 , pp.
+
+476–477 ^ a b Mathematical Achievements of Pre-modern Indian Mathematicians von T.
+
+K Puttaswamy ^ a b Stillwell 2002 , p.
+
+74.
+
+^ Students& Britannica India.
+
+1.
+
+A to C by Indu Ramchandani ^ a b c 50 Timeless Scientists von K.
+
+Krishna Murty ^ Shukla 1984 , pp.
+
+95–104.
+
+^ Cooke 1997 , pp.
+
+213–215.
+
+^ "The Great Bharatiya Mathematician Bhaskaracharya ll".
+
+The Times of India.
+
+ISSN 0971-8257.
+
+Retrieved 24 May 2023.
+
+^ IERS EOP PC Useful constants.
+
+An SI day or mean solar day equals 86400 SI seconds.
+
+From the mean longitude referred to the mean ecliptic and the equinox J2000 given in Simon, J.
+
+L.
+
+, et al.
+
+, "Numerical Expressions for Precession Formulae and Mean Elements for the Moon and the Planets" Astronomy and Astrophysics 282 (1994), 663–683.
+
+[1] ^ White 1978 , pp.
+
+52–53.
+
+^ Selin 2008 , pp.
+
+269–273.
+
+^ Colebrooke 1817.
+
+^ Eves 1990 , p.
+
+228 ^ Burton 2011 , p.
+
+106 ^ Mazur 2005 , pp.
+
+19–20 ^ a b Plofker 2007 , p.
+
+477 ^ Bhaskara NASA 16 September 2017 ^ "Anand Narayanan".
+
+IIST.
+
+^ "Great Indian Mathematician - Bhaskaracharya".
+
+indiavideodotorg.
+
+22 September 2015.
+
+Archived from the original on 12 December 2021.
+
+Bibliography Burton, David M.
+
+(2011), The History of Mathematics: An Introduction (7th ed.
+
+), McGraw Hill, ISBN 978-0-07-338315-6 Eves, Howard (1990), An Introduction to the History of Mathematics (6th ed.
+
+), Saunders College Publishing, ISBN 978-0-03-029558-4 Mazur, Joseph (2005), Euclid in the Rainforest , Plume, ISBN 978-0-452-28783-9 Sarkār, Benoy Kumar (1918), Hindu achievements in exact science: a study in the history of scientific development , Longmans, Green and co.
+
+Seal, Sir Brajendranath (1915), The positive sciences of the ancient Hindus , Longmans, Green and co.
+
+Colebrooke, Henry T.
+
+(1817), Arithmetic and mensuration of Brahmegupta and Bhaskara White, Lynn Townsend (1978), "Tibet, India, and Malaya as Sources of Western Medieval Technology", Medieval religion and technology: collected essays , University of California Press, ISBN 978-0-520-03566-9 Selin, Helaine , ed.
+
+(2008), "Astronomical Instruments in India", Encyclopaedia of the History of Science, Technology, and Medicine in Non-Western Cultures (2nd edition) , Springer Verlag Ny, ISBN 978-1-4020-4559-2 Shukla, Kripa Shankar (1984), "Use of Calculus in Hindu Mathematics", Indian Journal of History of Science , 19 : 95–104 Pingree, David Edwin (1970), Census of the Exact Sciences in Sanskrit , vol.
+
+146, American Philosophical Society, ISBN 9780871691460 Plofker, Kim (2007), "Mathematics in India", in Katz, Victor J.
+
+(ed.
+
+), The Mathematics of Egypt, Mesopotamia, China, India, and Islam: A Sourcebook , Princeton University Press, ISBN 9780691114859 Plofker, Kim (2009), Mathematics in India , Princeton University Press, ISBN 9780691120676 Cooke, Roger (1997), "The Mathematics of the Hindus" , The History of Mathematics: A Brief Course , Wiley-Interscience, pp.
+
+213–215 , ISBN 0-471-18082-3 Poulose, K.
+
+G.
+
+(1991), K.
+
+G.
+
+Poulose (ed.
+
+), Scientific heritage of India, mathematics , Ravivarma Samskr̥ta granthāvali, vol.
+
+22, Govt.
+
+Sanskrit College (Tripunithura, India) Chopra, Pran Nath (1982), Religions and communities of India , Vision Books, ISBN 978-0-85692-081-3 Goonatilake, Susantha (1999), Toward a global science: mining civilizational knowledge , Indiana University Press, ISBN 978-0-253-21182-8 Selin, Helaine ; D'Ambrosio, Ubiratan , eds.
+
+(2001), "Mathematics across cultures: the history of non-western mathematics", Science Across Cultures , 2 , Springer, ISBN 978-1-4020-0260-1 Stillwell, John (2002), Mathematics and its history, Undergraduate Texts in Mathematics , Springer, ISBN 978-0-387-95336-6 Sahni, Madhu (2019), Pedagogy Of Mathematics , Vikas Publishing House, ISBN 978-9353383275 Further reading W.
+
+W.
+
+Rouse Ball.
+
+A Short Account of the History of Mathematics , 4th Edition.
+
+Dover Publications, 1960.
+
+George Gheverghese Joseph.
+
+The Crest of the Peacock: Non-European Roots of Mathematics , 2nd Edition.
+
+Penguin Books , 2000.
+
+O'Connor, John J.
+
+; Robertson, Edmund F.
+
+, "Bhāskara II" , MacTutor History of Mathematics Archive , University of St Andrews University of St Andrews , 2000.
+
+Ian Pearce.
+
+Bhaskaracharya II at the MacTutor archive.
+
+St Andrews University, 2002.
+
+Pingree, David (1970–1980).
+
+"Bhāskara II".
+
+Dictionary of Scientific Biography.
+
+Vol.
+
+2.
+
+New York: Charles Scribner's Sons.
+
+pp.
+
+115–120.
+
+ISBN 978-0-684-10114-9.
+
+External links Wikisource has original text related to this article: Bhāskara II 4to40 Biography v t e Indian mathematics Mathematicians Ancient Apastamba Baudhayana Katyayana Manava Pāṇini Pingala Yajnavalkya Classical Āryabhaṭa I Āryabhaṭa II Bhāskara I Bhāskara II Melpathur Narayana Bhattathiri Brahmadeva Brahmagupta Govindasvāmi Halayudha Jyeṣṭhadeva Kamalakara Mādhava of Saṅgamagrāma Mahāvīra Mahendra Sūri Munishvara Narayana Parameshvara Achyuta Pisharati Jagannatha Samrat Nilakantha Somayaji Śrīpati Sridhara Gangesha Upadhyaya Varāhamihira Sankara Variar Virasena Modern Srinivasa Ramanujan Satyendra Nath Bose P.
+
+C.
+
+Mahalanobis Subrahmanyan Chandrasekhar C.
+
+R.
+
+Rao Veeravalli S.
+
+Varadarajan S.
+
+R.
+
+Srinivasa Varadhan K.
+
+R.
+
+Parthasarathy (probabilist) M.
+
+S.
+
+Narasimhan C.
+
+S.
+
+Seshadri Harish-Chandra Subbayya Sivasankaranarayana Pillai Tilak Raj Prabhakar Manjul Bhargava Akshay Venkatesh Ravi Vakil Kannan Soundararajan Shanti Swarup Bhatnagar Prize recipients in Mathematical Science Treatises Aryabhatiya Bakhshali manuscript Bijaganita Brāhmasphuṭasiddhānta Ganita Kaumudi Kanakkusaram Karanapaddhati Līlāvatī Lokavibhaga Paulisa Siddhanta Paitamaha Siddhanta Romaka Siddhanta Sadratnamala Siddhānta Shiromani Śulba Sūtras Surya Siddhanta Tantrasamgraha Vasishtha Siddhanta Veṇvāroha Yuktibhāṣā Yavanajataka Pioneering innovations Brahmi numerals Hindu–Arabic numeral system Symbol for zero (0) Infinite series expansions for the trigonometric functions Centres Kerala school of astronomy and mathematics Jantar Mantar ( Jaipur , New Delhi , Ujjain , Varanasi ) Historians of mathematics Bapudeva Sastri (1821–1900) Shankar Balakrishna Dikshit (1853–1898) Sudhakara Dvivedi (1855–1910) M.
+
+Rangacarya (1861–1916) P.
+
+C.
+
+Sengupta (1876–1962) B.
+
+B.
+
+Datta (1888–1958) T.
+
+Hayashi A.
+
+A.
+
+Krishnaswamy Ayyangar (1892– 1953) A.
+
+N.
+
+Singh (1901–1954) C.
+
+T.
+
+Rajagopal (1903–1978) T.
+
+A.
+
+Saraswati Amma (1918–2000) S.
+
+N.
+
+Sen (1918–1992) K.
+
+S.
+
+Shukla (1918–2007) K.
+
+V.
+
+Sarma (1919–2005) Translators Walter Eugene Clark Henry Thomas Colebrooke David Pingree Other regions Babylon China Greece Islamic mathematics Europe Modern institutions Indian Statistical Institute Bhaskaracharya Pratishthana Chennai Mathematical Institute Institute of Mathematical Sciences Indian Institute of Science Harish-Chandra Research Institute Homi Bhabha Centre for Science Education Ramanujan Institute for Advanced Study in Mathematics TIFR Authority control databases International FAST ISNI VIAF National Spain France BnF data Catalonia Germany Israel United States Czech Republic Netherlands Academics CiNii MathSciNet zbMATH People Deutsche Biographie Other IdRef Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Bhāskara_II&oldid=1234210799 " Categories : 12th-century Indian mathematicians 12th-century Indian astronomers People from Jalgaon 1110s births 1185 deaths Algebraists Scientists from Maharashtra Scholars from Maharashtra Acharyas Sanskrit writers Hidden categories: All articles with unsourced statements Articles with unsourced statements from March 2022 CS1 uses Kannada-language script (kn) All articles lacking reliable references Articles lacking reliable references from March 2022 Articles with short description Short description matches Wikidata Wikipedia indefinitely semi-protected pages Use dmy dates from June 2022 Use Indian English from June 2016 All Wikipedia articles written in Indian English Pages with non-English text lacking appropriate markup and no ISO hint Pages with non-English text lacking appropriate markup from March 2022 Articles with hCards Pages with Sanskrit IPA Articles with unsourced statements from September 2012 Articles with unsourced statements from September 2017 Articles with unsourced statements from February 2022 Articles with unsourced statements from September 2009 Articles with FAST identifiers Articles with ISNI identifiers Articles with VIAF identifiers Articles with BNE identifiers Articles with BNF identifiers Articles with BNFdata identifiers Articles with CANTICN identifiers Articles with GND identifiers Articles with J9U identifiers Articles with LCCN identifiers Articles with NKC identifiers Articles with NTA identifiers Articles with CINII identifiers Articles with MATHSN identifiers Articles with ZBMATH identifiers Articles with DTBIO identifiers Articles with SUDOC identifiers This page was last edited on 13 July 2024, at 04:46 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

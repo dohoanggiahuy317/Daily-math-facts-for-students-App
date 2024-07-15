@@ -1,0 +1,135 @@
+List of derivatives and integrals in alternative calculi - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Table 2 See also 3 References 4 External links Toggle the table of contents List of derivatives and integrals in alternative calculi 1 language 日本語 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia This article needs additional citations for verification.
+
+Please help improve this article by adding citations to reliable sources.
+
+Unsourced material may be challenged and removed.
+
+Find sources: "List of derivatives and integrals in alternative calculi" – news · newspapers · books · scholar · JSTOR ( January 2010 ) ( Learn how and when to remove this message ) There are many alternatives to the classical calculus of Newton and Leibniz ; for example, each of the infinitely many non-Newtonian calculi.
+
+[1] Occasionally an alternative calculus is more suited than the classical calculus for expressing a given scientific or mathematical idea.
+
+[2] [3] [4] The table below is intended to assist people working with the alternative calculus called the "geometric calculus" (or its discrete analog).
+
+Interested readers are encouraged to improve the table by inserting citations for verification, and by inserting more functions and more calculi.
+
+Table [ edit ] In the following table; ψ ( x ) = Γ ′ ( x ) Γ ( x ) {\displaystyle \psi (x)={\frac {\Gamma '(x)}{\Gamma (x)}}} is the digamma function , K ⁡ ( x ) = e ζ ′ ( − 1 , x ) − ζ ′ ( − 1 ) = e z − z 2 2 + z 2 ln ⁡ ( 2 π ) − ψ ( − 2 ) ( z ) {\displaystyle \operatorname {K} (x)=e^{\zeta ^{\prime }(-1,x)-\zeta ^{\prime }(-1)}=e^{{\frac {z-z^{2}}{2}}+{\frac {z}{2}}\ln(2\pi )-\psi ^{(-2)}(z)}} is the K-function , ( ! x ) = Γ ( x + 1 , − 1 ) e {\displaystyle (!x)={\frac {\Gamma (x+1,-1)}{e}}} is subfactorial , B a ( x ) = − a ζ ( − a + 1 , x ) {\displaystyle B_{a}(x)=-a\zeta (-a+1,x)} are the generalized to real numbers Bernoulli polynomials.
+
+Function f ( x ) {\displaystyle f(x)} Derivative f ′ ( x ) {\displaystyle f'(x)} Integral ∫ f ( x ) d x {\displaystyle \int f(x)dx} (constant term is omitted) Multiplicative derivative f ∗ ( x ) {\displaystyle f^{*}(x)} Multiplicative integral ∫ f ( x ) d x {\displaystyle \int f(x)^{dx}} (constant factor is omitted) Discrete derivative (difference) Δ f ( x ) {\displaystyle \Delta f(x)} Discrete integral (antidifference) Δ − 1 f ( x ) {\displaystyle \Delta ^{-1}f(x)} (constant term is omitted) Discrete multiplicative derivative [5] (multiplicative difference) Discrete multiplicative integral [6] (indefinite product) ∏ x f ( x ) {\displaystyle \prod _{x}f(x)} (constant factor is omitted) a {\displaystyle a} 0 {\displaystyle 0} a x {\displaystyle ax} 1 {\displaystyle 1} a x {\displaystyle a^{x}} 0 {\displaystyle 0} a x {\displaystyle ax} 1 {\displaystyle 1} a x {\displaystyle a^{x}} x {\displaystyle x} 1 {\displaystyle 1} x 2 2 {\displaystyle {\frac {x^{2}}{2}}} e x {\displaystyle {\sqrt[{x}]{e}}} x x e x {\displaystyle {\frac {x^{x}}{e^{x}}}} 1 {\displaystyle 1} x 2 2 − x 2 {\displaystyle {\frac {x^{2}}{2}}-{\frac {x}{2}}} 1 + 1 x {\displaystyle 1+{\frac {1}{x}}} Γ ( x ) {\displaystyle \Gamma (x)} a x + b {\displaystyle ax+b} a {\displaystyle a} a x 2 + 2 b x 2 {\displaystyle {\frac {ax^{2}+2bx}{2}}} exp ⁡ ( a a x + b ) {\displaystyle \exp \left({\frac {a}{ax+b}}\right)} ( b + a x ) b a + x e x {\displaystyle {\frac {(b+ax)^{{\frac {b}{a}}+x}}{e^{x}}}} a {\displaystyle a} a x 2 + 2 b x − a x 2 {\displaystyle {\frac {ax^{2}+2bx-ax}{2}}} 1 + a a x + b {\displaystyle 1+{\frac {a}{ax+b}}} a x Γ ( a x + b a ) Γ ( a + b a ) {\displaystyle {\frac {a^{x}\Gamma ({\frac {ax+b}{a}})}{\Gamma ({\frac {a+b}{a}})}}} 1 x {\displaystyle {\frac {1}{x}}} − 1 x 2 {\displaystyle -{\frac {1}{x^{2}}}} ln ⁡ | x | {\displaystyle \ln |x|} 1 e x {\displaystyle {\frac {1}{\sqrt[{x}]{e}}}} e x x x {\displaystyle {\frac {e^{x}}{x^{x}}}} − 1 x + x 2 {\displaystyle -{\frac {1}{x+x^{2}}}} ψ ( x ) {\displaystyle \psi (x)} x x + 1 {\displaystyle {\frac {x}{x+1}}} 1 Γ ( x ) {\displaystyle {\frac {1}{\Gamma (x)}}} x a {\displaystyle x^{a}} a x a − 1 {\displaystyle ax^{a-1}} x a + 1 a + 1 {\displaystyle {\frac {x^{a+1}}{a+1}}} e a x {\displaystyle e^{\frac {a}{x}}} e − a x x a x {\displaystyle e^{-ax}x^{ax}} ( x + 1 ) a − x a {\displaystyle (x+1)^{a}-x^{a}} a ∉ Z − ; {\displaystyle a\notin \mathbb {Z} ^{-}\,;} B a + 1 ( x ) a + 1 , {\displaystyle {\frac {B_{a+1}(x)}{a+1}},} a ∈ Z − ; {\displaystyle a\in \mathbb {Z} ^{-}\,;} ( − 1 ) a − 1 ψ ( − a − 1 ) ( x ) Γ ( − a ) , {\displaystyle {\frac {(-1)^{a-1}\psi ^{(-a-1)}(x)}{\Gamma (-a)}},} ( 1 + 1 x ) a {\displaystyle \left(1+{\frac {1}{x}}\right)^{a}} Γ ( x ) a {\displaystyle \Gamma (x)^{a}} a x {\displaystyle a^{x}} a x ln ⁡ a {\displaystyle a^{x}\ln a} a x ln ⁡ a {\displaystyle {\frac {a^{x}}{\ln a}}} a {\displaystyle a} a x 2 2 {\displaystyle a^{\frac {x^{2}}{2}}} ( a − 1 ) a x {\displaystyle (a-1)a^{x}} a x a − 1 {\displaystyle {\frac {a^{x}}{a-1}}} a {\displaystyle a} a x 2 + x 2 {\displaystyle a^{\frac {x^{2}+x}{2}}} a x {\displaystyle {\sqrt[{x}]{a}}} − a x ln ⁡ a x 2 {\displaystyle -{\frac {{\sqrt[{x}]{a}}\ln a}{x^{2}}}} x a x − Ei ⁡ ( ln ⁡ a x ) ln ⁡ a {\displaystyle x{\sqrt[{x}]{a}}-\operatorname {Ei} \left({\frac {\ln a}{x}}\right)\ln a} a − 1 x 2 {\displaystyle a^{-{\frac {1}{x^{2}}}}} a ln ⁡ x {\displaystyle a^{\ln x}} a 1 1 + x − a 1 x {\displaystyle a^{\frac {1}{1+x}}-a^{\frac {1}{x}}} ? {\displaystyle ?} a − 1 x + x 2 {\displaystyle a^{-{\frac {1}{x+x^{2}}}}} a ψ ( x ) {\displaystyle a^{\psi (x)}} log a ⁡ x {\displaystyle \log _{a}x} 1 x ln ⁡ a {\displaystyle {\frac {1}{x\ln a}}} log a ⁡ x x − x ln ⁡ a {\displaystyle \log _{a}x^{x}-{\frac {x}{\ln a}}} exp ⁡ ( 1 x ln ⁡ x ) {\displaystyle \exp \left({\frac {1}{x\ln x}}\right)} ( log a ⁡ x ) x e li ⁡ ( x ) {\displaystyle {\frac {(\log _{a}x)^{x}}{e^{\operatorname {li} (x)}}}} log a ⁡ ( 1 x − 1 ) {\displaystyle \log _{a}\left({\frac {1}{x}}-1\right)} log a ⁡ Γ ( x ) {\displaystyle \log _{a}\Gamma (x)} log x ⁡ ( x + 1 ) {\displaystyle \log _{x}(x+1)} ? {\displaystyle ?} x x {\displaystyle x^{x}} x x ( 1 + ln ⁡ x ) {\displaystyle x^{x}(1+\ln x)} ? {\displaystyle ?} e x {\displaystyle ex} e − 1 4 x 2 ( 1 − 2 ln ⁡ x ) {\displaystyle e^{-{\frac {1}{4}}x^{2}(1-2\ln x)}} ( x + 1 ) x + 1 − x x {\displaystyle (x+1)^{x+1}-x^{x}} ? {\displaystyle ?} ( x + 1 ) x + 1 x x {\displaystyle {\frac {(x+1)^{x+1}}{x^{x}}}} K ⁡ ( x ) {\displaystyle \operatorname {K} (x)} Γ ( x ) {\displaystyle \Gamma (x)} Γ ( x ) ψ ( x ) {\displaystyle \Gamma (x)\psi (x)} ? {\displaystyle ?} e ψ ( x ) {\displaystyle e^{\psi (x)}} e ψ ( − 2 ) ( x ) {\displaystyle e^{\psi ^{(-2)}(x)}} ( x − 1 ) Γ ( x ) {\displaystyle (x-1)\Gamma (x)} ( − 1 ) x + 1 Γ ( x ) ( ! ( − x ) ) {\displaystyle (-1)^{x+1}\Gamma (x)(!(-x))} x {\displaystyle x} Γ ( x ) x − 1 K ⁡ ( x ) {\displaystyle {\frac {\Gamma (x)^{x-1}}{\operatorname {K} (x)}}} sin ⁡ ( a x ) {\displaystyle \sin(ax)} a cos ⁡ ( a x ) {\displaystyle a\cos(ax)} − cos ⁡ ( a x ) a {\displaystyle -{\dfrac {\cos(ax)}{a}}} e a cot ⁡ ( a x ) {\displaystyle e^{a\cot(ax)}} ? {\displaystyle ?} sin ⁡ ( a ( x + 1 ) ) − sin ⁡ ( a x ) {\displaystyle \sin(a(x+1))-\sin(ax)} − 1 2 csc ⁡ ( a 2 ) cos ⁡ ( a 2 − a x ) {\displaystyle -{\dfrac {1}{2}}\csc \left({\dfrac {a}{2}}\right)\cos \left({\dfrac {a}{2}}-ax\right)} cos ⁡ ( a ) + sin ⁡ ( a ) cot ⁡ ( a x ) {\displaystyle \cos(a)+\sin(a)\cot(ax)} ? {\displaystyle ?} See also [ edit ] Derivative Differentiation rules Indefinite product Product integral Fractal derivative References [ edit ] ^ Grossman, Michael; Katz, Robert (1972).
+
+Non-Newtonian calculus.
+
+Pigeon Cove, Mass.
+
+: Lee Press.
+
+ISBN 0-912938-01-3.
+
+OCLC 308822.
+
+^ Bashirov, Agamirza E.
+
+; Kurpınar, Emine Mısırlı; Özyapıcı, Ali (1 January 2008).
+
+"Multiplicative calculus and its applications".
+
+Journal of Mathematical Analysis and Applications.
+
+337 (1): 36–48.
+
+Bibcode : 2008JMAA.
+
+337.
+
+36B.
+
+doi : 10.
+
+1016/j.
+
+jmaa.
+
+2007.
+
+03.
+
+081.
+
+^ Filip, Diana Andrada; Piatecki, Cyrille (2014).
+
+"A non-Newtonian examination of the theory of exogenous economic growth".
+
+Mathematica Eterna.
+
+4 (2): 101–117.
+
+^ Florack, Luc; van Assen, Hans (January 2012).
+
+"Multiplicative Calculus in Biomedical Image Analysis".
+
+Journal of Mathematical Imaging and Vision.
+
+42 (1): 64–75.
+
+doi : 10.
+
+1007/s10851-011-0275-1.
+
+ISSN 0924-9907.
+
+S2CID 254652400 – via SpringerLink.
+
+^ Khatami, Hamid Reza; Jahanshahi, M.
+
+; Aliev, N.
+
+(5–10 July 2004).
+
+An analytical method for some nonlinear difference equations by discrete multiplicative differentiation (PDF).
+
+Dynamical Systems and Applications, Proceedings.
+
+Antalya, Turkey.
+
+pp.
+
+455–462.
+
+Archived from the original (PDF) on 6 Jul 2011.
+
+^ Jahanshahi, M.
+
+; Aliev, N.
+
+; Khatami, Hamid Reza (5–10 July 2004).
+
+An analytic-numerical method for solving difference equations with variable coefficients by discrete multiplicative integration (PDF).
+
+Dynamical Systems and Applications, Proceedings.
+
+Antalya, Turkey.
+
+pp.
+
+425–435.
+
+Archived from the original (PDF) on 6 Jul 2011.
+
+External links [ edit ] Non-Newtonian calculus website Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=List_of_derivatives_and_integrals_in_alternative_calculi&oldid=1196449807 " Categories : Non-Newtonian calculus Mathematics-related lists Mathematical tables Hidden categories: Articles with short description Short description is different from Wikidata Articles needing additional references from January 2010 All articles needing additional references This page was last edited on 17 January 2024, at 14:53 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

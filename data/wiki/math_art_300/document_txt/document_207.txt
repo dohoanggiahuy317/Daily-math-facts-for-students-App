@@ -1,0 +1,377 @@
+Commutative algebra - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Overview 2 History 3 Main tools and results Toggle Main tools and results subsection 3.
+
+1 Noetherian rings 3.
+
+2 Primary decomposition 3.
+
+3 Localization 3.
+
+4 Completion 3.
+
+5 Zariski topology on prime ideals 4 Connections with algebraic geometry 5 See also 6 Notes 7 References Toggle the table of contents Commutative algebra 35 languages Afrikaans العربية Asturianu Башҡортса Български Català Чӑвашла Deutsch Ελληνικά Español Euskara فارسی Français Galego 한국어 Interlingua Italiano עברית ქართული Magyar မြန်မာဘာသာ Nederlands 日本語 Polski Português Română Русский Српски / srpski Suomi Svenska Türkçe Українська Tiếng Việt 粵語 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikiquote Appearance move to sidebar hide From Wikipedia, the free encyclopedia Branch of algebra that studies commutative rings This article is about a branch of algebra.
+
+For algebras that are commutative, see Commutative algebra (structure).
+
+This article includes a list of general references , but it lacks sufficient corresponding inline citations.
+
+Please help to improve this article by introducing more precise citations.
+
+( June 2019 ) ( Learn how and when to remove this message ) Algebraic structure → Ring theory Ring theory Basic concepts Rings • Subrings • Ideal • Quotient ring • Fractional ideal • Total ring of fractions • Product of rings • Free product of associative algebras • Tensor product of algebras Ring homomorphisms • Kernel • Inner automorphism • Frobenius endomorphism Algebraic structures • Module • Associative algebra • Graded ring • Involutive ring • Category of rings • Initial ring Z {\displaystyle \mathbb {Z} } • Terminal ring 0 = Z / 1 Z {\displaystyle 0=\mathbb {Z} /1\mathbb {Z} } Related structures • Field • Finite field • Non-associative ring • Lie ring • Jordan ring • Semiring • Semifield Commutative algebra Commutative rings • Integral domain • Integrally closed domain • GCD domain • Unique factorization domain • Principal ideal domain • Euclidean domain • Field • Finite field • Composition ring • Polynomial ring • Formal power series ring Algebraic number theory • Algebraic number field • Ring of integers • Algebraic independence • Transcendental number theory • Transcendence degree p -adic number theory and decimals • Direct limit / Inverse limit • Zero ring Z / 1 Z {\displaystyle \mathbb {Z} /1\mathbb {Z} } • Integers modulo p n Z / p n Z {\displaystyle \mathbb {Z} /p^{n}\mathbb {Z} } • Prüfer p -ring Z ( p ∞ ) {\displaystyle \mathbb {Z} (p^{\infty })} • Base - p circle ring T {\displaystyle \mathbb {T} } • Base - p integers Z {\displaystyle \mathbb {Z} } • p -adic rationals Z [ 1 / p ] {\displaystyle \mathbb {Z} [1/p]} • Base - p real numbers R {\displaystyle \mathbb {R} } • p -adic integers Z p {\displaystyle \mathbb {Z} _{p}} • p -adic numbers Q p {\displaystyle \mathbb {Q} _{p}} • p -adic solenoid T p {\displaystyle \mathbb {T} _{p}} Algebraic geometry • Affine variety Noncommutative algebra Noncommutative rings • Division ring • Semiprimitive ring • Simple ring • Commutator Noncommutative algebraic geometry Free algebra Clifford algebra • Geometric algebra Operator algebra v t e A 1915 postcard from one of the pioneers of commutative algebra, Emmy Noether , to E.
+
+Fischer, discussing her work in commutative algebra.
+
+Commutative algebra , first known as ideal theory , is the branch of algebra that studies commutative rings , their ideals , and modules over such rings.
+
+Both algebraic geometry and algebraic number theory build on commutative algebra.
+
+Prominent examples of commutative rings include polynomial rings ; rings of algebraic integers , including the ordinary integers Z {\displaystyle \mathbb {Z} } ; and p -adic integers.
+
+[1] Commutative algebra is the main technical tool of algebraic geometry , and many results and concepts of commutative algebra are strongly related with geometrical concepts.
+
+The study of rings that are not necessarily commutative is known as noncommutative algebra ; it includes ring theory , representation theory , and the theory of Banach algebras.
+
+Overview [ edit ] Commutative algebra is essentially the study of the rings occurring in algebraic number theory and algebraic geometry.
+
+Several concepts of commutative algebras have been developed in relation with algebraic number theory, such as Dedekind rings (the main class of commutative rings occurring in algebraic number theory), integral extensions , and valuation rings.
+
+Polynomial rings in several indeterminates over a field are examples of commutative rings.
+
+Since algebraic geometry is fundamentally the study of the common zeros of these rings, many results and concepts of algebraic geometry have counterparts in commutative algebra, and their names recall often their geometric origin; for example " Krull dimension ", " localization of a ring ", " local ring ", " regular ring ".
+
+An affine algebraic variety corresponds to a prime ideal in a polynomial ring, and the points of such an affine variety correspond to the maximal ideals that contain this prime ideal.
+
+The Zariski topology , originally defined on an algebraic variety, has been extended to the sets of the prime ideals of any commutative ring; for this topology, the closed sets are the sets of prime ideals that contain a given ideal.
+
+The spectrum of a ring is a ringed space formed by the prime ideals equipped with the Zariski topology, and the localizations of the ring at the open sets of a basis of this topology.
+
+This is the starting point of scheme theory , a generalization of algebraic geometry introduced by Grothendieck , which is strongly based on commutative algebra, and has induced, in turns, many developments of commutative algebra.
+
+History [ edit ] The subject, first known as ideal theory , began with Richard Dedekind 's work on ideals , itself based on the earlier work of Ernst Kummer and Leopold Kronecker.
+
+Later, David Hilbert introduced the term ring to generalize the earlier term number ring.
+
+Hilbert introduced a more abstract approach to replace the more concrete and computationally oriented methods grounded in such things as complex analysis and classical invariant theory.
+
+In turn, Hilbert strongly influenced Emmy Noether , who recast many earlier results in terms of an ascending chain condition , now known as the Noetherian condition.
+
+Another important milestone was the work of Hilbert's student Emanuel Lasker , who introduced primary ideals and proved the first version of the Lasker–Noether theorem.
+
+The main figure responsible for the birth of commutative algebra as a mature subject was Wolfgang Krull , who introduced the fundamental notions of localization and completion of a ring, as well as that of regular local rings.
+
+He established the concept of the Krull dimension of a ring, first for Noetherian rings before moving on to expand his theory to cover general valuation rings and Krull rings.
+
+To this day, Krull's principal ideal theorem is widely considered the single most important foundational theorem in commutative algebra.
+
+These results paved the way for the introduction of commutative algebra into algebraic geometry, an idea which would revolutionize the latter subject.
+
+Much of the modern development of commutative algebra emphasizes modules.
+
+Both ideals of a ring R and R -algebras are special cases of R -modules, so module theory encompasses both ideal theory and the theory of ring extensions.
+
+Though it was already incipient in Kronecker's work, the modern approach to commutative algebra using module theory is usually credited to Krull and Noether.
+
+Main tools and results [ edit ] Noetherian rings [ edit ] Main article: Noetherian ring A Noetherian ring , named after Emmy Noether , is a ring in which every ideal is finitely generated ; that is, all elements of any ideal can be written as a linear combinations of a finite set of elements, with coefficients in the ring.
+
+Many commonly considered commutative rings are Noetherian, in particular, every field , the ring of the integer , and every polynomial ring in one or several indeterminates over them.
+
+The fact that polynomial rings over a field are Noetherian is called Hilbert's basis theorem.
+
+Moreover, many ring constructions preserve the Noetherian property.
+
+In particular, if a commutative ring R is Noetherian, the same is true for every polynomial ring over it, and for every quotient ring , localization , or completion of the ring.
+
+The importance of the Noetherian property lies in its ubiquity and also in the fact that many important theorems of commutative algebra require that the involved rings are Noetherian, This is the case, in particular of Lasker–Noether theorem , the Krull intersection theorem , and Nakayama's lemma.
+
+Furthermore, if a ring is Noetherian, then it satisfies the descending chain condition on prime ideals , which implies that every Noetherian local ring has a finite Krull dimension.
+
+Primary decomposition [ edit ] Main article: Primary decomposition An ideal Q of a ring is said to be primary if Q is proper and whenever xy ∈ Q , either x ∈ Q or y n ∈ Q for some positive integer n.
+
+In Z , the primary ideals are precisely the ideals of the form ( p e ) where p is prime and e is a positive integer.
+
+Thus, a primary decomposition of ( n ) corresponds to representing ( n ) as the intersection of finitely many primary ideals.
+
+The Lasker–Noether theorem , given here, may be seen as a certain generalization of the fundamental theorem of arithmetic: Lasker-Noether Theorem — Let R be a commutative Noetherian ring and let I be an ideal of R.
+
+Then I may be written as the intersection of finitely many primary ideals with distinct radicals ; that is: I = ⋂ i = 1 t Q i {\displaystyle I=\bigcap _{i=1}^{t}Q_{i}} with Q i primary for all i and Rad( Q i ) ≠ Rad( Q j ) for i ≠ j.
+
+Furthermore, if: I = ⋂ i = 1 k P i {\displaystyle I=\bigcap _{i=1}^{k}P_{i}} is decomposition of I with Rad( P i ) ≠ Rad( P j ) for i ≠ j , and both decompositions of I are irredundant (meaning that no proper subset of either { Q 1 ,.
+
+, Q t } or { P 1 ,.
+
+, P k } yields an intersection equal to I ), t = k and (after possibly renumbering the Q i ) Rad( Q i ) = Rad( P i ) for all i.
+
+For any primary decomposition of I , the set of all radicals, that is, the set {Rad( Q 1 ),.
+
+, Rad( Q t )} remains the same by the Lasker–Noether theorem.
+
+In fact, it turns out that (for a Noetherian ring) the set is precisely the assassinator of the module R / I ; that is, the set of all annihilators of R / I (viewed as a module over R ) that are prime.
+
+Localization [ edit ] Main article: Localization (algebra) The localization is a formal way to introduce the "denominators" to a given ring or a module.
+
+That is, it introduces a new ring/module out of an existing one so that it consists of fractions m s {\displaystyle {\frac {m}{s}}}.
+
+where the denominators s range in a given subset S of R.
+
+The archetypal example is the construction of the ring Q of rational numbers from the ring Z of integers.
+
+Completion [ edit ] Main article: Completion (ring theory) A completion is any of several related functors on rings and modules that result in complete topological rings and modules.
+
+Completion is similar to localization , and together they are among the most basic tools in analysing commutative rings.
+
+Complete commutative rings have simpler structure than the general ones and Hensel's lemma applies to them.
+
+Zariski topology on prime ideals [ edit ] Main article: Zariski topology The Zariski topology defines a topology on the spectrum of a ring (the set of prime ideals).
+
+[2] In this formulation, the Zariski-closed sets are taken to be the sets V ( I ) = { P ∈ Spec ( A ) ∣ I ⊆ P } {\displaystyle V(I)=\{P\in \operatorname {Spec} \,(A)\mid I\subseteq P\}} where A is a fixed commutative ring and I is an ideal.
+
+This is defined in analogy with the classical Zariski topology, where closed sets in affine space are those defined by polynomial equations.
+
+To see the connection with the classical picture, note that for any set S of polynomials (over an algebraically closed field), it follows from Hilbert's Nullstellensatz that the points of V ( S ) (in the old sense) are exactly the tuples ( a 1 ,.
+
+, a n ) such that the ideal ( x 1 - a 1 ,.
+
+, x n - a n ) contains S ; moreover, these are maximal ideals and by the "weak" Nullstellensatz, an ideal of any affine coordinate ring is maximal if and only if it is of this form.
+
+Thus, V ( S ) is "the same as" the maximal ideals containing S.
+
+Grothendieck's innovation in defining Spec was to replace maximal ideals with all prime ideals; in this formulation it is natural to simply generalize this observation to the definition of a closed set in the spectrum of a ring.
+
+Connections with algebraic geometry [ edit ] Commutative algebra (in the form of polynomial rings and their quotients, used in the definition of algebraic varieties ) has always been a part of algebraic geometry.
+
+However, in the late 1950s, algebraic varieties were subsumed into Alexander Grothendieck 's concept of a scheme.
+
+Their local objects are affine schemes or prime spectra, which are locally ringed spaces, which form a category that is antiequivalent (dual) to the category of commutative unital rings, extending the duality between the category of affine algebraic varieties over a field k , and the category of finitely generated reduced k -algebras.
+
+The gluing is along the Zariski topology; one can glue within the category of locally ringed spaces, but also, using the Yoneda embedding, within the more abstract category of presheaves of sets over the category of affine schemes.
+
+The Zariski topology in the set-theoretic sense is then replaced by a Zariski topology in the sense of Grothendieck topology.
+
+Grothendieck introduced Grothendieck topologies having in mind more exotic but geometrically finer and more sensitive examples than the crude Zariski topology, namely the étale topology , and the two flat Grothendieck topologies: fppf and fpqc.
+
+Nowadays some other examples have become prominent, including the Nisnevich topology.
+
+Sheaves can be furthermore generalized to stacks in the sense of Grothendieck, usually with some additional representability conditions, leading to Artin stacks and, even finer, Deligne–Mumford stacks , both often called algebraic stacks.
+
+See also [ edit ] List of commutative algebra topics Glossary of commutative algebra Combinatorial commutative algebra Gröbner basis Homological algebra Notes [ edit ] ^ Atiyah and Macdonald, 1969, Chapter 1 ^ Dummit, D.
+
+S.
+
+; Foote, R.
+
+(2004).
+
+Abstract Algebra (3 ed.
+
+).
+
+Wiley.
+
+pp.
+
+71 –72.
+
+ISBN 9780471433347.
+
+References [ edit ] Atiyah, Michael ; Macdonald, Ian G.
+
+(2018) [1969].
+
+Introduction to Commutative Algebra.
+
+CRC Press.
+
+ISBN 978-0-429-96218-9.
+
+Bourbaki, Nicolas (1998) [1989].
+
+"Chapters 1–7".
+
+Commutative algebra.
+
+Elements of Mathematics.
+
+Springer.
+
+ISBN 3-540-64239-0.
+
+Bourbaki, Nicolas (2006) [1983].
+
+"Chapitres 8 et 9".
+
+Algèbre commutative.
+
+Éléments de mathématique.
+
+Springer.
+
+ISBN 978-3-540-33942-7.
+
+Eisenbud, David (1995).
+
+Commutative algebra with a view toward algebraic geometry.
+
+Graduate Texts in Mathematics.
+
+Vol.
+
+150.
+
+New York: Springer-Verlag.
+
+xvi+785.
+
+ISBN 0-387-94268-8.
+
+MR 1322960.
+
+Goblot, Rémi (2001).
+
+Algèbre commutative, cours et exercices corrigés (2e ed.
+
+).
+
+Dunod.
+
+ISBN 2-10-005779-0.
+
+Kunz, Ernst (1985).
+
+Introduction to Commutative algebra and algebraic geometry.
+
+Birkhauser.
+
+ISBN 0-8176-3065-1.
+
+Matsumura, Hideyuki (1980).
+
+Commutative algebra.
+
+Mathematics Lecture Note Series.
+
+Vol.
+
+56 (2nd ed.
+
+).
+
+Benjamin/Cummings.
+
+ISBN 0-8053-7026-9.
+
+Matsumura, Hideyuki (1989).
+
+Commutative Ring Theory.
+
+Cambridge Studies in Advanced Mathematics (2nd ed.
+
+).
+
+Cambridge University Press.
+
+ISBN 0-521-36764-6.
+
+Nagata, Masayoshi (1975) [1962].
+
+Local rings.
+
+Interscience Tracts in Pure and Applied Mathematics.
+
+Vol.
+
+13.
+
+Interscience.
+
+ISBN 978-0-88275-228-0.
+
+OCLC 1137934.
+
+Reid, Miles (1996).
+
+Undergraduate Commutative Algebra.
+
+London Mathematical Society Student Texts.
+
+Cambridge University Press.
+
+ISBN 978-0-521-45889-4.
+
+Serre, Jean-Pierre (2000).
+
+Local algebra.
+
+Springer Monographs in Mathematics.
+
+Translated by Chin, CheeWhye.
+
+Springer.
+
+ISBN 3-540-66641-9.
+
+Sharp, R.
+
+Y.
+
+(2000).
+
+Steps in commutative algebra.
+
+London Mathematical Society Student Texts.
+
+Vol.
+
+51 (2nd ed.
+
+).
+
+Cambridge University Press.
+
+p.
+
+2000.
+
+ISBN 0-521-64623-5.
+
+Zariski, Oscar ; Samuel, Pierre (1975).
+
+Commutative algebra.
+
+Graduate Texts in Mathematics.
+
+Vol.
+
+28.
+
+Springer.
+
+ISBN 978-0-387-90171-8.
+
+Vol II.
+
+Vol.
+
+29.
+
+1975.
+
+ISBN 978-0-387-90089-6.
+
+v t e Major mathematics areas History Timeline Future Lists Glossary Foundations Category theory Information theory Mathematical logic Philosophy of mathematics Set theory Type theory Algebra Abstract Commutative Elementary Group theory Linear Multilinear Universal Homological Analysis Calculus Real analysis Complex analysis Hypercomplex analysis Differential equations Functional analysis Harmonic analysis Measure theory Discrete Combinatorics Graph theory Order theory Geometry Algebraic Analytic Arithmetic Differential Discrete Euclidean Finite Number theory Arithmetic Algebraic number theory Analytic number theory Diophantine geometry Topology General Algebraic Differential Geometric Homotopy theory Applied Engineering mathematics Mathematical biology Mathematical chemistry Mathematical economics Mathematical finance Mathematical physics Mathematical psychology Mathematical sociology Mathematical statistics Probability Statistics Systems science Control theory Game theory Operations research Computational Computer science Theory of computation Computational complexity theory Numerical analysis Optimization Computer algebra Related topics Mathematicians lists Informal mathematics Films about mathematicians Recreational mathematics Mathematics and art Mathematics education Mathematics portal Category Commons WikiProject Authority control databases : National Spain France BnF data Israel United States Czech Republic Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Commutative_algebra&oldid=1222546885 " Category : Commutative algebra Hidden categories: Articles with short description Short description matches Wikidata Articles lacking in-text citations from June 2019 All articles lacking in-text citations Articles with BNE identifiers Articles with BNF identifiers Articles with BNFdata identifiers Articles with J9U identifiers Articles with LCCN identifiers Articles with NKC identifiers This page was last edited on 6 May 2024, at 15:41 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

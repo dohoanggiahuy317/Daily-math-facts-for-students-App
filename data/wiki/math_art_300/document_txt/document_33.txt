@@ -1,0 +1,239 @@
+Integral of inverse functions - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Statement of the theorem Toggle Statement of the theorem subsection 1.
+
+1 First proof 1.
+
+2 Second proof 1.
+
+3 Third proof 1.
+
+4 Details 2 Examples 3 History 4 Generalization to holomorphic functions 5 See also 6 References Toggle the table of contents Integral of inverse functions 4 languages Deutsch Français Italiano Svenska Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Mathematical theorem, used in calculus Part of a series of articles about Calculus ∫ a b f ′ ( t ) d t = f ( b ) − f ( a ) {\displaystyle \int _{a}^{b}f'(t)\,dt=f(b)-f(a)} Fundamental theorem Limits Continuity Rolle's theorem Mean value theorem Inverse function theorem Differential Definitions Derivative ( generalizations ) Differential infinitesimal of a function total Concepts Differentiation notation Second derivative Implicit differentiation Logarithmic differentiation Related rates Taylor's theorem Rules and identities Sum Product Chain Power Quotient L'Hôpital's rule Inverse General Leibniz Faà di Bruno's formula Reynolds Integral Lists of integrals Integral transform Leibniz integral rule Definitions Antiderivative Integral ( improper ) Riemann integral Lebesgue integration Contour integration Integral of inverse functions Integration by Parts Discs Cylindrical shells Substitution ( trigonometric , tangent half-angle , Euler ) Euler's formula Partial fractions Changing order Reduction formulae Differentiating under the integral sign Risch algorithm Series Geometric ( arithmetico-geometric ) Harmonic Alternating Power Binomial Taylor Convergence tests Summand limit (term test) Ratio Root Integral Direct comparison Limit comparison Alternating series Cauchy condensation Dirichlet Abel Vector Gradient Divergence Curl Laplacian Directional derivative Identities Theorems Gradient Green's Stokes' Divergence generalized Stokes Helmholtz decomposition Multivariable Formalisms Matrix Tensor Exterior Geometric Definitions Partial derivative Multiple integral Line integral Surface integral Volume integral Jacobian Hessian Advanced Calculus on Euclidean space Generalized functions Limit of distributions Specialized Fractional Malliavin Stochastic Variations Miscellaneous Precalculus History Glossary List of topics Integration Bee Mathematical analysis Nonstandard analysis v t e In mathematics , integrals of inverse functions can be computed by means of a formula that expresses the antiderivatives of the inverse f − 1 {\displaystyle f^{-1}} of a continuous and invertible function f {\displaystyle f} , in terms of f − 1 {\displaystyle f^{-1}} and an antiderivative of f {\displaystyle f}.
+
+This formula was published in 1905 by Charles-Ange Laisant.
+
+[1] Statement of the theorem [ edit ] Let I 1 {\displaystyle I_{1}} and I 2 {\displaystyle I_{2}} be two intervals of R {\displaystyle \mathbb {R} }.
+
+Assume that f : I 1 → I 2 {\displaystyle f:I_{1}\to I_{2}} is a continuous and invertible function.
+
+It follows from the intermediate value theorem that f {\displaystyle f} is strictly monotone.
+
+Consequently, f {\displaystyle f} maps intervals to intervals, so is an open map and thus a homeomorphism.
+
+Since f {\displaystyle f} and the inverse function f − 1 : I 2 → I 1 {\displaystyle f^{-1}:I_{2}\to I_{1}} are continuous, they have antiderivatives by the fundamental theorem of calculus.
+
+Laisant proved that if F {\displaystyle F} is an antiderivative of f {\displaystyle f} , then the antiderivatives of f − 1 {\displaystyle f^{-1}} are: ∫ f − 1 ( y ) d y = y f − 1 ( y ) − F ∘ f − 1 ( y ) + C , {\displaystyle \int f^{-1}(y)\,dy=yf^{-1}(y)-F\circ f^{-1}(y)+C,} where C {\displaystyle C} is an arbitrary real number.
+
+Note that it is not assumed that f − 1 {\displaystyle f^{-1}} is differentiable.
+
+Illustration of the theorem In his 1905 article, Laisant gave three proofs.
+
+First proof [ edit ] First, under the additional hypothesis that f − 1 {\displaystyle f^{-1}} is differentiable , one may differentiate the above formula, which completes the proof immediately.
+
+Second proof [ edit ] His second proof was geometric.
+
+If f ( a ) = c {\displaystyle f(a)=c} and f ( b ) = d {\displaystyle f(b)=d} , the theorem can be written: ∫ c d f − 1 ( y ) d y + ∫ a b f ( x ) d x = b d − a c.
+
+{\displaystyle \int _{c}^{d}f^{-1}(y)\,dy+\int _{a}^{b}f(x)\,dx=bd-ac.
+
+} The figure on the right is a proof without words of this formula.
+
+Laisant does not discuss the hypotheses necessary to make this proof rigorous, but this can be proved if f {\displaystyle f} is just assumed to be strictly monotone (but not necessarily continuous, let alone differentiable).
+
+In this case, both f {\displaystyle f} and f − 1 {\displaystyle f^{-1}} are Riemann integrable and the identity follows from a bijection between lower/upper Darboux sums of f {\displaystyle f} and upper/lower Darboux sums of f − 1 {\displaystyle f^{-1}}.
+
+[2] [3] The antiderivative version of the theorem then follows from the fundamental theorem of calculus in the case when f {\displaystyle f} is also assumed to be continuous.
+
+Third proof [ edit ] Laisant's third proof uses the additional hypothesis that f {\displaystyle f} is differentiable.
+
+Beginning with f − 1 ( f ( x ) ) = x {\displaystyle f^{-1}(f(x))=x} , one multiplies by f ′ ( x ) {\displaystyle f'(x)} and integrates both sides.
+
+The right-hand side is calculated using integration by parts to be x f ( x ) − ∫ f ( x ) d x {\textstyle xf(x)-\int f(x)\,dx} , and the formula follows.
+
+Details [ edit ] One may also think as follows when f {\displaystyle f} is differentiable.
+
+As f {\displaystyle f} is continuous at any x {\displaystyle x} , F := ∫ 0 x f {\displaystyle F:=\int _{0}^{x}f} is differentiable at all x {\displaystyle x} by the fundamental theorem of calculus.
+
+Since f {\displaystyle f} is invertible, its derivative would vanish in at most countably many points.
+
+Sort these points by.
+
+< t − 1 < t 0 < t 1 <.
+
+{\displaystyle.
+
+<t_{-1}<t_{0}<t_{1}<.
+
+}.
+
+Since g ( y ) := y f − 1 ( y ) − F ∘ f − 1 ( y ) + C {\displaystyle g(y):=yf^{-1}(y)-F\circ f^{-1}(y)+C} is a composition of differentiable functions on each interval ( t i , t i + 1 ) {\displaystyle (t_{i},t_{i+1})} , chain rule could be applied g ′ ( y ) = f − 1 ( y ) + y / f ′ ( y ) − f ∘ f − 1 ( y ).
+
+1 / f ′ ( y ) + 0 = f − 1 ( y ) {\displaystyle g'(y)=f^{-1}(y)+y/f'(y)-f\circ f^{-1}(y).
+
+1/f'(y)+0=f^{-1}(y)} to see g | ( t i , t i + 1 ) {\displaystyle \left.
+
+g\right|_{(t_{i},t_{i+1})}} is an antiderivative for f | ( t i , t i + 1 ) {\displaystyle \left.
+
+f\right|_{(t_{i},t_{i+1})}}.
+
+We claim g {\displaystyle g} is also differentiable on each of t i {\displaystyle t_{i}} and does not go unbounded if I 2 {\displaystyle I_{2}} is compact.
+
+In such a case f − 1 {\displaystyle f^{-1}} is continuous and bounded.
+
+By continuity and the fundamental theorem of calculus, G ( y ) := C + ∫ 0 y f − 1 {\displaystyle G(y):=C+\int _{0}^{y}f^{-1}} where C {\displaystyle C} is a constant, is a differentiable extension of g {\displaystyle g}.
+
+But g {\displaystyle g} is continuous as it's the composition of continuous functions.
+
+So is G {\displaystyle G} by differentiability.
+
+Therefore, G = g {\displaystyle G=g}.
+
+One can now use the fundamental theorem of calculus to compute ∫ I 2 f − 1 {\displaystyle \int _{I_{2}}f^{-1}}.
+
+Nevertheless, it can be shown that this theorem holds even if f {\displaystyle f} or f − 1 {\displaystyle f^{-1}} is not differentiable: [3] [4] it suffices, for example, to use the Stieltjes integral in the previous argument.
+
+On the other hand, even though general monotonic functions are differentiable almost everywhere, the proof of the general formula does not follow, unless f − 1 {\displaystyle f^{-1}} is absolutely continuous.
+
+[4] It is also possible to check that for every y {\displaystyle y} in I 2 {\displaystyle I_{2}} , the derivative of the function y ↦ y f − 1 ( y ) − F ( f − 1 ( y ) ) {\displaystyle y\mapsto yf^{-1}(y)-F(f^{-1}(y))} is equal to f − 1 ( y ) {\displaystyle f^{-1}(y)}.
+
+[ citation needed ] In other words: ∀ x ∈ I 1 lim h → 0 ( x + h ) f ( x + h ) − x f ( x ) − ( F ( x + h ) − F ( x ) ) f ( x + h ) − f ( x ) = x.
+
+{\displaystyle \forall x\in I_{1}\quad \lim _{h\to 0}{\frac {(x+h)f(x+h)-xf(x)-\left(F(x+h)-F(x)\right)}{f(x+h)-f(x)}}=x.
+
+} To this end, it suffices to apply the mean value theorem to F {\displaystyle F} between x {\displaystyle x} and x + h {\displaystyle x+h} , taking into account that f {\displaystyle f} is monotonic.
+
+Examples [ edit ] Assume that f ( x ) = exp ⁡ ( x ) {\displaystyle f(x)=\exp(x)} , hence f − 1 ( y ) = ln ⁡ ( y ) {\displaystyle f^{-1}(y)=\ln(y)}.
+
+The formula above gives immediately ∫ ln ⁡ ( y ) d y = y ln ⁡ ( y ) − exp ⁡ ( ln ⁡ ( y ) ) + C = y ln ⁡ ( y ) − y + C.
+
+{\displaystyle \int \ln(y)\,dy=y\ln(y)-\exp(\ln(y))+C=y\ln(y)-y+C.
+
+} Similarly, with f ( x ) = cos ⁡ ( x ) {\displaystyle f(x)=\cos(x)} and f − 1 ( y ) = arccos ⁡ ( y ) {\displaystyle f^{-1}(y)=\arccos(y)} , ∫ arccos ⁡ ( y ) d y = y arccos ⁡ ( y ) − sin ⁡ ( arccos ⁡ ( y ) ) + C.
+
+{\displaystyle \int \arccos(y)\,dy=y\arccos(y)-\sin(\arccos(y))+C.
+
+} With f ( x ) = tan ⁡ ( x ) {\displaystyle f(x)=\tan(x)} and f − 1 ( y ) = arctan ⁡ ( y ) {\displaystyle f^{-1}(y)=\arctan(y)} , ∫ arctan ⁡ ( y ) d y = y arctan ⁡ ( y ) + ln ⁡ | cos ⁡ ( arctan ⁡ ( y ) ) | + C.
+
+{\displaystyle \int \arctan(y)\,dy=y\arctan(y)+\ln \left|\cos(\arctan(y))\right|+C.
+
+} History [ edit ] Apparently, this theorem of integration was discovered for the first time in 1905 by Charles-Ange Laisant , [1] who "could hardly believe that this theorem is new", and hoped its use would henceforth spread out among students and teachers.
+
+This result was published independently in 1912 by an Italian engineer, Alberto Caprilli, in an opuscule entitled "Nuove formole d'integrazione".
+
+[5] It was rediscovered in 1955 by Parker, [6] and by a number of mathematicians following him.
+
+[7] Nevertheless, they all assume that f or f −1 is differentiable.
+
+The general version of the theorem , free from this additional assumption, was proposed by Michael Spivak in 1965, as an exercise in the Calculus , [2] and a fairly complete proof following the same lines was published by Eric Key in 1994.
+
+[3] This proof relies on the very definition of the Darboux integral , and consists in showing that the upper Darboux sums of the function f are in 1-1 correspondence with the lower Darboux sums of f −1.
+
+In 2013, Michael Bensimhoun, estimating that the general theorem was still insufficiently known, gave two other proofs: [4] The second proof, based on the Stieltjes integral and on its formulae of integration by parts and of homeomorphic change of variables , is the most suitable to establish more complex formulae.
+
+Generalization to holomorphic functions [ edit ] The above theorem generalizes in the obvious way to holomorphic functions: Let U {\displaystyle U} and V {\displaystyle V} be two open and simply connected sets of C {\displaystyle \mathbb {C} } , and assume that f : U → V {\displaystyle f:U\to V} is a biholomorphism.
+
+Then f {\displaystyle f} and f − 1 {\displaystyle f^{-1}} have antiderivatives, and if F {\displaystyle F} is an antiderivative of f {\displaystyle f} , the general antiderivative of f − 1 {\displaystyle f^{-1}} is G ( z ) = z f − 1 ( z ) − F ∘ f − 1 ( z ) + C.
+
+{\displaystyle G(z)=zf^{-1}(z)-F\circ f^{-1}(z)+C.
+
+} Because all holomorphic functions are differentiable, the proof is immediate by complex differentiation.
+
+See also [ edit ] Mathematics portal Integration by parts Legendre transformation Young's inequality for products References [ edit ] ^ a b Laisant, C.
+
+-A.
+
+(1905).
+
+"Intégration des fonctions inverses".
+
+Nouvelles annales de mathématiques, journal des candidats aux écoles polytechnique et normale.
+
+5 (4): 253–257.
+
+^ a b Michael Spivak , Calculus (1967), chap.
+
+13, pp.
+
+235.
+
+^ a b c Key, E.
+
+(Mar 1994).
+
+"Disks, Shells, and Integrals of Inverse Functions".
+
+The College Mathematics Journal.
+
+25 (2): 136–138.
+
+doi : 10.
+
+2307/2687137.
+
+JSTOR 2687137.
+
+^ a b c Bensimhoun, Michael (2013).
+
+"On the antiderivative of inverse functions".
+
+arXiv : 1312.
+
+3839 [ math.
+
+HO ].
+
+^ Read online ^ Parker, F.
+
+D.
+
+(Jun–Jul 1955).
+
+"Integrals of inverse functions".
+
+The American Mathematical Monthly.
+
+62 (6): 439–440.
+
+doi : 10.
+
+2307/2307006.
+
+JSTOR 2307006.
+
+^ It is equally possible that some or all of them simply recalled this result in their paper, without referring to previous authors.
+
+Staib, J.
+
+H.
+
+(Sep 1966).
+
+"The Integration of Inverse Functions".
+
+Mathematics Magazine.
+
+39 (4): 223–224.
+
+doi : 10.
+
+2307/2688087.
+
+JSTOR 2688087.
+
+v t e Integrals Types of integrals Riemann integral Lebesgue integral Burkill integral Bochner integral Daniell integral Darboux integral Henstock–Kurzweil integral Haar integral Hellinger integral Khinchin integral Kolmogorov integral Lebesgue–Stieltjes integral Pettis integral Pfeffer integral Riemann–Stieltjes integral Regulated integral Integration techniques Substitution Trigonometric Euler Weierstrass By parts Partial fractions Euler's formula Inverse functions Changing order Reduction formulas Parametric derivatives Differentiation under the integral sign Laplace transform Contour integration Laplace's method Numerical integration Simpson's rule Trapezoidal rule Risch algorithm Improper integrals Gaussian integral Dirichlet integral Fermi–Dirac integral complete incomplete Bose–Einstein integral Frullani integral Common integrals in quantum field theory Stochastic integrals Itô integral Russo–Vallois integral Stratonovich integral Skorokhod integral Miscellaneous Basel problem Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Volumes Washers Shells Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Integral_of_inverse_functions&oldid=1214463031 " Categories : Calculus Theorems in analysis Theorems in calculus Hidden categories: Articles with short description Short description is different from Wikidata Pages using sidebar with the child parameter All articles with unsourced statements Articles with unsourced statements from April 2020 This page was last edited on 19 March 2024, at 02:59 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

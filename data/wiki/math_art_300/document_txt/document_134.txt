@@ -1,0 +1,345 @@
+Brook Taylor - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Life and work 2 Selected writings 3 Tribute 4 References 5 Further reading 6 External links Toggle the table of contents Brook Taylor 49 languages العربية Azərbaycanca تۆرکجه Беларуская Беларуская (тарашкевіца) Български Bosanski Català Čeština Deutsch Español Esperanto Euskara فارسی Français Gaelg 한국어 Հայերեն Bahasa Indonesia Íslenska Italiano עברית ಕನ್ನಡ Қазақша Kreyòl ayisyen Latviešu Magyar മലയാളം Malti مصرى Nederlands नेपाली 日本語 Norsk bokmål Norsk nynorsk پنجابی Polski Português Română Русский Slovenčina Српски / srpski Suomi Svenska Türkçe Українська اردو Tiếng Việt 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikiquote Wikisource Appearance move to sidebar hide From Wikipedia, the free encyclopedia English mathematician For the comedy writer, see Tim Brooke-Taylor.
+
+For the 19th-century diplomat, see Brook Taylor (diplomat).
+
+Brook Taylor FRS Engraving of Taylor c.
+
+1720s Born Brook Taylor 18 August 1685 Edmonton , Middlesex , England Died 29 December 1731 (1731-12-29) (aged 46) London, England Resting place St Ann's, Soho Citizenship English Alma mater St John's College, Cambridge Known for Taylor's theorem Taylor series Finite difference Integration by parts Scientific career Fields Mathematics Institutions St John's College, Cambridge Academic advisors John Machin and John Keill Brook Taylor FRS (18 August 1685 – 29 December 1731) was an English mathematician and barrister best known for several results in mathematical analysis.
+
+Taylor's most famous developments are Taylor's theorem and the Taylor series , essential in the infinitesimal approach of functions in specific points.
+
+Life and work [ edit ] Methodus incrementorum directa et inversa , 1715 Brook Taylor was born in Edmonton (former Middlesex ).
+
+Taylor was the son of John Taylor, MP of Patrixbourne , Kent [1] and Olivia Tempest, the daughter of Sir Nicholas Tempest , Baronet of Durham.
+
+[2] He entered St John's College, Cambridge , as a fellow-commoner in 1701, and took degrees in LL.
+
+B.
+
+in 1709 and LL.
+
+D.
+
+in 1714.
+
+[3] Taylor studied mathematics under John Machin and John Keill , leading to Taylor obtaining a solution to the problem of " center of oscillation.
+
+" Taylor's solution remained unpublished until May 1714, [4] when his claim to priority was disputed by Johann Bernoulli.
+
+Taylor's Methodus Incrementorum Directa et Inversa (1715) ("Direct and Indirect Methods of Incrementation") added a new branch to higher mathematics, called " calculus of finite differences ".
+
+Taylor used this development to determine the form of movement in vibrating strings.
+
+Taylor also wrote the first satisfactory investigation of astronomical refraction.
+
+[5] [6] The same work contains the well-known Taylor's theorem , the importance of which remained unrecognized until 1772, when Joseph-Louis Lagrange realized its usefulness and termed it "the main foundation of differential calculus".
+
+[7] [8] In Taylor's 1715 essay Linear Perspective , Taylor set forth the principles of perspective in a more understandable form, but the work suffered from brevity and obscurity problems which plagued most of his writings, meaning the essay required further explanation in the treatises of Joshua Kirby (1754) and Daniel Fournier (1761).
+
+[8] [9] Taylor was elected as a fellow in the Royal Society in 1712.
+
+In the same year, Taylor sat on the committee for adjudicating the claims of Sir Isaac Newton and Gottfried Leibniz.
+
+He acted as secretary to the society from 13 January 1714 to 21 October 1718.
+
+From 1715 onward, Taylor's studies took a philosophical and religious bent.
+
+He corresponded with the Comte de Montmort on the subject of Nicolas Malebranche 's tenets.
+
+Unfinished treatises written on his return from Aix-la-Chapelle in 1719, On the Jewish Sacrifices and On the Lawfulness of Eating Blood , were afterwards found among his papers.
+
+[8] Taylor was one of few English mathematicians, along with Isaac Newton and Roger Cotes , who was capable of holding his own with the Bernoullis , but a lack of clarity affected a great part of his demonstrations and Taylor lost brevity through his failure to express his ideas fully and clearly.
+
+[8] His health began to fail in 1717 after years of intense work.
+
+[10] Taylor married Miss Brydges of Wallington , Surrey in 1721 without his father's approval.
+
+The marriage led to an estrangement with his father, which improved in 1723 after Taylor's wife died in childbirth while giving birth to a son.
+
+Taylor's son did not survive.
+
+He spent the next two years with his family at Bifrons, and in 1725 he married with his father's approval, Sabetta Sawbridge of Olantigh , Kent.
+
+She died in childbirth in 1730, though his only [11] daughter, Elizabeth, survived.
+
+Taylor's father died in 1729, leaving Taylor to inherit the Bifrons estate.
+
+Taylor died at the age of 46, on 29 December 1731, at Somerset House , London.
+
+Selected writings [ edit ] Brook Taylor Taylor's grandson, Sir William Young, printed a posthumous work entitled Contemplatio Philosophica for private circulation in 1793, (2nd Bart.
+
+, 10 January 1815).
+
+The work was prefaced by a biography, [10] and had an appendix containing letters addressed to him by Bolingbroke , Bossuet , and others.
+
+Several short papers by Taylor were published in Phil.
+
+Trans.
+
+, vols.
+
+xxvii to xxxii, which including accounts of experiments in magnetism and capillary attraction.
+
+In 1719, Brook issued an improved version of his work on perspective, New Principles of Linear Perspective , which was revised by John Colson in 1749.
+
+A French translation was published in 1757.
+
+[12] It was reprinted, with a portrait and short biography, in 1811.
+
+Taylor, Brook (1715a), Methodus Incrementorum Directa et Inversa , London: William Innys.
+
+Annotated English translation by Ian Bruce Taylor, Brook (1715b), Linear Perspective: Or, a New Method of Representing Justly All Manner of Objects as They Appear to the Eye in All Situations , London: R.
+
+Knaplock, archived from the original on 11 April 2016.
+
+Tribute [ edit ] Taylor is an impact crater located on the Moon , named in honor of Brook Taylor in 1935.
+
+[13] References [ edit ] ^ "TAYLOR, John (1655-1729), of Bifrons, Patrixbourne, Kent | History of Parliament Online".
+
+www.
+
+historyofparliamentonline.
+
+org.
+
+Retrieved 18 January 2021.
+
+^ Jopling, Joseph; Taylor, Brook (1835).
+
+"Memoirs of the Life of the Author".
+
+Dr.
+
+Brook Taylor's Principles of Linear Perspective.
+
+London: M.
+
+Taylor.
+
+pp.
+
+v–xii.
+
+^ "Taylor, Brook (TLR701B)".
+
+A Cambridge Alumni Database.
+
+University of Cambridge.
+
+^ Phil.
+
+Trans.
+
+, vol.
+
+xxviii, p.
+
+xi.
+
+^ Chisholm, Hugh , ed.
+
+(1911).
+
+"Taylor, Brook".
+
+Encyclopædia Britannica.
+
+Vol.
+
+26 (11th ed.
+
+).
+
+Cambridge University Press.
+
+pp.
+
+467–468.
+
+^ Taylor, Brook (1715a).
+
+Methodus incrementorum directa & inversa.
+
+London: Gulielmi Innys.
+
+p.
+
+108.
+
+^ "[L]e principal fondement du calcul différentiel".
+
+According to François-Joseph Fétis , ( Biographie universelle… , p.
+
+PA194, at Google Books , vol.
+
+8, p.
+
+194), the statement "the main foundation of differential calculus abstracted from any consideration of infinitely smalls and limits " was first printed in the Journal de l'École polytechnique , vol.
+
+9, p.
+
+5.
+
+^ a b c d Chisholm, Hugh , ed.
+
+(1911).
+
+"Taylor, Brook".
+
+Encyclopædia Britannica.
+
+Vol.
+
+26 (11th ed.
+
+).
+
+Cambridge University Press.
+
+pp.
+
+467–468.
+
+^ Both are disciples of Taylor's: Marlow Anderson, Victor J.
+
+Katz, Robin J.
+
+Wilson; Sherlock Holmes in Babylon: And Other Tales of Mathematical History , p.
+
+PA309, at Google Books , p.
+
+309 ^ a b "Review of New Publications".
+
+The Gentleman's Magazine.
+
+London.
+
+May 1793.
+
+pp.
+
+436–690.
+
+Retrieved 31 August 2020.
+
+^ "Epitaph".
+
+The Gentleman's Magazine.
+
+London.
+
+October 1772.
+
+p.
+
+487.
+
+Retrieved 31 August 2020.
+
+^ Nouveaux principes de la perspective linéaire, traduction de deux ouvrages, l'un anglais du Docteur Brook Taylor.
+
+L'autre latin, de Monsieur Patrice Murdoch.
+
+Avec un essai sur le mélange des couleurs par Newton , p.
+
+PP5, at Google Books , 1757.
+
+"Patrice Murdoch" is Patrick Murdoch.
+
+The name of the publisher and city of publication on the title page are misleading—then a common practice.
+
+J.
+
+M.
+
+Quérard writes that the book was actually published in Lyon ( "Murdoch (Patrice)".
+
+La France littéraire, ou Dictionnaire… , vol.
+
+6, p.
+
+365 ); he errs on the name of the translator, who was Antoine Rivoire (1709-1789) ( SUDOC record ).
+
+^ "Planetary Names: Crater, craters: Taylor on Moon".
+
+Gazetteer of Planetary Nomenclature.
+
+Retrieved 10 June 2016.
+
+Further reading [ edit ] Andersen, Kirsti (1992).
+
+Brook Taylor's Work on Linear Perspective.
+
+Springer Science & Business Media.
+
+ISBN 978-1-4612-0935-5.
+
+Anderson, Marlow; Katz, Victor; Wilson, Robin (2004).
+
+Sherlock Holmes in Babylon: And Other Tales of Mathematical History.
+
+Mathematical Association of America.
+
+p.
+
+309.
+
+ISBN 978-0-88385-546-1.
+
+Carlyle, Edward Irving (1898).
+
+"Taylor, Brook".
+
+In Lee, Sidney (ed.
+
+).
+
+Dictionary of National Biography.
+
+Vol.
+
+55.
+
+London: Smith, Elder & Co.
+
+Feigenbaum, Lenore (1985).
+
+"Brook Taylor and the Method of Increments".
+
+Archive for History of Exact Sciences.
+
+34 (1–2): 1–140.
+
+doi : 10.
+
+1007/BF00329903.
+
+S2CID 122105736.
+
+External links [ edit ] Media related to Brook Taylor at Wikimedia Commons Wikiquote has quotations related to Brook Taylor.
+
+O'Connor, John J.
+
+; Robertson, Edmund F.
+
+, "Brook Taylor" , MacTutor History of Mathematics Archive , University of St Andrews Beningbrough Hall has a painting by John Closterman of Taylor aged about 12 with his brothers and sisters.
+
+See also NPG 5320: The Children of John Taylor of Bifrons Park Archived 24 May 2008 at the Wayback Machine Brook Taylor's pedigree Taylor, a crater on the Moon named after Brook Taylor v t e Premier Grand Lodge of England Active 1717–1813, united with the Ancient Grand Lodge of England (1751–1813) to create the United Grand Lodge of England (1813–present) Grand Masters Anthony Sayer (1717–1718) George Payne (1718–1719) John Theophilus Desaguliers (1719–1720) George Payne (1720–1721) Duke of Montagu (1721–1723) Duke of Wharton (1723) Earl of Dalkeith (1723–1724) Duke of Richmond (1724) Lord Paisley (1724–1725) Earl of Inchiquin (1726–1727) Baron Colerane (1727–1728) Baron Kingston (1728–1730) Duke of Norfolk (1730–1731) Baron Lovell (1731–1732) Viscount Montagu (1732–1733) Earl of Strathmore and Kinghorne (1733–1734) Earl of Crawford (1734–1735) Lord Weymouth (1735–1736) Earl of Loudoun (1736–1737) Earl of Darnley (1737–1738) Marquis of Carnarvon (1738–1739) Baron Raymond (1739–1740) Earl of Kintore (1740–1741) Earl of Morton (1741–1742) Baron Ward (1742–1744) Lord Cranstoun (1744–1747) Baron Byron (1747–1752) Baron Carysfort (1752–1753) Marquis of Carnarvon (1754–1757) Lord Aberdour (1757–1762) Earl Ferrers (1762–1764) Baron Blayney (1764–1767) Duke of Beaufort (1767–1772) Baron Petre (1772–1777) Duke of Manchester (1777–1782) Duke of Cumberland (1782–1790) George, Prince of Wales (1792–1813) Duke of Sussex (1813) Related articles History of Freemasonry Antient Grand Lodge of England United Grand Lodge of England James Anderson's The Constitutions of the Free-Masons (1723) Freemasons' Tavern Freemasons' Hall, London Royal Society Society of Antiquaries of London Royal College of Physicians Worshipful Society of Apothecaries Spalding Gentlemen's Society Newtonianism English Enlightenment Order of the Bath Walpole ministries Whiggism ( Kit-Cat Club ) Gormogons Hellfire Club Foundling Hospital Unlawful Societies Act 1799 Members James Anderson John Byrom William Stukeley William Jones Earl of Chesterfield Charles Delafaye Baron Carpenter William Billers Sir Thomas Prendergast, 2nd Baronet Brook Taylor Martin Folkes John Arbuthnot Charles Cox Earl Cornwallis Richard Cantillon John Machin William Rutty James Vernon John Senex James Thornhill Earl of Macclesfield John Browne James Jurin James Douglas Alexander Stuart Ephraim Chambers Richard Manningham Frank Nicholls Richard Rawlinson Charles Stanhope Lord James Cavendish Earl of Hopetoun William Richardson William Becket John Anstis Duke of Ancaster Charles Hayes Edmund Prideaux George Shelvocke John Woodward John Ward John Baptist Grano Baron King Jacques Leblon Adolphus Oughton Sir Robert Rich, 4th Baronet Viscount Cobham Francis Columbine Hugh Warburton Earl of Pembroke Viscount Townshend Martin Bladen Earl Waldegrave Duke of Kingston Earl of Burlington Earl of Essex Duke of Queensberry Earl of Deloraine Earl of Portmore Duke of Marlborough Baron Baltimore Duke of Atholl Marquess of Lothian Earl of Balcarres Earl of Winchilsea Sir Arthur Acheson, 5th Baronet Sir Robert Lawley, 4th Baronet Alexander Brodie William Hogarth Charles Labelye Walter Calverley-Blackett Frederick, Prince of Wales Thomas Wright Edward Gibbon Baron Hervey Thomas Dunckerley William Preston Marquess of Hastings James Moore Smythe Robert Boyle-Walsingham Sir Robert de Cornwall Batty Langley Thomas Arne John Soane Joseph Banks Johan Zoffany John Coustos Hipólito da Costa Meyer Löw Schomberg Joseph Salvador Sampson Eardley Moses Mendez Meyer Solomon Moses Montefiore Nathan Mayer Rothschild Prime ministers Robert Walpole Henry Pelham Duke of Newcastle Authority control databases International FAST ISNI VIAF WorldCat National Norway Spain France BnF data Germany Israel Belgium United States Netherlands Poland Vatican Academics MathSciNet Mathematics Genealogy Project zbMATH People Deutsche Biographie Trove Other SNAC IdRef Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Brook_Taylor&oldid=1188901260 " Categories : 1685 births 1731 deaths English mathematicians 18th-century English mathematicians Mathematical analysts Alumni of St John's College, Cambridge Fellows of the Royal Society People from Edmonton, London Freemasons of the Premier Grand Lodge of England Hidden categories: Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference Articles with short description Short description is different from Wikidata Use dmy dates from January 2015 Use British English from January 2015 Articles with hCards Pages using Template:Post-nominals with missing parameters Articles incorporating Cite DNB template Commons category link from Wikidata Webarchive template wayback links Articles with FAST identifiers Articles with ISNI identifiers Articles with VIAF identifiers Articles with WorldCat Entities identifiers Articles with BIBSYS identifiers Articles with BNE identifiers Articles with BNF identifiers Articles with BNFdata identifiers Articles with GND identifiers Articles with J9U identifiers Articles with KBR identifiers Articles with LCCN identifiers Articles with NTA identifiers Articles with PLWABN identifiers Articles with VcBA identifiers Articles with MATHSN identifiers Articles with MGP identifiers Articles with ZBMATH identifiers Articles with DTBIO identifiers Articles with Trove identifiers Articles with SNAC-ID identifiers Articles with SUDOC identifiers This page was last edited on 8 December 2023, at 11:21 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

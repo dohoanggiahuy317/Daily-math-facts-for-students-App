@@ -1,0 +1,377 @@
+Michael Spivak - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Biography 2 Writing Toggle Writing subsection 2.
+
+1 Spivak pronouns 3 Bibliography 4 See also 5 References 6 External links Toggle the table of contents Michael Spivak 8 languages Deutsch Español Français Italiano مصرى Nederlands Português 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia American mathematician (1940–2020) Michael Spivak Spivak exhibiting his flexibility (1974) Born ( 1940-05-25 ) May 25, 1940 Queens , New York City, U.
+
+S.
+
+Died October 1, 2020 (2020-10-01) (aged 80) Houston, Texas , U.
+
+S.
+
+Education Harvard University ( AB ) Princeton University ( MA , PhD ) Known for The Hitchhiker's Guide to Calculus Calculus on Manifolds: A Modern Approach to Classical Theorems of Advanced Calculus A Comprehensive Introduction to Differential Geometry MathTime Awards Leroy P.
+
+Steele Prize for Expository Writing (1985) Scientific career Fields Mathematics Differential geometry Thesis On Spaces Satisfying Poincaré Duality (1964) Doctoral advisor John Milnor Michael David Spivak [1] (May 25, 1940 – October 1, 2020) [2] [3] was an American mathematician specializing in differential geometry , an expositor of mathematics, and the founder of Publish-or-Perish Press.
+
+Spivak was the author of the five-volume A Comprehensive Introduction to Differential Geometry , which won the Leroy P.
+
+Steele Prize for expository writing in 1985.
+
+Biography [ edit ] Spivak was born in Queens, New York.
+
+He received his Bachelor of Arts (A.
+
+B.
+
+) from Harvard University in 1960, [2] and in 1964 he received his Ph.
+
+D.
+
+from Princeton University under the supervision of John Milnor , with his thesis, On Spaces Satisfying Poincaré Duality.
+
+[1] Afterwards, Spivak taught as a full-time Math Lecturer at Brandeis University , whilst writing Calculus on Manifolds: A Modern Approach to Classical Theorems of Advanced Calculus , which was later translated into Polish, Spanish, Japanese and Russian.
+
+In 1967 he won a year-long National Science Foundation fellowship to Princeton’s Institute for Advanced Study , after which Spivak returned to Brandeis as Assistant Professor of Mathematics till 1970.
+
+In his last year as Assistant Professor, he published the first two volumes of "what would become a five-volume masterpiece with the daunting title, Comprehensive Introduction to Differential Geometry.
+
+" [4] In 1985, Spivak received the Leroy P.
+
+Steele Prize for this five-volume set.
+
+[5] In 2004, Spivak lectured on elementary physics.
+
+[6] Spivak's book, Physics for Mathematicians: Mechanics I (published December 6, 2010), contains the material that these lectures stemmed from and more.
+
+[7] Spivak was also the designer of the MathTime Professional 2 fonts (which are widely used in academic publishing) [8] and the creator of the TV series Science International.
+
+[9] Writing [ edit ] His five-volume A Comprehensive Introduction to Differential Geometry [10] is among his most influential and celebrated works.
+
+The distinctive pedagogical aim of the work, as stated in its preface, was to elucidate for graduate students the often obscure relationship between classical differential geometry—geometrically intuitive but imprecise—and its modern counterpart, replete with precise but unintuitive algebraic definitions.
+
+On several occasions, most prominently in Volume 2 , Spivak "translates" the classical language that Gauss or Riemann would be familiar with to the abstract language that a modern differential geometer might use.
+
+The Leroy P.
+
+Steele Prize was awarded to Spivak in 1985 for his authorship of the work.
+
+Spivak also authored several well-known undergraduate textbooks.
+
+Among them, his textbook Calculus [11] takes a rigorous and theoretical approach to introductory calculus and includes proofs of many theorems taken on faith in most other introductory textbooks.
+
+Spivak acknowledged in the preface of the second edition that the work is arguably an introduction to mathematical analysis rather than a calculus textbook.
+
+[12] Another of his well-known textbooks is Calculus on Manifolds , [13] a concise (146 pages) but rigorous and modern treatment of multivariable calculus accessible to advanced undergraduates.
+
+Spivak also wrote The Joy of TeX : A Gourmet Guide to Typesetting with the AMS-TeX Macro Package and The Hitchhiker's Guide to Calculus.
+
+The book Morse Theory by Spivak's PhD advisor John Milnor was based on lecture notes by Spivak and Robert Wells (as mentioned on the cover page of the booklet).
+
+Spivak pronouns [ edit ] Main article: Spivak pronouns Spivak used a set of English gender-neutral pronouns , e/em/eir , in his book The Joy of TeX , which are often referred to as Spivak pronouns.
+
+[14] Spivak stated that he did not originate these pronouns.
+
+[3] Bibliography [ edit ] Spivak, Michael (1967).
+
+"Spaces satisfying Poincaré duality".
+
+Topology.
+
+6 (1): 77–101.
+
+doi : 10.
+
+1016/0040-9383(67)90016-X.
+
+MR 0214071.
+
+Calculus on Manifolds: A Modern Approach to Classical Theorems of Advanced Calculus , (1965, revised 1968) Calculus , (1967, 4th ed.
+
+2008) A Comprehensive Introduction to Differential Geometry , [15] [16] (1970, revised 3rd ed.
+
+2005) The Joy of TeX: A Gourmet Guide to Typesetting with the AMS-TeX Macro package , (1990) A Hitchhiker's Guide to the Calculus , [17] (1995) Spivak, Michael (2010).
+
+Physics for mathematicians—Mechanics I.
+
+Houston, TX: Publish or Perish.
+
+ISBN 978-0-914098-32-4.
+
+MR 2761185.
+
+See also [ edit ] Stable normal bundle Spivak pronoun References [ edit ] ^ a b Michael Spivak at the Mathematics Genealogy Project ^ a b "1985 Steele Prizes Awarded at Summer Meeting in Laramie" (PDF).
+
+Notices of the American Mathematical Society.
+
+32 (243): 576.
+
+October 1985.
+
+Archived (PDF) from the original on November 30, 2021.
+
+Retrieved November 30, 2021.
+
+^ a b Beeton, Barbara (2021).
+
+"Michael D.
+
+Spivak, 1940–2020" (PDF).
+
+TUGboat.
+
+42 (3): 226–227.
+
+doi : 10.
+
+47397/tb/42-3/tb132beeton-spivak.
+
+S2CID 244121636.
+
+Archived (PDF) from the original on November 30, 2021.
+
+Retrieved November 29, 2021.
+
+^ One Brilliant Classmate Remembers Another ^ Leroy P.
+
+Steele Prize ^ "Prof.
+
+Michael D.
+
+Spivak Pathway Lectures".
+
+September 3, 2012.
+
+Archived from the original on September 3, 2012.
+
+Spivak, Michael (March 2004).
+
+"Elementary mechanics from a mathematician's viewpoint" (PDF).
+
+Archived (PDF) from the original on October 13, 2017.
+
+Retrieved October 3, 2017.
+
+^ Spivak, Michael (2010).
+
+Physics for Mathematicians, Mechanics I.
+
+Publish or Perish.
+
+ISBN 978-0-914098-32-4.
+
+^ "MathTime Professional 2 Fonts".
+
+pctex.
+
+com.
+
+Archived from the original on October 29, 2013.
+
+Retrieved October 15, 2013.
+
+^ "Snippets of science from a goon".
+
+New Scientist.
+
+Vol.
+
+98, no.
+
+1352.
+
+Reed Business Information.
+
+April 7, 1983.
+
+^ Spivak, Michael (1999).
+
+A comprehensive introduction to differential geometry (3rd ed.
+
+).
+
+Houston, TX: Publish or Perish, Inc.
+
+ISBN 978-0-914098-70-6.
+
+OCLC 42962004.
+
+^ Spivak, Michael (1994).
+
+Calculus (3rd ed.
+
+).
+
+Houston, TX: Publish or Perish.
+
+ISBN 978-0-914098-89-8.
+
+^ Bressoud, David (2013).
+
+Spivak, Michael; Nitecki, Zbigniew; Sharhriari, Shahriar; Cates, Dennis M.
+
+; Thomson, Brian S.
+
+(eds.
+
+).
+
+"Review".
+
+The American Mathematical Monthly.
+
+120 (6): 577–580.
+
+doi : 10.
+
+4169/amer.
+
+math.
+
+monthly.
+
+120.
+
+06.
+
+577.
+
+ISSN 0002-9890.
+
+JSTOR 10.
+
+4169/amer.
+
+math.
+
+monthly.
+
+120.
+
+06.
+
+577.
+
+Archived from the original on June 14, 2022.
+
+Retrieved June 14, 2022.
+
+^ Spivak, Michael (2018).
+
+Calculus on manifolds: A modern approach to classical theorems of advanced calculus.
+
+Mathematics monograph series.
+
+Boca Raton London New York: CRC Press, Taylor & Francis Group.
+
+ISBN 978-0-8053-9021-6.
+
+^ McCurdy, Christen.
+
+"Are Gender-Neutral Pronouns Actually Doomed?".
+
+Pacific Standard.
+
+Archived from the original on May 20, 2021.
+
+Retrieved February 26, 2014.
+
+^ Guillemin, Victor (1973).
+
+"Review: A comprehensive introduction to differential geometry , Vols.
+
+1 & 2, by M.
+
+Spivak".
+
+Bull.
+
+Amer.
+
+Math.
+
+Soc.
+
+79 (2): 303–306.
+
+doi : 10.
+
+1090/s0002-9904-1973-13149-0.
+
+Archived from the original on June 20, 2021.
+
+Retrieved April 28, 2021.
+
+^ Alexander, Stephanie (1978).
+
+"Review: A comprehensive introduction to differential geometry , Vols.
+
+3, 4, & 5, by M.
+
+Spivak".
+
+Bull.
+
+Amer.
+
+Math.
+
+Soc.
+
+84 (1): 27–32.
+
+doi : 10.
+
+1090/s0002-9904-1978-14399-7.
+
+Archived from the original on April 17, 2021.
+
+Retrieved April 28, 2021.
+
+^ Gouvêa, Fernando Q.
+
+(February 2, 1996).
+
+"Review: A Hitchhiker's Guide to the Calculus by Michael Spivak".
+
+MAA Reviews.
+
+Archived from the original on January 18, 2015.
+
+Retrieved January 21, 2015.
+
+External links [ edit ] Publish or Perish, Inc.
+
+, company owned by Spivak 17 (Seventeen) and Yellow Pigs Michael Spivak @ Everything2.
+
+com Michael Spivak at the Mathematics Genealogy Project Michael D.
+
+Spivak, 1940–2020 , obituary in TUGboat by Barbara Beeton "Michael Spivak: A Memorial" (PDF).
+
+Notices of the American Mathematical Society.
+
+71 (6): 786–795.
+
+June 2024.
+
+doi : 10.
+
+1090/noti2956.
+
+Authority control databases International FAST ISNI VIAF WorldCat National Norway Spain France BnF data Catalonia Germany Italy Israel United States Latvia Japan Czech Republic Korea Netherlands Poland Academics CiNii MathSciNet Mathematics Genealogy Project zbMATH Other SNAC IdRef Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Michael_Spivak&oldid=1230399783 " Categories : 1940 births 2020 deaths American textbook writers American male non-fiction writers 20th-century American mathematicians Differential geometers American mathematical analysts Princeton University alumni People from Queens, New York Mathematicians from New York (state) American topologists Harvard University alumni Hidden categories: Articles with short description Short description matches Wikidata Use mdy dates from September 2023 Articles with hCards Articles with FAST identifiers Articles with ISNI identifiers Articles with VIAF identifiers Articles with WorldCat Entities identifiers Articles with BIBSYS identifiers Articles with BNE identifiers Articles with BNF identifiers Articles with BNFdata identifiers Articles with CANTICN identifiers Articles with GND identifiers Articles with ICCU identifiers Articles with J9U identifiers Articles with LCCN identifiers Articles with LNB identifiers Articles with NDL identifiers Articles with NKC identifiers Articles with NLK identifiers Articles with NTA identifiers Articles with PLWABN identifiers Articles with CINII identifiers Articles with MATHSN identifiers Articles with MGP identifiers Articles with ZBMATH identifiers Articles with SNAC-ID identifiers Articles with SUDOC identifiers This page was last edited on 22 June 2024, at 13:55 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

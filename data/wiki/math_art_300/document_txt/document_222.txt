@@ -1,0 +1,191 @@
+Michel Rolle - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Life 2 Work 3 Critique of infinitesimal calculus 4 References 5 Bibliography 6 External links Toggle the table of contents Michel Rolle 30 languages العربية Български Català Čeština Dansk Deutsch Ελληνικά Español فارسی Français Galego 한국어 Հայերեն Italiano עברית Kreyòl ayisyen Latina Magyar Nederlands 日本語 Norsk nynorsk Polski Português Română Русский Српски / srpski Suomi Svenska Türkçe 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia French mathematician For other people with similar names, see Michael Roll (disambiguation).
+
+Michel Rolle Born ( 1652-04-21 ) 21 April 1652 Ambert , Basse-Auvergne Died 8 November 1719 (1719-11-08) (aged 67) Paris , Kingdom of France Known for Gaussian elimination , Rolle's theorem Scientific career Fields Mathematics Institutions Académie Royale des Sciences Michel Rolle (21 April 1652 – 8 November 1719) was a French mathematician.
+
+He is best known for Rolle's theorem (1691).
+
+He is also the co-inventor in Europe [1] of Gaussian elimination (1690).
+
+Life [ edit ] Rolle was born in Ambert , Basse-Auvergne.
+
+Rolle, the son of a shopkeeper, received only an elementary education.
+
+He married early and as a young man struggled to support his family on the meager wages of a transcriber for notaries and attorney.
+
+In spite of his financial problems and minimal education, Rolle studied algebra and Diophantine analysis (a branch of number theory) on his own.
+
+He moved from Ambert to Paris in 1675.
+
+Rolle's fortune changed dramatically in 1682 when he published an elegant solution of a difficult, unsolved problem in Diophantine analysis.
+
+The public recognition of his achievement led to a patronage under minister Louvois, a job as an elementary mathematics teacher, and eventually to a short-termed administrative post in the Ministry of War.
+
+In 1685 he joined the Académie des Sciences in a very low-level position for which he received no regular salary until 1699.
+
+Rolle was promoted to a salaried position in the academy, a pensionnaire géometre,.
+
+This was a distinguished post because of the 70 members of the academy, only 20 were paid.
+
+[2] He had then already been given a pension by Jean-Baptiste Colbert after he solved one of Jacques Ozanam 's problems.
+
+He remained there until he died of apoplexy in 1719.
+
+While Rolle's forte was always Diophantine analysis, his most important work was a book on the algebra of equations, called Traité d'algèbre , published in 1690.
+
+In that book Rolle firmly established the notation for the n th root of a real number, and proved a polynomial version of the theorem that today bears his name.
+
+( Rolle's theorem was named by Giusto Bellavitis in 1846.
+
+) Rolle was one of the most vocal early antagonists of calculus – ironically so, because Rolle's theorem is essential for basic proofs in calculus.
+
+He strove intently to demonstrate that it gave erroneous results and was based on unsound reasoning.
+
+He quarreled so vehemently on the subject that the Académie des Sciences was forced to intervene on several occasions.
+
+Among his several achievements, Rolle helped advance the currently accepted size order for negative numbers.
+
+Descartes, for example, viewed –2 as smaller than –5.
+
+Rolle preceded most of his contemporaries by adopting the current convention in 1691.
+
+Rolle died in Paris.
+
+No contemporary portrait of him is known.
+
+Work [ edit ] Rolle was an early critic of infinitesimal calculus , arguing that it was inaccurate, based upon unsound reasoning, and was a collection of ingenious fallacies, [3] but later changed his opinion.
+
+[3] Michel Rolle, Traité d'algèbre (1690).
+
+In 1690, Rolle published Traité d'Algebre.
+
+It contains the first published description in Europe of the Gaussian elimination algorithm, which Rolle called the method of substitution [4] Some examples of the method had previously appeared in algebra books, and Isaac Newton had previously described the method in his lecture notes, but Newton's lesson was not published until 1707.
+
+Rolle's statement of the method seems not to have been noticed insofar as the lesson for Gaussian elimination that was taught in 18th- and 19th-century algebra textbooks owes more to Newton than to Rolle.
+
+Rolle is best known for Rolle's theorem in differential calculus.
+
+Rolle had used the result in 1690, and he proved it (by the standards of the time) in 1691.
+
+Given his animosity to infinitesimals it is fitting that the result was couched in terms of algebra rather than analysis.
+
+[2] Only in the 18th century was the theorem interpreted as a fundamental result in differential calculus.
+
+Indeed, it is needed to prove both the mean value theorem and the existence of Taylor series.
+
+As the importance of the theorem grew, so did the interest in identifying the origin, and it was finally named Rolle's theorem in the 19th century.
+
+Barrow-Green remarks that the theorem might well have been named for someone else had not a few copies of Rolle's 1691 publication survived.
+
+Critique of infinitesimal calculus [ edit ] In a criticism of infinitesimal calculus that predated George Berkeley 's, Rolle presented a series of papers at the French academy, alleging that the use of the methods of infinitesimal calculus leads to errors.
+
+Specifically, he presented an explicit algebraic curve, and alleged that some of its local minima are missed when one applies the methods of infinitesimal calculus.
+
+Pierre Varignon responded by pointing out that Rolle had misrepresented the curve, and that the alleged local minima are in fact singular points with a vertical tangent.
+
+[5] References [ edit ] ^ Some special cases were known in China very much earlier.
+
+^ a b Barrow-Green (2009) , p.
+
+739.
+
+^ a b Robertson, Edmund; O'Connor, John (December 2008).
+
+"Michel Rolle".
+
+MacTutor History of Mathematics Archive.
+
+University of St.
+
+Andrews.
+
+Retrieved 28 February 2021.
+
+^ Grcar (2011) , §2.
+
+2.
+
+^ Blay (1986).
+
+Bibliography [ edit ] Barrow-Green, June (2009).
+
+"From cascades to calculus: Rolle's theorem".
+
+In Robson, Eleanor; Stedall, Jacqueline A.
+
+(eds.
+
+).
+
+The Oxford handbook of the history of mathematics.
+
+Oxford University Press.
+
+pp.
+
+737–754.
+
+Blay, Michel (1986).
+
+"Deux moments de la critique du calcul infinitésimal: Michel Rolle et George Berkeley" [Two moments in the criticism of infinitesimal calculus: Michel Rolle and George Berkeley].
+
+Revue d'histoire des sciences (in French).
+
+39 (3): 223–253.
+
+doi : 10.
+
+3406/rhs.
+
+1986.
+
+4477.
+
+Grcar, Joseph F.
+
+(2011), "How ordinary elimination became Gaussian elimination", Historia Mathematica , 38 (2): 163–218, arXiv : 0907.
+
+2397 , doi : 10.
+
+1016/j.
+
+hm.
+
+2010.
+
+06.
+
+003 , S2CID 14259511 Rolle, Michel (1690).
+
+Traité d'Algebre.
+
+E.
+
+Michallet, Paris.
+
+Rolle, Michel (1691).
+
+Démonstration d'une Méthode pour resoudre les Egalitez de tous les degrez.
+
+External links [ edit ] O'Connor, John J.
+
+; Robertson, Edmund F.
+
+, "Michel Rolle" , MacTutor History of Mathematics Archive , University of St Andrews Michel Rolle Biography Authority control databases International ISNI VIAF WorldCat National Norway France BnF data Germany Italy United States Portugal Academics MathSciNet zbMATH People Deutsche Biographie Other IdRef Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Michel_Rolle&oldid=1165465736 " Categories : 1652 births 1719 deaths People from Ambert 17th-century French mathematicians 18th-century French mathematicians History of calculus Members of the French Academy of Sciences Hidden categories: Articles with short description Short description matches Wikidata Use dmy dates from December 2019 Articles with hCards CS1 French-language sources (fr) Articles with ISNI identifiers Articles with VIAF identifiers Articles with WorldCat Entities identifiers Articles with BIBSYS identifiers Articles with BNF identifiers Articles with BNFdata identifiers Articles with GND identifiers Articles with ICCU identifiers Articles with LCCN identifiers Articles with PortugalA identifiers Articles with MATHSN identifiers Articles with ZBMATH identifiers Articles with DTBIO identifiers Articles with SUDOC identifiers This page was last edited on 15 July 2023, at 10:09 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

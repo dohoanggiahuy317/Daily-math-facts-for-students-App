@@ -1,0 +1,259 @@
+Root test - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Root test explanation 2 Application to power series 3 Proof 4 Examples 5 Root tests hierarchy 6 Proof 7 See also 8 References Toggle the table of contents Root test 23 languages Bosanski Català Čeština Deutsch Español Euskara Français 한국어 हिन्दी Lombard Magyar Nederlands 日本語 Piemontèis Polski Português Română Русский Suomi Svenska Türkçe Українська 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Criterion for the convergence of an infinite series Part of a series of articles about Calculus ∫ a b f ′ ( t ) d t = f ( b ) − f ( a ) {\displaystyle \int _{a}^{b}f'(t)\,dt=f(b)-f(a)} Fundamental theorem Limits Continuity Rolle's theorem Mean value theorem Inverse function theorem Differential Definitions Derivative ( generalizations ) Differential infinitesimal of a function total Concepts Differentiation notation Second derivative Implicit differentiation Logarithmic differentiation Related rates Taylor's theorem Rules and identities Sum Product Chain Power Quotient L'Hôpital's rule Inverse General Leibniz Faà di Bruno's formula Reynolds Integral Lists of integrals Integral transform Leibniz integral rule Definitions Antiderivative Integral ( improper ) Riemann integral Lebesgue integration Contour integration Integral of inverse functions Integration by Parts Discs Cylindrical shells Substitution ( trigonometric , tangent half-angle , Euler ) Euler's formula Partial fractions Changing order Reduction formulae Differentiating under the integral sign Risch algorithm Series Geometric ( arithmetico-geometric ) Harmonic Alternating Power Binomial Taylor Convergence tests Summand limit (term test) Ratio Root Integral Direct comparison Limit comparison Alternating series Cauchy condensation Dirichlet Abel Vector Gradient Divergence Curl Laplacian Directional derivative Identities Theorems Gradient Green's Stokes' Divergence generalized Stokes Helmholtz decomposition Multivariable Formalisms Matrix Tensor Exterior Geometric Definitions Partial derivative Multiple integral Line integral Surface integral Volume integral Jacobian Hessian Advanced Calculus on Euclidean space Generalized functions Limit of distributions Specialized Fractional Malliavin Stochastic Variations Miscellaneous Precalculus History Glossary List of topics Integration Bee Mathematical analysis Nonstandard analysis v t e In mathematics , the root test is a criterion for the convergence (a convergence test ) of an infinite series.
+
+It depends on the quantity lim sup n → ∞ | a n | n , {\displaystyle \limsup _{n\rightarrow \infty }{\sqrt[{n}]{|a_{n}|}},} where a n {\displaystyle a_{n}} are the terms of the series, and states that the series converges absolutely if this quantity is less than one, but diverges if it is greater than one.
+
+It is particularly useful in connection with power series.
+
+Root test explanation [ edit ] Decision diagram for the root test The root test was developed first by Augustin-Louis Cauchy who published it in his textbook Cours d'analyse (1821).
+
+[1] Thus, it is sometimes known as the Cauchy root test or Cauchy's radical test.
+
+For a series ∑ n = 1 ∞ a n {\displaystyle \sum _{n=1}^{\infty }a_{n}} the root test uses the number C = lim sup n → ∞ | a n | n , {\displaystyle C=\limsup _{n\rightarrow \infty }{\sqrt[{n}]{|a_{n}|}},} where "lim sup" denotes the limit superior , possibly +∞.
+
+Note that if lim n → ∞ | a n | n , {\displaystyle \lim _{n\rightarrow \infty }{\sqrt[{n}]{|a_{n}|}},} converges then it equals C and may be used in the root test instead.
+
+The root test states that: if C < 1 then the series converges absolutely , if C > 1 then the series diverges , if C = 1 and the limit approaches strictly from above then the series diverges, otherwise the test is inconclusive (the series may diverge, converge absolutely or converge conditionally ).
+
+There are some series for which C = 1 and the series converges, e.
+
+g.
+
+∑ 1 / n 2 {\displaystyle \textstyle \sum 1/{n^{2}}} , and there are others for which C = 1 and the series diverges, e.
+
+g.
+
+∑ 1 / n {\displaystyle \textstyle \sum 1/n}.
+
+Application to power series [ edit ] This test can be used with a power series f ( z ) = ∑ n = 0 ∞ c n ( z − p ) n {\displaystyle f(z)=\sum _{n=0}^{\infty }c_{n}(z-p)^{n}} where the coefficients c n , and the center p are complex numbers and the argument z is a complex variable.
+
+The terms of this series would then be given by a n = c n ( z − p ) n.
+
+One then applies the root test to the a n as above.
+
+Note that sometimes a series like this is called a power series "around p ", because the radius of convergence is the radius R of the largest interval or disc centred at p such that the series will converge for all points z strictly in the interior (convergence on the boundary of the interval or disc generally has to be checked separately).
+
+A corollary of the root test applied to a power series is the Cauchy–Hadamard theorem : the radius of convergence is exactly 1 / lim sup n → ∞ | c n | n , {\displaystyle 1/\limsup _{n\rightarrow \infty }{\sqrt[{n}]{|c_{n}|}},} taking care that we really mean ∞ if the denominator is 0.
+
+Proof [ edit ] The proof of the convergence of a series Σ a n is an application of the comparison test.
+
+If for all n ≥ N ( N some fixed natural number ) we have | a n | n ≤ k < 1 {\displaystyle {\sqrt[{n}]{|a_{n}|}}\leq k<1} , then | a n | ≤ k n < 1 {\displaystyle |a_{n}|\leq k^{n}<1}.
+
+Since the geometric series ∑ n = N ∞ k n {\displaystyle \sum _{n=N}^{\infty }k^{n}} converges so does ∑ n = N ∞ | a n | {\displaystyle \sum _{n=N}^{\infty }|a_{n}|} by the comparison test.
+
+Hence Σ a n converges absolutely.
+
+If | a n | n > 1 {\displaystyle {\sqrt[{n}]{|a_{n}|}}>1} for infinitely many n , then a n fails to converge to 0, hence the series is divergent.
+
+Proof of corollary : For a power series Σ a n = Σ c n ( z − p ) n , we see by the above that the series converges if there exists an N such that for all n ≥ N we have | a n | n = | c n ( z − p ) n | n < 1 , {\displaystyle {\sqrt[{n}]{|a_{n}|}}={\sqrt[{n}]{|c_{n}(z-p)^{n}|}}<1,} equivalent to | c n | n ⋅ | z − p | < 1 {\displaystyle {\sqrt[{n}]{|c_{n}|}}\cdot |z-p|<1} for all n ≥ N , which implies that in order for the series to converge we must have | z − p | < 1 / | c n | n {\displaystyle |z-p|<1/{\sqrt[{n}]{|c_{n}|}}} for all sufficiently large n.
+
+This is equivalent to saying | z − p | < 1 / lim sup n → ∞ | c n | n , {\displaystyle |z-p|<1/\limsup _{n\rightarrow \infty }{\sqrt[{n}]{|c_{n}|}},} so R ≤ 1 / lim sup n → ∞ | c n | n.
+
+{\displaystyle R\leq 1/\limsup _{n\rightarrow \infty }{\sqrt[{n}]{|c_{n}|}}.
+
+} Now the only other place where convergence is possible is when | a n | n = | c n ( z − p ) n | n = 1 , {\displaystyle {\sqrt[{n}]{|a_{n}|}}={\sqrt[{n}]{|c_{n}(z-p)^{n}|}}=1,} (since points > 1 will diverge) and this will not change the radius of convergence since these are just the points lying on the boundary of the interval or disc, so R = 1 / lim sup n → ∞ | c n | n.
+
+{\displaystyle R=1/\limsup _{n\rightarrow \infty }{\sqrt[{n}]{|c_{n}|}}.
+
+} Examples [ edit ] Example 1: ∑ i = 1 ∞ 2 i i 9 {\displaystyle \sum _{i=1}^{\infty }{\frac {2^{i}}{i^{9}}}} Applying the root test and using the fact that lim n → ∞ n 1 / n = 1 , {\displaystyle \lim _{n\to \infty }n^{1/n}=1,} C = lim n → ∞ | 2 n n 9 | n = lim n → ∞ 2 n n n 9 n = lim n → ∞ 2 ( n 1 / n ) 9 = 2 {\displaystyle C=\lim _{n\to \infty }{\sqrt[{n}]{\left|{\frac {2^{n}}{n^{9}}}\right|}}=\lim _{n\to \infty }{\frac {\sqrt[{n}]{2^{n}}}{\sqrt[{n}]{n^{9}}}}=\lim _{n\to \infty }{\frac {2}{(n^{1/n})^{9}}}=2} Since C = 2 > 1 , {\displaystyle C=2>1,} the series diverges.
+
+[2] Example 2: 1 + 1 + 0.
+
+5 + 0.
+
+5 + 0.
+
+25 + 0.
+
+25 + 0.
+
+125 + 0.
+
+125 +.
+
+{\displaystyle 1+1+0.
+
+5+0.
+
+5+0.
+
+25+0.
+
+25+0.
+
+125+0.
+
+125+.
+
+} The root test shows convergence because r = lim sup n → ∞ | a 2 n | 2 n = lim sup n → ∞ |.
+
+5 n | 2 n =.
+
+5 < 1.
+
+{\displaystyle r=\limsup _{n\to \infty }{\sqrt[{2n}]{|a_{2n}|}}=\limsup _{n\to \infty }{\sqrt[{2n}]{|.
+
+5^{n}|}}={\sqrt {.
+
+5}}<1.
+
+} This example shows how the root test is stronger than the ratio test.
+
+The ratio test is inconclusive for this series if n {\displaystyle n} is odd so a n = a n + 1 =.
+
+5 n {\displaystyle a_{n}=a_{n+1}=.
+
+5^{n}} (though not if n {\displaystyle n} is even), because r = lim n → ∞ | a n + 1 a n | = lim n → ∞ | 2 ⋅.
+
+5 n 2 ⋅.
+
+5 n | = 1.
+
+{\displaystyle r=\lim _{n\to \infty }\left|{\frac {a_{n+1}}{a_{n}}}\right|=\lim _{n\to \infty }\left|{\frac {2\cdot.
+
+5^{n}}{2\cdot.
+
+5^{n}}}\right|=1.
+
+} Root tests hierarchy [ edit ] Root tests hierarchy [3] [4] is built similarly to the ratio tests hierarchy (see Section 4.
+
+1 of ratio test , and more specifically Subsection 4.
+
+1.
+
+4 there).
+
+For a series ∑ n = 1 ∞ a n {\displaystyle \sum _{n=1}^{\infty }a_{n}} with positive terms we have the following tests for convergence/divergence.
+
+Let K ≥ 1 {\displaystyle K\geq 1} be an integer, and let ln ( K ) ⁡ ( x ) {\displaystyle \ln _{(K)}(x)} denote the K {\displaystyle K} th iterate of natural logarithm , i.
+
+e.
+
+ln ( 1 ) ⁡ ( x ) = ln ⁡ ( x ) {\displaystyle \ln _{(1)}(x)=\ln(x)} and for any 2 ≤ k ≤ K {\displaystyle 2\leq k\leq K} , ln ( k ) ⁡ ( x ) = ln ( k − 1 ) ⁡ ( ln ⁡ ( x ) ) {\displaystyle \ln _{(k)}(x)=\ln _{(k-1)}(\ln(x))}.
+
+Suppose that a n − n {\displaystyle {\sqrt[{-n}]{a_{n}}}} , when n {\displaystyle n} is large, can be presented in the form a n − n = 1 + 1 n + 1 n ∑ i = 1 K − 1 1 ∏ k = 1 i ln ( k ) ⁡ ( n ) + ρ n n ∏ k = 1 K ln ( k ) ⁡ ( n ).
+
+{\displaystyle {\sqrt[{-n}]{a_{n}}}=1+{\frac {1}{n}}+{\frac {1}{n}}\sum _{i=1}^{K-1}{\frac {1}{\prod _{k=1}^{i}\ln _{(k)}(n)}}+{\frac {\rho _{n}}{n\prod _{k=1}^{K}\ln _{(k)}(n)}}.
+
+} (The empty sum is assumed to be 0.
+
+) The series converges, if lim inf n → ∞ ρ n > 1 {\displaystyle \liminf _{n\to \infty }\rho _{n}>1} The series diverges, if lim sup n → ∞ ρ n < 1 {\displaystyle \limsup _{n\to \infty }\rho _{n}<1} Otherwise, the test is inconclusive.
+
+Proof [ edit ] Since a n − n = e − 1 n ln ⁡ a n {\displaystyle {\sqrt[{-n}]{a_{n}}}=\mathrm {e} ^{-{\frac {1}{n}}\ln a_{n}}} , then we have e − 1 n ln ⁡ a n = 1 + 1 n + 1 n ∑ i = 1 K − 1 1 ∏ k = 1 i ln ( k ) ⁡ ( n ) + ρ n n ∏ k = 1 K ln ( k ) ⁡ ( n ).
+
+{\displaystyle \mathrm {e} ^{-{\frac {1}{n}}\ln a_{n}}=1+{\frac {1}{n}}+{\frac {1}{n}}\sum _{i=1}^{K-1}{\frac {1}{\prod _{k=1}^{i}\ln _{(k)}(n)}}+{\frac {\rho _{n}}{n\prod _{k=1}^{K}\ln _{(k)}(n)}}.
+
+} From this, ln ⁡ a n = − n ln ⁡ ( 1 + 1 n + 1 n ∑ i = 1 K − 1 1 ∏ k = 1 i ln ( k ) ⁡ ( n ) + ρ n n ∏ k = 1 K ln ( k ) ⁡ ( n ) ).
+
+{\displaystyle \ln a_{n}=-n\ln \left(1+{\frac {1}{n}}+{\frac {1}{n}}\sum _{i=1}^{K-1}{\frac {1}{\prod _{k=1}^{i}\ln _{(k)}(n)}}+{\frac {\rho _{n}}{n\prod _{k=1}^{K}\ln _{(k)}(n)}}\right).
+
+} From Taylor's expansion applied to the right-hand side, we obtain: ln ⁡ a n = − 1 − ∑ i = 1 K − 1 1 ∏ k = 1 i ln ( k ) ⁡ ( n ) − ρ n ∏ k = 1 K ln ( k ) ⁡ ( n ) + O ( 1 n ).
+
+{\displaystyle \ln a_{n}=-1-\sum _{i=1}^{K-1}{\frac {1}{\prod _{k=1}^{i}\ln _{(k)}(n)}}-{\frac {\rho _{n}}{\prod _{k=1}^{K}\ln _{(k)}(n)}}+O\left({\frac {1}{n}}\right).
+
+} Hence, a n = { e − 1 + O ( 1 / n ) 1 ( n ∏ k = 1 K − 2 ln ( k ) ⁡ n ) ln ( K − 1 ) ρ n ⁡ n , K ≥ 2 , e − 1 + O ( 1 / n ) 1 n ρ n , K = 1.
+
+{\displaystyle a_{n}={\begin{cases}\mathrm {e} ^{-1+O(1/n)}{\frac {1}{(n\prod _{k=1}^{K-2}\ln _{(k)}n)\ln _{(K-1)}^{\rho _{n}}n}},&K\geq 2,\\\mathrm {e} ^{-1+O(1/n)}{\frac {1}{n^{\rho _{n}}}},&K=1.
+
+\end{cases}}} (The empty product is set to 1.
+
+) The final result follows from the integral test for convergence.
+
+See also [ edit ] Ratio test Convergent series References [ edit ] ^ Bottazzini, Umberto (1986), The Higher Calculus: A History of Real and Complex Analysis from Euler to Weierstrass , Springer-Verlag, pp.
+
+116–117 , ISBN 978-0-387-96302-0.
+
+Translated from the Italian by Warren Van Egmond.
+
+^ Briggs, William; Cochrane, Lyle (2011).
+
+Calculus: Early Transcendentals.
+
+Addison Wesley.
+
+p.
+
+571.
+
+^ Abramov, Vyacheslav M.
+
+(2022).
+
+"Necessary and sufficient conditions for the convergence of positive series" (PDF).
+
+Journal of Classical Analysis.
+
+19 (2): 117--125.
+
+arXiv : 2104.
+
+01702.
+
+doi : 10.
+
+7153/jca-2022-19-09.
+
+^ Bourchtein, Ludmila; Bourchtein, Andrei; Nornberg, Gabrielle; Venzke, Cristiane (2012).
+
+"A hierarchy of convergence tests related to Cauchy's test" (PDF).
+
+International Journal of Mathematical Analysis.
+
+6 (37--40): 1847--1869.
+
+Knopp, Konrad (1956).
+
+"§ 3.
+
+2".
+
+Infinite Sequences and Series.
+
+Dover publications, Inc.
+
+, New York.
+
+ISBN 0-486-60153-6.
+
+Whittaker, E.
+
+T.
+
+& Watson, G.
+
+N.
+
+(1963).
+
+"§ 2.
+
+35".
+
+A Course in Modern Analysis (fourth ed.
+
+).
+
+Cambridge University Press.
+
+ISBN 0-521-58807-3.
+
+This article incorporates material from Proof of Cauchy's root test on PlanetMath , which is licensed under the Creative Commons Attribution/Share-Alike License.
+
+v t e Calculus Precalculus Binomial theorem Concave function Continuous function Factorial Finite difference Free variables and bound variables Graph of a function Linear function Radian Rolle's theorem Secant Slope Tangent Limits Indeterminate form Limit of a function One-sided limit Limit of a sequence Order of approximation (ε, δ)-definition of limit Differential calculus Derivative Second derivative Partial derivative Differential Differential operator Mean value theorem Notation Leibniz's notation Newton's notation Rules of differentiation linearity Power Sum Chain L'Hôpital's Product General Leibniz's rule Quotient Other techniques Implicit differentiation Inverse functions and differentiation Logarithmic derivative Related rates Stationary points First derivative test Second derivative test Extreme value theorem Maximum and minimum Further applications Newton's method Taylor's theorem Differential equation Ordinary differential equation Partial differential equation Stochastic differential equation Integral calculus Antiderivative Arc length Riemann integral Basic properties Constant of integration Fundamental theorem of calculus Differentiating under the integral sign Integration by parts Integration by substitution trigonometric Euler Tangent half-angle substitution Partial fractions in integration Quadratic integral Trapezoidal rule Volumes Washer method Shell method Integral equation Integro-differential equation Vector calculus Derivatives Curl Directional derivative Divergence Gradient Laplacian Basic theorems Line integrals Green's Stokes' Gauss' Multivariable calculus Divergence theorem Geometric Hessian matrix Jacobian matrix and determinant Lagrange multiplier Line integral Matrix Multiple integral Partial derivative Surface integral Volume integral Advanced topics Differential forms Exterior derivative Generalized Stokes' theorem Tensor calculus Sequences and series Arithmetico-geometric sequence Types of series Alternating Binomial Fourier Geometric Harmonic Infinite Power Maclaurin Taylor Telescoping Tests of convergence Abel's Alternating series Cauchy condensation Direct comparison Dirichlet's Integral Limit comparison Ratio Root Term Special functions and numbers Bernoulli numbers e (mathematical constant) Exponential function Natural logarithm Stirling's approximation History of calculus Adequality Brook Taylor Colin Maclaurin Generality of algebra Gottfried Wilhelm Leibniz Infinitesimal Infinitesimal calculus Isaac Newton Fluxion Law of Continuity Leonhard Euler Method of Fluxions The Method of Mechanical Theorems Lists Integrals rational functions irrational functions exponential functions logarithmic functions hyperbolic functions inverse trigonometric functions inverse Secant Secant cubed List of limits List of derivatives Miscellaneous topics Complex calculus Contour integral Differential geometry Manifold Curvature of curves of surfaces Tensor Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Regiomontanus' angle maximization problem Steinmetz solid Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Root_test&oldid=1215726165 " Categories : Augustin-Louis Cauchy Convergence tests Hidden categories: Articles with short description Short description matches Wikidata Pages using sidebar with the child parameter Wikipedia articles incorporating text from PlanetMath Articles containing proofs This page was last edited on 26 March 2024, at 19:34 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

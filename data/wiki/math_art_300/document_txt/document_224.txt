@@ -1,0 +1,151 @@
+Quotient rule - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Examples Toggle Examples subsection 1.
+
+1 Example 1: Basic example 1.
+
+2 Example 2: Derivative of tangent function 2 Reciprocal rule 3 Proofs Toggle Proofs subsection 3.
+
+1 Proof from derivative definition and limit properties 3.
+
+2 Proof using implicit differentiation 3.
+
+3 Proof using the reciprocal rule or chain rule 3.
+
+4 Proof by logarithmic differentiation 4 Higher order derivatives 5 See also 6 References Toggle the table of contents Quotient rule 27 languages العربية Bosanski Català Čeština Deutsch Español Esperanto فارسی 한국어 हिन्दी Bahasa Indonesia Íslenska Italiano Magyar Bahasa Melayu Nederlands 日本語 Português Slovenščina Suomi Svenska Tagalog தமிழ் ไทย Türkçe Українська 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Formula for the derivative of a ratio of functions Part of a series of articles about Calculus ∫ a b f ′ ( t ) d t = f ( b ) − f ( a ) {\displaystyle \int _{a}^{b}f'(t)\,dt=f(b)-f(a)} Fundamental theorem Limits Continuity Rolle's theorem Mean value theorem Inverse function theorem Differential Definitions Derivative ( generalizations ) Differential infinitesimal of a function total Concepts Differentiation notation Second derivative Implicit differentiation Logarithmic differentiation Related rates Taylor's theorem Rules and identities Sum Product Chain Power Quotient L'Hôpital's rule Inverse General Leibniz Faà di Bruno's formula Reynolds Integral Lists of integrals Integral transform Leibniz integral rule Definitions Antiderivative Integral ( improper ) Riemann integral Lebesgue integration Contour integration Integral of inverse functions Integration by Parts Discs Cylindrical shells Substitution ( trigonometric , tangent half-angle , Euler ) Euler's formula Partial fractions Changing order Reduction formulae Differentiating under the integral sign Risch algorithm Series Geometric ( arithmetico-geometric ) Harmonic Alternating Power Binomial Taylor Convergence tests Summand limit (term test) Ratio Root Integral Direct comparison Limit comparison Alternating series Cauchy condensation Dirichlet Abel Vector Gradient Divergence Curl Laplacian Directional derivative Identities Theorems Gradient Green's Stokes' Divergence generalized Stokes Helmholtz decomposition Multivariable Formalisms Matrix Tensor Exterior Geometric Definitions Partial derivative Multiple integral Line integral Surface integral Volume integral Jacobian Hessian Advanced Calculus on Euclidean space Generalized functions Limit of distributions Specialized Fractional Malliavin Stochastic Variations Miscellaneous Precalculus History Glossary List of topics Integration Bee Mathematical analysis Nonstandard analysis v t e In calculus , the quotient rule is a method of finding the derivative of a function that is the ratio of two differentiable functions.
+
+[1] [2] [3] Let h ( x ) = f ( x ) g ( x ) {\displaystyle h(x)={\frac {f(x)}{g(x)}}} , where both f and g are differentiable and g ( x ) ≠ 0.
+
+{\displaystyle g(x)\neq 0.
+
+} The quotient rule states that the derivative of h ( x ) is h ′ ( x ) = f ′ ( x ) g ( x ) − f ( x ) g ′ ( x ) ( g ( x ) ) 2.
+
+{\displaystyle h'(x)={\frac {f'(x)g(x)-f(x)g'(x)}{(g(x))^{2}}}.
+
+} It is provable in many ways by using other derivative rules.
+
+Examples [ edit ] Example 1: Basic example [ edit ] Given h ( x ) = e x x 2 {\displaystyle h(x)={\frac {e^{x}}{x^{2}}}} , let f ( x ) = e x , g ( x ) = x 2 {\displaystyle f(x)=e^{x},g(x)=x^{2}} , then using the quotient rule: d d x ( e x x 2 ) = ( d d x e x ) ( x 2 ) − ( e x ) ( d d x x 2 ) ( x 2 ) 2 = ( e x ) ( x 2 ) − ( e x ) ( 2 x ) x 4 = x 2 e x − 2 x e x x 4 = x e x − 2 e x x 3 = e x ( x − 2 ) x 3.
+
+{\displaystyle {\begin{aligned}{\frac {d}{dx}}\left({\frac {e^{x}}{x^{2}}}\right)&={\frac {\left({\frac {d}{dx}}e^{x}\right)(x^{2})-(e^{x})\left({\frac {d}{dx}}x^{2}\right)}{(x^{2})^{2}}}\\&={\frac {(e^{x})(x^{2})-(e^{x})(2x)}{x^{4}}}\\&={\frac {x^{2}e^{x}-2xe^{x}}{x^{4}}}\\&={\frac {xe^{x}-2e^{x}}{x^{3}}}\\&={\frac {e^{x}(x-2)}{x^{3}}}.
+
+\end{aligned}}} Example 2: Derivative of tangent function [ edit ] The quotient rule can be used to find the derivative of tan ⁡ x = sin ⁡ x cos ⁡ x {\displaystyle \tan x={\frac {\sin x}{\cos x}}} as follows: d d x tan ⁡ x = d d x ( sin ⁡ x cos ⁡ x ) = ( d d x sin ⁡ x ) ( cos ⁡ x ) − ( sin ⁡ x ) ( d d x cos ⁡ x ) cos 2 ⁡ x = ( cos ⁡ x ) ( cos ⁡ x ) − ( sin ⁡ x ) ( − sin ⁡ x ) cos 2 ⁡ x = cos 2 ⁡ x + sin 2 ⁡ x cos 2 ⁡ x = 1 cos 2 ⁡ x = sec 2 ⁡ x.
+
+{\displaystyle {\begin{aligned}{\frac {d}{dx}}\tan x&={\frac {d}{dx}}\left({\frac {\sin x}{\cos x}}\right)\\&={\frac {\left({\frac {d}{dx}}\sin x\right)(\cos x)-(\sin x)\left({\frac {d}{dx}}\cos x\right)}{\cos ^{2}x}}\\&={\frac {(\cos x)(\cos x)-(\sin x)(-\sin x)}{\cos ^{2}x}}\\&={\frac {\cos ^{2}x+\sin ^{2}x}{\cos ^{2}x}}\\&={\frac {1}{\cos ^{2}x}}=\sec ^{2}x.
+
+\end{aligned}}} Reciprocal rule [ edit ] Main article: Reciprocal rule The reciprocal rule is a special case of the quotient rule in which the numerator f ( x ) = 1 {\displaystyle f(x)=1}.
+
+Applying the quotient rule gives h ′ ( x ) = d d x [ 1 g ( x ) ] = 0 ⋅ g ( x ) − 1 ⋅ g ′ ( x ) g ( x ) 2 = − g ′ ( x ) g ( x ) 2.
+
+{\displaystyle h'(x)={\frac {d}{dx}}\left[{\frac {1}{g(x)}}\right]={\frac {0\cdot g(x)-1\cdot g'(x)}{g(x)^{2}}}={\frac {-g'(x)}{g(x)^{2}}}.
+
+} Utilizing the chain rule yields the same result.
+
+Proofs [ edit ] Proof from derivative definition and limit properties [ edit ] Let h ( x ) = f ( x ) g ( x ).
+
+{\displaystyle h(x)={\frac {f(x)}{g(x)}}.
+
+} Applying the definition of the derivative and properties of limits gives the following proof, with the term f ( x ) g ( x ) {\displaystyle f(x)g(x)} added and subtracted to allow splitting and factoring in subsequent steps without affecting the value: h ′ ( x ) = lim k → 0 h ( x + k ) − h ( x ) k = lim k → 0 f ( x + k ) g ( x + k ) − f ( x ) g ( x ) k = lim k → 0 f ( x + k ) g ( x ) − f ( x ) g ( x + k ) k ⋅ g ( x ) g ( x + k ) = lim k → 0 f ( x + k ) g ( x ) − f ( x ) g ( x + k ) k ⋅ lim k → 0 1 g ( x ) g ( x + k ) = lim k → 0 [ f ( x + k ) g ( x ) − f ( x ) g ( x ) + f ( x ) g ( x ) − f ( x ) g ( x + k ) k ] ⋅ 1 g ( x ) 2 = [ lim k → 0 f ( x + k ) g ( x ) − f ( x ) g ( x ) k − lim k → 0 f ( x ) g ( x + k ) − f ( x ) g ( x ) k ] ⋅ 1 g ( x ) 2 = [ lim k → 0 f ( x + k ) − f ( x ) k ⋅ g ( x ) − f ( x ) ⋅ lim k → 0 g ( x + k ) − g ( x ) k ] ⋅ 1 g ( x ) 2 = f ′ ( x ) g ( x ) − f ( x ) g ′ ( x ) g ( x ) 2.
+
+{\displaystyle {\begin{aligned}h'(x)&=\lim _{k\to 0}{\frac {h(x+k)-h(x)}{k}}\\&=\lim _{k\to 0}{\frac {{\frac {f(x+k)}{g(x+k)}}-{\frac {f(x)}{g(x)}}}{k}}\\&=\lim _{k\to 0}{\frac {f(x+k)g(x)-f(x)g(x+k)}{k\cdot g(x)g(x+k)}}\\&=\lim _{k\to 0}{\frac {f(x+k)g(x)-f(x)g(x+k)}{k}}\cdot \lim _{k\to 0}{\frac {1}{g(x)g(x+k)}}\\&=\lim _{k\to 0}\left[{\frac {f(x+k)g(x)-f(x)g(x)+f(x)g(x)-f(x)g(x+k)}{k}}\right]\cdot {\frac {1}{g(x)^{2}}}\\&=\left[\lim _{k\to 0}{\frac {f(x+k)g(x)-f(x)g(x)}{k}}-\lim _{k\to 0}{\frac {f(x)g(x+k)-f(x)g(x)}{k}}\right]\cdot {\frac {1}{g(x)^{2}}}\\&=\left[\lim _{k\to 0}{\frac {f(x+k)-f(x)}{k}}\cdot g(x)-f(x)\cdot \lim _{k\to 0}{\frac {g(x+k)-g(x)}{k}}\right]\cdot {\frac {1}{g(x)^{2}}}\\&={\frac {f'(x)g(x)-f(x)g'(x)}{g(x)^{2}}}.
+
+\end{aligned}}} The limit evaluation lim k → 0 1 g ( x + k ) g ( x ) = 1 g ( x ) 2 {\displaystyle \lim _{k\to 0}{\frac {1}{g(x+k)g(x)}}={\frac {1}{g(x)^{2}}}} is justified by the differentiability of g ( x ) {\displaystyle g(x)} , implying continuity, which can be expressed as lim k → 0 g ( x + k ) = g ( x ) {\displaystyle \lim _{k\to 0}g(x+k)=g(x)}.
+
+Proof using implicit differentiation [ edit ] Let h ( x ) = f ( x ) g ( x ) , {\displaystyle h(x)={\frac {f(x)}{g(x)}},} so that f ( x ) = g ( x ) h ( x ).
+
+{\displaystyle f(x)=g(x)h(x).
+
+} The product rule then gives f ′ ( x ) = g ′ ( x ) h ( x ) + g ( x ) h ′ ( x ).
+
+{\displaystyle f'(x)=g'(x)h(x)+g(x)h'(x).
+
+} Solving for h ′ ( x ) {\displaystyle h'(x)} and substituting back for h ( x ) {\displaystyle h(x)} gives: h ′ ( x ) = f ′ ( x ) − g ′ ( x ) h ( x ) g ( x ) = f ′ ( x ) − g ′ ( x ) ⋅ f ( x ) g ( x ) g ( x ) = f ′ ( x ) g ( x ) − f ( x ) g ′ ( x ) g ( x ) 2.
+
+{\displaystyle {\begin{aligned}h'(x)&={\frac {f'(x)-g'(x)h(x)}{g(x)}}\\&={\frac {f'(x)-g'(x)\cdot {\frac {f(x)}{g(x)}}}{g(x)}}\\&={\frac {f'(x)g(x)-f(x)g'(x)}{g(x)^{2}}}.
+
+\end{aligned}}} Proof using the reciprocal rule or chain rule [ edit ] Let h ( x ) = f ( x ) g ( x ) = f ( x ) ⋅ 1 g ( x ).
+
+{\displaystyle h(x)={\frac {f(x)}{g(x)}}=f(x)\cdot {\frac {1}{g(x)}}.
+
+} Then the product rule gives h ′ ( x ) = f ′ ( x ) ⋅ 1 g ( x ) + f ( x ) ⋅ d d x [ 1 g ( x ) ].
+
+{\displaystyle h'(x)=f'(x)\cdot {\frac {1}{g(x)}}+f(x)\cdot {\frac {d}{dx}}\left[{\frac {1}{g(x)}}\right].
+
+} To evaluate the derivative in the second term, apply the reciprocal rule , or the power rule along with the chain rule : d d x [ 1 g ( x ) ] = − 1 g ( x ) 2 ⋅ g ′ ( x ) = − g ′ ( x ) g ( x ) 2.
+
+{\displaystyle {\frac {d}{dx}}\left[{\frac {1}{g(x)}}\right]=-{\frac {1}{g(x)^{2}}}\cdot g'(x)={\frac {-g'(x)}{g(x)^{2}}}.
+
+} Substituting the result into the expression gives h ′ ( x ) = f ′ ( x ) ⋅ 1 g ( x ) + f ( x ) ⋅ [ − g ′ ( x ) g ( x ) 2 ] = f ′ ( x ) g ( x ) − f ( x ) g ′ ( x ) g ( x ) 2 = g ( x ) g ( x ) ⋅ f ′ ( x ) g ( x ) − f ( x ) g ′ ( x ) g ( x ) 2 = f ′ ( x ) g ( x ) − f ( x ) g ′ ( x ) g ( x ) 2.
+
+{\displaystyle {\begin{aligned}h'(x)&=f'(x)\cdot {\frac {1}{g(x)}}+f(x)\cdot \left[{\frac {-g'(x)}{g(x)^{2}}}\right]\\&={\frac {f'(x)}{g(x)}}-{\frac {f(x)g'(x)}{g(x)^{2}}}\\&={\frac {g(x)}{g(x)}}\cdot {\frac {f'(x)}{g(x)}}-{\frac {f(x)g'(x)}{g(x)^{2}}}\\&={\frac {f'(x)g(x)-f(x)g'(x)}{g(x)^{2}}}.
+
+\end{aligned}}} Proof by logarithmic differentiation [ edit ] Let h ( x ) = f ( x ) g ( x ).
+
+{\displaystyle h(x)={\frac {f(x)}{g(x)}}.
+
+} Taking the absolute value and natural logarithm of both sides of the equation gives ln ⁡ | h ( x ) | = ln ⁡ | f ( x ) g ( x ) | {\displaystyle \ln |h(x)|=\ln \left|{\frac {f(x)}{g(x)}}\right|} Applying properties of the absolute value and logarithms, ln ⁡ | h ( x ) | = ln ⁡ | f ( x ) | − ln ⁡ | g ( x ) | {\displaystyle \ln |h(x)|=\ln |f(x)|-\ln |g(x)|} Taking the logarithmic derivative of both sides, h ′ ( x ) h ( x ) = f ′ ( x ) f ( x ) − g ′ ( x ) g ( x ) {\displaystyle {\frac {h'(x)}{h(x)}}={\frac {f'(x)}{f(x)}}-{\frac {g'(x)}{g(x)}}} Solving for h ′ ( x ) {\displaystyle h'(x)} and substituting back f ( x ) g ( x ) {\displaystyle {\tfrac {f(x)}{g(x)}}} for h ( x ) {\displaystyle h(x)} gives: h ′ ( x ) = h ( x ) [ f ′ ( x ) f ( x ) − g ′ ( x ) g ( x ) ] = f ( x ) g ( x ) [ f ′ ( x ) f ( x ) − g ′ ( x ) g ( x ) ] = f ′ ( x ) g ( x ) − f ( x ) g ′ ( x ) g ( x ) 2 = f ′ ( x ) g ( x ) − f ( x ) g ′ ( x ) g ( x ) 2.
+
+{\displaystyle {\begin{aligned}h'(x)&=h(x)\left[{\frac {f'(x)}{f(x)}}-{\frac {g'(x)}{g(x)}}\right]\\&={\frac {f(x)}{g(x)}}\left[{\frac {f'(x)}{f(x)}}-{\frac {g'(x)}{g(x)}}\right]\\&={\frac {f'(x)}{g(x)}}-{\frac {f(x)g'(x)}{g(x)^{2}}}\\&={\frac {f'(x)g(x)-f(x)g'(x)}{g(x)^{2}}}.
+
+\end{aligned}}} Taking the absolute value of the functions is necessary for the logarithmic differentiation of functions that may have negative values, as logarithms are only real-valued for positive arguments.
+
+This works because d d x ( ln ⁡ | u | ) = u ′ u {\displaystyle {\tfrac {d}{dx}}(\ln |u|)={\tfrac {u'}{u}}} , which justifies taking the absolute value of the functions for logarithmic differentiation.
+
+Higher order derivatives [ edit ] Implicit differentiation can be used to compute the n th derivative of a quotient (partially in terms of its first n − 1 derivatives).
+
+For example, differentiating f = g h {\displaystyle f=gh} twice (resulting in f ″ = g ″ h + 2 g ′ h ′ + g h ″ {\displaystyle f''=g''h+2g'h'+gh''} ) and then solving for h ″ {\displaystyle h''} yields h ″ = ( f g ) ″ = f ″ − g ″ h − 2 g ′ h ′ g.
+
+{\displaystyle h''=\left({\frac {f}{g}}\right)''={\frac {f''-g''h-2g'h'}{g}}.
+
+} See also [ edit ] Chain rule – For derivatives of composed functions Differentiation of integrals – Problem in mathematics Differentiation rules – Rules for computing derivatives of functions General Leibniz rule – Generalization of the product rule in calculus Inverse functions and differentiation – Calculus identity Pages displaying short descriptions of redirect targets Linearity of differentiation – Calculus property Product rule – Formula for the derivative of a product Reciprocal rule – differentiation rule Pages displaying wikidata descriptions as a fallback Table of derivatives – Rules for computing derivatives of functions Pages displaying short descriptions of redirect targets Vector calculus identities – Mathematical identities References [ edit ] ^ Stewart, James (2008).
+
+Calculus: Early Transcendentals (6th ed.
+
+).
+
+Brooks/Cole.
+
+ISBN 978-0-495-01166-8.
+
+^ Larson, Ron ; Edwards, Bruce H.
+
+(2009).
+
+Calculus (9th ed.
+
+).
+
+Brooks/Cole.
+
+ISBN 978-0-547-16702-2.
+
+^ Thomas, George B.
+
+; Weir, Maurice D.
+
+; Hass, Joel (2010).
+
+Thomas' Calculus: Early Transcendentals (12th ed.
+
+).
+
+Addison-Wesley.
+
+ISBN 978-0-321-58876-0.
+
+v t e Calculus Precalculus Binomial theorem Concave function Continuous function Factorial Finite difference Free variables and bound variables Graph of a function Linear function Radian Rolle's theorem Secant Slope Tangent Limits Indeterminate form Limit of a function One-sided limit Limit of a sequence Order of approximation (ε, δ)-definition of limit Differential calculus Derivative Second derivative Partial derivative Differential Differential operator Mean value theorem Notation Leibniz's notation Newton's notation Rules of differentiation linearity Power Sum Chain L'Hôpital's Product General Leibniz's rule Quotient Other techniques Implicit differentiation Inverse functions and differentiation Logarithmic derivative Related rates Stationary points First derivative test Second derivative test Extreme value theorem Maximum and minimum Further applications Newton's method Taylor's theorem Differential equation Ordinary differential equation Partial differential equation Stochastic differential equation Integral calculus Antiderivative Arc length Riemann integral Basic properties Constant of integration Fundamental theorem of calculus Differentiating under the integral sign Integration by parts Integration by substitution trigonometric Euler Tangent half-angle substitution Partial fractions in integration Quadratic integral Trapezoidal rule Volumes Washer method Shell method Integral equation Integro-differential equation Vector calculus Derivatives Curl Directional derivative Divergence Gradient Laplacian Basic theorems Line integrals Green's Stokes' Gauss' Multivariable calculus Divergence theorem Geometric Hessian matrix Jacobian matrix and determinant Lagrange multiplier Line integral Matrix Multiple integral Partial derivative Surface integral Volume integral Advanced topics Differential forms Exterior derivative Generalized Stokes' theorem Tensor calculus Sequences and series Arithmetico-geometric sequence Types of series Alternating Binomial Fourier Geometric Harmonic Infinite Power Maclaurin Taylor Telescoping Tests of convergence Abel's Alternating series Cauchy condensation Direct comparison Dirichlet's Integral Limit comparison Ratio Root Term Special functions and numbers Bernoulli numbers e (mathematical constant) Exponential function Natural logarithm Stirling's approximation History of calculus Adequality Brook Taylor Colin Maclaurin Generality of algebra Gottfried Wilhelm Leibniz Infinitesimal Infinitesimal calculus Isaac Newton Fluxion Law of Continuity Leonhard Euler Method of Fluxions The Method of Mechanical Theorems Lists Integrals rational functions irrational functions exponential functions logarithmic functions hyperbolic functions inverse trigonometric functions inverse Secant Secant cubed List of limits List of derivatives Miscellaneous topics Complex calculus Contour integral Differential geometry Manifold Curvature of curves of surfaces Tensor Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Regiomontanus' angle maximization problem Steinmetz solid Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Quotient_rule&oldid=1207836978 " Categories : Differentiation rules Theorems in analysis Theorems in calculus Hidden categories: Articles with short description Short description is different from Wikidata Pages using sidebar with the child parameter Pages displaying short descriptions of redirect targets via Module:Annotated link Pages displaying wikidata descriptions as a fallback via Module:Annotated link Articles containing proofs This page was last edited on 15 February 2024, at 21:20 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

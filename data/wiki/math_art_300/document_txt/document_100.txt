@@ -1,0 +1,285 @@
+Newton disc - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 History Toggle History subsection 1.
+
+1 Newton's primary colours 2 See also 3 References 4 External links Toggle the table of contents Newton disc 13 languages العربية Català Español Français हिन्दी Italiano עברית Nederlands 日本語 Polski Português Română தமிழ் Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia Coloured disc that appears grey when rotated Colour distribution of a Newton disc The Newton disc , also known as the disappearing colour disc , is a well-known physics experiment with a rotating disc with segments in different colours (usually Newton's primary colours : red, orange, yellow, green, blue, indigo, and violet, commonly known by the abbreviation ROYGBIV ) appearing as white (or off-white or grey) when it's spun rapidly about its axis.
+
+This type of mix of light stimuli is called temporal optical mixing, a version of additive-averaging mixing.
+
+[1] The concept that human visual perception cannot distinguish details of high-speed movements is popularly known as persistence of vision.
+
+The disc is named after Isaac Newton.
+
+Although he published a circular diagram with segments for the primary colours that he had discovered (i.
+
+e.
+
+a colour wheel ), it is unlikely that he ever used a spinning disc to demonstrate the principles of light.
+
+He actually referred to the mixture of colours painted on a spinning top as "dirty" and described several different experiments that support his theory.
+
+Transparent variations for magic lantern projection have been produced.
+
+[2] History [ edit ] Around 165 CE, Ptolemy described in his book Optics a rotating potter's wheel with different colours on it.
+
+He noted how the different colours of sectors mixed together into one colour and how dots appeared as circles when the wheel was spinning very fast.
+
+When lines are drawn across the axis of the disc they make the whole surface appear to be of a uniform colour.
+
+"The visual impression that is created in the first revolution is invariably followed by repeated instances that subsequently produce an identical impression.
+
+This also happens in the case of shooting stars, whose light seems distended on account of their speed of motion, all according to the amount of perceptible distance it passes along with the sensible impression that arises in the visual faculty.
+
+" [3] [4] Porphyry ( c.
+
+243 – c.
+
+305 ) wrote in his commentary on Ptolemy's Harmonics how the senses are not stable but confused and inaccurate.
+
+Certain intervals between repeated impressions are not detected.
+
+A white or black spot on a spinning cone (or top) appears as a circle of that colour and a line on the top makes the whole surface appear in that colour.
+
+"Because of the swiftness of the movement we receive the impression of the line on every part of the cone as the line moves.
+
+" [5] In the 11th century Ibn al-Haytham , who was familiar with Ptolemy's writings, described how coloured lines on a spinning top could not be discerned as different colours but appeared as one new colour composed of all of the colours of the lines.
+
+He deducted that sight needs some time to discern a colour.
+
+al-Haytam also noted that the top appeared motionless when spun extremely quick "for none of its points remains fixed in the same spot for any perceptible time".
+
+[6] After Ibn al-Haytham , Fakhr al-Din al-Razi (d.
+
+1209) performed the spinning disk experiment, and like his predecessors he concluded that it shows an optical illusion.
+
+However, the astronomer-mathematician Nasir al-Din al-Tusi described al-Razi's text and arrived at a very different conclusion.
+
+Tusi introduced a common sense organ that forwards colour impressions to the soul.
+
+When colours change too fast, this organ can only pass on the mixed colour.
+
+One of Tusi's students was Qutb al-Din al-Shirazi (d.
+
+1311), and together with his student Kamal al-Din al-Farisi he tried to explain the colours perceived in the experiment.
+
+[7] Newton's primary colours [ edit ] On 16 February 1672 (6 February 1671 [old style]), Newton sent a paper to the Royal Society's journal Philosophical Transactions , about the experiments he had been conducting since 1666 with the refraction of light through glass prisms.
+
+He concluded that the different refracted rays of light – well parted from others – could not be changed by further refraction, nor by reflection or other means, except through mixture with other rays.
+
+He thus found the seven primary colours red, orange, yellow, green, blue, "a violet-purple" and indigo.
+
+When mixing the coloured rays from a prism, he found that "the most surprising and wonderful composition was that of whiteness" requiring all the primary colours "mixed in a due proportion".
+
+[8] In reaction to Robert Hooke 's criticism of the new theory of light, Newton published a letter in the Philosophical Transactions , with other experiments that proved how sunlight existed of rays with different colours.
+
+He described how the cogs or teeth of a gyrating wheel behind a prism can block part of the light so that all the colours would be projected successively if the wheel turns rather slow, but how all the colours will be mixed into white light if the wheel turn very fast.
+
+He also pointed out that rays of light that were reflected from multi-coloured bodies were weakened by the loss of many rays and that a mixture of those rays would not produce a pure white, but a grey or "dirty" colour.
+
+This could be seen in dust, which on close inspection would reveal that it consists of many coloured particles, or when mixing several colours of paint.
+
+He also referred to a child's top which would display a "dirty" colour if it was painted in several colours and made to spin fast by whipping it.
+
+[9] After presenting his conclusions about dividing sunlight into primary colours and mixing them back together into white light, Newton presented a colour circle to illustrate the relations between these colours in his book Opticks (1704).
+
+[10] Many modern sources state that Isaac Newton himself used a spinning disc with coloured sectors to demonstrate how white light was actually the compound of the primary colours.
+
+[11] [12] [13] However, these do not reference any historical source.
+
+According to Joseph Plateau , the first to describe how a spinning disc with Newton's seven primary colours would show an (imperfect) white colour was Pieter van Musschenbroek in 1762.
+
+[14] See also [ edit ] Benham's top References [ edit ] ^ Briggs, David (12 August 2012).
+
+"Additive mixing, additive-averaging".
+
+The Dimensions of Colour.
+
+Retrieved 11 August 2018.
+
+^ Greenslade, Jr.
+
+, Thomas B.
+
+"Newton's Color Wheel".
+
+Instruments for Natural Philosophy.
+
+Kenyon College.
+
+Retrieved 11 August 2018.
+
+^ Smith, A.
+
+Mark (1999).
+
+Ptolemy and the Foundations of Ancient Mathematical Optics: A Source Based Guided Study.
+
+American Philosophical Society.
+
+ISBN 9780871698933.
+
+^ Smith, A.
+
+Mark (1996).
+
+"Ptolemy's Theory of Visual Perception: An English Translation of the "Optics" with Introduction and Commentary".
+
+Transactions of the American Philosophical Society.
+
+86 (2): iii–300.
+
+doi : 10.
+
+2307/3231951.
+
+JSTOR 3231951.
+
+^ Barker, Andrew (15 September 2015).
+
+Porphyry's Commentary on Ptolemy's Harmonics: A Greek Text and Annotated Translation.
+
+Cambridge University Press.
+
+ISBN 9781107003859.
+
+^ Alhazen (2001).
+
+Smith, A.
+
+Mark (ed.
+
+).
+
+Alhacen's Theory of Visual Perception: A Critical Edition, with English Translation and Commentary, of the First Three Books of Alhacen's De Aspectibus, the Medieval Latin Version of Ibn Al-Haytham's Kitab Al-Manazir.
+
+American Philosophical Society.
+
+ISBN 9780871699145.
+
+^ Kirchner, E.
+
+(2013).
+
+"Color theory and color order in medieval Islam: A review".
+
+Color Research & Application.
+
+40 (1): 5-16.
+
+doi : 10.
+
+1002/col.
+
+21861.
+
+^ Newton, Isaac (1671).
+
+"A Letter of Mr.
+
+Isaac Newton, Professor of the Mathematicks in the University of Cambridge; Containing His New Theory about Light and Colors: Sent by the Author to the Publisher from Cambridge, Febr.
+
+6.
+
+1671/72; In Order to be Communicated to the R.
+
+Society".
+
+Philosophical Transactions of the Royal Society.
+
+6 (80): 3075–3087.
+
+Bibcode : 1671RSPT.
+
+6.
+
+3075N.
+
+doi : 10.
+
+1098/rstl.
+
+1671.
+
+0072.
+
+JSTOR 101125.
+
+; Under the dual dating system used in the British Empire prior to 1752 , the dates between 1 January and 24 March were often mentioned in terms of what the year would be starting 25 March; hence, 1671/72 on the British calendar was 1672.
+
+^ Royal Society (Great Britain); Britain), Royal Society (Great; Hutton, Charles; Maty, Paul Henry; Pearson, Richard; Shaw, George; Stuart, Alexander; Britain), Royal Society (Great; Britain), Royal Society (Great (1672).
+
+Philosophical transactions of the Royal Society of London.
+
+Vol.
+
+v.
+
+7-8=no.
+
+81-100 (1672-1673).
+
+London: Royal Society of London.
+
+^ Newton, Isaac (1730).
+
+Opticks: Or, A Treatise of the Reflections, Refractions, Inflections and Colours of Light.
+
+William Innys at the West-End of St.
+
+Paul's.
+
+pp.
+
+154–158.
+
+^ Weinhold, Adolf Ferdinand; Loewy, Benjamin (1875).
+
+Introduction to Experimental Physics, Theoretical and Practical: Including Directions for Constructing Physical Apparatus and for Making Experiments.
+
+Longmans, Green.
+
+p.
+
+541.
+
+^ Isaac Newton.
+
+^ Pereira, David (30 June 2011).
+
+The Art of HDR Photography.
+
+David Pereira.
+
+ISBN 9781937367022.
+
+^ Mémoires de l'Academie royale des sciences, des lettres et des beaux-arts de Belgique (in French).
+
+L'Académie.
+
+1878.
+
+External links [ edit ] "Newton's Disk Flash".
+
+TD Flash Zone.
+
+2017.
+
+v t e Sir Isaac Newton Publications Fluxions (1671) De Motu (1684) Principia (1687) Opticks (1704) Queries (1704) Arithmetica (1707) De Analysi (1711) Other writings Quaestiones (1661–1665) " standing on the shoulders of giants " (1675) Notes on the Jewish Temple (c.
+
+1680) " General Scholium " (1713; " hypotheses non fingo " ) Ancient Kingdoms Amended (1728) Corruptions of Scripture (1754) Contributions Calculus fluxion Impact depth Inertia Newton disc Newton polygon Newton–Okounkov body Newton's reflector Newtonian telescope Newton scale Newton's metal Spectrum Structural coloration Newtonianism Bucket argument Newton's inequalities Newton's law of cooling Newton's law of universal gravitation post-Newtonian expansion parameterized gravitational constant Newton–Cartan theory Schrödinger–Newton equation Newton's laws of motion Kepler's laws Newtonian dynamics Newton's method in optimization Apollonius's problem truncated Newton method Gauss–Newton algorithm Newton's rings Newton's theorem about ovals Newton–Pepys problem Newtonian potential Newtonian fluid Classical mechanics Corpuscular theory of light Leibniz–Newton calculus controversy Newton's notation Rotating spheres Newton's cannonball Newton–Cotes formulas Newton's method generalized Gauss–Newton method Newton fractal Newton's identities Newton polynomial Newton's theorem of revolving orbits Newton–Euler equations Newton number kissing number problem Newton's quotient Parallelogram of force Newton–Puiseux theorem Absolute space and time Luminiferous aether Newtonian series table Personal life Woolsthorpe Manor (birthplace) Cranbury Park (home) Early life Later life Apple tree Religious views Occult studies Scientific Revolution Copernican Revolution Relations Catherine Barton (niece) John Conduitt (nephew-in-law) Isaac Barrow (professor) William Clarke (mentor) Benjamin Pulleyn (tutor) John Keill (disciple) William Stukeley (friend) William Jones (friend) Abraham de Moivre (friend) Depictions Newton by Blake (monotype) Newton by Paolozzi (sculpture) Isaac Newton Gargoyle Astronomers Monument Namesake Newton (unit) Newton's cradle Isaac Newton Institute Isaac Newton Medal Isaac Newton Telescope Isaac Newton Group of Telescopes XMM-Newton Sir Isaac Newton Sixth Form Statal Institute of Higher Education Isaac Newton Newton International Fellowship Categories Isaac Newton Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Newton_disc&oldid=1213675692 " Categories : Isaac Newton Color Hidden categories: CS1: long volume value CS1 French-language sources (fr) Articles with short description Short description is different from Wikidata Use dmy dates from March 2023 Use British English from March 2023 This page was last edited on 14 March 2024, at 13:25 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

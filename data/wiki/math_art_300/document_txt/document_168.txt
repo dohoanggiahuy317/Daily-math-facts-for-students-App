@@ -1,0 +1,147 @@
+Inverse function rule - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Derivation 2 Examples 3 Additional properties 4 Higher derivatives 5 Example 6 See also 7 References Toggle the table of contents Inverse function rule 10 languages العربية Català Deutsch Español Français Italiano Русский Српски / srpski தமிழ் 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Calculus identity This article needs additional citations for verification.
+
+Please help improve this article by adding citations to reliable sources.
+
+Unsourced material may be challenged and removed.
+
+Find sources: "Inverse function rule" – news · newspapers · books · scholar · JSTOR ( January 2022 ) ( Learn how and when to remove this message ) The thick blue curve and the thick red curves are inverse to each other.
+
+A thin curve is the derivative of the same colored thick curve.
+
+Inverse function rule: f ′ ( x ) = 1 ( f − 1 ) ′ ( f ( x ) ) {\displaystyle {\color {CornflowerBlue}{f'}}(x)={\frac {1}{{\color {Salmon}{(f^{-1})'}}({\color {Blue}{f}}(x))}}} Example for arbitrary x 0 ≈ 5.
+
+8 {\displaystyle x_{0}\approx 5.
+
+8} : f ′ ( x 0 ) = 1 4 {\displaystyle {\color {CornflowerBlue}{f'}}(x_{0})={\frac {1}{4}}} ( f − 1 ) ′ ( f ( x 0 ) ) = 4 {\displaystyle {\color {Salmon}{(f^{-1})'}}({\color {Blue}{f}}(x_{0}))=4~} Part of a series of articles about Calculus ∫ a b f ′ ( t ) d t = f ( b ) − f ( a ) {\displaystyle \int _{a}^{b}f'(t)\,dt=f(b)-f(a)} Fundamental theorem Limits Continuity Rolle's theorem Mean value theorem Inverse function theorem Differential Definitions Derivative ( generalizations ) Differential infinitesimal of a function total Concepts Differentiation notation Second derivative Implicit differentiation Logarithmic differentiation Related rates Taylor's theorem Rules and identities Sum Product Chain Power Quotient L'Hôpital's rule Inverse General Leibniz Faà di Bruno's formula Reynolds Integral Lists of integrals Integral transform Leibniz integral rule Definitions Antiderivative Integral ( improper ) Riemann integral Lebesgue integration Contour integration Integral of inverse functions Integration by Parts Discs Cylindrical shells Substitution ( trigonometric , tangent half-angle , Euler ) Euler's formula Partial fractions Changing order Reduction formulae Differentiating under the integral sign Risch algorithm Series Geometric ( arithmetico-geometric ) Harmonic Alternating Power Binomial Taylor Convergence tests Summand limit (term test) Ratio Root Integral Direct comparison Limit comparison Alternating series Cauchy condensation Dirichlet Abel Vector Gradient Divergence Curl Laplacian Directional derivative Identities Theorems Gradient Green's Stokes' Divergence generalized Stokes Helmholtz decomposition Multivariable Formalisms Matrix Tensor Exterior Geometric Definitions Partial derivative Multiple integral Line integral Surface integral Volume integral Jacobian Hessian Advanced Calculus on Euclidean space Generalized functions Limit of distributions Specialized Fractional Malliavin Stochastic Variations Miscellaneous Precalculus History Glossary List of topics Integration Bee Mathematical analysis Nonstandard analysis v t e In calculus , the inverse function rule is a formula that expresses the derivative of the inverse of a bijective and differentiable function f in terms of the derivative of f.
+
+More precisely, if the inverse of f {\displaystyle f} is denoted as f − 1 {\displaystyle f^{-1}} , where f − 1 ( y ) = x {\displaystyle f^{-1}(y)=x} if and only if f ( x ) = y {\displaystyle f(x)=y} , then the inverse function rule is, in Lagrange's notation , [ f − 1 ] ′ ( a ) = 1 f ′ ( f − 1 ( a ) ) {\displaystyle \left[f^{-1}\right]'(a)={\frac {1}{f'\left(f^{-1}(a)\right)}}}.
+
+This formula holds in general whenever f {\displaystyle f} is continuous and injective on an interval I , with f {\displaystyle f} being differentiable at f − 1 ( a ) {\displaystyle f^{-1}(a)} ( ∈ I {\displaystyle \in I} ) and where f ′ ( f − 1 ( a ) ) ≠ 0 {\displaystyle f'(f^{-1}(a))\neq 0}.
+
+The same formula is also equivalent to the expression D [ f − 1 ] = 1 ( D f ) ∘ ( f − 1 ) , {\displaystyle {\mathcal {D}}\left[f^{-1}\right]={\frac {1}{({\mathcal {D}}f)\circ \left(f^{-1}\right)}},} where D {\displaystyle {\mathcal {D}}} denotes the unary derivative operator (on the space of functions) and ∘ {\displaystyle \circ } denotes function composition.
+
+Geometrically, a function and inverse function have graphs that are reflections , in the line y = x {\displaystyle y=x}.
+
+This reflection operation turns the gradient of any line into its reciprocal.
+
+[1] Assuming that f {\displaystyle f} has an inverse in a neighbourhood of x {\displaystyle x} and that its derivative at that point is non-zero, its inverse is guaranteed to be differentiable at x {\displaystyle x} and have a derivative given by the above formula.
+
+The inverse function rule may also be expressed in Leibniz's notation.
+
+As that notation suggests, d x d y ⋅ d y d x = 1.
+
+{\displaystyle {\frac {dx}{dy}}\,\cdot \,{\frac {dy}{dx}}=1.
+
+} This relation is obtained by differentiating the equation f − 1 ( y ) = x {\displaystyle f^{-1}(y)=x} in terms of x and applying the chain rule , yielding that: d x d y ⋅ d y d x = d x d x {\displaystyle {\frac {dx}{dy}}\,\cdot \,{\frac {dy}{dx}}={\frac {dx}{dx}}} considering that the derivative of x with respect to x is 1.
+
+Derivation [ edit ] Let f {\displaystyle f} be an invertible (bijective) function, let x {\displaystyle x} be in the domain of f {\displaystyle f} , and let y {\displaystyle y} be in the codomain of f {\displaystyle f}.
+
+Since f is a bijective function, y {\displaystyle y} is in the range of f {\displaystyle f}.
+
+This also means that y {\displaystyle y} is in the domain of f − 1 {\displaystyle f^{-1}} , and that x {\displaystyle x} is in the codomain of f − 1 {\displaystyle f^{-1}}.
+
+Since f {\displaystyle f} is an invertible function, we know that f ( f − 1 ( y ) ) = y {\displaystyle f(f^{-1}(y))=y}.
+
+The inverse function rule can be obtained by taking the derivative of this equation.
+
+d d y f ( f − 1 ( y ) ) = d d y y {\displaystyle {\dfrac {\mathrm {d} }{\mathrm {d} y}}f(f^{-1}(y))={\dfrac {\mathrm {d} }{\mathrm {d} y}}y} The right side is equal to 1 and the chain rule can be applied to the left side: d ( f ( f − 1 ( y ) ) ) d ( f − 1 ( y ) ) d ( f − 1 ( y ) ) d y = 1 d f ( f − 1 ( y ) ) d f − 1 ( y ) d f − 1 ( y ) d y = 1 f ′ ( f − 1 ( y ) ) ( f − 1 ) ′ ( y ) = 1 {\displaystyle {\begin{aligned}{\dfrac {\mathrm {d} \left(f(f^{-1}(y))\right)}{\mathrm {d} \left(f^{-1}(y)\right)}}{\dfrac {\mathrm {d} \left(f^{-1}(y)\right)}{\mathrm {d} y}}&=1\\{\dfrac {\mathrm {d} f(f^{-1}(y))}{\mathrm {d} f^{-1}(y)}}{\dfrac {\mathrm {d} f^{-1}(y)}{\mathrm {d} y}}&=1\\f^{\prime }(f^{-1}(y))(f^{-1})^{\prime }(y)&=1\end{aligned}}} Rearranging then gives ( f − 1 ) ′ ( y ) = 1 f ′ ( f − 1 ( y ) ) {\displaystyle (f^{-1})^{\prime }(y)={\frac {1}{f^{\prime }(f^{-1}(y))}}} Rather than using y {\displaystyle y} as the variable, we can rewrite this equation using a {\displaystyle a} as the input for f − 1 {\displaystyle f^{-1}} , and we get the following: [2] ( f − 1 ) ′ ( a ) = 1 f ′ ( f − 1 ( a ) ) {\displaystyle (f^{-1})^{\prime }(a)={\frac {1}{f^{\prime }\left(f^{-1}(a)\right)}}} Examples [ edit ] y = x 2 {\displaystyle y=x^{2}} (for positive x ) has inverse x = y {\displaystyle x={\sqrt {y}}}.
+
+d y d x = 2 x ; d x d y = 1 2 y = 1 2 x {\displaystyle {\frac {dy}{dx}}=2x{\mbox{ }}{\mbox{ }}{\mbox{ }}{\mbox{ }};{\mbox{ }}{\mbox{ }}{\mbox{ }}{\mbox{ }}{\frac {dx}{dy}}={\frac {1}{2{\sqrt {y}}}}={\frac {1}{2x}}} d y d x ⋅ d x d y = 2 x ⋅ 1 2 x = 1.
+
+{\displaystyle {\frac {dy}{dx}}\,\cdot \,{\frac {dx}{dy}}=2x\cdot {\frac {1}{2x}}=1.
+
+} At x = 0 {\displaystyle x=0} , however, there is a problem: the graph of the square root function becomes vertical, corresponding to a horizontal tangent for the square function.
+
+y = e x {\displaystyle y=e^{x}} (for real x ) has inverse x = ln ⁡ y {\displaystyle x=\ln {y}} (for positive y {\displaystyle y} ) d y d x = e x ; d x d y = 1 y = e − x {\displaystyle {\frac {dy}{dx}}=e^{x}{\mbox{ }}{\mbox{ }}{\mbox{ }}{\mbox{ }};{\mbox{ }}{\mbox{ }}{\mbox{ }}{\mbox{ }}{\frac {dx}{dy}}={\frac {1}{y}}=e^{-x}} d y d x ⋅ d x d y = e x ⋅ e − x = 1.
+
+{\displaystyle {\frac {dy}{dx}}\,\cdot \,{\frac {dx}{dy}}=e^{x}\cdot e^{-x}=1.
+
+} Additional properties [ edit ] Integrating this relationship gives f − 1 ( x ) = ∫ 1 f ′ ( f − 1 ( x ) ) d x + C.
+
+{\displaystyle {f^{-1}}(x)=\int {\frac {1}{f'({f^{-1}}(x))}}\,{dx}+C.
+
+} This is only useful if the integral exists.
+
+In particular we need f ′ ( x ) {\displaystyle f'(x)} to be non-zero across the range of integration.
+
+It follows that a function that has a continuous derivative has an inverse in a neighbourhood of every point where the derivative is non-zero.
+
+This need not be true if the derivative is not continuous.
+
+Another very interesting and useful property is the following: ∫ f − 1 ( x ) d x = x f − 1 ( x ) − F ( f − 1 ( x ) ) + C {\displaystyle \int f^{-1}(x)\,{dx}=xf^{-1}(x)-F(f^{-1}(x))+C} Where F {\displaystyle F} denotes the antiderivative of f {\displaystyle f}.
+
+The inverse of the derivative of f(x) is also of interest, as it is used in showing the convexity of the Legendre transform.
+
+Let z = f ′ ( x ) {\displaystyle z=f'(x)} then we have, assuming f ″ ( x ) ≠ 0 {\displaystyle f''(x)\neq 0} : d ( f ′ ) − 1 ( z ) d z = 1 f ″ ( x ) {\displaystyle {\frac {d(f')^{-1}(z)}{dz}}={\frac {1}{f''(x)}}} This can be shown using the previous notation y = f ( x ) {\displaystyle y=f(x)}.
+
+Then we have: f ′ ( x ) = d y d x = d y d z d z d x = d y d z f ″ ( x ) ⇒ d y d z = f ′ ( x ) f ″ ( x ) {\displaystyle f'(x)={\frac {dy}{dx}}={\frac {dy}{dz}}{\frac {dz}{dx}}={\frac {dy}{dz}}f''(x)\Rightarrow {\frac {dy}{dz}}={\frac {f'(x)}{f''(x)}}} Therefore: d ( f ′ ) − 1 ( z ) d z = d x d z = d y d z d x d y = f ′ ( x ) f ″ ( x ) 1 f ′ ( x ) = 1 f ″ ( x ) {\displaystyle {\frac {d(f')^{-1}(z)}{dz}}={\frac {dx}{dz}}={\frac {dy}{dz}}{\frac {dx}{dy}}={\frac {f'(x)}{f''(x)}}{\frac {1}{f'(x)}}={\frac {1}{f''(x)}}} By induction, we can generalize this result for any integer n ≥ 1 {\displaystyle n\geq 1} , with z = f ( n ) ( x ) {\displaystyle z=f^{(n)}(x)} , the nth derivative of f(x), and y = f ( n − 1 ) ( x ) {\displaystyle y=f^{(n-1)}(x)} , assuming f ( i ) ( x ) ≠ 0 for 0 < i ≤ n + 1 {\displaystyle f^{(i)}(x)\neq 0{\text{ for }}0<i\leq n+1} : d ( f ( n ) ) − 1 ( z ) d z = 1 f ( n + 1 ) ( x ) {\displaystyle {\frac {d(f^{(n)})^{-1}(z)}{dz}}={\frac {1}{f^{(n+1)}(x)}}} Higher derivatives [ edit ] The chain rule given above is obtained by differentiating the identity f − 1 ( f ( x ) ) = x {\displaystyle f^{-1}(f(x))=x} with respect to x.
+
+One can continue the same process for higher derivatives.
+
+Differentiating the identity twice with respect to x , one obtains d 2 y d x 2 ⋅ d x d y + d d x ( d x d y ) ⋅ ( d y d x ) = 0 , {\displaystyle {\frac {d^{2}y}{dx^{2}}}\,\cdot \,{\frac {dx}{dy}}+{\frac {d}{dx}}\left({\frac {dx}{dy}}\right)\,\cdot \,\left({\frac {dy}{dx}}\right)=0,} that is simplified further by the chain rule as d 2 y d x 2 ⋅ d x d y + d 2 x d y 2 ⋅ ( d y d x ) 2 = 0.
+
+{\displaystyle {\frac {d^{2}y}{dx^{2}}}\,\cdot \,{\frac {dx}{dy}}+{\frac {d^{2}x}{dy^{2}}}\,\cdot \,\left({\frac {dy}{dx}}\right)^{2}=0.
+
+} Replacing the first derivative, using the identity obtained earlier, we get d 2 y d x 2 = − d 2 x d y 2 ⋅ ( d y d x ) 3.
+
+{\displaystyle {\frac {d^{2}y}{dx^{2}}}=-{\frac {d^{2}x}{dy^{2}}}\,\cdot \,\left({\frac {dy}{dx}}\right)^{3}.
+
+} Similarly for the third derivative: d 3 y d x 3 = − d 3 x d y 3 ⋅ ( d y d x ) 4 − 3 d 2 x d y 2 ⋅ d 2 y d x 2 ⋅ ( d y d x ) 2 {\displaystyle {\frac {d^{3}y}{dx^{3}}}=-{\frac {d^{3}x}{dy^{3}}}\,\cdot \,\left({\frac {dy}{dx}}\right)^{4}-3{\frac {d^{2}x}{dy^{2}}}\,\cdot \,{\frac {d^{2}y}{dx^{2}}}\,\cdot \,\left({\frac {dy}{dx}}\right)^{2}} or using the formula for the second derivative, d 3 y d x 3 = − d 3 x d y 3 ⋅ ( d y d x ) 4 + 3 ( d 2 x d y 2 ) 2 ⋅ ( d y d x ) 5 {\displaystyle {\frac {d^{3}y}{dx^{3}}}=-{\frac {d^{3}x}{dy^{3}}}\,\cdot \,\left({\frac {dy}{dx}}\right)^{4}+3\left({\frac {d^{2}x}{dy^{2}}}\right)^{2}\,\cdot \,\left({\frac {dy}{dx}}\right)^{5}} These formulas are generalized by the Faà di Bruno's formula.
+
+These formulas can also be written using Lagrange's notation.
+
+If f and g are inverses, then g ″ ( x ) = − f ″ ( g ( x ) ) [ f ′ ( g ( x ) ) ] 3 {\displaystyle g''(x)={\frac {-f''(g(x))}{[f'(g(x))]^{3}}}} Example [ edit ] y = e x {\displaystyle y=e^{x}} has the inverse x = ln ⁡ y {\displaystyle x=\ln y}.
+
+Using the formula for the second derivative of the inverse function, d y d x = d 2 y d x 2 = e x = y ; ( d y d x ) 3 = y 3 ; {\displaystyle {\frac {dy}{dx}}={\frac {d^{2}y}{dx^{2}}}=e^{x}=y{\mbox{ }}{\mbox{ }}{\mbox{ }}{\mbox{ }};{\mbox{ }}{\mbox{ }}{\mbox{ }}{\mbox{ }}\left({\frac {dy}{dx}}\right)^{3}=y^{3};} so that d 2 x d y 2 ⋅ y 3 + y = 0 ; d 2 x d y 2 = − 1 y 2 {\displaystyle {\frac {d^{2}x}{dy^{2}}}\,\cdot \,y^{3}+y=0{\mbox{ }}{\mbox{ }}{\mbox{ }}{\mbox{ }};{\mbox{ }}{\mbox{ }}{\mbox{ }}{\mbox{ }}{\frac {d^{2}x}{dy^{2}}}=-{\frac {1}{y^{2}}}} , which agrees with the direct calculation.
+
+See also [ edit ] Mathematics portal Calculus – Branch of mathematics Chain rule – For derivatives of composed functions Differentiation of trigonometric functions – Mathematical process of finding the derivative of a trigonometric function Differentiation rules – Rules for computing derivatives of functions Implicit function theorem – On converting relations to functions of several real variables Integration of inverse functions – Mathematical theorem, used in calculus Pages displaying short descriptions of redirect targets Inverse function – Mathematical concept Inverse function theorem – Theorem in mathematics Table of derivatives – Rules for computing derivatives of functions Pages displaying short descriptions of redirect targets Vector calculus identities – Mathematical identities References [ edit ] ^ "Derivatives of Inverse Functions".
+
+oregonstate.
+
+edu.
+
+Archived from the original on 2021-04-10.
+
+Retrieved 2019-07-26.
+
+^ "Derivatives of inverse functions".
+
+Khan Academy.
+
+Retrieved 23 April 2022.
+
+Marsden, Jerrold E.
+
+; Weinstein, Alan (1981).
+
+"Chapter 8: Inverse Functions and the Chain Rule".
+
+Calculus unlimited (PDF).
+
+Menlo Park, Calif.
+
+: Benjamin/Cummings Pub.
+
+Co.
+
+ISBN 0-8053-6932-5.
+
+v t e Calculus Precalculus Binomial theorem Concave function Continuous function Factorial Finite difference Free variables and bound variables Graph of a function Linear function Radian Rolle's theorem Secant Slope Tangent Limits Indeterminate form Limit of a function One-sided limit Limit of a sequence Order of approximation (ε, δ)-definition of limit Differential calculus Derivative Second derivative Partial derivative Differential Differential operator Mean value theorem Notation Leibniz's notation Newton's notation Rules of differentiation linearity Power Sum Chain L'Hôpital's Product General Leibniz's rule Quotient Other techniques Implicit differentiation Inverse functions and differentiation Logarithmic derivative Related rates Stationary points First derivative test Second derivative test Extreme value theorem Maximum and minimum Further applications Newton's method Taylor's theorem Differential equation Ordinary differential equation Partial differential equation Stochastic differential equation Integral calculus Antiderivative Arc length Riemann integral Basic properties Constant of integration Fundamental theorem of calculus Differentiating under the integral sign Integration by parts Integration by substitution trigonometric Euler Tangent half-angle substitution Partial fractions in integration Quadratic integral Trapezoidal rule Volumes Washer method Shell method Integral equation Integro-differential equation Vector calculus Derivatives Curl Directional derivative Divergence Gradient Laplacian Basic theorems Line integrals Green's Stokes' Gauss' Multivariable calculus Divergence theorem Geometric Hessian matrix Jacobian matrix and determinant Lagrange multiplier Line integral Matrix Multiple integral Partial derivative Surface integral Volume integral Advanced topics Differential forms Exterior derivative Generalized Stokes' theorem Tensor calculus Sequences and series Arithmetico-geometric sequence Types of series Alternating Binomial Fourier Geometric Harmonic Infinite Power Maclaurin Taylor Telescoping Tests of convergence Abel's Alternating series Cauchy condensation Direct comparison Dirichlet's Integral Limit comparison Ratio Root Term Special functions and numbers Bernoulli numbers e (mathematical constant) Exponential function Natural logarithm Stirling's approximation History of calculus Adequality Brook Taylor Colin Maclaurin Generality of algebra Gottfried Wilhelm Leibniz Infinitesimal Infinitesimal calculus Isaac Newton Fluxion Law of Continuity Leonhard Euler Method of Fluxions The Method of Mechanical Theorems Lists Integrals rational functions irrational functions exponential functions logarithmic functions hyperbolic functions inverse trigonometric functions inverse Secant Secant cubed List of limits List of derivatives Miscellaneous topics Complex calculus Contour integral Differential geometry Manifold Curvature of curves of surfaces Tensor Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Regiomontanus' angle maximization problem Steinmetz solid Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Inverse_function_rule&oldid=1159010160 " Categories : Differentiation rules Inverse functions Theorems in analysis Theorems in calculus Hidden categories: Articles with short description Short description matches Wikidata Articles needing additional references from January 2022 All articles needing additional references Pages using sidebar with the child parameter Pages displaying short descriptions of redirect targets via Module:Annotated link Articles containing proofs This page was last edited on 7 June 2023, at 17:15 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

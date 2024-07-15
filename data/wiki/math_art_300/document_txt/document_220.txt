@@ -1,0 +1,219 @@
+Impact depth - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Newton's approximation for the impact depth 2 Applications 3 See also 4 Further reading 5 External links Toggle the table of contents Impact depth 6 languages Deutsch Español Français עברית Suomi 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Depth of projectile penetration This article includes a list of references , related reading , or external links , but its sources remain unclear because it lacks inline citations.
+
+Please help improve this article by introducing more precise citations.
+
+( November 2012 ) ( Learn how and when to remove this message ) The impact depth of a projectile is the distance it penetrates into a target before coming to a stop.
+
+The physicist Sir Isaac Newton first developed this idea to get rough approximations for the impact depth for projectiles traveling at high velocities.
+
+Newton's approximation for the impact depth [ edit ] Newton's approximation for the impact depth for projectiles at high velocities is based only on momentum considerations.
+
+Nothing is said about where the impactor's kinetic energy goes, nor what happens to the momentum after the projectile is stopped.
+
+The basic idea is simple: The impactor carries a given momentum.
+
+To stop the impactor, this momentum must be transferred onto another mass.
+
+Since the impactor's velocity is so high that cohesion within the target material can be neglected, the momentum can only be transferred to the material (mass) directly in front of the impactor, which will be pushed at the impactor's speed.
+
+If the impactor has pushed a mass equal to its own mass at this speed, its whole momentum has been transferred to the mass in front of it and the impactor will be stopped.
+
+For a cylindrical impactor, by the time it stops, it will have penetrated to a depth that is equal to its own length times its relative density with respect to the target material.
+
+This approach is only valid for a narrow range of velocities less than the speed of sound within the target or impactor material.
+
+If the impact velocity is greater than the speed of sound within the target or impactor material, impact shock causes the material to fracture, and at higher velocities to behave like a gas, causing rapid ejection of target and impactor material and the formation of a crater.
+
+The depth of the crater depends on the material properties of impactor and target, as well as the velocity of impact.
+
+Typically, greater impact velocity means greater crater depth.
+
+Applications [ edit ] Projectile : Full metal projectiles should be made of a material with a very high density, like uranium (19.
+
+1 g/cm 3 ) or lead (11.
+
+3 g/cm 3 ).
+
+According to Newton's approximation, a full metal projectile made of uranium will pierce through roughly 2.
+
+5 times its own length of steel armor.
+
+Shaped charge , bazooka : For a shaped charge (anti-tank) to pierce through steel plates, it is essential that the explosion generates a long heavy metal jet (in a shaped charge for anti-tank use, the explosion generates a high speed metal jet from the cone shaped metal lining).
+
+This jet may then be viewed as the impactor of Newton's approximation.
+
+Meteorite : As may be concluded from the air pressure, the atmosphere's material is equivalent to about 10 m of water.
+
+Since ice has about the same density as water, an ice cube from space travelling at 15 km/s or so must have a length of 10 m to reach the surface of the earth at high speed.
+
+A smaller ice cube will be slowed to terminal velocity.
+
+A larger ice cube may also be slowed, however, as long as it comes in at a very low angle and thus has to pierce through a lot of atmosphere.
+
+An iron meteorite with a length of 1.
+
+3 m would punch through the atmosphere; a smaller one would be slowed by the air and fall at terminal velocity to the ground.
+
+Impactor, bunker buster : Solid impactors can be used instead of nuclear warheads to penetrate bunkers deep underground.
+
+According to Newton's approximation, a uranium projectile (density 19 g/cm 3 ) at high speed and 1 m in length would punch its way through 6 m of rock (density 3 g/cm 3 ) before coming to a stop.
+
+See also [ edit ] Impact force Terminal ballistics Further reading [ edit ] Young, C.
+
+W.
+
+(1967).
+
+The Development of Empirical Equations for Predicting Depth of an Earth Penetrating Projectile (Report).
+
+Vol.
+
+SC-DR-67-60.
+
+Albuquerque NM: Sandia National Laboratories.
+
+Young, C.
+
+W.
+
+(1997).
+
+Penetration Equations (PDF) (Report).
+
+Vol.
+
+SAND94-2726.
+
+Albuquerque NM: Sandia National Laboratories.
+
+This is a standalone report documenting the latest updated version of the Young/Sandia penetration equations and related analytical techniques to predict penetration into natural earth materials and concrete.
+
+See Appendix A & B for intro to penetration equations.
+
+Alekseevskii, V.
+
+P.
+
+(1966).
+
+"Penetration of a Rod into a Target at High Velocity".
+
+Combustion, Explosion, and Shock Waves (Fizika Goreniya i Vzryva).
+
+2 (2): 99–106.
+
+doi : 10.
+
+1007/BF00749237.
+
+ISSN 0010-5082.
+
+S2CID 97258659.
+
+Tate, A.
+
+(1 November 1967).
+
+"A Theory for the Deceleration of Long Rods After Impact" (PDF).
+
+Journal of the Mechanics and Physics of Solids.
+
+15 (6): 387–399.
+
+Bibcode : 1967JMPSo.
+
+15.
+
+387T.
+
+doi : 10.
+
+1016/0022-5096(67)90010-5.
+
+Archived from the original (PDF) on March 26, 2012.
+
+Retrieved 23 June 2011.
+
+Bernard, Robert S.
+
+(1978).
+
+Depth and Motion Prediction for Earth Penetrators (Report).
+
+Vol.
+
+ADA056701.
+
+Vicksburg, MS: Army Engineer Waterways Experiment Station Vicksburg.
+
+Archived from the original (PDF) on October 8, 2012.
+
+Walters, William P.
+
+; Segletes, Steven B.
+
+(1991).
+
+"An Exact Solution of the Long Rod Penetration Equations".
+
+International Journal of Impact Engineering.
+
+11 (2): 225–231.
+
+doi : 10.
+
+1016/0734-743X(91)90008-4.
+
+Segletes, Steven B.
+
+; Walters, William P.
+
+(2002).
+
+Efficient Solution of the Long-Rod Penetration Equations of Alekseevskii-Tate (PDF) (Report).
+
+Vol.
+
+ARL-TR-2855.
+
+Aberdeen, MD: Army Research Lab Aberdeen Proving Ground MD.
+
+Segletes, Steven B.
+
+; Walters, William P.
+
+(2003).
+
+"Extensions to the Exact Solution of the Long-Rod Penetration/Erosion Equations" (PDF).
+
+International Journal of Impact Engineering.
+
+28 (4): 363–376.
+
+doi : 10.
+
+1016/S0734-743X(02)00071-4.
+
+Retrieved 23 June 2011.
+
+External links [ edit ] Earth Impact Effects Program Space debris penetration depth by velocity and diameter v t e Sir Isaac Newton Publications Fluxions (1671) De Motu (1684) Principia (1687) Opticks (1704) Queries (1704) Arithmetica (1707) De Analysi (1711) Other writings Quaestiones (1661–1665) " standing on the shoulders of giants " (1675) Notes on the Jewish Temple (c.
+
+1680) " General Scholium " (1713; " hypotheses non fingo " ) Ancient Kingdoms Amended (1728) Corruptions of Scripture (1754) Contributions Calculus fluxion Impact depth Inertia Newton disc Newton polygon Newton–Okounkov body Newton's reflector Newtonian telescope Newton scale Newton's metal Spectrum Structural coloration Newtonianism Bucket argument Newton's inequalities Newton's law of cooling Newton's law of universal gravitation post-Newtonian expansion parameterized gravitational constant Newton–Cartan theory Schrödinger–Newton equation Newton's laws of motion Kepler's laws Newtonian dynamics Newton's method in optimization Apollonius's problem truncated Newton method Gauss–Newton algorithm Newton's rings Newton's theorem about ovals Newton–Pepys problem Newtonian potential Newtonian fluid Classical mechanics Corpuscular theory of light Leibniz–Newton calculus controversy Newton's notation Rotating spheres Newton's cannonball Newton–Cotes formulas Newton's method generalized Gauss–Newton method Newton fractal Newton's identities Newton polynomial Newton's theorem of revolving orbits Newton–Euler equations Newton number kissing number problem Newton's quotient Parallelogram of force Newton–Puiseux theorem Absolute space and time Luminiferous aether Newtonian series table Personal life Woolsthorpe Manor (birthplace) Cranbury Park (home) Early life Later life Apple tree Religious views Occult studies Scientific Revolution Copernican Revolution Relations Catherine Barton (niece) John Conduitt (nephew-in-law) Isaac Barrow (professor) William Clarke (mentor) Benjamin Pulleyn (tutor) John Keill (disciple) William Stukeley (friend) William Jones (friend) Abraham de Moivre (friend) Depictions Newton by Blake (monotype) Newton by Paolozzi (sculpture) Isaac Newton Gargoyle Astronomers Monument Namesake Newton (unit) Newton's cradle Isaac Newton Institute Isaac Newton Medal Isaac Newton Telescope Isaac Newton Group of Telescopes XMM-Newton Sir Isaac Newton Sixth Form Statal Institute of Higher Education Isaac Newton Newton International Fellowship Categories Isaac Newton Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Impact_depth&oldid=1150606493 " Categories : Projectiles Isaac Newton Hidden categories: Articles with short description Short description matches Wikidata Articles lacking in-text citations from November 2012 All articles lacking in-text citations CS1: long volume value This page was last edited on 19 April 2023, at 02:11 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

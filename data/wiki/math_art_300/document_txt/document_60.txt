@@ -1,0 +1,709 @@
+Partial fraction decomposition - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Basic principles Toggle Basic principles subsection 1.
+
+1 Polynomial part 1.
+
+2 Factors of the denominator 1.
+
+3 Powers in the denominator 1.
+
+4 Statement 2 Application to symbolic integration 3 Procedure Toggle Procedure subsection 3.
+
+1 Illustration 3.
+
+2 Residue method 4 Over the reals Toggle Over the reals subsection 4.
+
+1 General result 5 Examples Toggle Examples subsection 5.
+
+1 Example 1 5.
+
+2 Example 2 5.
+
+3 Example 3 5.
+
+4 Example 4 (residue method) 5.
+
+5 Example 5 (limit method) 5.
+
+6 Example 6 (integral) 6 The role of the Taylor polynomial Toggle The role of the Taylor polynomial subsection 6.
+
+1 Sketch of the proof 7 Fractions of integers 8 Notes 9 References 10 External links Toggle the table of contents Partial fraction decomposition 24 languages العربية Català Čeština Deutsch Español Euskara Français 한국어 हिन्दी Italiano עברית Nederlands 日本語 Polski Português Русский Shqip Simple English Suomi Svenska Tagalog தமிழ் Українська 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia (Redirected from Partial fractions in integration ) Rational fractions as sums of simple terms This article includes a list of general references , but it lacks sufficient corresponding inline citations.
+
+Please help to improve this article by introducing more precise citations.
+
+( September 2012 ) ( Learn how and when to remove this message ) In algebra , the partial fraction decomposition or partial fraction expansion of a rational fraction (that is, a fraction such that the numerator and the denominator are both polynomials ) is an operation that consists of expressing the fraction as a sum of a polynomial (possibly zero) and one or several fractions with a simpler denominator.
+
+[1] The importance of the partial fraction decomposition lies in the fact that it provides algorithms for various computations with rational functions , including the explicit computation of antiderivatives , [2] Taylor series expansions , inverse Z-transforms , and inverse Laplace transforms.
+
+The concept was discovered independently in 1702 by both Johann Bernoulli and Gottfried Leibniz.
+
+[3] In symbols, the partial fraction decomposition of a rational fraction of the form f ( x ) g ( x ) , {\textstyle {\frac {f(x)}{g(x)}},} where f and g are polynomials, is its expression as f ( x ) g ( x ) = p ( x ) + ∑ j f j ( x ) g j ( x ) {\displaystyle {\frac {f(x)}{g(x)}}=p(x)+\sum _{j}{\frac {f_{j}(x)}{g_{j}(x)}}} where p ( x ) is a polynomial, and, for each j , the denominator g j ( x ) is a power of an irreducible polynomial (that is not factorable into polynomials of positive degrees), and the numerator f j ( x ) is a polynomial of a smaller degree than the degree of this irreducible polynomial.
+
+When explicit computation is involved, a coarser decomposition is often preferred, which consists of replacing "irreducible polynomial" by " square-free polynomial " in the description of the outcome.
+
+This allows replacing polynomial factorization by the much easier-to-compute square-free factorization.
+
+This is sufficient for most applications, and avoids introducing irrational coefficients when the coefficients of the input polynomials are integers or rational numbers.
+
+Basic principles [ edit ] Let R ( x ) = F G {\displaystyle R(x)={\frac {F}{G}}} be a rational fraction , where F and G are univariate polynomials in the indeterminate x over a field.
+
+The existence of the partial fraction can be proved by applying inductively the following reduction steps.
+
+Polynomial part [ edit ] There exist two polynomials E and F 1 such that F G = E + F 1 G , {\displaystyle {\frac {F}{G}}=E+{\frac {F_{1}}{G}},} and deg ⁡ F 1 < deg ⁡ G , {\displaystyle \deg F_{1}<\deg G,} where deg ⁡ P {\displaystyle \deg P} denotes the degree of the polynomial P.
+
+This results immediately from the Euclidean division of F by G , which asserts the existence of E and F 1 such that F = E G + F 1 {\displaystyle F=EG+F_{1}} and deg ⁡ F 1 < deg ⁡ G.
+
+{\displaystyle \deg F_{1}<\deg G.
+
+} This allows supposing in the next steps that deg ⁡ F < deg ⁡ G.
+
+{\displaystyle \deg F<\deg G.
+
+} Factors of the denominator [ edit ] If deg ⁡ F < deg ⁡ G , {\displaystyle \deg F<\deg G,} and G = G 1 G 2 , {\displaystyle G=G_{1}G_{2},} where G 1 and G 2 are coprime polynomials , then there exist polynomials F 1 {\displaystyle F_{1}} and F 2 {\displaystyle F_{2}} such that F G = F 1 G 1 + F 2 G 2 , {\displaystyle {\frac {F}{G}}={\frac {F_{1}}{G_{1}}}+{\frac {F_{2}}{G_{2}}},} and deg ⁡ F 1 < deg ⁡ G 1 and deg ⁡ F 2 < deg ⁡ G 2.
+
+{\displaystyle \deg F_{1}<\deg G_{1}\quad {\text{and}}\quad \deg F_{2}<\deg G_{2}.
+
+} This can be proved as follows.
+
+Bézout's identity asserts the existence of polynomials C and D such that C G 1 + D G 2 = 1 {\displaystyle CG_{1}+DG_{2}=1} (by hypothesis, 1 is a greatest common divisor of G 1 and G 2 ).
+
+Let D F = G 1 Q + F 1 {\displaystyle DF=G_{1}Q+F_{1}} with deg ⁡ F 1 < deg ⁡ G 1 {\displaystyle \deg F_{1}<\deg G_{1}} be the Euclidean division of DF by G 1.
+
+{\displaystyle G_{1}.
+
+} Setting F 2 = C F + Q G 2 , {\displaystyle F_{2}=CF+QG_{2},} one gets F G = F ( C G 1 + D G 2 ) G 1 G 2 = D F G 1 + C F G 2 = F 1 + G 1 Q G 1 + F 2 − G 2 Q G 2 = F 1 G 1 + F 2 G 2.
+
+{\displaystyle {\begin{aligned}{\frac {F}{G}}&={\frac {F(CG_{1}+DG_{2})}{G_{1}G_{2}}}={\frac {DF}{G_{1}}}+{\frac {CF}{G_{2}}}\\&={\frac {F_{1}+G_{1}Q}{G_{1}}}+{\frac {F_{2}-G_{2}Q}{G_{2}}}\\&={\frac {F_{1}}{G_{1}}}+{\frac {F_{2}}{G_{2}}}.
+
+\end{aligned}}} It remains to show that deg ⁡ F 2 < deg ⁡ G 2.
+
+{\displaystyle \deg F_{2}<\deg G_{2}.
+
+} By reducing the last sum of fractions to a common denominator, one gets F = F 2 G 1 + F 1 G 2 , {\displaystyle F=F_{2}G_{1}+F_{1}G_{2},} and thus deg ⁡ F 2 = deg ⁡ ( F − F 1 G 2 ) − deg ⁡ G 1 ≤ max ( deg ⁡ F , deg ⁡ ( F 1 G 2 ) ) − deg ⁡ G 1 < max ( deg ⁡ G , deg ⁡ ( G 1 G 2 ) ) − deg ⁡ G 1 = deg ⁡ G 2 {\displaystyle {\begin{aligned}\deg F_{2}&=\deg(F-F_{1}G_{2})-\deg G_{1}\leq \max(\deg F,\deg(F_{1}G_{2}))-\deg G_{1}\\&<\max(\deg G,\deg(G_{1}G_{2}))-\deg G_{1}=\deg G_{2}\end{aligned}}} Powers in the denominator [ edit ] Using the preceding decomposition inductively one gets fractions of the form F G k , {\displaystyle {\frac {F}{G^{k}}},} with deg ⁡ F < deg ⁡ G k = k deg ⁡ G , {\displaystyle \deg F<\deg G^{k}=k\deg G,} where G is an irreducible polynomial.
+
+If k > 1 , one can decompose further, by using that an irreducible polynomial is a square-free polynomial , that is, 1 {\displaystyle 1} is a greatest common divisor of the polynomial and its derivative.
+
+If G ′ {\displaystyle G'} is the derivative of G , Bézout's identity provides polynomials C and D such that C G + D G ′ = 1 {\displaystyle CG+DG'=1} and thus F = F C G + F D G ′.
+
+{\displaystyle F=FCG+FDG'.
+
+} Euclidean division of F D G ′ {\displaystyle FDG'} by G {\displaystyle G} gives polynomials H k {\displaystyle H_{k}} and Q {\displaystyle Q} such that F D G ′ = Q G + H k {\displaystyle FDG'=QG+H_{k}} and deg ⁡ H k < deg ⁡ G.
+
+{\displaystyle \deg H_{k}<\deg G.
+
+} Setting F k − 1 = F C + Q , {\displaystyle F_{k-1}=FC+Q,} one gets F G k = H k G k + F k − 1 G k − 1 , {\displaystyle {\frac {F}{G^{k}}}={\frac {H_{k}}{G^{k}}}+{\frac {F_{k-1}}{G^{k-1}}},} with deg ⁡ H k < deg ⁡ G.
+
+{\displaystyle \deg H_{k}<\deg G.
+
+} Iterating this process with F k − 1 G k − 1 {\displaystyle {\frac {F_{k-1}}{G^{k-1}}}} in place of F G k {\displaystyle {\frac {F}{G^{k}}}} leads eventually to the following theorem.
+
+Statement [ edit ] Theorem — Let f and g be nonzero polynomials over a field K.
+
+Write g as a product of powers of distinct irreducible polynomials : g = ∏ i = 1 k p i n i.
+
+{\displaystyle g=\prod _{i=1}^{k}p_{i}^{n_{i}}.
+
+} There are (unique) polynomials b and a ij with deg a ij < deg p i such that f g = b + ∑ i = 1 k ∑ j = 1 n i a i j p i j.
+
+{\displaystyle {\frac {f}{g}}=b+\sum _{i=1}^{k}\sum _{j=1}^{n_{i}}{\frac {a_{ij}}{p_{i}^{j}}}.
+
+} If deg f < deg g , then b = 0.
+
+The uniqueness can be proved as follows.
+
+Let d = max(1 + deg f , deg g ).
+
+All together, b and the a ij have d coefficients.
+
+The shape of the decomposition defines a linear map from coefficient vectors to polynomials f of degree less than d.
+
+The existence proof means that this map is surjective.
+
+As the two vector spaces have the same dimension, the map is also injective , which means uniqueness of the decomposition.
+
+By the way, this proof induces an algorithm for computing the decomposition through linear algebra.
+
+If K is the field of complex numbers , the fundamental theorem of algebra implies that all p i have degree one, and all numerators a i j {\displaystyle a_{ij}} are constants.
+
+When K is the field of real numbers , some of the p i may be quadratic, so, in the partial fraction decomposition, quotients of linear polynomials by powers of quadratic polynomials may also occur.
+
+In the preceding theorem, one may replace "distinct irreducible polynomials" by " pairwise coprime polynomials that are coprime with their derivative".
+
+For example, the p i may be the factors of the square-free factorization of g.
+
+When K is the field of rational numbers , as it is typically the case in computer algebra , this allows to replace factorization by greatest common divisor computation for computing a partial fraction decomposition.
+
+Application to symbolic integration [ edit ] For the purpose of symbolic integration , the preceding result may be refined into Theorem — Let f and g be nonzero polynomials over a field K.
+
+Write g as a product of powers of pairwise coprime polynomials which have no multiple root in an algebraically closed field: g = ∏ i = 1 k p i n i.
+
+{\displaystyle g=\prod _{i=1}^{k}p_{i}^{n_{i}}.
+
+} There are (unique) polynomials b and c ij with deg c ij < deg p i such that f g = b + ∑ i = 1 k ∑ j = 2 n i ( c i j p i j − 1 ) ′ + ∑ i = 1 k c i 1 p i.
+
+{\displaystyle {\frac {f}{g}}=b+\sum _{i=1}^{k}\sum _{j=2}^{n_{i}}\left({\frac {c_{ij}}{p_{i}^{j-1}}}\right)'+\sum _{i=1}^{k}{\frac {c_{i1}}{p_{i}}}.
+
+} where X ′ {\displaystyle X'} denotes the derivative of X.
+
+{\displaystyle X.
+
+} This reduces the computation of the antiderivative of a rational function to the integration of the last sum, which is called the logarithmic part , because its antiderivative is a linear combination of logarithms.
+
+There are various methods to compute decomposition in the Theorem.
+
+One simple way is called Hermite 's method.
+
+First, b is immediately computed by Euclidean division of f by g , reducing to the case where deg( f ) < deg( g ).
+
+Next, one knows deg( c ij ) < deg( p i ), so one may write each c ij as a polynomial with unknown coefficients.
+
+Reducing the sum of fractions in the Theorem to a common denominator, and equating the coefficients of each power of x in the two numerators, one gets a system of linear equations which can be solved to obtain the desired (unique) values for the unknown coefficients.
+
+Procedure [ edit ] Given two polynomials P ( x ) {\displaystyle P(x)} and Q ( x ) = ( x − α 1 ) ( x − α 2 ) ⋯ ( x − α n ) {\displaystyle Q(x)=(x-\alpha _{1})(x-\alpha _{2})\cdots (x-\alpha _{n})} , where the α n are distinct constants and deg P < n , explicit expressions for partial fractions can be obtained by supposing that P ( x ) Q ( x ) = c 1 x − α 1 + c 2 x − α 2 + ⋯ + c n x − α n {\displaystyle {\frac {P(x)}{Q(x)}}={\frac {c_{1}}{x-\alpha _{1}}}+{\frac {c_{2}}{x-\alpha _{2}}}+\cdots +{\frac {c_{n}}{x-\alpha _{n}}}} and solving for the c i constants, by substitution, by equating the coefficients of terms involving the powers of x , or otherwise.
+
+(This is a variant of the method of undetermined coefficients.
+
+After both sides of the equation are multiplied by Q(x), one side of the equation is a specific polynomial, and the other side is a polynomial with undetermined coefficients.
+
+The equality is possible only when the coefficients of like powers of x are equal.
+
+This yields n equations in n unknowns, the c k.
+
+) A more direct computation, which is strongly related to Lagrange interpolation , consists of writing P ( x ) Q ( x ) = ∑ i = 1 n P ( α i ) Q ′ ( α i ) 1 ( x − α i ) {\displaystyle {\frac {P(x)}{Q(x)}}=\sum _{i=1}^{n}{\frac {P(\alpha _{i})}{Q'(\alpha _{i})}}{\frac {1}{(x-\alpha _{i})}}} where Q ′ {\displaystyle Q'} is the derivative of the polynomial Q {\displaystyle Q}.
+
+The coefficients of 1 x − α j {\displaystyle {\tfrac {1}{x-\alpha _{j}}}} are called the residues of f/g.
+
+This approach does not account for several other cases, but can be modified accordingly: If deg ⁡ P ≥ deg ⁡ Q , {\displaystyle \deg P\geq \deg Q,} then it is necessary to perform the Euclidean division of P by Q , using polynomial long division , giving P ( x ) = E ( x ) Q ( x ) + R ( x ) with deg R < n.
+
+Dividing by Q ( x ) this gives P ( x ) Q ( x ) = E ( x ) + R ( x ) Q ( x ) , {\displaystyle {\frac {P(x)}{Q(x)}}=E(x)+{\frac {R(x)}{Q(x)}},} and then seek partial fractions for the remainder fraction (which by definition satisfies deg R < deg Q ).
+
+If Q ( x ) contains factors which are irreducible over the given field, then the numerator N ( x ) of each partial fraction with such a factor F ( x ) in the denominator must be sought as a polynomial with deg N < deg F , rather than as a constant.
+
+For example, take the following decomposition over R : x 2 + 1 ( x + 2 ) ( x − 1 ) ( x 2 + x + 1 ) = a x + 2 + b x − 1 + c x + d x 2 + x + 1.
+
+{\displaystyle {\frac {x^{2}+1}{(x+2)(x-1)\color {Blue}(x^{2}+x+1)}}={\frac {a}{x+2}}+{\frac {b}{x-1}}+{\frac {\color {OliveGreen}cx+d}{\color {Blue}x^{2}+x+1}}.
+
+} Suppose Q ( x ) = ( x − α ) r S ( x ) and S ( α ) ≠ 0 , that is α is a root of Q ( x ) of multiplicity r.
+
+In the partial fraction decomposition, the r first powers of ( x − α ) will occur as denominators of the partial fractions (possibly with a zero numerator).
+
+For example, if S ( x ) = 1 the partial fraction decomposition has the form P ( x ) Q ( x ) = P ( x ) ( x − α ) r = c 1 x − α + c 2 ( x − α ) 2 + ⋯ + c r ( x − α ) r.
+
+{\displaystyle {\frac {P(x)}{Q(x)}}={\frac {P(x)}{(x-\alpha )^{r}}}={\frac {c_{1}}{x-\alpha }}+{\frac {c_{2}}{(x-\alpha )^{2}}}+\cdots +{\frac {c_{r}}{(x-\alpha )^{r}}}.
+
+} Illustration [ edit ] In an example application of this procedure, (3 x + 5)/(1 − 2 x ) 2 can be decomposed in the form 3 x + 5 ( 1 − 2 x ) 2 = A ( 1 − 2 x ) 2 + B ( 1 − 2 x ).
+
+{\displaystyle {\frac {3x+5}{(1-2x)^{2}}}={\frac {A}{(1-2x)^{2}}}+{\frac {B}{(1-2x)}}.
+
+} Clearing denominators shows that 3 x + 5 = A + B (1 − 2 x ).
+
+Expanding and equating the coefficients of powers of x gives 5 = A + B and 3 x = −2 Bx Solving this system of linear equations for A and B yields A = 13/2 and B = −3/2.
+
+Hence, 3 x + 5 ( 1 − 2 x ) 2 = 13 / 2 ( 1 − 2 x ) 2 + − 3 / 2 ( 1 − 2 x ).
+
+{\displaystyle {\frac {3x+5}{(1-2x)^{2}}}={\frac {13/2}{(1-2x)^{2}}}+{\frac {-3/2}{(1-2x)}}.
+
+} Residue method [ edit ] See also: Heaviside cover-up method Over the complex numbers, suppose f ( x ) is a rational proper fraction, and can be decomposed into f ( x ) = ∑ i ( a i 1 x − x i + a i 2 ( x − x i ) 2 + ⋯ + a i k i ( x − x i ) k i ).
+
+{\displaystyle f(x)=\sum _{i}\left({\frac {a_{i1}}{x-x_{i}}}+{\frac {a_{i2}}{(x-x_{i})^{2}}}+\cdots +{\frac {a_{ik_{i}}}{(x-x_{i})^{k_{i}}}}\right).
+
+} Let g i j ( x ) = ( x − x i ) j − 1 f ( x ) , {\displaystyle g_{ij}(x)=(x-x_{i})^{j-1}f(x),} then according to the uniqueness of Laurent series , a ij is the coefficient of the term ( x − x i ) −1 in the Laurent expansion of g ij ( x ) about the point x i , i.
+
+e.
+
+, its residue a i j = Res ⁡ ( g i j , x i ).
+
+{\displaystyle a_{ij}=\operatorname {Res} (g_{ij},x_{i}).
+
+} This is given directly by the formula a i j = 1 ( k i − j ) ! lim x → x i d k i − j d x k i − j ( ( x − x i ) k i f ( x ) ) , {\displaystyle a_{ij}={\frac {1}{(k_{i}-j)!}}\lim _{x\to x_{i}}{\frac {d^{k_{i}-j}}{dx^{k_{i}-j}}}\left((x-x_{i})^{k_{i}}f(x)\right),} or in the special case when x i is a simple root, a i 1 = P ( x i ) Q ′ ( x i ) , {\displaystyle a_{i1}={\frac {P(x_{i})}{Q'(x_{i})}},} when f ( x ) = P ( x ) Q ( x ).
+
+{\displaystyle f(x)={\frac {P(x)}{Q(x)}}.
+
+} Over the reals [ edit ] Partial fractions are used in real-variable integral calculus to find real-valued antiderivatives of rational functions.
+
+Partial fraction decomposition of real rational functions is also used to find their Inverse Laplace transforms.
+
+For applications of partial fraction decomposition over the reals , see Application to symbolic integration , above Partial fractions in Laplace transforms General result [ edit ] Let f ( x ) {\displaystyle f(x)} be any rational function over the real numbers.
+
+In other words, suppose there exist real polynomials functions p ( x ) {\displaystyle p(x)} and q ( x ) ≠ 0 {\displaystyle q(x)\neq 0} , such that f ( x ) = p ( x ) q ( x ) {\displaystyle f(x)={\frac {p(x)}{q(x)}}} By dividing both the numerator and the denominator by the leading coefficient of q ( x ) {\displaystyle q(x)} , we may assume without loss of generality that q ( x ) {\displaystyle q(x)} is monic.
+
+By the fundamental theorem of algebra , we can write q ( x ) = ( x − a 1 ) j 1 ⋯ ( x − a m ) j m ( x 2 + b 1 x + c 1 ) k 1 ⋯ ( x 2 + b n x + c n ) k n {\displaystyle q(x)=(x-a_{1})^{j_{1}}\cdots (x-a_{m})^{j_{m}}(x^{2}+b_{1}x+c_{1})^{k_{1}}\cdots (x^{2}+b_{n}x+c_{n})^{k_{n}}} where a 1 , … , a m {\displaystyle a_{1},\dots ,a_{m}} , b 1 , … , b n {\displaystyle b_{1},\dots ,b_{n}} , c 1 , … , c n {\displaystyle c_{1},\dots ,c_{n}} are real numbers with b i 2 − 4 c i < 0 {\displaystyle b_{i}^{2}-4c_{i}<0} , and j 1 , … , j m {\displaystyle j_{1},\dots ,j_{m}} , k 1 , … , k n {\displaystyle k_{1},\dots ,k_{n}} are positive integers.
+
+The terms ( x − a i ) {\displaystyle (x-a_{i})} are the linear factors of q ( x ) {\displaystyle q(x)} which correspond to real roots of q ( x ) {\displaystyle q(x)} , and the terms ( x i 2 + b i x + c i ) {\displaystyle (x_{i}^{2}+b_{i}x+c_{i})} are the irreducible quadratic factors of q ( x ) {\displaystyle q(x)} which correspond to pairs of complex conjugate roots of q ( x ) {\displaystyle q(x)}.
+
+Then the partial fraction decomposition of f ( x ) {\displaystyle f(x)} is the following: f ( x ) = p ( x ) q ( x ) = P ( x ) + ∑ i = 1 m ∑ r = 1 j i A i r ( x − a i ) r + ∑ i = 1 n ∑ r = 1 k i B i r x + C i r ( x 2 + b i x + c i ) r {\displaystyle f(x)={\frac {p(x)}{q(x)}}=P(x)+\sum _{i=1}^{m}\sum _{r=1}^{j_{i}}{\frac {A_{ir}}{(x-a_{i})^{r}}}+\sum _{i=1}^{n}\sum _{r=1}^{k_{i}}{\frac {B_{ir}x+C_{ir}}{(x^{2}+b_{i}x+c_{i})^{r}}}} Here, P ( x ) is a (possibly zero) polynomial, and the A ir , B ir , and C ir are real constants.
+
+There are a number of ways the constants can be found.
+
+The most straightforward method is to multiply through by the common denominator q ( x ).
+
+We then obtain an equation of polynomials whose left-hand side is simply p ( x ) and whose right-hand side has coefficients which are linear expressions of the constants A ir , B ir , and C ir.
+
+Since two polynomials are equal if and only if their corresponding coefficients are equal, we can equate the coefficients of like terms.
+
+In this way, a system of linear equations is obtained which always has a unique solution.
+
+This solution can be found using any of the standard methods of linear algebra.
+
+It can also be found with limits (see Example 5 ).
+
+Examples [ edit ] Example 1 [ edit ] f ( x ) = 1 x 2 + 2 x − 3 {\displaystyle f(x)={\frac {1}{x^{2}+2x-3}}} Here, the denominator splits into two distinct linear factors: q ( x ) = x 2 + 2 x − 3 = ( x + 3 ) ( x − 1 ) {\displaystyle q(x)=x^{2}+2x-3=(x+3)(x-1)} so we have the partial fraction decomposition f ( x ) = 1 x 2 + 2 x − 3 = A x + 3 + B x − 1 {\displaystyle f(x)={\frac {1}{x^{2}+2x-3}}={\frac {A}{x+3}}+{\frac {B}{x-1}}} Multiplying through by the denominator on the left-hand side gives us the polynomial identity 1 = A ( x − 1 ) + B ( x + 3 ) {\displaystyle 1=A(x-1)+B(x+3)} Substituting x = −3 into this equation gives A = −1/4, and substituting x = 1 gives B = 1/4, so that f ( x ) = 1 x 2 + 2 x − 3 = 1 4 ( − 1 x + 3 + 1 x − 1 ) {\displaystyle f(x)={\frac {1}{x^{2}+2x-3}}={\frac {1}{4}}\left({\frac {-1}{x+3}}+{\frac {1}{x-1}}\right)} Example 2 [ edit ] f ( x ) = x 3 + 16 x 3 − 4 x 2 + 8 x {\displaystyle f(x)={\frac {x^{3}+16}{x^{3}-4x^{2}+8x}}} After long division , we have f ( x ) = 1 + 4 x 2 − 8 x + 16 x 3 − 4 x 2 + 8 x = 1 + 4 x 2 − 8 x + 16 x ( x 2 − 4 x + 8 ) {\displaystyle f(x)=1+{\frac {4x^{2}-8x+16}{x^{3}-4x^{2}+8x}}=1+{\frac {4x^{2}-8x+16}{x(x^{2}-4x+8)}}} The factor x 2 − 4 x + 8 is irreducible over the reals, as its discriminant (−4) 2 − 4×8 = −16 is negative.
+
+Thus the partial fraction decomposition over the reals has the shape 4 x 2 − 8 x + 16 x ( x 2 − 4 x + 8 ) = A x + B x + C x 2 − 4 x + 8 {\displaystyle {\frac {4x^{2}-8x+16}{x(x^{2}-4x+8)}}={\frac {A}{x}}+{\frac {Bx+C}{x^{2}-4x+8}}} Multiplying through by x 3 − 4 x 2 + 8 x , we have the polynomial identity 4 x 2 − 8 x + 16 = A ( x 2 − 4 x + 8 ) + ( B x + C ) x {\displaystyle 4x^{2}-8x+16=A\left(x^{2}-4x+8\right)+\left(Bx+C\right)x} Taking x = 0, we see that 16 = 8 A , so A = 2.
+
+Comparing the x 2 coefficients, we see that 4 = A + B = 2 + B , so B = 2.
+
+Comparing linear coefficients, we see that −8 = −4 A + C = −8 + C , so C = 0.
+
+Altogether, f ( x ) = 1 + 2 ( 1 x + x x 2 − 4 x + 8 ) {\displaystyle f(x)=1+2\left({\frac {1}{x}}+{\frac {x}{x^{2}-4x+8}}\right)} The fraction can be completely decomposed using complex numbers.
+
+According to the fundamental theorem of algebra every complex polynomial of degree n has n (complex) roots (some of which can be repeated).
+
+The second fraction can be decomposed to: x x 2 − 4 x + 8 = D x − ( 2 + 2 i ) + E x − ( 2 − 2 i ) {\displaystyle {\frac {x}{x^{2}-4x+8}}={\frac {D}{x-(2+2i)}}+{\frac {E}{x-(2-2i)}}} Multiplying through by the denominator gives: x = D ( x − ( 2 − 2 i ) ) + E ( x − ( 2 + 2 i ) ) {\displaystyle x=D(x-(2-2i))+E(x-(2+2i))} Equating the coefficients of x and the constant (with respect to x ) coefficients of both sides of this equation, one gets a system of two linear equations in D and E , whose solution is D = 1 + i 2 i = 1 − i 2 , E = 1 − i − 2 i = 1 + i 2.
+
+{\displaystyle D={\frac {1+i}{2i}}={\frac {1-i}{2}},\qquad E={\frac {1-i}{-2i}}={\frac {1+i}{2}}.
+
+} Thus we have a complete decomposition: f ( x ) = x 3 + 16 x 3 − 4 x 2 + 8 x = 1 + 2 x + 1 − i x − ( 2 + 2 i ) + 1 + i x − ( 2 − 2 i ) {\displaystyle f(x)={\frac {x^{3}+16}{x^{3}-4x^{2}+8x}}=1+{\frac {2}{x}}+{\frac {1-i}{x-(2+2i)}}+{\frac {1+i}{x-(2-2i)}}} One may also compute directly A , D and E with the residue method (see also example 4 below).
+
+Example 3 [ edit ] This example illustrates almost all the "tricks" we might need to use, short of consulting a computer algebra system.
+
+f ( x ) = x 9 − 2 x 6 + 2 x 5 − 7 x 4 + 13 x 3 − 11 x 2 + 12 x − 4 x 7 − 3 x 6 + 5 x 5 − 7 x 4 + 7 x 3 − 5 x 2 + 3 x − 1 {\displaystyle f(x)={\frac {x^{9}-2x^{6}+2x^{5}-7x^{4}+13x^{3}-11x^{2}+12x-4}{x^{7}-3x^{6}+5x^{5}-7x^{4}+7x^{3}-5x^{2}+3x-1}}} After long division and factoring the denominator, we have f ( x ) = x 2 + 3 x + 4 + 2 x 6 − 4 x 5 + 5 x 4 − 3 x 3 + x 2 + 3 x ( x − 1 ) 3 ( x 2 + 1 ) 2 {\displaystyle f(x)=x^{2}+3x+4+{\frac {2x^{6}-4x^{5}+5x^{4}-3x^{3}+x^{2}+3x}{(x-1)^{3}(x^{2}+1)^{2}}}} The partial fraction decomposition takes the form 2 x 6 − 4 x 5 + 5 x 4 − 3 x 3 + x 2 + 3 x ( x − 1 ) 3 ( x 2 + 1 ) 2 = A x − 1 + B ( x − 1 ) 2 + C ( x − 1 ) 3 + D x + E x 2 + 1 + F x + G ( x 2 + 1 ) 2.
+
+{\displaystyle {\frac {2x^{6}-4x^{5}+5x^{4}-3x^{3}+x^{2}+3x}{(x-1)^{3}(x^{2}+1)^{2}}}={\frac {A}{x-1}}+{\frac {B}{(x-1)^{2}}}+{\frac {C}{(x-1)^{3}}}+{\frac {Dx+E}{x^{2}+1}}+{\frac {Fx+G}{(x^{2}+1)^{2}}}.
+
+} Multiplying through by the denominator on the left-hand side we have the polynomial identity 2 x 6 − 4 x 5 + 5 x 4 − 3 x 3 + x 2 + 3 x = A ( x − 1 ) 2 ( x 2 + 1 ) 2 + B ( x − 1 ) ( x 2 + 1 ) 2 + C ( x 2 + 1 ) 2 + ( D x + E ) ( x − 1 ) 3 ( x 2 + 1 ) + ( F x + G ) ( x − 1 ) 3 {\displaystyle {\begin{aligned}&2x^{6}-4x^{5}+5x^{4}-3x^{3}+x^{2}+3x\\[4pt]={}&A\left(x-1\right)^{2}\left(x^{2}+1\right)^{2}+B\left(x-1\right)\left(x^{2}+1\right)^{2}+C\left(x^{2}+1\right)^{2}+\left(Dx+E\right)\left(x-1\right)^{3}\left(x^{2}+1\right)+\left(Fx+G\right)\left(x-1\right)^{3}\end{aligned}}} Now we use different values of x to compute the coefficients: { 4 = 4 C x = 1 2 + 2 i = ( F i + G ) ( 2 + 2 i ) x = i 0 = A − B + C − E − G x = 0 {\displaystyle {\begin{cases}4=4C&x=1\\2+2i=(Fi+G)(2+2i)&x=i\\0=A-B+C-E-G&x=0\end{cases}}} Solving this we have: { C = 1 F = 0 , G = 1 E = A − B {\displaystyle {\begin{cases}C=1\\F=0,G=1\\E=A-B\end{cases}}} Using these values we can write: 2 x 6 − 4 x 5 + 5 x 4 − 3 x 3 + x 2 + 3 x = A ( x − 1 ) 2 ( x 2 + 1 ) 2 + B ( x − 1 ) ( x 2 + 1 ) 2 + ( x 2 + 1 ) 2 + ( D x + ( A − B ) ) ( x − 1 ) 3 ( x 2 + 1 ) + ( x − 1 ) 3 = ( A + D ) x 6 + ( − A − 3 D ) x 5 + ( 2 B + 4 D + 1 ) x 4 + ( − 2 B − 4 D + 1 ) x 3 + ( − A + 2 B + 3 D − 1 ) x 2 + ( A − 2 B − D + 3 ) x {\displaystyle {\begin{aligned}&2x^{6}-4x^{5}+5x^{4}-3x^{3}+x^{2}+3x\\[4pt]={}&A\left(x-1\right)^{2}\left(x^{2}+1\right)^{2}+B\left(x-1\right)\left(x^{2}+1\right)^{2}+\left(x^{2}+1\right)^{2}+\left(Dx+\left(A-B\right)\right)\left(x-1\right)^{3}\left(x^{2}+1\right)+\left(x-1\right)^{3}\\[4pt]={}&\left(A+D\right)x^{6}+\left(-A-3D\right)x^{5}+\left(2B+4D+1\right)x^{4}+\left(-2B-4D+1\right)x^{3}+\left(-A+2B+3D-1\right)x^{2}+\left(A-2B-D+3\right)x\end{aligned}}} We compare the coefficients of x 6 and x 5 on both side and we have: { A + D = 2 − A − 3 D = − 4 ⇒ A = D = 1.
+
+{\displaystyle {\begin{cases}A+D=2\\-A-3D=-4\end{cases}}\quad \Rightarrow \quad A=D=1.
+
+} Therefore: 2 x 6 − 4 x 5 + 5 x 4 − 3 x 3 + x 2 + 3 x = 2 x 6 − 4 x 5 + ( 2 B + 5 ) x 4 + ( − 2 B − 3 ) x 3 + ( 2 B + 1 ) x 2 + ( − 2 B + 3 ) x {\displaystyle 2x^{6}-4x^{5}+5x^{4}-3x^{3}+x^{2}+3x=2x^{6}-4x^{5}+(2B+5)x^{4}+(-2B-3)x^{3}+(2B+1)x^{2}+(-2B+3)x} which gives us B = 0.
+
+Thus the partial fraction decomposition is given by: f ( x ) = x 2 + 3 x + 4 + 1 ( x − 1 ) + 1 ( x − 1 ) 3 + x + 1 x 2 + 1 + 1 ( x 2 + 1 ) 2.
+
+{\displaystyle f(x)=x^{2}+3x+4+{\frac {1}{(x-1)}}+{\frac {1}{(x-1)^{3}}}+{\frac {x+1}{x^{2}+1}}+{\frac {1}{(x^{2}+1)^{2}}}.
+
+} Alternatively, instead of expanding, one can obtain other linear dependences on the coefficients computing some derivatives at x = 1 , ı {\displaystyle x=1,\imath } in the above polynomial identity.
+
+(To this end, recall that the derivative at x = a of ( x − a ) m p ( x ) vanishes if m > 1 and is just p ( a ) for m = 1.
+
+) For instance the first derivative at x = 1 gives 2 ⋅ 6 − 4 ⋅ 5 + 5 ⋅ 4 − 3 ⋅ 3 + 2 + 3 = A ⋅ ( 0 + 0 ) + B ⋅ ( 4 + 0 ) + 8 + D ⋅ 0 {\displaystyle 2\cdot 6-4\cdot 5+5\cdot 4-3\cdot 3+2+3=A\cdot (0+0)+B\cdot (4+0)+8+D\cdot 0} that is 8 = 4 B + 8 so B = 0.
+
+Example 4 (residue method) [ edit ] f ( z ) = z 2 − 5 ( z 2 − 1 ) ( z 2 + 1 ) = z 2 − 5 ( z + 1 ) ( z − 1 ) ( z + i ) ( z − i ) {\displaystyle f(z)={\frac {z^{2}-5}{(z^{2}-1)(z^{2}+1)}}={\frac {z^{2}-5}{(z+1)(z-1)(z+i)(z-i)}}} Thus, f ( z ) can be decomposed into rational functions whose denominators are z +1, z −1, z +i, z −i.
+
+Since each term is of power one, −1, 1, − i and i are simple poles.
+
+Hence, the residues associated with each pole, given by P ( z i ) Q ′ ( z i ) = z i 2 − 5 4 z i 3 , {\displaystyle {\frac {P(z_{i})}{Q'(z_{i})}}={\frac {z_{i}^{2}-5}{4z_{i}^{3}}},} are 1 , − 1 , 3 i 2 , − 3 i 2 , {\displaystyle 1,-1,{\tfrac {3i}{2}},-{\tfrac {3i}{2}},} respectively, and f ( z ) = 1 z + 1 − 1 z − 1 + 3 i 2 1 z + i − 3 i 2 1 z − i.
+
+{\displaystyle f(z)={\frac {1}{z+1}}-{\frac {1}{z-1}}+{\frac {3i}{2}}{\frac {1}{z+i}}-{\frac {3i}{2}}{\frac {1}{z-i}}.
+
+} Example 5 (limit method) [ edit ] Limits can be used to find a partial fraction decomposition.
+
+[4] Consider the following example: 1 x 3 − 1 {\displaystyle {\frac {1}{x^{3}-1}}} First, factor the denominator which determines the decomposition: 1 x 3 − 1 = 1 ( x − 1 ) ( x 2 + x + 1 ) = A x − 1 + B x + C x 2 + x + 1.
+
+{\displaystyle {\frac {1}{x^{3}-1}}={\frac {1}{(x-1)(x^{2}+x+1)}}={\frac {A}{x-1}}+{\frac {Bx+C}{x^{2}+x+1}}.
+
+} Multiplying everything by x − 1 {\displaystyle x-1} , and taking the limit when x → 1 {\displaystyle x\to 1} , we get lim x → 1 ( ( x − 1 ) ( A x − 1 + B x + C x 2 + x + 1 ) ) = lim x → 1 A + lim x → 1 ( x − 1 ) ( B x + C ) x 2 + x + 1 = A.
+
+{\displaystyle \lim _{x\to 1}\left((x-1)\left({\frac {A}{x-1}}+{\frac {Bx+C}{x^{2}+x+1}}\right)\right)=\lim _{x\to 1}A+\lim _{x\to 1}{\frac {(x-1)(Bx+C)}{x^{2}+x+1}}=A.
+
+} On the other hand, lim x → 1 ( x − 1 ) ( x − 1 ) ( x 2 + x + 1 ) = lim x → 1 1 x 2 + x + 1 = 1 3 , {\displaystyle \lim _{x\to 1}{\frac {(x-1)}{(x-1)(x^{2}+x+1)}}=\lim _{x\to 1}{\frac {1}{x^{2}+x+1}}={\frac {1}{3}},} and thus: A = 1 3.
+
+{\displaystyle A={\frac {1}{3}}.
+
+} Multiplying by x and taking the limit when x → ∞ {\displaystyle x\to \infty } , we have lim x → ∞ x ( A x − 1 + B x + C x 2 + x + 1 ) = lim x → ∞ A x x − 1 + lim x → ∞ B x 2 + C x x 2 + x + 1 = A + B , {\displaystyle \lim _{x\to \infty }x\left({\frac {A}{x-1}}+{\frac {Bx+C}{x^{2}+x+1}}\right)=\lim _{x\to \infty }{\frac {Ax}{x-1}}+\lim _{x\to \infty }{\frac {Bx^{2}+Cx}{x^{2}+x+1}}=A+B,} and lim x → ∞ x ( x − 1 ) ( x 2 + x + 1 ) = 0.
+
+{\displaystyle \lim _{x\to \infty }{\frac {x}{(x-1)(x^{2}+x+1)}}=0.
+
+} This implies A + B = 0 and so B = − 1 3 {\displaystyle B=-{\frac {1}{3}}}.
+
+For x = 0 , we get − 1 = − A + C , {\displaystyle -1=-A+C,} and thus C = − 2 3 {\displaystyle C=-{\tfrac {2}{3}}}.
+
+Putting everything together, we get the decomposition 1 x 3 − 1 = 1 3 ( 1 x − 1 + − x − 2 x 2 + x + 1 ).
+
+{\displaystyle {\frac {1}{x^{3}-1}}={\frac {1}{3}}\left({\frac {1}{x-1}}+{\frac {-x-2}{x^{2}+x+1}}\right).
+
+} Example 6 (integral) [ edit ] Suppose we have the indefinite integral : ∫ x 4 + x 3 + x 2 + 1 x 2 + x − 2 d x {\displaystyle \int {\frac {x^{4}+x^{3}+x^{2}+1}{x^{2}+x-2}}\,dx} Before performing decomposition, it is obvious we must perform polynomial long division and factor the denominator.
+
+Doing this would result in: ∫ ( x 2 + 3 + − 3 x + 7 ( x + 2 ) ( x − 1 ) ) d x {\displaystyle \int \left(x^{2}+3+{\frac {-3x+7}{(x+2)(x-1)}}\right)dx} Upon this, we may now perform partial fraction decomposition.
+
+∫ ( x 2 + 3 + − 3 x + 7 ( x + 2 ) ( x − 1 ) ) d x = ∫ ( x 2 + 3 + A ( x + 2 ) + B ( x − 1 ) ) d x {\displaystyle \int \left(x^{2}+3+{\frac {-3x+7}{(x+2)(x-1)}}\right)dx=\int \left(x^{2}+3+{\frac {A}{(x+2)}}+{\frac {B}{(x-1)}}\right)dx} so: A ( x − 1 ) + B ( x + 2 ) = − 3 x + 7 {\displaystyle A(x-1)+B(x+2)=-3x+7}.
+
+Upon substituting our values, in this case, where x=1 to solve for B and x=-2 to solve for A, we will result in: A = − 13 3 , B = 4 3 {\displaystyle A={\frac {-13}{3}}\ ,B={\frac {4}{3}}} Plugging all of this back into our integral allows us to find the answer: ∫ ( x 2 + 3 + − 13 / 3 ( x + 2 ) + 4 / 3 ( x − 1 ) ) d x = x 3 3 + 3 x − 13 3 ln ⁡ ( | x + 2 | ) + 4 3 ln ⁡ ( | x − 1 | ) + C {\displaystyle \int \left(x^{2}+3+{\frac {-13/3}{(x+2)}}+{\frac {4/3}{(x-1)}}\right)\,dx={\frac {x^{3}}{3}}\ +3x-{\frac {13}{3}}\ln(|x+2|)+{\frac {4}{3}}\ln(|x-1|)+C} The role of the Taylor polynomial [ edit ] The partial fraction decomposition of a rational function can be related to Taylor's theorem as follows.
+
+Let P ( x ) , Q ( x ) , A 1 ( x ) , … , A r ( x ) {\displaystyle P(x),Q(x),A_{1}(x),\ldots ,A_{r}(x)} be real or complex polynomials assume that Q = ∏ j = 1 r ( x − λ j ) ν j , {\displaystyle Q=\prod _{j=1}^{r}(x-\lambda _{j})^{\nu _{j}},} satisfies deg ⁡ A 1 < ν 1 , … , deg ⁡ A r < ν r , and deg ⁡ ( P ) < deg ⁡ ( Q ) = ∑ j = 1 r ν j.
+
+{\displaystyle \deg A_{1}<\nu _{1},\ldots ,\deg A_{r}<\nu _{r},\quad {\text{and}}\quad \deg(P)<\deg(Q)=\sum _{j=1}^{r}\nu _{j}.
+
+} Also define Q i = ∏ j ≠ i ( x − λ j ) ν j = Q ( x − λ i ) ν i , 1 ⩽ i ⩽ r.
+
+{\displaystyle Q_{i}=\prod _{j\neq i}(x-\lambda _{j})^{\nu _{j}}={\frac {Q}{(x-\lambda _{i})^{\nu _{i}}}},\qquad 1\leqslant i\leqslant r.
+
+} Then we have P Q = ∑ j = 1 r A j ( x − λ j ) ν j {\displaystyle {\frac {P}{Q}}=\sum _{j=1}^{r}{\frac {A_{j}}{(x-\lambda _{j})^{\nu _{j}}}}} if, and only if, each polynomial A i ( x ) {\displaystyle A_{i}(x)} is the Taylor polynomial of P Q i {\displaystyle {\tfrac {P}{Q_{i}}}} of order ν i − 1 {\displaystyle \nu _{i}-1} at the point λ i {\displaystyle \lambda _{i}} : A i ( x ) := ∑ k = 0 ν i − 1 1 k ! ( P Q i ) ( k ) ( λ i ) ( x − λ i ) k.
+
+{\displaystyle A_{i}(x):=\sum _{k=0}^{\nu _{i}-1}{\frac {1}{k!}}\left({\frac {P}{Q_{i}}}\right)^{(k)}(\lambda _{i})\ (x-\lambda _{i})^{k}.
+
+} Taylor's theorem (in the real or complex case) then provides a proof of the existence and uniqueness of the partial fraction decomposition, and a characterization of the coefficients.
+
+Sketch of the proof [ edit ] The above partial fraction decomposition implies, for each 1 ≤ i ≤ r , a polynomial expansion P Q i = A i + O ( ( x − λ i ) ν i ) , for x → λ i , {\displaystyle {\frac {P}{Q_{i}}}=A_{i}+O((x-\lambda _{i})^{\nu _{i}}),\qquad {\text{for }}x\to \lambda _{i},} so A i {\displaystyle A_{i}} is the Taylor polynomial of P Q i {\displaystyle {\tfrac {P}{Q_{i}}}} , because of the unicity of the polynomial expansion of order ν i − 1 {\displaystyle \nu _{i}-1} , and by assumption deg ⁡ A i < ν i {\displaystyle \deg A_{i}<\nu _{i}}.
+
+Conversely, if the A i {\displaystyle A_{i}} are the Taylor polynomials, the above expansions at each λ i {\displaystyle \lambda _{i}} hold, therefore we also have P − Q i A i = O ( ( x − λ i ) ν i ) , for x → λ i , {\displaystyle P-Q_{i}A_{i}=O((x-\lambda _{i})^{\nu _{i}}),\qquad {\text{for }}x\to \lambda _{i},} which implies that the polynomial P − Q i A i {\displaystyle P-Q_{i}A_{i}} is divisible by ( x − λ i ) ν i.
+
+{\displaystyle (x-\lambda _{i})^{\nu _{i}}.
+
+} For j ≠ i , Q j A j {\displaystyle j\neq i,Q_{j}A_{j}} is also divisible by ( x − λ i ) ν i {\displaystyle (x-\lambda _{i})^{\nu _{i}}} , so P − ∑ j = 1 r Q j A j {\displaystyle P-\sum _{j=1}^{r}Q_{j}A_{j}} is divisible by Q {\displaystyle Q}.
+
+Since deg ⁡ ( P − ∑ j = 1 r Q j A j ) < deg ⁡ ( Q ) {\displaystyle \deg \left(P-\sum _{j=1}^{r}Q_{j}A_{j}\right)<\deg(Q)} we then have P − ∑ j = 1 r Q j A j = 0 , {\displaystyle P-\sum _{j=1}^{r}Q_{j}A_{j}=0,} and we find the partial fraction decomposition dividing by Q {\displaystyle Q}.
+
+Fractions of integers [ edit ] The idea of partial fractions can be generalized to other integral domains , say the ring of integers where prime numbers take the role of irreducible denominators.
+
+For example: 1 18 = 1 2 − 1 3 − 1 3 2.
+
+{\displaystyle {\frac {1}{18}}={\frac {1}{2}}-{\frac {1}{3}}-{\frac {1}{3^{2}}}.
+
+} Notes [ edit ] ^ Larson, Ron (2016).
+
+Algebra & Trigonometry.
+
+Cengage Learning.
+
+ISBN 9781337271172.
+
+^ Horowitz, Ellis.
+
+" Algorithms for partial fraction decomposition and rational function integration.
+
+" Proceedings of the second ACM symposium on Symbolic and algebraic manipulation.
+
+ACM, 1971.
+
+^ Grosholz, Emily (2000).
+
+The Growth of Mathematical Knowledge.
+
+Kluwer Academic Publilshers.
+
+p.
+
+179.
+
+ISBN 978-90-481-5391-6.
+
+^ Bluman, George W.
+
+(1984).
+
+Problem Book for First Year Calculus.
+
+New York: Springer-Verlag.
+
+pp.
+
+250–251.
+
+References [ edit ] Rao, K.
+
+R.
+
+; Ahmed, N.
+
+(1968).
+
+"Recursive techniques for obtaining the partial fraction expansion of a rational function".
+
+IEEE Trans.
+
+Educ.
+
+11 (2): 152–154.
+
+Bibcode : 1968ITEdu.
+
+11.
+
+152R.
+
+doi : 10.
+
+1109/TE.
+
+1968.
+
+4320370.
+
+Henrici, Peter (1971).
+
+"An algorithm for the incomplete decomposition of a rational function into partial fractions".
+
+Z.
+
+Angew.
+
+Math.
+
+Phys.
+
+22 (4): 751–755.
+
+Bibcode : 1971ZaMP.
+
+22.
+
+751H.
+
+doi : 10.
+
+1007/BF01587772.
+
+S2CID 120554693.
+
+Chang, Feng-Cheng (1973).
+
+"Recursive formulas for the partial fraction expansion of a rational function with multiple poles".
+
+Proc.
+
+IEEE.
+
+61 (8): 1139–1140.
+
+doi : 10.
+
+1109/PROC.
+
+1973.
+
+9216.
+
+Kung, H.
+
+T.
+
+; Tong, D.
+
+M.
+
+(1977).
+
+"Fast Algorithms for Partial Fraction Decomposition".
+
+SIAM Journal on Computing.
+
+6 (3): 582.
+
+doi : 10.
+
+1137/0206042.
+
+S2CID 5857432.
+
+Eustice, Dan; Klamkin, M.
+
+S.
+
+(1979).
+
+"On the coefficients of a partial fraction decomposition".
+
+American Mathematical Monthly.
+
+Vol.
+
+86, no.
+
+6.
+
+pp.
+
+478–480.
+
+JSTOR 2320421.
+
+Mahoney, J.
+
+J.
+
+; Sivazlian, B.
+
+D.
+
+(1983).
+
+"Partial fractions expansion: a review of computational methodology and efficiency".
+
+J.
+
+Comput.
+
+Appl.
+
+Math.
+
+9 (3): 247–269.
+
+doi : 10.
+
+1016/0377-0427(83)90018-3.
+
+Miller, Charles D.
+
+; Lial, Margaret L.
+
+; Schneider, David I.
+
+(1990).
+
+Fundamentals of College Algebra (3rd ed.
+
+).
+
+Addison-Wesley Educational Publishers, Inc.
+
+pp.
+
+364–370.
+
+ISBN 0-673-38638-4.
+
+Westreich, David (1991).
+
+"partial fraction expansion without derivative evaluation".
+
+IEEE Trans.
+
+Circ.
+
+Syst.
+
+38 (6): 658–660.
+
+doi : 10.
+
+1109/31.
+
+81863.
+
+Kudryavtsev, L.
+
+D.
+
+(2001) [1994], "Undetermined coefficients, method of" , Encyclopedia of Mathematics , EMS Press Velleman, Daniel J.
+
+(2002).
+
+"Partial fractions, binomial coefficients and the integral of an odd power of sec theta".
+
+Amer.
+
+Math.
+
+Monthly.
+
+109 (8): 746–749.
+
+doi : 10.
+
+2307/3072399.
+
+JSTOR 3072399.
+
+Slota, Damian; Witula, Roman (2005).
+
+"Three brick method of the partial fraction decomposition of some type of rational expression".
+
+Computational Science – ICCS 2005.
+
+Lect.
+
+Not.
+
+Computer Sci.
+
+Vol.
+
+33516.
+
+pp.
+
+659–662.
+
+doi : 10.
+
+1007/11428862_89.
+
+ISBN 978-3-540-26044-8.
+
+Kung, Sidney H.
+
+(2006).
+
+"Partial fraction decomposition by division".
+
+Coll.
+
+Math.
+
+J.
+
+37 (2): 132–134.
+
+doi : 10.
+
+2307/27646303.
+
+JSTOR 27646303.
+
+Witula, Roman; Slota, Damian (2008).
+
+"Partial fractions decompositions of some rational functions".
+
+Appl.
+
+Math.
+
+Comput.
+
+197 : 328–336.
+
+doi : 10.
+
+1016/j.
+
+amc.
+
+2007.
+
+07.
+
+048.
+
+MR 2396331.
+
+External links [ edit ] Weisstein, Eric W.
+
+"Partial Fraction Decomposition".
+
+MathWorld.
+
+Blake, Sam.
+
+"Step-by-Step Partial Fractions".
+
+Make partial fraction decompositions with Scilab.
+
+Authority control databases : National Germany Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Partial_fraction_decomposition&oldid=1231469582#Application_to_symbolic_integration " Categories : Algebra Elementary algebra Partial fractions Hidden categories: Articles with short description Short description is different from Wikidata Articles lacking in-text citations from September 2012 All articles lacking in-text citations Articles with GND identifiers This page was last edited on 28 June 2024, at 13:07 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

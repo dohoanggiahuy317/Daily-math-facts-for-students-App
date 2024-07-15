@@ -1,0 +1,189 @@
+Bochner integral - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Definition 2 Properties Toggle Properties subsection 2.
+
+1 Elementary properties 2.
+
+2 Linear operators 2.
+
+3 Dominated convergence theorem 3 Radon–Nikodym property 4 See also 5 References Toggle the table of contents Bochner integral 9 languages Català Deutsch Français 한국어 日本語 Polski Suomi Українська 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia In mathematics , the Bochner integral , named for Salomon Bochner , extends the definition of Lebesgue integral to functions that take values in a Banach space , as the limit of integrals of simple functions.
+
+Definition [ edit ] Let ( X , Σ , μ ) {\displaystyle (X,\Sigma ,\mu )} be a measure space , and B {\displaystyle B} be a Banach space.
+
+The Bochner integral of a function f : X → B {\displaystyle f:X\to B} is defined in much the same way as the Lebesgue integral.
+
+First, define a simple function to be any finite sum of the form s n ( x ) = ∑ i = 1 n χ E i ( x ) b i , {\displaystyle s_{n}(x)=\sum _{i=1}^{n}\chi _{E_{i}}(x)b_{i},} where the E i {\displaystyle E_{i}} are disjoint members of the σ {\displaystyle \sigma } -algebra Σ , {\displaystyle \Sigma ,} the b i {\displaystyle b_{i}} are distinct elements of B , {\displaystyle B,} and χ E is the characteristic function of E.
+
+{\displaystyle E.
+
+} If μ ( E i ) {\displaystyle \mu \left(E_{i}\right)} is finite whenever b i ≠ 0 , {\displaystyle b_{i}\neq 0,} then the simple function is integrable , and the integral is then defined by ∫ X [ ∑ i = 1 n χ E i ( x ) b i ] d μ = ∑ i = 1 n μ ( E i ) b i {\displaystyle \int _{X}\left[\sum _{i=1}^{n}\chi _{E_{i}}(x)b_{i}\right]\,d\mu =\sum _{i=1}^{n}\mu (E_{i})b_{i}} exactly as it is for the ordinary Lebesgue integral.
+
+A measurable function f : X → B {\displaystyle f:X\to B} is Bochner integrable if there exists a sequence of integrable simple functions s n {\displaystyle s_{n}} such that lim n → ∞ ∫ X ‖ f − s n ‖ B d μ = 0 , {\displaystyle \lim _{n\to \infty }\int _{X}\|f-s_{n}\|_{B}\,d\mu =0,} where the integral on the left-hand side is an ordinary Lebesgue integral.
+
+In this case, the Bochner integral is defined by ∫ X f d μ = lim n → ∞ ∫ X s n d μ.
+
+{\displaystyle \int _{X}f\,d\mu =\lim _{n\to \infty }\int _{X}s_{n}\,d\mu.
+
+} It can be shown that the sequence { ∫ X s n d μ } n = 1 ∞ {\displaystyle \left\{\int _{X}s_{n}\,d\mu \right\}_{n=1}^{\infty }} is a Cauchy sequence in the Banach space B , {\displaystyle B,} hence the limit on the right exists; furthermore, the limit is independent of the approximating sequence of simple functions { s n } n = 1 ∞.
+
+{\displaystyle \{s_{n}\}_{n=1}^{\infty }.
+
+} These remarks show that the integral is well-defined (i.
+
+e independent of any choices).
+
+It can be shown that a function is Bochner integrable if and only if it lies in the Bochner space L 1.
+
+{\displaystyle L^{1}.
+
+} Properties [ edit ] Elementary properties [ edit ] Many of the familiar properties of the Lebesgue integral continue to hold for the Bochner integral.
+
+Particularly useful is Bochner's criterion for integrability, which states that if ( X , Σ , μ ) {\displaystyle (X,\Sigma ,\mu )} is a measure space, then a Bochner-measurable function f : X → B {\displaystyle f\colon X\to B} is Bochner integrable if and only if ∫ X ‖ f ‖ B d μ < ∞.
+
+{\displaystyle \int _{X}\|f\|_{B}\,\mathrm {d} \mu <\infty.
+
+} Here, a function f : X → B {\displaystyle f\colon X\to B} is called Bochner measurable if it is equal μ {\displaystyle \mu } -almost everywhere to a function g {\displaystyle g} taking values in a separable subspace B 0 {\displaystyle B_{0}} of B {\displaystyle B} , and such that the inverse image g − 1 ( U ) {\displaystyle g^{-1}(U)} of every open set U {\displaystyle U} in B {\displaystyle B} belongs to Σ {\displaystyle \Sigma }.
+
+Equivalently, f {\displaystyle f} is the limit μ {\displaystyle \mu } -almost everywhere of a sequence of countably-valued simple functions.
+
+Linear operators [ edit ] If T : B → B ′ {\displaystyle T\colon B\to B'} is a continuous linear operator between Banach spaces B {\displaystyle B} and B ′ {\displaystyle B'} , and f : X → B {\displaystyle f\colon X\to B} is Bochner integrable, then it is relatively straightforward to show that T f : X → B ′ {\displaystyle Tf\colon X\to B'} is Bochner integrable and integration and the application of T {\displaystyle T} may be interchanged: ∫ E T f d μ = T ∫ E f d μ {\displaystyle \int _{E}Tf\,\mathrm {d} \mu =T\int _{E}f\,\mathrm {d} \mu } for all measurable subsets E ∈ Σ {\displaystyle E\in \Sigma }.
+
+A non-trivially stronger form of this result, known as Hille's theorem , also holds for closed operators.
+
+[1] If T : B → B ′ {\displaystyle T\colon B\to B'} is a closed linear operator between Banach spaces B {\displaystyle B} and B ′ {\displaystyle B'} and both f : X → B {\displaystyle f\colon X\to B} and T f : X → B ′ {\displaystyle Tf\colon X\to B'} are Bochner integrable, then ∫ E T f d μ = T ∫ E f d μ {\displaystyle \int _{E}Tf\,\mathrm {d} \mu =T\int _{E}f\,\mathrm {d} \mu } for all measurable subsets E ∈ Σ {\displaystyle E\in \Sigma }.
+
+Dominated convergence theorem [ edit ] A version of the dominated convergence theorem also holds for the Bochner integral.
+
+Specifically, if f n : X → B {\displaystyle f_{n}\colon X\to B} is a sequence of measurable functions on a complete measure space tending almost everywhere to a limit function f {\displaystyle f} , and if ‖ f n ( x ) ‖ B ≤ g ( x ) {\displaystyle \|f_{n}(x)\|_{B}\leq g(x)} for almost every x ∈ X {\displaystyle x\in X} , and g ∈ L 1 ( μ ) {\displaystyle g\in L^{1}(\mu )} , then ∫ E ‖ f − f n ‖ B d μ → 0 {\displaystyle \int _{E}\|f-f_{n}\|_{B}\,\mathrm {d} \mu \to 0} as n → ∞ {\displaystyle n\to \infty } and ∫ E f n d μ → ∫ E f d μ {\displaystyle \int _{E}f_{n}\,\mathrm {d} \mu \to \int _{E}f\,\mathrm {d} \mu } for all E ∈ Σ {\displaystyle E\in \Sigma }.
+
+If f {\displaystyle f} is Bochner integrable, then the inequality ‖ ∫ E f d μ ‖ B ≤ ∫ E ‖ f ‖ B d μ {\displaystyle \left\|\int _{E}f\,\mathrm {d} \mu \right\|_{B}\leq \int _{E}\|f\|_{B}\,\mathrm {d} \mu } holds for all E ∈ Σ.
+
+{\displaystyle E\in \Sigma.
+
+} In particular, the set function E ↦ ∫ E f d μ {\displaystyle E\mapsto \int _{E}f\,\mathrm {d} \mu } defines a countably-additive B {\displaystyle B} -valued vector measure on X {\displaystyle X} which is absolutely continuous with respect to μ {\displaystyle \mu }.
+
+Radon–Nikodym property [ edit ] An important fact about the Bochner integral is that the Radon–Nikodym theorem fails to hold in general, and instead is a property (the Radon–Nikodym property ) defining an important class of nice Banach spaces.
+
+Specifically, if μ {\displaystyle \mu } is a measure on ( X , Σ ) , {\displaystyle (X,\Sigma ),} then B {\displaystyle B} has the Radon–Nikodym property with respect to μ {\displaystyle \mu } if, for every countably-additive vector measure γ {\displaystyle \gamma } on ( X , Σ ) {\displaystyle (X,\Sigma )} with values in B {\displaystyle B} which has bounded variation and is absolutely continuous with respect to μ , {\displaystyle \mu ,} there is a μ {\displaystyle \mu } -integrable function g : X → B {\displaystyle g:X\to B} such that γ ( E ) = ∫ E g d μ {\displaystyle \gamma (E)=\int _{E}g\,d\mu } for every measurable set E ∈ Σ.
+
+{\displaystyle E\in \Sigma.
+
+} [2] The Banach space B {\displaystyle B} has the Radon–Nikodym property if B {\displaystyle B} has the Radon–Nikodym property with respect to every finite measure.
+
+[2] Equivalent formulations include: Bounded discrete-time martingales in B {\displaystyle B} converge a.
+
+s.
+
+[3] Functions of bounded-variation into B {\displaystyle B} are differentiable a.
+
+e.
+
+[4] For every bounded D ⊆ B {\displaystyle D\subseteq B} , there exists f ∈ B ∗ {\displaystyle f\in B^{*}} and δ ∈ R + {\displaystyle \delta \in \mathbb {R} ^{+}} such that { x : f ( x ) + δ > sup f ( D ) } ⊆ D {\displaystyle \{x:f(x)+\delta >\sup {f(D)}\}\subseteq D} has arbitrarily small diameter.
+
+[3] It is known that the space ℓ 1 {\displaystyle \ell _{1}} has the Radon–Nikodym property, but c 0 {\displaystyle c_{0}} and the spaces L ∞ ( Ω ) , {\displaystyle L^{\infty }(\Omega ),} L 1 ( Ω ) , {\displaystyle L^{1}(\Omega ),} for Ω {\displaystyle \Omega } an open bounded subset of R n , {\displaystyle \mathbb {R} ^{n},} and C ( K ) , {\displaystyle C(K),} for K {\displaystyle K} an infinite compact space, do not.
+
+[5] Spaces with Radon–Nikodym property include separable dual spaces (this is the Dunford–Pettis theorem ) [ citation needed ] and reflexive spaces , which include, in particular, Hilbert spaces.
+
+[2] See also [ edit ] Bochner space – Type of topological space Bochner measurable function Pettis integral Vector measure Weakly measurable function References [ edit ] ^ Diestel, Joseph; Uhl, Jr.
+
+, John Jerry (1977).
+
+Vector Measures.
+
+Mathematical Surveys.
+
+American Mathematical Society.
+
+doi : 10.
+
+1090/surv/015.
+
+(See Theorem II.
+
+2.
+
+6) ^ a b c Bárcenas, Diómedes (2003).
+
+"The Radon–Nikodym Theorem for Reflexive Banach Spaces" (PDF).
+
+Divulgaciones Matemáticas.
+
+11 (1): 55–59 [pp.
+
+55–56].
+
+^ a b Bourgin 1983 , pp.
+
+31, 33.
+
+Thm.
+
+2.
+
+3.
+
+6-7, conditions (1,4,10).
+
+^ Bourgin 1983 , p.
+
+16.
+
+"Early workers in this field were concerned with the Banach space property that each X -valued function of bounded variation on [0,1] be differentiable almost surely.
+
+It turns out that this property (known as the Gelfand-Fréchet property) is also equivalent to the RNP [Radon-Nikodym Property].
+
+" ^ Bourgin 1983 , p.
+
+14.
+
+Bochner, Salomon (1933), "Integration von Funktionen, deren Werte die Elemente eines Vektorraumes sind" (PDF) , Fundamenta Mathematicae , 20 : 262–276 Bourgin, Richard D.
+
+(1983).
+
+Geometric Aspects of Convex Sets with the Radon-Nikodým Property.
+
+Lecture Notes in Mathematics 993.
+
+Berlin: Springer-Verlag.
+
+doi : 10.
+
+1007/BFb0069321.
+
+ISBN 3-540-12296-6.
+
+Cohn, Donald (2013), Measure Theory , Birkhäuser Advanced Texts Basler Lehrbücher, Springer, doi : 10.
+
+1007/978-1-4614-6956-8 , ISBN 978-1-4614-6955-1 Yosida, Kôsaku (1980), Functional Analysis , Classics in Mathematics, vol.
+
+123, Springer, doi : 10.
+
+1007/978-3-642-61859-8 , ISBN 978-3-540-58654-8 Diestel, Joseph (1984), Sequences and Series in Banach Spaces , Graduate Texts in Mathematics, vol.
+
+92, Springer, doi : 10.
+
+1007/978-1-4612-5200-9 , ISBN 978-0-387-90859-5 Diestel; Uhl (1977), Vector measures , American Mathematical Society , ISBN 978-0-8218-1515-1 Hille, Einar; Phillips, Ralph (1957), Functional Analysis and Semi-Groups , American Mathematical Society , ISBN 978-0-8218-1031-6 Lang, Serge (1993), Real and Functional Analysis (3rd ed.
+
+), Springer, ISBN 978-0387940014 Sobolev, V.
+
+I.
+
+(2001) [1994], "Bochner integral" , Encyclopedia of Mathematics , EMS Press van Dulst, D.
+
+(2001) [1994], "Vector measures" , Encyclopedia of Mathematics , EMS Press v t e Integrals Types of integrals Riemann integral Lebesgue integral Burkill integral Bochner integral Daniell integral Darboux integral Henstock–Kurzweil integral Haar integral Hellinger integral Khinchin integral Kolmogorov integral Lebesgue–Stieltjes integral Pettis integral Pfeffer integral Riemann–Stieltjes integral Regulated integral Integration techniques Substitution Trigonometric Euler Weierstrass By parts Partial fractions Euler's formula Inverse functions Changing order Reduction formulas Parametric derivatives Differentiation under the integral sign Laplace transform Contour integration Laplace's method Numerical integration Simpson's rule Trapezoidal rule Risch algorithm Improper integrals Gaussian integral Dirichlet integral Fermi–Dirac integral complete incomplete Bose–Einstein integral Frullani integral Common integrals in quantum field theory Stochastic integrals Itô integral Russo–Vallois integral Stratonovich integral Skorokhod integral Miscellaneous Basel problem Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Volumes Washers Shells v t e Functional analysis ( topics – glossary ) Spaces Banach Besov Fréchet Hilbert Hölder Nuclear Orlicz Schwartz Sobolev Topological vector Properties Barrelled Complete Dual ( Algebraic / Topological ) Locally convex Reflexive Separable Theorems Hahn–Banach Riesz representation Closed graph Uniform boundedness principle Kakutani fixed-point Krein–Milman Min–max Gelfand–Naimark Banach–Alaoglu Operators Adjoint Bounded Compact Hilbert–Schmidt Normal Nuclear Trace class Transpose Unbounded Unitary Algebras Banach algebra C*-algebra Spectrum of a C*-algebra Operator algebra Group algebra of a locally compact group Von Neumann algebra Open problems Invariant subspace problem Mahler's conjecture Applications Hardy space Spectral theory of ordinary differential equations Heat kernel Index theorem Calculus of variations Functional calculus Integral operator Jones polynomial Topological quantum field theory Noncommutative geometry Riemann hypothesis Distribution (or Generalized functions ) Advanced topics Approximation property Balanced set Choquet theory Weak topology Banach–Mazur distance Tomita–Takesaki theory Category v t e Analysis in topological vector spaces Basic concepts Abstract Wiener space Classical Wiener space Bochner space Convex series Cylinder set measure Infinite-dimensional vector function Matrix calculus Vector calculus Derivatives Differentiable vector–valued functions from Euclidean space Differentiation in Fréchet spaces Fréchet derivative Total Functional derivative Gateaux derivative Directional Generalizations of the derivative Hadamard derivative Holomorphic Quasi-derivative Measurability Besov measure Cylinder set measure Canonical Gaussian Classical Wiener measure Measure like set functions infinite-dimensional Gaussian measure Projection-valued Vector Bochner / Weakly / Strongly measurable function Radonifying function Integrals Bochner Direct integral Dunford Gelfand–Pettis/Weak Regulated Paley–Wiener Results Cameron–Martin theorem Inverse function theorem Nash–Moser theorem Feldman–Hájek theorem No infinite-dimensional Lebesgue measure Sazonov's theorem Structure theorem for Gaussian measures Related Crinkled arc Covariance operator Functional calculus Borel functional calculus Continuous functional calculus Holomorphic functional calculus Applications Banach manifold ( bundle ) Convenient vector space Choquet theory Fréchet manifold Hilbert manifold Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Bochner_integral&oldid=1223302380 " Categories : Definitions of mathematical integration Integral representations Topological vector spaces Hidden categories: All articles with unsourced statements Articles with unsourced statements from August 2022 This page was last edited on 11 May 2024, at 05:56 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

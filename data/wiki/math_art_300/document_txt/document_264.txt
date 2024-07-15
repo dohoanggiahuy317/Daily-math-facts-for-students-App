@@ -1,0 +1,195 @@
+Recreational mathematics - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Topics Toggle Topics subsection 1.
+
+1 Mathematical games 1.
+
+2 Mathematical puzzles 1.
+
+3 Mathemagics 1.
+
+4 Other activities 2 Online blogs, podcasts, and YouTube channels 3 Publications 4 People 5 See also 6 References 7 Further reading 8 External links Toggle the table of contents Recreational mathematics 28 languages العربية Aragonés বাংলা Català Čeština Deutsch Ελληνικά Español Euskara فارسی Français Galego 한국어 Հայերեն हिन्दी Hrvatski Bahasa Indonesia Italiano עברית Português Română Русский Slovenščina کوردی Suomi Svenska Українська 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia Form of entertainment in mathematics Part of a series on Mathematics History Index Areas Number theory Geometry Algebra Calculus and Analysis Discrete mathematics Logic and Set theory Probability Statistics and Decision theory Relationship with sciences Physics Chemistry Geosciences Computation Biology Linguistics Economics Philosophy Education Mathematics Portal v t e Recreational mathematics is mathematics carried out for recreation (entertainment) rather than as a strictly research- and application-based professional activity or as a part of a student's formal education.
+
+Although it is not necessarily limited to being an endeavor for amateurs , many topics in this field require no knowledge of advanced mathematics.
+
+Recreational mathematics involves mathematical puzzles and games , often appealing to children and untrained adults and inspiring their further study of the subject.
+
+[1] The Mathematical Association of America (MAA) includes recreational mathematics as one of its seventeen Special Interest Groups , commenting: Recreational mathematics is not easily defined because it is more than mathematics done as a diversion or playing games that involve mathematics.
+
+Recreational mathematics is inspired by deep ideas that are hidden in puzzles, games, and other forms of play.
+
+The aim of the SIGMAA on Recreational Mathematics (SIGMAA-Rec) is to bring together enthusiasts and researchers in the myriad of topics that fall under recreational math.
+
+We will share results and ideas from our work, show that real, deep mathematics is there awaiting those who look, and welcome those who wish to become involved in this branch of mathematics.
+
+[2] Mathematical competitions (such as those sponsored by mathematical associations ) are also categorized under recreational mathematics.
+
+Topics [ edit ] Some of the more well-known topics in recreational mathematics are Rubik's Cubes , magic squares , fractals , logic puzzles and mathematical chess problems , but this area of mathematics includes the aesthetics and culture of mathematics, peculiar or amusing stories and coincidences about mathematics , and the personal lives of mathematicians.
+
+Mathematical games [ edit ] Mathematical games are multiplayer games whose rules, strategies, and outcomes can be studied and explained using mathematics.
+
+The players of the game may not need to use explicit mathematics in order to play mathematical games.
+
+For example, Mancala is studied in the mathematical field of combinatorial game theory , but no mathematics is necessary in order to play it.
+
+Mathematical puzzles [ edit ] Mathematical puzzles require mathematics in order to solve them.
+
+They have specific rules, as do multiplayer games , but mathematical puzzles do not usually involve competition between two or more players.
+
+Instead, in order to solve such a puzzle , the solver must find a solution that satisfies the given conditions.
+
+Logic puzzles and classical ciphers are common examples of mathematical puzzles.
+
+Cellular automata and fractals are also considered mathematical puzzles, even though the solver only interacts with them by providing a set of initial conditions.
+
+As they often include or require game-like features or thinking, mathematical puzzles are sometimes also called mathematical games.
+
+Mathemagics [ edit ] Magic tricks based on mathematical principles can produce self-working but surprising effects.
+
+For instance, a mathemagician might use the combinatorial properties of a deck of playing cards to guess a volunteer's selected card, or Hamming codes to identify whether a volunteer is lying.
+
+[3] Other activities [ edit ] Other curiosities and pastimes of non-trivial mathematical interest include: patterns in juggling the sometimes profound algorithmic and geometrical characteristics of origami patterns and process in creating string figures such as Cat's cradles , etc.
+
+fractal-generating software Online blogs, podcasts, and YouTube channels [ edit ] There are many blogs and audio or video series devoted to recreational mathematics.
+
+Among the notable are the following: Cut-the-knot by Alexander Bogomolny Futility Closet by Greg Ross Mathologer by Burkard Polster The videos of Vi Hart Stand-Up Maths by Matt Parker Numberphile by Brady Haran Publications [ edit ] The journal Eureka published by the mathematical society of the University of Cambridge is one of the oldest publications in recreational mathematics.
+
+It has been published 60 times since 1939 and authors have included many famous mathematicians and scientists such as Martin Gardner , John Conway , Roger Penrose , Ian Stewart , Timothy Gowers , Stephen Hawking and Paul Dirac.
+
+The Journal of Recreational Mathematics was the largest publication on this topic from its founding in 1968 until 2014 when it ceased publication.
+
+Mathematical Games (1956 to 1981) was the title of a long-running Scientific American column on recreational mathematics by Martin Gardner.
+
+He inspired several generations of mathematicians and scientists through his interest in mathematical recreations.
+
+"Mathematical Games" was succeeded by 25 " Metamagical Themas " columns (1981-1983), a similarly distinguished, but shorter-running, column by Douglas Hofstadter , then by 78 "Mathematical Recreations" and "Computer Recreations" columns (1984 to 1991) by A.
+
+K.
+
+Dewdney , then by 96 "Mathematical Recreations" columns (1991 to 2001) by Ian Stewart , and most recently "Puzzling Adventures" by Dennis Shasha.
+
+The Recreational Mathematics Magazine , published by the Ludus Association , is electronic and semiannual, and focuses on results that provide amusing, witty but nonetheless original and scientifically profound mathematical nuggets.
+
+The issues are published in the exact moments of the equinox.
+
+People [ edit ] Prominent practitioners and advocates of recreational mathematics have included professional and amateur mathematicians : Full name Last name Born Died Nationality Description Lewis Carroll (Charles Dodgson) Carroll 1832 1898 English Mathematician, puzzlist and Anglican deacon best known as the author of Alice in Wonderland and Through the Looking-Glass.
+
+Sam Loyd Loyd 1841 1911 American Chess problem composer and author, described as "America's greatest puzzlist " by Martin Gardner.
+
+[4] Henry Dudeney Dudeney 1857 1930 English Civil servant described as England's "greatest puzzlist".
+
+[5] Yakov Perelman Perelman 1882 1942 Russian Author of many popular science and mathematics books, including Mathematics Can Be Fun.
+
+D.
+
+R.
+
+Kaprekar Kaprekar 1905 1986 Indian Discovered several results in number theory , described several classes of natural numbers including the Kaprekar , harshad and self numbers, and discovered the Kaprekar's constant Martin Gardner Gardner 1914 2010 American Popular mathematics and science writer; author of Mathematical Games , a long-running Scientific American column.
+
+Raymond Smullyan Smullyan 1919 2017 American Logician; author of many logic puzzle books including " To Mock a Mockingbird ".
+
+Joseph Madachy Madachy 1927 2014 American Long-time editor of Journal of Recreational Mathematics , author of Mathematics on Vacation.
+
+Solomon W.
+
+Golomb Golomb 1932 2016 American Mathematician and engineer, best known as the inventor of polyominoes.
+
+John Horton Conway Conway 1937 2020 English Mathematician and inventor of Conway's Game of Life , co-author of Winning Ways , an analysis of many mathematical games.
+
+Lee Sallows Sallows 1944 English Invented geomagic squares , golygons , and self-enumerating sentences.
+
+See also [ edit ] List of recreational number theory topics References [ edit ] ^ Kulkarni, D.
+
+Enjoying Math: Learning Problem Solving With KenKen Puzzles Archived 2013-08-01 at the Wayback Machine , a textbook for teaching with KenKen Puzzles.
+
+^ Special Interest Groups of the MAA Mathematical Association of America ^ Teixeira, Ricardo (2020).
+
+Mathemagics: A Magical Journey through Advanced Mathematics.
+
+USA: World Scientific.
+
+ISBN 9789811214509.
+
+^ Loyd, Sam (1959).
+
+Mathematical Puzzles of Sam Loyd (selected and edited by Martin Gardner ), Dover Publications Inc.
+
+, p.
+
+xi, ISBN 0-486-20498-7 ^ Newing, Angela (1994), "Henry Ernest Dudeney: Britain's Greatest Puzzlist", in Guy, Richard K.
+
+; Woodrow, Robert E.
+
+(eds.
+
+), The Lighter Side of Mathematics: Proceedings of the Eugène Strens Memorial Conference on Recreational Mathematics and Its History , Cambridge University Press, pp.
+
+294–301, ISBN 9780883855164.
+
+Further reading [ edit ] W.
+
+W.
+
+Rouse Ball and H.
+
+S.
+
+M.
+
+Coxeter (1987).
+
+Mathematical Recreations and Essays , Thirteenth Edition, Dover.
+
+ISBN 0-486-25357-0.
+
+Henry E.
+
+Dudeney (1967).
+
+536 Puzzles and Curious Problems.
+
+Charles Scribner's sons.
+
+ISBN 0-684-71755-7.
+
+Sam Loyd (1959.
+
+2 Vols.
+
+).
+
+in Martin Gardner: The Mathematical Puzzles of Sam Loyd.
+
+Dover.
+
+OCLC 5720955.
+
+Raymond M.
+
+Smullyan (1991).
+
+The Lady or the Tiger? And Other Logic Puzzles.
+
+Oxford University Press.
+
+ISBN 0-19-286136-0.
+
+External links [ edit ] Look up recreational mathematics in Wiktionary, the free dictionary.
+
+Recreational Mathematics from MathWorld at Wolfram Research v t e Major mathematics areas History Timeline Future Lists Glossary Foundations Category theory Information theory Mathematical logic Philosophy of mathematics Set theory Type theory Algebra Abstract Commutative Elementary Group theory Linear Multilinear Universal Homological Analysis Calculus Real analysis Complex analysis Hypercomplex analysis Differential equations Functional analysis Harmonic analysis Measure theory Discrete Combinatorics Graph theory Order theory Geometry Algebraic Analytic Arithmetic Differential Discrete Euclidean Finite Number theory Arithmetic Algebraic number theory Analytic number theory Diophantine geometry Topology General Algebraic Differential Geometric Homotopy theory Applied Engineering mathematics Mathematical biology Mathematical chemistry Mathematical economics Mathematical finance Mathematical physics Mathematical psychology Mathematical sociology Mathematical statistics Probability Statistics Systems science Control theory Game theory Operations research Computational Computer science Theory of computation Computational complexity theory Numerical analysis Optimization Computer algebra Related topics Mathematicians lists Informal mathematics Films about mathematicians Recreational mathematics Mathematics and art Mathematics education Mathematics portal Category Commons WikiProject Authority control databases : National Germany Israel United States Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Recreational_mathematics&oldid=1234211659 " Category : Recreational mathematics Hidden categories: Webarchive template wayback links Articles with short description Short description is different from Wikidata Pages using sidebar with the child parameter Articles with GND identifiers Articles with J9U identifiers Articles with LCCN identifiers This page was last edited on 13 July 2024, at 04:55 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

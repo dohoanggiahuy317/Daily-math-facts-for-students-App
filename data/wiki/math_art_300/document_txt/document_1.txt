@@ -1,0 +1,3169 @@
+Mathematics and art - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Origins: from ancient Greece to the Renaissance Toggle Origins: from ancient Greece to the Renaissance subsection 1.
+
+1 Polykleitos's Canon and symmetria 1.
+
+2 Perspective and proportion 1.
+
+3 Golden ratio 1.
+
+4 Planar symmetries 1.
+
+5 Polyhedra 1.
+
+6 Fractal dimensions 2 A complex relationship Toggle A complex relationship subsection 2.
+
+1 Mathematics as an art 2.
+
+2 Mathematical tools for art 2.
+
+3 From mathematics to art 2.
+
+4 Illustrating mathematics 2.
+
+5 Analysis of art history 2.
+
+6 Stimuli to mathematical research 2.
+
+7 Illusion to Op art 2.
+
+8 Sacred geometry 3 See also 4 Notes 5 References 6 External links Toggle the table of contents Mathematics and art 17 languages Afrikaans العربية Català Dansk Ελληνικά Español Euskara فارسی Français Galego Hrvatski Bahasa Indonesia Italiano Português Русский Українська Tiếng Việt Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia Relationship between mathematics and art Mathematics in art: Albrecht Dürer 's copper plate engraving Melencolia I , 1514.
+
+Mathematical references include a compass for geometry , a magic square and a truncated rhombohedron , while measurement is indicated by the scales and hourglass.
+
+[1] Wireframe drawing [2] of a vase as a solid of revolution [2] by Paolo Uccello.
+
+15th century Part of a series on Mathematics History Index Areas Number theory Geometry Algebra Calculus and Analysis Discrete mathematics Logic and Set theory Probability Statistics and Decision theory Relationship with sciences Physics Chemistry Geosciences Computation Biology Linguistics Economics Philosophy Education Mathematics Portal v t e Mathematics and art are related in a variety of ways.
+
+Mathematics has itself been described as an art motivated by beauty.
+
+Mathematics can be discerned in arts such as music , dance , painting , architecture , sculpture , and textiles.
+
+This article focuses, however, on mathematics in the visual arts.
+
+Mathematics and art have a long historical relationship.
+
+Artists have used mathematics since the 4th century BC when the Greek sculptor Polykleitos wrote his Canon , prescribing proportions conjectured to have been based on the ratio 1: √ 2 for the ideal male nude.
+
+Persistent popular claims have been made for the use of the golden ratio in ancient art and architecture, without reliable evidence.
+
+In the Italian Renaissance , Luca Pacioli wrote the influential treatise De divina proportione (1509), illustrated with woodcuts by Leonardo da Vinci , on the use of the golden ratio in art.
+
+Another Italian painter, Piero della Francesca , developed Euclid 's ideas on perspective in treatises such as De Prospectiva Pingendi , and in his paintings.
+
+The engraver Albrecht Dürer made many references to mathematics in his work Melencolia I.
+
+In modern times, the graphic artist M.
+
+C.
+
+Escher made intensive use of tessellation and hyperbolic geometry , with the help of the mathematician H.
+
+S.
+
+M.
+
+Coxeter , while the De Stijl movement led by Theo van Doesburg and Piet Mondrian explicitly embraced geometrical forms.
+
+Mathematics has inspired textile arts such as quilting , knitting , cross-stitch , crochet , embroidery , weaving , Turkish and other carpet -making, as well as kilim.
+
+In Islamic art , symmetries are evident in forms as varied as Persian girih and Moroccan zellige tilework, Mughal jali pierced stone screens, and widespread muqarnas vaulting.
+
+Mathematics has directly influenced art with conceptual tools such as linear perspective , the analysis of symmetry , and mathematical objects such as polyhedra and the Möbius strip.
+
+Magnus Wenninger creates colourful stellated polyhedra , originally as models for teaching.
+
+Mathematical concepts such as recursion and logical paradox can be seen in paintings by René Magritte and in engravings by M.
+
+C.
+
+Escher.
+
+Computer art often makes use of fractals including the Mandelbrot set , and sometimes explores other mathematical objects such as cellular automata.
+
+Controversially, the artist David Hockney has argued that artists from the Renaissance onwards made use of the camera lucida to draw precise representations of scenes; the architect Philip Steadman similarly argued that Vermeer used the camera obscura in his distinctively observed paintings.
+
+Other relationships include the algorithmic analysis of artworks by X-ray fluorescence spectroscopy , the finding that traditional batiks from different regions of Java have distinct fractal dimensions , and stimuli to mathematics research, especially Filippo Brunelleschi 's theory of perspective, which eventually led to Girard Desargues 's projective geometry.
+
+A persistent view, based ultimately on the Pythagorean notion of harmony in music, holds that everything was arranged by Number, that God is the geometer of the world, and that therefore the world's geometry is sacred.
+
+Origins: from ancient Greece to the Renaissance [ edit ] Further information: Artistic canons of body proportions Polykleitos's Canon and symmetria [ edit ] Roman copy in marble of Doryphoros , originally a bronze by Polykleitos Further information: Polykleitos Polykleitos the elder (c.
+
+450–420 BC) was a Greek sculptor from the school of Argos , and a contemporary of Phidias.
+
+His works and statues consisted mainly of bronze and were of athletes.
+
+According to the philosopher and mathematician Xenocrates , Polykleitos is ranked as one of the most important sculptors of classical antiquity for his work on the Doryphorus and the statue of Hera in the Heraion of Argos.
+
+[3] While his sculptures may not be as famous as those of Phidias, they are much admired.
+
+In his Canon , a treatise he wrote designed to document the "perfect" body proportions of the male nude, Polykleitos gives us a mathematical approach towards sculpturing the human body.
+
+[3] The Canon itself has been lost but it is conjectured that Polykleitos used a sequence of proportions where each length is that of the diagonal of a square drawn on its predecessor, 1: √ 2 (about 1:1.
+
+4142).
+
+[4] The influence of the Canon of Polykleitos is immense in Classical Greek , Roman , and Renaissance sculpture, with many sculptors following Polykleitos's prescription.
+
+While none of Polykleitos's original works survive, Roman copies demonstrate his ideal of physical perfection and mathematical precision.
+
+Some scholars argue that Pythagorean thought influenced the Canon of Polykleitos.
+
+[5] The Canon applies the basic mathematical concepts of Greek geometry, such as the ratio, proportion, and symmetria (Greek for "harmonious proportions") and turns it into a system capable of describing the human form through a series of continuous geometric progressions.
+
+[4] Perspective and proportion [ edit ] Main article: Perspective (graphical) Brunelleschi 's experiment with linear perspective In classical times, rather than making distant figures smaller with linear perspective , painters sized objects and figures according to their thematic importance.
+
+In the Middle Ages, some artists used reverse perspective for special emphasis.
+
+The Muslim mathematician Alhazen (Ibn al-Haytham) described a theory of optics in his Book of Optics in 1021, but never applied it to art.
+
+[6] The Renaissance saw a rebirth of Classical Greek and Roman culture and ideas, among them the study of mathematics to understand nature and the arts.
+
+Two major motives drove artists in the late Middle Ages and the Renaissance towards mathematics.
+
+First, painters needed to figure out how to depict three-dimensional scenes on a two-dimensional canvas.
+
+Second, philosophers and artists alike were convinced that mathematics was the true essence of the physical world and that the entire universe, including the arts, could be explained in geometric terms.
+
+[7] The rudiments of perspective arrived with Giotto (1266/7 – 1337), who attempted to draw in perspective using an algebraic method to determine the placement of distant lines.
+
+In 1415, the Italian architect Filippo Brunelleschi and his friend Leon Battista Alberti demonstrated the geometrical method of applying perspective in Florence, using similar triangles as formulated by Euclid, to find the apparent height of distant objects.
+
+[8] [9] Brunelleschi's own perspective paintings are lost, but Masaccio 's painting of the Holy Trinity shows his principles at work.
+
+[6] [10] [11] Paolo Uccello made innovative use of perspective in The Battle of San Romano (c.
+
+1435–1460).
+
+The Italian painter Paolo Uccello (1397–1475) was fascinated by perspective, as shown in his paintings of The Battle of San Romano (c.
+
+1435–1460): broken lances lie conveniently along perspective lines.
+
+[12] [13] The painter Piero della Francesca (c.
+
+1415–1492) exemplified this new shift in Italian Renaissance thinking.
+
+He was an expert mathematician and geometer , writing books on solid geometry and perspective , including De prospectiva pingendi (On Perspective for Painting) , Trattato d'Abaco (Abacus Treatise) , and De quinque corporibus regularibus (On the Five Regular Solids).
+
+[14] [15] [16] The historian Vasari in his Lives of the Painters calls Piero the "greatest geometer of his time, or perhaps of any time.
+
+" [17] Piero's interest in perspective can be seen in his paintings including the Polyptych of Perugia , [18] the San Agostino altarpiece and The Flagellation of Christ.
+
+His work on geometry influenced later mathematicians and artists including Luca Pacioli in his De divina proportione and Leonardo da Vinci.
+
+Piero studied classical mathematics and the works of Archimedes.
+
+[19] He was taught commercial arithmetic in "abacus schools"; his writings are formatted like abacus school textbooks, [20] perhaps including Leonardo Pisano ( Fibonacci )'s 1202 Liber Abaci.
+
+Linear perspective was just being introduced into the artistic world.
+
+Alberti explained in his 1435 De pictura : "light rays travel in straight lines from points in the observed scene to the eye, forming a kind of pyramid with the eye as vertex.
+
+" A painting constructed with linear perspective is a cross-section of that pyramid.
+
+[21] In De Prospectiva Pingendi , Piero transforms his empirical observations of the way aspects of a figure change with point of view into mathematical proofs.
+
+His treatise starts in the vein of Euclid: he defines the point as "the tiniest thing that is possible for the eye to comprehend".
+
+[a] [7] He uses deductive logic to lead the reader to the perspective representation of a three-dimensional body.
+
+[22] The artist David Hockney argued in his book Secret Knowledge: Rediscovering the Lost Techniques of the Old Masters that artists started using a camera lucida from the 1420s, resulting in a sudden change in precision and realism, and that this practice was continued by major artists including Ingres , Van Eyck , and Caravaggio.
+
+[23] Critics disagree on whether Hockney was correct.
+
+[24] [25] Similarly, the architect Philip Steadman argued controversially [26] that Vermeer had used a different device, the camera obscura , to help him create his distinctively observed paintings.
+
+[27] In 1509, Luca Pacioli (c.
+
+1447–1517) published De divina proportione on mathematical and artistic proportion , including in the human face.
+
+Leonardo da Vinci (1452–1519) illustrated the text with woodcuts of regular solids while he studied under Pacioli in the 1490s.
+
+Leonardo's drawings are probably the first illustrations of skeletonic solids.
+
+[28] These, such as the rhombicuboctahedron , were among the first to be drawn to demonstrate perspective by being overlaid on top of each other.
+
+The work discusses perspective in the works of Piero della Francesca , Melozzo da Forlì , and Marco Palmezzano.
+
+[29] Leonardo studied Pacioli's Summa , from which he copied tables of proportions.
+
+[30] In Mona Lisa and The Last Supper , Leonardo's work incorporated linear perspective with a vanishing point to provide apparent depth.
+
+[31] The Last Supper is constructed in a tight ratio of 12:6:4:3, as is Raphael 's The School of Athens , which includes Pythagoras with a tablet of ideal ratios, sacred to the Pythagoreans.
+
+[32] [33] In Vitruvian Man , Leonardo expressed the ideas of the Roman architect Vitruvius , innovatively showing the male figure twice, and centring him in both a circle and a square.
+
+[34] As early as the 15th century, curvilinear perspective found its way into paintings by artists interested in image distortions.
+
+Jan van Eyck 's 1434 Arnolfini Portrait contains a convex mirror with reflections of the people in the scene, [35] while Parmigianino 's Self-portrait in a Convex Mirror , c.
+
+1523–1524, shows the artist's largely undistorted face at the centre, with a strongly curved background and artist's hand around the edge.
+
+[36] Three-dimensional space can be represented convincingly in art, as in technical drawing , by means other than perspective.
+
+Oblique projections , including cavalier perspective (used by French military artists to depict fortifications in the 18th century), were used continuously and ubiquitously by Chinese artists from the first or second centuries until the 18th century.
+
+The Chinese acquired the technique from India, which acquired it from Ancient Rome.
+
+Oblique projection is seen in Japanese art, such as in the Ukiyo-e paintings of Torii Kiyonaga (1752–1815).
+
+[37] Woodcut from Luca Pacioli 's 1509 De divina proportione with an equilateral triangle on a human face Camera lucida in use.
+
+Scientific American , 1879 Illustration of an artist using a camera obscura.
+
+17th century Proportion: Leonardo 's Vitruvian Man , c.
+
+1490 Brunelleschi 's theory of perspective : Masaccio 's Trinità , c.
+
+1426–1428, in the Basilica of Santa Maria Novella Diagram from Leon Battista Alberti 's 1435 Della Pittura , with pillars in perspective on a grid Linear perspective in Piero della Francesca 's Flagellation of Christ , c.
+
+1455–1460 Curvilinear perspective : convex mirror in Jan van Eyck 's Arnolfini Portrait , 1434 Parmigianino , Self-portrait in a Convex Mirror , c.
+
+1523–1524 Pythagoras with tablet of ratios, in Raphael 's The School of Athens , 1509 Oblique projection : Entrance and yard of a yamen.
+
+Detail of scroll about Suzhou by Xu Yang, ordered by the Qianlong Emperor.
+
+18th century Oblique projection : women playing Shogi , Go and Ban-sugoroku board games.
+
+Painting by Torii Kiyonaga , Japan, c.
+
+1780 Golden ratio [ edit ] Further information: List of works designed with the golden ratio The golden ratio (roughly equal to 1.
+
+618) was known to Euclid.
+
+[38] The golden ratio has persistently been claimed [39] [40] [41] [42] in modern times to have been used in art and architecture by the ancients in Egypt, Greece and elsewhere, without reliable evidence.
+
+[43] The claim may derive from confusion with "golden mean", which to the Ancient Greeks meant "avoidance of excess in either direction", not a ratio.
+
+[43] Pyramidologists since the 19th century have argued on dubious mathematical grounds for the golden ratio in pyramid design.
+
+[b] The Parthenon , a 5th-century BC temple in Athens, has been claimed to use the golden ratio in its façade and floor plan, [47] [48] [49] but these claims too are disproved by measurement.
+
+[43] The Great Mosque of Kairouan in Tunisia has similarly been claimed to use the golden ratio in its design, [50] but the ratio does not appear in the original parts of the mosque.
+
+[51] The historian of architecture Frederik Macody Lund argued in 1919 that the Cathedral of Chartres (12th century), Notre-Dame of Laon (1157–1205) and Notre Dame de Paris (1160) are designed according to the golden ratio, [52] drawing regulator lines to make his case.
+
+Other scholars argue that until Pacioli's work in 1509, the golden ratio was unknown to artists and architects.
+
+[53] For example, the height and width of the front of Notre-Dame of Laon have the ratio 8/5 or 1.
+
+6, not 1.
+
+618.
+
+Such Fibonacci ratios quickly become hard to distinguish from the golden ratio.
+
+[54] After Pacioli, the golden ratio is more definitely discernible in artworks including Leonardo's Mona Lisa.
+
+[55] Another ratio, the only other morphic number, [56] was named the plastic number [c] in 1928 by the Dutch architect Hans van der Laan (originally named le nombre radiant in French).
+
+[57] Its value is the solution of the cubic equation x 3 = x + 1 {\displaystyle x^{3}=x+1\,} , an irrational number which is approximately 1.
+
+325.
+
+According to the architect Richard Padovan , this has characteristic ratios ⁠ 3 / 4 ⁠ and ⁠ 1 / 7 ⁠ , which govern the limits of human perception in relating one physical size to another.
+
+Van der Laan used these ratios when designing the 1967 St.
+
+Benedictusberg Abbey church in the Netherlands.
+
+[57] Base:hypotenuse(b:a) ratios for the Pyramid of Khufu could be: 1:φ ( Kepler triangle ), 3:5 ( 3-4-5 Triangle ), or 1:4/π Supposed ratios: Notre-Dame of Laon Golden rectangles superimposed on the Mona Lisa The 1967 St.
+
+Benedictusberg Abbey church by Hans van der Laan has plastic ratio proportions.
+
+Planar symmetries [ edit ] Further information: Planar symmetry , Wallpaper group , Islamic geometric patterns , and Kilim Powerful presence: [58] carpet with double medallion.
+
+Central Anatolia (Konya – Karapınar), turn of the 16th/17th centuries.
+
+Alâeddin Mosque Planar symmetries have for millennia been exploited in artworks such as carpets , lattices, textiles and tilings.
+
+[59] [60] [61] [62] Many traditional rugs, whether pile carpets or flatweave kilims , are divided into a central field and a framing border; both can have symmetries, though in handwoven carpets these are often slightly broken by small details, variations of pattern and shifts in colour introduced by the weaver.
+
+[59] In kilims from Anatolia , the motifs used are themselves usually symmetrical.
+
+The general layout, too, is usually present, with arrangements such as stripes, stripes alternating with rows of motifs, and packed arrays of roughly hexagonal motifs.
+
+The field is commonly laid out as a wallpaper with a wallpaper group such as pmm, while the border may be laid out as a frieze of frieze group pm11, pmm2 or pma2.
+
+Turkish and Central Asian kilims often have three or more borders in different frieze groups.
+
+Weavers certainly had the intention of symmetry, without explicit knowledge of its mathematics.
+
+[59] The mathematician and architectural theorist Nikos Salingaros suggests that the "powerful presence" [58] (aesthetic effect) of a "great carpet" [58] such as the best Konya two-medallion carpets of the 17th century is created by mathematical techniques related to the theories of the architect Christopher Alexander.
+
+These techniques include making opposites couple; opposing colour values; differentiating areas geometrically, whether by using complementary shapes or balancing the directionality of sharp angles; providing small-scale complexity (from the knot level upwards) and both small- and large-scale symmetry; repeating elements at a hierarchy of different scales (with a ratio of about 2.
+
+7 from each level to the next).
+
+Salingaros argues that "all successful carpets satisfy at least nine of the above ten rules", and suggests that it might be possible to create a metric from these rules.
+
+[58] Elaborate lattices are found in Indian Jali work, carved in marble to adorn tombs and palaces.
+
+[60] Chinese lattices, always with some symmetry, exist in 14 of the 17 wallpaper groups; they often have mirror, double mirror, or rotational symmetry.
+
+Some have a central medallion, and some have a border in a frieze group.
+
+[63] Many Chinese lattices have been analysed mathematically by Daniel S.
+
+Dye; he identifies Sichuan as the centre of the craft.
+
+[64] Girih tiles Symmetries are prominent in textile arts including quilting , [61] knitting , [65] cross-stitch , crochet , [66] embroidery [67] [68] and weaving , [69] where they may be purely decorative or may be marks of status.
+
+[70] Rotational symmetry is found in circular structures such as domes ; these are sometimes elaborately decorated with symmetric patterns inside and out, as at the 1619 Sheikh Lotfollah Mosque in Isfahan.
+
+[71] Items of embroidery and lace work such as tablecloths and table mats, made using bobbins or by tatting , can have a wide variety of reflectional and rotational symmetries which are being explored mathematically.
+
+[72] Islamic art exploits symmetries in many of its artforms, notably in girih tilings.
+
+These are formed using a set of five tile shapes, namely a regular decagon, an elongated hexagon, a bow tie, a rhombus, and a regular pentagon.
+
+All the sides of these tiles have the same length; and all their angles are multiples of 36° (π/5 radians ), offering fivefold and tenfold symmetries.
+
+The tiles are decorated with strapwork lines (girih), generally more visible than the tile boundaries.
+
+In 2007, the physicists Peter Lu and Paul Steinhardt argued that girih resembled quasicrystalline Penrose tilings.
+
+[73] Elaborate geometric zellige tilework is a distinctive element in Moroccan architecture.
+
+[62] Muqarnas vaults are three-dimensional but were designed in two dimensions with drawings of geometrical cells.
+
+[74] Hotamis kilim (detail), central Anatolia , early 19th century Detail of a Ming Dynasty brocade, using a chamfered hexagonal lattice pattern Jaali marble lattice at tomb of Salim Chishti , Fatehpur Sikri , India Symmetries : Florentine Bargello pattern tapestry work Ceiling of the Sheikh Lotfollah Mosque , Isfahan , 1619 Rotational symmetry in lace : tatting work Girih tiles : patterns at large and small scales on a spandrel from the Darb-i Imam shrine, Isfahan, 1453 Tessellations : zellige mosaic tiles at Bou Inania Madrasa , Fes , Morocco The complex geometry and tilings of the muqarnas vaulting in the Sheikh Lotfollah Mosque, Isfahan Architect's plan of a muqarnas quarter vault.
+
+Topkapı Scroll Tupa Inca tunic from Peru , 1450 –1540, an Andean textile denoting high rank [70] Polyhedra [ edit ] The Platonic solids and other polyhedra are a recurring theme in Western art.
+
+They are found, for instance, in a marble mosaic featuring the small stellated dodecahedron , attributed to Paolo Uccello, in the floor of the San Marco Basilica in Venice; [12] in Leonardo da Vinci's diagrams of regular polyhedra drawn as illustrations for Luca Pacioli 's 1509 book The Divine Proportion ; [12] as a glass rhombicuboctahedron in Jacopo de Barbari's portrait of Pacioli, painted in 1495; [12] in the truncated polyhedron (and various other mathematical objects) in Albrecht Dürer 's engraving Melencolia I ; [12] and in Salvador Dalí 's painting The Last Supper in which Christ and his disciples are pictured inside a giant dodecahedron.
+
+[75] Albrecht Dürer (1471–1528) was a German Renaissance printmaker who made important contributions to polyhedral literature in his 1525 book, Underweysung der Messung (Education on Measurement) , meant to teach the subjects of linear perspective , geometry in architecture , Platonic solids , and regular polygons.
+
+Dürer was likely influenced by the works of Luca Pacioli and Piero della Francesca during his trips to Italy.
+
+[76] While the examples of perspective in Underweysung der Messung are underdeveloped and contain inaccuracies, there is a detailed discussion of polyhedra.
+
+Dürer is also the first to introduce in text the idea of polyhedral nets , polyhedra unfolded to lie flat for printing.
+
+[77] Dürer published another influential book on human proportions called Vier Bücher von Menschlicher Proportion (Four Books on Human Proportion) in 1528.
+
+[78] Dürer's well-known engraving Melencolia I depicts a frustrated thinker sitting by a truncated triangular trapezohedron and a magic square.
+
+[1] These two objects, and the engraving as a whole, have been the subject of more modern interpretation than the contents of almost any other print, [1] [79] [80] including a two-volume book by Peter-Klaus Schuster, [81] and an influential discussion in Erwin Panofsky 's monograph of Dürer.
+
+[1] [82] Salvador Dalí 's 1954 painting Corpus Hypercubus uniquely depicts the cross of Christ as an unfolded three-dimensional net for a hypercube , also known as a tesseract : the unfolding of a tesseract into these eight cubes is analogous to unfolding the sides of a cube into a cross shape of six squares, here representing the divine perspective with a four-dimensional regular polyhedron.
+
+[83] [84] The painting shows the figure of Christ in front of the tessaract; he would normally be shown fixed with nails to the cross, but there are no nails in the painting.
+
+Instead, there are four small cubes in front of his body, at the corners of the frontmost of the eight tessaract cubes.
+
+The mathematician Thomas Banchoff states that Dalí was trying to go beyond the three-dimensional world, while the poet and art critic Kelly Grovier says that "The painting seems to have cracked the link between the spirituality of Christ's salvation and the materiality of geometric and physical forces.
+
+It appears to bridge the divide that many feel separates science from religion.
+
+" [85] The first printed illustration of a rhombicuboctahedron , by Leonardo da Vinci , published in De Divina Proportione , 1509 Icosahedron as a part of the monument to Baruch Spinoza , Amsterdam Fractal dimensions [ edit ] Batiks from Surakarta , Java, like this parang klithik sword pattern, have a fractal dimension between 1.
+
+2 and 1.
+
+5.
+
+Traditional Indonesian wax-resist batik designs on cloth combine representational motifs (such as floral and vegetal elements) with abstract and somewhat chaotic elements, including imprecision in applying the wax resist, and random variation introduced by cracking of the wax.
+
+Batik designs have a fractal dimension between 1 and 2, varying in different regional styles.
+
+For example, the batik of Cirebon has a fractal dimension of 1.
+
+1; the batiks of Yogyakarta and Surakarta (Solo) in Central Java have a fractal dimension of 1.
+
+2 to 1.
+
+5; and the batiks of Lasem on the north coast of Java and of Tasikmalaya in West Java have a fractal dimension between 1.
+
+5 and 1.
+
+7.
+
+[86] The drip painting works of the modern artist Jackson Pollock are similarly distinctive in their fractal dimension.
+
+His 1948 Number 14 has a coastline-like dimension of 1.
+
+45, while his later paintings had successively higher fractal dimensions and accordingly more elaborate patterns.
+
+One of his last works, Blue Poles , took six months to create, and has the fractal dimension of 1.
+
+72.
+
+[87] A complex relationship [ edit ] The astronomer Galileo Galilei in his Il Saggiatore wrote that "[The universe] is written in the language of mathematics , and its characters are triangles, circles, and other geometric figures.
+
+" [88] Artists who strive and seek to study nature must first, in Galileo's view, fully understand mathematics.
+
+Mathematicians, conversely, have sought to interpret and analyse art through the lens of geometry and rationality.
+
+The mathematician Felipe Cucker suggests that mathematics, and especially geometry, is a source of rules for "rule-driven artistic creation", though not the only one.
+
+[89] Some of the many strands of the resulting complex relationship [90] are described below.
+
+The mathematician G.
+
+H.
+
+Hardy defined a set of criteria for mathematical beauty.
+
+Mathematics as an art [ edit ] Main article: Mathematical beauty The mathematician Jerry P.
+
+King describes mathematics as an art, stating that "the keys to mathematics are beauty and elegance and not dullness and technicality", and that beauty is the motivating force for mathematical research.
+
+[91] King cites the mathematician G.
+
+H.
+
+Hardy 's 1940 essay A Mathematician's Apology.
+
+In it, Hardy discusses why he finds two theorems of classical times as first rate, namely Euclid 's proof there are infinitely many prime numbers , and the proof that the square root of 2 is irrational.
+
+King evaluates this last against Hardy's criteria for mathematical elegance : " seriousness, depth, generality, unexpectedness, inevitability , and economy " (King's italics), and describes the proof as "aesthetically pleasing".
+
+[92] The Hungarian mathematician Paul Erdős agreed that mathematics possessed beauty but considered the reasons beyond explanation: "Why are numbers beautiful? It's like asking why is Beethoven's Ninth Symphony beautiful.
+
+If you don't see why, someone can't tell you.
+
+I know numbers are beautiful.
+
+" [93] Mathematical tools for art [ edit ] Further information: List of mathematical artists , fractal art , and computer art Mathematics can be discerned in many of the arts, such as music , dance , [94] painting , architecture , and sculpture.
+
+Each of these is richly associated with mathematics.
+
+[95] Among the connections to the visual arts, mathematics can provide tools for artists, such as the rules of linear perspective as described by Brook Taylor and Johann Lambert , or the methods of descriptive geometry , now applied in software modelling of solids, dating back to Albrecht Dürer and Gaspard Monge.
+
+[96] Artists from Luca Pacioli in the Middle Ages and Leonardo da Vinci and Albrecht Dürer in the Renaissance have made use of and developed mathematical ideas in the pursuit of their artistic work.
+
+[95] [97] The use of perspective began, despite some embryonic usages in the architecture of Ancient Greece, with Italian painters such as Giotto in the 13th century; rules such as the vanishing point were first formulated by Brunelleschi in about 1413, [6] his theory influencing Leonardo and Dürer.
+
+Isaac Newton 's work on the optical spectrum influenced Goethe 's Theory of Colours and in turn artists such as Philipp Otto Runge , J.
+
+M.
+
+W.
+
+Turner , [98] the Pre-Raphaelites and Wassily Kandinsky.
+
+[99] [100] Artists may also choose to analyse the symmetry of a scene.
+
+[101] Tools may be applied by mathematicians who are exploring art, or artists inspired by mathematics, such as M.
+
+C.
+
+Escher (inspired by H.
+
+S.
+
+M.
+
+Coxeter ) and the architect Frank Gehry , who more tenuously argued that computer aided design enabled him to express himself in a wholly new way.
+
+[102] Octopod by Mikael Hvidtfeldt Christensen.
+
+Algorithmic art produced with the software Structure Synth The artist Richard Wright argues that mathematical objects that can be constructed can be seen either "as processes to simulate phenomena" or as works of " computer art ".
+
+He considers the nature of mathematical thought, observing that fractals were known to mathematicians for a century before they were recognised as such.
+
+Wright concludes by stating that it is appropriate to subject mathematical objects to any methods used to "come to terms with cultural artifacts like art, the tension between objectivity and subjectivity, their metaphorical meanings and the character of representational systems.
+
+" He gives as instances an image from the Mandelbrot set , an image generated by a cellular automaton algorithm, and a computer-rendered image, and discusses, with reference to the Turing test , whether algorithmic products can be art.
+
+[103] Sasho Kalajdzievski's Math and Art: An Introduction to Visual Mathematics takes a similar approach, looking at suitably visual mathematics topics such as tilings, fractals and hyperbolic geometry.
+
+[104] Some of the first works of computer art were created by Desmond Paul Henry 's "Drawing Machine 1", an analogue machine based on a bombsight computer and exhibited in 1962.
+
+[105] [106] The machine was capable of creating complex, abstract, asymmetrical, curvilinear, but repetitive line drawings.
+
+[105] [107] More recently, Hamid Naderi Yeganeh has created shapes suggestive of real world objects such as fish and birds, using formulae that are successively varied to draw families of curves or angled lines.
+
+[108] [109] [110] Artists such as Mikael Hvidtfeldt Christensen create works of generative or algorithmic art by writing scripts for a software system such as Structure Synth : the artist effectively directs the system to apply a desired combination of mathematical operations to a chosen set of data.
+
+[111] [112] Mathematical sculpture by Bathsheba Grossman , 2007 Fractal sculpture: 3D Fraktal 03/H/dd by Hartmut Skerbisch , 2003 Fibonacci word : detail of artwork by Samuel Monnier, 2009 Computer art image produced by Desmond Paul Henry 's "Drawing Machine 1", exhibited 1962 A Bird in Flight , by Hamid Naderi Yeganeh , 2016, constructed with a family of mathematical curves.
+
+From mathematics to art [ edit ] Proto-Cubism : Pablo Picasso 's 1907 painting Les Demoiselles d'Avignon uses a fourth dimension projection to show a figure both full face and in profile.
+
+[113] Further information: Proto-Cubism , tessellation , M.
+
+C.
+
+Escher , Mathematics of paper folding , and Mathematics and fiber arts The mathematician and theoretical physicist Henri Poincaré 's Science and Hypothesis was widely read by the Cubists , including Pablo Picasso and Jean Metzinger.
+
+[114] [115] Being thoroughly familiar with Bernhard Riemann 's work on non-Euclidean geometry, Poincaré was more than aware that Euclidean geometry is just one of many possible geometric configurations, rather than as an absolute objective truth.
+
+The possible existence of a fourth dimension inspired artists to question classical Renaissance perspective : non-Euclidean geometry became a valid alternative.
+
+[116] [117] [118] The concept that painting could be expressed mathematically, in colour and form, contributed to Cubism, the art movement that led to abstract art.
+
+[119] Metzinger, in 1910, wrote that: "[Picasso] lays out a free, mobile perspective, from which that ingenious mathematician Maurice Princet has deduced a whole geometry".
+
+[120] Later, Metzinger wrote in his memoirs: Maurice Princet joined us often.
+
+it was as an artist that he conceptualized mathematics, as an aesthetician that he invoked n -dimensional continuums.
+
+He loved to get the artists interested in the new views on space that had been opened up by Schlegel and some others.
+
+He succeeded at that.
+
+[121] The impulse to make teaching or research models of mathematical forms naturally creates objects that have symmetries and surprising or pleasing shapes.
+
+Some of these have inspired artists such as the Dadaists Man Ray , [122] Marcel Duchamp [123] and Max Ernst , [124] [125] and following Man Ray, Hiroshi Sugimoto.
+
+[126] Enneper surfaces as Dadaism : Man Ray 's 1934 Objet mathematique Man Ray photographed some of the mathematical models in the Institut Henri Poincaré in Paris, including Objet mathematique (Mathematical object).
+
+He noted that this represented Enneper surfaces with constant negative curvature , derived from the pseudo-sphere.
+
+This mathematical foundation was important to him, as it allowed him to deny that the object was "abstract", instead claiming that it was as real as the urinal that Duchamp made into a work of art.
+
+Man Ray admitted that the object's [Enneper surface] formula "meant nothing to me, but the forms themselves were as varied and authentic as any in nature.
+
+" He used his photographs of the mathematical models as figures in his series he did on Shakespeare 's plays, such as his 1934 painting Antony and Cleopatra.
+
+[127] The art reporter Jonathan Keats, writing in ForbesLife , argues that Man Ray photographed "the elliptic paraboloids and conic points in the same sensual light as his pictures of Kiki de Montparnasse ", and "ingeniously repurposes the cool calculations of mathematics to reveal the topology of desire".
+
+[128] Twentieth century sculptors such as Henry Moore , Barbara Hepworth and Naum Gabo took inspiration from mathematical models.
+
+[129] Moore wrote of his 1938 Stringed Mother and Child : "Undoubtedly the source of my stringed figures was the Science Museum.
+
+I was fascinated by the mathematical models I saw there.
+
+It wasn't the scientific study of these models but the ability to look through the strings as with a bird cage and to see one form within another which excited me.
+
+" [130] Theo van Doesburg 's Six Moments in the Development of Plane to Space , 1926 or 1929 The artists Theo van Doesburg and Piet Mondrian founded the De Stijl movement, which they wanted to "establish a visual vocabulary comprised of elementary geometrical forms comprehensible by all and adaptable to any discipline".
+
+[131] [132] Many of their artworks visibly consist of ruled squares and triangles, sometimes also with circles.
+
+De Stijl artists worked in painting, furniture, interior design and architecture.
+
+[131] After the breakup of De Stijl, Van Doesburg founded the Avant-garde Art Concret movement, describing his 1929–1930 Arithmetic Composition , a series of four black squares on the diagonal of a squared background, as "a structure that can be controlled, a definite surface without chance elements or individual caprice", yet "not lacking in spirit, not lacking the universal and not.
+
+empty as there is everything which fits the internal rhythm".
+
+The art critic Gladys Fabre observes that two progressions are at work in the painting, namely the growing black squares and the alternating backgrounds.
+
+[133] The mathematics of tessellation , polyhedra, shaping of space, and self-reference provided the graphic artist M.
+
+C.
+
+Escher (1898—1972) with a lifetime's worth of materials for his woodcuts.
+
+[134] [135] In the Alhambra Sketch , Escher showed that art can be created with polygons or regular shapes such as triangles, squares, and hexagons.
+
+Escher used irregular polygons when tiling the plane and often used reflections, glide reflections , and translations to obtain further patterns.
+
+Many of his works contain impossible constructions, made using geometrical objects which set up a contradiction between perspective projection and three dimensions, but are pleasant to the human sight.
+
+Escher's Ascending and Descending is based on the " impossible staircase " created by the medical scientist Lionel Penrose and his son the mathematician Roger Penrose.
+
+[136] [137] [138] Some of Escher's many tessellation drawings were inspired by conversations with the mathematician H.
+
+S.
+
+M.
+
+Coxeter on hyperbolic geometry.
+
+[139] Escher was especially interested in five specific polyhedra, which appear many times in his work.
+
+The Platonic solids —tetrahedrons, cubes, octahedrons, dodecahedrons, and icosahedrons—are especially prominent in Order and Chaos and Four Regular Solids.
+
+[140] These stellated figures often reside within another figure which further distorts the viewing angle and conformation of the polyhedrons and provides a multifaceted perspective artwork.
+
+[141] The visual intricacy of mathematical structures such as tessellations and polyhedra have inspired a variety of mathematical artworks.
+
+Stewart Coffin makes polyhedral puzzles in rare and beautiful woods; George W.
+
+Hart works on the theory of polyhedra and sculpts objects inspired by them; Magnus Wenninger makes "especially beautiful" models of complex stellated polyhedra.
+
+[142] The distorted perspectives of anamorphosis have been explored in art since the sixteenth century, when Hans Holbein the Younger incorporated a severely distorted skull in his 1533 painting The Ambassadors.
+
+Many artists since then, including Escher, have make use of anamorphic tricks.
+
+[143] The mathematics of topology has inspired several artists in modern times.
+
+The sculptor John Robinson (1935–2007) created works such as Gordian Knot and Bands of Friendship , displaying knot theory in polished bronze.
+
+[7] Other works by Robinson explore the topology of toruses.
+
+Genesis is based on Borromean rings – a set of three circles, no two of which link but in which the whole structure cannot be taken apart without breaking.
+
+[144] The sculptor Helaman Ferguson creates complex surfaces and other topological objects.
+
+[145] His works are visual representations of mathematical objects; The Eightfold Way is based on the projective special linear group PSL(2,7) , a finite group of 168 elements.
+
+[146] [147] The sculptor Bathsheba Grossman similarly bases her work on mathematical structures.
+
+[148] [149] The artist Nelson Saiers incorporates mathematical concepts and theorems in his art from toposes and schemes to the four color theorem and the irrationality of π.
+
+[150] A liberal arts inquiry project examines connections between mathematics and art through the Möbius strip , flexagons , origami and panorama photography.
+
+[151] Mathematical objects including the Lorenz manifold and the hyperbolic plane have been crafted using fiber arts including crochet.
+
+[d] [153] The American weaver Ada Dietz wrote a 1949 monograph Algebraic Expressions in Handwoven Textiles , defining weaving patterns based on the expansion of multivariate polynomials.
+
+[154] The mathematician Daina Taimiņa demonstrated features of the hyperbolic plane by crocheting in 2001.
+
+[155] This led Margaret and Christine Wertheim to crochet a coral reef , consisting of many marine animals such as nudibranchs whose shapes are based on hyperbolic planes.
+
+[156] The mathematician J.
+
+C.
+
+P.
+
+Miller used the Rule 90 cellular automaton to design tapestries depicting both trees and abstract patterns of triangles.
+
+[157] The "mathekniticians" [158] Pat Ashforth and Steve Plummer use knitted versions of mathematical objects such as hexaflexagons in their teaching, though their Menger sponge proved too troublesome to knit and was made of plastic canvas instead.
+
+[159] [160] Their "mathghans" (Afghans for Schools) project introduced knitting into the British mathematics and technology curriculum.
+
+[161] [162] Four-dimensional space to Cubism : Esprit Jouffret 's 1903 Traité élémentaire de géométrie à quatre dimensions.
+
+[163] [e] De Stijl : Theo van Doesburg 's geometric Composition I (Still Life) , 1916 Pedagogy to art: Magnus Wenninger with some of his stellated polyhedra , 2009 A Möbius strip scarf in crochet , 2007 Anamorphism : The Ambassadors by Hans Holbein the Younger , 1533, with severely distorted skull in foreground Crocheted coral reef : many animals modelled as hyperbolic planes with varying parameters by Margaret and Christine Wertheim.
+
+Föhr Reef , Tübingen, 2013 Semiotic joke: René Magritte 's La condition humaine 1933 Illustrating mathematics [ edit ] Front face of Giotto 's Stefaneschi Triptych , 1320 illustrates recursion.
+
+Detail of Cardinal Stefaneschi holding the triptych Modelling is far from the only possible way to illustrate mathematical concepts.
+
+Giotto's Stefaneschi Triptych , 1320, illustrates recursion in the form of mise en abyme ; the central panel of the triptych contains, lower left, the kneeling figure of Cardinal Stefaneschi, holding up the triptych as an offering.
+
+[165] Giorgio de Chirico 's metaphysical paintings such as his 1917 Great Metaphysical Interior explore the question of levels of representation in art by depicting paintings within his paintings.
+
+[166] Art can exemplify logical paradoxes, as in some paintings by the surrealist René Magritte , which can be read as semiotic jokes about confusion between levels.
+
+In La condition humaine (1933), Magritte depicts an easel (on the real canvas), seamlessly supporting a view through a window which is framed by "real" curtains in the painting.
+
+Similarly, Escher's Print Gallery (1956) is a print which depicts a distorted city which contains a gallery which recursively contains the picture, and so ad infinitum.
+
+[167] Magritte made use of spheres and cuboids to distort reality in a different way, painting them alongside an assortment of houses in his 1931 Mental Arithmetic as if they were children's building blocks, but house-sized.
+
+[168] The Guardian observed that the "eerie toytown image" prophesied Modernism 's usurpation of "cosy traditional forms", but also plays with the human tendency to seek patterns in nature.
+
+[169] Diagram of the apparent paradox embodied in M.
+
+C.
+
+Escher's 1956 lithograph Print Gallery , as discussed by Douglas Hofstadter in his 1980 book Gödel, Escher, Bach [170] Salvador Dalí's last painting, The Swallow's Tail (1983), was part of a series inspired by René Thom 's catastrophe theory.
+
+[171] The Spanish painter and sculptor Pablo Palazuelo (1916–2007) focused on the investigation of form.
+
+He developed a style that he described as the geometry of life and the geometry of all nature.
+
+Consisting of simple geometric shapes with detailed patterning and coloring, in works such as Angular I and Automnes , Palazuelo expressed himself in geometric transformations.
+
+[7] The artist Adrian Gray practises stone balancing , exploiting friction and the centre of gravity to create striking and seemingly impossible compositions.
+
+[172] Lithograph Print Gallery by M.
+
+C.
+
+Escher , 1956 Artists, however, do not necessarily take geometry literally.
+
+As Douglas Hofstadter writes in his 1980 reflection on human thought, Gödel, Escher, Bach , by way of (among other things) the mathematics of art: "The difference between an Escher drawing and non-Euclidean geometry is that in the latter, comprehensible interpretations can be found for the undefined terms, resulting in a comprehensible total system, whereas for the former, the end result is not reconcilable with one's conception of the world, no matter how long one stares at the pictures.
+
+" Hofstadter discusses the seemingly paradoxical lithograph Print Gallery by M.
+
+C.
+
+Escher; it depicts a seaside town containing an art gallery which seems to contain a painting of the seaside town, there being a "strange loop, or tangled hierarchy" to the levels of reality in the image.
+
+The artist himself, Hofstadter observes, is not seen; his reality and his relation to the lithograph are not paradoxical.
+
+[170] The image's central void has also attracted the interest of mathematicians Bart de Smit and Hendrik Lenstra , who propose that it could contain a Droste effect copy of itself, rotated and shrunk; this would be a further illustration of recursion beyond that noted by Hofstadter.
+
+[173] [174] Analysis of art history [ edit ] Algorithmic analysis of images of artworks, for example using X-ray fluorescence spectroscopy , can reveal information about art.
+
+Such techniques can uncover images in layers of paint later covered over by an artist; help art historians to visualize an artwork before it cracked or faded; help to tell a copy from an original, or distinguish the brushstroke style of a master from those of his apprentices.
+
+[175] [176] Max Ernst making Lissajous figures , New York, 1942 Jackson Pollock 's drip painting style [177] has a definite fractal dimension ; [178] among the artists who may have influenced Pollock's controlled chaos , [179] Max Ernst painted Lissajous figures directly by swinging a punctured bucket of paint over a canvas.
+
+[180] The computer scientist Neil Dodgson investigated whether Bridget Riley 's stripe paintings could be characterised mathematically, concluding that while separation distance could "provide some characterisation" and global entropy worked on some paintings, autocorrelation failed as Riley's patterns were irregular.
+
+Local entropy worked best, and correlated well with the description given by the art critic Robert Kudielka.
+
+[181] The American mathematician George Birkhoff 's 1933 Aesthetic Measure proposes a quantitative metric of the aesthetic quality of an artwork.
+
+It does not attempt to measure the connotations of a work, such as what a painting might mean, but is limited to the "elements of order" of a polygonal figure.
+
+Birkhoff first combines (as a sum) five such elements: whether there is a vertical axis of symmetry; whether there is optical equilibrium; how many rotational symmetries it has; how wallpaper-like the figure is; and whether there are unsatisfactory features such as having two vertices too close together.
+
+This metric, O , takes a value between −3 and 7.
+
+The second metric, C , counts elements of the figure, which for a polygon is the number of different straight lines containing at least one of its sides.
+
+Birkhoff then defines his aesthetic measure of an object's beauty as O/C.
+
+This can be interpreted as a balance between the pleasure looking at the object gives, and the amount of effort needed to take it in.
+
+Birkhoff's proposal has been criticized in various ways, not least for trying to put beauty in a formula, but he never claimed to have done that.
+
+[182] Stimuli to mathematical research [ edit ] Further information: Projective geometry and Mathematics of paper folding Art has sometimes stimulated the development of mathematics, as when Brunelleschi's theory of perspective in architecture and painting started a cycle of research that led to the work of Brook Taylor and Johann Heinrich Lambert on the mathematical foundations of perspective drawing, [183] and ultimately to the mathematics of projective geometry of Girard Desargues and Jean-Victor Poncelet.
+
+[184] The Japanese paper-folding art of origami has been reworked mathematically by Tomoko Fusé using modules , congruent pieces of paper such as squares, and making them into polyhedra or tilings.
+
+[185] Paper-folding was used in 1893 by T.
+
+Sundara Rao in his Geometric Exercises in Paper Folding to demonstrate geometrical proofs.
+
+[186] The mathematics of paper folding has been explored in Maekawa's theorem , [187] Kawasaki's theorem , [188] and the Huzita–Hatori axioms.
+
+[189] Stimulus to projective geometry : Alberti 's diagram showing a circle seen in perspective as an ellipse.
+
+Della Pittura , 1435–1436 Mathematical origami : Spring Into Action , by Jeff Beynon, made from a single paper rectangle.
+
+[190] Illusion to Op art [ edit ] Further information: Op art The Fraser spiral illusion , named for Sir James Fraser who discovered it in 1908.
+
+Optical illusions such as the Fraser spiral strikingly demonstrate limitations in human visual perception, creating what the art historian Ernst Gombrich called a "baffling trick.
+
+" The black and white ropes that appear to form spirals are in fact concentric circles.
+
+The mid-twentieth century Op art or optical art style of painting and graphics exploited such effects to create the impression of movement and flashing or vibrating patterns seen in the work of artists such as Bridget Riley , Spyros Horemis, [191] and Victor Vasarely.
+
+[192] Sacred geometry [ edit ] Further information: Sacred geometry and Mathematics and music A strand of art from Ancient Greece onwards sees God as the geometer of the world, and the world's geometry therefore as sacred.
+
+The belief that God created the universe according to a geometric plan has ancient origins.
+
+Plutarch attributed the belief to Plato , writing that "Plato said God geometrizes continually" ( Convivialium disputationum , liber 8,2).
+
+This image has influenced Western thought ever since.
+
+The Platonic concept derived in its turn from a Pythagorean notion of harmony in music, where the notes were spaced in perfect proportions, corresponding to the lengths of the lyre's strings; indeed, the Pythagoreans held that everything was arranged by Number.
+
+In the same way, in Platonic thought, the regular or Platonic solids dictate the proportions found in nature, and in art.
+
+[193] [194] An illumination in the 13th-century Codex Vindobonensis shows God drawing out the universe with a pair of compasses, which may refer to a verse in the Old Testament: "When he established the heavens I was there: when he set a compass upon the face of the deep" (Proverbs 8:27),.
+
+[195] In 1596, the mathematical astronomer Johannes Kepler modelled the universe as a set of nested Platonic solids, determining the relative sizes of the orbits of the planets.
+
+[195] William Blake 's Ancient of Days (depicting Urizen , Blake's embodiment of reason and law) and his painting of the physicist Isaac Newton , naked, hunched and drawing with a compass, use the symbolism of compasses to critique conventional reason and materialism as narrow-minded.
+
+[196] [197] Salvador Dalí 's 1954 Crucifixion (Corpus Hypercubus) depicts the cross as a hypercube , representing the divine perspective with four dimensions rather than the usual three.
+
+[84] In Dalí's The Sacrament of the Last Supper (1955) Christ and his disciples are pictured inside a giant dodecahedron.
+
+[198] God the geometer.
+
+Codex Vindobonensis , c.
+
+1220 The creation, with the Pantocrator bearing.
+
+Bible of St Louis , c.
+
+1220–1240 Johannes Kepler 's Platonic solid model of planetary spacing in the Solar System from Mysterium Cosmographicum , 1596 William Blake 's The Ancient of Days , 1794 William Blake's Newton , c.
+
+1800 See also [ edit ] Mathematics and architecture Music and mathematics Notes [ edit ] ^ In Piero's Italian: "una cosa tanto picholina quanto e possible ad ochio comprendere".
+
+^ The ratio of the slant height to half the base length is 1.
+
+619, less than 1% from the golden ratio, suggesting the use of the Kepler triangle (face angle 51°49').
+
+[43] [44] However, other ratios are within measurement error of the same shape, and historical evidence suggests that simple integer ratios are more likely to have been used.
+
+[45] [46] ^ ' Plastic ' named the ability to take on a chosen three-dimensional shape.
+
+^ Images and videos of Hinke Osinga 's crocheted Lorenz manifold reached international television news, as can be seen in the linked website.
+
+[152] ^ Maurice Princet gave a copy to Pablo Picasso , whose sketchbooks for Les Demoiselles d'Avignon illustrate Jouffret's influence.
+
+[114] [164] References [ edit ] ^ a b c d Ziegler, Günter M.
+
+(3 December 2014).
+
+"Dürer's polyhedron: 5 theories that explain Melencolia's crazy cube".
+
+The Guardian.
+
+Retrieved 27 October 2015.
+
+^ a b Colombo, C.
+
+; Del Bimbo, A.
+
+; Pernici, F.
+
+(2005).
+
+"Metric 3D reconstruction and texture acquisition of surfaces of revolution from a single uncalibrated view".
+
+IEEE Transactions on Pattern Analysis and Machine Intelligence.
+
+27 (1): 99–114.
+
+CiteSeerX 10.
+
+1.
+
+1.
+
+58.
+
+8477.
+
+doi : 10.
+
+1109/TPAMI.
+
+2005.
+
+14.
+
+PMID 15628272.
+
+S2CID 13387519.
+
+^ a b Stewart, Andrew (November 1978).
+
+"Polykleitos of Argos," One Hundred Greek Sculptors: Their Careers and Extant Works".
+
+Journal of Hellenic Studies.
+
+98 : 122–131.
+
+doi : 10.
+
+2307/630196.
+
+JSTOR 630196.
+
+S2CID 162410725.
+
+^ a b Tobin, Richard (October 1975).
+
+"The Canon of Polykleitos".
+
+American Journal of Archaeology.
+
+79 (4): 307–321.
+
+doi : 10.
+
+2307/503064.
+
+JSTOR 503064.
+
+S2CID 191362470.
+
+^ Raven, J.
+
+E.
+
+(1951).
+
+"Polyclitus and Pythagoreanism".
+
+Classical Quarterly.
+
+1 (3–4): 147–.
+
+doi : 10.
+
+1017/s0009838800004122.
+
+S2CID 170092094.
+
+^ a b c O'Connor, J.
+
+J.
+
+; Robertson, E.
+
+F.
+
+(January 2003).
+
+"Mathematics and art – perspective".
+
+University of St Andrews.
+
+Retrieved 1 September 2015.
+
+^ a b c d Emmer, Michelle, ed.
+
+(2005).
+
+The Visual Mind II.
+
+MIT Press.
+
+ISBN 978-0-262-05048-7.
+
+^ Vasari, Giorgio (1550).
+
+Lives of the Artists.
+
+Torrentino.
+
+p.
+
+Chapter on Brunelleschi.
+
+^ Alberti, Leon Battista ; Spencer, John R.
+
+(1956) [1435].
+
+On Painting.
+
+Yale University Press.
+
+^ Field, J.
+
+V.
+
+(1997).
+
+The Invention of Infinity: Mathematics and Art in the Renaissance.
+
+Oxford University Press.
+
+ISBN 978-0-19-852394-9.
+
+^ Witcombe, Christopher L.
+
+C.
+
+E.
+
+"Art History Resources".
+
+Retrieved 5 September 2015.
+
+^ a b c d e Hart, George W.
+
+"Polyhedra in Art".
+
+Retrieved 24 June 2015.
+
+^ Cunningham, Lawrence; Reich, John; Fichner-Rathus, Lois (1 January 2014).
+
+Culture and Values: A Survey of the Western Humanities.
+
+Cengage Learning.
+
+p.
+
+375.
+
+ISBN 978-1-285-44932-6.
+
+which illustrate Uccello's fascination with perspective.
+
+The jousting combatants engage on a battlefield littered with broken lances that have fallen in a near-grid pattern and are aimed toward a vanishing point somewhere in the distance.
+
+^ della Francesca, Piero (1942) [c.
+
+1474].
+
+G.
+
+Nicco Fasola (ed.
+
+).
+
+De prospectiva pingendi.
+
+Florence.
+
+{{ cite book }} : CS1 maint: location missing publisher ( link ) ^ della Francesca, Piero (1970) [Fifteenth century].
+
+G.
+
+Arrighi (ed.
+
+).
+
+Trattato d'Abaco.
+
+Pisa.
+
+{{ cite book }} : CS1 maint: location missing publisher ( link ) ^ della Francesca, Piero (1916).
+
+G.
+
+Mancini (ed.
+
+).
+
+L'opera "De corporibus regularibus" di Pietro Franceschi detto della Francesca usurpata da Fra Luca Pacioli.
+
+^ Vasari, Giorgio (1878).
+
+G.
+
+Milanesi (ed.
+
+).
+
+Le Opere, volume 2.
+
+p.
+
+490.
+
+^ Zuffi, Stefano (1991).
+
+Piero della Francesca.
+
+L'Unità – Mondadori Arte.
+
+p.
+
+53.
+
+^ Heath, T.
+
+L.
+
+(1908).
+
+The Thirteen Books of Euclid's Elements.
+
+Cambridge University Press.
+
+p.
+
+97.
+
+^ Grendler, P.
+
+(1995).
+
+"What Piero Learned in School: Fifteenth-Century Vernacular Education".
+
+In M.
+
+A.
+
+Lavin (ed.
+
+).
+
+Piero della Francesca and His Legacy.
+
+University Press of New England.
+
+pp.
+
+161–176.
+
+^ Alberti, Leon Battista ; Grayson, Cecil (trans.
+
+) (1991).
+
+Kemp, Martin (ed.
+
+).
+
+On Painting.
+
+Penguin Classics.
+
+^ Peterson, Mark.
+
+"The Geometry of Piero della Francesca".
+
+In Book I, after some elementary constructions to introduce the idea of the apparent size of an object being actually its angle subtended at the eye, and referring to Euclid's Elements Books I and VI, and Euclid's Optics, he turns, in Proposition 13, to the representation of a square lying flat on the ground in front of the viewer.
+
+What should the artist actually draw? After this, objects are constructed in the square (tilings, for example, to represent a tiled floor), and corresponding objects are constructed in perspective; in Book II prisms are erected over these planar objects, to represent houses, columns, etc.
+
+; but the basis of the method is the original square, from which everything else follows.
+
+^ Hockney, David (2006).
+
+Secret Knowledge: Rediscovering the Lost Techniques of the Old Masters.
+
+Thames and Hudson.
+
+ISBN 978-0-500-28638-8.
+
+^ Van Riper, Frank.
+
+"Hockney's 'Lucid' Bomb At the Art Establishment".
+
+The Washington Post.
+
+Retrieved 4 September 2015.
+
+^ Marr, Andrew (7 October 2001).
+
+"What the eye didn't see".
+
+The Guardian.
+
+Retrieved 4 September 2015.
+
+^ Janson, Jonathan (25 April 2003).
+
+"An Interview with Philip Steadman".
+
+Essential Vermeer.
+
+Retrieved 5 September 2015.
+
+^ Steadman, Philip (2002).
+
+Vermeer's Camera: Uncovering the Truth Behind the Masterpieces.
+
+Oxford.
+
+ISBN 978-0-19-280302-3.
+
+^ Hart, George.
+
+"Luca Pacioli's Polyhedra".
+
+Retrieved 13 August 2009.
+
+^ Morris, Roderick Conway (27 January 2006).
+
+"Palmezzano's Renaissance:From shadows, painter emerges".
+
+New York Times.
+
+Retrieved 22 July 2015.
+
+^ Calter, Paul.
+
+"Geometry and Art Unit 1".
+
+Dartmouth College.
+
+Retrieved 13 August 2009.
+
+^ Brizio, Anna Maria (1980).
+
+Leonardo the Artist.
+
+McGraw-Hill.
+
+ISBN 9780070079311.
+
+^ Ladwein, Michael (2006).
+
+Leonardo Da Vinci, the Last Supper: A Cosmic Drama and an Act of Redemption.
+
+Temple Lodge Publishing.
+
+pp.
+
+61–62.
+
+ISBN 978-1-902636-75-7.
+
+^ Turner, Richard A.
+
+(1992).
+
+Inventing Leonardo.
+
+Alfred A.
+
+Knopf.
+
+ISBN 9780679415510.
+
+^ Wolchover, Natalie (31 January 2012).
+
+"Did Leonardo da Vinci copy his famous 'Vitruvian Man'?".
+
+NBC News.
+
+Retrieved 27 October 2015.
+
+^ Criminisi, A.
+
+; Kempz, M.
+
+; Kang, S.
+
+B.
+
+(2004).
+
+"Reflections of Reality in Jan van Eyck and Robert Campin" (PDF).
+
+Historical Methods.
+
+37 (3): 109–121.
+
+doi : 10.
+
+3200/hmts.
+
+37.
+
+3.
+
+109-122.
+
+S2CID 14289312.
+
+^ Cucker, Felipe (2013).
+
+Manifold Mirrors: The Crossing Paths of the Arts and Mathematics.
+
+Cambridge University Press.
+
+pp.
+
+299–300, 306–307.
+
+ISBN 978-0-521-72876-8.
+
+^ Cucker, Felipe (2013).
+
+Manifold Mirrors: The Crossing Paths of the Arts and Mathematics.
+
+Cambridge University Press.
+
+pp.
+
+269–278.
+
+ISBN 978-0-521-72876-8.
+
+^ Joyce, David E.
+
+(1996).
+
+"Euclid's Elements, Book II, Proposition 11".
+
+Clark University.
+
+Retrieved 24 September 2015.
+
+^ Seghers, M.
+
+J.
+
+; Longacre, J.
+
+J.
+
+; Destefano, G.
+
+A.
+
+(1964).
+
+"The Golden Proportion and Beauty".
+
+Plastic and Reconstructive Surgery.
+
+34 (4): 382–386.
+
+doi : 10.
+
+1097/00006534-196410000-00007.
+
+S2CID 70643014.
+
+^ Mainzer, Klaus (1996).
+
+Symmetries of Nature: A Handbook for Philosophy of Nature and Science.
+
+Walter de Gruyter.
+
+p.
+
+118.
+
+^ "Mathematical properties in ancient theatres and amphitheatres".
+
+Archived from the original on 15 July 2017.
+
+Retrieved 29 January 2014.
+
+^ "Architecture: Ellipse?".
+
+The-Colosseum.
+
+net.
+
+Retrieved 29 January 2014.
+
+^ a b c d Markowsky, George (January 1992).
+
+"Misconceptions about the Golden Ratio" (PDF).
+
+The College Mathematics Journal.
+
+23 (1): 2–19.
+
+doi : 10.
+
+2307/2686193.
+
+JSTOR 2686193.
+
+Archived from the original (PDF) on 2008-04-08.
+
+Retrieved 2015-06-26.
+
+^ Taseos, Socrates G.
+
+(1990).
+
+Back in Time 3104 B.
+
+C.
+
+to the Great Pyramid.
+
+SOC Publishers.
+
+^ Bartlett, Christopher (May 2014).
+
+"The Design of The Great Pyramid of Khufu".
+
+Nexus Network Journal.
+
+16 (2): 299–311.
+
+doi : 10.
+
+1007/s00004-014-0193-9.
+
+S2CID 122021107.
+
+^ Herz-Fischler, Roger (2000).
+
+The Shape of the Great Pyramid.
+
+Waterloo, Ontario: Wilfrid Laurier University Press.
+
+ISBN 0-88920-324-5.
+
+MR 1788996.
+
+^ Huntley, H.
+
+E.
+
+(1970).
+
+The Divine Proportion.
+
+Dover.
+
+^ Hemenway, Priya (2005).
+
+Divine Proportion: Phi In Art, Nature, and Science.
+
+Sterling.
+
+p.
+
+96.
+
+^ Usvat, Liliana.
+
+"Mathematics of the Parthenon".
+
+Mathematics Magazine.
+
+Retrieved 24 June 2015.
+
+^ Boussora, Kenza; Mazouz, Said (Spring 2004).
+
+"The Use of the Golden Section in the Great Mosque of Kairouan".
+
+Nexus Network Journal.
+
+6 (1): 7–16.
+
+doi : 10.
+
+1007/s00004-004-0002-y.
+
+The geometric technique of construction of the golden section seems to have determined the major decisions of the spatial organisation.
+
+The golden section appears repeatedly in some part of the building measurements.
+
+It is found in the overall proportion of the plan and in the dimensioning of the prayer space, the court and the minaret.
+
+The existence of the golden section in some parts of Kairouan mosque indicates that the elements designed and generated with this principle may have been realised at the same period.
+
+^ Brinkworth, Peter; Scott, Paul (2001).
+
+"The Place of Mathematics".
+
+Australian Mathematics Teacher.
+
+57 (3): 2.
+
+^ Chanfón Olmos, Carlos (1991).
+
+Curso sobre Proporción.
+
+Procedimientos reguladors en construcción.
+
+Convenio de intercambio Unam–Uady.
+
+México – Mérica.
+
+^ Livio, Mario (2002).
+
+The Golden Ratio: The Story of Phi, The World's Most Astonishing Number.
+
+Bibcode : 2002grsp.
+
+book.
+
+L.
+
+ISBN 9780767908160.
+
+^ Smith, Norman A.
+
+F.
+
+(2001).
+
+"Cathedral Studies: Engineering or History" (PDF).
+
+Transactions of the Newcomen Society.
+
+73 : 95–137.
+
+doi : 10.
+
+1179/tns.
+
+2001.
+
+005.
+
+S2CID 110300481.
+
+Archived from the original (PDF) on 2015-12-11.
+
+^ McVeigh, Karen (28 December 2009).
+
+"Why golden ratio pleases the eye: US academic says he knows art secret".
+
+The Guardian.
+
+Retrieved 27 October 2015.
+
+^ Aarts, J.
+
+; Fokkink, R.
+
+; Kruijtzer, G.
+
+(2001).
+
+"Morphic numbers" (PDF).
+
+Nieuw Arch.
+
+Wiskd.
+
+5.
+
+2 (1): 56–58.
+
+^ a b Padovan, Richard (2002).
+
+Williams, Kim; Francisco Rodrigues, Jose (eds.
+
+).
+
+"Dom Hans van Der Laan and the Plastic Number".
+
+Nexus IV: Architecture and Mathematics : 181–193.
+
+^ a b c d Salingaros, Nikos (November 1996).
+
+"The 'life' of a carpet: an application of the Alexander rules".
+
+8th International Conference on Oriental Carpets.
+
+Reprinted in Eiland, M.
+
+; Pinner, M.
+
+, eds.
+
+(1998).
+
+Oriental Carpet and Textile Studies V.
+
+Danville, CA: Conference on Oriental Carpets.
+
+^ a b c Cucker, Felipe (2013).
+
+Manifold Mirrors: The Crossing Paths of the Arts and Mathematics.
+
+Cambridge University Press.
+
+pp.
+
+89–102.
+
+ISBN 978-0-521-72876-8.
+
+^ a b Lerner, Martin (1984).
+
+The flame and the lotus: Indian and Southeast Asian art from the Kronos collections (Exhibition Catalogue ed.
+
+).
+
+Metropolitan Museum of Art.
+
+^ a b Ellison, Elaine; Venters, Diana (1999).
+
+Mathematical Quilts: No Sewing Required.
+
+Key Curriculum.
+
+^ a b Castera, Jean Marc; Peuriot, Francoise (1999).
+
+Arabesques.
+
+Decorative Art in Morocco.
+
+Art Creation Realisation.
+
+ISBN 978-2-86770-124-5.
+
+^ Cucker, Felipe (2013).
+
+Manifold Mirrors: The Crossing Paths of the Arts and Mathematics.
+
+Cambridge University Press.
+
+pp.
+
+103–106.
+
+ISBN 978-0-521-72876-8.
+
+^ Dye, Daniel S.
+
+(1974).
+
+Chinese Lattice Designs.
+
+Dover.
+
+pp.
+
+30–39.
+
+ISBN 9780486230962.
+
+^ belcastro, sarah-marie (2013).
+
+"Adventures in Mathematical Knitting".
+
+American Scientist.
+
+101 (2): 124.
+
+doi : 10.
+
+1511/2013.
+
+101.
+
+124.
+
+^ Taimina, Daina (2009).
+
+Crocheting Adventures with Hyperbolic Planes.
+
+A K Peters.
+
+ISBN 978-1-56881-452-0.
+
+^ Snook, Barbara.
+
+Florentine Embroidery.
+
+Scribner, Second edition 1967.
+
+^ Williams, Elsa S.
+
+Bargello: Florentine Canvas Work.
+
+Van Nostrand Reinhold, 1967.
+
+^ Grünbaum, Branko ; Shephard, Geoffrey C.
+
+(May 1980).
+
+"Satins and Twills: An Introduction to the Geometry of Fabrics".
+
+Mathematics Magazine.
+
+53 (3): 139–161.
+
+doi : 10.
+
+2307/2690105.
+
+hdl : 10338.
+
+dmlcz/104026.
+
+JSTOR 2690105.
+
+^ a b Gamwell, Lynn (2015).
+
+Mathematics and Art: A Cultural History.
+
+Princeton University Press.
+
+p.
+
+423.
+
+ISBN 978-0-691-16528-8.
+
+^ Baker, Patricia L.
+
+; Smith, Hilary (2009).
+
+Iran (3 ed.
+
+).
+
+Bradt Travel Guides.
+
+p.
+
+107.
+
+ISBN 978-1-84162-289-7.
+
+^ Irvine, Veronika; Ruskey, Frank (2014).
+
+"Developing a Mathematical Model for Bobbin Lace".
+
+Journal of Mathematics and the Arts.
+
+8 (3–4): 95–110.
+
+arXiv : 1406.
+
+1532.
+
+Bibcode : 2014arXiv1406.
+
+1532I.
+
+doi : 10.
+
+1080/17513472.
+
+2014.
+
+982938.
+
+S2CID 119168759.
+
+^ Lu, Peter J.
+
+; Steinhardt, Paul J.
+
+(2007).
+
+"Decagonal and Quasi-crystalline Tilings in Medieval Islamic Architecture".
+
+Science.
+
+315 (5815): 1106–1110.
+
+Bibcode : 2007Sci.
+
+315.
+
+1106L.
+
+doi : 10.
+
+1126/science.
+
+1135491.
+
+PMID 17322056.
+
+S2CID 10374218.
+
+^ van den Hoeven, Saskia; van der Veen, Maartje.
+
+"Muqarnas-Mathematics in Islamic Arts" (PDF).
+
+Archived from the original (PDF) on 27 September 2013.
+
+Retrieved 15 January 2016.
+
+^ Markowsky, George (March 2005).
+
+"Book review: The Golden Ratio " (PDF).
+
+Notices of the American Mathematical Society.
+
+52 (3): 344–347.
+
+^ Panofsky, E.
+
+(1955).
+
+The Life and Art of Albrecht Durer.
+
+Princeton.
+
+^ Hart, George W.
+
+"Dürer's Polyhedra".
+
+Retrieved 13 August 2009.
+
+^ Dürer, Albrecht (1528).
+
+Hierinn sind begriffen vier Bucher von menschlicher Proportion.
+
+Nuremberg.
+
+Retrieved 24 June 2015.
+
+^ Schreiber, P.
+
+(1999).
+
+"A New Hypothesis on Durer's Enigmatic Polyhedron in His Copper Engraving 'Melencolia I' ".
+
+Historia Mathematica.
+
+26 (4): 369–377.
+
+doi : 10.
+
+1006/hmat.
+
+1999.
+
+2245.
+
+^ Dodgson, Campbell (1926).
+
+Albrecht Dürer.
+
+London: Medici Society.
+
+p.
+
+94.
+
+^ Schuster, Peter-Klaus (1991).
+
+Melencolia I: Dürers Denkbild.
+
+Berlin: Gebr.
+
+Mann Verlag.
+
+pp.
+
+17–83.
+
+^ Panofsky, Erwin ; Klibansky, Raymond ; Saxl, Fritz (1964).
+
+Saturn and Melancholy.
+
+Basic Books.
+
+^ Rucker, Rudy (2014).
+
+The Fourth Dimension: Toward a Geometry of Higher Reality.
+
+Courier Corporation.
+
+ISBN 978-0-486-79819-6.
+
+^ a b "Crucifixion (Corpus Hypercubus)".
+
+Metropolitan Museum of Art.
+
+Retrieved 5 September 2015.
+
+^ Macdonald, Fiona (11 May 2016).
+
+"The painter who entered the fourth dimension".
+
+BBC.
+
+Retrieved 8 February 2022.
+
+^ Lukman, Muhamad; Hariadi, Yun; Destiarmand, Achmad Haldani (2007).
+
+"Batik Fractal: Traditional Art to Modern Complexity".
+
+Proceeding Generative Art X, Milan, Italy.
+
+^ Ouellette, Jennifer (November 2001).
+
+"Pollock's Fractals".
+
+Discover Magazine.
+
+Retrieved 26 September 2016.
+
+^ Galilei, Galileo (1623).
+
+The Assayer.
+
+, as translated in Drake, Stillman (1957).
+
+Discoveries and Opinions of Galileo.
+
+Doubleday.
+
+pp.
+
+237–238.
+
+ISBN 978-0-385-09239-5.
+
+^ Cucker, Felipe (2013).
+
+Manifold Mirrors: The Crossing Paths of the Arts and Mathematics.
+
+Cambridge University Press.
+
+p.
+
+381.
+
+ISBN 978-0-521-72876-8.
+
+^ Cucker, Felipe (2013).
+
+Manifold Mirrors: The Crossing Paths of the Arts and Mathematics.
+
+Cambridge University Press.
+
+p.
+
+10.
+
+ISBN 978-0-521-72876-8.
+
+^ King, Jerry P.
+
+(1992).
+
+The Art of Mathematics.
+
+Fawcett Columbine.
+
+pp.
+
+8–9.
+
+ISBN 978-0-449-90835-8.
+
+^ King, Jerry P.
+
+(1992).
+
+The Art of Mathematics.
+
+Fawcett Columbine.
+
+pp.
+
+135–139.
+
+ISBN 978-0-449-90835-8.
+
+^ Devlin, Keith (2000).
+
+"Do Mathematicians Have Different Brains?".
+
+The Math Gene: How Mathematical Thinking Evolved And Why Numbers Are Like Gossip.
+
+Basic Books.
+
+p.
+
+140.
+
+ISBN 978-0-465-01619-8.
+
+^ Wasilewska, Katarzyna (2012).
+
+"Mathematics in the World of Dance" (PDF).
+
+Bridges.
+
+Retrieved 1 September 2015.
+
+^ a b Malkevitch, Joseph.
+
+"Mathematics and Art".
+
+American Mathematical Society.
+
+Retrieved 1 September 2015.
+
+^ Malkevitch, Joseph.
+
+"Mathematics and Art.
+
+2.
+
+Mathematical tools for artists".
+
+American Mathematical Society.
+
+Retrieved 1 September 2015.
+
+^ "Math and Art: The Good, the Bad, and the Pretty".
+
+Mathematical Association of America.
+
+Retrieved 2 September 2015.
+
+^ Cohen, Louise (1 July 2014).
+
+"How to spin the colour wheel, by Turner, Malevich and more".
+
+Tate Gallery.
+
+Retrieved 4 September 2015.
+
+^ Kemp, Martin (1992).
+
+The Science of Art: Optical Themes in Western Art from Brunelleschi to Seurat.
+
+Yale University Press.
+
+ISBN 978-968-867-185-6.
+
+^ Gage, John (1999).
+
+Color and Culture: Practice and Meaning from Antiquity to Abstraction.
+
+University of California Press.
+
+p.
+
+207.
+
+ISBN 978-0-520-22225-0.
+
+^ Malkevitch, Joseph.
+
+"Mathematics and Art.
+
+3.
+
+Symmetry".
+
+American Mathematical Society.
+
+Retrieved 1 September 2015.
+
+^ Malkevitch, Joseph.
+
+"Mathematics and Art.
+
+4.
+
+Mathematical artists and artist mathematicians".
+
+American Mathematical Society.
+
+Retrieved 1 September 2015.
+
+^ Wright, Richard (1988).
+
+"Some Issues in the Development of Computer Art as a Mathematical Art Form".
+
+Leonardo.
+
+1 (Electronic Art, supplemental issue): 103–110.
+
+doi : 10.
+
+2307/1557919.
+
+JSTOR 1557919.
+
+^ Kalajdzievski, Sasho (2008).
+
+Math and Art: An Introduction to Visual Mathematics.
+
+Chapman and Hall.
+
+ISBN 978-1-58488-913-7.
+
+^ a b Beddard, Honor (2011-05-26).
+
+"Computer art at the V&A".
+
+Victoria and Albert Museum.
+
+Retrieved 22 September 2015.
+
+^ "Computer Does Drawings: Thousands of lines in each".
+
+The Guardian.
+
+17 September 1962.
+
+in Beddard, 2015.
+
+^ O'Hanrahan, Elaine (2005).
+
+Drawing Machines: The machine produced drawings of Dr.
+
+D.
+
+P.
+
+Henry in relation to conceptual and technological developments in machine-generated art (UK 1960–1968).
+
+Unpublished MPhil.
+
+Thesis.
+
+John Moores University, Liverpool.
+
+in Beddard, 2015.
+
+^ Bellos, Alex (24 February 2015).
+
+"Catch of the day: mathematician nets weird, complex fish".
+
+The Guardian.
+
+Retrieved 25 September 2015.
+
+^ " "A Bird in Flight (2016)," by Hamid Naderi Yeganeh".
+
+American Mathematical Society.
+
+March 23, 2016.
+
+Retrieved April 6, 2017.
+
+^ Chung, Stephy (September 18, 2015).
+
+"Next da Vinci? Math genius using formulas to create fantastical works of art".
+
+CNN.
+
+^ Levin, Golan (2013).
+
+"Generative Artists".
+
+CMUEMS.
+
+Retrieved 27 October 2015.
+
+This includes a link to Hvidtfeldts Syntopia.
+
+^ Verostko, Roman.
+
+"The Algorists".
+
+Retrieved 27 October 2015.
+
+^ Cucker, Felipe (2013).
+
+Manifold Mirrors: The Crossing Paths of the Arts and Mathematics.
+
+Cambridge University Press.
+
+pp.
+
+315–317.
+
+ISBN 978-0-521-72876-8.
+
+^ a b Miller, Arthur I.
+
+(2001).
+
+Einstein, Picasso: Space, Time, and the Beauty That Causes Havoc.
+
+New York: Basic Books.
+
+p.
+
+171.
+
+ISBN 978-0-465-01860-4.
+
+^ Miller, Arthur I.
+
+(2012).
+
+Insights of Genius: Imagery and Creativity in Science and Art.
+
+Springer.
+
+ISBN 978-1-4612-2388-7.
+
+^ Henderson, Linda Dalrymple (1983).
+
+The Fourth Dimension and Non-Euclidean geometry in Modern Art.
+
+Princeton University Press.
+
+^ Antliff, Mark; Leighten, Patricia Dee (2001).
+
+Cubism and Culture (PDF).
+
+Thames & Hudson.
+
+Archived from the original (PDF) on 26 July 2020.
+
+^ Everdell, William R.
+
+(1997).
+
+The First Moderns: Profiles in the Origins of Twentieth-Century Thought.
+
+University of Chicago Press.
+
+p.
+
+312.
+
+ISBN 978-0-226-22480-0.
+
+^ Green, Christopher (1987).
+
+Cubism and its Enemies, Modern Movements and Reaction in French Art, 1916–1928.
+
+Yale University Press.
+
+pp.
+
+13–47.
+
+^ Metzinger, Jean (October–November 1910).
+
+"Note sur la peinture".
+
+Pan : 60.
+
+in Miller (2001).
+
+Einstein, Picasso.
+
+Basic Books.
+
+p.
+
+167.
+
+ISBN 9780465018598.
+
+^ Metzinger, Jean (1972).
+
+Le cubisme était né.
+
+Éditions Présence.
+
+pp.
+
+43–44.
+
+in Ferry, Luc (1993).
+
+Homo Aestheticus: The Invention of Taste in the Democratic Age.
+
+Robert De Loaiza, trans.
+
+University of Chicago Press.
+
+p.
+
+215.
+
+ISBN 978-0-226-24459-4.
+
+^ "Man Ray–Human Equations A Journey from Mathematics to Shakespeare.
+
+February 7 – May 10, 2015".
+
+Phillips Collection.
+
+7 February 2015.
+
+Retrieved 5 September 2015.
+
+^ Adcock, Craig (1987).
+
+"Duchamp's Eroticism: A Mathematical Analysis".
+
+Iowa Research Online.
+
+16 (1): 149–167.
+
+Archived from the original on September 7, 2015.
+
+^ Elder, R.
+
+Bruce (2013).
+
+DADA, Surrealism, and the Cinematic Effect.
+
+Wilfrid Laurier University Press.
+
+p.
+
+602.
+
+ISBN 978-1-55458-641-7.
+
+^ Tubbs, Robert (2014).
+
+Mathematics in Twentieth-Century Literature and Art: Content, Form, Meaning.
+
+JHU Press.
+
+p.
+
+118.
+
+ISBN 978-1-4214-1402-7.
+
+^ "Hiroshi Sugimoto Conceptual Forms and Mathematical Models February 7 – May 10, 2015".
+
+Phillips Collection.
+
+7 February 2015.
+
+Retrieved 5 September 2015.
+
+^ Tubbs, Robert (2014).
+
+Mathematics in 20th-Century Literature and Art.
+
+Johns Hopkins.
+
+pp.
+
+8–10.
+
+ISBN 978-1-4214-1380-8.
+
+^ Keats, Jonathon (13 February 2015).
+
+"See How Man Ray Made Elliptic Paraboloids Erotic At This Phillips Collection Photography Exhibit".
+
+Forbes.
+
+Retrieved 10 September 2015.
+
+^ Gamwell, Lynn (2015).
+
+Mathematics and Art: A Cultural History.
+
+Princeton University Press.
+
+pp.
+
+311–312.
+
+ISBN 978-0-691-16528-8.
+
+^ Hedgecoe, John, ed.
+
+(1968).
+
+"Henry Moore: Text on His Sculpture".
+
+Henry Spencer Moore.
+
+Simon and Schuster.
+
+p.
+
+105.
+
+^ a b "De Stijl".
+
+Tate Glossary.
+
+The Tate.
+
+Retrieved 11 September 2015.
+
+^ Curl, James Stevens (2006).
+
+A Dictionary of Architecture and Landscape Architecture (Second ed.
+
+).
+
+Oxford University Press.
+
+ISBN 978-0-19-860678-9.
+
+^ Tubbs, Robert (2014).
+
+Mathematics in Twentieth-Century Literature and Art: Content, Form, Meaning.
+
+JHU Press.
+
+pp.
+
+44–47.
+
+ISBN 978-1-4214-1402-7.
+
+^ "Tour: M.
+
+C.
+
+Escher – Life and Work".
+
+NGA.
+
+Archived from the original on 3 August 2009.
+
+Retrieved 13 August 2009.
+
+^ "MC Escher".
+
+Mathacademy.
+
+com.
+
+1 November 2007.
+
+Retrieved 13 August 2009.
+
+^ Penrose, L.
+
+S.
+
+; Penrose, R.
+
+(1958).
+
+"Impossible objects: A special type of visual illusion".
+
+British Journal of Psychology.
+
+49 (1): 31–33.
+
+doi : 10.
+
+1111/j.
+
+2044-8295.
+
+1958.
+
+tb00634.
+
+x.
+
+PMID 13536303.
+
+^ Kirousis, Lefteris M.
+
+; Papadimitriou, Christos H.
+
+(1985).
+
+"The complexity of recognizing polyhedral scenes".
+
+26th Annual Symposium on Foundations of Computer Science (SFCS 1985).
+
+pp.
+
+175–185.
+
+CiteSeerX 10.
+
+1.
+
+1.
+
+100.
+
+4844.
+
+doi : 10.
+
+1109/sfcs.
+
+1985.
+
+59.
+
+ISBN 978-0-8186-0644-1.
+
+^ Cooper, Martin (2008).
+
+"Tractability of Drawing Interpretation".
+
+Inequality, Polarization and Poverty.
+
+Springer-Verlag.
+
+pp.
+
+217 –230.
+
+doi : 10.
+
+1007/978-1-84800-229-6_9.
+
+ISBN 978-1-84800-229-6.
+
+^ Roberts, Siobhan (2006).
+
+" 'Coxetering' with M.
+
+C.
+
+Escher".
+
+King of Infinite Space: Donald Coxeter, the Man Who Saved Geometry.
+
+Walker.
+
+p.
+
+Chapter 11.
+
+^ Escher, M.
+
+C.
+
+(1988).
+
+The World of MC Escher.
+
+Random House.
+
+^ Escher, M.
+
+C.
+
+; Vermeulen, M.
+
+W.
+
+; Ford, K.
+
+(1989).
+
+Escher on Escher: Exploring the Infinite.
+
+HN Abrams.
+
+^ Malkevitch, Joseph.
+
+"Mathematics and Art.
+
+5.
+
+Polyhedra, tilings, and dissections".
+
+American Mathematical Society.
+
+Retrieved 1 September 2015.
+
+^ Marcolli, Matilde (July 2016).
+
+The notion of Space in Mathematics through the lens of Modern Art (PDF).
+
+Century Books.
+
+pp.
+
+23–26.
+
+^ "John Robinson".
+
+Bradshaw Foundation.
+
+2007.
+
+Retrieved 13 August 2009.
+
+^ "Helaman Ferguson web site".
+
+Helasculpt.
+
+com.
+
+Archived from the original on 11 April 2009.
+
+Retrieved 13 August 2009.
+
+^ Thurston, William P.
+
+(1999).
+
+"The Eightfold Way: A Mathematical Sculpture by Helaman Ferguson".
+
+In Levy, Silvio (ed.
+
+).
+
+Volume 35: The Eightfold Way: The Beauty of Klein's Quartic Curve (PDF).
+
+MSRI Publications.
+
+pp.
+
+1–7.
+
+^ "MAA book review of The Eightfold Way: The Beauty of Klein's Quartic Curve ".
+
+Maa.
+
+org.
+
+14 November 1993.
+
+Retrieved 13 August 2009.
+
+^ "The Math Geek Holiday Gift Guide".
+
+Scientific American.
+
+23 November 2014.
+
+Retrieved 7 June 2015.
+
+^ Hanna, Raven.
+
+"Gallery: Bathsheba Grossman".
+
+Symmetry Magazine.
+
+Retrieved 7 June 2015.
+
+^ Mastroianni, Brian (26 May 2015).
+
+"The perfect equation: Artist combines math and art".
+
+Fox News.
+
+Retrieved 28 January 2021.
+
+^ Fleron, Julian F.
+
+; Ecke, Volker; von Renesse, Christine; Hotchkiss, Philip K.
+
+(January 2015).
+
+Art and Sculpture: Mathematical Inquiry in the Liberal Arts (2nd ed.
+
+).
+
+Discovering the Art of Mathematics project.
+
+^ Osinga, Hinke (2005).
+
+"Crocheting the Lorenz manifold".
+
+University of Auckland.
+
+Archived from the original on 10 April 2015.
+
+Retrieved 12 October 2015.
+
+^ Osinga, Hinke M.
+
+; Krauskopf, Bernd (2004).
+
+"Crocheting the Lorenz manifold".
+
+The Mathematical Intelligencer.
+
+26 (4): 25–37.
+
+CiteSeerX 10.
+
+1.
+
+1.
+
+108.
+
+4594.
+
+doi : 10.
+
+1007/BF02985416.
+
+S2CID 119728638.
+
+^ Dietz, Ada K.
+
+(1949).
+
+Algebraic Expressions in Handwoven Textiles (PDF).
+
+Louisville, Kentucky: The Little Loomhouse.
+
+Archived from the original (PDF) on 2016-02-22.
+
+Retrieved 2015-06-26.
+
+^ Henderson, David; Taimina, Daina (2001).
+
+"Crocheting the hyperbolic plane" (PDF).
+
+Mathematical Intelligencer.
+
+23 (2): 17–28.
+
+doi : 10.
+
+1007/BF03026623.
+
+S2CID 120271314.
+
+^ Barnett, Rebekah (31 January 2017).
+
+"Gallery: What happens when you mix math, coral and crochet? It's mind-blowing".
+
+Ideas.
+
+TED.
+
+com.
+
+Retrieved 28 October 2019.
+
+^ Miller, J.
+
+C.
+
+P.
+
+(1970).
+
+"Periodic forests of stunted trees".
+
+Philosophical Transactions of the Royal Society of London.
+
+Series A, Mathematical and Physical Sciences.
+
+266 (1172): 63–111.
+
+Bibcode : 1970RSPTA.
+
+266.
+
+63M.
+
+doi : 10.
+
+1098/rsta.
+
+1970.
+
+0003.
+
+JSTOR 73779.
+
+S2CID 123330469.
+
+^ "Pat Ashforth & Steve Plummer – Mathekniticians".
+
+Woolly Thoughts.
+
+Retrieved 4 October 2015.
+
+^ Ward, Mark (20 August 2012).
+
+"Knitting reinvented: Mathematics, feminism and metal".
+
+BBC News.
+
+BBC.
+
+Retrieved 23 September 2015.
+
+^ Ashforth, Pat; Plummer, Steve.
+
+"Menger Sponge".
+
+Woolly Thoughts: In Pursuit of Crafty Mathematics.
+
+Retrieved 23 September 2015.
+
+^ Ashforth, Pat; Plummer, Steve.
+
+"Afghans for Schools".
+
+Woolly Thoughts: Mathghans.
+
+Retrieved 23 September 2015.
+
+^ "Mathghans with a Difference".
+
+Simply Knitting Magazine.
+
+1 July 2008.
+
+Archived from the original on 25 September 2015.
+
+Retrieved 23 September 2015.
+
+^ Jouffret, Esprit (1903).
+
+Traité élémentaire de géométrie à quatre dimensions et introduction à la géométrie à n dimensions (in French).
+
+Paris: Gauthier-Villars.
+
+OCLC 1445172.
+
+Retrieved 26 September 2015.
+
+^ Seckel, Hélène (1994).
+
+"Anthology of Early Commentary on Les Demoiselles d'Avignon ".
+
+In William Rubin; Hélène Seckel; Judith Cousins (eds.
+
+).
+
+Les Demoiselles d'Avignon.
+
+New York: Museum of Modern Art.
+
+p.
+
+264.
+
+ISBN 978-0-87070-162-7.
+
+^ "Giotto di Bondone and assistants: Stefaneschi triptych".
+
+The Vatican.
+
+Retrieved 16 September 2015.
+
+^ Gamwell, Lynn (2015).
+
+Mathematics and Art: A Cultural History.
+
+Princeton University Press.
+
+pp.
+
+337–338.
+
+ISBN 978-0-691-16528-8.
+
+^ Cooper, Jonathan (5 September 2007).
+
+"Art and Mathematics".
+
+Retrieved 5 September 2015.
+
+^ Hofstadter, Douglas R.
+
+(1980).
+
+Gödel, Escher, Bach: An Eternal Golden Braid.
+
+Penguin.
+
+p.
+
+627.
+
+ISBN 978-0-14-028920-6.
+
+^ Hall, James (10 June 2011).
+
+"René Magritte: The Pleasure Principle – exhibition".
+
+The Guardian.
+
+Retrieved 5 September 2015.
+
+^ a b Hofstadter, Douglas R.
+
+(1980).
+
+Gödel, Escher, Bach: An Eternal Golden Braid.
+
+Penguin.
+
+pp.
+
+98–99, 690–717.
+
+ISBN 978-0-394-74502-2.
+
+^ King, Elliott (2004).
+
+Ades, Dawn (ed.
+
+).
+
+Dali.
+
+Milan: Bompiani Arte.
+
+pp.
+
+418–421.
+
+^ "Stone balancing" (PDF).
+
+Monthly Maths (29).
+
+July 2013.
+
+Retrieved 10 June 2017.
+
+^ de Smit, B.
+
+(2003).
+
+"The Mathematical Structure of Escher's Print Gallery".
+
+Notices of the American Mathematical Society.
+
+50 (4): 446–451.
+
+^ Lenstra, Hendrik; De Smit, Bart.
+
+"Applying mathematics to Escher's Print Gallery".
+
+Leiden University.
+
+Retrieved 10 November 2015.
+
+^ Stanek, Becca (16 June 2014).
+
+"Van Gogh and the Algorithm: How Math Can Save Art".
+
+Time Magazine.
+
+Retrieved 4 September 2015.
+
+^ Sipics, Michelle (18 May 2009).
+
+"The Van Gogh Project: Art Meets Mathematics in Ongoing International Study".
+
+Society for Industrial and Applied Mathematics.
+
+Archived from the original on 7 September 2015.
+
+Retrieved 4 September 2015.
+
+^ Emmerling, Leonhard (2003).
+
+Jackson Pollock, 1912–1956.
+
+Taschen.
+
+p.
+
+63.
+
+ISBN 978-3-8228-2132-9.
+
+^ Taylor, Richard P.
+
+; Micolich, Adam P.
+
+; Jonas, David (June 1999).
+
+"Fractal analysis of Pollock's drip paintings".
+
+Nature.
+
+399 (6735): 422.
+
+Bibcode : 1999Natur.
+
+399.
+
+422T.
+
+doi : 10.
+
+1038/20833.
+
+S2CID 204993516.
+
+^ Taylor, Richard; Micolich, Adam P.
+
+; Jonas, David (October 1999).
+
+"Fractal Expressionism: Can Science Be Used To Further Our Understanding Of Art?".
+
+Physics World.
+
+12 (10): 25–28.
+
+doi : 10.
+
+1088/2058-7058/12/10/21.
+
+Archived from the original on 2012-08-05.
+
+Pollock died in 1956, before chaos and fractals were discovered.
+
+It is highly unlikely, therefore, that Pollock consciously understood the fractals he was painting.
+
+Nevertheless, his introduction of fractals was deliberate.
+
+For example, the colour of the anchor layer was chosen to produce the sharpest contrast against the canvas background and this layer also occupies more canvas space than the other layers, suggesting that Pollock wanted this highly fractal anchor layer to visually dominate the painting.
+
+Furthermore, after the paintings were completed, he would dock the canvas to remove regions near the canvas edge where the pattern density was less uniform.
+
+^ King, M.
+
+(2002).
+
+"From Max Ernst to Ernst Mach: epistemology in art and science" (PDF).
+
+Retrieved 17 September 2015.
+
+^ Dodgson, N.
+
+A.
+
+(2012).
+
+"Mathematical characterisation of Bridget Riley's stripe paintings" (PDF).
+
+Journal of Mathematics and the Arts.
+
+5 (2–3): 89–106.
+
+doi : 10.
+
+1080/17513472.
+
+2012.
+
+679468.
+
+S2CID 10349985.
+
+over the course [of] the early 1980s, Riley's patterns moved from more regular to more random (as characterised by global entropy), without losing their rhythmic structure (as characterised by local entropy).
+
+This reflects Kudielka's description of her artistic development.
+
+^ Cucker, Felipe (2013).
+
+Manifold Mirrors: The Crossing Paths of the Arts and Mathematics.
+
+Cambridge University Press.
+
+pp.
+
+116–120.
+
+ISBN 978-0-521-72876-8.
+
+^ Treibergs, Andrejs (24 July 2001).
+
+"The Geometry of Perspective Drawing on the Computer".
+
+University of Utah.
+
+Retrieved 5 September 2015.
+
+^ Gamwell, Lynn (2015).
+
+Mathematics and Art: A Cultural History.
+
+Princeton University Press.
+
+p.
+
+xviii.
+
+ISBN 978-0-691-16528-8.
+
+^ Malkevitch, Joseph.
+
+"Mathematics and Art.
+
+6.
+
+Origami".
+
+American Mathematical Society.
+
+Retrieved 1 September 2015.
+
+^ Rao, T.
+
+Sundara (1893).
+
+Geometric Exercises in Paper Folding.
+
+Addison.
+
+^ Justin, J.
+
+(June 1986).
+
+"Mathematics of Origami, part 9".
+
+British Origami : 28–30.
+
+^ Alsina, Claudi; Nelsen, Roger (2010).
+
+Charming Proofs: A Journey Into Elegant Mathematics.
+
+Dolciani Mathematical Expositions.
+
+Vol.
+
+42.
+
+Mathematical Association of America.
+
+p.
+
+57.
+
+ISBN 978-0-88385-348-1.
+
+^ Alperin, Roger C.
+
+; Lang, Robert J.
+
+(2009).
+
+"One-, Two-, and Multi-Fold Origami Axioms" (PDF).
+
+4OSME.
+
+^ The World of Geometric Toys , Origami Spring , August, 2007.
+
+^ Cucker, Felipe (2013).
+
+Manifold Mirrors: The Crossing Paths of the Arts and Mathematics.
+
+Cambridge University Press.
+
+pp.
+
+163–166.
+
+ISBN 978-0-521-72876-8.
+
+^ Gamwell, Lynn (2015).
+
+Mathematics and Art: A Cultural History.
+
+Princeton University Press.
+
+pp.
+
+406–410.
+
+ISBN 978-0-691-16528-8.
+
+^ Ghyka, Matila (2003).
+
+The Geometry of Art and Life.
+
+Dover.
+
+pp.
+
+ix–xi.
+
+ISBN 978-0-486-23542-4.
+
+^ Lawlor, Robert (1982).
+
+Sacred Geometry: Philosophy and Practice.
+
+Thames & Hudson.
+
+ISBN 978-0-500-81030-9.
+
+^ a b Calter, Paul (1998).
+
+"Celestial Themes in Art & Architecture".
+
+Dartmouth College.
+
+Retrieved 5 September 2015.
+
+^ Maddocks, Fiona (21 Nov 2014).
+
+"The 10 best works by William Blake".
+
+The Guardian.
+
+Retrieved 25 December 2019.
+
+^ "William Blake, Newton, 1795–c.
+
+1805".
+
+Tate.
+
+October 2018.
+
+Archived from the original on 28 March 2019.
+
+^ Livio, Mario (November 2002).
+
+"The golden ratio and aesthetics".
+
+Retrieved 26 June 2015.
+
+External links [ edit ] Wikimedia Commons has media related to Mathematics in art.
+
+Bridges Organization conference on connections between art and mathematics Bridging the Gap Between Math and Art – Slide Show from Scientific American Discovering the Art of Mathematics Mathematics and Art – AMS Mathematics and Art – Cut-the-Knot Mathematical Imagery – American Mathematical Society Mathematics in Art and Architecture – National University of Singapore Mathematical Art – Virtual Math Museum When art and math collide – Science News Why the history of maths is also the history of art : Lynn Gamwell in The Guardian v t e Mathematics and art Concepts Algorithm Catenary Fractal Golden ratio Hyperboloid structure Minimal surface Paraboloid Perspective Camera lucida Camera obscura Plastic ratio Projective geometry Proportion Architecture Human Symmetry Tessellation Wallpaper group Forms Algorithmic art Anamorphic art Architecture Geodesic dome Pyramid Vastu shastra Computer art Fiber arts 4D art Fractal art Islamic geometric patterns Girih Jali Muqarnas Zellij Knotting Celtic knot Croatian interlace Interlace Music Origami Mathematics Sculpture String art Tiling Artworks List of works designed with the golden ratio Continuum Mathemalchemy Mathematica: A World of Numbers.
+
+and Beyond Octacube Pi Pi in the Sky Buildings Cathedral of Saint Mary of the Assumption Hagia Sophia Pantheon Parthenon Pyramid of Khufu Sagrada Família Sydney Opera House Taj Mahal Artists Renaissance Paolo Uccello Piero della Francesca Leonardo da Vinci Vitruvian Man Albrecht Dürer Parmigianino Self-portrait in a Convex Mirror 19th–20th Century William Blake The Ancient of Days Newton Jean Metzinger Danseuse au café L'Oiseau bleu Giorgio de Chirico Man Ray M.
+
+C.
+
+Escher Circle Limit III Print Gallery Relativity Reptiles Waterfall René Magritte La condition humaine Salvador Dalí Crucifixion The Swallow's Tail Crockett Johnson Contemporary Max Bill Martin and Erik Demaine Scott Draves Jan Dibbets John Ernest Helaman Ferguson Peter Forakis Susan Goldstine Bathsheba Grossman George W.
+
+Hart Desmond Paul Henry Anthony Hill Charles Jencks Garden of Cosmic Speculation Andy Lomas Robert Longhurst Jeanette McLeod Hamid Naderi Yeganeh István Orosz Hinke Osinga Antoine Pevsner Tony Robbin Alba Rojo Cama Reza Sarhangi Oliver Sin Hiroshi Sugimoto Daina Taimiņa Roman Verostko Margaret Wertheim Theorists Ancient Polykleitos Canon Vitruvius De architectura Renaissance Filippo Brunelleschi Leon Battista Alberti De pictura De re aedificatoria Piero della Francesca De prospectiva pingendi Luca Pacioli De divina proportione Leonardo da Vinci A Treatise on Painting Albrecht Dürer Vier Bücher von Menschlicher Proportion Sebastiano Serlio Regole generali d'architettura Andrea Palladio I quattro libri dell'architettura Romantic Samuel Colman Nature's Harmonic Unity Frederik Macody Lund Ad Quadratum Jay Hambidge The Greek Vase Modern Owen Jones The Grammar of Ornament Ernest Hanbury Hankin The Drawing of Geometric Patterns in Saracenic Art G.
+
+H.
+
+Hardy A Mathematician's Apology George David Birkhoff Aesthetic Measure Douglas Hofstadter Gödel, Escher, Bach Nikos Salingaros The 'Life' of a Carpet Publications Journal of Mathematics and the Arts Lumen Naturae Making Mathematics with Needlework Rhythm of Structure Viewpoints: Mathematical Perspective and Fractal Geometry in Art Organizations Ars Mathematica The Bridges Organization European Society for Mathematics and the Arts Goudreau Museum of Mathematics in Art and Science Institute For Figuring Mathemalchemy National Museum of Mathematics Related Droste effect Mathematical beauty Patterns in nature Sacred geometry Category v t e Aesthetics Areas Ancient Africa India Internet Japanese Mathematics Medieval Music Nature Science Theology Schools Aestheticism Classicism Fascism Feminism Formalism Historicism Marxism Modernism Postmodernism Psychoanalysis Realism Romanticism Symbolism Theosophy more.
+
+Philosophers Abhinavagupta Adorno Alberti Aristotle Aquinas Balázs Balthasar Baudelaire Baudrillard Baumgarten Bell Benjamin Burke Coleridge Collingwood Coomaraswamy Danto Deleuze Dewey Fry Goethe Goodman Greenberg Hanslick Hegel Heidegger Hume Hutcheson Kant Kierkegaard Klee Langer Lipps Lukács Lyotard Man Maritain Merleau-Ponty Nietzsche Ortega y Gasset Pater Plato Rancière Rand Richards Ruskin Santayana Schiller Schopenhauer Scruton Tagore Tanizaki Vasari Wilde Winckelmann more.
+
+Concepts Appropriation Art for art's sake Art manifesto Artistic merit Avant-garde Beauty Feminine Masculine Camp Comedy Creativity Cuteness Disgust Ecstasy Elegance Emotions Entertainment Eroticism Fashion Fun Gaze Harmony Humour Interpretation Judgment Kama Kitsch Life imitating art Magnificence Mimesis Perception Picturesque Quality Rasa Recreation Reverence Style Sublime Taste Tragedy Work of art Works Hippias Major (c.
+
+390 BC) Poetics (c.
+
+335 BC) The Literary Mind and the Carving of Dragons (c.
+
+100) On the Sublime (c.
+
+500) A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful (1757) Lectures on Aesthetics (1835) " The Critic as Artist " (1891) In Praise of Shadows (1933) Art as Experience (1934) " The Work of Art in the Age of Mechanical Reproduction " (1935) " Avant-Garde and Kitsch " (1939) Critical Essays (1946) The Aesthetic Dimension (1977) Why Beauty Matters (2009) Related Aestheticization of politics Applied aesthetics Arts criticism Axiology Evolutionary aesthetics Mathematical beauty Neuroesthetics Patterns in nature Philosophy of design Philosophy of film Philosophy of music Psychology of art Theory of art Index Outline Category Philosophy portal v t e Major mathematics areas History Timeline Future Lists Glossary Foundations Category theory Information theory Mathematical logic Philosophy of mathematics Set theory Type theory Algebra Abstract Commutative Elementary Group theory Linear Multilinear Universal Homological Analysis Calculus Real analysis Complex analysis Hypercomplex analysis Differential equations Functional analysis Harmonic analysis Measure theory Discrete Combinatorics Graph theory Order theory Geometry Algebraic Analytic Arithmetic Differential Discrete Euclidean Finite Number theory Arithmetic Algebraic number theory Analytic number theory Diophantine geometry Topology General Algebraic Differential Geometric Homotopy theory Applied Engineering mathematics Mathematical biology Mathematical chemistry Mathematical economics Mathematical finance Mathematical physics Mathematical psychology Mathematical sociology Mathematical statistics Probability Statistics Systems science Control theory Game theory Operations research Computational Computer science Theory of computation Computational complexity theory Numerical analysis Optimization Computer algebra Related topics Mathematicians lists Informal mathematics Films about mathematicians Recreational mathematics Mathematics and art Mathematics education Mathematics portal Category Commons WikiProject Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Mathematics_and_art&oldid=1224731165 " Categories : Mathematics and art Art history Mathematics and culture Visual arts Applied mathematics Hidden categories: CS1 maint: location missing publisher CS1 French-language sources (fr) Articles with short description Short description matches Wikidata Good articles Pages using sidebar with the child parameter Commons category link is on Wikidata This page was last edited on 20 May 2024, at 03:40 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

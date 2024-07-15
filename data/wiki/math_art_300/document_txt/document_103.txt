@@ -1,0 +1,53 @@
+Transcendental law of homogeneity - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 See also 2 References Toggle the table of contents Transcendental law of homogeneity Add languages Add links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Heuristic principle enunciated by Gottfried Wilhelm Leibniz In mathematics, the transcendental law of homogeneity ( TLH ) is a heuristic principle enunciated by Gottfried Wilhelm Leibniz most clearly in a 1710 text entitled Symbolismus memorabilis calculi algebraici et infinitesimalis in comparatione potentiarum et differentiarum, et de lege homogeneorum transcendentali.
+
+[1] Henk J.
+
+M.
+
+Bos describes it as the principle to the effect that in a sum involving infinitesimals of different orders, only the lowest-order term must be retained, and the remainder discarded.
+
+[2] Thus, if a {\displaystyle a} is finite and d x {\displaystyle dx} is infinitesimal, then one sets a + d x = a.
+
+{\displaystyle a+dx=a.
+
+} Similarly, u d v + v d u + d u d v = u d v + v d u , {\displaystyle u\,dv+v\,du+du\,dv=u\,dv+v\,du,} where the higher-order term du dv is discarded in accordance with the TLH.
+
+A recent study argues that Leibniz's TLH was a precursor of the standard part function over the hyperreals.
+
+[3] See also [ edit ] Law of continuity Adequality References [ edit ] ^ Leibniz Mathematische Schriften , (1863), edited by C.
+
+I.
+
+Gerhardt, volume V, pages 377–382) ^ Bos, Henk J.
+
+M.
+
+(1974), "Differentials, higher-order differentials and the derivative in the Leibnizian calculus", Archive for History of Exact Sciences , 14 : 1–90, doi : 10.
+
+1007/BF00327456 , S2CID 120779114 ^ Katz, Mikhail ; Sherry, David (2012), "Leibniz's Infinitesimals: Their Fictionality, Their Modern Implementations, and Their Foes from Berkeley to Russell and Beyond", Erkenntnis , 78 (3): 571–625, arXiv : 1205.
+
+0174 , doi : 10.
+
+1007/s10670-012-9370-y , S2CID 254471766 v t e Gottfried Wilhelm Leibniz Mathematics and philosophy Alternating series test Best of all possible worlds Calculus controversy Calculus ratiocinator Characteristica universalis Compossibility Difference Dynamism Identity of indiscernibles Individuation Law of continuity Leibniz wheel Leibniz's gap Leibniz's notation Lingua generalis Mathesis universalis Pre-established harmony Plenitude Sufficient reason Salva veritate Theodicy Transcendental law of homogeneity Rationalism Universal science Vis viva Well-founded phenomenon Works De Arte Combinatoria (1666) Discourse on Metaphysics (1686) New Essays on Human Understanding (1704) Théodicée (1710) Monadology (1714) Leibniz–Clarke correspondence (1715–1716) Category v t e Infinitesimals History Adequality Leibniz's notation Integral symbol Criticism of nonstandard analysis The Analyst The Method of Mechanical Theorems Cavalieri's principle Related branches Nonstandard analysis Nonstandard calculus Internal set theory Synthetic differential geometry Smooth infinitesimal analysis Constructive nonstandard analysis Infinitesimal strain theory (physics) Formalizations Differentials Hyperreal numbers Dual numbers Surreal numbers Individual concepts Standard part function Transfer principle Hyperinteger Increment theorem Monad Internal set Levi-Civita field Hyperfinite set Law of continuity Overspill Microcontinuity Transcendental law of homogeneity Mathematicians Gottfried Wilhelm Leibniz Abraham Robinson Pierre de Fermat Augustin-Louis Cauchy Leonhard Euler Textbooks Analyse des Infiniment Petits Elementary Calculus Cours d'Analyse This article about the history of mathematics is a stub.
+
+You can help Wikipedia by expanding it.
+
+v t e Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Transcendental_law_of_homogeneity&oldid=1166901894 " Categories : History of calculus Gottfried Wilhelm Leibniz History of mathematics stubs Hidden categories: Articles with short description Short description matches Wikidata All stub articles This page was last edited on 24 July 2023, at 13:11 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

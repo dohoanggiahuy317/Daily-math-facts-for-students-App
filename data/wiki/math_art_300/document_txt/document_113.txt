@@ -1,0 +1,339 @@
+Computational linguistics - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Origins 2 Annotated corpora 3 Modeling language acquisition 4 Chomsky's theories 5 See also 6 References 7 Further reading 8 External links Toggle the table of contents Computational linguistics 65 languages Afrikaans العربية Azərbaycanca বাংলা 閩南語 / Bân-lâm-gú Беларуская Беларуская (тарашкевіца) Български Brezhoneg Català Čeština Dansk Deutsch Eesti Ελληνικά Español Esperanto Euskara فارسی Français Gaeilge Gaelg Galego 한국어 Հայերեն हिन्दी Hrvatski Ido Bahasa Indonesia Íslenska Italiano עברית ქართული Қазақша Кыргызча Latgaļu Latviešu Lietuvių Lingua Franca Nova Magyar മലയാളം Bahasa Melayu Nederlands 日本語 ߒߞߏ Norsk nynorsk Polski Português Română Русский Shqip Simple English Slovenščina Српски / srpski Srpskohrvatski / српскохрватски Suomi Татарча / tatarça ไทย Тоҷикӣ Türkçe Українська Tiếng Việt 吴语 粵語 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikiversity Appearance move to sidebar hide From Wikipedia, the free encyclopedia Use of computational tools for the study of linguistics This article is about the scientific field.
+
+For the journal, see Computational Linguistics (journal).
+
+Part of a series on Linguistics Outline History Index General linguistics Diachronic Lexicography Morphology Phonology Pragmatics Semantics Syntax Syntax–semantics interface Typology Applied linguistics Acquisition Anthropological Applied Computational Conversation analysis Corpus linguistics Discourse analysis Distance Documentation Ethnography of communication Ethnomethodology Forensic History of linguistics Interlinguistics Neurolinguistics Philology Philosophy of language Phonetics Psycholinguistics Sociolinguistics Text Translating and interpreting Writing systems Theoretical frameworks Formalist Constituency Dependency Distributionalism Generative Glossematics Functional Cognitive Construction grammar Functional discourse grammar Grammaticalization Interactional linguistics Prague circle Systemic functional Usage-based Structuralism Topics Autonomy of syntax Compositionality Conservative and innovative language Descriptivism Etymology Iconicity Internationalism Internet linguistics LGBT linguistics Origin of language Orthography Philosophy of linguistics Prescriptivism Second-language acquisition Theory of language Portal v t e Computational linguistics is an interdisciplinary field concerned with the computational modelling of natural language , as well as the study of appropriate computational approaches to linguistic questions.
+
+In general, computational linguistics draws upon linguistics , computer science , artificial intelligence , mathematics , logic , philosophy , cognitive science , cognitive psychology , psycholinguistics , anthropology and neuroscience , among others.
+
+Origins [ edit ] The field overlapped with artificial intelligence since the efforts in the United States in the 1950s to use computers to automatically translate texts from foreign languages, particularly Russian scientific journals, into English.
+
+[1] Since rule-based approaches were able to make arithmetic (systematic) calculations much faster and more accurately than humans, it was expected that lexicon , morphology , syntax and semantics can be learned using explicit rules, as well.
+
+After the failure of rule-based approaches , David Hays [2] coined the term in order to distinguish the field from AI and co-founded both the Association for Computational Linguistics (ACL) and the International Committee on Computational Linguistics (ICCL) in the 1970s and 1980s.
+
+What started as an effort to translate between languages evolved into a much wider field of natural language processing.
+
+[3] [4] Annotated corpora [ edit ] In order to be able to meticulously study the English language , an annotated text corpus was much needed.
+
+The Penn Treebank [5] was one of the most used corpora.
+
+It consisted of IBM computer manuals, transcribed telephone conversations, and other texts, together containing over 4.
+
+5 million words of American English, annotated using both part-of-speech tagging and syntactic bracketing.
+
+[6] Japanese sentence corpora were analyzed and a pattern of log-normality was found in relation to sentence length.
+
+[7] Modeling language acquisition [ edit ] The fact that during language acquisition , children are largely only exposed to positive evidence, [8] meaning that the only evidence for what is a correct form is provided, and no evidence for what is not correct, [9] was a limitation for the models at the time because the now available deep learning models were not available in late 1980s.
+
+[10] It has been shown that languages can be learned with a combination of simple input presented incrementally as the child develops better memory and longer attention span, [11] which explained the long period of language acquisition in human infants and children.
+
+[11] Robots have been used to test linguistic theories.
+
+[12] Enabled to learn as children might, models were created based on an affordance model in which mappings between actions, perceptions, and effects were created and linked to spoken words.
+
+Crucially, these robots were able to acquire functioning word-to-meaning mappings without needing grammatical structure.
+
+Using the Price equation and Pólya urn dynamics, researchers have created a system which not only predicts future linguistic evolution but also gives insight into the evolutionary history of modern-day languages.
+
+[13] Chomsky's theories [ edit ] Attempts have been made to determine how an infant learns a "non-normal grammar" as theorized by Chomsky normal form.
+
+[9] See also [ edit ] Philosophy portal Artificial intelligence in fiction Collostructional analysis Computational lexicology Computational Linguistics (journal) Computational models of language acquisition Computational semantics Computational semiotics Computer-assisted reviewing Dialog systems Glottochronology Grammar induction Human speechome project Internet linguistics Lexicostatistics Natural language processing Natural language user interface Quantitative linguistics Semantic relatedness Semantometrics Systemic functional linguistics Translation memory Universal Networking Language References [ edit ] ^ John Hutchins: Retrospect and prospect in computer-based translation.
+
+Archived 2008-04-14 at the Wayback Machine Proceedings of MT Summit VII, 1999, pp.
+
+30–44.
+
+^ "Deceased members".
+
+ICCL members.
+
+Archived from the original on 17 May 2017.
+
+Retrieved 15 November 2017.
+
+^ Natural Language Processing by Liz Liddy, Eduard Hovy, Jimmy Lin, John Prager, Dragomir Radev, Lucy Vanderwende, Ralph Weischedel ^ Arnold B.
+
+Barach: Translating Machine 1975: And the Changes To Come.
+
+^ Marcus, M.
+
+& Marcinkiewicz, M.
+
+(1993).
+
+"Building a large annotated corpus of English: The Penn Treebank" (PDF).
+
+Computational Linguistics.
+
+19 (2): 313–330.
+
+Archived (PDF) from the original on 2022-10-09.
+
+^ Taylor, Ann (2003).
+
+"1".
+
+Treebanks.
+
+Spring Netherlands.
+
+pp.
+
+5–22.
+
+^ Furuhashi, S.
+
+& Hayakawa, Y.
+
+(2012).
+
+"Lognormality of the Distribution of Japanese Sentence Lengths".
+
+Journal of the Physical Society of Japan.
+
+81 (3): 034004.
+
+Bibcode : 2012JPSJ.
+
+81c4004F.
+
+doi : 10.
+
+1143/JPSJ.
+
+81.
+
+034004.
+
+^ Bowerman, M.
+
+(1988).
+
+The "no negative evidence" problem: How do children avoid constructing an overly general grammar.
+
+Explaining language universals.
+
+^ a b Braine, M.
+
+D.
+
+S.
+
+(1971).
+
+On two types of models of the internalization of grammars.
+
+In D.
+
+I.
+
+Slobin (Ed.
+
+), The ontogenesis of grammar: A theoretical perspective.
+
+New York: Academic Press.
+
+^ Powers, D.
+
+M.
+
+W.
+
+& Turk, C.
+
+C.
+
+R.
+
+(1989).
+
+Machine Learning of Natural Language.
+
+Springer-Verlag.
+
+ISBN 978-0-387-19557-5.
+
+^ a b Elman, Jeffrey L.
+
+(1993).
+
+"Learning and development in neural networks: The importance of starting small".
+
+Cognition.
+
+48 (1): 71–99.
+
+CiteSeerX 10.
+
+1.
+
+1.
+
+135.
+
+4937.
+
+doi : 10.
+
+1016/0010-0277(93)90058-4.
+
+PMID 8403835.
+
+S2CID 2105042.
+
+^ Salvi, G.
+
+; Montesano, L.
+
+; Bernardino, A.
+
+; Santos-Victor, J.
+
+(2012).
+
+"Language bootstrapping: learning word meanings from the perception-action association".
+
+IEEE Transactions on Systems, Man, and Cybernetics - Part B: Cybernetics.
+
+42 (3): 660–71.
+
+arXiv : 1711.
+
+09714.
+
+doi : 10.
+
+1109/TSMCB.
+
+2011.
+
+2172420.
+
+PMID 22106152.
+
+S2CID 977486.
+
+^ Gong, T.
+
+; Shuai, L.
+
+; Tamariz, M.
+
+& Jäger, G.
+
+(2012).
+
+E.
+
+Scalas (ed.
+
+).
+
+"Studying Language Change Using Price Equation and Pólya-urn Dynamics".
+
+PLOS ONE.
+
+7 (3): e33171.
+
+Bibcode : 2012PLoSO.
+
+733171G.
+
+doi : 10.
+
+1371/journal.
+
+pone.
+
+0033171.
+
+PMC 3299756.
+
+PMID 22427981.
+
+Further reading [ edit ] Bates, M (1995).
+
+"Models of natural language understanding".
+
+Proceedings of the National Academy of Sciences of the United States of America.
+
+92 (22): 9977–9982.
+
+Bibcode : 1995PNAS.
+
+92.
+
+9977B.
+
+doi : 10.
+
+1073/pnas.
+
+92.
+
+22.
+
+9977.
+
+PMC 40721.
+
+PMID 7479812.
+
+Steven Bird, Ewan Klein, and Edward Loper (2009).
+
+Natural Language Processing with Python.
+
+O'Reilly Media.
+
+ISBN 978-0-596-51649-9.
+
+Daniel Jurafsky and James H.
+
+Martin (2008).
+
+Speech and Language Processing , 2nd edition.
+
+Pearson Prentice Hall.
+
+ISBN 978-0-13-187321-6.
+
+Mohamed Zakaria KURDI (2016).
+
+Natural Language Processing and Computational Linguistics: speech, morphology, and syntax , Volume 1.
+
+ISTE-Wiley.
+
+ISBN 978-1848218482.
+
+Mohamed Zakaria KURDI (2017).
+
+Natural Language Processing and Computational Linguistics: semantics, discourse, and applications , Volume 2.
+
+ISTE-Wiley.
+
+ISBN 978-1848219212.
+
+External links [ edit ] Wikiversity has learning resources about Computational linguistics Wikimedia Commons has media related to Computational linguistics.
+
+Association for Computational Linguistics (ACL) ACL Anthology of research papers ACL Wiki for Computational Linguistics CICLing annual conferences on Computational Linguistics Archived 2019-02-06 at the Wayback Machine Computational Linguistics – Applications workshop Free online introductory book on Computational Linguistics at the Wayback Machine (archived January 25, 2008) Language Technology World Resources for Text, Speech and Language Processing The Research Group in Computational Linguistics Archived 2013-08-01 at the Wayback Machine v t e Computer science Note: This template roughly follows the 2012 ACM Computing Classification System.
+
+Hardware Printed circuit board Peripheral Integrated circuit Very Large Scale Integration Systems on Chip (SoCs) Energy consumption (Green computing) Electronic design automation Hardware acceleration Processor Size / Form Computer systems organization Computer architecture Computational complexity Dependability Embedded system Real-time computing Networks Network architecture Network protocol Network components Network scheduler Network performance evaluation Network service Software organization Interpreter Middleware Virtual machine Operating system Software quality Software notations and tools Programming paradigm Programming language Compiler Domain-specific language Modeling language Software framework Integrated development environment Software configuration management Software library Software repository Software development Control variable Software development process Requirements analysis Software design Software construction Software deployment Software engineering Software maintenance Programming team Open-source model Theory of computation Model of computation Formal language Automata theory Computability theory Computational complexity theory Logic Semantics Algorithms Algorithm design Analysis of algorithms Algorithmic efficiency Randomized algorithm Computational geometry Mathematics of computing Discrete mathematics Probability Statistics Mathematical software Information theory Mathematical analysis Numerical analysis Theoretical computer science Information systems Database management system Information storage systems Enterprise information system Social information systems Geographic information system Decision support system Process control system Multimedia information system Data mining Digital library Computing platform Digital marketing World Wide Web Information retrieval Security Cryptography Formal methods Security hacker Security services Intrusion detection system Hardware security Network security Information security Application security Human–computer interaction Interaction design Social computing Ubiquitous computing Visualization Accessibility Concurrency Concurrent computing Parallel computing Distributed computing Multithreading Multiprocessing Artificial intelligence Natural language processing Knowledge representation and reasoning Computer vision Automated planning and scheduling Search methodology Control method Philosophy of artificial intelligence Distributed artificial intelligence Machine learning Supervised learning Unsupervised learning Reinforcement learning Multi-task learning Cross-validation Graphics Animation Rendering Photograph manipulation Graphics processing unit Mixed reality Virtual reality Image compression Solid modeling Applied computing Quantum Computing E-commerce Enterprise software Computational mathematics Computational physics Computational chemistry Computational biology Computational social science Computational engineering Differentiable computing Computational healthcare Digital art Electronic publishing Cyberwarfare Electronic voting Video games Word processing Operations research Educational technology Document management Category Outline Glossaries Authority control databases : National France BnF data Germany Israel United States Latvia Czech Republic Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Computational_linguistics&oldid=1215199252 " Categories : Computational linguistics Formal sciences Cognitive science Computational fields of study Hidden categories: Webarchive template wayback links Articles with short description Short description is different from Wikidata Commons category link from Wikidata Articles with BNF identifiers Articles with BNFdata identifiers Articles with GND identifiers Articles with J9U identifiers Articles with LCCN identifiers Articles with LNB identifiers Articles with NKC identifiers This page was last edited on 23 March 2024, at 18:33 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

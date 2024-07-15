@@ -1,0 +1,163 @@
+Abraham Robinson - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Biography 2 Work in model theory 3 See also 4 Notes 5 Publications 6 References 7 External links Toggle the table of contents Abraham Robinson 26 languages العربية تۆرکجه Беларуская Bosanski Català Čeština Deutsch Español فارسی Français 한국어 Bahasa Indonesia Italiano עברית Kreyòl ayisyen Malagasy مصرى 日本語 Piemontèis Polski Português Русский Slovenčina Svenska Türkçe 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia American mathematician This article needs additional citations for verification.
+
+Please help improve this article by adding citations to reliable sources.
+
+Unsourced material may be challenged and removed.
+
+Find sources: "Abraham Robinson" – news · newspapers · books · scholar · JSTOR ( February 2013 ) ( Learn how and when to remove this message ) Abraham Robinson Robinson in 1970 Born ( 1918-10-06 ) October 6, 1918 Waldenburg , German Empire Died April 11, 1974 (1974-04-11) (aged 55) New Haven, Connecticut , US Alma mater Hebrew University , University of London Known for Non-standard analysis Scientific career Fields Mathematics Institutions University of California, Los Angeles , Yale University , University of Toronto Doctoral advisor Paul Dienes Doctoral students E.
+
+Mark Gold Azriel Lévy A.
+
+H.
+
+Lightstone Peter Winkler Carol S.
+
+Wood Abraham Robinson (born Robinsohn ; [1] October 6, 1918 – April 11, 1974) was a mathematician who is most widely known for development of nonstandard analysis , a mathematically rigorous system whereby infinitesimal and infinite numbers were reincorporated into modern mathematics.
+
+Nearly half of Robinson's papers were in applied mathematics rather than in pure mathematics.
+
+[2] Biography [ edit ] He was born to a Jewish family with strong Zionist beliefs, in Waldenburg , Germany , which is now Wałbrzych , in Poland.
+
+In 1933, he emigrated to British Mandate of Palestine , where he earned a first degree from the Hebrew University.
+
+Robinson was in France when the Nazis invaded during World War II , and escaped by train and on foot, being alternately questioned by French soldiers suspicious of his German passport and asked by them to share his map, which was more detailed than theirs.
+
+While in London , he joined the Free French Air Force and contributed to the war effort by teaching himself aerodynamics and becoming an expert on the airfoils used in the wings of fighter planes.
+
+After the war, Robinson worked in London , Toronto , and Jerusalem , but ended up at the University of California, Los Angeles in 1962.
+
+Work in model theory [ edit ] He became known for his approach of using the methods of mathematical logic to attack problems in analysis and abstract algebra.
+
+He "introduced many of the fundamental notions of model theory ".
+
+[3] Using these methods, he found a way of using formal logic to show that there are self-consistent nonstandard models of the real number system that include infinite and infinitesimal numbers.
+
+Others, such as Wilhelmus Luxemburg , showed that the same results could be achieved using ultrafilters , which made Robinson's work more accessible to mathematicians who lacked training in formal logic.
+
+Robinson's book Non-standard Analysis was published in 1966.
+
+Robinson was strongly interested in the history and philosophy of mathematics, and often remarked that he wanted to get inside the head of Leibniz , the first mathematician to attempt to articulate clearly the concept of infinitesimal numbers.
+
+While at UCLA his colleagues remember him as working hard to accommodate PhD students of all levels of ability by finding them projects of the appropriate difficulty.
+
+He was courted by Yale , and after some initial reluctance, he moved there in 1967.
+
+In the Spring of 1973 he was a member of the Institute for Advanced Study.
+
+[4] He died of pancreatic cancer in 1974.
+
+See also [ edit ] Influence of non-standard analysis Robinson's joint consistency theorem Transfer principle – Concept in model theory Notes [ edit ] ^ O'Connor, John J.
+
+; Robertson, Edmund F.
+
+, "Abraham Robinson" , MacTutor History of Mathematics Archive , University of St Andrews ^ "Robinson biography".
+
+mathshistory.
+
+st-andrews.
+
+ac.
+
+uk/Biographies/Robinson/.
+
+Retrieved 2016-07-10.
+
+^ Hodges, W: "A Shorter Model Theory", page 182.
+
+CUP, 1997 ^ "Abraham Robinson, Institute for Advanced Study".
+
+Retrieved 2017-11-25.
+
+Publications [ edit ] Robinson, Abraham (1963), Introduction to model theory and to the metamathematics of algebra , Amsterdam: North-Holland, ISBN 978-0-7204-2222-1 , MR 0153570 Lightstone, A.
+
+H.
+
+; Robinson, Abraham (1975), Nonarchimedean Fields and Asymptotic Expansions , North-Holland, ISBN 978-0-7204-2450-8 Robinson, Abraham (1977) [1956], Keisler, H.
+
+Jerome (ed.
+
+), Complete theories , Studies in Logic and the Foundations of Mathematics (2nd ed.
+
+), Amsterdam: North-Holland, ISBN 978-0-7204-0690-0 , MR 0472504 Robinson, Abraham (1979), Keisler, H.
+
+Jerome (ed.
+
+), Selected papers of Abraham Robinson.
+
+Vol.
+
+I Model theory and algebra , Yale University Press , ISBN 978-0-300-02071-7 , MR 0533887 Robinson, Abraham (1979), Luxemburg, W.
+
+A.
+
+J.
+
+; Körner, S.
+
+(eds.
+
+), Selected papers of Abraham Robinson.
+
+Vol.
+
+II Nonstandard analysis and philosophy , Yale University Press, ISBN 978-0-300-02072-4 , MR 0533888 Robinson, Abraham (1979), Young, A.
+
+D.
+
+(ed.
+
+), Selected papers of Abraham Robinson.
+
+Vol.
+
+III Aeronautics , Yale University Press, ISBN 978-0-300-02073-1 , MR 0533889 Robinson, Abraham (1996) [1966], Non-standard analysis , Princeton Landmarks in Mathematics (2nd ed.
+
+), Princeton University Press , ISBN 978-0-691-04490-3 , MR 0205854 References [ edit ] Dauben, J.
+
+W.
+
+(1998), Abraham Robinson: The Creation of Nonstandard Analysis, A Personal and Mathematical Odyssey , Princeton University Press , ISBN 0-691-03745-0 Mostow, G.
+
+D.
+
+(1976), "Abraham Robinson 1918—1974", Israel Journal of Mathematics , 25 (1/2): 5–14, doi : 10.
+
+1007/BF02756558 , S2CID 123539367 Young, A.
+
+D.
+
+; Kochen, S.
+
+; Körner, S.
+
+; Roquette, P.
+
+(1976), "Abraham Robinson", Bulletin of the London Mathematical Society , 8 (3): 307–323, doi : 10.
+
+1112/blms/8.
+
+3.
+
+307 , MR 0409084 External links [ edit ] Media related to Abraham Robinson at Wikimedia Commons Abraham Robinson — Biographical Memoirs of the National Academy of Sciences Kutateladze S.
+
+S.
+
+, Abraham Robinson, the creator of nonstandard analysis v t e Infinitesimals History Adequality Leibniz's notation Integral symbol Criticism of nonstandard analysis The Analyst The Method of Mechanical Theorems Cavalieri's principle Related branches Nonstandard analysis Nonstandard calculus Internal set theory Synthetic differential geometry Smooth infinitesimal analysis Constructive nonstandard analysis Infinitesimal strain theory (physics) Formalizations Differentials Hyperreal numbers Dual numbers Surreal numbers Individual concepts Standard part function Transfer principle Hyperinteger Increment theorem Monad Internal set Levi-Civita field Hyperfinite set Law of continuity Overspill Microcontinuity Transcendental law of homogeneity Mathematicians Gottfried Wilhelm Leibniz Abraham Robinson Pierre de Fermat Augustin-Louis Cauchy Leonhard Euler Textbooks Analyse des Infiniment Petits Elementary Calculus Cours d'Analyse Authority control databases International FAST ISNI VIAF WorldCat National France BnF data Catalonia Germany Italy Israel United States Czech Republic Netherlands Poland Academics CiNii DBLP MathSciNet Mathematics Genealogy Project zbMATH People Deutsche Biographie Trove Other SNAC IdRef Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Abraham_Robinson&oldid=1224894257 " Categories : 1918 births 1974 deaths 20th-century American mathematicians Alumni of the University of London 20th-century German mathematicians Jewish emigrants from Nazi Germany to Mandatory Palestine Jews who emigrated to escape Nazism German emigrants to the United States People from Wałbrzych University of California, Los Angeles faculty Yale University faculty Brouwer Medalists Mathematical logicians Model theorists Institute for Advanced Study visiting scholars Yale Sterling Professors Hidden categories: Articles with short description Short description matches Wikidata Articles needing additional references from February 2013 All articles needing additional references Articles with hCards Commons category link from Wikidata Articles with FAST identifiers Articles with ISNI identifiers Articles with VIAF identifiers Articles with WorldCat Entities identifiers Articles with BNF identifiers Articles with BNFdata identifiers Articles with CANTICN identifiers Articles with GND identifiers Articles with ICCU identifiers Articles with J9U identifiers Articles with LCCN identifiers Articles with NKC identifiers Articles with NTA identifiers Articles with PLWABN identifiers Articles with CINII identifiers Articles with DBLP identifiers Articles with MATHSN identifiers Articles with MGP identifiers Articles with ZBMATH identifiers Articles with DTBIO identifiers Articles with Trove identifiers Articles with SNAC-ID identifiers Articles with SUDOC identifiers This page was last edited on 21 May 2024, at 03:20 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

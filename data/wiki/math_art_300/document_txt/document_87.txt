@@ -1,0 +1,389 @@
+Improper integral - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Examples 2 Convergence of the integral 3 Types of integrals 4 Improper Riemann integrals and Lebesgue integrals 5 Singularities 6 Cauchy principal value 7 Summability 8 Multivariable improper integrals Toggle Multivariable improper integrals subsection 8.
+
+1 Improper integrals over arbitrary domains 8.
+
+2 Improper integrals with singularities 8.
+
+3 Functions with both positive and negative values 9 Notes 10 Bibliography 11 External links Toggle the table of contents Improper integral 35 languages العربية Беларуская Bosanski Català Чӑвашла Čeština Dansk Deutsch Eesti Español Euskara فارسی Français 한국어 हिन्दी Bahasa Indonesia Íslenska Italiano עברית Қазақша Magyar Македонски Nederlands 日本語 Polski Português Română Русский Српски / srpski Srpskohrvatski / српскохрватски Svenska Türkçe Українська Tiếng Việt 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia Concept in mathematical analysis An improper Riemann integral of the first kind, where the region in the plane implied by the integral is infinite in extent horizontally.
+
+The area of such a region, which the integral represents, may be finite (as here) or infinite.
+
+An improper Riemann integral of the second kind, where the implied region is infinite vertically.
+
+The region may have either finite (as here) or infinite area.
+
+Part of a series of articles about Calculus ∫ a b f ′ ( t ) d t = f ( b ) − f ( a ) {\displaystyle \int _{a}^{b}f'(t)\,dt=f(b)-f(a)} Fundamental theorem Limits Continuity Rolle's theorem Mean value theorem Inverse function theorem Differential Definitions Derivative ( generalizations ) Differential infinitesimal of a function total Concepts Differentiation notation Second derivative Implicit differentiation Logarithmic differentiation Related rates Taylor's theorem Rules and identities Sum Product Chain Power Quotient L'Hôpital's rule Inverse General Leibniz Faà di Bruno's formula Reynolds Integral Lists of integrals Integral transform Leibniz integral rule Definitions Antiderivative Integral ( improper ) Riemann integral Lebesgue integration Contour integration Integral of inverse functions Integration by Parts Discs Cylindrical shells Substitution ( trigonometric , tangent half-angle , Euler ) Euler's formula Partial fractions Changing order Reduction formulae Differentiating under the integral sign Risch algorithm Series Geometric ( arithmetico-geometric ) Harmonic Alternating Power Binomial Taylor Convergence tests Summand limit (term test) Ratio Root Integral Direct comparison Limit comparison Alternating series Cauchy condensation Dirichlet Abel Vector Gradient Divergence Curl Laplacian Directional derivative Identities Theorems Gradient Green's Stokes' Divergence generalized Stokes Helmholtz decomposition Multivariable Formalisms Matrix Tensor Exterior Geometric Definitions Partial derivative Multiple integral Line integral Surface integral Volume integral Jacobian Hessian Advanced Calculus on Euclidean space Generalized functions Limit of distributions Specialized Fractional Malliavin Stochastic Variations Miscellaneous Precalculus History Glossary List of topics Integration Bee Mathematical analysis Nonstandard analysis v t e In mathematical analysis , an improper integral is an extension of the notion of a definite integral to cases that violate the usual assumptions for that kind of integral.
+
+[1] In the context of Riemann integrals (or, equivalently, Darboux integrals ), this typically involves unboundedness, either of the set over which the integral is taken or of the integrand (the function being integrated), or both.
+
+It may also involve bounded but not closed sets or bounded but not continuous functions.
+
+While an improper integral is typically written symbolically just like a standard definite integral, it actually represents a limit of a definite integral or a sum of such limits; thus improper integrals are said to converge or diverge.
+
+[2] [1] If a regular definite integral (which may retronymically be called a proper integral ) is worked out as if it is improper, the same answer will result.
+
+In the simplest case of a real-valued function of a single variable integrated in the sense of Riemann (or Darboux) over a single interval, improper integrals may be in any of the following forms: ∫ a ∞ f ( x ) d x {\displaystyle \int _{a}^{\infty }f(x)\,dx} ∫ − ∞ b f ( x ) d x {\displaystyle \int _{-\infty }^{b}f(x)\,dx} ∫ − ∞ ∞ f ( x ) d x {\displaystyle \int _{-\infty }^{\infty }f(x)\,dx} ∫ a b f ( x ) d x {\displaystyle \int _{a}^{b}f(x)\,dx} , where f ( x ) {\displaystyle f(x)} is undefined or discontinuous somewhere on [ a , b ] {\displaystyle [a,b]} The first three forms are improper because the integrals are taken over an unbounded interval.
+
+(They may be improper for other reasons, as well, as explained below.
+
+) Such an integral is sometimes described as being of the "first" type or kind if the integrand otherwise satisfies the assumptions of integration.
+
+[2] Integrals in the fourth form that are improper because f ( x ) {\displaystyle f(x)} has a vertical asymptote somewhere on the interval [ a , b ] {\displaystyle [a,b]} may be described as being of the "second" type or kind.
+
+[2] Integrals that combine aspects of both types are sometimes described as being of the "third" type or kind.
+
+[2] In each case above, the improper integral must be rewritten using one or more limits, depending on what is causing the integral to be improper.
+
+For example, in case 1, if f ( x ) {\displaystyle f(x)} is continuous on the entire interval [ a , ∞ ) {\displaystyle [a,\infty )} , then ∫ a ∞ f ( x ) d x = lim b → ∞ ∫ a b f ( x ) d x.
+
+{\displaystyle \int _{a}^{\infty }f(x)\,dx=\lim _{b\to \infty }\int _{a}^{b}f(x)\,dx.
+
+} The limit on the right is taken to be the definition of the integral notation on the left.
+
+If f ( x ) {\displaystyle f(x)} is only continuous on ( a , ∞ ) {\displaystyle (a,\infty )} and not at a {\displaystyle a} itself, then typically this is rewritten as ∫ a ∞ f ( x ) d x = lim t → a + ∫ t c f ( x ) d x + lim b → ∞ ∫ c b f ( x ) d x , {\displaystyle \int _{a}^{\infty }f(x)\,dx=\lim _{t\to a^{+}}\int _{t}^{c}f(x)\,dx+\lim _{b\to \infty }\int _{c}^{b}f(x)\,dx,} for any choice of c > a {\displaystyle c>a}.
+
+Here both limits must converge to a finite value for the improper integral to be said to converge.
+
+This requirement avoids the ambiguous case of adding positive and negative infinities (i.
+
+e.
+
+, the " ∞ − ∞ {\displaystyle \infty -\infty } " indeterminate form ).
+
+Alternatively, an iterated limit could be used or a single limit based on the Cauchy principal value.
+
+If f ( x ) {\displaystyle f(x)} is continuous on [ a , d ) {\displaystyle [a,d)} and ( d , ∞ ) {\displaystyle (d,\infty )} , with a discontinuity of any kind at d {\displaystyle d} , then ∫ a ∞ f ( x ) d x = lim t → d − ∫ a t f ( x ) d x + lim u → d + ∫ u c f ( x ) d x + lim b → ∞ ∫ c b f ( x ) d x , {\displaystyle \int _{a}^{\infty }f(x)\,dx=\lim _{t\to d^{-}}\int _{a}^{t}f(x)\,dx+\lim _{u\to d^{+}}\int _{u}^{c}f(x)\,dx+\lim _{b\to \infty }\int _{c}^{b}f(x)\,dx,} for any choice of c > d {\displaystyle c>d}.
+
+The previous remarks about indeterminate forms, iterated limits, and the Cauchy principal value also apply here.
+
+The function f ( x ) {\displaystyle f(x)} can have more discontinuities, in which case even more limits would be required (or a more complicated principal value expression).
+
+Cases 2–4 are handled similarly.
+
+See the examples below.
+
+Improper integrals can also be evaluated in the context of complex numbers, in higher dimensions, and in other theoretical frameworks such as Lebesgue integration or Henstock–Kurzweil integration.
+
+Integrals that are considered improper in one framework may not be in others.
+
+Examples [ edit ] The original definition of the Riemann integral does not apply to a function such as 1 / x 2 {\displaystyle 1/{x^{2}}} on the interval [1, ∞) , because in this case the domain of integration is unbounded.
+
+However, the Riemann integral can often be extended by continuity , by defining the improper integral instead as a limit ∫ 1 ∞ d x x 2 = lim b → ∞ ∫ 1 b d x x 2 = lim b → ∞ ( − 1 b + 1 1 ) = 1.
+
+{\displaystyle \int _{1}^{\infty }{\frac {dx}{x^{2}}}=\lim _{b\to \infty }\int _{1}^{b}{\frac {dx}{x^{2}}}=\lim _{b\to \infty }\left(-{\frac {1}{b}}+{\frac {1}{1}}\right)=1.
+
+} The narrow definition of the Riemann integral also does not cover the function 1 / x {\textstyle 1/{\sqrt {x}}} on the interval [0, 1].
+
+The problem here is that the integrand is unbounded in the domain of integration.
+
+In other words, the definition of the Riemann integral requires that both the domain of integration and the integrand be bounded.
+
+However, the improper integral does exist if understood as the limit ∫ 0 1 d x x = lim a → 0 + ∫ a 1 d x x = lim a → 0 + ( 2 − 2 a ) = 2.
+
+{\displaystyle \int _{0}^{1}{\frac {dx}{\sqrt {x}}}=\lim _{a\to 0^{+}}\int _{a}^{1}{\frac {dx}{\sqrt {x}}}=\lim _{a\to 0^{+}}\left(2-2{\sqrt {a}}\right)=2.
+
+} The improper integral ∫ 0 ∞ d x ( x + 1 ) x = π {\displaystyle \int _{0}^{\infty }{\frac {dx}{(x+1){\sqrt {x}}}}=\pi } has unbounded intervals for both domain and range.
+
+Sometimes integrals may have two singularities where they are improper.
+
+Consider, for example, the function 1/(( x + 1) √ x ) integrated from 0 to ∞ (shown right).
+
+At the lower bound of the integration domain, as x goes to 0 the function goes to ∞ , and the upper bound is itself ∞ , though the function goes to 0.
+
+Thus this is a doubly improper integral.
+
+Integrated, say, from 1 to 3, an ordinary Riemann sum suffices to produce a result of π /6.
+
+To integrate from 1 to ∞ , a Riemann sum is not possible.
+
+However, any finite upper bound, say t (with t > 1 ), gives a well-defined result, 2 arctan( √ t ) − π/2.
+
+This has a finite limit as t goes to infinity, namely π /2.
+
+Similarly, the integral from 1/3 to 1 allows a Riemann sum as well, coincidentally again producing π /6.
+
+Replacing 1/3 by an arbitrary positive value s (with s < 1 ) is equally safe, giving π/2 − 2 arctan( √ s ).
+
+This, too, has a finite limit as s goes to zero, namely π /2.
+
+Combining the limits of the two fragments, the result of this improper integral is ∫ 0 ∞ d x ( 1 + x ) x = lim s → 0 + ∫ s 1 d x ( 1 + x ) x + lim t → ∞ ∫ 1 t d x ( 1 + x ) x = lim s → 0 + ( π 2 − 2 arctan ⁡ s ) + lim t → ∞ ( 2 arctan ⁡ t − π 2 ) = π 2 + ( π − π 2 ) = π.
+
+{\displaystyle {\begin{aligned}\int _{0}^{\infty }{\frac {dx}{(1+x){\sqrt {x}}}}&{}=\lim _{s\to 0^{+}}\int _{s}^{1}{\frac {dx}{(1+x){\sqrt {x}}}}+\lim _{t\to \infty }\int _{1}^{t}{\frac {dx}{(1+x){\sqrt {x}}}}\\&{}=\lim _{s\to 0^{+}}\left({\frac {\pi }{2}}-2\arctan {\sqrt {s}}\right)+\lim _{t\to \infty }\left(2\arctan {\sqrt {t}}-{\frac {\pi }{2}}\right)\\&{}={\frac {\pi }{2}}+\left(\pi -{\frac {\pi }{2}}\right)\\&{}=\pi.
+
+\end{aligned}}} This process does not guarantee success; a limit might fail to exist, or might be infinite.
+
+For example, over the bounded interval from 0 to 1 the integral of 1/ x does not converge; and over the unbounded interval from 1 to ∞ the integral of 1/ √ x does not converge.
+
+The improper integral ∫ − 1 1 d x x 2 3 = 6 {\displaystyle \int _{-1}^{1}{\frac {dx}{\sqrt[{3}]{x^{2}}}}=6} converges, since both left and right limits exist, though the integrand is unbounded near an interior point.
+
+It might also happen that an integrand is unbounded near an interior point, in which case the integral must be split at that point.
+
+For the integral as a whole to converge, the limit integrals on both sides must exist and must be bounded.
+
+For example: ∫ − 1 1 d x x 2 3 = lim s → 0 − ∫ − 1 s d x x 2 3 + lim t → 0 + ∫ t 1 d x x 2 3 = lim s → 0 − 3 ( 1 − s 3 ) + lim t → 0 + 3 ( 1 − t 3 ) = 3 + 3 = 6.
+
+{\displaystyle {\begin{aligned}\int _{-1}^{1}{\frac {dx}{\sqrt[{3}]{x^{2}}}}&{}=\lim _{s\to 0^{-}}\int _{-1}^{s}{\frac {dx}{\sqrt[{3}]{x^{2}}}}+\lim _{t\to 0^{+}}\int _{t}^{1}{\frac {dx}{\sqrt[{3}]{x^{2}}}}\\&{}=\lim _{s\to 0^{-}}3\left(1-{\sqrt[{3}]{s}}\right)+\lim _{t\to 0^{+}}3\left(1-{\sqrt[{3}]{t}}\right)\\&{}=3+3\\&{}=6.
+
+\end{aligned}}} But the similar integral ∫ − 1 1 d x x {\displaystyle \int _{-1}^{1}{\frac {dx}{x}}} cannot be assigned a value in this way, as the integrals above and below zero in the integral domain do not independently converge.
+
+(However, see Cauchy principal value.
+
+) Convergence of the integral [ edit ] An improper integral converges if the limit defining it exists.
+
+Thus for example one says that the improper integral lim t → ∞ ∫ a t f ( x ) d x {\displaystyle \lim _{t\to \infty }\int _{a}^{t}f(x)\ dx} exists and is equal to L if the integrals under the limit exist for all sufficiently large t , and the value of the limit is equal to L.
+
+It is also possible for an improper integral to diverge to infinity.
+
+In that case, one may assign the value of ∞ (or −∞) to the integral.
+
+For instance lim b → ∞ ∫ 1 b d x x = ∞.
+
+{\displaystyle \lim _{b\to \infty }\int _{1}^{b}{\frac {dx}{x}}=\infty.
+
+} However, other improper integrals may simply diverge in no particular direction, such as lim b → ∞ ∫ 1 b x sin ⁡ ( x ) d x , {\displaystyle \lim _{b\to \infty }\int _{1}^{b}x\sin(x)\,dx,} which does not exist, even as an extended real number.
+
+This is called divergence by oscillation.
+
+A limitation of the technique of improper integration is that the limit must be taken with respect to one endpoint at a time.
+
+Thus, for instance, an improper integral of the form ∫ − ∞ ∞ f ( x ) d x {\displaystyle \int _{-\infty }^{\infty }f(x)\,dx} can be defined by taking two separate limits; to which ∫ − ∞ ∞ f ( x ) d x = lim a → − ∞ lim b → ∞ ∫ a b f ( x ) d x {\displaystyle \int _{-\infty }^{\infty }f(x)\,dx=\lim _{a\to -\infty }\lim _{b\to \infty }\int _{a}^{b}f(x)\,dx} provided the double limit is finite.
+
+It can also be defined as a pair of distinct improper integrals of the first kind: lim a → − ∞ ∫ a c f ( x ) d x + lim b → ∞ ∫ c b f ( x ) d x {\displaystyle \lim _{a\to -\infty }\int _{a}^{c}f(x)\,dx+\lim _{b\to \infty }\int _{c}^{b}f(x)\,dx} where c is any convenient point at which to start the integration.
+
+This definition also applies when one of these integrals is infinite, or both if they have the same sign.
+
+An example of an improper integral where both endpoints are infinite is the Gaussian integral ∫ − ∞ ∞ e − x 2 d x = π {\textstyle \int _{-\infty }^{\infty }e^{-x^{2}}\,dx={\sqrt {\pi }}}.
+
+An example which evaluates to infinity is ∫ − ∞ ∞ e x d x {\textstyle \int _{-\infty }^{\infty }e^{x}\,dx}.
+
+But one cannot even define other integrals of this kind unambiguously, such as ∫ − ∞ ∞ x d x {\textstyle \int _{-\infty }^{\infty }x\,dx} , since the double limit is infinite and the two-integral method lim a → − ∞ ∫ a c x d x + lim b → ∞ ∫ c b x d x {\displaystyle \lim _{a\to -\infty }\int _{a}^{c}x\,dx+\lim _{b\to \infty }\int _{c}^{b}x\,dx} yields an indeterminate form , ∞ − ∞ {\displaystyle \infty -\infty }.
+
+In this case, one can however define an improper integral in the sense of Cauchy principal value : p.
+
+v.
+
+⁡ ∫ − ∞ ∞ x d x = lim b → ∞ ∫ − b b x d x = 0.
+
+{\displaystyle \operatorname {p.
+
+v.
+
+} \int _{-\infty }^{\infty }x\,dx=\lim _{b\to \infty }\int _{-b}^{b}x\,dx=0.
+
+} The questions one must address in determining an improper integral are: Does the limit exist? Can the limit be computed? The first question is an issue of mathematical analysis.
+
+The second one can be addressed by calculus techniques, but also in some cases by contour integration , Fourier transforms and other more advanced methods.
+
+Types of integrals [ edit ] There is more than one theory of integration.
+
+From the point of view of calculus, the Riemann integral theory is usually assumed as the default theory.
+
+In using improper integrals, it can matter which integration theory is in play.
+
+For the Riemann integral (or the Darboux integral , which is equivalent to it), improper integration is necessary both for unbounded intervals (since one cannot divide the interval into finitely many subintervals of finite length) and for unbounded functions with finite integral (since, supposing it is unbounded above, then the upper integral will be infinite, but the lower integral will be finite).
+
+The Lebesgue integral deals differently with unbounded domains and unbounded functions, so that often an integral which only exists as an improper Riemann integral will exist as a (proper) Lebesgue integral, such as ∫ 1 ∞ d x x 2 {\textstyle \int _{1}^{\infty }{\frac {dx}{x^{2}}}}.
+
+On the other hand, there are also integrals that have an improper Riemann integral but do not have a (proper) Lebesgue integral, such as ∫ 0 ∞ sin ⁡ x x d x {\textstyle \int _{0}^{\infty }{\frac {\sin x}{x}}\,dx}.
+
+The Lebesgue theory does not see this as a deficiency: from the point of view of measure theory , ∫ 0 ∞ sin ⁡ x x d x = ∞ − ∞ {\textstyle \int _{0}^{\infty }{\frac {\sin x}{x}}\,dx=\infty -\infty } and cannot be defined satisfactorily.
+
+In some situations, however, it may be convenient to employ improper Lebesgue integrals as is the case, for instance, when defining the Cauchy principal value.
+
+The Lebesgue integral is more or less essential in the theoretical treatment of the Fourier transform , with pervasive use of integrals over the whole real line.
+
+For the Henstock–Kurzweil integral , improper integration is not necessary , and this is seen as a strength of the theory: it encompasses all Lebesgue integrable and improper Riemann integrable functions.
+
+Improper Riemann integrals and Lebesgue integrals [ edit ] Figure 1 Figure 2 In some cases, the integral ∫ a c f ( x ) d x {\displaystyle \int _{a}^{c}f(x)\ dx} can be defined as an integral (a Lebesgue integral , for instance) without reference to the limit lim b → c − ∫ a b f ( x ) d x {\displaystyle \lim _{b\to c^{-}}\int _{a}^{b}f(x)\,dx} but cannot otherwise be conveniently computed.
+
+This often happens when the function f being integrated from a to c has a vertical asymptote at c , or if c = ∞ (see Figures 1 and 2).
+
+In such cases, the improper Riemann integral allows one to calculate the Lebesgue integral of the function.
+
+Specifically, the following theorem holds ( Apostol 1974 , Theorem 10.
+
+33): If a function f is Riemann integrable on [ a , b ] for every b ≥ a , and the partial integrals ∫ a b | f ( x ) | d x {\displaystyle \int _{a}^{b}|f(x)|\,dx} are bounded as b → ∞, then the improper Riemann integrals ∫ a ∞ f ( x ) d x , and ∫ a ∞ | f ( x ) | d x {\displaystyle \int _{a}^{\infty }f(x)\,dx,\quad {\mbox{and }}\int _{a}^{\infty }|f(x)|\,dx} both exist.
+
+Furthermore, f is Lebesgue integrable on [ a , ∞), and its Lebesgue integral is equal to its improper Riemann integral.
+
+For example, the integral ∫ 0 ∞ d x 1 + x 2 {\displaystyle \int _{0}^{\infty }{\frac {dx}{1+x^{2}}}} can be interpreted alternatively as the improper integral lim b → ∞ ∫ 0 b d x 1 + x 2 = lim b → ∞ arctan ⁡ b = π 2 , {\displaystyle \lim _{b\to \infty }\int _{0}^{b}{\frac {dx}{1+x^{2}}}=\lim _{b\to \infty }\arctan {b}={\frac {\pi }{2}},} or it may be interpreted instead as a Lebesgue integral over the set (0, ∞).
+
+Since both of these kinds of integral agree, one is free to choose the first method to calculate the value of the integral, even if one ultimately wishes to regard it as a Lebesgue integral.
+
+Thus improper integrals are clearly useful tools for obtaining the actual values of integrals.
+
+In other cases, however, a Lebesgue integral between finite endpoints may not even be defined, because the integrals of the positive and negative parts of f are both infinite, but the improper Riemann integral may still exist.
+
+Such cases are "properly improper" integrals, i.
+
+e.
+
+their values cannot be defined except as such limits.
+
+For example, ∫ 0 ∞ sin ⁡ ( x ) x d x {\displaystyle \int _{0}^{\infty }{\frac {\sin(x)}{x}}\,dx} cannot be interpreted as a Lebesgue integral, since ∫ 0 ∞ | sin ⁡ ( x ) x | d x = ∞.
+
+{\displaystyle \int _{0}^{\infty }\left|{\frac {\sin(x)}{x}}\right|\,dx=\infty.
+
+} But f ( x ) = sin ⁡ ( x ) x {\displaystyle f(x)={\frac {\sin(x)}{x}}} is nevertheless integrable between any two finite endpoints, and its integral between 0 and ∞ is usually understood as the limit of the integral: ∫ 0 ∞ sin ⁡ ( x ) x d x = lim b → ∞ ∫ 0 b sin ⁡ ( x ) x d x = π 2.
+
+{\displaystyle \int _{0}^{\infty }{\frac {\sin(x)}{x}}\,dx=\lim _{b\to \infty }\int _{0}^{b}{\frac {\sin(x)}{x}}\,dx={\frac {\pi }{2}}.
+
+} Singularities [ edit ] One can speak of the singularities of an improper integral, meaning those points of the extended real number line at which limits are used.
+
+Cauchy principal value [ edit ] Main article: Cauchy principal value Consider the difference in values of two limits: lim a → 0 + ( ∫ − 1 − a d x x + ∫ a 1 d x x ) = 0 , {\displaystyle \lim _{a\to 0^{+}}\left(\int _{-1}^{-a}{\frac {dx}{x}}+\int _{a}^{1}{\frac {dx}{x}}\right)=0,} lim a → 0 + ( ∫ − 1 − a d x x + ∫ 2 a 1 d x x ) = − ln ⁡ 2.
+
+{\displaystyle \lim _{a\to 0^{+}}\left(\int _{-1}^{-a}{\frac {dx}{x}}+\int _{2a}^{1}{\frac {dx}{x}}\right)=-\ln 2.
+
+} The former is the Cauchy principal value of the otherwise ill-defined expression ∫ − 1 1 d x x ( which gives − ∞ + ∞ ).
+
+{\displaystyle \int _{-1}^{1}{\frac {dx}{x}}{\ }\left({\mbox{which}}\ {\mbox{gives}}\ -\infty +\infty \right).
+
+} Similarly, we have lim a → ∞ ∫ − a a 2 x d x x 2 + 1 = 0 , {\displaystyle \lim _{a\to \infty }\int _{-a}^{a}{\frac {2x\,dx}{x^{2}+1}}=0,} but lim a → ∞ ∫ − 2 a a 2 x d x x 2 + 1 = − ln ⁡ 4.
+
+{\displaystyle \lim _{a\to \infty }\int _{-2a}^{a}{\frac {2x\,dx}{x^{2}+1}}=-\ln 4.
+
+} The former is the principal value of the otherwise ill-defined expression ∫ − ∞ ∞ 2 x d x x 2 + 1 ( which gives − ∞ + ∞ ).
+
+{\displaystyle \int _{-\infty }^{\infty }{\frac {2x\,dx}{x^{2}+1}}{\ }\left({\mbox{which}}\ {\mbox{gives}}\ -\infty +\infty \right).
+
+} All of the above limits are cases of the indeterminate form ∞ − ∞ {\displaystyle \infty -\infty }.
+
+These pathologies do not affect "Lebesgue-integrable" functions, that is, functions the integrals of whose absolute values are finite.
+
+Summability [ edit ] An improper integral may diverge in the sense that the limit defining it may not exist.
+
+In this case, there are more sophisticated definitions of the limit which can produce a convergent value for the improper integral.
+
+These are called summability methods.
+
+One summability method, popular in Fourier analysis , is that of Cesàro summation.
+
+The integral ∫ 0 ∞ f ( x ) d x {\displaystyle \int _{0}^{\infty }f(x)\,dx} is Cesàro summable (C, α) if lim λ → ∞ ∫ 0 λ ( 1 − x λ ) α f ( x ) d x {\displaystyle \lim _{\lambda \to \infty }\int _{0}^{\lambda }\left(1-{\frac {x}{\lambda }}\right)^{\alpha }f(x)\ dx} exists and is finite ( Titchmarsh 1948 , §1.
+
+15).
+
+The value of this limit, should it exist, is the (C, α) sum of the integral.
+
+An integral is (C, 0) summable precisely when it exists as an improper integral.
+
+However, there are integrals which are (C, α) summable for α > 0 which fail to converge as improper integrals (in the sense of Riemann or Lebesgue).
+
+One example is the integral ∫ 0 ∞ sin ⁡ x d x {\displaystyle \int _{0}^{\infty }\sin x\,dx} which fails to exist as an improper integral, but is (C, α ) summable for every α > 0.
+
+This is an integral version of Grandi's series.
+
+Multivariable improper integrals [ edit ] The improper integral can also be defined for functions of several variables.
+
+The definition is slightly different, depending on whether one requires integrating over an unbounded domain, such as R 2 {\displaystyle \mathbb {R} ^{2}} , or is integrating a function with singularities, like f ( x , y ) = log ⁡ ( x 2 + y 2 ) {\displaystyle f(x,y)=\log \left(x^{2}+y^{2}\right)}.
+
+Improper integrals over arbitrary domains [ edit ] If f : R n → R {\displaystyle f:\mathbb {R} ^{n}\to \mathbb {R} } is a non-negative function that is Riemann integrable over every compact cube of the form [ − a , a ] n {\displaystyle [-a,a]^{n}} , for a > 0 {\displaystyle a>0} , then the improper integral of f over R n {\displaystyle \mathbb {R} ^{n}} is defined to be the limit lim a → ∞ ∫ [ − a , a ] n f , {\displaystyle \lim _{a\to \infty }\int _{[-a,a]^{n}}f,} provided it exists.
+
+A function on an arbitrary domain A in R n {\displaystyle \mathbb {R} ^{n}} is extended to a function f ~ {\displaystyle {\tilde {f}}} on R n {\displaystyle \mathbb {R} ^{n}} by zero outside of A : f ~ ( x ) = { f ( x ) x ∈ A 0 x ∉ A {\displaystyle {\tilde {f}}(x)={\begin{cases}f(x)&x\in A\\0&x\not \in A\end{cases}}} The Riemann integral of a function over a bounded domain A is then defined as the integral of the extended function f ~ {\displaystyle {\tilde {f}}} over a cube [ − a , a ] n {\displaystyle [-a,a]^{n}} containing A : ∫ A f = ∫ [ − a , a ] n f ~.
+
+{\displaystyle \int _{A}f=\int _{[-a,a]^{n}}{\tilde {f}}.
+
+} More generally, if A is unbounded, then the improper Riemann integral over an arbitrary domain in R n {\displaystyle \mathbb {R} ^{n}} is defined as the limit: ∫ A f = lim a → ∞ ∫ A ∩ [ − a , a ] n f = lim a → ∞ ∫ [ − a , a ] n f ~.
+
+{\displaystyle \int _{A}f=\lim _{a\to \infty }\int _{A\cap [-a,a]^{n}}f=\lim _{a\to \infty }\int _{[-a,a]^{n}}{\tilde {f}}.
+
+} Improper integrals with singularities [ edit ] If f is a non-negative function which is unbounded in a domain A , then the improper integral of f is defined by truncating f at some cutoff M , integrating the resulting function, and then taking the limit as M tends to infinity.
+
+That is for M > 0 {\displaystyle M>0} , set f M = min { f , M } {\displaystyle f_{M}=\min\{f,M\}}.
+
+Then define ∫ A f = lim M → ∞ ∫ A f M {\displaystyle \int _{A}f=\lim _{M\to \infty }\int _{A}f_{M}} provided this limit exists.
+
+Functions with both positive and negative values [ edit ] These definitions apply for functions that are non-negative.
+
+A more general function f can be decomposed as a difference of its positive part f + = max { f , 0 } {\displaystyle f_{+}=\max\{f,0\}} and negative part f − = max { − f , 0 } {\displaystyle f_{-}=\max\{-f,0\}} , so f = f + − f − {\displaystyle f=f_{+}-f_{-}} with f + {\displaystyle f_{+}} and f − {\displaystyle f_{-}} both non-negative functions.
+
+The function f has an improper Riemann integral if each of f + {\displaystyle f_{+}} and f − {\displaystyle f_{-}} has one, in which case the value of that improper integral is defined by ∫ A f = ∫ A f + − ∫ A f −.
+
+{\displaystyle \int _{A}f=\int _{A}f_{+}-\int _{A}f_{-}.
+
+} In order to exist in this sense, the improper integral necessarily converges absolutely, since ∫ A | f | = ∫ A f + + ∫ A f −.
+
+{\displaystyle \int _{A}|f|=\int _{A}f_{+}+\int _{A}f_{-}.
+
+} [3] [4] Notes [ edit ] ^ a b Buck, R.
+
+Creighton (1965).
+
+Advanced Calculus (2nd ed.
+
+).
+
+McGraw-Hill.
+
+pp.
+
+133–134.
+
+^ a b c d Spiegel, Murray R.
+
+(1963).
+
+Schaum's Outline of Theory and Problems of Advanced Calculus.
+
+McGraw-Hill.
+
+p.
+
+260.
+
+ISBN 0-07-060229-8.
+
+^ Cooper 2005 , p.
+
+538: "We need to make this stronger definition of convergence in terms of | f ( x )| because cancellation in the integrals can occur in so many different ways in higher dimensions.
+
+" ^ Ghorpade & Limaye 2010 , p.
+
+448: "The relevant notion here is that of unconditional convergence.
+
+".
+
+"In fact, for improper integrals of such functions, unconditional convergence turns out to be equivalent to absolute convergence.
+
+" Bibliography [ edit ] Apostol, T (1974), Mathematical analysis , Addison-Wesley, ISBN 978-0-201-00288-1.
+
+Apostol, T (1967), Calculus, Vol.
+
+1 (2nd ed.
+
+), Jon Wiley & Sons.
+
+Autar Kaw, Egwu Kalu (2008), Numerical Methods with Applications (1st ed.
+
+), autarkaw.
+
+com Titchmarsh, E (1948), Introduction to the theory of Fourier integrals (2nd ed.
+
+), New York, N.
+
+Y.
+
+: Chelsea Pub.
+
+Co.
+
+(published 1986), ISBN 978-0-8284-0324-5.
+
+Cooper, Jeffery (2005), Working analysis , Gulf Professional Ghorpade, Sudhir; Limaye, Balmohan (2010), A course in multivariable calculus and analysis , Springer External links [ edit ] Numerical Methods to Solve Improper Integrals at Holistic Numerical Methods Institute v t e Integrals Types of integrals Riemann integral Lebesgue integral Burkill integral Bochner integral Daniell integral Darboux integral Henstock–Kurzweil integral Haar integral Hellinger integral Khinchin integral Kolmogorov integral Lebesgue–Stieltjes integral Pettis integral Pfeffer integral Riemann–Stieltjes integral Regulated integral Integration techniques Substitution Trigonometric Euler Weierstrass By parts Partial fractions Euler's formula Inverse functions Changing order Reduction formulas Parametric derivatives Differentiation under the integral sign Laplace transform Contour integration Laplace's method Numerical integration Simpson's rule Trapezoidal rule Risch algorithm Improper integrals Gaussian integral Dirichlet integral Fermi–Dirac integral complete incomplete Bose–Einstein integral Frullani integral Common integrals in quantum field theory Stochastic integrals Itô integral Russo–Vallois integral Stratonovich integral Skorokhod integral Miscellaneous Basel problem Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Volumes Washers Shells Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Improper_integral&oldid=1229953218 " Category : Integral calculus Hidden categories: Articles with short description Short description is different from Wikidata Pages using sidebar with the child parameter This page was last edited on 19 June 2024, at 17:29 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

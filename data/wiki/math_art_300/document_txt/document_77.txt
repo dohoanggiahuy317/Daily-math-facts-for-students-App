@@ -1,0 +1,605 @@
+Integration by parts - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Theorem Toggle Theorem subsection 1.
+
+1 Product of two functions 1.
+
+2 Validity for less smooth functions 1.
+
+3 Product of many functions 2 Visualization 3 Applications Toggle Applications subsection 3.
+
+1 Finding antiderivatives 3.
+
+1.
+
+1 Polynomials and trigonometric functions 3.
+
+1.
+
+2 Exponentials and trigonometric functions 3.
+
+1.
+
+3 Functions multiplied by unity 3.
+
+1.
+
+4 LIATE rule 3.
+
+2 Wallis product 3.
+
+3 Gamma function identity 3.
+
+4 Use in harmonic analysis 3.
+
+4.
+
+1 Fourier transform of derivative 3.
+
+4.
+
+2 Decay of Fourier transform 3.
+
+5 Use in operator theory 3.
+
+6 Other applications 4 Repeated integration by parts Toggle Repeated integration by parts subsection 4.
+
+1 Tabular integration by parts 5 Higher dimensions Toggle Higher dimensions subsection 5.
+
+1 Green's first identity 6 See also 7 Notes 8 Further reading 9 External links Toggle the table of contents Integration by parts 39 languages العربية Български Bosanski Català Čeština Cymraeg Dansk Deutsch Español فارسی Français 한국어 हिन्दी Hrvatski Bahasa Indonesia Íslenska Italiano עברית Magyar Македонски Nederlands 日本語 ភាសាខ្មែរ Polski Português Română Русский Shqip Slovenčina Ślůnski کوردی Srpskohrvatski / српскохрватски Suomi Svenska Tagalog ไทย Українська Tiếng Việt 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Mathematical method in calculus Part of a series of articles about Calculus ∫ a b f ′ ( t ) d t = f ( b ) − f ( a ) {\displaystyle \int _{a}^{b}f'(t)\,dt=f(b)-f(a)} Fundamental theorem Limits Continuity Rolle's theorem Mean value theorem Inverse function theorem Differential Definitions Derivative ( generalizations ) Differential infinitesimal of a function total Concepts Differentiation notation Second derivative Implicit differentiation Logarithmic differentiation Related rates Taylor's theorem Rules and identities Sum Product Chain Power Quotient L'Hôpital's rule Inverse General Leibniz Faà di Bruno's formula Reynolds Integral Lists of integrals Integral transform Leibniz integral rule Definitions Antiderivative Integral ( improper ) Riemann integral Lebesgue integration Contour integration Integral of inverse functions Integration by Parts Discs Cylindrical shells Substitution ( trigonometric , tangent half-angle , Euler ) Euler's formula Partial fractions Changing order Reduction formulae Differentiating under the integral sign Risch algorithm Series Geometric ( arithmetico-geometric ) Harmonic Alternating Power Binomial Taylor Convergence tests Summand limit (term test) Ratio Root Integral Direct comparison Limit comparison Alternating series Cauchy condensation Dirichlet Abel Vector Gradient Divergence Curl Laplacian Directional derivative Identities Theorems Gradient Green's Stokes' Divergence generalized Stokes Helmholtz decomposition Multivariable Formalisms Matrix Tensor Exterior Geometric Definitions Partial derivative Multiple integral Line integral Surface integral Volume integral Jacobian Hessian Advanced Calculus on Euclidean space Generalized functions Limit of distributions Specialized Fractional Malliavin Stochastic Variations Miscellaneous Precalculus History Glossary List of topics Integration Bee Mathematical analysis Nonstandard analysis v t e In calculus , and more generally in mathematical analysis , integration by parts or partial integration is a process that finds the integral of a product of functions in terms of the integral of the product of their derivative and antiderivative.
+
+It is frequently used to transform the antiderivative of a product of functions into an antiderivative for which a solution can be more easily found.
+
+The rule can be thought of as an integral version of the product rule of differentiation ; it is indeed derived using the product rule.
+
+The integration by parts formula states: ∫ a b u ( x ) v ′ ( x ) d x = [ u ( x ) v ( x ) ] a b − ∫ a b u ′ ( x ) v ( x ) d x = u ( b ) v ( b ) − u ( a ) v ( a ) − ∫ a b u ′ ( x ) v ( x ) d x.
+
+{\displaystyle {\begin{aligned}\int _{a}^{b}u(x)v'(x)\,dx&={\Big [}u(x)v(x){\Big ]}_{a}^{b}-\int _{a}^{b}u'(x)v(x)\,dx\\&=u(b)v(b)-u(a)v(a)-\int _{a}^{b}u'(x)v(x)\,dx.
+
+\end{aligned}}} Or, letting u = u ( x ) {\displaystyle u=u(x)} and d u = u ′ ( x ) d x {\displaystyle du=u'(x)\,dx} while v = v ( x ) {\displaystyle v=v(x)} and d v = v ′ ( x ) d x , {\displaystyle dv=v'(x)\,dx,} the formula can be written more compactly: ∫ u d v = u v − ∫ v d u.
+
+{\displaystyle \int u\,dv\ =\ uv-\int v\,du.
+
+} The former expression is written as a definite integral and the latter is written as an indefinite integral.
+
+Applying the appropriate limits to the latter expression should yield the former, but the latter is not necessarily equivalent to the former.
+
+Mathematician Brook Taylor discovered integration by parts, first publishing the idea in 1715.
+
+[1] [2] More general formulations of integration by parts exist for the Riemann–Stieltjes and Lebesgue–Stieltjes integrals.
+
+The discrete analogue for sequences is called summation by parts.
+
+Theorem [ edit ] Product of two functions [ edit ] The theorem can be derived as follows.
+
+For two continuously differentiable functions u ( x ) {\displaystyle u(x)} and v ( x ) {\displaystyle v(x)} , the product rule states: ( u ( x ) v ( x ) ) ′ = v ( x ) u ′ ( x ) + u ( x ) v ′ ( x ).
+
+{\displaystyle {\Big (}u(x)v(x){\Big )}'=v(x)u'(x)+u(x)v'(x).
+
+} Integrating both sides with respect to x {\displaystyle x} , ∫ ( u ( x ) v ( x ) ) ′ d x = ∫ u ′ ( x ) v ( x ) d x + ∫ u ( x ) v ′ ( x ) d x , {\displaystyle \int {\Big (}u(x)v(x){\Big )}'\,dx=\int u'(x)v(x)\,dx+\int u(x)v'(x)\,dx,} and noting that an indefinite integral is an antiderivative gives u ( x ) v ( x ) = ∫ u ′ ( x ) v ( x ) d x + ∫ u ( x ) v ′ ( x ) d x , {\displaystyle u(x)v(x)=\int u'(x)v(x)\,dx+\int u(x)v'(x)\,dx,} where we neglect writing the constant of integration.
+
+This yields the formula for integration by parts : ∫ u ( x ) v ′ ( x ) d x = u ( x ) v ( x ) − ∫ u ′ ( x ) v ( x ) d x , {\displaystyle \int u(x)v'(x)\,dx=u(x)v(x)-\int u'(x)v(x)\,dx,} or in terms of the differentials d u = u ′ ( x ) d x {\displaystyle du=u'(x)\,dx} , d v = v ′ ( x ) d x , {\displaystyle dv=v'(x)\,dx,\quad } ∫ u ( x ) d v = u ( x ) v ( x ) − ∫ v ( x ) d u.
+
+{\displaystyle \int u(x)\,dv=u(x)v(x)-\int v(x)\,du.
+
+} This is to be understood as an equality of functions with an unspecified constant added to each side.
+
+Taking the difference of each side between two values x = a {\displaystyle x=a} and x = b {\displaystyle x=b} and applying the fundamental theorem of calculus gives the definite integral version: ∫ a b u ( x ) v ′ ( x ) d x = u ( b ) v ( b ) − u ( a ) v ( a ) − ∫ a b u ′ ( x ) v ( x ) d x.
+
+{\displaystyle \int _{a}^{b}u(x)v'(x)\,dx=u(b)v(b)-u(a)v(a)-\int _{a}^{b}u'(x)v(x)\,dx.
+
+} The original integral ∫ u v ′ d x {\displaystyle \int uv'\,dx} contains the derivative v' ; to apply the theorem, one must find v , the antiderivative of v' , then evaluate the resulting integral ∫ v u ′ d x.
+
+{\displaystyle \int vu'\,dx.
+
+} Validity for less smooth functions [ edit ] It is not necessary for u {\displaystyle u} and v {\displaystyle v} to be continuously differentiable.
+
+Integration by parts works if u {\displaystyle u} is absolutely continuous and the function designated v ′ {\displaystyle v'} is Lebesgue integrable (but not necessarily continuous).
+
+[3] (If v ′ {\displaystyle v'} has a point of discontinuity then its antiderivative v {\displaystyle v} may not have a derivative at that point.
+
+) If the interval of integration is not compact , then it is not necessary for u {\displaystyle u} to be absolutely continuous in the whole interval or for v ′ {\displaystyle v'} to be Lebesgue integrable in the interval, as a couple of examples (in which u {\displaystyle u} and v {\displaystyle v} are continuous and continuously differentiable) will show.
+
+For instance, if u ( x ) = e x / x 2 , v ′ ( x ) = e − x {\displaystyle u(x)=e^{x}/x^{2},\,v'(x)=e^{-x}} u {\displaystyle u} is not absolutely continuous on the interval [1, ∞) , but nevertheless ∫ 1 ∞ u ( x ) v ′ ( x ) d x = [ u ( x ) v ( x ) ] 1 ∞ − ∫ 1 ∞ u ′ ( x ) v ( x ) d x {\displaystyle \int _{1}^{\infty }u(x)v'(x)\,dx={\Big [}u(x)v(x){\Big ]}_{1}^{\infty }-\int _{1}^{\infty }u'(x)v(x)\,dx} so long as [ u ( x ) v ( x ) ] 1 ∞ {\displaystyle \left[u(x)v(x)\right]_{1}^{\infty }} is taken to mean the limit of u ( L ) v ( L ) − u ( 1 ) v ( 1 ) {\displaystyle u(L)v(L)-u(1)v(1)} as L → ∞ {\displaystyle L\to \infty } and so long as the two terms on the right-hand side are finite.
+
+This is only true if we choose v ( x ) = − e − x.
+
+{\displaystyle v(x)=-e^{-x}.
+
+} Similarly, if u ( x ) = e − x , v ′ ( x ) = x − 1 sin ⁡ ( x ) {\displaystyle u(x)=e^{-x},\,v'(x)=x^{-1}\sin(x)} v ′ {\displaystyle v'} is not Lebesgue integrable on the interval [1, ∞) , but nevertheless ∫ 1 ∞ u ( x ) v ′ ( x ) d x = [ u ( x ) v ( x ) ] 1 ∞ − ∫ 1 ∞ u ′ ( x ) v ( x ) d x {\displaystyle \int _{1}^{\infty }u(x)v'(x)\,dx={\Big [}u(x)v(x){\Big ]}_{1}^{\infty }-\int _{1}^{\infty }u'(x)v(x)\,dx} with the same interpretation.
+
+One can also easily come up with similar examples in which u {\displaystyle u} and v {\displaystyle v} are not continuously differentiable.
+
+Further, if f ( x ) {\displaystyle f(x)} is a function of bounded variation on the segment [ a , b ] , {\displaystyle [a,b],} and φ ( x ) {\displaystyle \varphi (x)} is differentiable on [ a , b ] , {\displaystyle [a,b],} then ∫ a b f ( x ) φ ′ ( x ) d x = − ∫ − ∞ ∞ φ ~ ( x ) d ( χ ~ [ a , b ] ( x ) f ~ ( x ) ) , {\displaystyle \int _{a}^{b}f(x)\varphi '(x)\,dx=-\int _{-\infty }^{\infty }{\widetilde {\varphi }}(x)\,d({\widetilde {\chi }}_{[a,b]}(x){\widetilde {f}}(x)),} where d ( χ [ a , b ] ( x ) f ~ ( x ) ) {\displaystyle d(\chi _{[a,b]}(x){\widetilde {f}}(x))} denotes the signed measure corresponding to the function of bounded variation χ [ a , b ] ( x ) f ( x ) {\displaystyle \chi _{[a,b]}(x)f(x)} , and functions f ~ , φ ~ {\displaystyle {\widetilde {f}},{\widetilde {\varphi }}} are extensions of f , φ {\displaystyle f,\varphi } to R , {\displaystyle \mathbb {R} ,} which are respectively of bounded variation and differentiable.
+
+[ citation needed ] Product of many functions [ edit ] Integrating the product rule for three multiplied functions, u ( x ) {\displaystyle u(x)} , v ( x ) {\displaystyle v(x)} , w ( x ) {\displaystyle w(x)} , gives a similar result: ∫ a b u v d w = [ u v w ] a b − ∫ a b u w d v − ∫ a b v w d u.
+
+{\displaystyle \int _{a}^{b}uv\,dw\ =\ {\Big [}uvw{\Big ]}_{a}^{b}-\int _{a}^{b}uw\,dv-\int _{a}^{b}vw\,du.
+
+} In general, for n {\displaystyle n} factors ( ∏ i = 1 n u i ( x ) ) ′ = ∑ j = 1 n u j ′ ( x ) ∏ i ≠ j n u i ( x ) , {\displaystyle \left(\prod _{i=1}^{n}u_{i}(x)\right)'\ =\ \sum _{j=1}^{n}u_{j}'(x)\prod _{i\neq j}^{n}u_{i}(x),} which leads to [ ∏ i = 1 n u i ( x ) ] a b = ∑ j = 1 n ∫ a b u j ′ ( x ) ∏ i ≠ j n u i ( x ).
+
+{\displaystyle \left[\prod _{i=1}^{n}u_{i}(x)\right]_{a}^{b}\ =\ \sum _{j=1}^{n}\int _{a}^{b}u_{j}'(x)\prod _{i\neq j}^{n}u_{i}(x).
+
+} Visualization [ edit ] Graphical interpretation of the theorem.
+
+The pictured curve is parametrized by the variable t.
+
+Consider a parametric curve by ( x , y ) = ( f ( t ), g ( t )).
+
+Assuming that the curve is locally one-to-one and integrable , we can define x ( y ) = f ( g − 1 ( y ) ) y ( x ) = g ( f − 1 ( x ) ) {\displaystyle {\begin{aligned}x(y)&=f(g^{-1}(y))\\y(x)&=g(f^{-1}(x))\end{aligned}}} The area of the blue region is A 1 = ∫ y 1 y 2 x ( y ) d y {\displaystyle A_{1}=\int _{y_{1}}^{y_{2}}x(y)\,dy} Similarly, the area of the red region is A 2 = ∫ x 1 x 2 y ( x ) d x {\displaystyle A_{2}=\int _{x_{1}}^{x_{2}}y(x)\,dx} The total area A 1 + A 2 is equal to the area of the bigger rectangle, x 2 y 2 , minus the area of the smaller one, x 1 y 1 : ∫ y 1 y 2 x ( y ) d y ⏞ A 1 + ∫ x 1 x 2 y ( x ) d x ⏞ A 2 = x ⋅ y ( x ) | x 1 x 2 = y ⋅ x ( y ) | y 1 y 2 {\displaystyle \overbrace {\int _{y_{1}}^{y_{2}}x(y)\,dy} ^{A_{1}}+\overbrace {\int _{x_{1}}^{x_{2}}y(x)\,dx} ^{A_{2}}\ =\ {\biggl.
+
+}x\cdot y(x){\biggl |}_{x_{1}}^{x_{2}}\ =\ {\biggl.
+
+}y\cdot x(y){\biggl |}_{y_{1}}^{y_{2}}} Or, in terms of t , ∫ t 1 t 2 x ( t ) d y ( t ) + ∫ t 1 t 2 y ( t ) d x ( t ) = x ( t ) y ( t ) | t 1 t 2 {\displaystyle \int _{t_{1}}^{t_{2}}x(t)\,dy(t)+\int _{t_{1}}^{t_{2}}y(t)\,dx(t)\ =\ {\biggl.
+
+}x(t)y(t){\biggl |}_{t_{1}}^{t_{2}}} Or, in terms of indefinite integrals, this can be written as ∫ x d y + ∫ y d x = x y {\displaystyle \int x\,dy+\int y\,dx\ =\ xy} Rearranging: ∫ x d y = x y − ∫ y d x {\displaystyle \int x\,dy\ =\ xy-\int y\,dx} Thus integration by parts may be thought of as deriving the area of the blue region from the area of rectangles and that of the red region.
+
+This visualization also explains why integration by parts may help find the integral of an inverse function f −1 ( x ) when the integral of the function f ( x ) is known.
+
+Indeed, the functions x ( y ) and y ( x ) are inverses, and the integral ∫ x dy may be calculated as above from knowing the integral ∫ y dx.
+
+In particular, this explains use of integration by parts to integrate logarithm and inverse trigonometric functions.
+
+In fact, if f {\displaystyle f} is a differentiable one-to-one function on an interval, then integration by parts can be used to derive a formula for the integral of f − 1 {\displaystyle f^{-1}} in terms of the integral of f {\displaystyle f}.
+
+This is demonstrated in the article, Integral of inverse functions.
+
+Applications [ edit ] Finding antiderivatives [ edit ] Integration by parts is a heuristic rather than a purely mechanical process for solving integrals; given a single function to integrate, the typical strategy is to carefully separate this single function into a product of two functions u ( x ) v ( x ) such that the residual integral from the integration by parts formula is easier to evaluate than the single function.
+
+The following form is useful in illustrating the best strategy to take: ∫ u v d x = u ∫ v d x − ∫ ( u ′ ∫ v d x ) d x.
+
+{\displaystyle \int uv\,dx=u\int v\,dx-\int \left(u'\int v\,dx\right)\,dx.
+
+} On the right-hand side, u is differentiated and v is integrated; consequently it is useful to choose u as a function that simplifies when differentiated, or to choose v as a function that simplifies when integrated.
+
+As a simple example, consider: ∫ ln ⁡ ( x ) x 2 d x.
+
+{\displaystyle \int {\frac {\ln(x)}{x^{2}}}\,dx\,.
+
+} Since the derivative of ln( x ) is ⁠ 1 / x ⁠ , one makes (ln( x )) part u ; since the antiderivative of ⁠ 1 / x 2 ⁠ is − ⁠ 1 / x ⁠ , one makes ⁠ 1 / x 2 ⁠ part v.
+
+The formula now yields: ∫ ln ⁡ ( x ) x 2 d x = − ln ⁡ ( x ) x − ∫ ( 1 x ) ( − 1 x ) d x.
+
+{\displaystyle \int {\frac {\ln(x)}{x^{2}}}\,dx=-{\frac {\ln(x)}{x}}-\int {\biggl (}{\frac {1}{x}}{\biggr )}{\biggl (}-{\frac {1}{x}}{\biggr )}\,dx\,.
+
+} The antiderivative of − ⁠ 1 / x 2 ⁠ can be found with the power rule and is ⁠ 1 / x ⁠.
+
+Alternatively, one may choose u and v such that the product u ′ (∫ v dx ) simplifies due to cancellation.
+
+For example, suppose one wishes to integrate: ∫ sec 2 ⁡ ( x ) ⋅ ln ⁡ ( | sin ⁡ ( x ) | ) d x.
+
+{\displaystyle \int \sec ^{2}(x)\cdot \ln {\Big (}{\bigl |}\sin(x){\bigr |}{\Big )}\,dx.
+
+} If we choose u ( x ) = ln(|sin( x )|) and v ( x ) = sec 2 x, then u differentiates to 1/ tan x using the chain rule and v integrates to tan x ; so the formula gives: ∫ sec 2 ⁡ ( x ) ⋅ ln ⁡ ( | sin ⁡ ( x ) | ) d x = tan ⁡ ( x ) ⋅ ln ⁡ ( | sin ⁡ ( x ) | ) − ∫ tan ⁡ ( x ) ⋅ 1 tan ⁡ ( x ) d x.
+
+{\displaystyle \int \sec ^{2}(x)\cdot \ln {\Big (}{\bigl |}\sin(x){\bigr |}{\Big )}\,dx=\tan(x)\cdot \ln {\Big (}{\bigl |}\sin(x){\bigr |}{\Big )}-\int \tan(x)\cdot {\frac {1}{\tan(x)}}\,dx\.
+
+} The integrand simplifies to 1, so the antiderivative is x.
+
+Finding a simplifying combination frequently involves experimentation.
+
+In some applications, it may not be necessary to ensure that the integral produced by integration by parts has a simple form; for example, in numerical analysis , it may suffice that it has small magnitude and so contributes only a small error term.
+
+Some other special techniques are demonstrated in the examples below.
+
+Polynomials and trigonometric functions [ edit ] In order to calculate I = ∫ x cos ⁡ ( x ) d x , {\displaystyle I=\int x\cos(x)\,dx\,,} let: u = x ⇒ d u = d x d v = cos ⁡ ( x ) d x ⇒ v = ∫ cos ⁡ ( x ) d x = sin ⁡ ( x ) {\displaystyle {\begin{alignedat}{3}u&=x\ &\Rightarrow \ &&du&=dx\\dv&=\cos(x)\,dx\ &\Rightarrow \ &&v&=\int \cos(x)\,dx=\sin(x)\end{alignedat}}} then: ∫ x cos ⁡ ( x ) d x = ∫ u d v = u ⋅ v − ∫ v d u = x sin ⁡ ( x ) − ∫ sin ⁡ ( x ) d x = x sin ⁡ ( x ) + cos ⁡ ( x ) + C , {\displaystyle {\begin{aligned}\int x\cos(x)\,dx&=\int u\ dv\\&=u\cdot v-\int v\,du\\&=x\sin(x)-\int \sin(x)\,dx\\&=x\sin(x)+\cos(x)+C,\end{aligned}}} where C is a constant of integration.
+
+For higher powers of x {\displaystyle x} in the form ∫ x n e x d x , ∫ x n sin ⁡ ( x ) d x , ∫ x n cos ⁡ ( x ) d x , {\displaystyle \int x^{n}e^{x}\,dx,\ \int x^{n}\sin(x)\,dx,\ \int x^{n}\cos(x)\,dx\,,} repeatedly using integration by parts can evaluate integrals such as these; each application of the theorem lowers the power of x {\displaystyle x} by one.
+
+Exponentials and trigonometric functions [ edit ] See also: Integration using Euler's formula An example commonly used to examine the workings of integration by parts is I = ∫ e x cos ⁡ ( x ) d x.
+
+{\displaystyle I=\int e^{x}\cos(x)\,dx.
+
+} Here, integration by parts is performed twice.
+
+First let u = cos ⁡ ( x ) ⇒ d u = − sin ⁡ ( x ) d x d v = e x d x ⇒ v = ∫ e x d x = e x {\displaystyle {\begin{alignedat}{3}u&=\cos(x)\ &\Rightarrow \ &&du&=-\sin(x)\,dx\\dv&=e^{x}\,dx\ &\Rightarrow \ &&v&=\int e^{x}\,dx=e^{x}\end{alignedat}}} then: ∫ e x cos ⁡ ( x ) d x = e x cos ⁡ ( x ) + ∫ e x sin ⁡ ( x ) d x.
+
+{\displaystyle \int e^{x}\cos(x)\,dx=e^{x}\cos(x)+\int e^{x}\sin(x)\,dx.
+
+} Now, to evaluate the remaining integral, we use integration by parts again, with: u = sin ⁡ ( x ) ⇒ d u = cos ⁡ ( x ) d x d v = e x d x ⇒ v = ∫ e x d x = e x.
+
+{\displaystyle {\begin{alignedat}{3}u&=\sin(x)\ &\Rightarrow \ &&du&=\cos(x)\,dx\\dv&=e^{x}\,dx\,&\Rightarrow \ &&v&=\int e^{x}\,dx=e^{x}.
+
+\end{alignedat}}} Then: ∫ e x sin ⁡ ( x ) d x = e x sin ⁡ ( x ) − ∫ e x cos ⁡ ( x ) d x.
+
+{\displaystyle \int e^{x}\sin(x)\,dx=e^{x}\sin(x)-\int e^{x}\cos(x)\,dx.
+
+} Putting these together, ∫ e x cos ⁡ ( x ) d x = e x cos ⁡ ( x ) + e x sin ⁡ ( x ) − ∫ e x cos ⁡ ( x ) d x.
+
+{\displaystyle \int e^{x}\cos(x)\,dx=e^{x}\cos(x)+e^{x}\sin(x)-\int e^{x}\cos(x)\,dx.
+
+} The same integral shows up on both sides of this equation.
+
+The integral can simply be added to both sides to get 2 ∫ e x cos ⁡ ( x ) d x = e x [ sin ⁡ ( x ) + cos ⁡ ( x ) ] + C , {\displaystyle 2\int e^{x}\cos(x)\,dx=e^{x}{\bigl [}\sin(x)+\cos(x){\bigr ]}+C,} which rearranges to ∫ e x cos ⁡ ( x ) d x = 1 2 e x [ sin ⁡ ( x ) + cos ⁡ ( x ) ] + C ′ {\displaystyle \int e^{x}\cos(x)\,dx={\frac {1}{2}}e^{x}{\bigl [}\sin(x)+\cos(x){\bigr ]}+C'} where again C {\displaystyle C} (and C ′ = C / 2 {\displaystyle C'=C/2} ) is a constant of integration.
+
+A similar method is used to find the integral of secant cubed.
+
+Functions multiplied by unity [ edit ] Two other well-known examples are when integration by parts is applied to a function expressed as a product of 1 and itself.
+
+This works if the derivative of the function is known, and the integral of this derivative times x {\displaystyle x} is also known.
+
+The first example is ∫ ln ⁡ ( x ) d x {\displaystyle \int \ln(x)dx}.
+
+We write this as: I = ∫ ln ⁡ ( x ) ⋅ 1 d x.
+
+{\displaystyle I=\int \ln(x)\cdot 1\,dx\,.
+
+} Let: u = ln ⁡ ( x ) ⇒ d u = d x x {\displaystyle u=\ln(x)\ \Rightarrow \ du={\frac {dx}{x}}} d v = d x ⇒ v = x {\displaystyle dv=dx\ \Rightarrow \ v=x} then: ∫ ln ⁡ ( x ) d x = x ln ⁡ ( x ) − ∫ x x d x = x ln ⁡ ( x ) − ∫ 1 d x = x ln ⁡ ( x ) − x + C {\displaystyle {\begin{aligned}\int \ln(x)\,dx&=x\ln(x)-\int {\frac {x}{x}}\,dx\\&=x\ln(x)-\int 1\,dx\\&=x\ln(x)-x+C\end{aligned}}} where C {\displaystyle C} is the constant of integration.
+
+The second example is the inverse tangent function arctan ⁡ ( x ) {\displaystyle \arctan(x)} : I = ∫ arctan ⁡ ( x ) d x.
+
+{\displaystyle I=\int \arctan(x)\,dx.
+
+} Rewrite this as ∫ arctan ⁡ ( x ) ⋅ 1 d x.
+
+{\displaystyle \int \arctan(x)\cdot 1\,dx.
+
+} Now let: u = arctan ⁡ ( x ) ⇒ d u = d x 1 + x 2 {\displaystyle u=\arctan(x)\ \Rightarrow \ du={\frac {dx}{1+x^{2}}}} d v = d x ⇒ v = x {\displaystyle dv=dx\ \Rightarrow \ v=x} then ∫ arctan ⁡ ( x ) d x = x arctan ⁡ ( x ) − ∫ x 1 + x 2 d x = x arctan ⁡ ( x ) − ln ⁡ ( 1 + x 2 ) 2 + C {\displaystyle {\begin{aligned}\int \arctan(x)\,dx&=x\arctan(x)-\int {\frac {x}{1+x^{2}}}\,dx\\[8pt]&=x\arctan(x)-{\frac {\ln(1+x^{2})}{2}}+C\end{aligned}}} using a combination of the inverse chain rule method and the natural logarithm integral condition.
+
+LIATE rule [ edit ] The LIATE rule is a rule of thumb for integration by parts.
+
+It involves choosing as u the function that comes first in the following list: [4] L – logarithmic functions : ln ⁡ ( x ) , log b ⁡ ( x ) , {\displaystyle \ln(x),\ \log _{b}(x),} etc.
+
+I – inverse trigonometric functions (including hyperbolic analogues ): arctan ⁡ ( x ) , arcsec ⁡ ( x ) , arsinh ⁡ ( x ) , {\displaystyle \arctan(x),\ \operatorname {arcsec}(x),\ \operatorname {arsinh} (x),} etc.
+
+A – algebraic functions (such as polynomials ): x 2 , 3 x 50 , {\displaystyle x^{2},\ 3x^{50},} etc.
+
+T – trigonometric functions (including hyperbolic analogues ): sin ⁡ ( x ) , tan ⁡ ( x ) , sech ⁡ ( x ) , {\displaystyle \sin(x),\ \tan(x),\ \operatorname {sech} (x),} etc.
+
+E – exponential functions : e x , 19 x , {\displaystyle e^{x},\ 19^{x},} etc.
+
+The function which is to be dv is whichever comes last in the list.
+
+The reason is that functions lower on the list generally have simpler antiderivatives than the functions above them.
+
+The rule is sometimes written as "DETAIL", where D stands for dv and the top of the list is the function chosen to be dv.
+
+An alternative to this rule is the ILATE rule, where inverse trigonometric functions come before logarithmic functions.
+
+To demonstrate the LIATE rule, consider the integral ∫ x ⋅ cos ⁡ ( x ) d x.
+
+{\displaystyle \int x\cdot \cos(x)\,dx.
+
+} Following the LIATE rule, u = x , and dv = cos( x ) dx , hence du = dx , and v = sin( x ), which makes the integral become x ⋅ sin ⁡ ( x ) − ∫ 1 sin ⁡ ( x ) d x , {\displaystyle x\cdot \sin(x)-\int 1\sin(x)\,dx,} which equals x ⋅ sin ⁡ ( x ) + cos ⁡ ( x ) + C.
+
+{\displaystyle x\cdot \sin(x)+\cos(x)+C.
+
+} In general, one tries to choose u and dv such that du is simpler than u and dv is easy to integrate.
+
+If instead cos( x ) was chosen as u , and x dx as dv , we would have the integral x 2 2 cos ⁡ ( x ) + ∫ x 2 2 sin ⁡ ( x ) d x , {\displaystyle {\frac {x^{2}}{2}}\cos(x)+\int {\frac {x^{2}}{2}}\sin(x)\,dx,} which, after recursive application of the integration by parts formula, would clearly result in an infinite recursion and lead nowhere.
+
+Although a useful rule of thumb, there are exceptions to the LIATE rule.
+
+A common alternative is to consider the rules in the "ILATE" order instead.
+
+Also, in some cases, polynomial terms need to be split in non-trivial ways.
+
+For example, to integrate ∫ x 3 e x 2 d x , {\displaystyle \int x^{3}e^{x^{2}}\,dx,} one would set u = x 2 , d v = x ⋅ e x 2 d x , {\displaystyle u=x^{2},\quad dv=x\cdot e^{x^{2}}\,dx,} so that d u = 2 x d x , v = e x 2 2.
+
+{\displaystyle du=2x\,dx,\quad v={\frac {e^{x^{2}}}{2}}.
+
+} Then ∫ x 3 e x 2 d x = ∫ ( x 2 ) ( x e x 2 ) d x = ∫ u d v = u v − ∫ v d u = x 2 e x 2 2 − ∫ x e x 2 d x.
+
+{\displaystyle \int x^{3}e^{x^{2}}\,dx=\int \left(x^{2}\right)\left(xe^{x^{2}}\right)\,dx=\int u\,dv=uv-\int v\,du={\frac {x^{2}e^{x^{2}}}{2}}-\int xe^{x^{2}}\,dx.
+
+} Finally, this results in ∫ x 3 e x 2 d x = e x 2 ( x 2 − 1 ) 2 + C.
+
+{\displaystyle \int x^{3}e^{x^{2}}\,dx={\frac {e^{x^{2}}\left(x^{2}-1\right)}{2}}+C.
+
+} Integration by parts is often used as a tool to prove theorems in mathematical analysis.
+
+Wallis product [ edit ] The Wallis infinite product for π {\displaystyle \pi } π 2 = ∏ n = 1 ∞ 4 n 2 4 n 2 − 1 = ∏ n = 1 ∞ ( 2 n 2 n − 1 ⋅ 2 n 2 n + 1 ) = ( 2 1 ⋅ 2 3 ) ⋅ ( 4 3 ⋅ 4 5 ) ⋅ ( 6 5 ⋅ 6 7 ) ⋅ ( 8 7 ⋅ 8 9 ) ⋅ ⋯ {\displaystyle {\begin{aligned}{\frac {\pi }{2}}&=\prod _{n=1}^{\infty }{\frac {4n^{2}}{4n^{2}-1}}=\prod _{n=1}^{\infty }\left({\frac {2n}{2n-1}}\cdot {\frac {2n}{2n+1}}\right)\\[6pt]&={\Big (}{\frac {2}{1}}\cdot {\frac {2}{3}}{\Big )}\cdot {\Big (}{\frac {4}{3}}\cdot {\frac {4}{5}}{\Big )}\cdot {\Big (}{\frac {6}{5}}\cdot {\frac {6}{7}}{\Big )}\cdot {\Big (}{\frac {8}{7}}\cdot {\frac {8}{9}}{\Big )}\cdot \;\cdots \end{aligned}}} may be derived using integration by parts.
+
+Gamma function identity [ edit ] The gamma function is an example of a special function , defined as an improper integral for z > 0 {\displaystyle z>0}.
+
+Integration by parts illustrates it to be an extension of the factorial function: Γ ( z ) = ∫ 0 ∞ e − x x z − 1 d x = − ∫ 0 ∞ x z − 1 d ( e − x ) = − [ e − x x z − 1 ] 0 ∞ + ∫ 0 ∞ e − x d ( x z − 1 ) = 0 + ∫ 0 ∞ ( z − 1 ) x z − 2 e − x d x = ( z − 1 ) Γ ( z − 1 ).
+
+{\displaystyle {\begin{aligned}\Gamma (z)&=\int _{0}^{\infty }e^{-x}x^{z-1}dx\\[6pt]&=-\int _{0}^{\infty }x^{z-1}\,d\left(e^{-x}\right)\\[6pt]&=-{\Biggl [}e^{-x}x^{z-1}{\Biggl ]}_{0}^{\infty }+\int _{0}^{\infty }e^{-x}d\left(x^{z-1}\right)\\[6pt]&=0+\int _{0}^{\infty }\left(z-1\right)x^{z-2}e^{-x}dx\\[6pt]&=(z-1)\Gamma (z-1).
+
+\end{aligned}}} Since Γ ( 1 ) = ∫ 0 ∞ e − x d x = 1 , {\displaystyle \Gamma (1)=\int _{0}^{\infty }e^{-x}\,dx=1,} when z {\displaystyle z} is a natural number, that is, z = n ∈ N {\displaystyle z=n\in \mathbb {N} } , applying this formula repeatedly gives the factorial : Γ ( n + 1 ) = n ! {\displaystyle \Gamma (n+1)=n!} Use in harmonic analysis [ edit ] Integration by parts is often used in harmonic analysis , particularly Fourier analysis , to show that quickly oscillating integrals with sufficiently smooth integrands decay quickly.
+
+The most common example of this is its use in showing that the decay of function's Fourier transform depends on the smoothness of that function, as described below.
+
+Fourier transform of derivative [ edit ] If f {\displaystyle f} is a k {\displaystyle k} -times continuously differentiable function and all derivatives up to the k {\displaystyle k} th one decay to zero at infinity, then its Fourier transform satisfies ( F f ( k ) ) ( ξ ) = ( 2 π i ξ ) k F f ( ξ ) , {\displaystyle ({\mathcal {F}}f^{(k)})(\xi )=(2\pi i\xi )^{k}{\mathcal {F}}f(\xi ),} where f ( k ) {\displaystyle f^{(k)}} is the k {\displaystyle k} th derivative of f {\displaystyle f}.
+
+(The exact constant on the right depends on the convention of the Fourier transform used.
+
+) This is proved by noting that d d y e − 2 π i y ξ = − 2 π i ξ e − 2 π i y ξ , {\displaystyle {\frac {d}{dy}}e^{-2\pi iy\xi }=-2\pi i\xi e^{-2\pi iy\xi },} so using integration by parts on the Fourier transform of the derivative we get ( F f ′ ) ( ξ ) = ∫ − ∞ ∞ e − 2 π i y ξ f ′ ( y ) d y = [ e − 2 π i y ξ f ( y ) ] − ∞ ∞ − ∫ − ∞ ∞ ( − 2 π i ξ e − 2 π i y ξ ) f ( y ) d y = 2 π i ξ ∫ − ∞ ∞ e − 2 π i y ξ f ( y ) d y = 2 π i ξ F f ( ξ ).
+
+{\displaystyle {\begin{aligned}({\mathcal {F}}f')(\xi )&=\int _{-\infty }^{\infty }e^{-2\pi iy\xi }f'(y)\,dy\\&=\left[e^{-2\pi iy\xi }f(y)\right]_{-\infty }^{\infty }-\int _{-\infty }^{\infty }(-2\pi i\xi e^{-2\pi iy\xi })f(y)\,dy\\[5pt]&=2\pi i\xi \int _{-\infty }^{\infty }e^{-2\pi iy\xi }f(y)\,dy\\[5pt]&=2\pi i\xi {\mathcal {F}}f(\xi ).
+
+\end{aligned}}} Applying this inductively gives the result for general k {\displaystyle k}.
+
+A similar method can be used to find the Laplace transform of a derivative of a function.
+
+Decay of Fourier transform [ edit ] The above result tells us about the decay of the Fourier transform, since it follows that if f {\displaystyle f} and f ( k ) {\displaystyle f^{(k)}} are integrable then | F f ( ξ ) | ≤ I ( f ) 1 + | 2 π ξ | k , where I ( f ) = ∫ − ∞ ∞ ( | f ( y ) | + | f ( k ) ( y ) | ) d y.
+
+{\displaystyle \vert {\mathcal {F}}f(\xi )\vert \leq {\frac {I(f)}{1+\vert 2\pi \xi \vert ^{k}}},{\text{ where }}I(f)=\int _{-\infty }^{\infty }{\Bigl (}\vert f(y)\vert +\vert f^{(k)}(y)\vert {\Bigr )}\,dy.
+
+} In other words, if f {\displaystyle f} satisfies these conditions then its Fourier transform decays at infinity at least as quickly as 1/| ξ | k.
+
+In particular, if k ≥ 2 {\displaystyle k\geq 2} then the Fourier transform is integrable.
+
+The proof uses the fact, which is immediate from the definition of the Fourier transform , that | F f ( ξ ) | ≤ ∫ − ∞ ∞ | f ( y ) | d y.
+
+{\displaystyle \vert {\mathcal {F}}f(\xi )\vert \leq \int _{-\infty }^{\infty }\vert f(y)\vert \,dy.
+
+} Using the same idea on the equality stated at the start of this subsection gives | ( 2 π i ξ ) k F f ( ξ ) | ≤ ∫ − ∞ ∞ | f ( k ) ( y ) | d y.
+
+{\displaystyle \vert (2\pi i\xi )^{k}{\mathcal {F}}f(\xi )\vert \leq \int _{-\infty }^{\infty }\vert f^{(k)}(y)\vert \,dy.
+
+} Summing these two inequalities and then dividing by 1 + |2 π ξ k | gives the stated inequality.
+
+Use in operator theory [ edit ] One use of integration by parts in operator theory is that it shows that the −∆ (where ∆ is the Laplace operator ) is a positive operator on L 2 {\displaystyle L^{2}} (see L p space ).
+
+If f {\displaystyle f} is smooth and compactly supported then, using integration by parts, we have ⟨ − Δ f , f ⟩ L 2 = − ∫ − ∞ ∞ f ″ ( x ) f ( x ) ¯ d x = − [ f ′ ( x ) f ( x ) ¯ ] − ∞ ∞ + ∫ − ∞ ∞ f ′ ( x ) f ′ ( x ) ¯ d x = ∫ − ∞ ∞ | f ′ ( x ) | 2 d x ≥ 0.
+
+{\displaystyle {\begin{aligned}\langle -\Delta f,f\rangle _{L^{2}}&=-\int _{-\infty }^{\infty }f''(x){\overline {f(x)}}\,dx\\[5pt]&=-\left[f'(x){\overline {f(x)}}\right]_{-\infty }^{\infty }+\int _{-\infty }^{\infty }f'(x){\overline {f'(x)}}\,dx\\[5pt]&=\int _{-\infty }^{\infty }\vert f'(x)\vert ^{2}\,dx\geq 0.
+
+\end{aligned}}} Other applications [ edit ] Determining boundary conditions in Sturm–Liouville theory Deriving the Euler–Lagrange equation in the calculus of variations Repeated integration by parts [ edit ] Considering a second derivative of v {\displaystyle v} in the integral on the LHS of the formula for partial integration suggests a repeated application to the integral on the RHS: ∫ u v ″ d x = u v ′ − ∫ u ′ v ′ d x = u v ′ − ( u ′ v − ∫ u ″ v d x ).
+
+{\displaystyle \int uv''\,dx=uv'-\int u'v'\,dx=uv'-\left(u'v-\int u''v\,dx\right).
+
+} Extending this concept of repeated partial integration to derivatives of degree n leads to ∫ u ( 0 ) v ( n ) d x = u ( 0 ) v ( n − 1 ) − u ( 1 ) v ( n − 2 ) + u ( 2 ) v ( n − 3 ) − ⋯ + ( − 1 ) n − 1 u ( n − 1 ) v ( 0 ) + ( − 1 ) n ∫ u ( n ) v ( 0 ) d x.
+
+= ∑ k = 0 n − 1 ( − 1 ) k u ( k ) v ( n − 1 − k ) + ( − 1 ) n ∫ u ( n ) v ( 0 ) d x.
+
+{\displaystyle {\begin{aligned}\int u^{(0)}v^{(n)}\,dx&=u^{(0)}v^{(n-1)}-u^{(1)}v^{(n-2)}+u^{(2)}v^{(n-3)}-\cdots +(-1)^{n-1}u^{(n-1)}v^{(0)}+(-1)^{n}\int u^{(n)}v^{(0)}\,dx.
+
+\\[5pt]&=\sum _{k=0}^{n-1}(-1)^{k}u^{(k)}v^{(n-1-k)}+(-1)^{n}\int u^{(n)}v^{(0)}\,dx.
+
+\end{aligned}}} This concept may be useful when the successive integrals of v ( n ) {\displaystyle v^{(n)}} are readily available (e.
+
+g.
+
+, plain exponentials or sine and cosine, as in Laplace or Fourier transforms ), and when the n th derivative of u {\displaystyle u} vanishes (e.
+
+g.
+
+, as a polynomial function with degree ( n − 1 ) {\displaystyle (n-1)} ).
+
+The latter condition stops the repeating of partial integration, because the RHS-integral vanishes.
+
+In the course of the above repetition of partial integrations the integrals ∫ u ( 0 ) v ( n ) d x {\displaystyle \int u^{(0)}v^{(n)}\,dx\quad } and ∫ u ( ℓ ) v ( n − ℓ ) d x {\displaystyle \quad \int u^{(\ell )}v^{(n-\ell )}\,dx\quad } and ∫ u ( m ) v ( n − m ) d x for 1 ≤ m , ℓ ≤ n {\displaystyle \quad \int u^{(m)}v^{(n-m)}\,dx\quad {\text{ for }}1\leq m,\ell \leq n} get related.
+
+This may be interpreted as arbitrarily "shifting" derivatives between v {\displaystyle v} and u {\displaystyle u} within the integrand, and proves useful, too (see Rodrigues' formula ).
+
+Tabular integration by parts [ edit ] The essential process of the above formula can be summarized in a table; the resulting method is called "tabular integration" [5] and was featured in the film Stand and Deliver (1988).
+
+[6] For example, consider the integral ∫ x 3 cos ⁡ x d x {\displaystyle \int x^{3}\cos x\,dx\quad } and take u ( 0 ) = x 3 , v ( n ) = cos ⁡ x.
+
+{\displaystyle \quad u^{(0)}=x^{3},\quad v^{(n)}=\cos x.
+
+} Begin to list in column A the function u ( 0 ) = x 3 {\displaystyle u^{(0)}=x^{3}} and its subsequent derivatives u ( i ) {\displaystyle u^{(i)}} until zero is reached.
+
+Then list in column B the function v ( n ) = cos ⁡ x {\displaystyle v^{(n)}=\cos x} and its subsequent integrals v ( n − i ) {\displaystyle v^{(n-i)}} until the size of column B is the same as that of column A.
+
+The result is as follows: # i Sign A: derivatives u ( i ) {\displaystyle u^{(i)}} B: integrals v ( n − i ) {\displaystyle v^{(n-i)}} 0 + x 3 {\displaystyle x^{3}} cos ⁡ x {\displaystyle \cos x} 1 − 3 x 2 {\displaystyle 3x^{2}} sin ⁡ x {\displaystyle \sin x} 2 + 6 x {\displaystyle 6x} − cos ⁡ x {\displaystyle -\cos x} 3 − 6 {\displaystyle 6} − sin ⁡ x {\displaystyle -\sin x} 4 + 0 {\displaystyle 0} cos ⁡ x {\displaystyle \cos x} The product of the entries in row i of columns A and B together with the respective sign give the relevant integrals in step i in the course of repeated integration by parts.
+
+Step i = 0 yields the original integral.
+
+For the complete result in step i > 0 the i th integral must be added to all the previous products ( 0 ≤ j < i ) of the j th entry of column A and the ( j + 1) st entry of column B (i.
+
+e.
+
+, multiply the 1st entry of column A with the 2nd entry of column B, the 2nd entry of column A with the 3rd entry of column B, etc.
+
+) with the given j th sign.
+
+This process comes to a natural halt, when the product, which yields the integral, is zero ( i = 4 in the example).
+
+The complete result is the following (with the alternating signs in each term): ( + 1 ) ( x 3 ) ( sin ⁡ x ) ⏟ j = 0 + ( − 1 ) ( 3 x 2 ) ( − cos ⁡ x ) ⏟ j = 1 + ( + 1 ) ( 6 x ) ( − sin ⁡ x ) ⏟ j = 2 + ( − 1 ) ( 6 ) ( cos ⁡ x ) ⏟ j = 3 + ∫ ( + 1 ) ( 0 ) ( cos ⁡ x ) d x ⏟ i = 4 : → C.
+
+{\displaystyle \underbrace {(+1)(x^{3})(\sin x)} _{j=0}+\underbrace {(-1)(3x^{2})(-\cos x)} _{j=1}+\underbrace {(+1)(6x)(-\sin x)} _{j=2}+\underbrace {(-1)(6)(\cos x)} _{j=3}+\underbrace {\int (+1)(0)(\cos x)\,dx} _{i=4:\;\to \;C}.
+
+} This yields ∫ x 3 cos ⁡ x d x ⏟ step 0 = x 3 sin ⁡ x + 3 x 2 cos ⁡ x − 6 x sin ⁡ x − 6 cos ⁡ x + C.
+
+{\displaystyle \underbrace {\int x^{3}\cos x\,dx} _{\text{step 0}}=x^{3}\sin x+3x^{2}\cos x-6x\sin x-6\cos x+C.
+
+} The repeated partial integration also turns out useful, when in the course of respectively differentiating and integrating the functions u ( i ) {\displaystyle u^{(i)}} and v ( n − i ) {\displaystyle v^{(n-i)}} their product results in a multiple of the original integrand.
+
+In this case the repetition may also be terminated with this index i.
+
+This can happen, expectably, with exponentials and trigonometric functions.
+
+As an example consider ∫ e x cos ⁡ x d x.
+
+{\displaystyle \int e^{x}\cos x\,dx.
+
+} # i Sign A: derivatives u ( i ) {\displaystyle u^{(i)}} B: integrals v ( n − i ) {\displaystyle v^{(n-i)}} 0 + e x {\displaystyle e^{x}} cos ⁡ x {\displaystyle \cos x} 1 − e x {\displaystyle e^{x}} sin ⁡ x {\displaystyle \sin x} 2 + e x {\displaystyle e^{x}} − cos ⁡ x {\displaystyle -\cos x} In this case the product of the terms in columns A and B with the appropriate sign for index i = 2 yields the negative of the original integrand (compare rows i = 0 and i = 2 ).
+
+∫ e x cos ⁡ x d x ⏟ step 0 = ( + 1 ) ( e x ) ( sin ⁡ x ) ⏟ j = 0 + ( − 1 ) ( e x ) ( − cos ⁡ x ) ⏟ j = 1 + ∫ ( + 1 ) ( e x ) ( − cos ⁡ x ) d x ⏟ i = 2.
+
+{\displaystyle \underbrace {\int e^{x}\cos x\,dx} _{\text{step 0}}=\underbrace {(+1)(e^{x})(\sin x)} _{j=0}+\underbrace {(-1)(e^{x})(-\cos x)} _{j=1}+\underbrace {\int (+1)(e^{x})(-\cos x)\,dx} _{i=2}.
+
+} Observing that the integral on the RHS can have its own constant of integration C ′ {\displaystyle C'} , and bringing the abstract integral to the other side, gives 2 ∫ e x cos ⁡ x d x = e x sin ⁡ x + e x cos ⁡ x + C ′ , {\displaystyle 2\int e^{x}\cos x\,dx=e^{x}\sin x+e^{x}\cos x+C',} and finally: ∫ e x cos ⁡ x d x = 1 2 ( e x ( sin ⁡ x + cos ⁡ x ) ) + C , {\displaystyle \int e^{x}\cos x\,dx={\frac {1}{2}}\left(e^{x}(\sin x+\cos x)\right)+C,} where C = C ′ / 2 {\displaystyle C=C'/2}.
+
+Higher dimensions [ edit ] Integration by parts can be extended to functions of several variables by applying a version of the fundamental theorem of calculus to an appropriate product rule.
+
+There are several such pairings possible in multivariate calculus, involving a scalar-valued function u and vector-valued function (vector field) V.
+
+[7] The product rule for divergence states: ∇ ⋅ ( u V ) = u ∇ ⋅ V + ∇ u ⋅ V.
+
+{\displaystyle \nabla \cdot (u\mathbf {V} )\ =\ u\,\nabla \cdot \mathbf {V} \ +\ \nabla u\cdot \mathbf {V}.
+
+} Suppose Ω {\displaystyle \Omega } is an open bounded subset of R n {\displaystyle \mathbb {R} ^{n}} with a piecewise smooth boundary Γ = ∂ Ω {\displaystyle \Gamma =\partial \Omega }.
+
+Integrating over Ω {\displaystyle \Omega } with respect to the standard volume form d Ω {\displaystyle d\Omega } , and applying the divergence theorem , gives: ∫ Γ u V ⋅ n ^ d Γ = ∫ Ω ∇ ⋅ ( u V ) d Ω = ∫ Ω u ∇ ⋅ V d Ω + ∫ Ω ∇ u ⋅ V d Ω , {\displaystyle \int _{\Gamma }u\mathbf {V} \cdot {\hat {\mathbf {n} }}\,d\Gamma \ =\ \int _{\Omega }\nabla \cdot (u\mathbf {V} )\,d\Omega \ =\ \int _{\Omega }u\,\nabla \cdot \mathbf {V} \,d\Omega \ +\ \int _{\Omega }\nabla u\cdot \mathbf {V} \,d\Omega ,} where n ^ {\displaystyle {\hat {\mathbf {n} }}} is the outward unit normal vector to the boundary, integrated with respect to its standard Riemannian volume form d Γ {\displaystyle d\Gamma }.
+
+Rearranging gives: ∫ Ω u ∇ ⋅ V d Ω = ∫ Γ u V ⋅ n ^ d Γ − ∫ Ω ∇ u ⋅ V d Ω , {\displaystyle \int _{\Omega }u\,\nabla \cdot \mathbf {V} \,d\Omega \ =\ \int _{\Gamma }u\mathbf {V} \cdot {\hat {\mathbf {n} }}\,d\Gamma -\int _{\Omega }\nabla u\cdot \mathbf {V} \,d\Omega ,} or in other words ∫ Ω u div ⁡ ( V ) d Ω = ∫ Γ u V ⋅ n ^ d Γ − ∫ Ω grad ⁡ ( u ) ⋅ V d Ω.
+
+{\displaystyle \int _{\Omega }u\,\operatorname {div} (\mathbf {V} )\,d\Omega \ =\ \int _{\Gamma }u\mathbf {V} \cdot {\hat {\mathbf {n} }}\,d\Gamma -\int _{\Omega }\operatorname {grad} (u)\cdot \mathbf {V} \,d\Omega.
+
+} The regularity requirements of the theorem can be relaxed.
+
+For instance, the boundary Γ = ∂ Ω {\displaystyle \Gamma =\partial \Omega } need only be Lipschitz continuous , and the functions u , v need only lie in the Sobolev space H 1 ( Ω ) {\displaystyle H^{1}(\Omega )}.
+
+Green's first identity [ edit ] Consider the continuously differentiable vector fields U = u 1 e 1 + ⋯ + u n e n {\displaystyle \mathbf {U} =u_{1}\mathbf {e} _{1}+\cdots +u_{n}\mathbf {e} _{n}} and v e 1 , … , v e n {\displaystyle v\mathbf {e} _{1},\ldots ,v\mathbf {e} _{n}} , where e i {\displaystyle \mathbf {e} _{i}} is the i -th standard basis vector for i = 1 , … , n {\displaystyle i=1,\ldots ,n}.
+
+Now apply the above integration by parts to each u i {\displaystyle u_{i}} times the vector field v e i {\displaystyle v\mathbf {e} _{i}} : ∫ Ω u i ∂ v ∂ x i d Ω = ∫ Γ u i v e i ⋅ n ^ d Γ − ∫ Ω ∂ u i ∂ x i v d Ω.
+
+{\displaystyle \int _{\Omega }u_{i}{\frac {\partial v}{\partial x_{i}}}\,d\Omega \ =\ \int _{\Gamma }u_{i}v\,\mathbf {e} _{i}\cdot {\hat {\mathbf {n} }}\,d\Gamma -\int _{\Omega }{\frac {\partial u_{i}}{\partial x_{i}}}v\,d\Omega.
+
+} Summing over i gives a new integration by parts formula: ∫ Ω U ⋅ ∇ v d Ω = ∫ Γ v U ⋅ n ^ d Γ − ∫ Ω v ∇ ⋅ U d Ω.
+
+{\displaystyle \int _{\Omega }\mathbf {U} \cdot \nabla v\,d\Omega \ =\ \int _{\Gamma }v\mathbf {U} \cdot {\hat {\mathbf {n} }}\,d\Gamma -\int _{\Omega }v\,\nabla \cdot \mathbf {U} \,d\Omega.
+
+} The case U = ∇ u {\displaystyle \mathbf {U} =\nabla u} , where u ∈ C 2 ( Ω ¯ ) {\displaystyle u\in C^{2}({\bar {\Omega }})} , is known as the first of Green's identities : ∫ Ω ∇ u ⋅ ∇ v d Ω = ∫ Γ v ∇ u ⋅ n ^ d Γ − ∫ Ω v ∇ 2 u d Ω.
+
+{\displaystyle \int _{\Omega }\nabla u\cdot \nabla v\,d\Omega \ =\ \int _{\Gamma }v\,\nabla u\cdot {\hat {\mathbf {n} }}\,d\Gamma -\int _{\Omega }v\,\nabla ^{2}u\,d\Omega.
+
+} See also [ edit ] Integration by parts for the Lebesgue–Stieltjes integral Integration by parts for semimartingales , involving their quadratic covariation.
+
+Integration by substitution Legendre transformation Notes [ edit ] ^ "Brook Taylor".
+
+History.
+
+MCS.
+
+St-Andrews.
+
+ac.
+
+uk.
+
+Retrieved May 25, 2018.
+
+^ "Brook Taylor".
+
+Stetson.
+
+edu.
+
+Archived from the original on January 3, 2018.
+
+Retrieved May 25, 2018.
+
+^ "Integration by parts".
+
+Encyclopedia of Mathematics.
+
+^ Kasube, Herbert E.
+
+(1983).
+
+"A Technique for Integration by Parts".
+
+The American Mathematical Monthly.
+
+90 (3): 210–211.
+
+doi : 10.
+
+2307/2975556.
+
+JSTOR 2975556.
+
+^ Thomas, G.
+
+B.
+
+; Finney, R.
+
+L.
+
+(1988).
+
+Calculus and Analytic Geometry (7th ed.
+
+).
+
+Reading, MA: Addison-Wesley.
+
+ISBN 0-201-17069-8.
+
+^ Horowitz, David (1990).
+
+"Tabular Integration by Parts" (PDF).
+
+The College Mathematics Journal.
+
+21 (4): 307–311.
+
+doi : 10.
+
+2307/2686368.
+
+JSTOR 2686368.
+
+^ Rogers, Robert C.
+
+(September 29, 2011).
+
+"The Calculus of Several Variables" (PDF).
+
+Further reading [ edit ] Louis Brand (10 October 2013).
+
+Advanced Calculus: An Introduction to Classical Analysis.
+
+Courier Corporation.
+
+pp.
+
+267–.
+
+ISBN 978-0-486-15799-3.
+
+Hoffmann, Laurence D.
+
+; Bradley, Gerald L.
+
+(2004).
+
+Calculus for Business, Economics, and the Social and Life Sciences (8th ed.
+
+).
+
+pp.
+
+450–464.
+
+ISBN 0-07-242432-X.
+
+Willard, Stephen (1976).
+
+Calculus and its Applications.
+
+Boston: Prindle, Weber & Schmidt.
+
+pp.
+
+193–214.
+
+ISBN 0-87150-203-8.
+
+Washington, Allyn J.
+
+(1966).
+
+Technical Calculus with Analytic Geometry.
+
+Reading: Addison-Wesley.
+
+pp.
+
+218–245.
+
+ISBN 0-8465-8603-7.
+
+External links [ edit ] The Wikibook Calculus has a page on the topic of: Integration by parts "Integration by parts" , Encyclopedia of Mathematics , EMS Press , 2001 [1994] Integration by parts—from MathWorld v t e Calculus Precalculus Binomial theorem Concave function Continuous function Factorial Finite difference Free variables and bound variables Graph of a function Linear function Radian Rolle's theorem Secant Slope Tangent Limits Indeterminate form Limit of a function One-sided limit Limit of a sequence Order of approximation (ε, δ)-definition of limit Differential calculus Derivative Second derivative Partial derivative Differential Differential operator Mean value theorem Notation Leibniz's notation Newton's notation Rules of differentiation linearity Power Sum Chain L'Hôpital's Product General Leibniz's rule Quotient Other techniques Implicit differentiation Inverse functions and differentiation Logarithmic derivative Related rates Stationary points First derivative test Second derivative test Extreme value theorem Maximum and minimum Further applications Newton's method Taylor's theorem Differential equation Ordinary differential equation Partial differential equation Stochastic differential equation Integral calculus Antiderivative Arc length Riemann integral Basic properties Constant of integration Fundamental theorem of calculus Differentiating under the integral sign Integration by parts Integration by substitution trigonometric Euler Tangent half-angle substitution Partial fractions in integration Quadratic integral Trapezoidal rule Volumes Washer method Shell method Integral equation Integro-differential equation Vector calculus Derivatives Curl Directional derivative Divergence Gradient Laplacian Basic theorems Line integrals Green's Stokes' Gauss' Multivariable calculus Divergence theorem Geometric Hessian matrix Jacobian matrix and determinant Lagrange multiplier Line integral Matrix Multiple integral Partial derivative Surface integral Volume integral Advanced topics Differential forms Exterior derivative Generalized Stokes' theorem Tensor calculus Sequences and series Arithmetico-geometric sequence Types of series Alternating Binomial Fourier Geometric Harmonic Infinite Power Maclaurin Taylor Telescoping Tests of convergence Abel's Alternating series Cauchy condensation Direct comparison Dirichlet's Integral Limit comparison Ratio Root Term Special functions and numbers Bernoulli numbers e (mathematical constant) Exponential function Natural logarithm Stirling's approximation History of calculus Adequality Brook Taylor Colin Maclaurin Generality of algebra Gottfried Wilhelm Leibniz Infinitesimal Infinitesimal calculus Isaac Newton Fluxion Law of Continuity Leonhard Euler Method of Fluxions The Method of Mechanical Theorems Lists Integrals rational functions irrational functions exponential functions logarithmic functions hyperbolic functions inverse trigonometric functions inverse Secant Secant cubed List of limits List of derivatives Miscellaneous topics Complex calculus Contour integral Differential geometry Manifold Curvature of curves of surfaces Tensor Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Regiomontanus' angle maximization problem Steinmetz solid v t e Integrals Types of integrals Riemann integral Lebesgue integral Burkill integral Bochner integral Daniell integral Darboux integral Henstock–Kurzweil integral Haar integral Hellinger integral Khinchin integral Kolmogorov integral Lebesgue–Stieltjes integral Pettis integral Pfeffer integral Riemann–Stieltjes integral Regulated integral Integration techniques Substitution Trigonometric Euler Weierstrass By parts Partial fractions Euler's formula Inverse functions Changing order Reduction formulas Parametric derivatives Differentiation under the integral sign Laplace transform Contour integration Laplace's method Numerical integration Simpson's rule Trapezoidal rule Risch algorithm Improper integrals Gaussian integral Dirichlet integral Fermi–Dirac integral complete incomplete Bose–Einstein integral Frullani integral Common integrals in quantum field theory Stochastic integrals Itô integral Russo–Vallois integral Stratonovich integral Skorokhod integral Miscellaneous Basel problem Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Volumes Washers Shells Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Integration_by_parts&oldid=1234035123 " Categories : Integral calculus Mathematical identities Theorems in analysis Theorems in calculus Hidden categories: Articles with short description Short description is different from Wikidata Pages using sidebar with the child parameter All articles with unsourced statements Articles with unsourced statements from August 2019 Pages that use a deprecated format of the math tags This page was last edited on 12 July 2024, at 07:13 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

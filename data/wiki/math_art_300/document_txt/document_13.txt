@@ -1,0 +1,297 @@
+Power rule - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Statement of the power rule 2 Proofs Toggle Proofs subsection 2.
+
+1 Proof for real exponents 2.
+
+2 Proofs for integer exponents 2.
+
+2.
+
+1 Proof by induction (natural numbers) 2.
+
+2.
+
+2 Proof by binomial theorem (natural number) 2.
+
+2.
+
+3 Generalization to negative integer exponents 2.
+
+3 Generalization to rational exponents 2.
+
+3.
+
+1 Proof by chain rule 2.
+
+3.
+
+2 Proof by implicit differentiation 3 History 4 Generalizations Toggle Generalizations subsection 4.
+
+1 Complex power functions 5 See also 6 References Toggle References subsection 6.
+
+1 Notes 6.
+
+2 Citations 7 Further reading Toggle the table of contents Power rule 13 languages العربية Català Čeština Deutsch Español 한국어 हिन्दी Bahasa Indonesia Italiano Português Tagalog தமிழ் ไทย Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Method of differentiating single term polynomials Part of a series of articles about Calculus ∫ a b f ′ ( t ) d t = f ( b ) − f ( a ) {\displaystyle \int _{a}^{b}f'(t)\,dt=f(b)-f(a)} Fundamental theorem Limits Continuity Rolle's theorem Mean value theorem Inverse function theorem Differential Definitions Derivative ( generalizations ) Differential infinitesimal of a function total Concepts Differentiation notation Second derivative Implicit differentiation Logarithmic differentiation Related rates Taylor's theorem Rules and identities Sum Product Chain Power Quotient L'Hôpital's rule Inverse General Leibniz Faà di Bruno's formula Reynolds Integral Lists of integrals Integral transform Leibniz integral rule Definitions Antiderivative Integral ( improper ) Riemann integral Lebesgue integration Contour integration Integral of inverse functions Integration by Parts Discs Cylindrical shells Substitution ( trigonometric , tangent half-angle , Euler ) Euler's formula Partial fractions Changing order Reduction formulae Differentiating under the integral sign Risch algorithm Series Geometric ( arithmetico-geometric ) Harmonic Alternating Power Binomial Taylor Convergence tests Summand limit (term test) Ratio Root Integral Direct comparison Limit comparison Alternating series Cauchy condensation Dirichlet Abel Vector Gradient Divergence Curl Laplacian Directional derivative Identities Theorems Gradient Green's Stokes' Divergence generalized Stokes Helmholtz decomposition Multivariable Formalisms Matrix Tensor Exterior Geometric Definitions Partial derivative Multiple integral Line integral Surface integral Volume integral Jacobian Hessian Advanced Calculus on Euclidean space Generalized functions Limit of distributions Specialized Fractional Malliavin Stochastic Variations Miscellaneous Precalculus History Glossary List of topics Integration Bee Mathematical analysis Nonstandard analysis v t e In calculus , the power rule is used to differentiate functions of the form f ( x ) = x r {\displaystyle f(x)=x^{r}} , whenever r {\displaystyle r} is a real number.
+
+Since differentiation is a linear operation on the space of differentiable functions, polynomials can also be differentiated using this rule.
+
+The power rule underlies the Taylor series as it relates a power series with a function's derivatives.
+
+Statement of the power rule [ edit ] Let f {\displaystyle f} be a function satisfying f ( x ) = x r {\displaystyle f(x)=x^{r}} for all x {\displaystyle x} , where r ∈ R {\displaystyle r\in \mathbb {R} }.
+
+[a] Then, f ′ ( x ) = r x r − 1.
+
+{\displaystyle f'(x)=rx^{r-1}\,.
+
+} The power rule for integration states that ∫ x r d x = x r + 1 r + 1 + C {\displaystyle \int \!x^{r}\,dx={\frac {x^{r+1}}{r+1}}+C} for any real number r ≠ − 1 {\displaystyle r\neq -1}.
+
+It can be derived by inverting the power rule for differentiation.
+
+In this equation C is any constant.
+
+Proofs [ edit ] Proof for real exponents [ edit ] To start, we should choose a working definition of the value of f ( x ) = x r {\displaystyle f(x)=x^{r}} , where r {\displaystyle r} is any real number.
+
+Although it is feasible to define the value as the limit of a sequence of rational powers that approach the irrational power whenever we encounter such a power, or as the least upper bound of a set of rational powers less than the given power, this type of definition is not amenable to differentiation.
+
+It is therefore preferable to use a functional definition, which is usually taken to be x r = exp ⁡ ( r ln ⁡ x ) {\displaystyle x^{r}=\exp(r\ln x)} for all values of x > 0 {\displaystyle x>0} , where exp ⁡ ( x ) = e x {\displaystyle \exp(x)=e^{x}} is the natural exponential function and e {\displaystyle e} is Euler's number.
+
+[1] [2] First, we may demonstrate that the derivative of f ( x ) = e x {\displaystyle f(x)=e^{x}} is f ′ ( x ) = e x {\displaystyle f'(x)=e^{x}}.
+
+If f ( x ) = e x {\displaystyle f(x)=e^{x}} , then ln ⁡ ( f ( x ) ) = x {\displaystyle \ln(f(x))=x} , where ln {\displaystyle \ln } is the natural logarithm function, the inverse function of the exponential function, as demonstrated by Euler.
+
+[3] Since the latter two functions are equal for all values of x > 0 {\displaystyle x>0} , their derivatives are also equal, whenever either derivative exists, so we have, by the chain rule , 1 f ( x ) ⋅ f ′ ( x ) = 1 {\displaystyle {\frac {1}{f(x)}}\cdot f'(x)=1} or f ′ ( x ) = f ( x ) = e x {\displaystyle f'(x)=f(x)=e^{x}} , as was required.
+
+Therefore, applying the chain rule to f ( x ) = e r ln ⁡ x {\displaystyle f(x)=e^{r\ln x}} , we see that f ′ ( x ) = r x e r ln ⁡ x = r x x r {\displaystyle f'(x)={\frac {r}{x}}e^{r\ln x}={\frac {r}{x}}x^{r}} which simplifies to r x r − 1 {\displaystyle rx^{r-1}}.
+
+When x < 0 {\displaystyle x<0} , we may use the same definition with x r = ( ( − 1 ) ( − x ) ) r = ( − 1 ) r ( − x ) r {\displaystyle x^{r}=((-1)(-x))^{r}=(-1)^{r}(-x)^{r}} , where we now have − x > 0 {\displaystyle -x>0}.
+
+This necessarily leads to the same result.
+
+Note that because ( − 1 ) r {\displaystyle (-1)^{r}} does not have a conventional definition when r {\displaystyle r} is not a rational number, irrational power functions are not well defined for negative bases.
+
+In addition, as rational powers of −1 with even denominators (in lowest terms) are not real numbers, these expressions are only real valued for rational powers with odd denominators (in lowest terms).
+
+Finally, whenever the function is differentiable at x = 0 {\displaystyle x=0} , the defining limit for the derivative is: lim h → 0 h r − 0 r h {\displaystyle \lim _{h\to 0}{\frac {h^{r}-0^{r}}{h}}} which yields 0 only when r {\displaystyle r} is a rational number with odd denominator (in lowest terms) and r > 1 {\displaystyle r>1} , and 1 when r = 1 {\displaystyle r=1}.
+
+For all other values of r {\displaystyle r} , the expression h r {\displaystyle h^{r}} is not well-defined for h < 0 {\displaystyle h<0} , as was covered above, or is not a real number, so the limit does not exist as a real-valued derivative.
+
+For the two cases that do exist, the values agree with the value of the existing power rule at 0, so no exception need be made.
+
+The exclusion of the expression 0 0 {\displaystyle 0^{0}} (the case x = 0 {\displaystyle x=0} ) from our scheme of exponentiation is due to the fact that the function f ( x , y ) = x y {\displaystyle f(x,y)=x^{y}} has no limit at (0,0), since x 0 {\displaystyle x^{0}} approaches 1 as x approaches 0, while 0 y {\displaystyle 0^{y}} approaches 0 as y approaches 0.
+
+Thus, it would be problematic to ascribe any particular value to it, as the value would contradict one of the two cases, dependent on the application.
+
+It is traditionally left undefined.
+
+Proofs for integer exponents [ edit ] Proof by induction (natural numbers) [ edit ] Let n ∈ N {\displaystyle n\in \mathbb {N} }.
+
+It is required to prove that d d x x n = n x n − 1.
+
+{\displaystyle {\frac {d}{dx}}x^{n}=nx^{n-1}.
+
+} The base case may be when n = 0 {\displaystyle n=0} or n = 1 {\displaystyle n=1} , depending on how the set of natural numbers is defined.
+
+When n = 0 {\displaystyle n=0} , d d x x 0 = d d x ( 1 ) = lim h → 0 1 − 1 h = lim h → 0 0 h = 0 = 0 x 0 − 1.
+
+{\displaystyle {\frac {d}{dx}}x^{0}={\frac {d}{dx}}(1)=\lim _{h\to 0}{\frac {1-1}{h}}=\lim _{h\to 0}{\frac {0}{h}}=0=0x^{0-1}.
+
+} When n = 1 {\displaystyle n=1} , d d x x 1 = lim h → 0 ( x + h ) − x h = lim h → 0 h h = 1 = 1 x 1 − 1.
+
+{\displaystyle {\frac {d}{dx}}x^{1}=\lim _{h\to 0}{\frac {(x+h)-x}{h}}=\lim _{h\to 0}{\frac {h}{h}}=1=1x^{1-1}.
+
+} Therefore, the base case holds either way.
+
+Suppose the statement holds for some natural number k , i.
+
+e.
+
+d d x x k = k x k − 1.
+
+{\displaystyle {\frac {d}{dx}}x^{k}=kx^{k-1}.
+
+} When n = k + 1 {\displaystyle n=k+1} , d d x x k + 1 = d d x ( x k ⋅ x ) = x k ⋅ d d x x + x ⋅ d d x x k = x k + x ⋅ k x k − 1 = x k + k x k = ( k + 1 ) x k = ( k + 1 ) x ( k + 1 ) − 1 {\displaystyle {\frac {d}{dx}}x^{k+1}={\frac {d}{dx}}(x^{k}\cdot x)=x^{k}\cdot {\frac {d}{dx}}x+x\cdot {\frac {d}{dx}}x^{k}=x^{k}+x\cdot kx^{k-1}=x^{k}+kx^{k}=(k+1)x^{k}=(k+1)x^{(k+1)-1}} By the principle of mathematical induction, the statement is true for all natural numbers n.
+
+Proof by binomial theorem (natural number) [ edit ] Let y = x n {\displaystyle y=x^{n}} , where n ∈ N {\displaystyle n\in \mathbb {N} }.
+
+Then, d y d x = lim h → 0 ( x + h ) n − x n h = lim h → 0 1 h [ x n + ( n 1 ) x n − 1 h + ( n 2 ) x n − 2 h 2 + ⋯ + ( n n ) h n − x n ] = lim h → 0 [ ( n 1 ) x n − 1 + ( n 2 ) x n − 2 h + ⋯ + ( n n ) h n − 1 ] = n x n − 1 {\displaystyle {\begin{aligned}{\frac {dy}{dx}}&=\lim _{h\to 0}{\frac {(x+h)^{n}-x^{n}}{h}}\\[4pt]&=\lim _{h\to 0}{\frac {1}{h}}\left[x^{n}+{\binom {n}{1}}x^{n-1}h+{\binom {n}{2}}x^{n-2}h^{2}+\dots +{\binom {n}{n}}h^{n}-x^{n}\right]\\[4pt]&=\lim _{h\to 0}\left[{\binom {n}{1}}x^{n-1}+{\binom {n}{2}}x^{n-2}h+\dots +{\binom {n}{n}}h^{n-1}\right]\\[4pt]&=nx^{n-1}\end{aligned}}} Generalization to negative integer exponents [ edit ] For a negative integer n , let n = − m {\displaystyle n=-m} so that m is a positive integer.
+
+Using the reciprocal rule , d d x x n = d d x ( 1 x m ) = − d d x x m ( x m ) 2 = − m x m − 1 x 2 m = − m x − m − 1 = n x n − 1.
+
+{\displaystyle {\frac {d}{dx}}x^{n}={\frac {d}{dx}}\left({\frac {1}{x^{m}}}\right)={\frac {-{\frac {d}{dx}}x^{m}}{(x^{m})^{2}}}=-{\frac {mx^{m-1}}{x^{2m}}}=-mx^{-m-1}=nx^{n-1}.
+
+} In conclusion, for any integer n {\displaystyle n} , d d x x n = n x n − 1.
+
+{\displaystyle {\frac {d}{dx}}x^{n}=nx^{n-1}.
+
+} Generalization to rational exponents [ edit ] Upon proving that the power rule holds for integer exponents, the rule can be extended to rational exponents.
+
+Proof by chain rule [ edit ] This proof is composed of two steps that involve the use of the chain rule for differentiation.
+
+Let y = x r = x 1 n {\displaystyle y=x^{r}=x^{\frac {1}{n}}} , where n ∈ N + {\displaystyle n\in \mathbb {N} ^{+}}.
+
+Then y n = x {\displaystyle y^{n}=x}.
+
+By the chain rule , n y n − 1 ⋅ d y d x = 1 {\displaystyle ny^{n-1}\cdot {\frac {dy}{dx}}=1}.
+
+Solving for d y d x {\displaystyle {\frac {dy}{dx}}} , d y d x = 1 n y n − 1 = 1 n ( x 1 n ) n − 1 = 1 n x 1 − 1 n = 1 n x 1 n − 1 = r x r − 1 {\displaystyle {\frac {dy}{dx}}={\frac {1}{ny^{n-1}}}={\frac {1}{n\left(x^{\frac {1}{n}}\right)^{n-1}}}={\frac {1}{nx^{1-{\frac {1}{n}}}}}={\frac {1}{n}}x^{{\frac {1}{n}}-1}=rx^{r-1}} Thus, the power rule applies for rational exponents of the form 1 / n {\displaystyle 1/n} , where n {\displaystyle n} is a nonzero natural number.
+
+This can be generalized to rational exponents of the form p / q {\displaystyle p/q} by applying the power rule for integer exponents using the chain rule, as shown in the next step.
+
+Let y = x r = x p / q {\displaystyle y=x^{r}=x^{p/q}} , where p ∈ Z , q ∈ N + , {\displaystyle p\in \mathbb {Z} ,q\in \mathbb {N} ^{+},} so that r ∈ Q {\displaystyle r\in \mathbb {Q} }.
+
+By the chain rule , d y d x = d d x ( x 1 q ) p = p ( x 1 q ) p − 1 ⋅ 1 q x 1 q − 1 = p q x p / q − 1 = r x r − 1 {\displaystyle {\frac {dy}{dx}}={\frac {d}{dx}}\left(x^{\frac {1}{q}}\right)^{p}=p\left(x^{\frac {1}{q}}\right)^{p-1}\cdot {\frac {1}{q}}x^{{\frac {1}{q}}-1}={\frac {p}{q}}x^{p/q-1}=rx^{r-1}} From the above results, we can conclude that when r {\displaystyle r} is a rational number , d d x x r = r x r − 1.
+
+{\displaystyle {\frac {d}{dx}}x^{r}=rx^{r-1}.
+
+} Proof by implicit differentiation [ edit ] A more straightforward generalization of the power rule to rational exponents makes use of implicit differentiation.
+
+Let y = x r = x p / q {\displaystyle y=x^{r}=x^{p/q}} , where p , q ∈ Z {\displaystyle p,q\in \mathbb {Z} } so that r ∈ Q {\displaystyle r\in \mathbb {Q} }.
+
+Then, y q = x p {\displaystyle y^{q}=x^{p}} Differentiating both sides of the equation with respect to x {\displaystyle x} , q y q − 1 ⋅ d y d x = p x p − 1 {\displaystyle qy^{q-1}\cdot {\frac {dy}{dx}}=px^{p-1}} Solving for d y d x {\displaystyle {\frac {dy}{dx}}} , d y d x = p x p − 1 q y q − 1.
+
+{\displaystyle {\frac {dy}{dx}}={\frac {px^{p-1}}{qy^{q-1}}}.
+
+} Since y = x p / q {\displaystyle y=x^{p/q}} , d d x x p / q = p x p − 1 q x p − p / q.
+
+{\displaystyle {\frac {d}{dx}}x^{p/q}={\frac {px^{p-1}}{qx^{p-p/q}}}.
+
+} Applying laws of exponents, d d x x p / q = p q x p − 1 x − p + p / q = p q x p / q − 1.
+
+{\displaystyle {\frac {d}{dx}}x^{p/q}={\frac {p}{q}}x^{p-1}x^{-p+p/q}={\frac {p}{q}}x^{p/q-1}.
+
+} Thus, letting r = p q {\displaystyle r={\frac {p}{q}}} , we can conclude that d d x x r = r x r − 1 {\displaystyle {\frac {d}{dx}}x^{r}=rx^{r-1}} when r {\displaystyle r} is a rational number.
+
+History [ edit ] The power rule for integrals was first demonstrated in a geometric form by Italian mathematician Bonaventura Cavalieri in the early 17th century for all positive integer values of n {\displaystyle {\displaystyle n}} , and during the mid 17th century for all rational powers by the mathematicians Pierre de Fermat , Evangelista Torricelli , Gilles de Roberval , John Wallis , and Blaise Pascal , each working independently.
+
+At the time, they were treatises on determining the area between the graph of a rational power function and the horizontal axis.
+
+With hindsight, however, it is considered the first general theorem of calculus to be discovered.
+
+[4] The power rule for differentiation was derived by Isaac Newton and Gottfried Wilhelm Leibniz , each independently, for rational power functions in the mid 17th century, who both then used it to derive the power rule for integrals as the inverse operation.
+
+This mirrors the conventional way the related theorems are presented in modern basic calculus textbooks, where differentiation rules usually precede integration rules.
+
+[5] Although both men stated that their rules, demonstrated only for rational quantities, worked for all real powers, neither sought a proof of such, as at the time the applications of the theory were not concerned with such exotic power functions, and questions of convergence of infinite series were still ambiguous.
+
+The unique case of r = − 1 {\displaystyle r=-1} was resolved by Flemish Jesuit and mathematician Grégoire de Saint-Vincent and his student Alphonse Antonio de Sarasa in the mid 17th century, who demonstrated that the associated definite integral, ∫ 1 x 1 t d t {\displaystyle \int _{1}^{x}{\frac {1}{t}}\,dt} representing the area between the rectangular hyperbola x y = 1 {\displaystyle xy=1} and the x-axis, was a logarithmic function, whose base was eventually discovered to be the transcendental number e.
+
+The modern notation for the value of this definite integral is ln ⁡ ( x ) {\displaystyle \ln(x)} , the natural logarithm.
+
+Generalizations [ edit ] Complex power functions [ edit ] If we consider functions of the form f ( z ) = z c {\displaystyle f(z)=z^{c}} where c {\displaystyle c} is any complex number and z {\displaystyle z} is a complex number in a slit complex plane that excludes the branch point of 0 and any branch cut connected to it, and we use the conventional multivalued definition z c := exp ⁡ ( c ln ⁡ z ) {\displaystyle z^{c}:=\exp(c\ln z)} , then it is straightforward to show that, on each branch of the complex logarithm, the same argument used above yields a similar result: f ′ ( z ) = c z exp ⁡ ( c ln ⁡ z ) {\displaystyle f'(z)={\frac {c}{z}}\exp(c\ln z)}.
+
+[6] In addition, if c {\displaystyle c} is a positive integer, then there is no need for a branch cut: one may define f ( 0 ) = 0 {\displaystyle f(0)=0} , or define positive integral complex powers through complex multiplication, and show that f ′ ( z ) = c z c − 1 {\displaystyle f'(z)=cz^{c-1}} for all complex z {\displaystyle z} , from the definition of the derivative and the binomial theorem.
+
+However, due to the multivalued nature of complex power functions for non-integer exponents, one must be careful to specify the branch of the complex logarithm being used.
+
+In addition, no matter which branch is used, if c {\displaystyle c} is not a positive integer, then the function is not differentiable at 0.
+
+See also [ edit ] Differentiation rules General Leibniz rule Inverse functions and differentiation Linearity of differentiation Product rule Quotient rule Table of derivatives Vector calculus identities References [ edit ] Notes [ edit ] ^ If r {\displaystyle r} is a rational number whose lowest terms representation has an odd denominator, then the domain of f {\displaystyle f} is understood to be R {\displaystyle \mathbb {R} }.
+
+Otherwise, the domain is ( 0 , ∞ ) {\displaystyle (0,\infty )}.
+
+Citations [ edit ] ^ Landau, Edmund (1951).
+
+Differential and Integral Calculus.
+
+New York: Chelsea Publishing Company.
+
+p.
+
+45.
+
+ISBN 978-0821828304.
+
+^ Spivak, Michael (1994).
+
+Calculus (3 ed.
+
+).
+
+Texas: Publish or Perish, Inc.
+
+pp.
+
+336–342.
+
+ISBN 0-914098-89-6.
+
+^ Maor, Eli (1994).
+
+e: The Story of a Number.
+
+New Jersey: Princeton University Press.
+
+p.
+
+156.
+
+ISBN 0-691-05854-7.
+
+^ Boyer, Carl (1959).
+
+The History of the Calculus and its Conceptual Development.
+
+New York: Dover.
+
+p.
+
+127.
+
+ISBN 0-486-60509-4.
+
+^ Boyer, Carl (1959).
+
+The History of the Calculus and its Conceptual Development.
+
+New York: Dover.
+
+pp.
+
+191, 205.
+
+ISBN 0-486-60509-4.
+
+^ Freitag, Eberhard; Busam, Rolf (2009).
+
+Complex Analysis (2 ed.
+
+).
+
+Heidelberg: Springer-Verlag.
+
+p.
+
+46.
+
+ISBN 978-3-540-93982-5.
+
+Further reading [ edit ] Larson, Ron; Hostetler, Robert P.
+
+; and Edwards, Bruce H.
+
+(2003).
+
+Calculus of a Single Variable: Early Transcendental Functions (3rd edition).
+
+Houghton Mifflin Company.
+
+ISBN 0-618-22307-X.
+
+v t e Calculus Precalculus Binomial theorem Concave function Continuous function Factorial Finite difference Free variables and bound variables Graph of a function Linear function Radian Rolle's theorem Secant Slope Tangent Limits Indeterminate form Limit of a function One-sided limit Limit of a sequence Order of approximation (ε, δ)-definition of limit Differential calculus Derivative Second derivative Partial derivative Differential Differential operator Mean value theorem Notation Leibniz's notation Newton's notation Rules of differentiation linearity Power Sum Chain L'Hôpital's Product General Leibniz's rule Quotient Other techniques Implicit differentiation Inverse functions and differentiation Logarithmic derivative Related rates Stationary points First derivative test Second derivative test Extreme value theorem Maximum and minimum Further applications Newton's method Taylor's theorem Differential equation Ordinary differential equation Partial differential equation Stochastic differential equation Integral calculus Antiderivative Arc length Riemann integral Basic properties Constant of integration Fundamental theorem of calculus Differentiating under the integral sign Integration by parts Integration by substitution trigonometric Euler Tangent half-angle substitution Partial fractions in integration Quadratic integral Trapezoidal rule Volumes Washer method Shell method Integral equation Integro-differential equation Vector calculus Derivatives Curl Directional derivative Divergence Gradient Laplacian Basic theorems Line integrals Green's Stokes' Gauss' Multivariable calculus Divergence theorem Geometric Hessian matrix Jacobian matrix and determinant Lagrange multiplier Line integral Matrix Multiple integral Partial derivative Surface integral Volume integral Advanced topics Differential forms Exterior derivative Generalized Stokes' theorem Tensor calculus Sequences and series Arithmetico-geometric sequence Types of series Alternating Binomial Fourier Geometric Harmonic Infinite Power Maclaurin Taylor Telescoping Tests of convergence Abel's Alternating series Cauchy condensation Direct comparison Dirichlet's Integral Limit comparison Ratio Root Term Special functions and numbers Bernoulli numbers e (mathematical constant) Exponential function Natural logarithm Stirling's approximation History of calculus Adequality Brook Taylor Colin Maclaurin Generality of algebra Gottfried Wilhelm Leibniz Infinitesimal Infinitesimal calculus Isaac Newton Fluxion Law of Continuity Leonhard Euler Method of Fluxions The Method of Mechanical Theorems Lists Integrals rational functions irrational functions exponential functions logarithmic functions hyperbolic functions inverse trigonometric functions inverse Secant Secant cubed List of limits List of derivatives Miscellaneous topics Complex calculus Contour integral Differential geometry Manifold Curvature of curves of surfaces Tensor Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Regiomontanus' angle maximization problem Steinmetz solid Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Power_rule&oldid=1191990605 " Categories : Differentiation rules Mathematical identities Theorems in analysis Theorems in calculus Hidden categories: Articles with short description Short description matches Wikidata Pages using sidebar with the child parameter Articles containing proofs This page was last edited on 27 December 2023, at 00:35 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

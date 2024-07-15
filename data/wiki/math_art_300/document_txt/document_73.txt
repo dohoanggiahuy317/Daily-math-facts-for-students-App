@@ -1,0 +1,311 @@
+Differentiation rules - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Elementary rules of differentiation Toggle Elementary rules of differentiation subsection 1.
+
+1 Constant term rule 1.
+
+1.
+
+1 Proof 1.
+
+1.
+
+2 Intuitive (geometric) explanation 1.
+
+2 Differentiation is linear 1.
+
+3 The product rule 1.
+
+4 The chain rule 1.
+
+5 The inverse function rule 2 Power laws, polynomials, quotients, and reciprocals Toggle Power laws, polynomials, quotients, and reciprocals subsection 2.
+
+1 The polynomial or elementary power rule 2.
+
+2 The reciprocal rule 2.
+
+3 The quotient rule 2.
+
+4 Generalized power rule 3 Derivatives of exponential and logarithmic functions Toggle Derivatives of exponential and logarithmic functions subsection 3.
+
+1 Logarithmic derivatives 4 Derivatives of trigonometric functions 5 Derivatives of hyperbolic functions 6 Derivatives of special functions 7 Derivatives of integrals 8 Derivatives to n th order Toggle Derivatives to n th order subsection 8.
+
+1 Faà di Bruno's formula 8.
+
+2 General Leibniz rule 9 See also 10 References 11 Sources and further reading 12 External links Toggle the table of contents Differentiation rules 26 languages Afrikaans العربية বাংলা Беларуская Български Bosanski Català Чӑвашла Dansk Español فارسی 한국어 Հայերեն हिन्दी Bahasa Indonesia Italiano Lietuvių Македонски ភាសាខ្មែរ Русский Српски / srpski தமிழ் ไทย Türkçe Українська 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia (Redirected from List of differentiation identities ) Rules for computing derivatives of functions Part of a series of articles about Calculus ∫ a b f ′ ( t ) d t = f ( b ) − f ( a ) {\displaystyle \int _{a}^{b}f'(t)\,dt=f(b)-f(a)} Fundamental theorem Limits Continuity Rolle's theorem Mean value theorem Inverse function theorem Differential Definitions Derivative ( generalizations ) Differential infinitesimal of a function total Concepts Differentiation notation Second derivative Implicit differentiation Logarithmic differentiation Related rates Taylor's theorem Rules and identities Sum Product Chain Power Quotient L'Hôpital's rule Inverse General Leibniz Faà di Bruno's formula Reynolds Integral Lists of integrals Integral transform Leibniz integral rule Definitions Antiderivative Integral ( improper ) Riemann integral Lebesgue integration Contour integration Integral of inverse functions Integration by Parts Discs Cylindrical shells Substitution ( trigonometric , tangent half-angle , Euler ) Euler's formula Partial fractions Changing order Reduction formulae Differentiating under the integral sign Risch algorithm Series Geometric ( arithmetico-geometric ) Harmonic Alternating Power Binomial Taylor Convergence tests Summand limit (term test) Ratio Root Integral Direct comparison Limit comparison Alternating series Cauchy condensation Dirichlet Abel Vector Gradient Divergence Curl Laplacian Directional derivative Identities Theorems Gradient Green's Stokes' Divergence generalized Stokes Helmholtz decomposition Multivariable Formalisms Matrix Tensor Exterior Geometric Definitions Partial derivative Multiple integral Line integral Surface integral Volume integral Jacobian Hessian Advanced Calculus on Euclidean space Generalized functions Limit of distributions Specialized Fractional Malliavin Stochastic Variations Miscellaneous Precalculus History Glossary List of topics Integration Bee Mathematical analysis Nonstandard analysis v t e This is a summary of differentiation rules , that is, rules for computing the derivative of a function in calculus.
+
+Elementary rules of differentiation [ edit ] Unless otherwise stated, all functions are functions of real numbers ( R ) that return real values; although more generally, the formulae below apply wherever they are well defined [1] [2] — including the case of complex numbers ( C ).
+
+[3] Constant term rule [ edit ] For any value of c {\displaystyle c} , where c ∈ R {\displaystyle c\in \mathbb {R} } , if f ( x ) {\displaystyle f(x)} is the constant function given by f ( x ) = c {\displaystyle f(x)=c} , then d f d x = 0 {\displaystyle {\frac {df}{dx}}=0}.
+
+[4] Proof [ edit ] Let c ∈ R {\displaystyle c\in \mathbb {R} } and f ( x ) = c {\displaystyle f(x)=c}.
+
+By the definition of the derivative, f ′ ( x ) = lim h → 0 f ( x + h ) − f ( x ) h = lim h → 0 ( c ) − ( c ) h = lim h → 0 0 h = lim h → 0 0 = 0 {\displaystyle {\begin{aligned}f'(x)&=\lim _{h\to 0}{\frac {f(x+h)-f(x)}{h}}\\&=\lim _{h\to 0}{\frac {(c)-(c)}{h}}\\&=\lim _{h\to 0}{\frac {0}{h}}\\&=\lim _{h\to 0}0\\&=0\end{aligned}}} This shows that the derivative of any constant function is 0.
+
+Intuitive (geometric) explanation [ edit ] The derivative of the function at a point is the slope of the line tangent to the curve at the point.
+
+Slope of the constant function is zero, because the tangent line to the constant function is horizontal and its angle is zero.
+
+In other words, the value of the constant function, y, will not change as the value of x increases or decreases.
+
+At each point, the derivative is the slope of a line that is tangent to the curve at that point.
+
+Note: the derivative at point A is positive where green and dash–dot, negative where red and dashed, and zero where black and solid.
+
+Differentiation is linear [ edit ] Main article: Linearity of differentiation For any functions f {\displaystyle f} and g {\displaystyle g} and any real numbers a {\displaystyle a} and b {\displaystyle b} , the derivative of the function h ( x ) = a f ( x ) + b g ( x ) {\displaystyle h(x)=af(x)+bg(x)} with respect to x {\displaystyle x} is: h ′ ( x ) = a f ′ ( x ) + b g ′ ( x ).
+
+{\displaystyle h'(x)=af'(x)+bg'(x).
+
+} In Leibniz's notation this is written as: d ( a f + b g ) d x = a d f d x + b d g d x.
+
+{\displaystyle {\frac {d(af+bg)}{dx}}=a{\frac {df}{dx}}+b{\frac {dg}{dx}}.
+
+} Special cases include: The constant factor rule ( a f ) ′ = a f ′ {\displaystyle (af)'=af'} The sum rule ( f + g ) ′ = f ′ + g ′ {\displaystyle (f+g)'=f'+g'} The difference rule ( f − g ) ′ = f ′ − g ′.
+
+{\displaystyle (f-g)'=f'-g'.
+
+} The product rule [ edit ] Main article: Product rule For the functions f {\displaystyle f} and g {\displaystyle g} , the derivative of the function h ( x ) = f ( x ) g ( x ) {\displaystyle h(x)=f(x)g(x)} with respect to x {\displaystyle x} is h ′ ( x ) = ( f g ) ′ ( x ) = f ′ ( x ) g ( x ) + f ( x ) g ′ ( x ).
+
+{\displaystyle h'(x)=(fg)'(x)=f'(x)g(x)+f(x)g'(x).
+
+} In Leibniz's notation this is written d ( f g ) d x = g d f d x + f d g d x.
+
+{\displaystyle {\frac {d(fg)}{dx}}=g{\frac {df}{dx}}+f{\frac {dg}{dx}}.
+
+} The chain rule [ edit ] Main article: Chain rule The derivative of the function h ( x ) = f ( g ( x ) ) {\displaystyle h(x)=f(g(x))} is h ′ ( x ) = f ′ ( g ( x ) ) ⋅ g ′ ( x ).
+
+{\displaystyle h'(x)=f'(g(x))\cdot g'(x).
+
+} In Leibniz's notation, this is written as: d d x h ( x ) = d d z f ( z ) | z = g ( x ) ⋅ d d x g ( x ) , {\displaystyle {\frac {d}{dx}}h(x)=\left.
+
+{\frac {d}{dz}}f(z)\right|_{z=g(x)}\cdot {\frac {d}{dx}}g(x),} often abridged to d h ( x ) d x = d f ( g ( x ) ) d g ( x ) ⋅ d g ( x ) d x.
+
+{\displaystyle {\frac {dh(x)}{dx}}={\frac {df(g(x))}{dg(x)}}\cdot {\frac {dg(x)}{dx}}.
+
+} Focusing on the notion of maps, and the differential being a map D {\displaystyle {\text{D}}} , this is written in a more concise way as: [ D ( f ∘ g ) ] x = [ D f ] g ( x ) ⋅ [ D g ] x.
+
+{\displaystyle [{\text{D}}(f\circ g)]_{x}=[{\text{D}}f]_{g(x)}\cdot [{\text{D}}g]_{x}\,.
+
+} The inverse function rule [ edit ] Main article: Inverse function rule If the function f has an inverse function g , meaning that g ( f ( x ) ) = x {\displaystyle g(f(x))=x} and f ( g ( y ) ) = y , {\displaystyle f(g(y))=y,} then g ′ = 1 f ′ ∘ g.
+
+{\displaystyle g'={\frac {1}{f'\circ g}}.
+
+} In Leibniz notation, this is written as d x d y = 1 d y d x.
+
+{\displaystyle {\frac {dx}{dy}}={\frac {1}{\frac {dy}{dx}}}.
+
+} Power laws, polynomials, quotients, and reciprocals [ edit ] The polynomial or elementary power rule [ edit ] Main article: Power rule If f ( x ) = x r {\displaystyle f(x)=x^{r}} , for any real number r ≠ 0 , {\displaystyle r\neq 0,} then f ′ ( x ) = r x r − 1.
+
+{\displaystyle f'(x)=rx^{r-1}.
+
+} When r = 1 , {\displaystyle r=1,} this becomes the special case that if f ( x ) = x , {\displaystyle f(x)=x,} then f ′ ( x ) = 1.
+
+{\displaystyle f'(x)=1.
+
+} Combining the power rule with the sum and constant multiple rules permits the computation of the derivative of any polynomial.
+
+The reciprocal rule [ edit ] Main article: Reciprocal rule The derivative of h ( x ) = 1 f ( x ) {\displaystyle h(x)={\frac {1}{f(x)}}} for any (nonvanishing) function f is: h ′ ( x ) = − f ′ ( x ) ( f ( x ) ) 2 {\displaystyle h'(x)=-{\frac {f'(x)}{(f(x))^{2}}}} wherever f is non-zero.
+
+In Leibniz's notation, this is written d ( 1 / f ) d x = − 1 f 2 d f d x.
+
+{\displaystyle {\frac {d(1/f)}{dx}}=-{\frac {1}{f^{2}}}{\frac {df}{dx}}.
+
+} The reciprocal rule can be derived either from the quotient rule, or from the combination of power rule and chain rule.
+
+The quotient rule [ edit ] Main article: Quotient rule If f and g are functions, then: ( f g ) ′ = f ′ g − g ′ f g 2 {\displaystyle \left({\frac {f}{g}}\right)'={\frac {f'g-g'f}{g^{2}}}\quad } wherever g is nonzero.
+
+This can be derived from the product rule and the reciprocal rule.
+
+Generalized power rule [ edit ] Main article: Power rule The elementary power rule generalizes considerably.
+
+The most general power rule is the functional power rule : for any functions f and g , ( f g ) ′ = ( e g ln ⁡ f ) ′ = f g ( f ′ g f + g ′ ln ⁡ f ) , {\displaystyle (f^{g})'=\left(e^{g\ln f}\right)'=f^{g}\left(f'{g \over f}+g'\ln f\right),\quad } wherever both sides are well defined.
+
+Special cases If f ( x ) = x a {\textstyle f(x)=x^{a}\!} , then f ′ ( x ) = a x a − 1 {\textstyle f'(x)=ax^{a-1}} when a is any non-zero real number and x is positive.
+
+The reciprocal rule may be derived as the special case where g ( x ) = − 1 {\textstyle g(x)=-1\!}.
+
+Derivatives of exponential and logarithmic functions [ edit ] d d x ( c a x ) = a c a x ln ⁡ c , c > 0 {\displaystyle {\frac {d}{dx}}\left(c^{ax}\right)={ac^{ax}\ln c},\qquad c>0} the equation above is true for all c , but the derivative for c < 0 {\textstyle c<0} yields a complex number.
+
+d d x ( e a x ) = a e a x {\displaystyle {\frac {d}{dx}}\left(e^{ax}\right)=ae^{ax}} d d x ( log c ⁡ x ) = 1 x ln ⁡ c , c > 1 {\displaystyle {\frac {d}{dx}}\left(\log _{c}x\right)={1 \over x\ln c},\qquad c>1} the equation above is also true for all c , but yields a complex number if c < 0 {\textstyle c<0\!}.
+
+d d x ( ln ⁡ x ) = 1 x , x > 0.
+
+{\displaystyle {\frac {d}{dx}}\left(\ln x\right)={1 \over x},\qquad x>0.
+
+} d d x ( ln ⁡ | x | ) = 1 x , x ≠ 0.
+
+{\displaystyle {\frac {d}{dx}}\left(\ln |x|\right)={1 \over x},\qquad x\neq 0.
+
+} d d x ( W ( x ) ) = 1 x + e W ( x ) , x > − 1 e.
+
+{\displaystyle {\frac {d}{dx}}\left(W(x)\right)={1 \over {x+e^{W(x)}}},\qquad x>-{1 \over e}.
+
+\qquad } where W ( x ) {\displaystyle W(x)} is the Lambert W function d d x ( x x ) = x x ( 1 + ln ⁡ x ).
+
+{\displaystyle {\frac {d}{dx}}\left(x^{x}\right)=x^{x}(1+\ln x).
+
+} d d x ( f ( x ) g ( x ) ) = g ( x ) f ( x ) g ( x ) − 1 d f d x + f ( x ) g ( x ) ln ⁡ ( f ( x ) ) d g d x , if f ( x ) > 0 , and if d f d x and d g d x exist.
+
+{\displaystyle {\frac {d}{dx}}\left(f(x)^{g(x)}\right)=g(x)f(x)^{g(x)-1}{\frac {df}{dx}}+f(x)^{g(x)}\ln {(f(x))}{\frac {dg}{dx}},\qquad {\text{if }}f(x)>0,{\text{ and if }}{\frac {df}{dx}}{\text{ and }}{\frac {dg}{dx}}{\text{ exist.
+
+}}} d d x ( f 1 ( x ) f 2 ( x ) (.
+
+) f n ( x ) ) = [ ∑ k = 1 n ∂ ∂ x k ( f 1 ( x 1 ) f 2 ( x 2 ) (.
+
+) f n ( x n ) ) ] | x 1 = x 2 =.
+
+= x n = x , if f i < n ( x ) > 0 and {\displaystyle {\frac {d}{dx}}\left(f_{1}(x)^{f_{2}(x)^{\left(.
+
+\right)^{f_{n}(x)}}}\right)=\left[\sum \limits _{k=1}^{n}{\frac {\partial }{\partial x_{k}}}\left(f_{1}(x_{1})^{f_{2}(x_{2})^{\left(.
+
+\right)^{f_{n}(x_{n})}}}\right)\right]{\biggr \vert }_{x_{1}=x_{2}=.
+
+=x_{n}=x},{\text{ if }}f_{i<n}(x)>0{\text{ and }}} d f i d x exists.
+
+{\displaystyle {\frac {df_{i}}{dx}}{\text{ exists.
+
+}}} Logarithmic derivatives [ edit ] The logarithmic derivative is another way of stating the rule for differentiating the logarithm of a function (using the chain rule): ( ln ⁡ f ) ′ = f ′ f {\displaystyle (\ln f)'={\frac {f'}{f}}\quad } wherever f is positive.
+
+Logarithmic differentiation is a technique which uses logarithms and its differentiation rules to simplify certain expressions before actually applying the derivative.
+
+[ citation needed ] Logarithms can be used to remove exponents, convert products into sums, and convert division into subtraction — each of which may lead to a simplified expression for taking derivatives.
+
+Derivatives of trigonometric functions [ edit ] Main article: Differentiation of trigonometric functions d d x sin ⁡ x = cos ⁡ x {\displaystyle {\frac {d}{dx}}\sin x=\cos x} d d x arcsin ⁡ x = 1 1 − x 2 {\displaystyle {\frac {d}{dx}}\arcsin x={\frac {1}{\sqrt {1-x^{2}}}}} d d x cos ⁡ x = − sin ⁡ x {\displaystyle {\frac {d}{dx}}\cos x=-\sin x} d d x arccos ⁡ x = − 1 1 − x 2 {\displaystyle {\frac {d}{dx}}\arccos x=-{\frac {1}{\sqrt {1-x^{2}}}}} d d x tan ⁡ x = sec 2 ⁡ x = 1 cos 2 ⁡ x = 1 + tan 2 ⁡ x {\displaystyle {\frac {d}{dx}}\tan x=\sec ^{2}x={\frac {1}{\cos ^{2}x}}=1+\tan ^{2}x} d d x arctan ⁡ x = 1 1 + x 2 {\displaystyle {\frac {d}{dx}}\arctan x={\frac {1}{1+x^{2}}}} d d x csc ⁡ x = − csc ⁡ x cot ⁡ x {\displaystyle {\frac {d}{dx}}\csc x=-\csc {x}\cot {x}} d d x arccsc ⁡ x = − 1 | x | x 2 − 1 {\displaystyle {\frac {d}{dx}}\operatorname {arccsc} x=-{\frac {1}{|x|{\sqrt {x^{2}-1}}}}} d d x sec ⁡ x = sec ⁡ x tan ⁡ x {\displaystyle {\frac {d}{dx}}\sec x=\sec {x}\tan {x}} d d x arcsec ⁡ x = 1 | x | x 2 − 1 {\displaystyle {\frac {d}{dx}}\operatorname {arcsec} x={\frac {1}{|x|{\sqrt {x^{2}-1}}}}} d d x cot ⁡ x = − csc 2 ⁡ x = − 1 sin 2 ⁡ x = − 1 − cot 2 ⁡ x {\displaystyle {\frac {d}{dx}}\cot x=-\csc ^{2}x=-{\frac {1}{\sin ^{2}x}}=-1-\cot ^{2}x} d d x arccot ⁡ x = − 1 1 + x 2 {\displaystyle {\frac {d}{dx}}\operatorname {arccot} x=-{1 \over 1+x^{2}}} The derivatives in the table above are for when the range of the inverse secant is [ 0 , π ] {\displaystyle [0,\pi ]\!} and when the range of the inverse cosecant is [ − π 2 , π 2 ].
+
+{\displaystyle \left[-{\frac {\pi }{2}},{\frac {\pi }{2}}\right].
+
+} It is common to additionally define an inverse tangent function with two arguments , arctan ⁡ ( y , x ).
+
+{\displaystyle \arctan(y,x).
+
+} Its value lies in the range [ − π , π ] {\displaystyle [-\pi ,\pi ]} and reflects the quadrant of the point ( x , y ).
+
+{\displaystyle (x,y).
+
+} For the first and fourth quadrant (i.
+
+e.
+
+x > 0 {\displaystyle x>0} ) one has arctan ⁡ ( y , x > 0 ) = arctan ⁡ ( y / x ).
+
+{\displaystyle \arctan(y,x>0)=\arctan(y/x).
+
+} Its partial derivatives are ∂ arctan ⁡ ( y , x ) ∂ y = x x 2 + y 2 and ∂ arctan ⁡ ( y , x ) ∂ x = − y x 2 + y 2.
+
+{\displaystyle {\frac {\partial \arctan(y,x)}{\partial y}}={\frac {x}{x^{2}+y^{2}}}\qquad {\text{and}}\qquad {\frac {\partial \arctan(y,x)}{\partial x}}={\frac {-y}{x^{2}+y^{2}}}.
+
+} Derivatives of hyperbolic functions [ edit ] d d x sinh ⁡ x = cosh ⁡ x {\displaystyle {\frac {d}{dx}}\sinh x=\cosh x} d d x arsinh ⁡ x = 1 1 + x 2 {\displaystyle {\frac {d}{dx}}\operatorname {arsinh} x={\frac {1}{\sqrt {1+x^{2}}}}} d d x cosh ⁡ x = sinh ⁡ x {\displaystyle {\frac {d}{dx}}\cosh x=\sinh x} d d x arcosh ⁡ x = 1 x 2 − 1 {\displaystyle {\frac {d}{dx}}\operatorname {arcosh} x={\frac {1}{\sqrt {x^{2}-1}}}} d d x tanh ⁡ x = sech 2 ⁡ x = 1 − tanh 2 ⁡ x {\displaystyle {\frac {d}{dx}}\tanh x={\operatorname {sech} ^{2}x}=1-\tanh ^{2}x} d d x artanh ⁡ x = 1 1 − x 2 {\displaystyle {\frac {d}{dx}}\operatorname {artanh} x={\frac {1}{1-x^{2}}}} d d x csch ⁡ x = − csch ⁡ x coth ⁡ x {\displaystyle {\frac {d}{dx}}\operatorname {csch} x=-\operatorname {csch} {x}\coth {x}} d d x arcsch ⁡ x = − 1 | x | 1 + x 2 {\displaystyle {\frac {d}{dx}}\operatorname {arcsch} x=-{\frac {1}{|x|{\sqrt {1+x^{2}}}}}} d d x sech ⁡ x = − sech ⁡ x tanh ⁡ x {\displaystyle {\frac {d}{dx}}\operatorname {sech} x=-\operatorname {sech} {x}\tanh {x}} d d x arsech ⁡ x = − 1 x 1 − x 2 {\displaystyle {\frac {d}{dx}}\operatorname {arsech} x=-{\frac {1}{x{\sqrt {1-x^{2}}}}}} d d x coth ⁡ x = − csch 2 ⁡ x = 1 − coth 2 ⁡ x {\displaystyle {\frac {d}{dx}}\coth x=-\operatorname {csch} ^{2}x=1-\coth ^{2}x} d d x arcoth ⁡ x = 1 1 − x 2 {\displaystyle {\frac {d}{dx}}\operatorname {arcoth} x={\frac {1}{1-x^{2}}}} See Hyperbolic functions for restrictions on these derivatives.
+
+Derivatives of special functions [ edit ] Gamma function Γ ( x ) = ∫ 0 ∞ t x − 1 e − t d t {\displaystyle \Gamma (x)=\int _{0}^{\infty }t^{x-1}e^{-t}\,dt} Γ ′ ( x ) = ∫ 0 ∞ t x − 1 e − t ln ⁡ t d t = Γ ( x ) ( ∑ n = 1 ∞ ( ln ⁡ ( 1 + 1 n ) − 1 x + n ) − 1 x ) = Γ ( x ) ψ ( x ) {\displaystyle {\begin{aligned}\Gamma '(x)&=\int _{0}^{\infty }t^{x-1}e^{-t}\ln t\,dt\\&=\Gamma (x)\left(\sum _{n=1}^{\infty }\left(\ln \left(1+{\dfrac {1}{n}}\right)-{\dfrac {1}{x+n}}\right)-{\dfrac {1}{x}}\right)\\&=\Gamma (x)\psi (x)\end{aligned}}} with ψ ( x ) {\displaystyle \psi (x)} being the digamma function , expressed by the parenthesized expression to the right of Γ ( x ) {\displaystyle \Gamma (x)} in the line above.
+
+Riemann zeta function ζ ( x ) = ∑ n = 1 ∞ 1 n x {\displaystyle \zeta (x)=\sum _{n=1}^{\infty }{\frac {1}{n^{x}}}} ζ ′ ( x ) = − ∑ n = 1 ∞ ln ⁡ n n x = − ln ⁡ 2 2 x − ln ⁡ 3 3 x − ln ⁡ 4 4 x − ⋯ = − ∑ p prime p − x ln ⁡ p ( 1 − p − x ) 2 ∏ q prime , q ≠ p 1 1 − q − x {\displaystyle {\begin{aligned}\zeta '(x)&=-\sum _{n=1}^{\infty }{\frac {\ln n}{n^{x}}}=-{\frac {\ln 2}{2^{x}}}-{\frac {\ln 3}{3^{x}}}-{\frac {\ln 4}{4^{x}}}-\cdots \\&=-\sum _{p{\text{ prime}}}{\frac {p^{-x}\ln p}{(1-p^{-x})^{2}}}\prod _{q{\text{ prime}},q\neq p}{\frac {1}{1-q^{-x}}}\end{aligned}}} Derivatives of integrals [ edit ] Main article: Differentiation under the integral sign Suppose that it is required to differentiate with respect to x the function F ( x ) = ∫ a ( x ) b ( x ) f ( x , t ) d t , {\displaystyle F(x)=\int _{a(x)}^{b(x)}f(x,t)\,dt,} where the functions f ( x , t ) {\displaystyle f(x,t)} and ∂ ∂ x f ( x , t ) {\displaystyle {\frac {\partial }{\partial x}}\,f(x,t)} are both continuous in both t {\displaystyle t} and x {\displaystyle x} in some region of the ( t , x ) {\displaystyle (t,x)} plane, including a ( x ) ≤ t ≤ b ( x ) , {\displaystyle a(x)\leq t\leq b(x),} x 0 ≤ x ≤ x 1 {\displaystyle x_{0}\leq x\leq x_{1}} , and the functions a ( x ) {\displaystyle a(x)} and b ( x ) {\displaystyle b(x)} are both continuous and both have continuous derivatives for x 0 ≤ x ≤ x 1 {\displaystyle x_{0}\leq x\leq x_{1}}.
+
+Then for x 0 ≤ x ≤ x 1 {\displaystyle \,x_{0}\leq x\leq x_{1}} : F ′ ( x ) = f ( x , b ( x ) ) b ′ ( x ) − f ( x , a ( x ) ) a ′ ( x ) + ∫ a ( x ) b ( x ) ∂ ∂ x f ( x , t ) d t.
+
+{\displaystyle F'(x)=f(x,b(x))\,b'(x)-f(x,a(x))\,a'(x)+\int _{a(x)}^{b(x)}{\frac {\partial }{\partial x}}\,f(x,t)\;dt\,.
+
+} This formula is the general form of the Leibniz integral rule and can be derived using the fundamental theorem of calculus.
+
+Derivatives to n th order [ edit ] Some rules exist for computing the n -th derivative of functions, where n is a positive integer.
+
+These include: Faà di Bruno's formula [ edit ] Main article: Faà di Bruno's formula If f and g are n -times differentiable, then d n d x n [ f ( g ( x ) ) ] = n ! ∑ { k m } f ( r ) ( g ( x ) ) ∏ m = 1 n 1 k m ! ( g ( m ) ( x ) ) k m {\displaystyle {\frac {d^{n}}{dx^{n}}}[f(g(x))]=n!\sum _{\{k_{m}\}}f^{(r)}(g(x))\prod _{m=1}^{n}{\frac {1}{k_{m}!}}\left(g^{(m)}(x)\right)^{k_{m}}} where r = ∑ m = 1 n − 1 k m {\textstyle r=\sum _{m=1}^{n-1}k_{m}} and the set { k m } {\displaystyle \{k_{m}\}} consists of all non-negative integer solutions of the Diophantine equation ∑ m = 1 n m k m = n {\textstyle \sum _{m=1}^{n}mk_{m}=n}.
+
+General Leibniz rule [ edit ] Main article: General Leibniz rule If f and g are n -times differentiable, then d n d x n [ f ( x ) g ( x ) ] = ∑ k = 0 n ( n k ) d n − k d x n − k f ( x ) d k d x k g ( x ) {\displaystyle {\frac {d^{n}}{dx^{n}}}[f(x)g(x)]=\sum _{k=0}^{n}{\binom {n}{k}}{\frac {d^{n-k}}{dx^{n-k}}}f(x){\frac {d^{k}}{dx^{k}}}g(x)} See also [ edit ] Differentiable function – Mathematical function whose derivative exists Differential of a function – Notion in calculus Differentiation of integrals – Problem in mathematics Differentiation under the integral sign – Differentiation under the integral sign formula Pages displaying short descriptions of redirect targets Hyperbolic functions – Collective name of 6 mathematical functions Inverse hyperbolic functions – Mathematical functions Inverse trigonometric functions – Inverse functions of sin, cos, tan, etc.
+
+Lists of integrals List of mathematical functions Matrix calculus – Specialized notation for multivariable calculus Trigonometric functions – Functions of an angle Vector calculus identities – Mathematical identities References [ edit ] ^ Calculus (5th edition) , F.
+
+Ayres, E.
+
+Mendelson, Schaum's Outline Series, 2009, ISBN 978-0-07-150861-2.
+
+^ Advanced Calculus (3rd edition) , R.
+
+Wrede, M.
+
+R.
+
+Spiegel, Schaum's Outline Series, 2010, ISBN 978-0-07-162366-7.
+
+^ Complex Variables , M.
+
+R.
+
+Spiegel, S.
+
+Lipschutz, J.
+
+J.
+
+Schiller, D.
+
+Spellman, Schaum's Outlines Series, McGraw Hill (USA), 2009, ISBN 978-0-07-161569-3 ^ "Differentiation Rules".
+
+University of Waterloo – CEMC Open Courseware.
+
+Retrieved 3 May 2022.
+
+Sources and further reading [ edit ] These rules are given in many books, both on elementary and advanced calculus, in pure and applied mathematics.
+
+Those in this article (in addition to the above references) can be found in: Mathematical Handbook of Formulas and Tables (3rd edition) , S.
+
+Lipschutz, M.
+
+R.
+
+Spiegel, J.
+
+Liu, Schaum's Outline Series, 2009, ISBN 978-0-07-154855-7.
+
+The Cambridge Handbook of Physics Formulas , G.
+
+Woan, Cambridge University Press, 2010, ISBN 978-0-521-57507-2.
+
+Mathematical methods for physics and engineering , K.
+
+F.
+
+Riley, M.
+
+P.
+
+Hobson, S.
+
+J.
+
+Bence, Cambridge University Press, 2010, ISBN 978-0-521-86153-3 NIST Handbook of Mathematical Functions , F.
+
+W.
+
+J.
+
+Olver, D.
+
+W.
+
+Lozier, R.
+
+F.
+
+Boisvert, C.
+
+W.
+
+Clark, Cambridge University Press, 2010, ISBN 978-0-521-19225-5.
+
+External links [ edit ] Library resources about Differentiation rules Resources in your library Derivative calculator with formula simplification v t e Calculus Precalculus Binomial theorem Concave function Continuous function Factorial Finite difference Free variables and bound variables Graph of a function Linear function Radian Rolle's theorem Secant Slope Tangent Limits Indeterminate form Limit of a function One-sided limit Limit of a sequence Order of approximation (ε, δ)-definition of limit Differential calculus Derivative Second derivative Partial derivative Differential Differential operator Mean value theorem Notation Leibniz's notation Newton's notation Rules of differentiation linearity Power Sum Chain L'Hôpital's Product General Leibniz's rule Quotient Other techniques Implicit differentiation Inverse functions and differentiation Logarithmic derivative Related rates Stationary points First derivative test Second derivative test Extreme value theorem Maximum and minimum Further applications Newton's method Taylor's theorem Differential equation Ordinary differential equation Partial differential equation Stochastic differential equation Integral calculus Antiderivative Arc length Riemann integral Basic properties Constant of integration Fundamental theorem of calculus Differentiating under the integral sign Integration by parts Integration by substitution trigonometric Euler Tangent half-angle substitution Partial fractions in integration Quadratic integral Trapezoidal rule Volumes Washer method Shell method Integral equation Integro-differential equation Vector calculus Derivatives Curl Directional derivative Divergence Gradient Laplacian Basic theorems Line integrals Green's Stokes' Gauss' Multivariable calculus Divergence theorem Geometric Hessian matrix Jacobian matrix and determinant Lagrange multiplier Line integral Matrix Multiple integral Partial derivative Surface integral Volume integral Advanced topics Differential forms Exterior derivative Generalized Stokes' theorem Tensor calculus Sequences and series Arithmetico-geometric sequence Types of series Alternating Binomial Fourier Geometric Harmonic Infinite Power Maclaurin Taylor Telescoping Tests of convergence Abel's Alternating series Cauchy condensation Direct comparison Dirichlet's Integral Limit comparison Ratio Root Term Special functions and numbers Bernoulli numbers e (mathematical constant) Exponential function Natural logarithm Stirling's approximation History of calculus Adequality Brook Taylor Colin Maclaurin Generality of algebra Gottfried Wilhelm Leibniz Infinitesimal Infinitesimal calculus Isaac Newton Fluxion Law of Continuity Leonhard Euler Method of Fluxions The Method of Mechanical Theorems Lists Integrals rational functions irrational functions exponential functions logarithmic functions hyperbolic functions inverse trigonometric functions inverse Secant Secant cubed List of limits List of derivatives Miscellaneous topics Complex calculus Contour integral Differential geometry Manifold Curvature of curves of surfaces Tensor Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Regiomontanus' angle maximization problem Steinmetz solid v t e Major topics in mathematical analysis Calculus : Integration Differentiation Differential equations ordinary partial stochastic Fundamental theorem of calculus Calculus of variations Vector calculus Tensor calculus Matrix calculus Lists of integrals Table of derivatives Real analysis Complex analysis Hypercomplex analysis ( quaternionic analysis ) Functional analysis Fourier analysis Least-squares spectral analysis Harmonic analysis P-adic analysis ( P-adic numbers ) Measure theory Representation theory Functions Continuous function Special functions Limit Series Infinity Mathematics portal Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Differentiation_rules&oldid=1231081398 " Categories : Differentiation rules Differential calculus Mathematics-related lists Mathematical tables Mathematical identities Theorems in analysis Theorems in calculus Hidden categories: Articles with short description Short description is different from Wikidata Pages using sidebar with the child parameter All articles with unsourced statements Articles with unsourced statements from October 2021 Pages displaying short descriptions of redirect targets via Module:Annotated link Articles containing proofs This page was last edited on 26 June 2024, at 10:37 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

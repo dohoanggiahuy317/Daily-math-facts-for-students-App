@@ -1,0 +1,951 @@
+Calculus on Euclidean space - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Basic notions Toggle Basic notions subsection 1.
+
+1 Functions in one real variable 1.
+
+2 Derivative of a map and chain rule 1.
+
+3 Higher derivatives and Taylor formula 1.
+
+4 Inverse function theorem and submersion theorem 1.
+
+5 Integrable functions on Euclidean spaces 1.
+
+6 Surface integral 2 Vector analysis Toggle Vector analysis subsection 2.
+
+1 Tangent vectors and vector fields 2.
+
+2 Differential forms 2.
+
+3 Boundary and orientation 2.
+
+4 Integration of differential forms 2.
+
+5 Winding numbers and Poincaré lemma 3 Geometry of curves and surfaces Toggle Geometry of curves and surfaces subsection 3.
+
+1 Moving frame 3.
+
+2 The Gauss–Bonnet theorem 4 Calculus of variations Toggle Calculus of variations subsection 4.
+
+1 Method of Lagrange multiplier 4.
+
+2 Weak derivatives 4.
+
+3 Hamilton–Jacobi theory 5 Calculus on manifolds Toggle Calculus on manifolds subsection 5.
+
+1 Definition of a manifold 5.
+
+2 Tubular neighborhood and transversality 5.
+
+3 Integration on manifolds and distribution densities 6 Generalizations Toggle Generalizations subsection 6.
+
+1 Extensions to infinite-dimensional normed spaces 7 See also 8 Notes 9 Citations 10 References Toggle the table of contents Calculus on Euclidean space Add languages Add links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Part of a series of articles about Calculus ∫ a b f ′ ( t ) d t = f ( b ) − f ( a ) {\displaystyle \int _{a}^{b}f'(t)\,dt=f(b)-f(a)} Fundamental theorem Limits Continuity Rolle's theorem Mean value theorem Inverse function theorem Differential Definitions Derivative ( generalizations ) Differential infinitesimal of a function total Concepts Differentiation notation Second derivative Implicit differentiation Logarithmic differentiation Related rates Taylor's theorem Rules and identities Sum Product Chain Power Quotient L'Hôpital's rule Inverse General Leibniz Faà di Bruno's formula Reynolds Integral Lists of integrals Integral transform Leibniz integral rule Definitions Antiderivative Integral ( improper ) Riemann integral Lebesgue integration Contour integration Integral of inverse functions Integration by Parts Discs Cylindrical shells Substitution ( trigonometric , tangent half-angle , Euler ) Euler's formula Partial fractions Changing order Reduction formulae Differentiating under the integral sign Risch algorithm Series Geometric ( arithmetico-geometric ) Harmonic Alternating Power Binomial Taylor Convergence tests Summand limit (term test) Ratio Root Integral Direct comparison Limit comparison Alternating series Cauchy condensation Dirichlet Abel Vector Gradient Divergence Curl Laplacian Directional derivative Identities Theorems Gradient Green's Stokes' Divergence generalized Stokes Helmholtz decomposition Multivariable Formalisms Matrix Tensor Exterior Geometric Definitions Partial derivative Multiple integral Line integral Surface integral Volume integral Jacobian Hessian Advanced Calculus on Euclidean space Generalized functions Limit of distributions Specialized Fractional Malliavin Stochastic Variations Miscellaneous Precalculus History Glossary List of topics Integration Bee Mathematical analysis Nonstandard analysis v t e In mathematics, calculus on Euclidean space is a generalization of calculus of functions in one or several variables to calculus of functions on Euclidean space R n {\displaystyle \mathbb {R} ^{n}} as well as a finite-dimensional real vector space.
+
+This calculus is also known as advanced calculus , especially in the United States.
+
+It is similar to multivariable calculus but is somewhat more sophisticated in that it uses linear algebra (or some functional analysis) more extensively and covers some concepts from differential geometry such as differential forms and Stokes' formula in terms of differential forms.
+
+This extensive use of linear algebra also allows a natural generalization of multivariable calculus to calculus on Banach spaces or topological vector spaces.
+
+Calculus on Euclidean space is also a local model of calculus on manifolds , a theory of functions on manifolds.
+
+Basic notions [ edit ] See also: Function of a real variable and Multivariable calculus Functions in one real variable [ edit ] This section is a brief review of function theory in one-variable calculus.
+
+A real-valued function f : R → R {\displaystyle f:\mathbb {R} \to \mathbb {R} } is continuous at a {\displaystyle a} if it is approximately constant near a {\displaystyle a} ; i.
+
+e.
+
+, lim h → 0 ( f ( a + h ) − f ( a ) ) = 0.
+
+{\displaystyle \lim _{h\to 0}(f(a+h)-f(a))=0.
+
+} In contrast, the function f {\displaystyle f} is differentiable at a {\displaystyle a} if it is approximately linear near a {\displaystyle a} ; i.
+
+e.
+
+, there is some real number λ {\displaystyle \lambda } such that lim h → 0 f ( a + h ) − f ( a ) − λ h h = 0.
+
+{\displaystyle \lim _{h\to 0}{\frac {f(a+h)-f(a)-\lambda h}{h}}=0.
+
+} [1] (For simplicity, suppose f ( a ) = 0 {\displaystyle f(a)=0}.
+
+Then the above means that f ( a + h ) = λ h + g ( a , h ) {\displaystyle f(a+h)=\lambda h+g(a,h)} where g ( a , h ) {\displaystyle g(a,h)} goes to 0 faster than h going to 0 and, in that sense, f ( a + h ) {\displaystyle f(a+h)} behaves like λ h {\displaystyle \lambda h}.
+
+) The number λ {\displaystyle \lambda } depends on a {\displaystyle a} and thus is denoted as f ′ ( a ) {\displaystyle f'(a)}.
+
+If f {\displaystyle f} is differentiable on an open interval U {\displaystyle U} and if f ′ {\displaystyle f'} is a continuous function on U {\displaystyle U} , then f {\displaystyle f} is called a C 1 function.
+
+More generally, f {\displaystyle f} is called a C k function if its derivative f ′ {\displaystyle f'} is C k-1 function.
+
+Taylor's theorem states that a C k function is precisely a function that can be approximated by a polynomial of degree k.
+
+If f : R → R {\displaystyle f:\mathbb {R} \to \mathbb {R} } is a C 1 function and f ′ ( a ) ≠ 0 {\displaystyle f'(a)\neq 0} for some a {\displaystyle a} , then either f ′ ( a ) > 0 {\displaystyle f'(a)>0} or f ′ ( a ) < 0 {\displaystyle f'(a)<0} ; i.
+
+e.
+
+, either f {\displaystyle f} is strictly increasing or strictly decreasing in some open interval containing a.
+
+In particular, f : f − 1 ( U ) → U {\displaystyle f:f^{-1}(U)\to U} is bijective for some open interval U {\displaystyle U} containing f ( a ) {\displaystyle f(a)}.
+
+The inverse function theorem then says that the inverse function f − 1 {\displaystyle f^{-1}} is differentiable on U with the derivatives: for y ∈ U {\displaystyle y\in U} ( f − 1 ) ′ ( y ) = 1 f ′ ( f − 1 ( y ) ).
+
+{\displaystyle (f^{-1})'(y)={1 \over f'(f^{-1}(y))}.
+
+} Derivative of a map and chain rule [ edit ] For functions f {\displaystyle f} defined in the plane or more generally on an Euclidean space R n {\displaystyle \mathbb {R} ^{n}} , it is necessary to consider functions that are vector-valued or matrix-valued.
+
+It is also conceptually helpful to do this in an invariant manner (i.
+
+e.
+
+, a coordinate-free way).
+
+Derivatives of such maps at a point are then vectors or linear maps, not real numbers.
+
+Let f : X → Y {\displaystyle f:X\to Y} be a map from an open subset X {\displaystyle X} of R n {\displaystyle \mathbb {R} ^{n}} to an open subset Y {\displaystyle Y} of R m {\displaystyle \mathbb {R} ^{m}}.
+
+Then the map f {\displaystyle f} is said to be differentiable at a point x {\displaystyle x} in X {\displaystyle X} if there exists a (necessarily unique) linear transformation f ′ ( x ) : R n → R m {\displaystyle f'(x):\mathbb {R} ^{n}\to \mathbb {R} ^{m}} , called the derivative of f {\displaystyle f} at x {\displaystyle x} , such that lim h → 0 1 | h | | f ( x + h ) − f ( x ) − f ′ ( x ) h | = 0 {\displaystyle \lim _{h\to 0}{\frac {1}{|h|}}|f(x+h)-f(x)-f'(x)h|=0} where f ′ ( x ) h {\displaystyle f'(x)h} is the application of the linear transformation f ′ ( x ) {\displaystyle f'(x)} to h {\displaystyle h}.
+
+[2] If f {\displaystyle f} is differentiable at x {\displaystyle x} , then it is continuous at x {\displaystyle x} since | f ( x + h ) − f ( x ) | ≤ ( | h | − 1 | f ( x + h ) − f ( x ) − f ′ ( x ) h | ) | h | + | f ′ ( x ) h | → 0 {\displaystyle |f(x+h)-f(x)|\leq (|h|^{-1}|f(x+h)-f(x)-f'(x)h|)|h|+|f'(x)h|\to 0} as h → 0 {\displaystyle h\to 0}.
+
+As in the one-variable case, there is Chain rule — [3] Let f {\displaystyle f} be as above and g : Y → Z {\displaystyle g:Y\to Z} a map for some open subset Z {\displaystyle Z} of R l {\displaystyle \mathbb {R} ^{l}}.
+
+If f {\displaystyle f} is differentiable at x {\displaystyle x} and g {\displaystyle g} differentiable at y = f ( x ) {\displaystyle y=f(x)} , then the composition g ∘ f {\displaystyle g\circ f} is differentiable at x {\displaystyle x} with the derivative ( g ∘ f ) ′ ( x ) = g ′ ( y ) ∘ f ′ ( x ).
+
+{\displaystyle (g\circ f)'(x)=g'(y)\circ f'(x).
+
+} This is proved exactly as for functions in one variable.
+
+Indeed, with the notation h ~ = f ( x + h ) − f ( x ) {\displaystyle {\widetilde {h}}=f(x+h)-f(x)} , we have: 1 | h | | g ( f ( x + h ) ) − g ( y ) − g ′ ( y ) f ′ ( x ) h | ≤ 1 | h | | g ( y + h ~ ) − g ( y ) − g ′ ( y ) h ~ | + 1 | h | | g ′ ( y ) ( f ( x + h ) − f ( x ) − f ′ ( x ) h ) |.
+
+{\displaystyle {\begin{aligned}&{\frac {1}{|h|}}|g(f(x+h))-g(y)-g'(y)f'(x)h|\\&\leq {\frac {1}{|h|}}|g(y+{\widetilde {h}})-g(y)-g'(y){\widetilde {h}}|+{\frac {1}{|h|}}|g'(y)(f(x+h)-f(x)-f'(x)h)|.
+
+\end{aligned}}} Here, since f {\displaystyle f} is differentiable at x {\displaystyle x} , the second term on the right goes to zero as h → 0 {\displaystyle h\to 0}.
+
+As for the first term, it can be written as: { | h ~ | | h | | g ( y + h ~ ) − g ( y ) − g ′ ( y ) h ~ | / | h ~ | , h ~ ≠ 0 , 0 , h ~ = 0.
+
+{\displaystyle {\begin{cases}{\frac {|{\widetilde {h}}|}{|h|}}|g(y+{\widetilde {h}})-g(y)-g'(y){\widetilde {h}}|/|{\widetilde {h}}|,&{\widetilde {h}}\neq 0,\\0,&{\widetilde {h}}=0.
+
+\end{cases}}} Now, by the argument showing the continuity of f {\displaystyle f} at x {\displaystyle x} , we see | h ~ | | h | {\displaystyle {\frac {|{\widetilde {h}}|}{|h|}}} is bounded.
+
+Also, h ~ → 0 {\displaystyle {\widetilde {h}}\to 0} as h → 0 {\displaystyle h\to 0} since f {\displaystyle f} is continuous at x {\displaystyle x}.
+
+Hence, the first term also goes to zero as h → 0 {\displaystyle h\to 0} by the differentiability of g {\displaystyle g} at y {\displaystyle y}.
+
+◻ {\displaystyle \square } The map f {\displaystyle f} as above is called continuously differentiable or C 1 {\displaystyle C^{1}} if it is differentiable on the domain and also the derivatives vary continuously; i.
+
+e.
+
+, x ↦ f ′ ( x ) {\displaystyle x\mapsto f'(x)} is continuous.
+
+Corollary — If f , g {\displaystyle f,g} are continuously differentiable, then g ∘ f {\displaystyle g\circ f} is continuously differentiable.
+
+As a linear transformation, f ′ ( x ) {\displaystyle f'(x)} is represented by an m × n {\displaystyle m\times n} -matrix, called the Jacobian matrix J f ( x ) {\displaystyle Jf(x)} of f {\displaystyle f} at x {\displaystyle x} and we write it as: ( J f ) ( x ) = [ ∂ f 1 ∂ x 1 ( x ) ⋯ ∂ f 1 ∂ x n ( x ) ⋮ ⋱ ⋮ ∂ f m ∂ x 1 ( x ) ⋯ ∂ f m ∂ x n ( x ) ].
+
+{\displaystyle (Jf)(x)={\begin{bmatrix}{\frac {\partial f_{1}}{\partial x_{1}}}(x)&\cdots &{\frac {\partial f_{1}}{\partial x_{n}}}(x)\\\vdots &\ddots &\vdots \\{\frac {\partial f_{m}}{\partial x_{1}}}(x)&\cdots &{\frac {\partial f_{m}}{\partial x_{n}}}(x)\end{bmatrix}}.
+
+} Taking h {\displaystyle h} to be h e j {\displaystyle he_{j}} , h {\displaystyle h} a real number and e j = ( 0 , ⋯ , 1 , ⋯ , 0 ) {\displaystyle e_{j}=(0,\cdots ,1,\cdots ,0)} the j -th standard basis element, we see that the differentiability of f {\displaystyle f} at x {\displaystyle x} implies: lim h → 0 f i ( x + h e j ) − f i ( x ) h = ∂ f i ∂ x j ( x ) {\displaystyle \lim _{h\to 0}{\frac {f_{i}(x+he_{j})-f_{i}(x)}{h}}={\frac {\partial f_{i}}{\partial x_{j}}}(x)} where f i {\displaystyle f_{i}} denotes the i -th component of f {\displaystyle f}.
+
+That is, each component of f {\displaystyle f} is differentiable at x {\displaystyle x} in each variable with the derivative ∂ f i ∂ x j ( x ) {\displaystyle {\frac {\partial f_{i}}{\partial x_{j}}}(x)}.
+
+In terms of Jacobian matrices, the chain rule says J ( g ∘ f ) ( x ) = J g ( y ) J f ( x ) {\displaystyle J(g\circ f)(x)=Jg(y)Jf(x)} ; i.
+
+e.
+
+, as ( g ∘ f ) i = g i ∘ f {\displaystyle (g\circ f)_{i}=g_{i}\circ f} , ∂ ( g i ∘ f ) ∂ x j ( x ) = ∂ g i ∂ y 1 ( y ) ∂ f 1 ∂ x j ( x ) + ⋯ + ∂ g i ∂ y m ( y ) ∂ f m ∂ x j ( x ) , {\displaystyle {\frac {\partial (g_{i}\circ f)}{\partial x_{j}}}(x)={\frac {\partial g_{i}}{\partial y_{1}}}(y){\frac {\partial f_{1}}{\partial x_{j}}}(x)+\cdots +{\frac {\partial g_{i}}{\partial y_{m}}}(y){\frac {\partial f_{m}}{\partial x_{j}}}(x),} which is the form of the chain rule that is often stated.
+
+A partial converse to the above holds.
+
+Namely, if the partial derivatives ∂ f i / ∂ x j {\displaystyle {\partial f_{i}}/{\partial x_{j}}} are all defined and continuous, then f {\displaystyle f} is continuously differentiable.
+
+[4] This is a consequence of the mean value inequality: Mean value inequality — [5] Given the map f : X → Y {\displaystyle f:X\to Y} as above and points x , y {\displaystyle x,y} in X {\displaystyle X} such that the line segment between x , y {\displaystyle x,y} lies in X {\displaystyle X} , if t ↦ f ( x + t y ) {\displaystyle t\mapsto f(x+ty)} is continuous on [ 0 , 1 ] {\displaystyle [0,1]} and is differentiable on the interior, then, for any vector v ∈ R m {\displaystyle v\in \mathbb {R} ^{m}} , | Δ y f ( x ) − v | ≤ sup 0 < t < 1 | d d t f ( x + t y ) − v | {\displaystyle |\Delta _{y}f(x)-v|\leq \sup _{0<t<1}\left|{\frac {d}{dt}}f(x+ty)-v\right|} where Δ y f ( x ) = f ( x + y ) − f ( x ).
+
+{\displaystyle \Delta _{y}f(x)=f(x+y)-f(x).
+
+} (This version of mean value inequality follows from mean value inequality in Mean value theorem § Mean value theorem for vector-valued functions applied to the function [ 0 , 1 ] → R m , t ↦ f ( x + t y ) − t v {\displaystyle [0,1]\to \mathbb {R} ^{m},\,t\mapsto f(x+ty)-tv} , where the proof on mean value inequality is given.
+
+) Indeed, let g ( x ) = ( J f ) ( x ) {\displaystyle g(x)=(Jf)(x)}.
+
+We note that, if y = y i e i {\displaystyle y=y_{i}e_{i}} , then d d t f ( x + t y ) = ∂ f ∂ x i ( x + t y ) y = g ( x + t y ) ( y i e i ).
+
+{\displaystyle {\frac {d}{dt}}f(x+ty)={\frac {\partial f}{\partial x_{i}}}(x+ty)y=g(x+ty)(y_{i}e_{i}).
+
+} For simplicity, assume n = 2 {\displaystyle n=2} (the argument for the general case is similar).
+
+Then, by mean value inequality, with the operator norm ‖ ⋅ ‖ {\displaystyle \|\cdot \|} , | Δ y f ( x ) − g ( x ) y | ≤ | Δ y 1 e 1 f ( x 1 , x 2 + y 2 ) − g ( x ) ( y 1 e 1 ) | + | Δ y 2 e 2 f ( x 1 , x 2 ) − g ( x ) ( y 2 e 2 ) | ≤ | y 1 | sup 0 < t < 1 ‖ g ( x 1 + t y 1 , x 2 + y 2 ) − g ( x ) ‖ + | y 2 | sup 0 < t < 1 ‖ g ( x 1 , x 2 + t y 2 ) − g ( x ) ‖ , {\displaystyle {\begin{aligned}&|\Delta _{y}f(x)-g(x)y|\\&\leq |\Delta _{y_{1}e_{1}}f(x_{1},x_{2}+y_{2})-g(x)(y_{1}e_{1})|+|\Delta _{y_{2}e_{2}}f(x_{1},x_{2})-g(x)(y_{2}e_{2})|\\&\leq |y_{1}|\sup _{0<t<1}\|g(x_{1}+ty_{1},x_{2}+y_{2})-g(x)\|+|y_{2}|\sup _{0<t<1}\|g(x_{1},x_{2}+ty_{2})-g(x)\|,\end{aligned}}} which implies | Δ y f ( x ) − g ( x ) y | / | y | → 0 {\displaystyle |\Delta _{y}f(x)-g(x)y|/|y|\to 0} as required.
+
+◻ {\displaystyle \square } Example : Let U {\displaystyle U} be the set of all invertible real square matrices of size n.
+
+Note U {\displaystyle U} can be identified as an open subset of R n 2 {\displaystyle \mathbb {R} ^{n^{2}}} with coordinates x i j , 0 ≤ i , j ≠ n {\displaystyle x_{ij},0\leq i,j\neq n}.
+
+Consider the function f ( g ) = g − 1 {\displaystyle f(g)=g^{-1}} = the inverse matrix of g {\displaystyle g} defined on U {\displaystyle U}.
+
+To guess its derivatives, assume f {\displaystyle f} is differentiable and consider the curve c ( t ) = g e t g − 1 h {\displaystyle c(t)=ge^{tg^{-1}h}} where e A {\displaystyle e^{A}} means the matrix exponential of A {\displaystyle A}.
+
+By the chain rule applied to f ( c ( t ) ) = e − t g − 1 h g − 1 {\displaystyle f(c(t))=e^{-tg^{-1}h}g^{-1}} , we have: f ′ ( c ( t ) ) ∘ c ′ ( t ) = − g − 1 h e − t g − 1 h g − 1 {\displaystyle f'(c(t))\circ c'(t)=-g^{-1}he^{-tg^{-1}h}g^{-1}}.
+
+Taking t = 0 {\displaystyle t=0} , we get: f ′ ( g ) h = − g − 1 h g − 1 {\displaystyle f'(g)h=-g^{-1}hg^{-1}}.
+
+Now, we then have: [6] ‖ ( g + h ) − 1 − g − 1 + g − 1 h g − 1 ‖ ≤ ‖ ( g + h ) − 1 ‖ ‖ h ‖ ‖ g − 1 h g − 1 ‖.
+
+{\displaystyle \|(g+h)^{-1}-g^{-1}+g^{-1}hg^{-1}\|\leq \|(g+h)^{-1}\|\|h\|\|g^{-1}hg^{-1}\|.
+
+} Since the operator norm is equivalent to the Euclidean norm on R n 2 {\displaystyle \mathbb {R} ^{n^{2}}} (any norms are equivalent to each other), this implies f {\displaystyle f} is differentiable.
+
+Finally, from the formula for f ′ {\displaystyle f'} , we see the partial derivatives of f {\displaystyle f} are smooth (infinitely differentiable); whence, f {\displaystyle f} is smooth too.
+
+Higher derivatives and Taylor formula [ edit ] If f : X → R m {\displaystyle f:X\to \mathbb {R} ^{m}} is differentiable where X ⊂ R n {\displaystyle X\subset \mathbb {R} ^{n}} is an open subset, then the derivatives determine the map f ′ : X → Hom ⁡ ( R n , R m ) {\displaystyle f':X\to \operatorname {Hom} (\mathbb {R} ^{n},\mathbb {R} ^{m})} , where Hom {\displaystyle \operatorname {Hom} } stands for homomorphisms between vector spaces; i.
+
+e.
+
+, linear maps.
+
+If f ′ {\displaystyle f'} is differentiable, then f ″ : X → Hom ⁡ ( R n , Hom ⁡ ( R n , R m ) ) {\displaystyle f'':X\to \operatorname {Hom} (\mathbb {R} ^{n},\operatorname {Hom} (\mathbb {R} ^{n},\mathbb {R} ^{m}))}.
+
+Here, the codomain of f ″ {\displaystyle f''} can be identified with the space of bilinear maps by: Hom ⁡ ( R n , Hom ⁡ ( R n , R m ) ) → ∼ φ { ( R n ) 2 → R m bilinear } {\displaystyle \operatorname {Hom} (\mathbb {R} ^{n},\operatorname {Hom} (\mathbb {R} ^{n},\mathbb {R} ^{m})){\overset {\varphi }{\underset {\sim }{\to }}}\{(\mathbb {R} ^{n})^{2}\to \mathbb {R} ^{m}{\text{ bilinear}}\}} where φ ( g ) ( x , y ) = g ( x ) y {\displaystyle \varphi (g)(x,y)=g(x)y} and φ {\displaystyle \varphi } is bijective with the inverse ψ {\displaystyle \psi } given by ( ψ ( g ) x ) y = g ( x , y ) {\displaystyle (\psi (g)x)y=g(x,y)}.
+
+[a] In general, f ( k ) = ( f ( k − 1 ) ) ′ {\displaystyle f^{(k)}=(f^{(k-1)})'} is a map from X {\displaystyle X} to the space of k {\displaystyle k} -multilinear maps ( R n ) k → R m {\displaystyle (\mathbb {R} ^{n})^{k}\to \mathbb {R} ^{m}}.
+
+Just as f ′ ( x ) {\displaystyle f'(x)} is represented by a matrix (Jacobian matrix), when m = 1 {\displaystyle m=1} (a bilinear map is a bilinear form), the bilinear form f ″ ( x ) {\displaystyle f''(x)} is represented by a matrix called the Hessian matrix of f {\displaystyle f} at x {\displaystyle x} ; namely, the square matrix H {\displaystyle H} of size n {\displaystyle n} such that f ″ ( x ) ( y , z ) = ( H y , z ) {\displaystyle f''(x)(y,z)=(Hy,z)} , where the paring refers to an inner product of R n {\displaystyle \mathbb {R} ^{n}} , and H {\displaystyle H} is none other than the Jacobian matrix of f ′ : X → ( R n ) ∗ ≃ R n {\displaystyle f':X\to (\mathbb {R} ^{n})^{*}\simeq \mathbb {R} ^{n}}.
+
+The ( i , j ) {\displaystyle (i,j)} -th entry of H {\displaystyle H} is thus given explicitly as H i j = ∂ 2 f ∂ x i ∂ x j ( x ) {\displaystyle H_{ij}={\frac {\partial ^{2}f}{\partial x_{i}\partial x_{j}}}(x)}.
+
+Moreover, if f ″ {\displaystyle f''} exists and is continuous, then the matrix H {\displaystyle H} is symmetric , the fact known as the symmetry of second derivatives.
+
+[7] This is seen using the mean value inequality.
+
+For vectors u , v {\displaystyle u,v} in R n {\displaystyle \mathbb {R} ^{n}} , using mean value inequality twice, we have: | Δ v Δ u f ( x ) − f ″ ( x ) ( u , v ) | ≤ sup 0 < t 1 , t 2 < 1 | f ″ ( x + t 1 u + t 2 v ) ( u , v ) − f ″ ( x ) ( u , v ) | , {\displaystyle |\Delta _{v}\Delta _{u}f(x)-f''(x)(u,v)|\leq \sup _{0<t_{1},t_{2}<1}|f''(x+t_{1}u+t_{2}v)(u,v)-f''(x)(u,v)|,} which says f ″ ( x ) ( u , v ) = lim s , t → 0 ( Δ t v Δ s u f ( x ) − f ( x ) ) / ( s t ).
+
+{\displaystyle f''(x)(u,v)=\lim _{s,t\to 0}(\Delta _{tv}\Delta _{su}f(x)-f(x))/(st).
+
+} Since the right-hand side is symmetric in u , v {\displaystyle u,v} , so is the left-hand side: f ″ ( x ) ( u , v ) = f ″ ( x ) ( v , u ) {\displaystyle f''(x)(u,v)=f''(x)(v,u)}.
+
+By induction, if f {\displaystyle f} is C k {\displaystyle C^{k}} , then the k -multilinear map f ( k ) ( x ) {\displaystyle f^{(k)}(x)} is symmetric; i.
+
+e.
+
+, the order of taking partial derivatives does not matter.
+
+[7] As in the case of one variable, the Taylor series expansion can then be proved by integration by parts: f ( z + ( h , k ) ) = ∑ a + b < n ∂ x a ∂ y b f ( z ) h a k b a ! b ! + n ∫ 0 1 ( 1 − t ) n − 1 ∑ a + b = n ∂ x a ∂ y b f ( z + t ( h , k ) ) h a k b a ! b ! d t.
+
+{\displaystyle f(z+(h,k))=\sum _{a+b<n}\partial _{x}^{a}\partial _{y}^{b}f(z){h^{a}k^{b} \over a!b!}+n\int _{0}^{1}(1-t)^{n-1}\sum _{a+b=n}\partial _{x}^{a}\partial _{y}^{b}f(z+t(h,k)){h^{a}k^{b} \over a!b!}\,dt.
+
+} Taylor's formula has an effect of dividing a function by variables, which can be illustrated by the next typical theoretical use of the formula.
+
+Example : [8] Let T : S → S {\displaystyle T:{\mathcal {S}}\to {\mathcal {S}}} be a linear map between the vector space S {\displaystyle {\mathcal {S}}} of smooth functions on R n {\displaystyle \mathbb {R} ^{n}} with rapidly decreasing derivatives; i.
+
+e.
+
+, sup | x β ∂ α φ | < ∞ {\displaystyle \sup |x^{\beta }\partial ^{\alpha }\varphi |<\infty } for any multi-index α , β {\displaystyle \alpha ,\beta }.
+
+(The space S {\displaystyle {\mathcal {S}}} is called a Schwartz space.
+
+) For each φ {\displaystyle \varphi } in S {\displaystyle {\mathcal {S}}} , Taylor's formula implies we can write: φ − ψ φ ( y ) = ∑ j = 1 n ( x j − y j ) φ j {\displaystyle \varphi -\psi \varphi (y)=\sum _{j=1}^{n}(x_{j}-y_{j})\varphi _{j}} with φ j ∈ S {\displaystyle \varphi _{j}\in {\mathcal {S}}} , where ψ {\displaystyle \psi } is a smooth function with compact support and ψ ( y ) = 1 {\displaystyle \psi (y)=1}.
+
+Now, assume T {\displaystyle T} commutes with coordinates; i.
+
+e.
+
+, T ( x j φ ) = x j T φ {\displaystyle T(x_{j}\varphi )=x_{j}T\varphi }.
+
+Then T φ − φ ( y ) T ψ = ∑ j = 1 n ( x j − y j ) T φ j {\displaystyle T\varphi -\varphi (y)T\psi =\sum _{j=1}^{n}(x_{j}-y_{j})T\varphi _{j}}.
+
+Evaluating the above at y {\displaystyle y} , we get T φ ( y ) = φ ( y ) T ψ ( y ).
+
+{\displaystyle T\varphi (y)=\varphi (y)T\psi (y).
+
+} In other words, T {\displaystyle T} is a multiplication by some function m {\displaystyle m} ; i.
+
+e.
+
+, T φ = m φ {\displaystyle T\varphi =m\varphi }.
+
+Now, assume further that T {\displaystyle T} commutes with partial differentiations.
+
+We then easily see that m {\displaystyle m} is a constant; T {\displaystyle T} is a multiplication by a constant.
+
+(Aside: the above discussion almost proves the Fourier inversion formula.
+
+Indeed, let F , R : S → S {\displaystyle F,R:{\mathcal {S}}\to {\mathcal {S}}} be the Fourier transform and the reflection; i.
+
+e.
+
+, ( R φ ) ( x ) = φ ( − x ) {\displaystyle (R\varphi )(x)=\varphi (-x)}.
+
+Then, dealing directly with the integral that is involved, one can see T = R F 2 {\displaystyle T=RF^{2}} commutes with coordinates and partial differentiations; hence, T {\displaystyle T} is a multiplication by a constant.
+
+This is almost a proof since one still has to compute this constant.
+
+) A partial converse to the Taylor formula also holds; see Borel's lemma and Whitney extension theorem.
+
+Inverse function theorem and submersion theorem [ edit ] Inverse function theorem — Let f : X → Y {\displaystyle f:X\to Y} be a map between open subsets X , Y {\displaystyle X,Y} in R n , R m {\displaystyle \mathbb {R} ^{n},\mathbb {R} ^{m}}.
+
+If f {\displaystyle f} is continuously differentiable (or more generally C k {\displaystyle C^{k}} ) and f ′ ( x ) {\displaystyle f'(x)} is bijective, there exists neighborhoods U , V {\displaystyle U,V} of x , f ( x ) {\displaystyle x,f(x)} and the inverse f − 1 : V → U {\displaystyle f^{-1}:V\to U} that is continuously differentiable (or respectively C k {\displaystyle C^{k}} ).
+
+A C k {\displaystyle C^{k}} -map with the C k {\displaystyle C^{k}} -inverse is called a C k {\displaystyle C^{k}} -diffeomorphism.
+
+Thus, the theorem says that, for a map f {\displaystyle f} satisfying the hypothesis at a point x {\displaystyle x} , f {\displaystyle f} is a diffeomorphism near x , f ( x ).
+
+{\displaystyle x,f(x).
+
+} For a proof, see Inverse function theorem § A proof using successive approximation.
+
+The implicit function theorem says: [9] given a map f : R n × R m → R m {\displaystyle f:\mathbb {R} ^{n}\times \mathbb {R} ^{m}\to \mathbb {R} ^{m}} , if f ( a , b ) = 0 {\displaystyle f(a,b)=0} , f {\displaystyle f} is C k {\displaystyle C^{k}} in a neighborhood of ( a , b ) {\displaystyle (a,b)} and the derivative of y ↦ f ( a , y ) {\displaystyle y\mapsto f(a,y)} at b {\displaystyle b} is invertible, then there exists a differentiable map g : U → V {\displaystyle g:U\to V} for some neighborhoods U , V {\displaystyle U,V} of a , b {\displaystyle a,b} such that f ( x , g ( x ) ) = 0 {\displaystyle f(x,g(x))=0}.
+
+The theorem follows from the inverse function theorem; see Inverse function theorem § Implicit function theorem.
+
+Another consequence is the submersion theorem.
+
+Integrable functions on Euclidean spaces [ edit ] A partition of an interval [ a , b ] {\displaystyle [a,b]} is a finite sequence a = t 0 ≤ t 1 ≤ ⋯ ≤ t k = b {\displaystyle a=t_{0}\leq t_{1}\leq \cdots \leq t_{k}=b}.
+
+A partition P {\displaystyle P} of a rectangle D {\displaystyle D} (product of intervals) in R n {\displaystyle \mathbb {R} ^{n}} then consists of partitions of the sides of D {\displaystyle D} ; i.
+
+e.
+
+, if D = ∏ 1 n [ a i , b i ] {\displaystyle D=\prod _{1}^{n}[a_{i},b_{i}]} , then P {\displaystyle P} consists of P 1 , … , P n {\displaystyle P_{1},\dots ,P_{n}} such that P i {\displaystyle P_{i}} is a partition of [ a i , b i ] {\displaystyle [a_{i},b_{i}]}.
+
+[10] Given a function f {\displaystyle f} on D {\displaystyle D} , we then define the upper Riemann sum of it as: U ( f , P ) = ∑ Q ∈ P ( sup Q f ) vol ⁡ ( Q ) {\displaystyle U(f,P)=\sum _{Q\in P}(\sup _{Q}f)\operatorname {vol} (Q)} where Q {\displaystyle Q} is a partition element of P {\displaystyle P} ; i.
+
+e.
+
+, Q = ∏ i = 1 n [ t i , j i , t i , j i + 1 ] {\displaystyle Q=\prod _{i=1}^{n}[t_{i,j_{i}},t_{i,j_{i}+1}]} when P i : a i = t i , 0 ≤ … ⋯ ≤ t i , k i = b i {\displaystyle P_{i}:a_{i}=t_{i,0}\leq \dots \cdots \leq t_{i,k_{i}}=b_{i}} is a partition of [ a i , b i ] {\displaystyle [a_{i},b_{i}]}.
+
+[11] The volume vol ⁡ ( Q ) {\displaystyle \operatorname {vol} (Q)} of Q {\displaystyle Q} is the usual Euclidean volume; i.
+
+e.
+
+, vol ⁡ ( Q ) = ∏ 1 n ( t i , j i + 1 − t i , j i ) {\displaystyle \operatorname {vol} (Q)=\prod _{1}^{n}(t_{i,j_{i}+1}-t_{i,j_{i}})}.
+
+The lower Riemann sum L ( f , P ) {\displaystyle L(f,P)} of f {\displaystyle f} is then defined by replacing sup {\displaystyle \sup } by inf {\displaystyle \inf }.
+
+Finally, the function f {\displaystyle f} is called integrable if it is bounded and sup { L ( f , P ) ∣ P } = inf { U ( f , P ) ∣ P } {\displaystyle \sup\{L(f,P)\mid P\}=\inf\{U(f,P)\mid P\}}.
+
+In that case, the common value is denoted as ∫ D f d x {\displaystyle \int _{D}f\,dx}.
+
+[12] A subset of R n {\displaystyle \mathbb {R} ^{n}} is said to have measure zero if for each ϵ > 0 {\displaystyle \epsilon >0} , there are some possibly infinitely many rectangles D 1 , D 2 , … , {\displaystyle D_{1},D_{2},\dots ,} whose union contains the set and ∑ i vol ⁡ ( D i ) < ϵ.
+
+{\displaystyle \sum _{i}\operatorname {vol} (D_{i})<\epsilon.
+
+} [13] A key theorem is Theorem — [14] A bounded function f {\displaystyle f} on a closed rectangle is integrable if and only if the set { x | f is not continuous at x } {\displaystyle \{x|f{\text{ is not continuous at }}x\}} has measure zero.
+
+The next theorem allows us to compute the integral of a function as the iteration of the integrals of the function in one-variables: Fubini's theorem — If f {\displaystyle f} is a continuous function on a closed rectangle D = ∏ [ a i , b i ] {\displaystyle D=\prod [a_{i},b_{i}]} (in fact, this assumption is too strong), then ∫ D f d x = ∫ a n b n ⋯ ( ∫ a 1 b 1 f ( x 1 , … , x n ) d x 1 ) d x 2 ⋯ d x n.
+
+{\displaystyle \int _{D}f\,dx=\int _{a_{n}}^{b_{n}}\cdots \left(\int _{a_{1}}^{b_{1}}f(x_{1},\dots ,x_{n})dx_{1}\right)dx_{2}\cdots dx_{n}.
+
+} In particular, the order of integrations can be changed.
+
+Finally, if M ⊂ R n {\displaystyle M\subset \mathbb {R} ^{n}} is a bounded open subset and f {\displaystyle f} a function on M {\displaystyle M} , then we define ∫ M f d x := ∫ D χ M f d x {\displaystyle \int _{M}f\,dx:=\int _{D}\chi _{M}f\,dx} where D {\displaystyle D} is a closed rectangle containing M {\displaystyle M} and χ M {\displaystyle \chi _{M}} is the characteristic function on M {\displaystyle M} ; i.
+
+e.
+
+, χ M ( x ) = 1 {\displaystyle \chi _{M}(x)=1} if x ∈ M {\displaystyle x\in M} and = 0 {\displaystyle =0} if x ∉ M , {\displaystyle x\not \in M,} provided χ M f {\displaystyle \chi _{M}f} is integrable.
+
+[15] Surface integral [ edit ] If a bounded surface M {\displaystyle M} in R 3 {\displaystyle \mathbb {R} ^{3}} is parametrized by r = r ( u , v ) {\displaystyle {\textbf {r}}={\textbf {r}}(u,v)} with domain D {\displaystyle D} , then the surface integral of a measurable function F {\displaystyle F} on M {\displaystyle M} is defined and denoted as: ∫ M F d S := ∫ ∫ D ( F ∘ r ) | r u × r v | d u d v {\displaystyle \int _{M}F\,dS:=\int \int _{D}(F\circ {\textbf {r}})|{\textbf {r}}_{u}\times {\textbf {r}}_{v}|\,dudv} If F : M → R 3 {\displaystyle F:M\to \mathbb {R} ^{3}} is vector-valued, then we define ∫ M F ⋅ d S := ∫ M ( F ⋅ n ) d S {\displaystyle \int _{M}F\cdot dS:=\int _{M}(F\cdot {\textbf {n}})\,dS} where n {\displaystyle {\textbf {n}}} is an outward unit normal vector to M {\displaystyle M}.
+
+Since n = r u × r v | r u × r v | {\displaystyle {\textbf {n}}={\frac {{\textbf {r}}_{u}\times {\textbf {r}}_{v}}{|{\textbf {r}}_{u}\times {\textbf {r}}_{v}|}}} , we have: ∫ M F ⋅ d S = ∫ ∫ D ( F ∘ r ) ⋅ ( r u × r v ) d u d v = ∫ ∫ D det ( F ∘ r , r u , r v ) d u d v.
+
+{\displaystyle \int _{M}F\cdot dS=\int \int _{D}(F\circ {\textbf {r}})\cdot ({\textbf {r}}_{u}\times {\textbf {r}}_{v})\,dudv=\int \int _{D}\det(F\circ {\textbf {r}},{\textbf {r}}_{u},{\textbf {r}}_{v})\,dudv.
+
+} Vector analysis [ edit ] Tangent vectors and vector fields [ edit ] Let c : [ 0 , 1 ] → R n {\displaystyle c:[0,1]\to \mathbb {R} ^{n}} be a differentiable curve.
+
+Then the tangent vector to the curve c {\displaystyle c} at t {\displaystyle t} is a vector v {\displaystyle v} at the point c ( t ) {\displaystyle c(t)} whose components are given as: v = ( c 1 ′ ( t ) , … , c n ′ ( t ) ) {\displaystyle v=(c_{1}'(t),\dots ,c_{n}'(t))}.
+
+[16] For example, if c ( t ) = ( a cos ⁡ ( t ) , a sin ⁡ ( t ) , b t ) , a > 0 , b > 0 {\displaystyle c(t)=(a\cos(t),a\sin(t),bt),a>0,b>0} is a helix, then the tangent vector at t is: c ′ ( t ) = ( − a sin ⁡ ( t ) , a cos ⁡ ( t ) , b ).
+
+{\displaystyle c'(t)=(-a\sin(t),a\cos(t),b).
+
+} It corresponds to the intuition that the a point on the helix moves up in a constant speed.
+
+If M ⊂ R n {\displaystyle M\subset \mathbb {R} ^{n}} is a differentiable curve or surface, then the tangent space to M {\displaystyle M} at a point p is the set of all tangent vectors to the differentiable curves c : [ 0 , 1 ] → M {\displaystyle c:[0,1]\to M} with c ( 0 ) = p {\displaystyle c(0)=p}.
+
+A vector field X is an assignment to each point p in M a tangent vector X p {\displaystyle X_{p}} to M at p such that the assignment varies smoothly.
+
+Differential forms [ edit ] The dual notion of a vector field is a differential form.
+
+Given an open subset M {\displaystyle M} in R n {\displaystyle \mathbb {R} ^{n}} , by definition, a differential 1-form (often just 1-form) ω {\displaystyle \omega } is an assignment to a point p {\displaystyle p} in M {\displaystyle M} a linear functional ω p {\displaystyle \omega _{p}} on the tangent space T p M {\displaystyle T_{p}M} to M {\displaystyle M} at p {\displaystyle p} such that the assignment varies smoothly.
+
+For a (real or complex-valued) smooth function f {\displaystyle f} , define the 1-form d f {\displaystyle df} by: for a tangent vector v {\displaystyle v} at p {\displaystyle p} , d f p ( v ) = v ( f ) {\displaystyle df_{p}(v)=v(f)} where v ( f ) {\displaystyle v(f)} denotes the directional derivative of f {\displaystyle f} in the direction v {\displaystyle v} at p {\displaystyle p}.
+
+[17] For example, if x i {\displaystyle x_{i}} is the i {\displaystyle i} -th coordinate function, then d x i , p ( v ) = v i {\displaystyle dx_{i,p}(v)=v_{i}} ; i.
+
+e.
+
+, d x i , p {\displaystyle dx_{i,p}} are the dual basis to the standard basis on T p M {\displaystyle T_{p}M}.
+
+Then every differential 1-form ω {\displaystyle \omega } can be written uniquely as ω = f 1 d x 1 + ⋯ + f n d x n {\displaystyle \omega =f_{1}\,dx_{1}+\cdots +f_{n}\,dx_{n}} for some smooth functions f 1 , … , f n {\displaystyle f_{1},\dots ,f_{n}} on M {\displaystyle M} (since, for every point p {\displaystyle p} , the linear functional ω p {\displaystyle \omega _{p}} is a unique linear combination of d x i {\displaystyle dx_{i}} over real numbers).
+
+More generally, a differential k -form is an assignment to a point p {\displaystyle p} in M {\displaystyle M} a vector ω p {\displaystyle \omega _{p}} in the k {\displaystyle k} -th exterior power ⋀ k T p ∗ M {\displaystyle \bigwedge ^{k}T_{p}^{*}M} of the dual space T p ∗ M {\displaystyle T_{p}^{*}M} of T p M {\displaystyle T_{p}M} such that the assignment varies smoothly.
+
+[17] In particular, a 0-form is the same as a smooth function.
+
+Also, any k {\displaystyle k} -form ω {\displaystyle \omega } can be written uniquely as: ω = ∑ i 1 < ⋯ < i k f i 1 … i k d x i 1 ∧ ⋯ ∧ d x i k {\displaystyle \omega =\sum _{i_{1}<\cdots <i_{k}}f_{i_{1}\dots i_{k}}\,dx_{i_{1}}\wedge \cdots \wedge dx_{i_{k}}} for some smooth functions f i 1 … i k {\displaystyle f_{i_{1}\dots i_{k}}}.
+
+[17] Like a smooth function, we can differentiate and integrate differential forms.
+
+If f {\displaystyle f} is a smooth function, then d f {\displaystyle df} can be written as: [18] d f = ∑ i = 1 n ∂ f ∂ x i d x i {\displaystyle df=\sum _{i=1}^{n}{\frac {\partial f}{\partial x_{i}}}\,dx_{i}} since, for v = ∂ / ∂ x j | p {\displaystyle v=\partial /\partial x_{j}|_{p}} , we have: d f p ( v ) = ∂ f ∂ x j ( p ) = ∑ i = 1 n ∂ f ∂ x i ( p ) d x i ( v ) {\displaystyle df_{p}(v)={\frac {\partial f}{\partial x_{j}}}(p)=\sum _{i=1}^{n}{\frac {\partial f}{\partial x_{i}}}(p)\,dx_{i}(v)}.
+
+Note that, in the above expression, the left-hand side (whence the right-hand side) is independent of coordinates x 1 , … , x n {\displaystyle x_{1},\dots ,x_{n}} ; this property is called the invariance of differential.
+
+The operation d {\displaystyle d} is called the exterior derivative and it extends to any differential forms inductively by the requirement ( Leibniz rule ) d ( α ∧ β ) = d α ∧ β + ( − 1 ) p α ∧ d β.
+
+{\displaystyle d(\alpha \wedge \beta )=d\alpha \wedge \beta +(-1)^{p}\alpha \wedge d\beta.
+
+} where α , β {\displaystyle \alpha ,\beta } are a p -form and a q -form.
+
+The exterior derivative has the important property that d ∘ d = 0 {\displaystyle d\circ d=0} ; that is, the exterior derivative d {\displaystyle d} of a differential form d ω {\displaystyle d\omega } is zero.
+
+This property is a consequence of the symmetry of second derivatives (mixed partials are equal).
+
+Boundary and orientation [ edit ] A circle can be oriented clockwise or counterclockwise.
+
+Mathematically, we say that a subset M {\displaystyle M} of R n {\displaystyle \mathbb {R} ^{n}} is oriented if there is a consistent choice of normal vectors to M {\displaystyle M} that varies continuously.
+
+For example, a circle or, more generally, an n -sphere can be oriented; i.
+
+e.
+
+, orientable.
+
+On the other hand, a Möbius strip (a surface obtained by identified by two opposite sides of the rectangle in a twisted way) cannot oriented: if we start with a normal vector and travel around the strip, the normal vector at end will point to the opposite direction.
+
+Proposition — A bounded differentiable region M {\displaystyle M} in R n {\displaystyle \mathbb {R} ^{n}} of dimension k {\displaystyle k} is oriented if and only if there exists a nowhere-vanishing k {\displaystyle k} -form on M {\displaystyle M} (called a volume form).
+
+The proposition is useful because it allows us to give an orientation by giving a volume form.
+
+Integration of differential forms [ edit ] If ω = f d x 1 ∧ ⋯ ∧ d x n {\displaystyle \omega =f\,dx_{1}\wedge \cdots \wedge dx_{n}} is a differential n -form on an open subset M in R n {\displaystyle \mathbb {R} ^{n}} (any n -form is that form), then the integration of it over M {\displaystyle M} with the standard orientation is defined as: ∫ M ω = ∫ M f d x 1 ⋯ d x n.
+
+{\displaystyle \int _{M}\omega =\int _{M}f\,dx_{1}\cdots dx_{n}.
+
+} If M is given the orientation opposite to the standard one, then ∫ M ω {\displaystyle \int _{M}\omega } is defined as the negative of the right-hand side.
+
+Then we have the fundamental formula relating exterior derivative and integration: Stokes' formula — For a bounded region M {\displaystyle M} in R n {\displaystyle \mathbb {R} ^{n}} of dimension k {\displaystyle k} whose boundary is a union of finitely many C 1 {\displaystyle C^{1}} -subsets, if M {\displaystyle M} is oriented, then ∫ ∂ M ω = ∫ M d ω {\displaystyle \int _{\partial M}\omega =\int _{M}d\omega } for any differential ( k − 1 ) {\displaystyle (k-1)} -form ω {\displaystyle \omega } on the boundary ∂ M {\displaystyle \partial M} of M {\displaystyle M}.
+
+Here is a sketch of proof of the formula.
+
+[19] If f {\displaystyle f} is a smooth function on R n {\displaystyle \mathbb {R} ^{n}} with compact support, then we have: ∫ d ( f ω ) = 0 {\displaystyle \int d(f\omega )=0} (since, by the fundamental theorem of calculus, the above can be evaluated on boundaries of the set containing the support.
+
+) On the other hand, ∫ d ( f ω ) = ∫ d f ∧ ω + ∫ f d ω.
+
+{\displaystyle \int d(f\omega )=\int df\wedge \omega +\int f\,d\omega.
+
+} Let f {\displaystyle f} approach the characteristic function on M {\displaystyle M}.
+
+Then the second term on the right goes to ∫ M d ω {\displaystyle \int _{M}d\omega } while the first goes to − ∫ ∂ M ω {\displaystyle -\int _{\partial M}\omega } , by the argument similar to proving the fundamental theorem of calculus.
+
+◻ {\displaystyle \square } The formula generalizes the fundamental theorem of calculus as well as Stokes' theorem in multivariable calculus.
+
+Indeed, if M = [ a , b ] {\displaystyle M=[a,b]} is an interval and ω = f {\displaystyle \omega =f} , then d ω = f ′ d x {\displaystyle d\omega =f'\,dx} and the formula says: ∫ M f ′ d x = f ( b ) − f ( a ) {\displaystyle \int _{M}f'\,dx=f(b)-f(a)}.
+
+Similarly, if M {\displaystyle M} is an oriented bounded surface in R 3 {\displaystyle \mathbb {R} ^{3}} and ω = f d x + g d y + h d z {\displaystyle \omega =f\,dx+g\,dy+h\,dz} , then d ( f d x ) = d f ∧ d x = ∂ f ∂ y d y ∧ d x + ∂ f ∂ z d z ∧ d x {\displaystyle d(f\,dx)=df\wedge dx={\frac {\partial f}{\partial y}}\,dy\wedge dx+{\frac {\partial f}{\partial z}}\,dz\wedge dx} and similarly for d ( g d y ) {\displaystyle d(g\,dy)} and d ( g d y ) {\displaystyle d(g\,dy)}.
+
+Collecting the terms, we thus get: d ω = ( ∂ h ∂ y − ∂ g ∂ z ) d y ∧ d z + ( ∂ f ∂ z − ∂ h ∂ x ) d z ∧ d x + ( ∂ g ∂ x − ∂ f ∂ y ) d x ∧ d y.
+
+{\displaystyle d\omega =\left({\frac {\partial h}{\partial y}}-{\frac {\partial g}{\partial z}}\right)dy\wedge dz+\left({\frac {\partial f}{\partial z}}-{\frac {\partial h}{\partial x}}\right)dz\wedge dx+\left({\frac {\partial g}{\partial x}}-{\frac {\partial f}{\partial y}}\right)dx\wedge dy.
+
+} Then, from the definition of the integration of ω {\displaystyle \omega } , we have ∫ M d ω = ∫ M ( ∇ × F ) ⋅ d S {\displaystyle \int _{M}d\omega =\int _{M}(\nabla \times F)\cdot dS} where F = ( f , g , h ) {\displaystyle F=(f,g,h)} is the vector-valued function and ∇ = ( ∂ ∂ x , ∂ ∂ y , ∂ ∂ z ) {\displaystyle \nabla =\left({\frac {\partial }{\partial x}},{\frac {\partial }{\partial y}},{\frac {\partial }{\partial z}}\right)}.
+
+Hence, Stokes’ formula becomes ∫ M ( ∇ × F ) ⋅ d S = ∫ ∂ M ( f d x + g d y + h d z ) , {\displaystyle \int _{M}(\nabla \times F)\cdot dS=\int _{\partial M}(f\,dx+g\,dy+h\,dz),} which is the usual form of the Stokes' theorem on surfaces.
+
+Green’s theorem is also a special case of Stokes’ formula.
+
+Stokes' formula also yields a general version of Cauchy's integral formula.
+
+To state and prove it, for the complex variable z = x + i y {\displaystyle z=x+iy} and the conjugate z ¯ {\displaystyle {\bar {z}}} , let us introduce the operators ∂ ∂ z = 1 2 ( ∂ ∂ x − i ∂ ∂ y ) , ∂ ∂ z ¯ = 1 2 ( ∂ ∂ x + i ∂ ∂ y ).
+
+{\displaystyle {\frac {\partial }{\partial z}}={\frac {1}{2}}\left({\frac {\partial }{\partial x}}-i{\frac {\partial }{\partial y}}\right),\,{\frac {\partial }{\partial {\bar {z}}}}={\frac {1}{2}}\left({\frac {\partial }{\partial x}}+i{\frac {\partial }{\partial y}}\right).
+
+} In these notations, a function f {\displaystyle f} is holomorphic (complex-analytic) if and only if ∂ f ∂ z ¯ = 0 {\displaystyle {\frac {\partial f}{\partial {\bar {z}}}}=0} (the Cauchy–Riemann equations ).
+
+Also, we have: d f = ∂ f ∂ z d z + ∂ f ∂ z ¯ d z ¯.
+
+{\displaystyle df={\frac {\partial f}{\partial z}}dz+{\frac {\partial f}{\partial {\bar {z}}}}d{\bar {z}}.
+
+} Let D ϵ = { z ∈ C ∣ ϵ < | z − z 0 | < r } {\displaystyle D_{\epsilon }=\{z\in \mathbb {C} \mid \epsilon <|z-z_{0}|<r\}} be a punctured disk with center z 0 {\displaystyle z_{0}}.
+
+Since 1 / ( z − z 0 ) {\displaystyle 1/(z-z_{0})} is holomorphic on D ϵ {\displaystyle D_{\epsilon }} , We have: d ( f z − z 0 d z ) = ∂ f ∂ z ¯ d z ¯ ∧ d z z − z 0 {\displaystyle d\left({\frac {f}{z-z_{0}}}dz\right)={\frac {\partial f}{\partial {\bar {z}}}}{\frac {d{\bar {z}}\wedge dz}{z-z_{0}}}}.
+
+By Stokes’ formula, ∫ D ϵ ∂ f ∂ z ¯ d z ¯ ∧ d z z − z 0 = ( ∫ | z − z 0 | = r − ∫ | z − z 0 | = ϵ ) f z − z 0 d z.
+
+{\displaystyle \int _{D_{\epsilon }}{\frac {\partial f}{\partial {\bar {z}}}}{\frac {d{\bar {z}}\wedge dz}{z-z_{0}}}=\left(\int _{|z-z_{0}|=r}-\int _{|z-z_{0}|=\epsilon }\right){\frac {f}{z-z_{0}}}dz.
+
+} Letting ϵ → 0 {\displaystyle \epsilon \to 0} we then get: [20] [21] 2 π i f ( z 0 ) = ∫ | z − z 0 | = r f z − z 0 d z + ∫ | z − z 0 | ≤ r ∂ f ∂ z ¯ d z ∧ d z ¯ z − z 0.
+
+{\displaystyle 2\pi i\,f(z_{0})=\int _{|z-z_{0}|=r}{\frac {f}{z-z_{0}}}dz+\int _{|z-z_{0}|\leq r}{\frac {\partial f}{\partial {\bar {z}}}}{\frac {dz\wedge d{\bar {z}}}{z-z_{0}}}.
+
+} Winding numbers and Poincaré lemma [ edit ] This section needs expansion.
+
+You can help by adding to it.
+
+( May 2022 ) A differential form ω {\displaystyle \omega } is called closed if d ω = 0 {\displaystyle d\omega =0} and is called exact if ω = d η {\displaystyle \omega =d\eta } for some differential form η {\displaystyle \eta } (often called a potential).
+
+Since d ∘ d = 0 {\displaystyle d\circ d=0} , an exact form is closed.
+
+But the converse does not hold in general; there might be a non-exact closed form.
+
+A classic example of such a form is: [22] ω = − y x 2 + y 2 + x x 2 + y 2 {\displaystyle \omega ={\frac {-y}{x^{2}+y^{2}}}+{\frac {x}{x^{2}+y^{2}}}} , which is a differential form on R 2 − 0 {\displaystyle \mathbb {R} ^{2}-0}.
+
+Suppose we switch to polar coordinates: x = r cos ⁡ θ , y = r sin ⁡ θ {\displaystyle x=r\cos \theta ,y=r\sin \theta } where r = x 2 + y 2 {\displaystyle r={\sqrt {x^{2}+y^{2}}}}.
+
+Then ω = r − 2 ( − r sin ⁡ θ d x + r cos ⁡ θ d y ) = d θ.
+
+{\displaystyle \omega =r^{-2}(-r\sin \theta \,dx+r\cos \theta \,dy)=d\theta.
+
+} This does not show that ω {\displaystyle \omega } is exact: the trouble is that θ {\displaystyle \theta } is not a well-defined continuous function on R 2 − 0 {\displaystyle \mathbb {R} ^{2}-0}.
+
+Since any function f {\displaystyle f} on R 2 − 0 {\displaystyle \mathbb {R} ^{2}-0} with d f = ω {\displaystyle df=\omega } differ from θ {\displaystyle \theta } by constant, this means that ω {\displaystyle \omega } is not exact.
+
+The calculation, however, shows that ω {\displaystyle \omega } is exact, for example, on R 2 − { x = 0 } {\displaystyle \mathbb {R} ^{2}-\{x=0\}} since we can take θ = arctan ⁡ ( y / x ) {\displaystyle \theta =\arctan(y/x)} there.
+
+There is a result (Poincaré lemma) that gives a condition that guarantees closed forms are exact.
+
+To state it, we need some notions from topology.
+
+Given two continuous maps f , g : X → Y {\displaystyle f,g:X\to Y} between subsets of R m , R n {\displaystyle \mathbb {R} ^{m},\mathbb {R} ^{n}} (or more generally topological spaces), a homotopy from f {\displaystyle f} to g {\displaystyle g} is a continuous function H : X × [ 0 , 1 ] → Y {\displaystyle H:X\times [0,1]\to Y} such that f ( x ) = H ( x , 0 ) {\displaystyle f(x)=H(x,0)} and g ( x ) = H ( x , 1 ) {\displaystyle g(x)=H(x,1)}.
+
+Intuitively, a homotopy is a continuous variation of one function to another.
+
+A loop in a set X {\displaystyle X} is a curve whose starting point coincides with the end point; i.
+
+e.
+
+, c : [ 0 , 1 ] → X {\displaystyle c:[0,1]\to X} such that c ( 0 ) = c ( 1 ) {\displaystyle c(0)=c(1)}.
+
+Then a subset of R n {\displaystyle \mathbb {R} ^{n}} is called simply connected if every loop is homotopic to a constant function.
+
+A typical example of a simply connected set is a disk D = { ( x , y ) ∣ x 2 + y 2 ≤ r } ⊂ R 2 {\displaystyle D=\{(x,y)\mid {\sqrt {x^{2}+y^{2}}}\leq r\}\subset \mathbb {R} ^{2}}.
+
+Indeed, given a loop c : [ 0 , 1 ] → D {\displaystyle c:[0,1]\to D} , we have the homotopy H : [ 0 , 1 ] 2 → D , H ( x , t ) = ( 1 − t ) c ( x ) + t c ( 0 ) {\displaystyle H:[0,1]^{2}\to D,\,H(x,t)=(1-t)c(x)+tc(0)} from c {\displaystyle c} to the constant function c ( 0 ) {\displaystyle c(0)}.
+
+A punctured disk, on the other hand, is not simply connected.
+
+Poincaré lemma — If M {\displaystyle M} is a simply connected open subset of R n {\displaystyle \mathbb {R} ^{n}} , then each closed 1-form on M {\displaystyle M} is exact.
+
+Geometry of curves and surfaces [ edit ] This section needs expansion.
+
+You can help by adding to it.
+
+( May 2022 ) Moving frame [ edit ] Vector fields E 1 , … , E 3 {\displaystyle E_{1},\dots ,E_{3}} on R 3 {\displaystyle \mathbb {R} ^{3}} are called a frame field if they are orthogonal to each other at each point; i.
+
+e.
+
+, E i ⋅ E j = δ i j {\displaystyle E_{i}\cdot E_{j}=\delta _{ij}} at each point.
+
+[23] The basic example is the standard frame U i {\displaystyle U_{i}} ; i.
+
+e.
+
+, U i ( x ) {\displaystyle U_{i}(x)} is a standard basis for each point x {\displaystyle x} in R 3 {\displaystyle \mathbb {R} ^{3}}.
+
+Another example is the cylindrical frame E 1 = cos ⁡ θ U 1 + sin ⁡ θ U 2 , E 2 = − sin ⁡ θ U 1 + cos ⁡ θ U 2 , E 3 = U 3.
+
+{\displaystyle E_{1}=\cos \theta U_{1}+\sin \theta U_{2},\,E_{2}=-\sin \theta U_{1}+\cos \theta U_{2},\,E_{3}=U_{3}.
+
+} [24] For the study of the geometry of a curve, the important frame to use is a Frenet frame T , N , B {\displaystyle T,N,B} on a unit-speed curve β : I → R 3 {\displaystyle \beta :I\to \mathbb {R} ^{3}} given as: The Gauss–Bonnet theorem [ edit ] The Gauss–Bonnet theorem relates the topology of a surface and its geometry.
+
+The Gauss–Bonnet theorem — [25] For each bounded surface M {\displaystyle M} in R 3 {\displaystyle \mathbb {R} ^{3}} , we have: 2 π χ ( M ) = ∫ M K d S {\displaystyle 2\pi \,\chi (M)=\int _{M}K\,dS} where χ ( M ) {\displaystyle \chi (M)} is the Euler characteristic of M {\displaystyle M} and K {\displaystyle K} the curvature.
+
+Calculus of variations [ edit ] Method of Lagrange multiplier [ edit ] Lagrange multiplier — [26] Let g : U → R r {\displaystyle g:U\to \mathbb {R} ^{r}} be a differentiable function from an open subset of R n {\displaystyle \mathbb {R} ^{n}} such that g ′ {\displaystyle g'} has rank r {\displaystyle r} at every point in g − 1 ( 0 ) {\displaystyle g^{-1}(0)}.
+
+For a differentiable function f : R n → R {\displaystyle f:\mathbb {R} ^{n}\to \mathbb {R} } , if f {\displaystyle f} attains either a maximum or minimum at a point p {\displaystyle p} in g − 1 ( 0 ) {\displaystyle g^{-1}(0)} , then there exists real numbers λ 1 , … , λ r {\displaystyle \lambda _{1},\dots ,\lambda _{r}} such that ∇ f ( p ) = λ i ∑ i = 1 r ∇ g i ( p ) {\displaystyle \nabla f(p)=\lambda _{i}\sum _{i=1}^{r}\nabla g_{i}(p)}.
+
+In other words, p {\displaystyle p} is a stationary point of f − ∑ 1 r λ i g i {\displaystyle f-\sum _{1}^{r}\lambda _{i}g_{i}}.
+
+The set g − 1 ( 0 ) {\displaystyle g^{-1}(0)} is usually called a constraint.
+
+Example : [27] Suppose we want to find the minimum distance between the circle x 2 + y 2 = 1 {\displaystyle x^{2}+y^{2}=1} and the line x + y = 4 {\displaystyle x+y=4}.
+
+That means that we want to minimize the function f ( x , y , u , v ) = ( x − u ) 2 + ( y − v ) 2 {\displaystyle f(x,y,u,v)=(x-u)^{2}+(y-v)^{2}} , the square distance between a point ( x , y ) {\displaystyle (x,y)} on the circle and a point ( u , v ) {\displaystyle (u,v)} on the line, under the constraint g = ( x 2 + y 2 − 1 , u + v − 4 ) {\displaystyle g=(x^{2}+y^{2}-1,u+v-4)}.
+
+We have: ∇ f = ( 2 ( x − u ) , 2 ( y − v ) , − 2 ( x − u ) , − 2 ( y − v ) ).
+
+{\displaystyle \nabla f=(2(x-u),2(y-v),-2(x-u),-2(y-v)).
+
+} ∇ g 1 = ( 2 x , 2 y , 0 , 0 ) , ∇ g 2 = ( 0 , 0 , 1 , 1 ).
+
+{\displaystyle \nabla g_{1}=(2x,2y,0,0),\nabla g_{2}=(0,0,1,1).
+
+} Since the Jacobian matrix of g {\displaystyle g} has rank 2 everywhere on g − 1 ( 0 ) {\displaystyle g^{-1}(0)} , the Lagrange multiplier gives: x − u = λ 1 x , y − v = λ 1 y , 2 ( x − u ) = − λ 2 , 2 ( y − v ) = − λ 2.
+
+{\displaystyle x-u=\lambda _{1}x,\,y-v=\lambda _{1}y,\,2(x-u)=-\lambda _{2},\,2(y-v)=-\lambda _{2}.
+
+} If λ 1 = 0 {\displaystyle \lambda _{1}=0} , then x = u , y = v {\displaystyle x=u,y=v} , not possible.
+
+Thus, λ 1 ≠ 0 {\displaystyle \lambda _{1}\neq 0} and x = x − u λ 1 , y = y − v λ 1.
+
+{\displaystyle x={\frac {x-u}{\lambda _{1}}},\,y={\frac {y-v}{\lambda _{1}}}.
+
+} From this, it easily follows that x = y = 1 / 2 {\displaystyle x=y=1/{\sqrt {2}}} and u = v = 2 {\displaystyle u=v=2}.
+
+Hence, the minimum distance is 2 2 − 1 {\displaystyle 2{\sqrt {2}}-1} (as a minimum distance clearly exists).
+
+Here is an application to linear algebra.
+
+[28] Let V {\displaystyle V} be a finite-dimensional real vector space and T : V → V {\displaystyle T:V\to V} a self-adjoint operator.
+
+We shall show V {\displaystyle V} has a basis consisting of eigenvectors of T {\displaystyle T} (i.
+
+e.
+
+, T {\displaystyle T} is diagonalizable) by induction on the dimension of V {\displaystyle V}.
+
+Choosing a basis on V {\displaystyle V} we can identify V = R n {\displaystyle V=\mathbb {R} ^{n}} and T {\displaystyle T} is represented by the matrix [ a i j ] {\displaystyle [a_{ij}]}.
+
+Consider the function f ( x ) = ( T x , x ) {\displaystyle f(x)=(Tx,x)} , where the bracket means the inner product.
+
+Then ∇ f = 2 ( ∑ a 1 i x i , … , ∑ a n i x i ) {\displaystyle \nabla f=2(\sum a_{1i}x_{i},\dots ,\sum a_{ni}x_{i})}.
+
+On the other hand, for g = ∑ x i 2 − 1 {\displaystyle g=\sum x_{i}^{2}-1} , since g − 1 ( 0 ) {\displaystyle g^{-1}(0)} is compact, f {\displaystyle f} attains a maximum or minimum at a point u {\displaystyle u} in g − 1 ( 0 ) {\displaystyle g^{-1}(0)}.
+
+Since ∇ g = 2 ( x 1 , … , x n ) {\displaystyle \nabla g=2(x_{1},\dots ,x_{n})} , by Lagrange multiplier, we find a real number λ {\displaystyle \lambda } such that 2 ∑ i a j i u i = 2 λ u j , 1 ≤ j ≤ n.
+
+{\displaystyle 2\sum _{i}a_{ji}u_{i}=2\lambda u_{j},1\leq j\leq n.
+
+} But that means T u = λ u {\displaystyle Tu=\lambda u}.
+
+By inductive hypothesis, the self-adjoint operator T : W → W {\displaystyle T:W\to W} , W {\displaystyle W} the orthogonal complement to u {\displaystyle u} , has a basis consisting of eigenvectors.
+
+Hence, we are done.
+
+◻ {\displaystyle \square }.
+
+Weak derivatives [ edit ] Up to measure-zero sets, two functions can be determined to be equal or not by means of integration against other functions (called test functions).
+
+Namely, the following sometimes called the fundamental lemma of calculus of variations : Lemma [29] — If f , g {\displaystyle f,g} are locally integrable functions on an open subset M ⊂ R n {\displaystyle M\subset \mathbb {R} ^{n}} such that ∫ ( f − g ) φ d x = 0 {\displaystyle \int (f-g)\varphi \,dx=0} for every φ ∈ C c ∞ ( M ) {\displaystyle \varphi \in C_{c}^{\infty }(M)} (called a test function).
+
+Then f = g {\displaystyle f=g} almost everywhere.
+
+If, in addition, f , g {\displaystyle f,g} are continuous, then f = g {\displaystyle f=g}.
+
+Given a continuous function f {\displaystyle f} , by the lemma, a continuously differentiable function u {\displaystyle u} is such that ∂ u ∂ x i = f {\displaystyle {\frac {\partial u}{\partial x_{i}}}=f} if and only if ∫ ∂ u ∂ x i φ d x = ∫ f φ d x {\displaystyle \int {\frac {\partial u}{\partial x_{i}}}\varphi \,dx=\int f\varphi \,dx} for every φ ∈ C c ∞ ( M ) {\displaystyle \varphi \in C_{c}^{\infty }(M)}.
+
+But, by integration by parts , the partial derivative on the left-hand side of u {\displaystyle u} can be moved to that of φ {\displaystyle \varphi } ; i.
+
+e.
+
+, − ∫ u ∂ φ ∂ x i d x = ∫ f φ d x {\displaystyle -\int u{\frac {\partial \varphi }{\partial x_{i}}}\,dx=\int f\varphi \,dx} where there is no boundary term since φ {\displaystyle \varphi } has compact support.
+
+Now the key point is that this expression makes sense even if u {\displaystyle u} is not necessarily differentiable and thus can be used to give sense to a derivative of such a function.
+
+Note each locally integrable function u {\displaystyle u} defines the linear functional φ ↦ ∫ u φ d x {\displaystyle \varphi \mapsto \int u\varphi \,dx} on C c ∞ ( M ) {\displaystyle C_{c}^{\infty }(M)} and, moreover, each locally integrable function can be identified with such linear functional, because of the early lemma.
+
+Hence, quite generally, if u {\displaystyle u} is a linear functional on C c ∞ ( M ) {\displaystyle C_{c}^{\infty }(M)} , then we define ∂ u ∂ x i {\displaystyle {\frac {\partial u}{\partial x_{i}}}} to be the linear functional φ ↦ − ⟨ u , ∂ φ ∂ x i ⟩ {\displaystyle \varphi \mapsto -\left\langle u,{\frac {\partial \varphi }{\partial x_{i}}}\right\rangle } where the bracket means ⟨ α , φ ⟩ = α ( φ ) {\displaystyle \langle \alpha ,\varphi \rangle =\alpha (\varphi )}.
+
+It is then called the weak derivative of u {\displaystyle u} with respect to x i {\displaystyle x_{i}}.
+
+If u {\displaystyle u} is continuously differentiable, then the weak derivate of it coincides with the usual one; i.
+
+e.
+
+, the linear functional ∂ u ∂ x i {\displaystyle {\frac {\partial u}{\partial x_{i}}}} is the same as the linear functional determined by the usual partial derivative of u {\displaystyle u} with respect to x i {\displaystyle x_{i}}.
+
+A usual derivative is often then called a classical derivative.
+
+When a linear functional on C c ∞ ( M ) {\displaystyle C_{c}^{\infty }(M)} is continuous with respect to a certain topology on C c ∞ ( M ) {\displaystyle C_{c}^{\infty }(M)} , such a linear functional is called a distribution , an example of a generalized function.
+
+A classic example of a weak derivative is that of the Heaviside function H {\displaystyle H} , the characteristic function on the interval ( 0 , ∞ ) {\displaystyle (0,\infty )}.
+
+[30] For every test function φ {\displaystyle \varphi } , we have: ⟨ H ′ , φ ⟩ = − ∫ 0 ∞ φ ′ d x = φ ( 0 ).
+
+{\displaystyle \langle H',\varphi \rangle =-\int _{0}^{\infty }\varphi '\,dx=\varphi (0).
+
+} Let δ a {\displaystyle \delta _{a}} denote the linear functional φ ↦ φ ( a ) {\displaystyle \varphi \mapsto \varphi (a)} , called the Dirac delta function (although not exactly a function).
+
+Then the above can be written as: H ′ = δ 0.
+
+{\displaystyle H'=\delta _{0}.
+
+} Cauchy's integral formula has a similar interpretation in terms of weak derivatives.
+
+For the complex variable z = x + i y {\displaystyle z=x+iy} , let E z 0 ( z ) = 1 π ( z − z 0 ) {\displaystyle E_{z_{0}}(z)={\frac {1}{\pi (z-z_{0})}}}.
+
+For a test function φ {\displaystyle \varphi } , if the disk | z − z 0 | ≤ r {\displaystyle |z-z_{0}|\leq r} contains the support of φ {\displaystyle \varphi } , by Cauchy's integral formula, we have: φ ( z 0 ) = 1 2 π i ∫ ∂ φ ∂ z ¯ d z ∧ d z ¯ z − z 0.
+
+{\displaystyle \varphi (z_{0})={1 \over 2\pi i}\int {\frac {\partial \varphi }{\partial {\bar {z}}}}{\frac {dz\wedge d{\bar {z}}}{z-z_{0}}}.
+
+} Since d z ∧ d z ¯ = − 2 i d x ∧ d y {\displaystyle dz\wedge d{\bar {z}}=-2idx\wedge dy} , this means: φ ( z 0 ) = − ∫ E z 0 ∂ φ ∂ z ¯ d x d y = ⟨ ∂ E z 0 ∂ z ¯ , φ ⟩ , {\displaystyle \varphi (z_{0})=-\int E_{z_{0}}{\frac {\partial \varphi }{\partial {\bar {z}}}}dxdy=\left\langle {\frac {\partial E_{z_{0}}}{\partial {\bar {z}}}},\varphi \right\rangle ,} or ∂ E z 0 ∂ z ¯ = δ z 0.
+
+{\displaystyle {\frac {\partial E_{z_{0}}}{\partial {\bar {z}}}}=\delta _{z_{0}}.
+
+} [31] In general, a generalized function is called a fundamental solution for a linear partial differential operator if the application of the operator to it is the Dirac delta.
+
+Hence, the above says E z 0 {\displaystyle E_{z_{0}}} is the fundamental solution for the differential operator ∂ / ∂ z ¯ {\displaystyle \partial /\partial {\bar {z}}}.
+
+See also: Limit of distributions Hamilton–Jacobi theory [ edit ] Main article: Hamilton–Jacobi equation This section needs expansion.
+
+You can help by adding to it.
+
+( May 2022 ) Calculus on manifolds [ edit ] Definition of a manifold [ edit ] This section requires some background in general topology.
+
+A manifold is a Hausdorff topological space that is locally modeled by an Euclidean space.
+
+By definition, an atlas of a topological space M {\displaystyle M} is a set of maps φ i : U i → R n {\displaystyle \varphi _{i}:U_{i}\to \mathbb {R} ^{n}} , called charts, such that U i {\displaystyle U_{i}} are an open cover of M {\displaystyle M} ; i.
+
+e.
+
+, each U i {\displaystyle U_{i}} is open and M = ∪ i U i {\displaystyle M=\cup _{i}U_{i}} , φ i : U i → φ i ( U i ) {\displaystyle \varphi _{i}:U_{i}\to \varphi _{i}(U_{i})} is a homeomorphism and φ j ∘ φ i − 1 : φ i ( U i ∩ U j ) → φ j ( U i ∩ U j ) {\displaystyle \varphi _{j}\circ \varphi _{i}^{-1}:\varphi _{i}(U_{i}\cap U_{j})\to \varphi _{j}(U_{i}\cap U_{j})} is smooth; thus a diffeomorphism.
+
+By definition, a manifold is a second-countable Hausdorff topological space with a maximal atlas (called a differentiable structure ); "maximal" means that it is not contained in strictly larger atlas.
+
+The dimension of the manifold M {\displaystyle M} is the dimension of the model Euclidean space R n {\displaystyle \mathbb {R} ^{n}} ; namely, n {\displaystyle n} and a manifold is called an n -manifold when it has dimension n.
+
+A function on a manifold M {\displaystyle M} is said to be smooth if f | U ∘ φ − 1 {\displaystyle f|_{U}\circ \varphi ^{-1}} is smooth on φ ( U ) {\displaystyle \varphi (U)} for each chart φ : U → R n {\displaystyle \varphi :U\to \mathbb {R} ^{n}} in the differentiable structure.
+
+A manifold is paracompact ; this has an implication that it admits a partition of unity subordinate to a given open cover.
+
+If R n {\displaystyle \mathbb {R} ^{n}} is replaced by an upper half-space H n {\displaystyle \mathbb {H} ^{n}} , then we get the notion of a manifold-with-boundary.
+
+The set of points that map to the boundary of H n {\displaystyle \mathbb {H} ^{n}} under charts is denoted by ∂ M {\displaystyle \partial M} and is called the boundary of M {\displaystyle M}.
+
+This boundary may not be the topological boundary of M {\displaystyle M}.
+
+Since the interior of H n {\displaystyle \mathbb {H} ^{n}} is diffeomorphic to R n {\displaystyle \mathbb {R} ^{n}} , a manifold is a manifold-with-boundary with empty boundary.
+
+The next theorem furnishes many examples of manifolds.
+
+Theorem — [32] Let g : U → R r {\displaystyle g:U\to \mathbb {R} ^{r}} be a differentiable map from an open subset U ⊂ R n {\displaystyle U\subset \mathbb {R} ^{n}} such that g ′ ( p ) {\displaystyle g'(p)} has rank r {\displaystyle r} for every point p {\displaystyle p} in g − 1 ( 0 ) {\displaystyle g^{-1}(0)}.
+
+Then the zero set g − 1 ( 0 ) {\displaystyle g^{-1}(0)} is an ( n − r ) {\displaystyle (n-r)} -manifold.
+
+For example, for g ( x ) = x 1 2 + ⋯ + x n + 1 2 − 1 {\displaystyle g(x)=x_{1}^{2}+\cdots +x_{n+1}^{2}-1} , the derivative g ′ ( x ) = [ 2 x 1 2 x 2 ⋯ 2 x n + 1 ] {\displaystyle g'(x)={\begin{bmatrix}2x_{1}&2x_{2}&\cdots &2x_{n+1}\end{bmatrix}}} has rank one at every point p {\displaystyle p} in g − 1 ( 0 ) {\displaystyle g^{-1}(0)}.
+
+Hence, the n -sphere g − 1 ( 0 ) {\displaystyle g^{-1}(0)} is an n -manifold.
+
+The theorem is proved as a corollary of the inverse function theorem.
+
+Many familiar manifolds are subsets of R n {\displaystyle \mathbb {R} ^{n}}.
+
+The next theoretically important result says that there is no other kind of manifolds.
+
+An immersion is a smooth map whose differential is injective.
+
+An embedding is an immersion that is homeomorphic (thus diffeomorphic) to the image.
+
+Whitney's embedding theorem — Each k {\displaystyle k} -manifold can be embedded into R 2 k {\displaystyle \mathbb {R} ^{2k}}.
+
+The proof that a manifold can be embedded into R N {\displaystyle \mathbb {R} ^{N}} for some N is considerably easier and can be readily given here.
+
+It is known [ citation needed ] that a manifold has a finite atlas { φ i : U i → R n ∣ 1 ≤ i ≤ r } {\displaystyle \{\varphi _{i}:U_{i}\to \mathbb {R} ^{n}\mid 1\leq i\leq r\}}.
+
+Let λ i {\displaystyle \lambda _{i}} be smooth functions such that Supp ⁡ ( λ i ) ⊂ U i {\displaystyle \operatorname {Supp} (\lambda _{i})\subset U_{i}} and { λ i = 1 } {\displaystyle \{\lambda _{i}=1\}} cover M {\displaystyle M} (e.
+
+g.
+
+, a partition of unity).
+
+Consider the map f = ( λ 1 φ 1 , … , λ r φ r , λ 1 , … , λ r ) : M → R ( k + 1 ) r {\displaystyle f=(\lambda _{1}\varphi _{1},\dots ,\lambda _{r}\varphi _{r},\lambda _{1},\dots ,\lambda _{r}):M\to \mathbb {R} ^{(k+1)r}} It is easy to see that f {\displaystyle f} is an injective immersion.
+
+It may not be an embedding.
+
+To fix that, we shall use: ( f , g ) : M → R ( k + 1 ) r + 1 {\displaystyle (f,g):M\to \mathbb {R} ^{(k+1)r+1}} where g {\displaystyle g} is a smooth proper map.
+
+The existence of a smooth proper map is a consequence of a partition of unity.
+
+See [1] for the rest of the proof in the case of an immersion.
+
+◻ {\displaystyle \square } Nash's embedding theorem says that, if M {\displaystyle M} is equipped with a Riemannian metric, then the embedding can be taken to be isometric with an expense of increasing 2 k {\displaystyle 2k} ; for this, see this T.
+
+Tao's blog.
+
+Tubular neighborhood and transversality [ edit ] This section needs expansion.
+
+You can help by adding to it.
+
+( May 2022 ) A technically important result is: Tubular neighborhood theorem — Let M be a manifold and N ⊂ M {\displaystyle N\subset M} a compact closed submanifold.
+
+Then there exists a neighborhood U {\displaystyle U} of N {\displaystyle N} such that U {\displaystyle U} is diffeomorphic to the normal bundle ν N = T M | N / T N {\displaystyle \nu _{N}=TM|_{N}/TN} to i : N ↪ M {\displaystyle i:N\hookrightarrow M} and N {\displaystyle N} corresponds to the zero section of ν i {\displaystyle \nu _{i}} under the diffeomorphism.
+
+This can be proved by putting a Riemannian metric on the manifold M {\displaystyle M}.
+
+Indeed, the choice of metric makes the normal bundle ν i {\displaystyle \nu _{i}} a complementary bundle to T N {\displaystyle TN} ; i.
+
+e.
+
+, T M | N {\displaystyle TM|_{N}} is the direct sum of T N {\displaystyle TN} and ν N {\displaystyle \nu _{N}}.
+
+Then, using the metric, we have the exponential map exp : U → V {\displaystyle \exp :U\to V} for some neighborhood U {\displaystyle U} of N {\displaystyle N} in the normal bundle ν N {\displaystyle \nu _{N}} to some neighborhood V {\displaystyle V} of N {\displaystyle N} in M {\displaystyle M}.
+
+The exponential map here may not be injective but it is possible to make it injective (thus diffeomorphic) by shrinking U {\displaystyle U} (for now, see see [2] ).
+
+Integration on manifolds and distribution densities [ edit ] This section needs expansion.
+
+You can help by adding to it.
+
+( May 2022 ) The starting point for the topic of integration on manifolds is that there is no invariant way to integrate functions on manifolds.
+
+This may be obvious if we asked: what is an integration of functions on a finite-dimensional real vector space? (In contrast, there is an invariant way to do differentiation since, by definition, a manifold comes with a differentiable structure).
+
+There are several ways to introduce integration theory to manifolds: Integrate differential forms.
+
+Do integration against some measure.
+
+Equip a manifold with a Riemannian metric and do integration against such a metric.
+
+For example, if a manifold is embedded into an Euclidean space R n {\displaystyle \mathbb {R} ^{n}} , then it acquires the Lebesgue measure restricting from the ambient Euclidean space and then the second approach works.
+
+The first approach is fine in many situations but it requires the manifold to be oriented (and there is a non-orientable manifold that is not pathological).
+
+The third approach generalizes and that gives rise to the notion of a density.
+
+Generalizations [ edit ] Extensions to infinite-dimensional normed spaces [ edit ] The notions like differentiability extend to normed spaces.
+
+See also [ edit ] Differential geometry of surfaces Integration along fibers Lusin's theorem Density on a manifold Notes [ edit ] ^ This is just the tensor-hom adjunction.
+
+Citations [ edit ] ^ Spivak 1965 , Ch 2.
+
+Basic definitions.
+
+^ Hörmander 2015 , Definition 1.
+
+1.
+
+4.
+
+^ Hörmander 2015 , (1.
+
+1.
+
+3.
+
+) ^ Hörmander 2015 , Theorem 1.
+
+1.
+
+6.
+
+^ Hörmander 2015 , (1.
+
+1.
+
+2)' ^ Hörmander 2015 , p.
+
+8 ^ a b Hörmander 2015 , Theorem 1.
+
+1.
+
+8.
+
+^ Hörmander 2015 , Lemma 7.
+
+1.
+
+4.
+
+^ Spivak 1965 , Theorem 2-12.
+
+^ Spivak 1965 , p.
+
+46 ^ Spivak 1965 , p.
+
+47 ^ Spivak 1965 , p.
+
+48 ^ Spivak 1965 , p.
+
+50 ^ Spivak 1965 , Theorem 3-8.
+
+^ Spivak 1965 , p.
+
+55 ^ Spivak 1965 , Exercise 4.
+
+14.
+
+^ a b c Spivak 1965 , p.
+
+89 ^ Spivak 1965 , Theorem 4-7.
+
+^ Hörmander 2015 , p.
+
+151 ^ Theorem 1.
+
+2.
+
+1.
+
+in Hörmander, Lars (1990).
+
+An Introduction to Complex Analysis in Several Variables (Third ed.
+
+).
+
+North Holland.
+
+^ Spivak 1965 , Exercise 4-33.
+
+^ Spivak 1965 , p.
+
+93 ^ O'Neill 2006 , Definition 6.
+
+1.
+
+^ O'Neill 2006 , Example 6.
+
+2.
+
+(1) ^ O'Neill 2006 , Theorem 6.
+
+10.
+
+^ Spivak 1965 , Exercise 5-16.
+
+^ Edwards 1994 , Ch.
+
+II, $ 5.
+
+Example 9.
+
+^ Spivak 1965 , Exercise 5-17.
+
+^ Hörmander 2015 , Theorem 1.
+
+2.
+
+5.
+
+^ Hörmander 2015 , Example 3.
+
+1.
+
+2.
+
+^ Hörmander 2015 , p.
+
+63 ^ Spivak 1965 , Theorem 5-1.
+
+References [ edit ] do Carmo, Manfredo P.
+
+(1976), Differential Geometry of Curves and Surfaces , Prentice-Hall, ISBN 978-0-13-212589-5 Edwards, Charles Henry (1994) [1973], Advanced Calculus of Several Variables , Mineola, New York: Dover Publications, ISBN 0-486-68336-2 Folland, Gerald , Real Analysis: Modern Techniques and Their Applications (2nd ed.
+
+) Cartan, Henri (1971), Calcul Differentiel (in French), Hermann , ISBN 9780395120330 Hirsch, Morris (1994), Differential Topology (2nd ed.
+
+), Springer-Verlag Hörmander, Lars (2015), The Analysis of Linear Partial Differential Operators I: Distribution Theory and Fourier Analysis , Classics in Mathematics (2nd ed.
+
+), Springer, ISBN 9783642614972 Loomis, Lynn Harold ; Sternberg, Shlomo (1968), Advanced Calculus , Addison-Wesley (revised 1990, Jones and Bartlett; reprinted 2014, World Scientific) [this text in particular discusses density] O'Neill, Barrett (2006), Elementary Differential Geometry (revised 2nd ed.
+
+), Amsterdam: Elsevier/Academic Press, ISBN 0-12-088735-5 Rudin, Walter (1976) [1953], Principles of Mathematical Analysis (3rd ed.
+
+), New York: McGraw Hill, pp.
+
+204–299, ISBN 978-0-07-054235-8 Spivak, Michael (1965).
+
+Calculus on Manifolds: A Modern Approach to Classical Theorems of Advanced Calculus.
+
+San Francisco: Benjamin Cummings.
+
+ISBN 0-8053-9021-9.
+
+Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Calculus_on_Euclidean_space&oldid=1183927676 " Category : Calculus Hidden categories: Pages using sidebar with the child parameter Articles to be expanded from May 2022 All articles to be expanded Articles using small message boxes All articles with unsourced statements Articles with unsourced statements from May 2022 CS1 French-language sources (fr) This page was last edited on 7 November 2023, at 09:40 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

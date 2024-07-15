@@ -1,0 +1,737 @@
+Sequent calculus - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Overview Toggle Overview subsection 1.
+
+1 Hilbert-style deduction systems 1.
+
+2 Natural deduction systems 1.
+
+3 Sequent calculus systems 1.
+
+4 Distinction between natural deduction and sequent calculus 1.
+
+5 Origin of word "sequent" 2 Proving logical formulas Toggle Proving logical formulas subsection 2.
+
+1 Reduction trees 2.
+
+2 Relation to standard axiomatizations 3 The system LK Toggle The system LK subsection 3.
+
+1 Inference rules 3.
+
+2 An intuitive explanation 3.
+
+3 Example derivations 3.
+
+4 Relation to analytic tableaux 3.
+
+5 Structural rules 3.
+
+6 Properties of the system LK 4 Variants Toggle Variants subsection 4.
+
+1 Minor structural alternatives 4.
+
+2 Absurdity 4.
+
+3 Substructural logics 4.
+
+4 Intuitionistic sequent calculus: System LJ 5 See also 6 Notes 7 References 8 External links Toggle the table of contents Sequent calculus 13 languages Deutsch Español Esperanto Français 한국어 Lietuvių Magyar 日本語 Polski Português Русский Українська 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Style of formal logical argumentation In mathematical logic , sequent calculus is a style of formal logical argumentation in which every line of a proof is a conditional tautology (called a sequent by Gerhard Gentzen ) instead of an unconditional tautology.
+
+Each conditional tautology is inferred from other conditional tautologies on earlier lines in a formal argument according to rules and procedures of inference , giving a better approximation to the natural style of deduction used by mathematicians than to David Hilbert's earlier style of formal logic , in which every line was an unconditional tautology.
+
+More subtle distinctions may exist; for example, propositions may implicitly depend upon non-logical axioms.
+
+In that case, sequents signify conditional theorems in a first-order language rather than conditional tautologies.
+
+Sequent calculus is one of several extant styles of proof calculus for expressing line-by-line logical arguments.
+
+Hilbert style.
+
+Every line is an unconditional tautology (or theorem).
+
+Gentzen style.
+
+Every line is a conditional tautology (or theorem) with zero or more conditions on the left.
+
+Natural deduction.
+
+Every (conditional) line has exactly one asserted proposition on the right.
+
+Sequent calculus.
+
+Every (conditional) line has zero or more asserted propositions on the right.
+
+In other words, natural deduction and sequent calculus systems are particular distinct kinds of Gentzen-style systems.
+
+Hilbert-style systems typically have a very small number of inference rules, relying more on sets of axioms.
+
+Gentzen-style systems typically have very few axioms, if any, relying more on sets of rules.
+
+Gentzen-style systems have significant practical and theoretical advantages compared to Hilbert-style systems.
+
+For example, both natural deduction and sequent calculus systems facilitate the elimination and introduction of universal and existential quantifiers so that unquantified logical expressions can be manipulated according to the much simpler rules of propositional calculus.
+
+In a typical argument, quantifiers are eliminated, then propositional calculus is applied to unquantified expressions (which typically contain free variables ), and then the quantifiers are reintroduced.
+
+This very much parallels the way in which mathematical proofs are carried out in practice by mathematicians.
+
+Predicate calculus proofs are generally much easier to discover with this approach, and are often shorter.
+
+Natural deduction systems are more suited to practical theorem-proving.
+
+Sequent calculus systems are more suited to theoretical analysis.
+
+Overview [ edit ] In proof theory and mathematical logic , sequent calculus is a family of formal systems sharing a certain style of inference and certain formal properties.
+
+The first sequent calculi systems, LK and LJ , were introduced in 1934/1935 by Gerhard Gentzen [1] as a tool for studying natural deduction in first-order logic (in classical and intuitionistic versions, respectively).
+
+Gentzen's so-called "Main Theorem" ( Hauptsatz ) about LK and LJ was the cut-elimination theorem , [2] [3] a result with far-reaching meta-theoretic consequences, including consistency.
+
+Gentzen further demonstrated the power and flexibility of this technique a few years later, applying a cut-elimination argument to give a (transfinite) proof of the consistency of Peano arithmetic , in surprising response to Gödel's incompleteness theorems.
+
+Since this early work, sequent calculi, also called Gentzen systems , [4] [5] [6] [7] and the general concepts relating to them, have been widely applied in the fields of proof theory, mathematical logic, and automated deduction.
+
+Hilbert-style deduction systems [ edit ] Main article: Hilbert system One way to classify different styles of deduction systems is to look at the form of judgments in the system, i.
+
+e.
+
+, which things may appear as the conclusion of a (sub)proof.
+
+The simplest judgment form is used in Hilbert-style deduction systems , where a judgment has the form B {\displaystyle B} where B {\displaystyle B} is any formula of first-order logic (or whatever logic the deduction system applies to, e.
+
+g.
+
+, propositional calculus or a higher-order logic or a modal logic ).
+
+The theorems are those formulae that appear as the concluding judgment in a valid proof.
+
+A Hilbert-style system needs no distinction between formulae and judgments; we make one here solely for comparison with the cases that follow.
+
+The price paid for the simple syntax of a Hilbert-style system is that complete formal proofs tend to get extremely long.
+
+Concrete arguments about proofs in such a system almost always appeal to the deduction theorem.
+
+This leads to the idea of including the deduction theorem as a formal rule in the system, which happens in natural deduction.
+
+Natural deduction systems [ edit ] Main article: Natural deduction In natural deduction, judgments have the shape A 1 , A 2 , … , A n ⊢ B {\displaystyle A_{1},A_{2},\ldots ,A_{n}\vdash B} where the A i {\displaystyle A_{i}} 's and B {\displaystyle B} are again formulae and n ≥ 0 {\displaystyle n\geq 0}.
+
+Permutations of the A i {\displaystyle A_{i}} 's are immaterial.
+
+In other words, a judgment consists of a list (possibly empty) of formulae on the left-hand side of a turnstile symbol " ⊢ {\displaystyle \vdash } ", with a single formula on the right-hand side.
+
+[8] [9] [10] The theorems are those formulae B {\displaystyle B} such that ⊢ B {\displaystyle \vdash B} (with an empty left-hand side) is the conclusion of a valid proof.
+
+(In some presentations of natural deduction, the A i {\displaystyle A_{i}} s and the turnstile are not written down explicitly; instead a two-dimensional notation from which they can be inferred is used.
+
+) The standard semantics of a judgment in natural deduction is that it asserts that whenever [11] A 1 {\displaystyle A_{1}} , A 2 {\displaystyle A_{2}} , etc.
+
+, are all true, B {\displaystyle B} will also be true.
+
+The judgments A 1 , … , A n ⊢ B {\displaystyle A_{1},\ldots ,A_{n}\vdash B} and ⊢ ( A 1 ∧ ⋯ ∧ A n ) → B {\displaystyle \vdash (A_{1}\land \cdots \land A_{n})\rightarrow B} are equivalent in the strong sense that a proof of either one may be extended to a proof of the other.
+
+Sequent calculus systems [ edit ] Finally, sequent calculus generalizes the form of a natural deduction judgment to A 1 , … , A n ⊢ B 1 , … , B k , {\displaystyle A_{1},\ldots ,A_{n}\vdash B_{1},\ldots ,B_{k},} a syntactic object called a sequent.
+
+The formulas on left-hand side of the turnstile are called the antecedent , and the formulas on right-hand side are called the succedent or consequent ; together they are called cedents or sequents.
+
+[12] Again, A i {\displaystyle A_{i}} and B i {\displaystyle B_{i}} are formulae, and n {\displaystyle n} and k {\displaystyle k} are nonnegative integers, that is, the left-hand-side or the right-hand-side (or neither or both) may be empty.
+
+As in natural deduction, theorems are those B {\displaystyle B} where ⊢ B {\displaystyle \vdash B} is the conclusion of a valid proof.
+
+The standard semantics of a sequent is an assertion that whenever every A i {\displaystyle A_{i}} is true, at least one B i {\displaystyle B_{i}} will also be true.
+
+[13] Thus the empty sequent, having both cedents empty, is false.
+
+[14] One way to express this is that a comma to the left of the turnstile should be thought of as an "and", and a comma to the right of the turnstile should be thought of as an (inclusive) "or".
+
+The sequents A 1 , … , A n ⊢ B 1 , … , B k {\displaystyle A_{1},\ldots ,A_{n}\vdash B_{1},\ldots ,B_{k}} and ⊢ ( A 1 ∧ ⋯ ∧ A n ) → ( B 1 ∨ ⋯ ∨ B k ) {\displaystyle \vdash (A_{1}\land \cdots \land A_{n})\rightarrow (B_{1}\lor \cdots \lor B_{k})} are equivalent in the strong sense that a proof of either sequent may be extended to a proof of the other sequent.
+
+At first sight, this extension of the judgment form may appear to be a strange complication—it is not motivated by an obvious shortcoming of natural deduction, and it is initially confusing that the comma seems to mean entirely different things on the two sides of the turnstile.
+
+However, in a classical context the semantics of the sequent can also (by propositional tautology) be expressed either as ⊢ ¬ A 1 ∨ ¬ A 2 ∨ ⋯ ∨ ¬ A n ∨ B 1 ∨ B 2 ∨ ⋯ ∨ B k {\displaystyle \vdash \neg A_{1}\lor \neg A_{2}\lor \cdots \lor \neg A_{n}\lor B_{1}\lor B_{2}\lor \cdots \lor B_{k}} (at least one of the As is false, or one of the Bs is true) or as ⊢ ¬ ( A 1 ∧ A 2 ∧ ⋯ ∧ A n ∧ ¬ B 1 ∧ ¬ B 2 ∧ ⋯ ∧ ¬ B k ) {\displaystyle \vdash \neg (A_{1}\land A_{2}\land \cdots \land A_{n}\land \neg B_{1}\land \neg B_{2}\land \cdots \land \neg B_{k})} (it cannot be the case that all of the As are true and all of the Bs are false).
+
+In these formulations, the only difference between formulae on either side of the turnstile is that one side is negated.
+
+Thus, swapping left for right in a sequent corresponds to negating all of the constituent formulae.
+
+This means that a symmetry such as De Morgan's laws , which manifests itself as logical negation on the semantic level, translates directly into a left-right symmetry of sequents—and indeed, the inference rules in sequent calculus for dealing with conjunction (∧) are mirror images of those dealing with disjunction (∨).
+
+Many logicians feel [ citation needed ] that this symmetric presentation offers a deeper insight in the structure of the logic than other styles of proof system, where the classical duality of negation is not as apparent in the rules.
+
+Distinction between natural deduction and sequent calculus [ edit ] Gentzen asserted a sharp distinction between his single-output natural deduction systems (NK and NJ) and his multiple-output sequent calculus systems (LK and LJ).
+
+He wrote that the intuitionistic natural deduction system NJ was somewhat ugly.
+
+[15] He said that the special role of the excluded middle in the classical natural deduction system NK is removed in the classical sequent calculus system LK.
+
+[16] He said that the sequent calculus LJ gave more symmetry than natural deduction NJ in the case of intuitionistic logic, as also in the case of classical logic (LK versus NK).
+
+[17] Then he said that in addition to these reasons, the sequent calculus with multiple succedent formulas is intended particularly for his principal theorem ("Hauptsatz").
+
+[18] Origin of word "sequent" [ edit ] The word "sequent" is taken from the word "Sequenz" in Gentzen's 1934 paper.
+
+[1] Kleene makes the following comment on the translation into English: "Gentzen says 'Sequenz', which we translate as 'sequent', because we have already used 'sequence' for any succession of objects, where the German is 'Folge'.
+
+" [19] Proving logical formulas [ edit ] A rooted tree describing a proof finding procedure by sequent calculus Reduction trees [ edit ] Sequent calculus can be seen as a tool for proving formulas in propositional logic , similar to the method of analytic tableaux.
+
+It gives a series of steps that allows one to reduce the problem of proving a logical formula to simpler and simpler formulas until one arrives at trivial ones.
+
+[20] Consider the following formula: ( ( p → r ) ∨ ( q → r ) ) → ( ( p ∧ q ) → r ) {\displaystyle ((p\rightarrow r)\lor (q\rightarrow r))\rightarrow ((p\land q)\rightarrow r)} This is written in the following form, where the proposition that needs to be proven is to the right of the turnstile symbol ⊢ {\displaystyle \vdash } : ⊢ ( ( p → r ) ∨ ( q → r ) ) → ( ( p ∧ q ) → r ) {\displaystyle \vdash ((p\rightarrow r)\lor (q\rightarrow r))\rightarrow ((p\land q)\rightarrow r)} Now, instead of proving this from the axioms, it is enough to assume the premise of the implication and then try to prove its conclusion.
+
+[21] Hence one moves to the following sequent: ( p → r ) ∨ ( q → r ) ⊢ ( p ∧ q ) → r {\displaystyle (p\rightarrow r)\lor (q\rightarrow r)\vdash (p\land q)\rightarrow r} Again the right hand side includes an implication, whose premise can further be assumed so that only its conclusion needs to be proven: ( p → r ) ∨ ( q → r ) , ( p ∧ q ) ⊢ r {\displaystyle (p\rightarrow r)\lor (q\rightarrow r),(p\land q)\vdash r} Since the arguments in the left-hand side are assumed to be related by conjunction , this can be replaced by the following: ( p → r ) ∨ ( q → r ) , p , q ⊢ r {\displaystyle (p\rightarrow r)\lor (q\rightarrow r),p,q\vdash r} This is equivalent to proving the conclusion in both cases of the disjunction on the first argument on the left.
+
+Thus we may split the sequent to two, where we now have to prove each separately: p → r , p , q ⊢ r {\displaystyle p\rightarrow r,p,q\vdash r} q → r , p , q ⊢ r {\displaystyle q\rightarrow r,p,q\vdash r} In the case of the first judgment, we rewrite p → r {\displaystyle p\rightarrow r} as ¬ p ∨ r {\displaystyle \lnot p\lor r} and split the sequent again to get: ¬ p , p , q ⊢ r {\displaystyle \lnot p,p,q\vdash r} r , p , q ⊢ r {\displaystyle r,p,q\vdash r} The second sequent is done; the first sequent can be further simplified into: p , q ⊢ p , r {\displaystyle p,q\vdash p,r} This process can always be continued until there are only atomic formulas in each side.
+
+The process can be graphically described by a rooted tree graph , as depicted on the right.
+
+The root of the tree is the formula we wish to prove; the leaves consist of atomic formulas only.
+
+The tree is known as a reduction tree.
+
+[20] [22] The items to the left of the turnstile are understood to be connected by conjunction, and those to the right by disjunction.
+
+Therefore, when both consist only of atomic symbols, the sequent is accepted axiomatically (and always true) if and only if at least one of the symbols on the right also appears on the left.
+
+Following are the rules by which one proceeds along the tree.
+
+Whenever one sequent is split into two, the tree vertex has two child vertices, and the tree is branched.
+
+Additionally, one may freely change the order of the arguments in each side; Γ and Δ stand for possible additional arguments.
+
+[20] The usual term for the horizontal line used in Gentzen-style layouts for natural deduction is inference line.
+
+[23] Left: Right: L ∧ rule: Γ , A ∧ B ⊢ Δ Γ , A , B ⊢ Δ {\displaystyle L\land {\text{rule: }}\quad {\cfrac {\Gamma ,A\land B\vdash \Delta }{\Gamma ,A,B\vdash \Delta }}} R ∧ rule: Γ ⊢ Δ , A ∧ B Γ ⊢ Δ , A Γ ⊢ Δ , B {\displaystyle R\land {\text{rule: }}{\cfrac {\Gamma \vdash \Delta ,A\land B}{\Gamma \vdash \Delta ,A\qquad \Gamma \vdash \Delta ,B}}} L ∨ rule: Γ , A ∨ B ⊢ Δ Γ , A ⊢ Δ Γ , B ⊢ Δ {\displaystyle L\lor {\text{rule: }}{\cfrac {\Gamma ,A\lor B\vdash \Delta }{\Gamma ,A\vdash \Delta \qquad \Gamma ,B\vdash \Delta }}} R ∨ rule: Γ ⊢ Δ , A ∨ B Γ ⊢ Δ , A , B {\displaystyle R\lor {\text{rule: }}\quad {\cfrac {\Gamma \vdash \Delta ,A\lor B}{\Gamma \vdash \Delta ,A,B}}} L → rule: Γ , A → B ⊢ Δ Γ ⊢ Δ , A Γ , B ⊢ Δ {\displaystyle L\rightarrow {\text{rule: }}{\cfrac {\Gamma ,A\rightarrow B\vdash \Delta }{\Gamma \vdash \Delta ,A\qquad \Gamma ,B\vdash \Delta }}} R → rule: Γ ⊢ Δ , A → B Γ , A ⊢ Δ , B {\displaystyle R\rightarrow {\text{rule: }}\quad {\cfrac {\Gamma \vdash \Delta ,A\rightarrow B}{\Gamma ,A\vdash \Delta ,B}}} L ¬ rule: Γ , ¬ A ⊢ Δ Γ ⊢ Δ , A {\displaystyle L\lnot {\text{rule: }}\quad {\cfrac {\Gamma ,\lnot A\vdash \Delta }{\Gamma \vdash \Delta ,A}}} R ¬ rule: Γ ⊢ Δ , ¬ A Γ , A ⊢ Δ {\displaystyle R\lnot {\text{rule: }}\quad {\cfrac {\Gamma \vdash \Delta ,\lnot A}{\Gamma ,A\vdash \Delta }}} Axiom: Γ , A ⊢ Δ , A {\displaystyle \Gamma ,A\vdash \Delta ,A} Starting with any formula in propositional logic, by a series of steps, the right side of the turnstile can be processed until it includes only atomic symbols.
+
+Then, the same is done for the left side.
+
+Since every logical operator appears in one of the rules above, and is removed by the rule, the process terminates when no logical operators remain: The formula has been decomposed.
+
+Thus, the sequents in the leaves of the trees include only atomic symbols, which are either provable by the axiom or not, according to whether one of the symbols on the right also appears on the left.
+
+It is easy to see that the steps in the tree preserve the semantic truth value of the formulas implied by them, with conjunction understood between the tree's different branches whenever there is a split.
+
+It is also obvious that an axiom is provable if and only if it is true for every assignment of truth values to the atomic symbols.
+
+Thus this system is sound and complete for classical propositional logic.
+
+Relation to standard axiomatizations [ edit ] Sequent calculus is related to other axiomatizations of propositional calculus, such as Frege's propositional calculus or Jan Łukasiewicz's axiomatization [ broken anchor ] (itself a part of the standard Hilbert system ): Every formula that can be proven in these has a reduction tree.
+
+This can be shown as follows: Every proof in propositional calculus uses only axioms and the inference rules.
+
+Each use of an axiom scheme yields a true logical formula, and can thus be proven in sequent calculus; examples for these are shown below.
+
+The only inference rule in the systems mentioned above is modus ponens, which is implemented by the cut rule.
+
+The system LK [ edit ] This section introduces the rules of the sequent calculus LK (standing for Logistische Kalkül) as introduced by Gentzen in 1934.
+
+[24] A (formal) proof in this calculus is a sequence of sequents, where each of the sequents is derivable from sequents appearing earlier in the sequence by using one of the rules below.
+
+Inference rules [ edit ] The following notation will be used: ⊢ {\displaystyle \vdash } known as the turnstile , separates the assumptions on the left from the propositions on the right A {\displaystyle A} and B {\displaystyle B} denote formulae of first-order predicate logic (one may also restrict this to propositional logic), Γ , Δ , Σ {\displaystyle \Gamma ,\Delta ,\Sigma } , and Π {\displaystyle \Pi } are finite (possibly empty) sequences of formulae (in fact, the order of formulae does not matter; see § Structural rules ), called contexts, when on the left of the ⊢ {\displaystyle \vdash } , the sequence of formulas is considered conjunctively (all assumed to hold at the same time), while on the right of the ⊢ {\displaystyle \vdash } , the sequence of formulas is considered disjunctively (at least one of the formulas must hold for any assignment of variables), t {\displaystyle t} denotes an arbitrary term, x {\displaystyle x} and y {\displaystyle y} denote variables.
+
+a variable is said to occur free within a formula if it is not bound by quantifiers ∀ {\displaystyle \forall } or ∃ {\displaystyle \exists }.
+
+A [ t / x ] {\displaystyle A[t/x]} denotes the formula that is obtained by substituting the term t {\displaystyle t} for every free occurrence of the variable x {\displaystyle x} in formula A {\displaystyle A} with the restriction that the term t {\displaystyle t} must be free for the variable x {\displaystyle x} in A {\displaystyle A} (i.
+
+e.
+
+, no occurrence of any variable in t {\displaystyle t} becomes bound in A [ t / x ] {\displaystyle A[t/x]} ).
+
+W L {\displaystyle WL} , W R {\displaystyle WR} , C L {\displaystyle CL} , C R {\displaystyle CR} , P L {\displaystyle PL} , P R {\displaystyle PR} : These six stand for the two versions of each of three structural rules; one for use on the left ('L') of a ⊢ {\displaystyle \vdash } , and the other on its right ('R').
+
+The rules are abbreviated 'W' for Weakening (Left/Right) , 'C' for Contraction , and 'P' for Permutation.
+
+Note that, contrary to the rules for proceeding along the reduction tree presented above, the following rules are for moving in the opposite directions, from axioms to theorems.
+
+Thus they are exact mirror-images of the rules above, except that here symmetry is not implicitly assumed, and rules regarding quantification are added.
+
+Axiom: Cut: A ⊢ A ( I ) {\displaystyle {\cfrac {\qquad }{A\vdash A}}\quad (I)} Γ ⊢ Δ , A A , Σ ⊢ Π Γ , Σ ⊢ Δ , Π ( C u t ) {\displaystyle {\cfrac {\Gamma \vdash \Delta ,A\qquad A,\Sigma \vdash \Pi }{\Gamma ,\Sigma \vdash \Delta ,\Pi }}\quad ({\mathit {Cut}})} Left logical rules: Right logical rules: Γ , A ⊢ Δ Γ , A ∧ B ⊢ Δ ( ∧ L 1 ) {\displaystyle {\cfrac {\Gamma ,A\vdash \Delta }{\Gamma ,A\land B\vdash \Delta }}\quad ({\land }L_{1})} Γ ⊢ A , Δ Γ ⊢ A ∨ B , Δ ( ∨ R 1 ) {\displaystyle {\cfrac {\Gamma \vdash A,\Delta }{\Gamma \vdash A\lor B,\Delta }}\quad ({\lor }R_{1})} Γ , B ⊢ Δ Γ , A ∧ B ⊢ Δ ( ∧ L 2 ) {\displaystyle {\cfrac {\Gamma ,B\vdash \Delta }{\Gamma ,A\land B\vdash \Delta }}\quad ({\land }L_{2})} Γ ⊢ B , Δ Γ ⊢ A ∨ B , Δ ( ∨ R 2 ) {\displaystyle {\cfrac {\Gamma \vdash B,\Delta }{\Gamma \vdash A\lor B,\Delta }}\quad ({\lor }R_{2})} Γ , A ⊢ Δ Γ , B ⊢ Δ Γ , A ∨ B ⊢ Δ ( ∨ L ) {\displaystyle {\cfrac {\Gamma ,A\vdash \Delta \qquad \Gamma ,B\vdash \Delta }{\Gamma ,A\lor B\vdash \Delta }}\quad ({\lor }L)} Γ ⊢ A , Δ Γ ⊢ B , Δ Γ ⊢ A ∧ B , Δ ( ∧ R ) {\displaystyle {\cfrac {\Gamma \vdash A,\Delta \qquad \Gamma \vdash B,\Delta }{\Gamma \vdash A\land B,\Delta }}\quad ({\land }R)} Γ ⊢ A , Δ Σ , B ⊢ Π Γ , Σ , A → B ⊢ Δ , Π ( → L ) {\displaystyle {\cfrac {\Gamma \vdash A,\Delta \qquad \Sigma ,B\vdash \Pi }{\Gamma ,\Sigma ,A\rightarrow B\vdash \Delta ,\Pi }}\quad ({\rightarrow }L)} Γ , A ⊢ B , Δ Γ ⊢ A → B , Δ ( → R ) {\displaystyle {\cfrac {\Gamma ,A\vdash B,\Delta }{\Gamma \vdash A\rightarrow B,\Delta }}\quad ({\rightarrow }R)} Γ ⊢ A , Δ Γ , ¬ A ⊢ Δ ( ¬ L ) {\displaystyle {\cfrac {\Gamma \vdash A,\Delta }{\Gamma ,\lnot A\vdash \Delta }}\quad ({\lnot }L)} Γ , A ⊢ Δ Γ ⊢ ¬ A , Δ ( ¬ R ) {\displaystyle {\cfrac {\Gamma ,A\vdash \Delta }{\Gamma \vdash \lnot A,\Delta }}\quad ({\lnot }R)} Γ , A [ t / x ] ⊢ Δ Γ , ∀ x A ⊢ Δ ( ∀ L ) {\displaystyle {\cfrac {\Gamma ,A[t/x]\vdash \Delta }{\Gamma ,\forall xA\vdash \Delta }}\quad ({\forall }L)} Γ ⊢ A [ y / x ] , Δ Γ ⊢ ∀ x A , Δ ( ∀ R ) {\displaystyle {\cfrac {\Gamma \vdash A[y/x],\Delta }{\Gamma \vdash \forall xA,\Delta }}\quad ({\forall }R)} Γ , A [ y / x ] ⊢ Δ Γ , ∃ x A ⊢ Δ ( ∃ L ) {\displaystyle {\cfrac {\Gamma ,A[y/x]\vdash \Delta }{\Gamma ,\exists xA\vdash \Delta }}\quad ({\exists }L)} Γ ⊢ A [ t / x ] , Δ Γ ⊢ ∃ x A , Δ ( ∃ R ) {\displaystyle {\cfrac {\Gamma \vdash A[t/x],\Delta }{\Gamma \vdash \exists xA,\Delta }}\quad ({\exists }R)} Left structural rules: Right structural rules: Γ ⊢ Δ Γ , A ⊢ Δ ( W L ) {\displaystyle {\cfrac {\Gamma \vdash \Delta }{\Gamma ,A\vdash \Delta }}\quad ({\mathit {WL}})} Γ ⊢ Δ Γ ⊢ A , Δ ( W R ) {\displaystyle {\cfrac {\Gamma \vdash \Delta }{\Gamma \vdash A,\Delta }}\quad ({\mathit {WR}})} Γ , A , A ⊢ Δ Γ , A ⊢ Δ ( C L ) {\displaystyle {\cfrac {\Gamma ,A,A\vdash \Delta }{\Gamma ,A\vdash \Delta }}\quad ({\mathit {CL}})} Γ ⊢ A , A , Δ Γ ⊢ A , Δ ( C R ) {\displaystyle {\cfrac {\Gamma \vdash A,A,\Delta }{\Gamma \vdash A,\Delta }}\quad ({\mathit {CR}})} Γ 1 , A , B , Γ 2 ⊢ Δ Γ 1 , B , A , Γ 2 ⊢ Δ ( P L ) {\displaystyle {\cfrac {\Gamma _{1},A,B,\Gamma _{2}\vdash \Delta }{\Gamma _{1},B,A,\Gamma _{2}\vdash \Delta }}\quad ({\mathit {PL}})} Γ ⊢ Δ 1 , A , B , Δ 2 Γ ⊢ Δ 1 , B , A , Δ 2 ( P R ) {\displaystyle {\cfrac {\Gamma \vdash \Delta _{1},A,B,\Delta _{2}}{\Gamma \vdash \Delta _{1},B,A,\Delta _{2}}}\quad ({\mathit {PR}})} Restrictions: In the rules ( ∀ R ) {\displaystyle ({\forall }R)} and ( ∃ L ) {\displaystyle ({\exists }L)} , the variable y {\displaystyle y} must not occur free anywhere in the respective lower sequents.
+
+An intuitive explanation [ edit ] The above rules can be divided into two major groups: logical and structural ones.
+
+Each of the logical rules introduces a new logical formula either on the left or on the right of the turnstile ⊢ {\displaystyle \vdash }.
+
+In contrast, the structural rules operate on the structure of the sequents, ignoring the exact shape of the formulae.
+
+The two exceptions to this general scheme are the axiom of identity (I) and the rule of (Cut).
+
+Although stated in a formal way, the above rules allow for a very intuitive reading in terms of classical logic.
+
+Consider, for example, the rule ( ∧ L 1 ) {\displaystyle ({\land }L_{1})}.
+
+It says that, whenever one can prove that Δ {\displaystyle \Delta } can be concluded from some sequence of formulae that contain A {\displaystyle A} , then one can also conclude Δ {\displaystyle \Delta } from the (stronger) assumption that A ∧ B {\displaystyle A\land B} holds.
+
+Likewise, the rule ( ¬ R ) {\displaystyle ({\neg }R)} states that, if Γ {\displaystyle \Gamma } and A {\displaystyle A} suffice to conclude Δ {\displaystyle \Delta } , then from Γ {\displaystyle \Gamma } alone one can either still conclude Δ {\displaystyle \Delta } or A {\displaystyle A} must be false, i.
+
+e.
+
+¬ A {\displaystyle {\neg }A} holds.
+
+All the rules can be interpreted in this way.
+
+For an intuition about the quantifier rules, consider the rule ( ∀ R ) {\displaystyle ({\forall }R)}.
+
+Of course concluding that ∀ x A {\displaystyle \forall {x}A} holds just from the fact that A [ y / x ] {\displaystyle A[y/x]} is true is not in general possible.
+
+If, however, the variable y is not mentioned elsewhere (i.
+
+e.
+
+it can still be chosen freely, without influencing the other formulae), then one may assume, that A [ y / x ] {\displaystyle A[y/x]} holds for any value of y.
+
+The other rules should then be pretty straightforward.
+
+Instead of viewing the rules as descriptions for legal derivations in predicate logic, one may also consider them as instructions for the construction of a proof for a given statement.
+
+In this case the rules can be read bottom-up; for example, ( ∧ R ) {\displaystyle ({\land }R)} says that, to prove that A ∧ B {\displaystyle A\land B} follows from the assumptions Γ {\displaystyle \Gamma } and Σ {\displaystyle \Sigma } , it suffices to prove that A {\displaystyle A} can be concluded from Γ {\displaystyle \Gamma } and B {\displaystyle B} can be concluded from Σ {\displaystyle \Sigma } , respectively.
+
+Note that, given some antecedent, it is not clear how this is to be split into Γ {\displaystyle \Gamma } and Σ {\displaystyle \Sigma }.
+
+However, there are only finitely many possibilities to be checked since the antecedent by assumption is finite.
+
+This also illustrates how proof theory can be viewed as operating on proofs in a combinatorial fashion: given proofs for both A {\displaystyle A} and B {\displaystyle B} , one can construct a proof for A ∧ B {\displaystyle A\land B}.
+
+When looking for some proof, most of the rules offer more or less direct recipes of how to do this.
+
+The rule of cut is different: it states that, when a formula A {\displaystyle A} can be concluded and this formula may also serve as a premise for concluding other statements, then the formula A {\displaystyle A} can be "cut out" and the respective derivations are joined.
+
+When constructing a proof bottom-up, this creates the problem of guessing A {\displaystyle A} (since it does not appear at all below).
+
+The cut-elimination theorem is thus crucial to the applications of sequent calculus in automated deduction : it states that all uses of the cut rule can be eliminated from a proof, implying that any provable sequent can be given a cut-free proof.
+
+The second rule that is somewhat special is the axiom of identity (I).
+
+The intuitive reading of this is obvious: every formula proves itself.
+
+Like the cut rule, the axiom of identity is somewhat redundant: the completeness of atomic initial sequents states that the rule can be restricted to atomic formulas without any loss of provability.
+
+Observe that all rules have mirror companions, except the ones for implication.
+
+This reflects the fact that the usual language of first-order logic does not include the "is not implied by" connective ↚ {\displaystyle \not \leftarrow } that would be the De Morgan dual of implication.
+
+Adding such a connective with its natural rules would make the calculus completely left-right symmetric.
+
+Example derivations [ edit ] Here is the derivation of " ⊢ A ∨ ¬ A {\displaystyle \vdash A\lor \lnot A} ", known as the Law of excluded middle ( tertium non datur in Latin).
+
+( I ) {\displaystyle (I)} A ⊢ A {\displaystyle A\vdash A} ( ¬ R ) {\displaystyle (\lnot R)} ⊢ ¬ A , A {\displaystyle \vdash \lnot A,A} ( ∨ R 2 ) {\displaystyle (\lor R_{2})} ⊢ A ∨ ¬ A , A {\displaystyle \vdash A\lor \lnot A,A} ( P R ) {\displaystyle (PR)} ⊢ A , A ∨ ¬ A {\displaystyle \vdash A,A\lor \lnot A} ( ∨ R 1 ) {\displaystyle (\lor R_{1})} ⊢ A ∨ ¬ A , A ∨ ¬ A {\displaystyle \vdash A\lor \lnot A,A\lor \lnot A} ( C R ) {\displaystyle (CR)} ⊢ A ∨ ¬ A {\displaystyle \vdash A\lor \lnot A} Next is the proof of a simple fact involving quantifiers.
+
+Note that the converse is not true, and its falsity can be seen when attempting to derive it bottom-up, because an existing free variable cannot be used in substitution in the rules ( ∀ R ) {\displaystyle (\forall R)} and ( ∃ L ) {\displaystyle (\exists L)}.
+
+( I ) {\displaystyle (I)} p ( x , y ) ⊢ p ( x , y ) {\displaystyle p(x,y)\vdash p(x,y)} ( ∀ L ) {\displaystyle (\forall L)} ∀ x ( p ( x , y ) ) ⊢ p ( x , y ) {\displaystyle \forall x\left(p(x,y)\right)\vdash p(x,y)} ( ∃ R ) {\displaystyle (\exists R)} ∀ x ( p ( x , y ) ) ⊢ ∃ y ( p ( x , y ) ) {\displaystyle \forall x\left(p(x,y)\right)\vdash \exists y\left(p(x,y)\right)} ( ∃ L ) {\displaystyle (\exists L)} ∃ y ( ∀ x ( p ( x , y ) ) ) ⊢ ∃ y ( p ( x , y ) ) {\displaystyle \exists y\left(\forall x\left(p(x,y)\right)\right)\vdash \exists y\left(p(x,y)\right)} ( ∀ R ) {\displaystyle (\forall R)} ∃ y ( ∀ x ( p ( x , y ) ) ) ⊢ ∀ x ( ∃ y ( p ( x , y ) ) ) {\displaystyle \exists y\left(\forall x\left(p(x,y)\right)\right)\vdash \forall x\left(\exists y\left(p(x,y)\right)\right)} For something more interesting we shall prove ( ( A → ( B ∨ C ) ) → ( ( ( B → ¬ A ) ∧ ¬ C ) → ¬ A ) ) {\displaystyle {\left(\left(A\rightarrow \left(B\lor C\right)\right)\rightarrow \left(\left(\left(B\rightarrow \lnot A\right)\land \lnot C\right)\rightarrow \lnot A\right)\right)}}.
+
+It is straightforward to find the derivation, which exemplifies the usefulness of LK in automated proving.
+
+( I ) {\displaystyle (I)} A ⊢ A {\displaystyle A\vdash A} ( ¬ R ) {\displaystyle (\lnot R)} ⊢ ¬ A , A {\displaystyle \vdash \lnot A,A} ( P R ) {\displaystyle (PR)} ⊢ A , ¬ A {\displaystyle \vdash A,\lnot A} ( I ) {\displaystyle (I)} B ⊢ B {\displaystyle B\vdash B} ( W R ) {\displaystyle (WR)} B ⊢ B , C {\displaystyle B\vdash B,C} ( I ) {\displaystyle (I)} C ⊢ C {\displaystyle C\vdash C} ( W R ) {\displaystyle (WR)} C ⊢ B , C {\displaystyle C\vdash B,C} ( ∨ L ) {\displaystyle (\lor L)} B ∨ C ⊢ B , C {\displaystyle B\lor C\vdash B,C} ( P R ) {\displaystyle (PR)} B ∨ C ⊢ C , B {\displaystyle B\lor C\vdash C,B} ( ¬ L ) {\displaystyle (\lnot L)} B ∨ C , ¬ C ⊢ B {\displaystyle B\lor C,\lnot C\vdash B} ( I ) {\displaystyle (I)} ¬ A ⊢ ¬ A {\displaystyle \lnot A\vdash \lnot A} ( → L ) {\displaystyle (\rightarrow L)} ( B ∨ C ) , ¬ C , ( B → ¬ A ) ⊢ ¬ A {\displaystyle \left(B\lor C\right),\lnot C,\left(B\rightarrow \lnot A\right)\vdash \lnot A} ( ∧ L 1 ) {\displaystyle (\land L_{1})} ( B ∨ C ) , ¬ C , ( ( B → ¬ A ) ∧ ¬ C ) ⊢ ¬ A {\displaystyle \left(B\lor C\right),\lnot C,\left(\left(B\rightarrow \lnot A\right)\land \lnot C\right)\vdash \lnot A} ( P L ) {\displaystyle (PL)} ( B ∨ C ) , ( ( B → ¬ A ) ∧ ¬ C ) , ¬ C ⊢ ¬ A {\displaystyle \left(B\lor C\right),\left(\left(B\rightarrow \lnot A\right)\land \lnot C\right),\lnot C\vdash \lnot A} ( ∧ L 2 ) {\displaystyle (\land L_{2})} ( B ∨ C ) , ( ( B → ¬ A ) ∧ ¬ C ) , ( ( B → ¬ A ) ∧ ¬ C ) ⊢ ¬ A {\displaystyle \left(B\lor C\right),\left(\left(B\rightarrow \lnot A\right)\land \lnot C\right),\left(\left(B\rightarrow \lnot A\right)\land \lnot C\right)\vdash \lnot A} ( C L ) {\displaystyle (CL)} ( B ∨ C ) , ( ( B → ¬ A ) ∧ ¬ C ) ⊢ ¬ A {\displaystyle \left(B\lor C\right),\left(\left(B\rightarrow \lnot A\right)\land \lnot C\right)\vdash \lnot A} ( P L ) {\displaystyle (PL)} ( ( B → ¬ A ) ∧ ¬ C ) , ( B ∨ C ) ⊢ ¬ A {\displaystyle \left(\left(B\rightarrow \lnot A\right)\land \lnot C\right),\left(B\lor C\right)\vdash \lnot A} ( → L ) {\displaystyle (\rightarrow L)} ( ( B → ¬ A ) ∧ ¬ C ) , ( A → ( B ∨ C ) ) ⊢ ¬ A , ¬ A {\displaystyle \left(\left(B\rightarrow \lnot A\right)\land \lnot C\right),\left(A\rightarrow \left(B\lor C\right)\right)\vdash \lnot A,\lnot A} ( C R ) {\displaystyle (CR)} ( ( B → ¬ A ) ∧ ¬ C ) , ( A → ( B ∨ C ) ) ⊢ ¬ A {\displaystyle \left(\left(B\rightarrow \lnot A\right)\land \lnot C\right),\left(A\rightarrow \left(B\lor C\right)\right)\vdash \lnot A} ( P L ) {\displaystyle (PL)} ( A → ( B ∨ C ) ) , ( ( B → ¬ A ) ∧ ¬ C ) ⊢ ¬ A {\displaystyle \left(A\rightarrow \left(B\lor C\right)\right),\left(\left(B\rightarrow \lnot A\right)\land \lnot C\right)\vdash \lnot A} ( → R ) {\displaystyle (\rightarrow R)} ( A → ( B ∨ C ) ) ⊢ ( ( ( B → ¬ A ) ∧ ¬ C ) → ¬ A ) {\displaystyle \left(A\rightarrow \left(B\lor C\right)\right)\vdash \left(\left(\left(B\rightarrow \lnot A\right)\land \lnot C\right)\rightarrow \lnot A\right)} ( → R ) {\displaystyle (\rightarrow R)} ⊢ ( ( A → ( B ∨ C ) ) → ( ( ( B → ¬ A ) ∧ ¬ C ) → ¬ A ) ) {\displaystyle \vdash \left(\left(A\rightarrow \left(B\lor C\right)\right)\rightarrow \left(\left(\left(B\rightarrow \lnot A\right)\land \lnot C\right)\rightarrow \lnot A\right)\right)} These derivations also emphasize the strictly formal structure of the sequent calculus.
+
+For example, the logical rules as defined above always act on a formula immediately adjacent to the turnstile, such that the permutation rules are necessary.
+
+Note, however, that this is in part an artifact of the presentation, in the original style of Gentzen.
+
+A common simplification involves the use of multisets of formulas in the interpretation of the sequent, rather than sequences, eliminating the need for an explicit permutation rule.
+
+This corresponds to shifting commutativity of assumptions and derivations outside the sequent calculus, whereas LK embeds it within the system itself.
+
+Relation to analytic tableaux [ edit ] For certain formulations (i.
+
+e.
+
+variants) of the sequent calculus, a proof in such a calculus is isomorphic to an upside-down, closed analytic tableau.
+
+[25] Structural rules [ edit ] The structural rules deserve some additional discussion.
+
+Weakening (W) allows the addition of arbitrary elements to a sequence.
+
+Intuitively, this is allowed in the antecedent because we can always restrict the scope of our proof (if all cars have wheels, then it's safe to say that all black cars have wheels); and in the succedent because we can always allow for alternative conclusions (if all cars have wheels, then it's safe to say that all cars have either wheels or wings).
+
+Contraction (C) and Permutation (P) assure that neither the order (P) nor the multiplicity of occurrences (C) of elements of the sequences matters.
+
+Thus, one could instead of sequences also consider sets.
+
+The extra effort of using sequences, however, is justified since part or all of the structural rules may be omitted.
+
+Doing so, one obtains the so-called substructural logics.
+
+Properties of the system LK [ edit ] This system of rules can be shown to be both sound and complete with respect to first-order logic, i.
+
+e.
+
+a statement A {\displaystyle A} follows semantically from a set of premises Γ {\displaystyle \Gamma } ( Γ ⊨ A ) {\displaystyle (\Gamma \vDash A)} if and only if the sequent Γ ⊢ A {\displaystyle \Gamma \vdash A} can be derived by the above rules.
+
+[26] In the sequent calculus, the rule of cut is admissible.
+
+This result is also referred to as Gentzen's Hauptsatz ("Main Theorem").
+
+[2] [3] Variants [ edit ] The above rules can be modified in various ways: Minor structural alternatives [ edit ] There is some freedom of choice regarding the technical details of how sequents and structural rules are formalized without changing what sequents the system derives.
+
+First of all, as mentioned above, the sequents can be viewed to consist of sets or multisets.
+
+In this case, the rules for permuting and (when using sets) contracting formulae are unnecessary.
+
+The rule of weakening becomes admissible if the axiom (I) is changed to derive any sequent of the form Γ , A ⊢ A , Δ {\displaystyle \Gamma ,A\vdash A,\Delta }.
+
+Any weakening that appears in a derivation can then be moved to the beginning of the proof.
+
+This may be a convenient change when constructing proofs bottom-up.
+
+One may also change whether rules with more than one premise share the same context for each of those premises or split their contexts between them: For example, ( ∨ L ) {\displaystyle ({\lor }L)} may be instead formulated as Γ , A ⊢ Δ Σ , B ⊢ Π Γ , Σ , A ∨ B ⊢ Δ , Π.
+
+{\displaystyle {\cfrac {\Gamma ,A\vdash \Delta \qquad \Sigma ,B\vdash \Pi }{\Gamma ,\Sigma ,A\lor B\vdash \Delta ,\Pi }}.
+
+} Contraction and weakening make this version of the rule interderivable with the version above, although in their absence, as in linear logic , these rules define different connectives.
+
+Absurdity [ edit ] One can introduce ⊥ {\displaystyle \bot } , the absurdity constant representing false , with the axiom: ⊥ ⊢ {\displaystyle {\cfrac {}{\bot \vdash \quad }}} Or if, as described above, weakening is to be an admissible rule, then with the axiom: Γ , ⊥ ⊢ Δ {\displaystyle {\cfrac {}{\Gamma ,\bot \vdash \Delta }}} With ⊥ {\displaystyle \bot } , negation can be subsumed as a special case of implication, via the definition ( ¬ A ) ⟺ ( A → ⊥ ) {\displaystyle (\neg A)\iff (A\to \bot )}.
+
+Substructural logics [ edit ] Main article: Substructural logic Alternatively, one may restrict or forbid the use of some of the structural rules.
+
+This yields a variety of substructural logic systems.
+
+They are generally weaker than LK ( i.
+
+e.
+
+, they have fewer theorems), and thus not complete with respect to the standard semantics of first-order logic.
+
+However, they have other interesting properties that have led to applications in theoretical computer science and artificial intelligence.
+
+Intuitionistic sequent calculus: System LJ [ edit ] Surprisingly, some small changes in the rules of LK suffice to turn it into a proof system for intuitionistic logic.
+
+[27] To this end, one has to restrict to sequents with at most one formula on the right-hand side, [28] and modify the rules to maintain this invariant.
+
+For example, ( ∨ L ) {\displaystyle ({\lor }L)} is reformulated as follows (where C is an arbitrary formula): Γ , A ⊢ C Γ , B ⊢ C Γ , A ∨ B ⊢ C ( ∨ L ) {\displaystyle {\cfrac {\Gamma ,A\vdash C\qquad \Gamma ,B\vdash C}{\Gamma ,A\lor B\vdash C}}\quad ({\lor }L)} The resulting system is called LJ.
+
+It is sound and complete with respect to intuitionistic logic and admits a similar cut-elimination proof.
+
+This can be used in proving disjunction and existence properties.
+
+In fact, the only rules in LK that need to be restricted to single-formula consequents are ( → R ) {\displaystyle ({\to }R)} , ( ¬ R ) {\displaystyle (\neg R)} (which can be seen as a special case of → R {\displaystyle {\to }R} , as described above) and ( ∀ R ) {\displaystyle ({\forall }R)}.
+
+When multi-formula consequents are interpreted as disjunctions, all of the other inference rules of LK are derivable in LJ, while the rules ( → R ) {\displaystyle ({\to }R)} and ( ∀ R ) {\displaystyle ({\forall }R)} become Γ , A ⊢ B ∨ C Γ ⊢ ( A → B ) ∨ C {\displaystyle {\cfrac {\Gamma ,A\vdash B\lor C}{\Gamma \vdash (A\to B)\lor C}}} and (when y {\displaystyle y} does not occur free in the bottom sequent) Γ ⊢ A [ y / x ] ∨ C Γ ⊢ ( ∀ x A ) ∨ C.
+
+{\displaystyle {\cfrac {\Gamma \vdash A[y/x]\lor C}{\Gamma \vdash (\forall xA)\lor C}}.
+
+} These rules are not intuitionistically valid.
+
+See also [ edit ] Cirquent calculus Nested sequent calculus Resolution (logic) Proof theory Notes [ edit ] ^ a b Gentzen 1934 , Gentzen 1935.
+
+^ a b Curry 1977 , pp.
+
+208–213, gives a 5-page proof of the elimination theorem.
+
+See also pages 188, 250.
+
+^ a b Kleene 2009 , pp.
+
+453, gives a very brief proof of the cut-elimination theorem.
+
+^ Curry 1977 , pp.
+
+189–244, calls Gentzen systems LC systems.
+
+Curry's emphasis is more on theory than on practical logic proofs.
+
+^ Kleene 2009 , pp.
+
+440–516.
+
+This book is much more concerned with the theoretical, metamathematical implications of Gentzen-style sequent calculus than applications to practical logic proofs.
+
+^ Kleene 2002 , pp.
+
+283–312, 331–361, defines Gentzen systems and proves various theorems within these systems, including Gödel's completeness theorem and Gentzen's theorem.
+
+^ Smullyan 1995 , pp.
+
+101–127, gives a brief theoretical presentation of Gentzen systems.
+
+He uses the tableau proof layout style.
+
+^ Curry 1977 , pp.
+
+184–244, compares natural deduction systems, denoted LA, and Gentzen systems, denoted LC.
+
+Curry's emphasis is more theoretical than practical.
+
+^ Suppes 1999 , pp.
+
+25–150, is an introductory presentation of practical natural deduction of this kind.
+
+This became the basis of System L.
+
+^ Lemmon 1965 is an elementary introduction to practical natural deduction based on the convenient abbreviated proof layout style System L based on Suppes 1999 , pp.
+
+25–150.
+
+^ Here, "whenever" is used as an informal abbreviation "for every assignment of values to the free variables in the judgment" ^ Shankar, Natarajan ; Owre, Sam; Rushby, John M.
+
+; Stringer-Calvert, David W.
+
+J.
+
+(2001-11-01).
+
+"PVS Prover Guide" (PDF).
+
+User guide.
+
+SRI International.
+
+Retrieved 2015-05-29.
+
+^ For explanations of the disjunctive semantics for the right side of sequents, see Curry 1977 , pp.
+
+189–190, Kleene 2002 , pp.
+
+290, 297, Kleene 2009 , p.
+
+441, Hilbert & Bernays 1970 , p.
+
+385, Smullyan 1995 , pp.
+
+104–105 and Gentzen 1934 , p.
+
+180.
+
+^ Buss 1998 , p.
+
+10 ^ Gentzen 1934 , p.
+
+188.
+
+"Der Kalkül NJ hat manche formale Unschönheiten.
+
+" ^ Gentzen 1934 , p.
+
+191.
+
+"In dem klassischen Kalkül NK nahm der Satz vom ausgeschlossenen Dritten eine Sonderstellung unter den Schlußweisen ein [.
+
+], indem er sich der Einführungs- und Beseitigungssystematik nicht einfügte.
+
+Bei dem im folgenden anzugebenden logistischen klassichen Kalkül LK wird diese Sonderstellung aufgehoben.
+
+" ^ Gentzen 1934 , p.
+
+191.
+
+"Die damit erreichte Symmetrie erweist sich als für die klassische Logik angemessener.
+
+" ^ Gentzen 1934 , p.
+
+191.
+
+"Hiermit haben wir einige Gesichtspunkte zur Begründung der Aufstellung der folgenden Kalküle angegeben.
+
+Im wesentlichen ist ihre Form jedoch durch die Rücksicht auf den nachher zu beweisenden 'Hauptsatz' bestimmt und kann daher vorläufig nicht näher begründet werden.
+
+" ^ Kleene 2002 , p.
+
+441.
+
+^ a b c Applied Logic, Univ.
+
+of Cornell: Lecture 9.
+
+Last Retrieved: 2016-06-25 ^ "Remember, the way that you prove an implication is by assuming the hypothesis.
+
+"— Philip Wadler , on 2 November 2015, in his Keynote: "Propositions as Types".
+
+Minute 14:36 /55:28 of Code Mesh video clip ^ Tait WW (2010).
+
+"Gentzen's original consistency proof and the Bar Theorem" (PDF).
+
+In Kahle R, Rathjen M (eds.
+
+).
+
+Gentzen's Centenary: The Quest for Consistency.
+
+New York: Springer.
+
+pp.
+
+213–228.
+
+^ Jan von Plato, Elements of Logical Reasoning , Cambridge University Press, 2014, p.
+
+32.
+
+^ Andrzej-Indrzejczak, An Introduction to the Theory and Applications of Propositional Sequent Calculi (2021, chapter "Gentzen's Sequent Calculus LK").
+
+Accessed 3 August 2022.
+
+^ Smullyan 1995 , p.
+
+107 ^ Kleene 2002 , p.
+
+336, wrote in 1967 that "it was a major logical discovery by Gentzen 1934–5 that, when there is any (purely logical) proof of a proposition, there is a direct proof.
+
+The implications of this discovery are in theoretical logical investigations, rather than in building collections of proved formulas.
+
+" ^ Gentzen 1934 , p.
+
+194, wrote: "Der Unterschied zwischen intuitionistischer und klassischer Logik ist bei den Kalkülen LJ und LK äußerlich ganz anderer Art als bei NJ und NK.
+
+Dort bestand er in Weglassung bzw.
+
+Hinzunahme des Satzes vom ausgeschlossenen Dritten, während er hier durch die Sukzedensbedingung ausgedrückt wird.
+
+" English translation: "The difference between intuitionistic and classical logic is in the case of the calculi LJ and LK of an extremely, totally different kind to the case of NJ and NK.
+
+In the latter case, it consisted of the removal or addition respectively of the excluded middle rule, whereas in the former case, it is expressed through the succedent conditions.
+
+" ^ M.
+
+Tiomkin, "Proving unprovability", pp.
+
+22--26.
+
+In Proceedings Of The Third Annual Symposium On Logic In Computer Science, July 5-8, 1988 (1988), IEEE.
+
+ISBN 0-8186-0853-6.
+
+References [ edit ] Buss, Samuel R.
+
+(1998).
+
+"An introduction to proof theory".
+
+In Samuel R.
+
+Buss (ed.
+
+).
+
+Handbook of proof theory.
+
+Elsevier.
+
+pp.
+
+1–78.
+
+ISBN 0-444-89840-9.
+
+Curry, Haskell Brooks (1977) [1963].
+
+Foundations of mathematical logic.
+
+New York: Dover Publications Inc.
+
+ISBN 978-0-486-63462-3.
+
+Gentzen, Gerhard Karl Erich (1934).
+
+"Untersuchungen über das logische Schließen.
+
+I".
+
+Mathematische Zeitschrift.
+
+39 (2): 176–210.
+
+doi : 10.
+
+1007/BF01201353.
+
+S2CID 121546341.
+
+Gentzen, Gerhard Karl Erich (1935).
+
+"Untersuchungen über das logische Schließen.
+
+II".
+
+Mathematische Zeitschrift.
+
+39 (3): 405–431.
+
+doi : 10.
+
+1007/bf01201363.
+
+S2CID 186239837.
+
+Girard, Jean-Yves ; Paul Taylor; Yves Lafont (1990) [1989].
+
+Proofs and Types.
+
+Cambridge University Press (Cambridge Tracts in Theoretical Computer Science, 7).
+
+ISBN 0-521-37181-3.
+
+Hilbert, David ; Bernays, Paul (1970) [1939].
+
+Grundlagen der Mathematik II (Second ed.
+
+).
+
+Berlin, New York: Springer-Verlag.
+
+ISBN 978-3-642-86897-9.
+
+Kleene, Stephen Cole (2009) [1952].
+
+Introduction to metamathematics.
+
+Ishi Press International.
+
+ISBN 978-0-923891-57-2.
+
+Kleene, Stephen Cole (2002) [1967].
+
+Mathematical logic.
+
+Mineola, New York: Dover Publications.
+
+ISBN 978-0-486-42533-7.
+
+Lemmon, Edward John (1965).
+
+Beginning logic.
+
+Thomas Nelson.
+
+ISBN 0-17-712040-1.
+
+Mancosu, Paolo; Galvan, Sergio; Zach, Richard (2021).
+
+An Introduction to Proof Theory — Normalization, Cut-Elimination, and Consistency Proofs.
+
+Oxford University Press.
+
+p.
+
+431.
+
+ISBN 978-0-19-289593-6.
+
+Smullyan, Raymond Merrill (1995) [1968].
+
+First-order logic.
+
+New York: Dover Publications.
+
+ISBN 978-0-486-68370-6.
+
+Suppes, Patrick Colonel (1999) [1957].
+
+Introduction to logic.
+
+Mineola, New York: Dover Publications.
+
+ISBN 978-0-486-40687-9.
+
+External links [ edit ] Proof Theory (Sequent Calculi) in the Stanford Encyclopedia of Philosophy "Sequent calculus" , Encyclopedia of Mathematics , EMS Press , 2001 [1994] A Brief Diversion: Sequent Calculus Interactive tutorial of the Sequent Calculus v t e Diagrams in logic Venn diagram Square of opposition Porphyrian tree Karnaugh map Binary decision diagram Propositional directed acyclic graph Sentential decision diagram Truth table Sequent calculus Method of analytic tableaux Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Sequent_calculus&oldid=1232151369 " Categories : Proof theory Logical calculi Automated theorem proving Hidden categories: Articles with short description Short description matches Wikidata All articles with unsourced statements Articles with unsourced statements from November 2018 Pages with broken anchors This page was last edited on 2 July 2024, at 06:39 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

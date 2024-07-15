@@ -1,0 +1,53 @@
+Power number - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 References Toggle the table of contents Power number 13 languages العربية Български Català Deutsch Español فارسی Français Македонски Русский Suomi Türkçe Українська 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia For Newton number , see also Kissing number in the sphere packing problem.
+
+For use in arithmetic and algebra, see Exponentiation.
+
+The power number N p (also known as Newton number ) is a commonly used dimensionless number relating the resistance force to the inertia force.
+
+The power-number has different specifications according to the field of application.
+
+E.
+
+g.
+
+, for stirrers the power number is defined as: [1] N p = P ρ n 3 D 5 {\displaystyle N_{\mathrm {p} }={\frac {P}{\rho n^{3}D^{5}}}} with P : power ρ : fluid density n : rotational speed in revolutions per second D : diameter of stirrer References [ edit ] ^ Seinfeld, John H (1991).
+
+Wei, J; Anderson, J L; Bischoff, K B (eds.
+
+).
+
+Advances in Chemical Engineering.
+
+Academic Press.
+
+p.
+
+44.
+
+ISBN 978-0-08-056564-4.
+
+v t e Dimensionless numbers in fluid mechanics Archimedes Atwood Bagnold Bejan Biot Bond Brinkman Capillary Cauchy Chandrasekhar Damköhler Darcy Dean Deborah Dukhin Eckert Ekman Eötvös Euler Froude Galilei Graetz Grashof Görtler Hagen Iribarren Kapitza Keulegan–Carpenter Knudsen Laplace Lewis Mach Marangoni Morton Nusselt Ohnesorge Péclet Prandtl magnetic turbulent Rayleigh Reynolds magnetic Richardson Roshko Rossby Rouse Schmidt Scruton Sherwood Shields Stanton Stokes Strouhal Stuart Suratman Taylor Ursell Weber Weissenberg Womersley v t e Sir Isaac Newton Publications Fluxions (1671) De Motu (1684) Principia (1687) Opticks (1704) Queries (1704) Arithmetica (1707) De Analysi (1711) Other writings Quaestiones (1661–1665) " standing on the shoulders of giants " (1675) Notes on the Jewish Temple (c.
+
+1680) " General Scholium " (1713; " hypotheses non fingo " ) Ancient Kingdoms Amended (1728) Corruptions of Scripture (1754) Contributions Calculus fluxion Impact depth Inertia Newton disc Newton polygon Newton–Okounkov body Newton's reflector Newtonian telescope Newton scale Newton's metal Spectrum Structural coloration Newtonianism Bucket argument Newton's inequalities Newton's law of cooling Newton's law of universal gravitation post-Newtonian expansion parameterized gravitational constant Newton–Cartan theory Schrödinger–Newton equation Newton's laws of motion Kepler's laws Newtonian dynamics Newton's method in optimization Apollonius's problem truncated Newton method Gauss–Newton algorithm Newton's rings Newton's theorem about ovals Newton–Pepys problem Newtonian potential Newtonian fluid Classical mechanics Corpuscular theory of light Leibniz–Newton calculus controversy Newton's notation Rotating spheres Newton's cannonball Newton–Cotes formulas Newton's method generalized Gauss–Newton method Newton fractal Newton's identities Newton polynomial Newton's theorem of revolving orbits Newton–Euler equations Newton number kissing number problem Newton's quotient Parallelogram of force Newton–Puiseux theorem Absolute space and time Luminiferous aether Newtonian series table Personal life Woolsthorpe Manor (birthplace) Cranbury Park (home) Early life Later life Apple tree Religious views Occult studies Scientific Revolution Copernican Revolution Relations Catherine Barton (niece) John Conduitt (nephew-in-law) Isaac Barrow (professor) William Clarke (mentor) Benjamin Pulleyn (tutor) John Keill (disciple) William Stukeley (friend) William Jones (friend) Abraham de Moivre (friend) Depictions Newton by Blake (monotype) Newton by Paolozzi (sculpture) Isaac Newton Gargoyle Astronomers Monument Namesake Newton (unit) Newton's cradle Isaac Newton Institute Isaac Newton Medal Isaac Newton Telescope Isaac Newton Group of Telescopes XMM-Newton Sir Isaac Newton Sixth Form Statal Institute of Higher Education Isaac Newton Newton International Fellowship Categories Isaac Newton This fluid dynamics –related article is a stub.
+
+You can help Wikipedia by expanding it.
+
+v t e Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Power_number&oldid=1149926697 " Categories : Dimensionless numbers of fluid mechanics Fluid dynamics Fluid dynamics stubs Hidden category: All stub articles This page was last edited on 15 April 2023, at 09:06 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

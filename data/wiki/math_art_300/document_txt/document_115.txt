@@ -1,0 +1,913 @@
+Measure (mathematics) - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Definition 2 Instances 3 Basic properties Toggle Basic properties subsection 3.
+
+1 Monotonicity 3.
+
+2 Measure of countable unions and intersections 3.
+
+2.
+
+1 Countable subadditivity 3.
+
+2.
+
+2 Continuity from below 3.
+
+2.
+
+3 Continuity from above 4 Other properties Toggle Other properties subsection 4.
+
+1 Completeness 4.
+
+2 "Dropping the Edge" 4.
+
+3 Additivity 4.
+
+4 Sigma-finite measures 4.
+
+5 Strictly localizable measures 4.
+
+6 Semifinite measures 4.
+
+6.
+
+1 Basic examples 4.
+
+6.
+
+2 Involved example 4.
+
+6.
+
+3 Non-examples 4.
+
+6.
+
+4 Involved non-example 4.
+
+6.
+
+5 Results regarding semifinite measures 4.
+
+7 Localizable measures 4.
+
+8 s-finite measures 5 Non-measurable sets 6 Generalizations 7 See also 8 Notes 9 Bibliography 10 References 11 External links Toggle the table of contents Measure (mathematics) 42 languages العربية বাংলা Беларуская Bosanski Чӑвашла Čeština Dansk Deutsch Ελληνικά Español Esperanto فارسی Français Galego 한국어 Bahasa Indonesia Íslenska Italiano עברית ಕನ್ನಡ ქართული Қазақша Magyar Македонски Nederlands 日本語 Polski Português Română Русский Slovenčina Slovenščina Српски / srpski Suomi Svenska Tagalog ไทย Türkçe Українська Tiếng Việt 粵語 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia (Redirected from Measure theory ) Generalization of mass, length, area and volume For the coalgebraic concept, see Measuring coalgebra.
+
+Not to be confused with Metric (mathematics).
+
+This article includes a list of general references , but it lacks sufficient corresponding inline citations.
+
+Please help to improve this article by introducing more precise citations.
+
+( January 2021 ) ( Learn how and when to remove this message ) Informally, a measure has the property of being monotone in the sense that if A {\displaystyle A} is a subset of B , {\displaystyle B,} the measure of A {\displaystyle A} is less than or equal to the measure of B.
+
+{\displaystyle B.
+
+} Furthermore, the measure of the empty set is required to be 0.
+
+A simple example is a volume (how big an object occupies a space) as a measure.
+
+In mathematics , the concept of a measure is a generalization and formalization of geometrical measures ( length , area , volume ) and other common notions, such as magnitude , mass , and probability of events.
+
+These seemingly distinct concepts have many similarities and can often be treated together in a single mathematical context.
+
+Measures are foundational in probability theory , integration theory , and can be generalized to assume negative values , as with electrical charge.
+
+Far-reaching generalizations (such as spectral measures and projection-valued measures ) of measure are widely used in quantum physics and physics in general.
+
+The intuition behind this concept dates back to ancient Greece , when Archimedes tried to calculate the area of a circle.
+
+[1] [2] But it was not until the late 19th and early 20th centuries that measure theory became a branch of mathematics.
+
+The foundations of modern measure theory were laid in the works of Émile Borel , Henri Lebesgue , Nikolai Luzin , Johann Radon , Constantin Carathéodory , and Maurice Fréchet , among others.
+
+Definition [ edit ] Countable additivity of a measure μ {\displaystyle \mu } : The measure of a countable disjoint union is the same as the sum of all measures of each subset.
+
+Let X {\displaystyle X} be a set and Σ {\displaystyle \Sigma } a σ {\displaystyle \sigma } -algebra over X.
+
+{\displaystyle X.
+
+} A set function μ {\displaystyle \mu } from Σ {\displaystyle \Sigma } to the extended real number line is called a measure if the following conditions hold: Non-negativity : For all E ∈ Σ , μ ( E ) ≥ 0.
+
+{\displaystyle E\in \Sigma ,\ \ \mu (E)\geq 0.
+
+} μ ( ∅ ) = 0.
+
+{\displaystyle \mu (\varnothing )=0.
+
+} Countable additivity (or σ {\displaystyle \sigma } -additivity ): For all countable collections { E k } k = 1 ∞ {\displaystyle \{E_{k}\}_{k=1}^{\infty }} of pairwise disjoint sets in Σ, μ ( ⋃ k = 1 ∞ E k ) = ∑ k = 1 ∞ μ ( E k ).
+
+{\displaystyle \mu \left(\bigcup _{k=1}^{\infty }E_{k}\right)=\sum _{k=1}^{\infty }\mu (E_{k}).
+
+} If at least one set E {\displaystyle E} has finite measure, then the requirement μ ( ∅ ) = 0 {\displaystyle \mu (\varnothing )=0} is met automatically due to countable additivity: μ ( E ) = μ ( E ∪ ∅ ) = μ ( E ) + μ ( ∅ ) , {\displaystyle \mu (E)=\mu (E\cup \varnothing )=\mu (E)+\mu (\varnothing ),} and therefore μ ( ∅ ) = 0.
+
+{\displaystyle \mu (\varnothing )=0.
+
+} If the condition of non-negativity is dropped, and μ {\displaystyle \mu } takes on at most one of the values of ± ∞ , {\displaystyle \pm \infty ,} then μ {\displaystyle \mu } is called a signed measure.
+
+The pair ( X , Σ ) {\displaystyle (X,\Sigma )} is called a measurable space , and the members of Σ {\displaystyle \Sigma } are called measurable sets.
+
+A triple ( X , Σ , μ ) {\displaystyle (X,\Sigma ,\mu )} is called a measure space.
+
+A probability measure is a measure with total measure one – that is, μ ( X ) = 1.
+
+{\displaystyle \mu (X)=1.
+
+} A probability space is a measure space with a probability measure.
+
+For measure spaces that are also topological spaces various compatibility conditions can be placed for the measure and the topology.
+
+Most measures met in practice in analysis (and in many cases also in probability theory ) are Radon measures.
+
+Radon measures have an alternative definition in terms of linear functionals on the locally convex topological vector space of continuous functions with compact support.
+
+This approach is taken by Bourbaki (2004) and a number of other sources.
+
+For more details, see the article on Radon measures.
+
+Instances [ edit ] Main category: Measures (measure theory) Some important measures are listed here.
+
+The counting measure is defined by μ ( S ) {\displaystyle \mu (S)} = number of elements in S.
+
+{\displaystyle S.
+
+} The Lebesgue measure on R {\displaystyle \mathbb {R} } is a complete translation-invariant measure on a σ -algebra containing the intervals in R {\displaystyle \mathbb {R} } such that μ ( [ 0 , 1 ] ) = 1 {\displaystyle \mu ([0,1])=1} ; and every other measure with these properties extends the Lebesgue measure.
+
+Circular angle measure is invariant under rotation , and hyperbolic angle measure is invariant under squeeze mapping.
+
+The Haar measure for a locally compact topological group is a generalization of the Lebesgue measure (and also of counting measure and circular angle measure) and has similar uniqueness properties.
+
+The Hausdorff measure is a generalization of the Lebesgue measure to sets with non-integer dimension, in particular, fractal sets.
+
+Every probability space gives rise to a measure which takes the value 1 on the whole space (and therefore takes all its values in the unit interval [0, 1]).
+
+Such a measure is called a probability measure or distribution.
+
+See the list of probability distributions for instances.
+
+The Dirac measure δ a (cf.
+
+Dirac delta function ) is given by δ a ( S ) = χ S (a), where χ S is the indicator function of S.
+
+{\displaystyle S.
+
+} The measure of a set is 1 if it contains the point a {\displaystyle a} and 0 otherwise.
+
+Other 'named' measures used in various theories include: Borel measure , Jordan measure , ergodic measure , Gaussian measure , Baire measure , Radon measure , Young measure , and Loeb measure.
+
+In physics an example of a measure is spatial distribution of mass (see for example, gravity potential ), or another non-negative extensive property , conserved (see conservation law for a list of these) or not.
+
+Negative values lead to signed measures, see "generalizations" below.
+
+Liouville measure , known also as the natural volume form on a symplectic manifold, is useful in classical statistical and Hamiltonian mechanics.
+
+Gibbs measure is widely used in statistical mechanics, often under the name canonical ensemble.
+
+Measure theory is used in machine learning.
+
+One example is the Flow Induced Probability Measure in GFlowNet.
+
+[3] Basic properties [ edit ] Let μ {\displaystyle \mu } be a measure.
+
+Monotonicity [ edit ] If E 1 {\displaystyle E_{1}} and E 2 {\displaystyle E_{2}} are measurable sets with E 1 ⊆ E 2 {\displaystyle E_{1}\subseteq E_{2}} then μ ( E 1 ) ≤ μ ( E 2 ).
+
+{\displaystyle \mu (E_{1})\leq \mu (E_{2}).
+
+} Measure of countable unions and intersections [ edit ] Countable subadditivity [ edit ] For any countable sequence E 1 , E 2 , E 3 , … {\displaystyle E_{1},E_{2},E_{3},\ldots } of (not necessarily disjoint) measurable sets E n {\displaystyle E_{n}} in Σ : {\displaystyle \Sigma :} μ ( ⋃ i = 1 ∞ E i ) ≤ ∑ i = 1 ∞ μ ( E i ).
+
+{\displaystyle \mu \left(\bigcup _{i=1}^{\infty }E_{i}\right)\leq \sum _{i=1}^{\infty }\mu (E_{i}).
+
+} Continuity from below [ edit ] If E 1 , E 2 , E 3 , … {\displaystyle E_{1},E_{2},E_{3},\ldots } are measurable sets that are increasing (meaning that E 1 ⊆ E 2 ⊆ E 3 ⊆ … {\displaystyle E_{1}\subseteq E_{2}\subseteq E_{3}\subseteq \ldots } ) then the union of the sets E n {\displaystyle E_{n}} is measurable and μ ( ⋃ i = 1 ∞ E i ) = lim i → ∞ μ ( E i ) = sup i ≥ 1 μ ( E i ).
+
+{\displaystyle \mu \left(\bigcup _{i=1}^{\infty }E_{i}\right)~=~\lim _{i\to \infty }\mu (E_{i})=\sup _{i\geq 1}\mu (E_{i}).
+
+} Continuity from above [ edit ] If E 1 , E 2 , E 3 , … {\displaystyle E_{1},E_{2},E_{3},\ldots } are measurable sets that are decreasing (meaning that E 1 ⊇ E 2 ⊇ E 3 ⊇ … {\displaystyle E_{1}\supseteq E_{2}\supseteq E_{3}\supseteq \ldots } ) then the intersection of the sets E n {\displaystyle E_{n}} is measurable; furthermore, if at least one of the E n {\displaystyle E_{n}} has finite measure then μ ( ⋂ i = 1 ∞ E i ) = lim i → ∞ μ ( E i ) = inf i ≥ 1 μ ( E i ).
+
+{\displaystyle \mu \left(\bigcap _{i=1}^{\infty }E_{i}\right)=\lim _{i\to \infty }\mu (E_{i})=\inf _{i\geq 1}\mu (E_{i}).
+
+} This property is false without the assumption that at least one of the E n {\displaystyle E_{n}} has finite measure.
+
+For instance, for each n ∈ N , {\displaystyle n\in \mathbb {N} ,} let E n = [ n , ∞ ) ⊆ R , {\displaystyle E_{n}=[n,\infty )\subseteq \mathbb {R} ,} which all have infinite Lebesgue measure, but the intersection is empty.
+
+Other properties [ edit ] Completeness [ edit ] Main article: Complete measure A measurable set X {\displaystyle X} is called a null set if μ ( X ) = 0.
+
+{\displaystyle \mu (X)=0.
+
+} A subset of a null set is called a negligible set.
+
+A negligible set need not be measurable, but every measurable negligible set is automatically a null set.
+
+A measure is called complete if every negligible set is measurable.
+
+A measure can be extended to a complete one by considering the σ-algebra of subsets Y {\displaystyle Y} which differ by a negligible set from a measurable set X , {\displaystyle X,} that is, such that the symmetric difference of X {\displaystyle X} and Y {\displaystyle Y} is contained in a null set.
+
+One defines μ ( Y ) {\displaystyle \mu (Y)} to equal μ ( X ).
+
+{\displaystyle \mu (X).
+
+} "Dropping the Edge" [ edit ] If f : X → [ 0 , + ∞ ] {\displaystyle f:X\to [0,+\infty ]} is ( Σ , B ( [ 0 , + ∞ ] ) ) {\displaystyle (\Sigma ,{\cal {B}}([0,+\infty ]))} -measurable, then μ { x ∈ X : f ( x ) ≥ t } = μ { x ∈ X : f ( x ) > t } {\displaystyle \mu \{x\in X:f(x)\geq t\}=\mu \{x\in X:f(x)>t\}} for almost all t ∈ [ − ∞ , ∞ ].
+
+{\displaystyle t\in [-\infty ,\infty ].
+
+} [4] This property is used in connection with Lebesgue integral.
+
+Proof Both F ( t ) := μ { x ∈ X : f ( x ) > t } {\displaystyle F(t):=\mu \{x\in X:f(x)>t\}} and G ( t ) := μ { x ∈ X : f ( x ) ≥ t } {\displaystyle G(t):=\mu \{x\in X:f(x)\geq t\}} are monotonically non-increasing functions of t , {\displaystyle t,} so both of them have at most countably many discontinuities and thus they are continuous almost everywhere, relative to the Lebesgue measure.
+
+If t < 0 {\displaystyle t<0} then { x ∈ X : f ( x ) ≥ t } = X = { x ∈ X : f ( x ) > t } , {\displaystyle \{x\in X:f(x)\geq t\}=X=\{x\in X:f(x)>t\},} so that F ( t ) = G ( t ) , {\displaystyle F(t)=G(t),} as desired.
+
+If t {\displaystyle t} is such that μ { x ∈ X : f ( x ) > t } = + ∞ {\displaystyle \mu \{x\in X:f(x)>t\}=+\infty } then monotonicity implies μ { x ∈ X : f ( x ) ≥ t } = + ∞ , {\displaystyle \mu \{x\in X:f(x)\geq t\}=+\infty ,} so that F ( t ) = G ( t ) , {\displaystyle F(t)=G(t),} as required.
+
+If μ { x ∈ X : f ( x ) > t } = + ∞ {\displaystyle \mu \{x\in X:f(x)>t\}=+\infty } for all t {\displaystyle t} then we are done, so assume otherwise.
+
+Then there is a unique t 0 ∈ { − ∞ } ∪ [ 0 , + ∞ ) {\displaystyle t_{0}\in \{-\infty \}\cup [0,+\infty )} such that F {\displaystyle F} is infinite to the left of t {\displaystyle t} (which can only happen when t 0 ≥ 0 {\displaystyle t_{0}\geq 0} ) and finite to the right.
+
+Arguing as above, μ { x ∈ X : f ( x ) ≥ t } = + ∞ {\displaystyle \mu \{x\in X:f(x)\geq t\}=+\infty } when t < t 0.
+
+{\displaystyle t<t_{0}.
+
+} Similarly, if t 0 ≥ 0 {\displaystyle t_{0}\geq 0} and F ( t 0 ) = + ∞ {\displaystyle F\left(t_{0}\right)=+\infty } then F ( t 0 ) = G ( t 0 ).
+
+{\displaystyle F\left(t_{0}\right)=G\left(t_{0}\right).
+
+} For t > t 0 , {\displaystyle t>t_{0},} let t n {\displaystyle t_{n}} be a monotonically non-decreasing sequence converging to t.
+
+{\displaystyle t.
+
+} The monotonically non-increasing sequences { x ∈ X : f ( x ) > t n } {\displaystyle \{x\in X:f(x)>t_{n}\}} of members of Σ {\displaystyle \Sigma } has at least one finitely μ {\displaystyle \mu } -measurable component, and { x ∈ X : f ( x ) ≥ t } = ⋂ n { x ∈ X : f ( x ) > t n }.
+
+{\displaystyle \{x\in X:f(x)\geq t\}=\bigcap _{n}\{x\in X:f(x)>t_{n}\}.
+
+} Continuity from above guarantees that μ { x ∈ X : f ( x ) ≥ t } = lim t n ↑ t μ { x ∈ X : f ( x ) > t n }.
+
+{\displaystyle \mu \{x\in X:f(x)\geq t\}=\lim _{t_{n}\uparrow t}\mu \{x\in X:f(x)>t_{n}\}.
+
+} The right-hand side lim t n ↑ t F ( t n ) {\displaystyle \lim _{t_{n}\uparrow t}F\left(t_{n}\right)} then equals F ( t ) = μ { x ∈ X : f ( x ) > t } {\displaystyle F(t)=\mu \{x\in X:f(x)>t\}} if t {\displaystyle t} is a point of continuity of F.
+
+{\displaystyle F.
+
+} Since F {\displaystyle F} is continuous almost everywhere, this completes the proof.
+
+Additivity [ edit ] Measures are required to be countably additive.
+
+However, the condition can be strengthened as follows.
+
+For any set I {\displaystyle I} and any set of nonnegative r i , i ∈ I {\displaystyle r_{i},i\in I} define: ∑ i ∈ I r i = sup { ∑ i ∈ J r i : | J | < ∞ , J ⊆ I }.
+
+{\displaystyle \sum _{i\in I}r_{i}=\sup \left\lbrace \sum _{i\in J}r_{i}:|J|<\infty ,J\subseteq I\right\rbrace.
+
+} That is, we define the sum of the r i {\displaystyle r_{i}} to be the supremum of all the sums of finitely many of them.
+
+A measure μ {\displaystyle \mu } on Σ {\displaystyle \Sigma } is κ {\displaystyle \kappa } -additive if for any λ < κ {\displaystyle \lambda <\kappa } and any family of disjoint sets X α , α < λ {\displaystyle X_{\alpha },\alpha <\lambda } the following hold: ⋃ α ∈ λ X α ∈ Σ {\displaystyle \bigcup _{\alpha \in \lambda }X_{\alpha }\in \Sigma } μ ( ⋃ α ∈ λ X α ) = ∑ α ∈ λ μ ( X α ).
+
+{\displaystyle \mu \left(\bigcup _{\alpha \in \lambda }X_{\alpha }\right)=\sum _{\alpha \in \lambda }\mu \left(X_{\alpha }\right).
+
+} The second condition is equivalent to the statement that the ideal of null sets is κ {\displaystyle \kappa } -complete.
+
+Sigma-finite measures [ edit ] Main article: Sigma-finite measure A measure space ( X , Σ , μ ) {\displaystyle (X,\Sigma ,\mu )} is called finite if μ ( X ) {\displaystyle \mu (X)} is a finite real number (rather than ∞ {\displaystyle \infty } ).
+
+Nonzero finite measures are analogous to probability measures in the sense that any finite measure μ {\displaystyle \mu } is proportional to the probability measure 1 μ ( X ) μ.
+
+{\displaystyle {\frac {1}{\mu (X)}}\mu.
+
+} A measure μ {\displaystyle \mu } is called σ-finite if X {\displaystyle X} can be decomposed into a countable union of measurable sets of finite measure.
+
+Analogously, a set in a measure space is said to have a σ-finite measure if it is a countable union of sets with finite measure.
+
+For example, the real numbers with the standard Lebesgue measure are σ-finite but not finite.
+
+Consider the closed intervals [ k , k + 1 ] {\displaystyle [k,k+1]} for all integers k ; {\displaystyle k;} there are countably many such intervals, each has measure 1, and their union is the entire real line.
+
+Alternatively, consider the real numbers with the counting measure , which assigns to each finite set of reals the number of points in the set.
+
+This measure space is not σ-finite, because every set with finite measure contains only finitely many points, and it would take uncountably many such sets to cover the entire real line.
+
+The σ-finite measure spaces have some very convenient properties; σ-finiteness can be compared in this respect to the Lindelöf property of topological spaces.
+
+[ original research? ] They can be also thought of as a vague generalization of the idea that a measure space may have 'uncountable measure'.
+
+Strictly localizable measures [ edit ] Main article: Decomposable measure Semifinite measures [ edit ] Let X {\displaystyle X} be a set, let A {\displaystyle {\cal {A}}} be a sigma-algebra on X , {\displaystyle X,} and let μ {\displaystyle \mu } be a measure on A.
+
+{\displaystyle {\cal {A}}.
+
+} We say μ {\displaystyle \mu } is semifinite to mean that for all A ∈ μ pre { + ∞ } , {\displaystyle A\in \mu ^{\text{pre}}\{+\infty \},} P ( A ) ∩ μ pre ( R > 0 ) ≠ ∅.
+
+{\displaystyle {\cal {P}}(A)\cap \mu ^{\text{pre}}(\mathbb {R} _{>0})\neq \emptyset.
+
+} [5] Semifinite measures generalize sigma-finite measures, in such a way that some big theorems of measure theory that hold for sigma-finite but not arbitrary measures can be extended with little modification to hold for semifinite measures.
+
+(To-do: add examples of such theorems; cf.
+
+the talk page.
+
+) Basic examples [ edit ] Every sigma-finite measure is semifinite.
+
+Assume A = P ( X ) , {\displaystyle {\cal {A}}={\cal {P}}(X),} let f : X → [ 0 , + ∞ ] , {\displaystyle f:X\to [0,+\infty ],} and assume μ ( A ) = ∑ a ∈ A f ( a ) {\displaystyle \mu (A)=\sum _{a\in A}f(a)} for all A ⊆ X.
+
+{\displaystyle A\subseteq X.
+
+} We have that μ {\displaystyle \mu } is sigma-finite if and only if f ( x ) < + ∞ {\displaystyle f(x)<+\infty } for all x ∈ X {\displaystyle x\in X} and f pre ( R > 0 ) {\displaystyle f^{\text{pre}}(\mathbb {R} _{>0})} is countable.
+
+We have that μ {\displaystyle \mu } is semifinite if and only if f ( x ) < + ∞ {\displaystyle f(x)<+\infty } for all x ∈ X.
+
+{\displaystyle x\in X.
+
+} [6] Taking f = X × { 1 } {\displaystyle f=X\times \{1\}} above (so that μ {\displaystyle \mu } is counting measure on P ( X ) {\displaystyle {\cal {P}}(X)} ), we see that counting measure on P ( X ) {\displaystyle {\cal {P}}(X)} is sigma-finite if and only if X {\displaystyle X} is countable; and semifinite (without regard to whether X {\displaystyle X} is countable).
+
+(Thus, counting measure, on the power set P ( X ) {\displaystyle {\cal {P}}(X)} of an arbitrary uncountable set X , {\displaystyle X,} gives an example of a semifinite measure that is not sigma-finite.
+
+) Let d {\displaystyle d} be a complete, separable metric on X , {\displaystyle X,} let B {\displaystyle {\cal {B}}} be the Borel sigma-algebra induced by d , {\displaystyle d,} and let s ∈ R > 0.
+
+{\displaystyle s\in \mathbb {R} _{>0}.
+
+} Then the Hausdorff measure H s | B {\displaystyle {\cal {H}}^{s}|{\cal {B}}} is semifinite.
+
+[7] Let d {\displaystyle d} be a complete, separable metric on X , {\displaystyle X,} let B {\displaystyle {\cal {B}}} be the Borel sigma-algebra induced by d , {\displaystyle d,} and let s ∈ R > 0.
+
+{\displaystyle s\in \mathbb {R} _{>0}.
+
+} Then the packing measure H s | B {\displaystyle {\cal {H}}^{s}|{\cal {B}}} is semifinite.
+
+[8] Involved example [ edit ] The zero measure is sigma-finite and thus semifinite.
+
+In addition, the zero measure is clearly less than or equal to μ.
+
+{\displaystyle \mu.
+
+} It can be shown there is a greatest measure with these two properties: Theorem (semifinite part) [9] — For any measure μ {\displaystyle \mu } on A , {\displaystyle {\cal {A}},} there exists, among semifinite measures on A {\displaystyle {\cal {A}}} that are less than or equal to μ , {\displaystyle \mu ,} a greatest element μ sf.
+
+{\displaystyle \mu _{\text{sf}}.
+
+} We say the semifinite part of μ {\displaystyle \mu } to mean the semifinite measure μ sf {\displaystyle \mu _{\text{sf}}} defined in the above theorem.
+
+We give some nice, explicit formulas, which some authors may take as definition, for the semifinite part: μ sf = ( sup { μ ( B ) : B ∈ P ( A ) ∩ μ pre ( R ≥ 0 ) } ) A ∈ A.
+
+{\displaystyle \mu _{\text{sf}}=(\sup\{\mu (B):B\in {\cal {P}}(A)\cap \mu ^{\text{pre}}(\mathbb {R} _{\geq 0})\})_{A\in {\cal {A}}}.
+
+} [9] μ sf = ( sup { μ ( A ∩ B ) : B ∈ μ pre ( R ≥ 0 ) } ) A ∈ A }.
+
+{\displaystyle \mu _{\text{sf}}=(\sup\{\mu (A\cap B):B\in \mu ^{\text{pre}}(\mathbb {R} _{\geq 0})\})_{A\in {\cal {A}}}\}.
+
+} [10] μ sf = μ | μ pre ( R > 0 ) ∪ { A ∈ A : sup { μ ( B ) : B ∈ P ( A ) } = + ∞ } × { + ∞ } ∪ { A ∈ A : sup { μ ( B ) : B ∈ P ( A ) } < + ∞ } × { 0 }.
+
+{\displaystyle \mu _{\text{sf}}=\mu |_{\mu ^{\text{pre}}(\mathbb {R} _{>0})}\cup \{A\in {\cal {A}}:\sup\{\mu (B):B\in {\cal {P}}(A)\}=+\infty \}\times \{+\infty \}\cup \{A\in {\cal {A}}:\sup\{\mu (B):B\in {\cal {P}}(A)\}<+\infty \}\times \{0\}.
+
+} [11] Since μ sf {\displaystyle \mu _{\text{sf}}} is semifinite, it follows that if μ = μ sf {\displaystyle \mu =\mu _{\text{sf}}} then μ {\displaystyle \mu } is semifinite.
+
+It is also evident that if μ {\displaystyle \mu } is semifinite then μ = μ sf.
+
+{\displaystyle \mu =\mu _{\text{sf}}.
+
+} Non-examples [ edit ] Every 0 − ∞ {\displaystyle 0-\infty } measure that is not the zero measure is not semifinite.
+
+(Here, we say 0 − ∞ {\displaystyle 0-\infty } measure to mean a measure whose range lies in { 0 , + ∞ } {\displaystyle \{0,+\infty \}} : ( ∀ A ∈ A ) ( μ ( A ) ∈ { 0 , + ∞ } ).
+
+{\displaystyle (\forall A\in {\cal {A}})(\mu (A)\in \{0,+\infty \}).
+
+} ) Below we give examples of 0 − ∞ {\displaystyle 0-\infty } measures that are not zero measures.
+
+Let X {\displaystyle X} be nonempty, let A {\displaystyle {\cal {A}}} be a σ {\displaystyle \sigma } -algebra on X , {\displaystyle X,} let f : X → { 0 , + ∞ } {\displaystyle f:X\to \{0,+\infty \}} be not the zero function, and let μ = ( ∑ x ∈ A f ( x ) ) A ∈ A.
+
+{\displaystyle \mu =(\sum _{x\in A}f(x))_{A\in {\cal {A}}}.
+
+} It can be shown that μ {\displaystyle \mu } is a measure.
+
+μ = { ( ∅ , 0 ) } ∪ ( A ∖ { ∅ } ) × { + ∞ }.
+
+{\displaystyle \mu =\{(\emptyset ,0)\}\cup ({\cal {A}}\setminus \{\emptyset \})\times \{+\infty \}.
+
+} [12] X = { 0 } , {\displaystyle X=\{0\},} A = { ∅ , X } , {\displaystyle {\cal {A}}=\{\emptyset ,X\},} μ = { ( ∅ , 0 ) , ( X , + ∞ ) }.
+
+{\displaystyle \mu =\{(\emptyset ,0),(X,+\infty )\}.
+
+} [13] Let X {\displaystyle X} be uncountable, let A {\displaystyle {\cal {A}}} be a σ {\displaystyle \sigma } -algebra on X , {\displaystyle X,} let C = { A ∈ A : A is countable } {\displaystyle {\cal {C}}=\{A\in {\cal {A}}:A{\text{ is countable}}\}} be the countable elements of A , {\displaystyle {\cal {A}},} and let μ = C × { 0 } ∪ ( A ∖ C ) × { + ∞ }.
+
+{\displaystyle \mu ={\cal {C}}\times \{0\}\cup ({\cal {A}}\setminus {\cal {C}})\times \{+\infty \}.
+
+} It can be shown that μ {\displaystyle \mu } is a measure.
+
+[5] Involved non-example [ edit ] Measures that are not semifinite are very wild when restricted to certain sets.
+
+[Note 1] Every measure is, in a sense, semifinite once its 0 − ∞ {\displaystyle 0-\infty } part (the wild part) is taken away.
+
+— A.
+
+Mukherjea and K.
+
+Pothoven, Real and Functional Analysis, Part A: Real Analysis (1985) Theorem (Luther decomposition) [14] [15] — For any measure μ {\displaystyle \mu } on A , {\displaystyle {\cal {A}},} there exists a 0 − ∞ {\displaystyle 0-\infty } measure ξ {\displaystyle \xi } on A {\displaystyle {\cal {A}}} such that μ = ν + ξ {\displaystyle \mu =\nu +\xi } for some semifinite measure ν {\displaystyle \nu } on A.
+
+{\displaystyle {\cal {A}}.
+
+} In fact, among such measures ξ , {\displaystyle \xi ,} there exists a least measure μ 0 − ∞.
+
+{\displaystyle \mu _{0-\infty }.
+
+} Also, we have μ = μ sf + μ 0 − ∞.
+
+{\displaystyle \mu =\mu _{\text{sf}}+\mu _{0-\infty }.
+
+} We say the 0 − ∞ {\displaystyle \mathbf {0-\infty } } part of μ {\displaystyle \mu } to mean the measure μ 0 − ∞ {\displaystyle \mu _{0-\infty }} defined in the above theorem.
+
+Here is an explicit formula for μ 0 − ∞ {\displaystyle \mu _{0-\infty }} : μ 0 − ∞ = ( sup { μ ( B ) − μ sf ( B ) : B ∈ P ( A ) ∩ μ sf pre ( R ≥ 0 ) } ) A ∈ A.
+
+{\displaystyle \mu _{0-\infty }=(\sup\{\mu (B)-\mu _{\text{sf}}(B):B\in {\cal {P}}(A)\cap \mu _{\text{sf}}^{\text{pre}}(\mathbb {R} _{\geq 0})\})_{A\in {\cal {A}}}.
+
+} Results regarding semifinite measures [ edit ] Let F {\displaystyle \mathbb {F} } be R {\displaystyle \mathbb {R} } or C , {\displaystyle \mathbb {C} ,} and let T : L F ∞ ( μ ) → ( L F 1 ( μ ) ) ∗ : g ↦ T g = ( ∫ f g d μ ) f ∈ L F 1 ( μ ).
+
+{\displaystyle T:L_{\mathbb {F} }^{\infty }(\mu )\to \left(L_{\mathbb {F} }^{1}(\mu )\right)^{*}:g\mapsto T_{g}=\left(\int fgd\mu \right)_{f\in L_{\mathbb {F} }^{1}(\mu )}.
+
+} Then μ {\displaystyle \mu } is semifinite if and only if T {\displaystyle T} is injective.
+
+[16] [17] (This result has import in the study of the dual space of L 1 = L F 1 ( μ ) {\displaystyle L^{1}=L_{\mathbb {F} }^{1}(\mu )}.
+
+) Let F {\displaystyle \mathbb {F} } be R {\displaystyle \mathbb {R} } or C , {\displaystyle \mathbb {C} ,} and let T {\displaystyle {\cal {T}}} be the topology of convergence in measure on L F 0 ( μ ).
+
+{\displaystyle L_{\mathbb {F} }^{0}(\mu ).
+
+} Then μ {\displaystyle \mu } is semifinite if and only if T {\displaystyle {\cal {T}}} is Hausdorff.
+
+[18] [19] (Johnson) Let X {\displaystyle X} be a set, let A {\displaystyle {\cal {A}}} be a sigma-algebra on X , {\displaystyle X,} let μ {\displaystyle \mu } be a measure on A , {\displaystyle {\cal {A}},} let Y {\displaystyle Y} be a set, let B {\displaystyle {\cal {B}}} be a sigma-algebra on Y , {\displaystyle Y,} and let ν {\displaystyle \nu } be a measure on B.
+
+{\displaystyle {\cal {B}}.
+
+} If μ , ν {\displaystyle \mu ,\nu } are both not a 0 − ∞ {\displaystyle 0-\infty } measure, then both μ {\displaystyle \mu } and ν {\displaystyle \nu } are semifinite if and only if ( μ × cld ν ) {\displaystyle (\mu \times _{\text{cld}}\nu )} ( A × B ) = μ ( A ) ν ( B ) {\displaystyle (A\times B)=\mu (A)\nu (B)} for all A ∈ A {\displaystyle A\in {\cal {A}}} and B ∈ B.
+
+{\displaystyle B\in {\cal {B}}.
+
+} (Here, μ × cld ν {\displaystyle \mu \times _{\text{cld}}\nu } is the measure defined in Theorem 39.
+
+1 in Berberian '65.
+
+[20] ) Localizable measures [ edit ] Localizable measures are a special case of semifinite measures and a generalization of sigma-finite measures.
+
+Let X {\displaystyle X} be a set, let A {\displaystyle {\cal {A}}} be a sigma-algebra on X , {\displaystyle X,} and let μ {\displaystyle \mu } be a measure on A.
+
+{\displaystyle {\cal {A}}.
+
+} Let F {\displaystyle \mathbb {F} } be R {\displaystyle \mathbb {R} } or C , {\displaystyle \mathbb {C} ,} and let T : L F ∞ ( μ ) → ( L F 1 ( μ ) ) ∗ : g ↦ T g = ( ∫ f g d μ ) f ∈ L F 1 ( μ ).
+
+{\displaystyle T:L_{\mathbb {F} }^{\infty }(\mu )\to \left(L_{\mathbb {F} }^{1}(\mu )\right)^{*}:g\mapsto T_{g}=\left(\int fgd\mu \right)_{f\in L_{\mathbb {F} }^{1}(\mu )}.
+
+} Then μ {\displaystyle \mu } is localizable if and only if T {\displaystyle T} is bijective (if and only if L F ∞ ( μ ) {\displaystyle L_{\mathbb {F} }^{\infty }(\mu )} "is" L F 1 ( μ ) ∗ {\displaystyle L_{\mathbb {F} }^{1}(\mu )^{*}} ).
+
+[21] [17] s-finite measures [ edit ] Main article: s-finite measure A measure is said to be s-finite if it is a countable sum of finite measures.
+
+S-finite measures are more general than sigma-finite ones and have applications in the theory of stochastic processes.
+
+Non-measurable sets [ edit ] Main article: Non-measurable set If the axiom of choice is assumed to be true, it can be proved that not all subsets of Euclidean space are Lebesgue measurable ; examples of such sets include the Vitali set , and the non-measurable sets postulated by the Hausdorff paradox and the Banach–Tarski paradox.
+
+Generalizations [ edit ] For certain purposes, it is useful to have a "measure" whose values are not restricted to the non-negative reals or infinity.
+
+For instance, a countably additive set function with values in the (signed) real numbers is called a signed measure , while such a function with values in the complex numbers is called a complex measure.
+
+Observe, however, that complex measure is necessarily of finite variation, hence complex measures include finite signed measures but not, for example, the Lebesgue measure.
+
+Measures that take values in Banach spaces have been studied extensively.
+
+[22] A measure that takes values in the set of self-adjoint projections on a Hilbert space is called a projection-valued measure ; these are used in functional analysis for the spectral theorem.
+
+When it is necessary to distinguish the usual measures which take non-negative values from generalizations, the term positive measure is used.
+
+Positive measures are closed under conical combination but not general linear combination , while signed measures are the linear closure of positive measures.
+
+Another generalization is the finitely additive measure , also known as a content.
+
+This is the same as a measure except that instead of requiring countable additivity we require only finite additivity.
+
+Historically, this definition was used first.
+
+It turns out that in general, finitely additive measures are connected with notions such as Banach limits , the dual of L ∞ {\displaystyle L^{\infty }} and the Stone–Čech compactification.
+
+All these are linked in one way or another to the axiom of choice.
+
+Contents remain useful in certain technical problems in geometric measure theory ; this is the theory of Banach measures.
+
+A charge is a generalization in both directions: it is a finitely additive, signed measure.
+
+[23] (Cf.
+
+ba space for information about bounded charges, where we say a charge is bounded to mean its range its a bounded subset of R.
+
+) See also [ edit ] Mathematics portal Abelian von Neumann algebra Almost everywhere Carathéodory's extension theorem Content (measure theory) Fubini's theorem Fatou's lemma Fuzzy measure theory Geometric measure theory Hausdorff measure Inner measure Lebesgue integration Lebesgue measure Lorentz space Lifting theory Measurable cardinal Measurable function Minkowski content Outer measure Product measure Pushforward measure Regular measure Vector measure Valuation (measure theory) Volume form Notes [ edit ] ^ One way to rephrase our definition is that μ {\displaystyle \mu } is semifinite if and only if ( ∀ A ∈ μ pre { + ∞ } ) ( ∃ B ⊆ A ) ( 0 < μ ( B ) < + ∞ ).
+
+{\displaystyle (\forall A\in \mu ^{\text{pre}}\{+\infty \})(\exists B\subseteq A)(0<\mu (B)<+\infty ).
+
+} Negating this rephrasing, we find that μ {\displaystyle \mu } is not semifinite if and only if ( ∃ A ∈ μ pre { + ∞ } ) ( ∀ B ⊆ A ) ( μ ( B ) ∈ { 0 , + ∞ } ).
+
+{\displaystyle (\exists A\in \mu ^{\text{pre}}\{+\infty \})(\forall B\subseteq A)(\mu (B)\in \{0,+\infty \}).
+
+} For every such set A , {\displaystyle A,} the subspace measure induced by the subspace sigma-algebra induced by A , {\displaystyle A,} i.
+
+e.
+
+the restriction of μ {\displaystyle \mu } to said subspace sigma-algebra, is a 0 − ∞ {\displaystyle 0-\infty } measure that is not the zero measure.
+
+Bibliography [ edit ] Robert G.
+
+Bartle (1995) The Elements of Integration and Lebesgue Measure , Wiley Interscience.
+
+Bauer, Heinz (2001), Measure and Integration Theory , Berlin: de Gruyter, ISBN 978-3110167191 Bear, H.
+
+S.
+
+(2001), A Primer of Lebesgue Integration , San Diego: Academic Press, ISBN 978-0120839711 Berberian, Sterling K (1965).
+
+Measure and Integration.
+
+MacMillan.
+
+Bogachev, Vladimir I.
+
+(2006), Measure theory , Berlin: Springer, ISBN 978-3540345138 Bourbaki, Nicolas (2004), Integration I , Springer Verlag , ISBN 3-540-41129-1 Chapter III.
+
+Dudley, Richard M.
+
+(2002).
+
+Real Analysis and Probability.
+
+Cambridge University Press.
+
+ISBN 978-0521007542.
+
+Edgar, Gerald A.
+
+(1998).
+
+Integral, Probability, and Fractal Measures.
+
+Springer.
+
+ISBN 978-1-4419-3112-2.
+
+Folland, Gerald B.
+
+(1999).
+
+Real Analysis: Modern Techniques and Their Applications (Second ed.
+
+).
+
+Wiley.
+
+ISBN 0-471-31716-0.
+
+Federer, Herbert.
+
+Geometric measure theory.
+
+Die Grundlehren der mathematischen Wissenschaften, Band 153 Springer-Verlag New York Inc.
+
+, New York 1969 xiv+676 pp.
+
+Fremlin, D.
+
+H.
+
+(2016).
+
+Measure Theory, Volume 2: Broad Foundations (Hardback ed.
+
+).
+
+Torres Fremlin.
+
+Second printing.
+
+Hewitt, Edward; Stromberg, Karl (1965).
+
+Real and Abstract Analysis: A Modern Treatment of the Theory of Functions of a Real Variable.
+
+Springer.
+
+ISBN 0-387-90138-8.
+
+Jech, Thomas (2003), Set Theory: The Third Millennium Edition, Revised and Expanded , Springer Verlag , ISBN 3-540-44085-2 R.
+
+Duncan Luce and Louis Narens (1987).
+
+"measurement, theory of", The New Palgrave: A Dictionary of Economics , v.
+
+3, pp.
+
+428–32.
+
+Luther, Norman Y (1967).
+
+"A decomposition of measures".
+
+Canadian Journal of Mathematics.
+
+20 : 953–959.
+
+doi : 10.
+
+4153/CJM-1968-092-0.
+
+S2CID 124262782.
+
+Mukherjea, A; Pothoven, K (1985).
+
+Real and Functional Analysis, Part A: Real Analysis (Second ed.
+
+).
+
+Plenum Press.
+
+The first edition was published with Part B: Functional Analysis as a single volume: Mukherjea, A; Pothoven, K (1978).
+
+Real and Functional Analysis (First ed.
+
+).
+
+Plenum Press.
+
+doi : 10.
+
+1007/978-1-4684-2331-0.
+
+ISBN 978-1-4684-2333-4.
+
+M.
+
+E.
+
+Munroe, 1953.
+
+Introduction to Measure and Integration.
+
+Addison Wesley.
+
+Nielsen, Ole A (1997).
+
+An Introduction to Integration and Measure Theory.
+
+Wiley.
+
+ISBN 0-471-59518-7.
+
+K.
+
+P.
+
+S.
+
+Bhaskara Rao and M.
+
+Bhaskara Rao (1983), Theory of Charges: A Study of Finitely Additive Measures , London: Academic Press, pp.
+
+x + 315, ISBN 0-12-095780-9 Royden, H.
+
+L.
+
+; Fitzpatrick, P.
+
+M.
+
+(2010).
+
+Real Analysis (Fourth ed.
+
+).
+
+Prentice Hall.
+
+p.
+
+342, Exercise 17.
+
+8.
+
+First printing.
+
+There is a later (2017) second printing.
+
+Though usually there is little difference between the first and subsequent printings, in this case the second printing not only deletes from page 53 the Exercises 36, 40, 41, and 42 of Chapter 2 but also offers a (slightly, but still substantially) different presentation of part (ii) of Exercise 17.
+
+8.
+
+(The second printing's presentation of part (ii) of Exercise 17.
+
+8 (on the Luther [14] decomposition) agrees with usual presentations, [5] [24] whereas the first printing's presentation provides a fresh perspective.
+
+) Shilov, G.
+
+E.
+
+, and Gurevich, B.
+
+L.
+
+, 1978.
+
+Integral, Measure, and Derivative: A Unified Approach , Richard A.
+
+Silverman, trans.
+
+Dover Publications.
+
+ISBN 0-486-63519-8.
+
+Emphasizes the Daniell integral.
+
+Teschl, Gerald , Topics in Real and Functional Analysis , (lecture notes) Tao, Terence (2011).
+
+An Introduction to Measure Theory.
+
+Providence, R.
+
+I.
+
+: American Mathematical Society.
+
+ISBN 9780821869192.
+
+Weaver, Nik (2013).
+
+Measure Theory and Functional Analysis.
+
+World Scientific.
+
+ISBN 9789814508568.
+
+References [ edit ] ^ Archimedes Measuring the Circle ^ Heath, T.
+
+L.
+
+(1897).
+
+"Measurement of a Circle".
+
+The Works Of Archimedes.
+
+Osmania University, Digital Library Of India.
+
+Cambridge University Press.
+
+pp.
+
+91–98.
+
+^ Bengio, Yoshua; Lahlou, Salem; Deleu, Tristan; Hu, Edward J.
+
+; Tiwari, Mo; Bengio, Emmanuel (2021).
+
+"GFlowNet Foundations".
+
+arXiv : 2111.
+
+09266 [ cs.
+
+LG ].
+
+^ Fremlin, D.
+
+H.
+
+(2010), Measure Theory , vol.
+
+2 (Second ed.
+
+), p.
+
+221 ^ a b c Mukherjea & Pothoven 1985 , p.
+
+90.
+
+^ Folland 1999 , p.
+
+25.
+
+^ Edgar 1998 , Theorem 1.
+
+5.
+
+2, p.
+
+42.
+
+^ Edgar 1998 , Theorem 1.
+
+5.
+
+3, p.
+
+42.
+
+^ a b Nielsen 1997 , Exercise 11.
+
+30, p.
+
+159.
+
+^ Fremlin 2016 , Section 213X, part (c).
+
+^ Royden & Fitzpatrick 2010 , Exercise 17.
+
+8, p.
+
+342.
+
+^ Hewitt & Stromberg 1965 , part (b) of Example 10.
+
+4, p.
+
+127.
+
+^ Fremlin 2016 , Section 211O, p.
+
+15.
+
+^ a b Luther 1967 , Theorem 1.
+
+^ Mukherjea & Pothoven 1985 , part (b) of Proposition 2.
+
+3, p.
+
+90.
+
+^ Fremlin 2016 , part (a) of Theorem 243G, p.
+
+159.
+
+^ a b Fremlin 2016 , Section 243K, p.
+
+162.
+
+^ Fremlin 2016 , part (a) of the Theorem in Section 245E, p.
+
+182.
+
+^ Fremlin 2016 , Section 245M, p.
+
+188.
+
+^ Berberian 1965 , Theorem 39.
+
+1, p.
+
+129.
+
+^ Fremlin 2016 , part (b) of Theorem 243G, p.
+
+159.
+
+^ Rao, M.
+
+M.
+
+(2012), Random and Vector Measures , Series on Multivariate Analysis, vol.
+
+9, World Scientific , ISBN 978-981-4350-81-5 , MR 2840012.
+
+^ Bhaskara Rao, K.
+
+P.
+
+S.
+
+(1983).
+
+Theory of charges: a study of finitely additive measures.
+
+M.
+
+Bhaskara Rao.
+
+London: Academic Press.
+
+p.
+
+35.
+
+ISBN 0-12-095780-9.
+
+OCLC 21196971.
+
+^ Folland 1999 , p.
+
+27, Exercise 1.
+
+15.
+
+a.
+
+External links [ edit ] Look up measurable in Wiktionary, the free dictionary.
+
+"Measure" , Encyclopedia of Mathematics , EMS Press , 2001 [1994] Tutorial: Measure Theory for Dummies v t e Measure theory Basic concepts Absolute continuity of measures Lebesgue integration L p spaces Measure Measure space Probability space Measurable space / function Sets Almost everywhere Atom Baire set Borel set equivalence relation Borel space Carathéodory's criterion Cylindrical σ-algebra Cylinder set 𝜆-system Essential range infimum/supremum Locally measurable π -system σ-algebra Non-measurable set Vitali set Null set Support Transverse measure Universally measurable Types of Measures Atomic Baire Banach Besov Borel Brown Complex Complete Content ( Logarithmically ) Convex Decomposable Discrete Equivalent Finite Inner ( Quasi- ) Invariant Locally finite Maximising Metric outer Outer Perfect Pre-measure ( Sub- ) Probability Projection-valued Radon Random Regular Borel regular Inner regular Outer regular Saturated Set function σ-finite s-finite Signed Singular Spectral Strictly positive Tight Vector Particular measures Counting Dirac Euler Gaussian Haar Harmonic Hausdorff Intensity Lebesgue Infinite-dimensional Logarithmic Product Projections Pushforward Spherical measure Tangent Trivial Young Maps Measurable function Bochner Strongly Weakly Convergence: almost everywhere of measures in measure of random variables in distribution in probability Cylinder set measure Random: compact set element measure process variable vector Projection-valued measure Main results Carathéodory's extension theorem Convergence theorems Dominated Monotone Vitali Decomposition theorems Hahn Jordan Maharam's Egorov's Fatou's lemma Fubini's Fubini–Tonelli Hölder's inequality Minkowski inequality Radon–Nikodym Riesz–Markov–Kakutani representation theorem Other results Disintegration theorem Lifting theory Lebesgue's density theorem Lebesgue differentiation theorem Sard's theorem Vitali–Hahn–Saks theorem For Lebesgue measure Isoperimetric inequality Brunn–Minkowski theorem Milman's reverse Minkowski–Steiner formula Prékopa–Leindler inequality Vitale's random Brunn–Minkowski inequality Applications & related Convex analysis Descriptive set theory Probability theory Real analysis Spectral theory v t e Lp spaces Basic concepts Banach & Hilbert spaces L p spaces Measure Lebesgue Measure space Measurable space / function Minkowski distance Sequence spaces L 1 spaces Integrable function Lebesgue integration Taxicab geometry L 2 spaces Bessel's Cauchy–Schwarz Euclidean distance Hilbert space Parseval's identity Polarization identity Pythagorean theorem Square-integrable function L ∞ {\displaystyle L^{\infty }} spaces Bounded function Chebyshev distance Infimum and supremum Essential Uniform norm Maps Almost everywhere Convergence almost everywhere Convergence in measure Function space Integral transform Locally integrable function Measurable function Symmetric decreasing rearrangement Inequalities Babenko–Beckner Chebyshev's Clarkson's Hanner's Hausdorff–Young Hölder's Markov's Minkowski Young's convolution Results Marcinkiewicz interpolation theorem Plancherel theorem Riemann–Lebesgue Riesz–Fischer theorem Riesz–Thorin theorem For Lebesgue measure Isoperimetric inequality Brunn–Minkowski theorem Milman's reverse Minkowski–Steiner formula Prékopa–Leindler inequality Vitale's random Brunn–Minkowski inequality Applications & related Bochner space Fourier analysis Lorentz space Probability theory Quasinorm Real analysis Sobolev space *-algebra C*-algebra Von Neumann v t e Major topics in mathematical analysis Calculus : Integration Differentiation Differential equations ordinary partial stochastic Fundamental theorem of calculus Calculus of variations Vector calculus Tensor calculus Matrix calculus Lists of integrals Table of derivatives Real analysis Complex analysis Hypercomplex analysis ( quaternionic analysis ) Functional analysis Fourier analysis Least-squares spectral analysis Harmonic analysis P-adic analysis ( P-adic numbers ) Measure theory Representation theory Functions Continuous function Special functions Limit Series Infinity Mathematics portal Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Measure_(mathematics)&oldid=1234289136 " Categories : Measure theory Measures (measure theory) Hidden categories: Articles with short description Short description is different from Wikidata Articles lacking in-text citations from January 2021 All articles lacking in-text citations All articles that may contain original research Articles that may contain original research from May 2022 Pages using div col with small parameter This page was last edited on 13 July 2024, at 15:43 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

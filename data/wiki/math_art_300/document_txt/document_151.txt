@@ -1,0 +1,1219 @@
+Glossary of civil engineering - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Glossary of civil engineering Add languages Add links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia List of definitions of terms and concepts related to civil engineering This glossary of civil engineering terms is a list of definitions of terms and concepts pertaining specifically to civil engineering , its sub-disciplines, and related fields.
+
+For a more general overview of concepts within engineering as a whole, see Glossary of engineering.
+
+Contents: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z See also References A [ edit ] Abney level An instrument used in surveying which consists of a fixed sighting tube, a movable spirit level that is connected to a pointing arm, and a protractor scale.
+
+An internal mirror allows the user to see the bubble in the level while sighting a distant target.
+
+It can be used as a hand-held instrument or mounted on a Jacob's staff for more precise measurement.
+
+[1] [2] Abrams' law Also Abrams' water-cement ratio law.
+
+[3] A law which states that the strength of a concrete mix is inversely related to the mass ratio of water to cement.
+
+[3] [4] [5] [6] As the water content increases, the strength of the concrete decreases.
+
+abrasion The process of scuffing, scratching, wearing down, marring, or rubbing away a substance or substrate.
+
+It can be intentionally imposed in a controlled process using an abrasive.
+
+Abrasion may also be an undesirable effect of exposure to normal use or exposure to the elements.
+
+abrasion resistance absolute electrode potential In electrochemistry , according to an IUPAC definition, [7] is the electrode potential of a metal measured with respect to a universal reference system (without any additional metal–solution interface).
+
+absolute pressure The pressure of a system that is zero-referenced against a perfect vacuum, using an absolute scale , so that it is equal to gauge pressure plus atmospheric pressure.
+
+absolute zero The theoretical lower limit of the thermodynamic temperature scale, at which the enthalpy and entropy of a cooled ideal gas reach their minimum values, taken as 0.
+
+Absolute zero is the point at which the fundamental particles of nature have minimal vibrational motion, retaining only quantum mechanical, zero-point energy -induced particle motion.
+
+The theoretical temperature is determined by extrapolating the ideal gas law ; by international agreement, absolute zero is taken as −273.
+
+15° on the Celsius scale ( International System of Units ), [8] [9] which equals −459.
+
+67° on the Fahrenheit scale ( United States customary units or Imperial units ).
+
+[10] The corresponding Kelvin and Rankine temperature scales set their zero points at absolute zero by definition.
+
+absorbance Also decadic absorbance.
+
+In chemistry, the common logarithm of the ratio of incident to transmitted radiant power through a material.
+
+Spectral absorbance or spectral decadic absorbance is the common logarithm of the ratio of incident to transmitted spectral radiant power through a material.
+
+[11] Absorbance is a dimensionless quantity , and in particular is not a length, though it is a monotonically increasing function of path length, and approaches zero as the path length approaches zero.
+
+abutment The substructure at either end of a bridge span or dam whereon the structure's superstructure rests or contacts.
+
+[12] AC power A type of electric power in alternating current circuits, wherein energy storage elements such as inductors and capacitors may result in periodic reversals of the direction of energy flow.
+
+Contrast DC power.
+
+acceleration In physics, the rate of change of velocity of an object with respect to time.
+
+An object's acceleration is the net result of any and all forces acting on the object, as described by Newton's Second Law.
+
+[13] The SI unit for acceleration is metre per second squared (m s −2 ).
+
+Accelerations are vector quantities (they have magnitude and direction ) and add according to the parallelogram law.
+
+[14] [15] As a vector , the calculated net force is equal to the product of the object's mass (a scalar quantity) and its acceleration.
+
+acid A molecule or ion capable of donating a hydron (proton or hydrogen ion H + ), or, alternatively, capable of forming a covalent bond with an electron pair (a Lewis acid).
+
+[16] acid-base reaction A chemical reaction that occurs between an acid and a base , which can be used to determine pH.
+
+Several theoretical frameworks provide alternative conceptions of the reaction mechanisms and their application in solving related problems; these are called the acid–base theories, for example, Brønsted–Lowry acid–base theory.
+
+acid strength The tendency of an acid , symbolised by the chemical formula HA, to dissociate into a proton , H + , and an anion , A −.
+
+acoustic board A special kind of board made of sound-absorbing materials, designed to provide sound insulation.
+
+[17] [18] Between two outer walls sound-absorbing material is inserted and the wall is porous.
+
+Thus, when sound passes through an acoustic board, the intensity of the sound is decreased.
+
+The loss of sound energy is typically balanced by the production of heat energy.
+
+acoustics The branch of physics that deals with the study of all mechanical waves in gases, liquids, and solids including topics such as vibration , sound , ultrasound and infrasound.
+
+activated sludge A type of wastewater treatment process for treating sewage or industrial wastewaters using aeration and a biological floc composed of bacteria and protozoa.
+
+activated sludge model A generic name for a group of mathematical methods to model activated sludge systems.
+
+The research in this area is coordinated by a task group of the International Water Association (IWA).
+
+Activated sludge models are used in scientific research to study biological processes in hypothetical systems.
+
+They can also be applied on full scale wastewater treatment plants for optimisation, when carefully calibrated with reference data for sludge production and nutrients in the effluent.
+
+active transport In cellular biology, the movement of molecules across a membrane from a region of their lower concentration to a region of their higher concentration—against the concentration gradient.
+
+Active transport requires cellular energy to achieve this movement.
+
+There are two types of active transport: primary active transport that uses ATP , and secondary active transport that uses an electrochemical gradient.
+
+actuator A mechanism by which a control system acts upon an environment.
+
+The control system can be simple (a fixed mechanical or electronic system), software-based (e.
+
+g.
+
+a printer driver, robot control system), a human, or any other input.
+
+[19] acute angle An angle that is smaller than a right angle , i.
+
+e.
+
+less than 90 degrees.
+
+See also obtuse angle.
+
+adhesion The tendency of dissimilar particles or surfaces to cling to one another ( cohesion refers to the tendency of similar or identical particles/surfaces to cling to one another).
+
+The forces that cause adhesion and cohesion can be divided into several types.
+
+The intermolecular forces responsible for the function of various kinds of stickers and sticky tape fall into the categories of chemical adhesion, dispersive adhesion, and diffusive adhesion.
+
+In addition to the cumulative magnitudes of these intermolecular forces, there are also certain emergent mechanical effects.
+
+adiabatic process In thermodynamics, an adiabatic process is one that occurs without transfer of heat or mass of substances between a thermodynamic system and its surroundings.
+
+In an adiabatic process, energy is transferred to the surroundings only as work.
+
+[20] [21] The adiabatic process provides a rigorous conceptual basis for the theory used to expound the first law of thermodynamics , and as such it is a key concept in thermodynamics.
+
+aerobic digestion A process in sewage treatment designed to reduce the volume of sewage sludge and make it suitable [22] for subsequent use.
+
+[23] More recently, technology has been developed that allows the treatment and reduction of other [24] organic waste, such as food, cardboard and horticultural waste.
+
+aerodynamics The study of the motion of air , particularly its interactions with solid objects such as airplane wings.
+
+Aerodynamics is a sub-field of fluid dynamics and gas dynamics , and many aspects of aerodynamics theory are common to these fields.
+
+afocal system In optics , an optical system without focus, i.
+
+e.
+
+one that produces no net convergence or divergence of a beam of light, and which therefore has an infinite effective focal length.
+
+[25] agricultural engineering The engineering discipline that studies agricultural production and processing.
+
+Agricultural engineering combines the disciplines of mechanical , civil , electrical and chemical engineering principles with a knowledge of agricultural principles according to technological principles.
+
+A key goal of this discipline is to improve the efficacy and sustainability of agricultural practices.
+
+[5] albedo A measure of the diffuse reflection of solar radiation out of the total solar radiation received by an astronomical body (e.
+
+g.
+
+a planet like Earth ).
+
+It is dimensionless and measured on a scale from 0 (corresponding to a black body that absorbs all incident radiation) to 1 (corresponding to a body that reflects all incident radiation).
+
+algebra A broad area of mathematics , together with number theory , geometry and analysis.
+
+In its most general form, algebra is the study of mathematical symbols and the rules for manipulating these symbols; [26] it is a unifying thread of almost all of mathematics.
+
+[27] It includes everything from elementary equation solving to the study of abstractions such as groups , rings , and fields.
+
+The more basic parts of algebra are called elementary algebra ; the more abstract parts are called abstract algebra or modern algebra.
+
+Elementary algebra is generally considered to be essential for any study of mathematics, science, or engineering, as well as such applications as medicine and economics.
+
+Abstract algebra is a major area in advanced mathematics, studied primarily by professional mathematicians.
+
+algorithm An unambiguous specification of how to solve a class of problems.
+
+Algorithms can perform calculation , data processing and automated reasoning tasks.
+
+alkane Also paraffin.
+
+In organic chemistry , an acyclic saturated hydrocarbon.
+
+In other words, an alkane consists of hydrogen and carbon atoms arranged in a tree structure in which all the carbon–carbon bonds are single.
+
+[28] Alkanes have the general chemical formula C n H 2 n +2.
+
+alkene In organic chemistry , an unsaturated hydrocarbon that contains at least one carbon –carbon double bond.
+
+[29] alkyne In organic chemistry , an unsaturated hydrocarbon containing at least one carbon—carbon triple bond.
+
+[30] alloy A combination of metals or of a metal and another element.
+
+Alloys are defined by a metallic bonding character.
+
+[31] alternating current (AC) A type of electric current which periodically reverses direction, in contrast to direct current (DC) which flows only in one direction.
+
+Alternating current is the form in which electric power is delivered to businesses and residences, and it is the form of electrical energy that consumers typically use when they plug kitchen appliances , televisions, fans and electric lamps into a wall socket.
+
+A common source of DC power is a battery cell in a flashlight.
+
+The abbreviations AC and DC are often used to mean simply alternating and direct , as when they modify current or voltage.
+
+[32] [33] ammeter A measuring instrument used to measure the current in a circuit.
+
+amino acid A class of organic compound containing amine (-NH 2 ) and carboxyl (-COOH) functional groups , along with a side chain (R group) specific to each amino acid.
+
+[34] [35] [36] The key elements of an amino acid are carbon (C), hydrogen (H), oxygen (O), and nitrogen (N), although other elements are found in the side chains of certain amino acids.
+
+amorphous solid Also non-crystalline solid.
+
+In condensed matter physics and materials science , a solid that lacks the long-range order that is characteristic of a crystal.
+
+ampere often shortened to "amp", [37] is the base unit of electric current in the International System of Units (SI).
+
+[38] [39] It is named after André-Marie Ampère (1775–1836), French mathematician and physicist, considered the father of electrodynamics.
+
+amphoterism In chemistry, an amphoteric compound is a molecule or ion that can react both as an acid and as a base.
+
+[40] Many metals (such as copper , zinc , tin , lead , aluminium , and beryllium ) form amphoteric oxides or hydroxides.
+
+Amphoterism depends on the oxidation states of the oxide.
+
+Al 2 O 3 is an example of an amphoteric oxide.
+
+amplifier An electronic device that can increase the power of a signal (a time-varying voltage or current ).
+
+It is a two-port electronic circuit that uses electric power from a power supply to increase the amplitude of a signal applied to its input terminals, producing a proportionally greater amplitude signal at its output.
+
+The amount of amplification provided by an amplifier is measured by its gain : the ratio of output voltage, current, or power to input.
+
+An amplifier is a circuit that has a power gain greater than one.
+
+[41] [42] [43] amplitude anaerobic digestion angular acceleration The rate of change of angular velocity.
+
+In three dimensions, it is a pseudovector.
+
+In SI units, it is measured in radians per second squared (rad/s 2 ), and is usually denoted by the Greek letter alpha ( α ).
+
+[44] Anion is an ion with more electrons than protons, giving it a net negative charge (since electrons are negatively charged and protons are positively charged).
+
+[45] annealing anode ANSI Archimedes' principle states that the upward buoyant force that is exerted on a body immersed in a fluid , whether fully or partially submerged, is equal to the weight of the fluid that the body displaces and acts in the upward direction at the center of mass of the displaced fluid.
+
+[46] Archimedes' principle is a law of physics fundamental to fluid mechanics.
+
+It was formulated by Archimedes of Syracuse.
+
+[47] architecture The process and the product of planning , designing , and constructing buildings or any other structures.
+
+[48] Architectural works, in the material form of buildings , are often perceived as cultural symbols and as works of art.
+
+Historical civilizations are often identified with their surviving architectural achievements.
+
+architectural engineering Also building engineering or architecture engineering.
+
+The application of engineering principles and technology to building design and construction.
+
+Arrhenius equation atom austenitization automation The technology by which a process or procedure is performed with minimal human assistance.
+
+[49] Automation [50] or automatic control is the use of various control systems for operating equipment such as machinery, processes in factories, boilers and heat treating ovens, switching on telephone networks, steering and stabilization of ships, aircraft and other applications and vehicles with minimal or reduced human intervention.
+
+automaton Any self-operating machine , or a machine or control mechanism designed to automatically follow a predetermined sequence of operations, or respond to predetermined instructions.
+
+[51] autonomous vehicle Contents: Top 0–9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z See also References External links B [ edit ] balance sheet Also statement of financial position.
+
+In financial accounting , a summary of the financial balances of an individual or organization, whether it be a sole proprietorship , a business partnership , a corporation , private limited company or other organization such as a government or not-for-profit entity.
+
+Assets , liabilities and ownership equity are listed as of a specific date, such as the end of its financial year.
+
+A balance sheet is often described as a "snapshot of a company's financial condition".
+
+[52] Of the four basic financial statements , the balance sheet is the only statement which applies to a single point in time of a business' calendar year.
+
+barometer A scientific instrument used to measure air pressure.
+
+battery A device consisting of one or more electrochemical cells with external connections provided to power electrical devices such as flashlights , mobile phones , and electric cars.
+
+[53] When a battery is supplying electric power , its positive terminal is the cathode and its negative terminal is the anode.
+
+[54] The terminal marked negative is the source of electrons that will flow through an external electric circuit to the positive terminal.
+
+When a battery is connected to an external electric load, a redox reaction converts high-energy reactants to lower-energy products, and the free-energy difference is delivered to the external circuit as electrical energy.
+
+[ citation needed ] Historically the term "battery" specifically referred to a device composed of multiple cells, however the usage has evolved to include devices composed of a single cell.
+
+[55] base beam A structural element that primarily resists loads applied laterally to its axis.
+
+Its mode of deflection is primarily by bending.
+
+The loads applied to the beam result in reaction forces at the beam's support points.
+
+The total effect of all the forces acting on the beam is to produce shear forces and bending moments within the beam, which in turn induce internal stresses, strains and deflections of the beam.
+
+Beams are characterized by their manner of support, profile (shape of cross-section), length, and material.
+
+Beer–Lambert law belt belt friction bending benefit–cost analysis bending moment The reaction induced in a structural element when an external force or moment is applied to the element causing the element to bend.
+
+[56] [57] Bernoulli differential equation Bernoulli's equation Bernoulli's principle In fluid dynamics , Bernoulli's principle states that an increase in the speed of a fluid occurs simultaneously with a decrease in pressure or a decrease in the fluid 's potential energy.
+
+[58] : Ch.
+
+3 [59] : 156–164, § 3.
+
+5 The principle is only applicable for isentropic flows : when the effects of irreversible processes (like turbulence ) and non- adiabatic processes (e.
+
+g.
+
+heat radiation ) are small and can be neglected.
+
+beta particle block and tackle boiling point boiling-point elevation Boltzmann constant boson Boyle's law Bravais lattice Brayton cycle break-even analysis Brewster's angle brittleness A physical property of a material such that, when subjected to stress , it breaks without significant plastic deformation.
+
+Brittle materials absorb relatively little energy prior to fracture, even those of high strength.
+
+Brownian motion bulk modulus A measure of how resistant to compression a substance is, defined as the ratio of the infinitesimal pressure increase to the resulting relative decrease in volume.
+
+It is one of three standard moduli used to describe a material's response to stress , along with the shear modulus and Young's modulus.
+
+buoyancy Contents: Top 0–9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z See also References External links C [ edit ] calculus The mathematical study of continuous change.
+
+capacitance The ratio of the change in an electric charge in a system to the corresponding change in its electric potential.
+
+capillary action Also sometimes capillarity , capillary motion , capillary effect , or wicking.
+
+The ability of a liquid to flow in narrow spaces without the assistance of, or even in opposition to, external forces like gravity.
+
+casting center of gravity center of mass center of pressure central force motion centripetal force chain reaction Charles's law circular motion civil engineering The professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, railways, canals, dams, airports, sewage systems, pipelines, structural components of buildings, and infrastructure for civic utilities.
+
+Clausius–Clapeyron relation Clausius inequality Clausius theorem coastal engineering coefficient of performance coefficient of variation coherence cohesion compensation compressive strength computational fluid dynamics computer-aided design (CAD) computer-aided engineering computer-aided manufacturing construction engineering construction surveying control engineering control systems engineering corrosion crystallization crystallography curvilinear motion Contents: Top 0–9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z See also References External links D [ edit ] Dalton's law Also called Dalton's law of partial pressures.
+
+In chemistry and physics, a law which states that in a mixture of non-reacting gases, the total pressure exerted is equal to the sum of the partial pressures of the individual gases.
+
+[60] This empirical law was first observed by John Dalton in 1801 and published in 1802, [61] and is closely related to the ideal gas laws.
+
+damped vibration Darcy–Weisbach equation DC motor decibel definite integral deflection deformation (engineering) deformation (mechanics) degrees of freedom delta robot delta-wye transformer density derivative design engineer An engineer whose profession focuses on the engineering design process in any of the various disciplines of engineering, e.
+
+g.
+
+civil engineering.
+
+Design engineers tend to work on products and systems that involve adapting and using complex scientific and mathematical techniques in order to develop solutions for human society.
+
+differential pulley dispersion displacement (fluid) displacement (vector) Doppler effect drag ductility dynamics dyne Contents: Top 0–9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z See also References External links E [ edit ] earthquake engineering elastic modulus elasticity electric charge electric circuit electric current electric displacement field electric generator electric field electric field gradient electric motor electric potential electrical potential energy electric power electrical and electronics engineering electrical conductor electrical insulator electrical network Any interconnection of electrical components (e.
+
+g.
+
+batteries, resistors, inductors, capacitors, switches, etc.
+
+), or a model of such an interconnection consisting of electrical elements (e.
+
+g.
+
+voltage sources, current sources, resistances, inductances, and capacitances).
+
+electrical resistance electrodynamics electromagnet electromagnetic field electromechanics electronegativity electronics endothermic engine engineering engineering economics engineering ethics environmental engineering engineering physics Also called engineering science.
+
+The study of the combined disciplines of physics , mathematics and engineering , particularly computer, nuclear, electrical, electronic, materials or mechanical engineering.
+
+By focusing on the scientific method as a rigorous basis, it seeks ways to apply, design, and develop new solutions in engineering.
+
+[62] [63] [64] [65] estimator Euler–Bernoulli beam equation exothermic Contents: Top 0–9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z See also References External links F [ edit ] falling bodies farad faraday Faraday constant Fermat's principle finite element method fission fluid fluid mechanics fluid physics fluid statics flywheel A mechanical device which uses the conservation of angular momentum to store rotational energy.
+
+Flywheels are therefore a type of accumulator , analogous to electrical inductors , in that they store energy for later use.
+
+They are commonly used to smooth deviations in the power output of an energy source, to deliver stored energy at rates that exceed the ability of the energy source, and to control the orientation of mechanical systems.
+
+focus foot-pound fracture toughness free fall frequency modulation freezing point friction function fundamental frequency fundamental interaction fundamental theorem of calculus fusion Contents: Top 0–9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z See also References External links G [ edit ] galvanic cell gas Geiger counter general relativity geometric mean geophysics geotechnical engineering gluon Graham's law of diffusion gravitation gravitational constant gravitational energy gravitational potential gravity ground state H [ edit ] half-life haptic hardness harmonic mean heat heat transfer height above ground level Helmholtz free energy Henderson–Hasselbalch equation Henry's law Hertz hoist horsepower housewrap Also house wrap.
+
+A synthetic material used to insulate and protect buildings.
+
+Housewrap functions as a weather-resistant barrier , preventing rain from getting into the wall assembly while allowing water vapor to pass to the exterior.
+
+If moisture from either direction is allowed to build up within stud or cavity walls, mold and rot can set in and fiberglass or cellulose insulation will lose its R-value due to heat-conducting moisture.
+
+House wrap may also serve as an air barrier if it is sealed carefully at seams.
+
+[66] Huygens–Fresnel principle hydraulic engineering hydraulics I [ edit ] ice point ideal gas ideal gas constant ideal gas law inclinometer indefinite integral inertia infrasound integral integral transform International System of Units interval estimation ion ionic bond ionization impedance inclined plane industrial engineering inorganic chemistry invert level isotope Contents: Top 0–9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z See also References External links J [ edit ] joule (J) The derived unit of energy in the International System of Units.
+
+[67] It is equal to the energy transferred to (or work done on) an object when a force of one newton acts on that object in the direction of its motion through a distance of one metre (1 newton metre or N⋅m).
+
+It is also the energy dissipated as heat when an electric current of one ampere passes through a resistance of one ohm for one second.
+
+It is named after the English physicist James Prescott Joule (1818–1889).
+
+[68] [69] [70] K [ edit ] Kalman filter kelvin kinematics Kirchhoff's circuit laws Kirchhoff's equations L [ edit ] laminar flow Laplace transform LC circuit lever L'Hôpital's rule linear actuator linear elasticity M [ edit ] Mach number machine machine element Maclaurin series magnetic field magnetism manufacturing engineering mass balance mass density mass moment of inertia material properties materials science mathematical optimization mathematical physics matrix Maxwell's equations measures of central tendency mechanical advantage mechanical engineering mechanical filter mechanical wave mechanics mechanism metal alloy mid-range midhinge mining engineering Miller indices mobile robot modulus of elasticity molding molecular physics moment of inertia multibody system multidisciplinary design optimization Contents: Top 0–9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z See also References External links N [ edit ] nanoengineering nanotechnology Navier–Stokes equations Newtonian fluid n th root nuclear engineering nuclear power O [ edit ] obvert ohm Ohm's law optics P [ edit ] parallel circuit parity (mathematics) parity (physics) paraffin Pascal's Law pendulum petroleum engineering pH phase (matter) phase phase equilibrium physical chemistry physical quantity physics plasma physics plasticity pneumatics point estimation polyphase system power (electric) power (physics) power factor pressure probability probability distribution probability theory pulley Contents: Top 0–9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z See also References External links R [ edit ] raised floor regelation relative density relative velocity reliability engineering Reynolds number rheology rigid body robotics root-mean-square root-mean-square speed rotational energy rotational speed S [ edit ] sanitary engineering saturated compound scalar (mathematics) scalar (physics) scalar multiplication screw series circuit servo servomechanism shadow matter shear strength shear stress shortwave radiation SI units signal processing simple machine siphon solid mechanics solid-state physics solid solution strengthening solubility sound special relativity specific heat specific gravity specific volume specific weight spontaneous combustion state of matter statics statistics Stefan–Boltzmann law Stewart platform stiffness stoichiometry strain strain hardening strength of materials stress stress–strain analysis stress–strain curve structural analysis structural engineering structural load sublimation subsumption architecture surface tension superconductor superhard material surveying Contents: Top 0–9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z See also References External links T [ edit ] technical standard An established norm or requirement for a repeatable technical task, especially when written in a formal document that establishes uniform criteria, methods, processes, and practices.
+
+A technical standard may be developed privately or unilaterally by edict, or by groups such as trade associations, industry standards organizations, or governments, often according to the formal consensus of experts in the discipline.
+
+temperature tensile force tensile modulus tensile strength tensile testing tension member thermal conduction thermal equilibrium thermal radiation thermodynamics Thévenin's theorem three-phase torque torsional vibration toughness trajectory transducer transportation engineering trimean triple point Trouton's rule truncated mean truss An assembly of two-force structural members such as beams , connected at nodes , where the members are organized such that the assemblage as a whole behaves as a single, rigid object.
+
+[71] turbine turbomachinery turbulence Contents: Top 0–9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z See also References External links U [ edit ] ultimate tensile strength (UTS) Also ultimate strength or simply tensile strength ( TS ).
+
+The maximum stress that a material under tension can withstand while being stretched or pulled before breaking.
+
+Ultimate tensile strength is usually found by performing a tensile test and recording the stress versus strain ; the highest point of the stress–strain curve is the ultimate tensile strength.
+
+Tensile strengths are often important in the design of brittle members.
+
+Contrast compressive strength.
+
+uncertainty principle Unicode unit vector unsaturated compound urban engineering utility frequency The nominal frequency of the oscillations of alternating current (AC) in a wide area synchronous grid transmitted from a power station to an end-user.
+
+In much of the world the utility frequency is standardized at 50 Hz , although in the Americas and parts of Asia it is typically 60 Hz.
+
+V [ edit ] vacuum valve van der Waals equation van der Waals force van 't Hoff equation van 't Hoff factor Venturi effect vibration viscoelasticity viscosity volt-ampere volt-ampere reactive Volta potential voltage volumetric flow rate von Mises yield criterion W [ edit ] wastewater engineering watt (W) wave wavelength wedge weighted mean wet-bulb temperature wheel and axle winsorized mean X [ edit ] X-coordinate Y [ edit ] Y-coordinate yield Young's modulus Z [ edit ] Zero Defects (ZD) A management-led program to eliminate defects in industrial production that enjoyed brief popularity in American industry from 1964 [72] to the early 1970s.
+
+Quality expert Philip Crosby later incorporated it into his "Absolutes of Quality Management" and it enjoyed a renaissance in the American automobile industry—as a performance goal more than as a program—in the 1990s.
+
+Although applicable to any type of enterprise, it has been primarily adopted within supply chains wherever large volumes of components are being purchased (common items such as nuts and bolts are good examples).
+
+zeroth law of thermodynamics States that if two thermodynamic systems are each in thermal equilibrium with a third one, then they are in thermal equilibrium with each other.
+
+Accordingly, thermal equilibrium between systems is a transitive relation.
+
+Two systems are said to be in the relation of thermal equilibrium if they are linked by a wall permeable only to heat and they do not change over time.
+
+[73] As a convenience of language, systems are sometimes also said to be in a relation of thermal equilibrium if they are not linked so as to be able to transfer heat to each other, but would still not do so (even) if they were connected by a wall permeable only to heat.
+
+Contents: Top 0–9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z See also References External links See also [ edit ] Glossary of engineering Glossary of mechanical engineering Glossary of structural engineering Glossary of prestressed concrete terms Glossary of architecture Glossary of physics National Council of Examiners for Engineering and Surveying Fundamentals of Engineering Examination Principles and Practice of Engineering Examination Graduate Aptitude Test in Engineering References [ edit ] ^ Smaller Instruments and Appliances: The Abney Level and Clinometer, A Manual of the Principal Instruments used in American Engineering and Surveying , W.
+
+& L.
+
+E.
+
+Gurley, Troy, NY, 1891; page 219.
+
+^ George William Usill, Clinometers: The Abney Level, Practical Surveying , Crosby Lockwood and Son, London, 1889; page 33.
+
+^ a b Punmia, Dr B.
+
+C.
+
+; Jain, Ashok Kumar; Jain, Arun Kr (2003-05-01).
+
+Basic Civil Engineering.
+
+Firewall Media.
+
+ISBN 9788170084037.
+
+^ Abrams law, air and high water-to-cement ratios by ELSEVIER ^ a b "ASABE".
+
+www.
+
+asabe.
+
+org.
+
+Retrieved 2018-04-13.
+
+^ Scott, John S.
+
+(1992-10-31).
+
+Dictionary Of Civil Engineering.
+
+Springer Science & Business Media.
+
+ISBN 9780412984211.
+
+^ IUPAC Gold Book – absolute electrode potential ^ "Unit of thermodynamic temperature (kelvin)".
+
+SI Brochure, 8th edition.
+
+Bureau International des Poids et Mesures.
+
+13 March 2010 [1967].
+
+Section 2.
+
+1.
+
+1.
+
+5.
+
+Archived from the original on 7 October 2014.
+
+Retrieved 20 June 2017.
+
+Note : The triple point of water is 0.
+
+01 °C, not 0 °C; thus 0 K is −273.
+
+15 °C, not −273.
+
+16 °C.
+
+^ Arora, C.
+
+P.
+
+(2001).
+
+Thermodynamics.
+
+Tata McGraw-Hill.
+
+Table 2.
+
+4 page 43.
+
+ISBN 978-0-07-462014-4.
+
+^ Zielinski, Sarah (1 January 2008).
+
+"Absolute Zero".
+
+Smithsonian Institution.
+
+Archived from the original on 2013-04-01.
+
+Retrieved 2012-01-26.
+
+^ IUPAC , Compendium of Chemical Terminology , 2nd ed.
+
+(the "Gold Book") (1997).
+
+Online corrected version: (2006–) " Absorbance ".
+
+doi : 10.
+
+1351/goldbook.
+
+A00028 ^ "Glossary - "Abutment" ".
+
+U.
+
+S.
+
+Bureau of Reclamation.
+
+Archived from the original on 25 December 2007.
+
+Retrieved 24 January 2015.
+
+^ Crew, Henry (2008).
+
+The Principles of Mechanics.
+
+BiblioBazaar, LLC.
+
+p.
+
+43.
+
+ISBN 978-0-559-36871-4.
+
+^ Bondi, Hermann (1980).
+
+Relativity and Common Sense.
+
+Courier Dover Publications.
+
+pp.
+
+3.
+
+ISBN 978-0-486-24021-3.
+
+^ Lehrman, Robert L.
+
+(1998).
+
+Physics the Easy Way.
+
+Barron's Educational Series.
+
+pp.
+
+27.
+
+ISBN 978-0-7641-0236-3.
+
+^ IUPAC Gold Book - acid ^ Dictionary of architectural and building technology.
+
+London: E & F N Spon.
+
+1998.
+
+p.
+
+3.
+
+ISBN 0-419-22280-4.
+
+^ Derek Butterfield; Alf Fulcher; Rhodes, Brian; Stewart, Bill; Derick Tickle; Windsor, John C.
+
+(2005).
+
+Painting and Decorating: An Information Manual.
+
+Blackwell/Futura.
+
+p.
+
+145.
+
+ISBN 1-4051-1254-9.
+
+^ "About Actuators".
+
+www.
+
+thomasnet.
+
+com.
+
+Archived from the original on 2016-05-08.
+
+Retrieved 2016-04-26.
+
+^ Carathéodory, C.
+
+(1909).
+
+"Untersuchungen über die Grundlagen der Thermodynamik".
+
+Mathematische Annalen.
+
+67 (3): 355–386.
+
+doi : 10.
+
+1007/BF01450409.
+
+S2CID 118230148.
+
+A translation may be found here.
+
+Also a mostly reliable translation is to be found in Kestin, J.
+
+(1976).
+
+The Second Law of Thermodynamics.
+
+Stroudsburg, PA: Dowden, Hutchinson & Ross.
+
+^ Bailyn, M.
+
+(1994).
+
+A Survey of Thermodynamics.
+
+New York, NY: American Institute of Physics Press.
+
+p.
+
+21.
+
+ISBN 0-88318-797-3.
+
+^ "Aerobic Diestion" (PDF).
+
+Water Environment Federation.
+
+Archived from the original (PDF) on 27 March 2016.
+
+Retrieved 19 March 2016.
+
+^ "Handbook Biological Wastewater Treatment - Design of Activated Sludge Systems".
+
+Retrieved 19 March 2016.
+
+^ "Aerobic Waste Digesters".
+
+Retrieved 17 March 2017.
+
+^ Daniel Malacara, Zacarias Malacara, Handbook of optical design.
+
+Page 379 ^ See Herstein, I.
+
+N.
+
+(1964).
+
+Topics in Algebra.
+
+Ginn and Company.
+
+ISBN 0-471-02371-X.
+
+, page 1: "An algebraic system can be described as a set of objects together with some operations for combining them".
+
+^ See ( Herstein 1964 ) , page 1: ".
+
+it also serves as the unifying thread which interlaces almost all of mathematics".
+
+^ "IUPAC Gold Book - alkanes".
+
+IUPAC.
+
+March 27, 2017.
+
+doi : 10.
+
+1351/goldbook.
+
+A00222.
+
+Retrieved 2018-08-23.
+
+^ Wade, L.
+
+G.
+
+(2006).
+
+Organic Chemistry (6th ed.
+
+).
+
+Pearson Prentice Hall.
+
+p.
+
+279.
+
+ISBN 978-1-4058-5345-3.
+
+^ Alkyne.
+
+Encyclopædia Britannica ^ Callister, W.
+
+D.
+
+"Materials Science and Engineering: An Introduction" 2007, 7th edition, John Wiley and Sons, Inc.
+
+New York, Section 4.
+
+3 and Chapter 9.
+
+^ N.
+
+N.
+
+Bhargava & D.
+
+C.
+
+Kulshreshtha (1983).
+
+Basic Electronics & Linear Circuits.
+
+Tata McGraw-Hill Education.
+
+p.
+
+90.
+
+ISBN 978-0-07-451965-3.
+
+^ National Electric Light Association (1915).
+
+Electrical meterman's handbook.
+
+Trow Press.
+
+p.
+
+81.
+
+^ "Amino".
+
+Dictionary.
+
+com.
+
+2015.
+
+Retrieved 3 July 2015.
+
+^ "amino acid".
+
+Cambridge Dictionaries Online.
+
+Cambridge University Press.
+
+2015.
+
+Retrieved 3 July 2015.
+
+^ "amino".
+
+FreeDictionary.
+
+com.
+
+Farlex.
+
+2015.
+
+Retrieved 3 July 2015.
+
+^ SI supports only the use of symbols and deprecates the use of abbreviations for units.
+
+"Bureau International des Poids et Mesures" (PDF).
+
+2006.
+
+p.
+
+130.
+
+Archived (PDF) from the original on 21 June 2007.
+
+Retrieved 21 November 2011.
+
+^ "2.
+
+1.
+
+Unit of electric current (ampere)" , SI brochure (8th ed.
+
+), BIPM, archived from the original on 3 February 2012 , retrieved 19 November 2011 ^ Base unit definitions: Ampere Archived 25 April 2017 at the Wayback Machine Physics.
+
+nist.
+
+gov.
+
+Retrieved on 2010-09-28.
+
+^ IUPAC , Compendium of Chemical Terminology , 2nd ed.
+
+(the "Gold Book") (1997).
+
+Online corrected version: (2006–) " amphoteric ".
+
+doi : 10.
+
+1351/goldbook.
+
+A00306 ^ Crecraft, David; Gorham, David (2003).
+
+Electronics, 2nd Ed.
+
+CRC Press.
+
+p.
+
+168.
+
+ISBN 978-0748770366.
+
+^ Agarwal, Anant; Lang, Jeffrey (2005).
+
+Foundations of Analog and Digital Electronic Circuits.
+
+Morgan Kaufmann.
+
+p.
+
+331.
+
+ISBN 978-0080506814.
+
+^ Glisson, Tildon H.
+
+(2011).
+
+Introduction to Circuit Analysis and Design.
+
+Springer Science and Business Media.
+
+ISBN 978-9048194438.
+
+^ "Angular Velocity and Acceleration".
+
+Theory.
+
+uwinnipeg.
+
+ca.
+
+Archived from the original on 2012-02-22.
+
+Retrieved 2015-04-13.
+
+^ University of Colorado Boulder (November 21, 2013).
+
+"Atoms and Elements, Isotopes and Ions".
+
+colorado.
+
+edu.
+
+Archived from the original on May 13, 2021.
+
+Retrieved August 21, 2019.
+
+^ "What is buoyant force? (Article) | Fluids".
+
+^ Acott, Chris (1999).
+
+"The diving "Law-ers": A brief resume of their lives".
+
+South Pacific Underwater Medicine Society Journal.
+
+29 (1).
+
+ISSN 0813-1988.
+
+OCLC 16986801.
+
+Archived from the original on April 2, 2011.
+
+Retrieved 2009-06-13.
+
+{{ cite journal }} : CS1 maint: unfit URL ( link ) ^ "architecture".
+
+Encyclopedia Britannica.
+
+Retrieved 2017-10-27.
+
+^ Groover, Mikell (2014).
+
+Fundamentals of Modern Manufacturing: Materials, Processes, and Systems.
+
+^ Rifkin, Jeremy (1995).
+
+The End of Work: The Decline of the Global Labor Force and the Dawn of the Post-Market Era.
+
+Putnam Publishing Group.
+
+pp.
+
+66, 75.
+
+ISBN 978-0-87477-779-6.
+
+^ Automaton - Definition and More from the Free Merriam-Webster Dictionary http://www.
+
+merriam-webster.
+
+com/dictionary/automaton ^ Williams, Jan R.
+
+; Susan F.
+
+Haka; Mark S.
+
+Bettner; Joseph V.
+
+Carcello (2008).
+
+Financial & Managerial Accounting.
+
+McGraw-Hill Irwin.
+
+p.
+
+40.
+
+ISBN 978-0-07-299650-0.
+
+^ Crompton, T.
+
+R.
+
+(2000-03-20).
+
+Battery Reference Book (third ed.
+
+).
+
+Newnes.
+
+p.
+
+Glossary 3.
+
+ISBN 978-0-08-049995-6.
+
+Retrieved 2016-03-18.
+
+^ Pauling, Linus (1988).
+
+"15: Oxidation-Reduction Reactions; Electrolysis.
+
+".
+
+General Chemistry.
+
+New York: Dover Publications, Inc.
+
+p.
+
+539.
+
+ISBN 978-0-486-65622-9.
+
+^ Pistoia, Gianfranco (2005-01-25).
+
+Batteries for Portable Devices.
+
+Elsevier.
+
+p.
+
+1.
+
+ISBN 978-0-08-045556-3.
+
+Retrieved 2016-03-18.
+
+^ Gere, J.
+
+M.
+
+; Timoshenko, S.
+
+P.
+
+(1996), Mechanics of Materials:Forth edition , Nelson Engineering, ISBN 0534934293 ^ Beer, F.
+
+; Johnston, E.
+
+R.
+
+(1984), Vector mechanics for engineers: statics , McGraw Hill, pp.
+
+62–76 ^ Clancy, L.
+
+J.
+
+(1975).
+
+Aerodynamics.
+
+Wiley.
+
+ISBN 978-0-470-15837-1.
+
+^ Batchelor, G.
+
+K.
+
+(2000).
+
+An Introduction to Fluid Dynamics.
+
+Cambridge: University Press.
+
+ISBN 978-0-521-66396-0.
+
+^ Silberberg, Martin S.
+
+(2009).
+
+Chemistry: the molecular nature of matter and change (5th ed.
+
+).
+
+Boston: McGraw-Hill.
+
+p.
+
+206.
+
+ISBN 9780073048598.
+
+^ J.
+
+Dalton (1802), "Essay IV.
+
+On the expansion of elastic fluids by heat," Memoirs of the Literary and Philosophical Society of Manchester , vol.
+
+5, pt.
+
+2, pages 595–602; see page 600.
+
+^ "Major: Engineering Physics".
+
+The Princeton Review.
+
+2017.
+
+p.
+
+01.
+
+Retrieved June 4, 2017.
+
+^ "Introduction" (online).
+
+Princeton University.
+
+Retrieved June 26, 2011.
+
+^ Khare, P.
+
+; A.
+
+Swarup (26 January 2009).
+
+Engineering Physics: Fundamentals & Modern Applications (13th ed.
+
+).
+
+Jones & Bartlett Learning.
+
+pp.
+
+xiii–Preface.
+
+ISBN 978-0-7637-7374-8.
+
+^ Mukherji, Uma (2003).
+
+Engineering Physics (online).
+
+Alpha Science.
+
+ISBN 9781842650646.
+
+Retrieved June 26, 2011 – via Internet Archive.
+
+Engineering Physics.
+
+^ Krigger, John; Chris Dorsi (2004).
+
+Residential Energy: Cost Savings and Comfort for Existing Buildings.
+
+Helena, Montana : Saturn Resource Management.
+
+p.
+
+110.
+
+ISBN 1-880120-12-7.
+
+OCLC 56315804.
+
+^ International Bureau of Weights and Measures (2006), The International System of Units (SI) (PDF) (8th ed.
+
+), p.
+
+120, ISBN 92-822-2213-6 , archived (PDF) from the original on 2021-06-04 , retrieved 2021-12-16 ^ American Heritage Dictionary of the English Language , Online Edition (2009).
+
+Houghton Mifflin Co.
+
+, hosted by Yahoo! Education.
+
+^ The American Heritage Dictionary , Second College Edition (1985).
+
+Boston: Houghton Mifflin Co.
+
+, p.
+
+691.
+
+^ McGraw-Hill Dictionary of Physics , Fifth Edition (1997).
+
+McGraw-Hill, Inc.
+
+, p.
+
+224.
+
+^ Plesha, Michael E.
+
+; Gray, Gary L.
+
+; Costanzo, Francesco (2013).
+
+Engineering Mechanics: Statics (2nd ed.
+
+).
+
+New York: McGraw-Hill Companies Inc.
+
+pp.
+
+364–407.
+
+ISBN 978-0-07-338029-2.
+
+^ A Guide to Zero Defects: Quality and Reliability Assurance Handbook.
+
+Washington, D.
+
+C.
+
+: Office of the Assistant Secretary of Defense (Manpower Installations and Logistics).
+
+1965.
+
+p.
+
+3.
+
+OCLC 7188673.
+
+4155.
+
+12-H.
+
+Archived from the original on May 29, 2014.
+
+Retrieved May 29, 2014.
+
+Early in 1964 the Assistant Secretary of Defense (Installations and Logistics) invited the attention of the Military Departments and the Defense Supply Agency to the potential of Zero Defects.
+
+This gave the program substantial impetus.
+
+Since that time Zero Defects has been adopted by numerous industrial and Department of Defense activities.
+
+^ Carathéodory, C.
+
+(1909).
+
+v t e Engineering History Outline List of engineering branches Specialties and Interdisciplinarity Civil Architectural Coastal Construction Earthquake Environmental Ecological Sanitary Geological Geotechnical Hydraulic Mining Offshore River Structural Transportation Mechanical Acoustical Aerospace Automotive Energy HVAC Manufacturing Marine Naval architecture Railway Sports Tribology Electrical Broadcast Computer outline Control Electromechanics Electronics Avionics Microwaves Optical Photonics Power Radio frequency Telecommunications Chemical Biochemical Biological Biomaterial Bioresource Genetic Synthetic biology Tissue Electrochemical Food Molecular Paper Petroleum Process Reaction Other Agricultural Audio Biomedical Bioinformatics Clinical Health technology Pharmaceutical Prosthesis Rehabilitation Building services MEP Geoengineering Corrosion Design Engineering management Engineering mathematics Engineering physics Explosives Facilities Fire Geomatics Industrial Information Logistics Materials Ceramics Metals Plastics Polymers Surface Mechatronics Robotics Military Nanotechnology Nuclear Ontology Packaging Piping Privacy Safety Survey Security Software Systems Textile Engineering education Bachelor of Engineering Master of Engineering Doctor of Engineering Engineer's degree Engineering studies Related topics Engineer Glossaries Engineering A–L M–Z Aerospace engineering Civil engineering Electrical and electronics engineering Mechanical engineering Structural engineering Category Commons Wikiproject Portal v t e Glossaries of science and engineering Aerospace engineering Agriculture Archaeology Architecture Artificial intelligence Astronomy Biology Botany Calculus Cell biology Chemistry Civil engineering Clinical research Computer hardware Computer science Developmental and reproductive biology Ecology Economics Electrical and electronics engineering Engineering A–L M–Z Entomology Environmental science Genetics and evolutionary biology Cellular and molecular biology 0–L M–Z Geography A–M N–Z Arabic toponyms Hebrew toponyms Western and South Asia Geology Ichthyology Machine vision Mathematics Mechanical engineering Medicine Meteorology Mycology Nanotechnology Ornithology Physics Probability and statistics Psychiatry Quantum computing Robotics Scientific naming Structural engineering Virology Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Glossary_of_civil_engineering&oldid=1223446441 " Categories : Glossaries of science Civil engineering Glossaries of technology Hidden categories: Webarchive template wayback links CS1 maint: unfit URL Articles with short description Short description is different from Wikidata All articles with unsourced statements Articles with unsourced statements from June 2022 Wikipedia glossaries using description lists This page was last edited on 12 May 2024, at 05:22 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

@@ -1,0 +1,221 @@
+Stratonovich integral - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Definition 2 Calculation Toggle Calculation subsection 2.
+
+1 Numerical methods 3 Differential notation 4 Comparison with the Itô integral 5 Stratonovich integrals in applications 6 Stratonovich interpretation and supersymmetric theory of SDEs 7 Notes 8 References Toggle the table of contents Stratonovich integral 4 languages Deutsch Français Português 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia In stochastic processes , the Stratonovich integral or Fisk–Stratonovich integral (developed simultaneously by Ruslan Stratonovich and Donald Fisk ) is a stochastic integral , the most common alternative to the Itô integral.
+
+Although the Itô integral is the usual choice in applied mathematics, the Stratonovich integral is frequently used in physics.
+
+In some circumstances, integrals in the Stratonovich definition are easier to manipulate.
+
+Unlike the Itô calculus , Stratonovich integrals are defined such that the chain rule of ordinary calculus holds.
+
+Perhaps the most common situation in which these are encountered is as the solution to Stratonovich stochastic differential equations (SDEs).
+
+These are equivalent to Itô SDEs and it is possible to convert between the two whenever one definition is more convenient.
+
+Definition [ edit ] The Stratonovich integral can be defined in a manner similar to the Riemann integral , that is as a limit of Riemann sums.
+
+Suppose that W : [ 0 , T ] × Ω → R {\displaystyle W:[0,T]\times \Omega \to \mathbb {R} } is a Wiener process and X : [ 0 , T ] × Ω → R {\displaystyle X:[0,T]\times \Omega \to \mathbb {R} } is a semimartingale adapted to the natural filtration of the Wiener process.
+
+Then the Stratonovich integral ∫ 0 T X t ∘ d W t {\displaystyle \int _{0}^{T}X_{t}\circ \mathrm {d} W_{t}} is a random variable : Ω → R {\displaystyle :\Omega \to \mathbb {R} } defined as the limit in mean square of [1] ∑ i = 0 k − 1 X t i + 1 + X t i 2 ( W t i + 1 − W t i ) {\displaystyle \sum _{i=0}^{k-1}{X_{t_{i+1}}+X_{t_{i}} \over 2}\left(W_{t_{i+1}}-W_{t_{i}}\right)} as the mesh of the partition 0 = t 0 < t 1 < ⋯ < t k = T {\displaystyle 0=t_{0}<t_{1}<\dots <t_{k}=T} of [ 0 , T ] {\displaystyle [0,T]} tends to 0 (in the style of a Riemann–Stieltjes integral ).
+
+Calculation [ edit ] Many integration techniques of ordinary calculus can be used for the Stratonovich integral, e.
+
+g.
+
+: if f : R → R {\displaystyle f:\mathbb {R} \to \mathbb {R} } is a smooth function, then ∫ 0 T f ′ ( W t ) ∘ d W t = f ( W T ) − f ( W 0 ) {\displaystyle \int _{0}^{T}f'(W_{t})\circ \mathrm {d} W_{t}=f(W_{T})-f(W_{0})} and more generally, if f : R × R → R {\displaystyle f:\mathbb {R} \times \mathbb {R} \to \mathbb {R} } is a smooth function, then ∫ 0 T ∂ f ∂ W ( W t , t ) ∘ d W t + ∫ 0 T ∂ f ∂ t ( W t , t ) d t = f ( W T , T ) − f ( W 0 , 0 ).
+
+{\displaystyle \int _{0}^{T}{\partial f \over \partial W}(W_{t},t)\circ \mathrm {d} W_{t}+\int _{0}^{T}{\partial f \over \partial t}(W_{t},t)\,\mathrm {d} t=f(W_{T},T)-f(W_{0},0).
+
+} This latter rule is akin to the chain rule of ordinary calculus.
+
+Numerical methods [ edit ] Stochastic integrals can rarely be solved in analytic form, making stochastic numerical integration an important topic in all uses of stochastic integrals.
+
+Various numerical approximations converge to the Stratonovich integral, and variations of these are used to solve Stratonovich SDEs ( Kloeden & Platen 1992 ).
+
+Note however that the most widely used Euler scheme (the Euler–Maruyama method ) for the numeric solution of Langevin equations requires the equation to be in Itô form.
+
+[2] Differential notation [ edit ] If X t , Y t {\displaystyle X_{t},Y_{t}} , and Z t {\displaystyle Z_{t}} are stochastic processes such that X T − X 0 = ∫ 0 T Y t ∘ d W t + ∫ 0 T Z t d t {\displaystyle X_{T}-X_{0}=\int _{0}^{T}Y_{t}\circ \mathrm {d} W_{t}+\int _{0}^{T}Z_{t}\,\mathrm {d} t} for all T > 0 {\displaystyle T>0} , we also write d X = Y ∘ d W + Z d t.
+
+{\displaystyle \mathrm {d} X=Y\circ \mathrm {d} W+Z\,\mathrm {d} t.
+
+} This notation is often used to formulate stochastic differential equations (SDEs), which are really equations about stochastic integrals.
+
+It is compatible with the notation from ordinary calculus, for instance d ( t 2 W 3 ) = 3 t 2 W 2 ∘ d W + 2 t W 3 d t.
+
+{\displaystyle \mathrm {d} (t^{2}\,W^{3})=3t^{2}W^{2}\circ \mathrm {d} W+2tW^{3}\,\mathrm {d} t.
+
+} Comparison with the Itô integral [ edit ] Main article: Itô calculus The Itô integral of the process X {\displaystyle X} with respect to the Wiener process W {\displaystyle W} is denoted by ∫ 0 T X t d W t {\displaystyle \int _{0}^{T}X_{t}\,\mathrm {d} W_{t}} (without the circle).
+
+For its definition, the same procedure is used as above in the definition of the Stratonovich integral, except for choosing the value of the process X {\displaystyle X} at the left-hand endpoint of each subinterval, i.
+
+e.
+
+, X t i {\displaystyle X_{t_{i}}} in place of ( X t i + 1 + X t i ) / 2 {\displaystyle (X_{t_{i+1}}+X_{t_{i}})/2} This integral does not obey the ordinary chain rule as the Stratonovich integral does; instead one has to use the slightly more complicated Itô's lemma.
+
+Conversion between Itô and Stratonovich integrals may be performed using the formula ∫ 0 T f ( W t , t ) ∘ d W t = 1 2 ∫ 0 T ∂ f ∂ W ( W t , t ) d t + ∫ 0 T f ( W t , t ) d W t , {\displaystyle \int _{0}^{T}f(W_{t},t)\circ \mathrm {d} W_{t}={\frac {1}{2}}\int _{0}^{T}{\partial f \over \partial W}(W_{t},t)\,\mathrm {d} t+\int _{0}^{T}f(W_{t},t)\,\mathrm {d} W_{t},} where f {\displaystyle f} is any continuously differentiable function of two variables W {\displaystyle W} and t {\displaystyle t} and the last integral is an Itô integral ( Kloeden & Platen 1992 , p.
+
+101).
+
+Langevin equations exemplify the importance of specifying the interpretation (Stratonovich or Itô) in a given problem.
+
+Suppose X t {\displaystyle X_{t}} is a time-homogeneous Itô diffusion with continuously differentiable diffusion coefficient σ {\displaystyle \sigma } , i.
+
+e.
+
+it satisfies the SDE d X t = μ ( X t ) d t + σ ( X t ) d W t {\displaystyle \mathrm {d} X_{t}=\mu (X_{t})\,\mathrm {d} t+\sigma (X_{t})\,\mathrm {d} W_{t}}.
+
+In order to get the corresponding Stratonovich version, the term σ ( X t ) d W t {\displaystyle \sigma (X_{t})\,\mathrm {d} W_{t}} (in Itô interpretation) should translate to σ ( X t ) ∘ d W t {\displaystyle \sigma (X_{t})\circ \mathrm {d} W_{t}} (in Stratonovich interpretation) as ∫ 0 T σ ( X t ) ∘ d W t = 1 2 ∫ 0 T d σ d x ( X t ) σ ( X t ) d t + ∫ 0 T σ ( X t ) d W t.
+
+{\displaystyle \int _{0}^{T}\sigma (X_{t})\circ \mathrm {d} W_{t}={\frac {1}{2}}\int _{0}^{T}{\frac {d\sigma }{dx}}(X_{t})\sigma (X_{t})\,\mathrm {d} t+\int _{0}^{T}\sigma (X_{t})\,\mathrm {d} W_{t}.
+
+} Obviously, if σ {\displaystyle \sigma } is independent of X t {\displaystyle X_{t}} , the two interpretations will lead to the same form for the Langevin equation.
+
+In that case, the noise term is called "additive" (since the noise term d W t {\displaystyle dW_{t}} is multiplied by only a fixed coefficient).
+
+Otherwise, if σ = σ ( X t ) {\displaystyle \sigma =\sigma (X_{t})} , the Langevin equation in Itô form may in general differ from that in Stratonovich form, in which case the noise term is called multiplicative (i.
+
+e.
+
+, the noise d W t {\displaystyle dW_{t}} is multiplied by a function of X t {\displaystyle X_{t}} that is σ ( X t ) {\displaystyle \sigma (X_{t})} ).
+
+More generally, for any two semimartingales X {\displaystyle X} and Y {\displaystyle Y} ∫ 0 T X s − ∘ d Y s = ∫ 0 T X s − d Y s + 1 2 [ X , Y ] T c , {\displaystyle \int _{0}^{T}X_{s-}\circ \mathrm {d} Y_{s}=\int _{0}^{T}X_{s-}\,\mathrm {d} Y_{s}+{\frac {1}{2}}[X,Y]_{T}^{c},} where [ X , Y ] T c {\displaystyle [X,Y]_{T}^{c}} is the continuous part of the covariation.
+
+Stratonovich integrals in applications [ edit ] The Stratonovich integral lacks the important property of the Itô integral, which does not "look into the future".
+
+In many real-world applications, such as modelling stock prices, one only has information about past events, and hence the Itô interpretation is more natural.
+
+In financial mathematics the Itô interpretation is usually used.
+
+In physics, however, stochastic integrals occur as the solutions of Langevin equations.
+
+A Langevin equation is a coarse-grained version of a more microscopic model ( Risken 1996 ); depending on the problem in consideration, Stratonovich or Itô interpretation or even more exotic interpretations such as the isothermal interpretation, are appropriate.
+
+The Stratonovich interpretation is the most frequently used interpretation within the physical sciences.
+
+The Wong–Zakai theorem states that physical systems with non-white noise spectrum characterized by a finite noise correlation time τ {\displaystyle \tau } can be approximated by a Langevin equations with white noise in Stratonovich interpretation in the limit where τ {\displaystyle \tau } tends to zero.
+
+[ citation needed ] Because the Stratonovich calculus satisfies the ordinary chain rule, stochastic differential equations (SDEs) in the Stratonovich sense are more straightforward to define on differentiable manifolds , rather than just on R n {\displaystyle \mathbb {R} ^{n}}.
+
+The tricky chain rule of the Itô calculus makes it a more awkward choice for manifolds.
+
+Stratonovich interpretation and supersymmetric theory of SDEs [ edit ] Main article: Supersymmetric theory of stochastic dynamics In the supersymmetric theory of SDEs, one considers the evolution operator obtained by averaging the pullback induced on the exterior algebra of the phase space by the stochastic flow determined by an SDE.
+
+In this context, it is then natural to use the Stratonovich interpretation of SDEs.
+
+Notes [ edit ] ^ Gardiner (2004), p.
+
+98 and the comment on p.
+
+101 ^ Perez-Carrasco R.
+
+; Sancho J.
+
+M.
+
+(2010).
+
+"Stochastic algorithms for discontinuous multiplicative white noise" (PDF).
+
+Phys.
+
+Rev.
+
+E.
+
+81 (3): 032104.
+
+Bibcode : 2010PhRvE.
+
+81c2104P.
+
+doi : 10.
+
+1103/PhysRevE.
+
+81.
+
+032104.
+
+PMID 20365796.
+
+References [ edit ] Øksendal, Bernt K.
+
+(2003).
+
+Stochastic Differential Equations: An Introduction with Applications.
+
+Springer, Berlin.
+
+ISBN 3-540-04758-1.
+
+Gardiner, Crispin W.
+
+(2004).
+
+Handbook of Stochastic Methods (3 ed.
+
+).
+
+Springer, Berlin Heidelberg.
+
+ISBN 3-540-20882-8.
+
+Jarrow, Robert; Protter, Philip (2004).
+
+"A short history of stochastic integration and mathematical finance: The early years, 1880–1970".
+
+IMS Lecture Notes Monograph.
+
+45 : 1–17.
+
+CiteSeerX 10.
+
+1.
+
+1.
+
+114.
+
+632.
+
+Kloeden, Peter E.
+
+; Platen, Eckhard (1992).
+
+Numerical solution of stochastic differential equations.
+
+Applications of Mathematics.
+
+Berlin, New York: Springer-Verlag.
+
+ISBN 978-3-540-54062-5.
+
+Risken, Hannes (1996).
+
+The Fokker-Planck Equation.
+
+Springer Series in Synergetics.
+
+Berlin, Heidelberg: Springer-Verlag.
+
+ISBN 978-3-540-61530-9.
+
+Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Stratonovich_integral&oldid=1223584619 " Categories : Definitions of mathematical integration Stochastic calculus Hidden categories: All articles with unsourced statements Articles with unsourced statements from September 2016 This page was last edited on 13 May 2024, at 02:54 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

@@ -1,0 +1,263 @@
+Total derivative - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 The total derivative as a linear map 2 The total derivative as a differential form 3 The chain rule for total derivatives Toggle The chain rule for total derivatives subsection 3.
+
+1 Example: Differentiation with direct dependencies 3.
+
+2 Example: Differentiation with indirect dependencies 4 Total differential equation 5 Application to equation systems 6 See also 7 References 8 External links Toggle the table of contents Total derivative 16 languages العربية Чӑвашла Čeština Deutsch Esperanto فارسی Français 한국어 Italiano 日本語 Polski Português Русский Українська Tiếng Việt 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Type of derivative in mathematics Not to be confused with Total differential or Total derivative (fluid mechanics).
+
+This article includes a list of general references , but it lacks sufficient corresponding inline citations.
+
+Please help to improve this article by introducing more precise citations.
+
+( July 2013 ) ( Learn how and when to remove this message ) Part of a series of articles about Calculus ∫ a b f ′ ( t ) d t = f ( b ) − f ( a ) {\displaystyle \int _{a}^{b}f'(t)\,dt=f(b)-f(a)} Fundamental theorem Limits Continuity Rolle's theorem Mean value theorem Inverse function theorem Differential Definitions Derivative ( generalizations ) Differential infinitesimal of a function total Concepts Differentiation notation Second derivative Implicit differentiation Logarithmic differentiation Related rates Taylor's theorem Rules and identities Sum Product Chain Power Quotient L'Hôpital's rule Inverse General Leibniz Faà di Bruno's formula Reynolds Integral Lists of integrals Integral transform Leibniz integral rule Definitions Antiderivative Integral ( improper ) Riemann integral Lebesgue integration Contour integration Integral of inverse functions Integration by Parts Discs Cylindrical shells Substitution ( trigonometric , tangent half-angle , Euler ) Euler's formula Partial fractions Changing order Reduction formulae Differentiating under the integral sign Risch algorithm Series Geometric ( arithmetico-geometric ) Harmonic Alternating Power Binomial Taylor Convergence tests Summand limit (term test) Ratio Root Integral Direct comparison Limit comparison Alternating series Cauchy condensation Dirichlet Abel Vector Gradient Divergence Curl Laplacian Directional derivative Identities Theorems Gradient Green's Stokes' Divergence generalized Stokes Helmholtz decomposition Multivariable Formalisms Matrix Tensor Exterior Geometric Definitions Partial derivative Multiple integral Line integral Surface integral Volume integral Jacobian Hessian Advanced Calculus on Euclidean space Generalized functions Limit of distributions Specialized Fractional Malliavin Stochastic Variations Miscellaneous Precalculus History Glossary List of topics Integration Bee Mathematical analysis Nonstandard analysis v t e In mathematics , the total derivative of a function f at a point is the best linear approximation near this point of the function with respect to its arguments.
+
+Unlike partial derivatives , the total derivative approximates the function with respect to all of its arguments, not just a single one.
+
+In many situations, this is the same as considering all partial derivatives simultaneously.
+
+The term "total derivative" is primarily used when f is a function of several variables, because when f is a function of a single variable, the total derivative is the same as the ordinary derivative of the function.
+
+[1] : 198–203 The total derivative as a linear map [ edit ] Let U ⊆ R n {\displaystyle U\subseteq \mathbb {R} ^{n}} be an open subset.
+
+Then a function f : U → R m {\displaystyle f:U\to \mathbb {R} ^{m}} is said to be ( totally ) differentiable at a point a ∈ U {\displaystyle a\in U} if there exists a linear transformation d f a : R n → R m {\displaystyle df_{a}:\mathbb {R} ^{n}\to \mathbb {R} ^{m}} such that lim x → a ‖ f ( x ) − f ( a ) − d f a ( x − a ) ‖ ‖ x − a ‖ = 0.
+
+{\displaystyle \lim _{x\to a}{\frac {\|f(x)-f(a)-df_{a}(x-a)\|}{\|x-a\|}}=0.
+
+} The linear map d f a {\displaystyle df_{a}} is called the ( total ) derivative or ( total ) differential of f {\displaystyle f} at a {\displaystyle a}.
+
+Other notations for the total derivative include D a f {\displaystyle D_{a}f} and D f ( a ) {\displaystyle Df(a)}.
+
+A function is ( totally ) differentiable if its total derivative exists at every point in its domain.
+
+Conceptually, the definition of the total derivative expresses the idea that d f a {\displaystyle df_{a}} is the best linear approximation to f {\displaystyle f} at the point a {\displaystyle a}.
+
+This can be made precise by quantifying the error in the linear approximation determined by d f a {\displaystyle df_{a}}.
+
+To do so, write f ( a + h ) = f ( a ) + d f a ( h ) + ε ( h ) , {\displaystyle f(a+h)=f(a)+df_{a}(h)+\varepsilon (h),} where ε ( h ) {\displaystyle \varepsilon (h)} equals the error in the approximation.
+
+To say that the derivative of f {\displaystyle f} at a {\displaystyle a} is d f a {\displaystyle df_{a}} is equivalent to the statement ε ( h ) = o ( ‖ h ‖ ) , {\displaystyle \varepsilon (h)=o(\lVert h\rVert ),} where o {\displaystyle o} is little-o notation and indicates that ε ( h ) {\displaystyle \varepsilon (h)} is much smaller than ‖ h ‖ {\displaystyle \lVert h\rVert } as h → 0 {\displaystyle h\to 0}.
+
+The total derivative d f a {\displaystyle df_{a}} is the unique linear transformation for which the error term is this small, and this is the sense in which it is the best linear approximation to f {\displaystyle f}.
+
+The function f {\displaystyle f} is differentiable if and only if each of its components f i : U → R {\displaystyle f_{i}\colon U\to \mathbb {R} } is differentiable, so when studying total derivatives, it is often possible to work one coordinate at a time in the codomain.
+
+However, the same is not true of the coordinates in the domain.
+
+It is true that if f {\displaystyle f} is differentiable at a {\displaystyle a} , then each partial derivative ∂ f / ∂ x i {\displaystyle \partial f/\partial x_{i}} exists at a {\displaystyle a}.
+
+The converse does not hold: it can happen that all of the partial derivatives of f {\displaystyle f} at a {\displaystyle a} exist, but f {\displaystyle f} is not differentiable at a {\displaystyle a}.
+
+This means that the function is very "rough" at a {\displaystyle a} , to such an extreme that its behavior cannot be adequately described by its behavior in the coordinate directions.
+
+When f {\displaystyle f} is not so rough, this cannot happen.
+
+More precisely, if all the partial derivatives of f {\displaystyle f} at a {\displaystyle a} exist and are continuous in a neighborhood of a {\displaystyle a} , then f {\displaystyle f} is differentiable at a {\displaystyle a}.
+
+When this happens, then in addition, the total derivative of f {\displaystyle f} is the linear transformation corresponding to the Jacobian matrix of partial derivatives at that point.
+
+[2] The total derivative as a differential form [ edit ] When the function under consideration is real-valued, the total derivative can be recast using differential forms.
+
+For example, suppose that f : R n → R {\displaystyle f\colon \mathbb {R} ^{n}\to \mathbb {R} } is a differentiable function of variables x 1 , … , x n {\displaystyle x_{1},\ldots ,x_{n}}.
+
+The total derivative of f {\displaystyle f} at a {\displaystyle a} may be written in terms of its Jacobian matrix, which in this instance is a row matrix: D f a = [ ∂ f ∂ x 1 ( a ) ⋯ ∂ f ∂ x n ( a ) ].
+
+{\displaystyle Df_{a}={\begin{bmatrix}{\frac {\partial f}{\partial x_{1}}}(a)&\cdots &{\frac {\partial f}{\partial x_{n}}}(a)\end{bmatrix}}.
+
+} The linear approximation property of the total derivative implies that if Δ x = [ Δ x 1 ⋯ Δ x n ] T {\displaystyle \Delta x={\begin{bmatrix}\Delta x_{1}&\cdots &\Delta x_{n}\end{bmatrix}}^{\mathsf {T}}} is a small vector (where the T {\displaystyle {\mathsf {T}}} denotes transpose, so that this vector is a column vector), then f ( a + Δ x ) − f ( a ) ≈ D f a ⋅ Δ x = ∑ i = 1 n ∂ f ∂ x i ( a ) ⋅ Δ x i.
+
+{\displaystyle f(a+\Delta x)-f(a)\approx Df_{a}\cdot \Delta x=\sum _{i=1}^{n}{\frac {\partial f}{\partial x_{i}}}(a)\cdot \Delta x_{i}.
+
+} Heuristically, this suggests that if d x 1 , … , d x n {\displaystyle dx_{1},\ldots ,dx_{n}} are infinitesimal increments in the coordinate directions, then d f a = ∑ i = 1 n ∂ f ∂ x i ( a ) ⋅ d x i.
+
+{\displaystyle df_{a}=\sum _{i=1}^{n}{\frac {\partial f}{\partial x_{i}}}(a)\cdot dx_{i}.
+
+} In fact, the notion of the infinitesimal, which is merely symbolic here, can be equipped with extensive mathematical structure.
+
+Techniques, such as the theory of differential forms , effectively give analytical and algebraic descriptions of objects like infinitesimal increments, d x i {\displaystyle dx_{i}}.
+
+For instance, d x i {\displaystyle dx_{i}} may be inscribed as a linear functional on the vector space R n {\displaystyle \mathbb {R} ^{n}}.
+
+Evaluating d x i {\displaystyle dx_{i}} at a vector h {\displaystyle h} in R n {\displaystyle \mathbb {R} ^{n}} measures how much h {\displaystyle h} points in the i {\displaystyle i} th coordinate direction.
+
+The total derivative d f a {\displaystyle df_{a}} is a linear combination of linear functionals and hence is itself a linear functional.
+
+The evaluation d f a ( h ) {\displaystyle df_{a}(h)} measures how much f {\displaystyle f} points in the direction determined by h {\displaystyle h} at a {\displaystyle a} , and this direction is the gradient.
+
+This point of view makes the total derivative an instance of the exterior derivative.
+
+Suppose now that f {\displaystyle f} is a vector-valued function, that is, f : R n → R m {\displaystyle f\colon \mathbb {R} ^{n}\to \mathbb {R} ^{m}}.
+
+In this case, the components f i {\displaystyle f_{i}} of f {\displaystyle f} are real-valued functions, so they have associated differential forms d f i {\displaystyle df_{i}}.
+
+The total derivative d f {\displaystyle df} amalgamates these forms into a single object and is therefore an instance of a vector-valued differential form.
+
+The chain rule for total derivatives [ edit ] Main article: Chain rule The chain rule has a particularly elegant statement in terms of total derivatives.
+
+It says that, for two functions f {\displaystyle f} and g {\displaystyle g} , the total derivative of the composite function f ∘ g {\displaystyle f\circ g} at a {\displaystyle a} satisfies d ( f ∘ g ) a = d f g ( a ) ⋅ d g a.
+
+{\displaystyle d(f\circ g)_{a}=df_{g(a)}\cdot dg_{a}.
+
+} If the total derivatives of f {\displaystyle f} and g {\displaystyle g} are identified with their Jacobian matrices, then the composite on the right-hand side is simply matrix multiplication.
+
+This is enormously useful in applications, as it makes it possible to account for essentially arbitrary dependencies among the arguments of a composite function.
+
+Example: Differentiation with direct dependencies [ edit ] Suppose that f is a function of two variables, x and y.
+
+If these two variables are independent, so that the domain of f is R 2 {\displaystyle \mathbb {R} ^{2}} , then the behavior of f may be understood in terms of its partial derivatives in the x and y directions.
+
+However, in some situations, x and y may be dependent.
+
+For example, it might happen that f is constrained to a curve y = y ( x ) {\displaystyle y=y(x)}.
+
+In this case, we are actually interested in the behavior of the composite function f ( x , y ( x ) ) {\displaystyle f(x,y(x))}.
+
+The partial derivative of f with respect to x does not give the true rate of change of f with respect to changing x because changing x necessarily changes y.
+
+However, the chain rule for the total derivative takes such dependencies into account.
+
+Write γ ( x ) = ( x , y ( x ) ) {\displaystyle \gamma (x)=(x,y(x))}.
+
+Then, the chain rule says d ( f ∘ γ ) x 0 = d f ( x 0 , y ( x 0 ) ) ⋅ d γ x 0.
+
+{\displaystyle d(f\circ \gamma )_{x_{0}}=df_{(x_{0},y(x_{0}))}\cdot d\gamma _{x_{0}}.
+
+} By expressing the total derivative using Jacobian matrices, this becomes: d f ( x , y ( x ) ) d x ( x 0 ) = ∂ f ∂ x ( x 0 , y ( x 0 ) ) ⋅ ∂ x ∂ x ( x 0 ) + ∂ f ∂ y ( x 0 , y ( x 0 ) ) ⋅ ∂ y ∂ x ( x 0 ).
+
+{\displaystyle {\frac {df(x,y(x))}{dx}}(x_{0})={\frac {\partial f}{\partial x}}(x_{0},y(x_{0}))\cdot {\frac {\partial x}{\partial x}}(x_{0})+{\frac {\partial f}{\partial y}}(x_{0},y(x_{0}))\cdot {\frac {\partial y}{\partial x}}(x_{0}).
+
+} Suppressing the evaluation at x 0 {\displaystyle x_{0}} for legibility, we may also write this as d f ( x , y ( x ) ) d x = ∂ f ∂ x ∂ x ∂ x + ∂ f ∂ y ∂ y ∂ x.
+
+{\displaystyle {\frac {df(x,y(x))}{dx}}={\frac {\partial f}{\partial x}}{\frac {\partial x}{\partial x}}+{\frac {\partial f}{\partial y}}{\frac {\partial y}{\partial x}}.
+
+} This gives a straightforward formula for the derivative of f ( x , y ( x ) ) {\displaystyle f(x,y(x))} in terms of the partial derivatives of f {\displaystyle f} and the derivative of y ( x ) {\displaystyle y(x)}.
+
+For example, suppose f ( x , y ) = x y.
+
+{\displaystyle f(x,y)=xy.
+
+} The rate of change of f with respect to x is usually the partial derivative of f with respect to x ; in this case, ∂ f ∂ x = y.
+
+{\displaystyle {\frac {\partial f}{\partial x}}=y.
+
+} However, if y depends on x , the partial derivative does not give the true rate of change of f as x changes because the partial derivative assumes that y is fixed.
+
+Suppose we are constrained to the line y = x.
+
+{\displaystyle y=x.
+
+} Then f ( x , y ) = f ( x , x ) = x 2 , {\displaystyle f(x,y)=f(x,x)=x^{2},} and the total derivative of f with respect to x is d f d x = 2 x , {\displaystyle {\frac {df}{dx}}=2x,} which we see is not equal to the partial derivative ∂ f / ∂ x {\displaystyle \partial f/\partial x}.
+
+Instead of immediately substituting for y in terms of x , however, we can also use the chain rule as above: d f d x = ∂ f ∂ x + ∂ f ∂ y d y d x = y + x ⋅ 1 = x + y = 2 x.
+
+{\displaystyle {\frac {df}{dx}}={\frac {\partial f}{\partial x}}+{\frac {\partial f}{\partial y}}{\frac {dy}{dx}}=y+x\cdot 1=x+y=2x.
+
+} Example: Differentiation with indirect dependencies [ edit ] While one can often perform substitutions to eliminate indirect dependencies, the chain rule provides for a more efficient and general technique.
+
+Suppose L ( t , x 1 , … , x n ) {\displaystyle L(t,x_{1},\dots ,x_{n})} is a function of time t {\displaystyle t} and n {\displaystyle n} variables x i {\displaystyle x_{i}} which themselves depend on time.
+
+Then, the time derivative of L {\displaystyle L} is d L d t = d d t L ( t , x 1 ( t ) , … , x n ( t ) ).
+
+{\displaystyle {\frac {dL}{dt}}={\frac {d}{dt}}L{\bigl (}t,x_{1}(t),\ldots ,x_{n}(t){\bigr )}.
+
+} The chain rule expresses this derivative in terms of the partial derivatives of L {\displaystyle L} and the time derivatives of the functions x i {\displaystyle x_{i}} : d L d t = ∂ L ∂ t + ∑ i = 1 n ∂ L ∂ x i d x i d t = ( ∂ ∂ t + ∑ i = 1 n d x i d t ∂ ∂ x i ) ( L ).
+
+{\displaystyle {\frac {dL}{dt}}={\frac {\partial L}{\partial t}}+\sum _{i=1}^{n}{\frac {\partial L}{\partial x_{i}}}{\frac {dx_{i}}{dt}}={\biggl (}{\frac {\partial }{\partial t}}+\sum _{i=1}^{n}{\frac {dx_{i}}{dt}}{\frac {\partial }{\partial x_{i}}}{\biggr )}(L).
+
+} This expression is often used in physics for a gauge transformation of the Lagrangian , as two Lagrangians that differ only by the total time derivative of a function of time and the n {\displaystyle n} generalized coordinates lead to the same equations of motion.
+
+An interesting example concerns the resolution of causality concerning the Wheeler–Feynman time-symmetric theory.
+
+The operator in brackets (in the final expression above) is also called the total derivative operator (with respect to t {\displaystyle t} ).
+
+For example, the total derivative of f ( x ( t ) , y ( t ) ) {\displaystyle f(x(t),y(t))} is d f d t = ∂ f ∂ x d x d t + ∂ f ∂ y d y d t.
+
+{\displaystyle {\frac {df}{dt}}={\partial f \over \partial x}{dx \over dt}+{\partial f \over \partial y}{dy \over dt}.
+
+} Here there is no ∂ f / ∂ t {\displaystyle \partial f/\partial t} term since f {\displaystyle f} itself does not depend on the independent variable t {\displaystyle t} directly.
+
+Total differential equation [ edit ] Main article: Total differential equation A total differential equation is a differential equation expressed in terms of total derivatives.
+
+Since the exterior derivative is coordinate-free, in a sense that can be given a technical meaning, such equations are intrinsic and geometric.
+
+Application to equation systems [ edit ] In economics , it is common for the total derivative to arise in the context of a system of equations.
+
+[1] : pp.
+
+217–220 For example, a simple supply-demand system might specify the quantity q of a product demanded as a function D of its price p and consumers' income I , the latter being an exogenous variable , and might specify the quantity supplied by producers as a function S of its price and two exogenous resource cost variables r and w.
+
+The resulting system of equations q = D ( p , I ) , {\displaystyle q=D(p,I),} q = S ( p , r , w ) , {\displaystyle q=S(p,r,w),} determines the market equilibrium values of the variables p and q.
+
+The total derivative d p / d r {\displaystyle dp/dr} of p with respect to r , for example, gives the sign and magnitude of the reaction of the market price to the exogenous variable r.
+
+In the indicated system, there are a total of six possible total derivatives, also known in this context as comparative static derivatives : dp / dr , dp / dw , dp / dI , dq / dr , dq / dw , and dq / dI.
+
+The total derivatives are found by totally differentiating the system of equations, dividing through by, say dr , treating dq / dr and dp / dr as the unknowns, setting dI = dw = 0 , and solving the two totally differentiated equations simultaneously, typically by using Cramer's rule.
+
+See also [ edit ] Directional derivative – Instantaneous rate of change of the function Fréchet derivative – Derivative defined on normed spaces - generalization of the total derivative Gateaux derivative – Generalization of the concept of directional derivative Generalizations of the derivative – Fundamental construction of differential calculus Gradient#Total derivative – Multivariate derivative (mathematics) References [ edit ] ^ a b Chiang, Alpha C.
+
+(1984).
+
+Fundamental Methods of Mathematical Economics (Third ed.
+
+).
+
+McGraw-Hill.
+
+ISBN 0-07-010813-7.
+
+^ Abraham, Ralph ; Marsden, J.
+
+E.
+
+; Ratiu, Tudor (2012).
+
+Manifolds, Tensor Analysis, and Applications.
+
+Springer Science & Business Media.
+
+p.
+
+78.
+
+ISBN 9781461210290.
+
+A.
+
+D.
+
+Polyanin and V.
+
+F.
+
+Zaitsev, Handbook of Exact Solutions for Ordinary Differential Equations (2nd edition) , Chapman & Hall/CRC Press, Boca Raton, 2003.
+
+ISBN 1-58488-297-2 From thesaurus.
+
+maths.
+
+org total derivative External links [ edit ] Weisstein, Eric W.
+
+"Total Derivative".
+
+MathWorld.
+
+Ronald D.
+
+Kriz (2007) Envisioning total derivatives of scalar functions of two dimensions using raised surfaces and tangent planes from Virginia Tech v t e Analysis in topological vector spaces Basic concepts Abstract Wiener space Classical Wiener space Bochner space Convex series Cylinder set measure Infinite-dimensional vector function Matrix calculus Vector calculus Derivatives Differentiable vector–valued functions from Euclidean space Differentiation in Fréchet spaces Fréchet derivative Total Functional derivative Gateaux derivative Directional Generalizations of the derivative Hadamard derivative Holomorphic Quasi-derivative Measurability Besov measure Cylinder set measure Canonical Gaussian Classical Wiener measure Measure like set functions infinite-dimensional Gaussian measure Projection-valued Vector Bochner / Weakly / Strongly measurable function Radonifying function Integrals Bochner Direct integral Dunford Gelfand–Pettis/Weak Regulated Paley–Wiener Results Cameron–Martin theorem Inverse function theorem Nash–Moser theorem Feldman–Hájek theorem No infinite-dimensional Lebesgue measure Sazonov's theorem Structure theorem for Gaussian measures Related Crinkled arc Covariance operator Functional calculus Borel functional calculus Continuous functional calculus Holomorphic functional calculus Applications Banach manifold ( bundle ) Convenient vector space Choquet theory Fréchet manifold Hilbert manifold Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Total_derivative&oldid=1230717648 " Categories : Differential calculus Differential operators Lagrangian mechanics Mathematical analysis Multivariable calculus Hidden categories: Articles with short description Short description is different from Wikidata Articles lacking in-text citations from July 2013 All articles lacking in-text citations Pages using sidebar with the child parameter This page was last edited on 24 June 2024, at 08:58 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

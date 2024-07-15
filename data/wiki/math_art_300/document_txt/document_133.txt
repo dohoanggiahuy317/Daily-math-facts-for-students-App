@@ -1,0 +1,301 @@
+Einar Hille - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Early life and education 2 Career 3 Personal life 4 Works 5 References 6 Other sources 7 External links Toggle the table of contents Einar Hille 9 languages العربية Català Deutsch Français Italiano Kreyòl ayisyen مصرى Português Svenska Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia American mathematician Einar Hille MFO 1971 Born Carl Einar Hille ( 1894-06-28 ) 28 June 1894 New York City , United States Died 12 February 1980 (1980-02-12) (aged 85) La Jolla, California Alma mater University of Stockholm Known for Abstract differential equation Bohnenblust–Hille inequality Hardy–Hille formula Hille–Yosida theorem Scientific career Fields Mathematics Institutions Yale University Doctoral advisor Marcel Riesz Doctoral students Evelyn Boyd Granville Cassius Ionescu-Tulcea George Maltese Eugene P.
+
+Northrop Thomas L.
+
+Saaty Irving Segal Carl Einar Hille (28 June 1894 – 12 February 1980) was an American mathematics professor and scholar.
+
+Hille authored or coauthored twelve mathematical books and a number of mathematical papers.
+
+[1] Early life and education [ edit ] Hille was born in New York City.
+
+His parents were both immigrants from Sweden who separated before his birth.
+
+His father, Carl August Heuman, was a civil engineer.
+
+He was brought up by his mother, Edla Eckman, who took the surname Hille.
+
+When Einar was two years old, he and his mother returned to Stockholm.
+
+Hille spent the next 24 years of his life in Sweden, returning to the United States when he was 26 years old.
+
+Hille entered the University of Stockholm in 1911.
+
+Hille was awarded his first degree in mathematics in 1913 and the equivalent of a master's degree in the following year.
+
+He received a Ph.
+
+D.
+
+from Stockholm in 1918 for a doctoral dissertation entitled Some Problems Concerning Spherical Harmonics.
+
+[2] Career [ edit ] In 1919 Hille was awarded the Mittag-Leffler Prize and was given the right to teach at the University of Stockholm.
+
+He subsequently taught at Harvard University , Princeton University , Stanford University and the University of Chicago.
+
+In 1933, he became an endowed professor on mathematics in the Graduate School of Yale University , retiring in 1962.
+
+[3] Hille's main work was on integral equations , differential equations , special functions , Dirichlet series and Fourier series.
+
+Later in his career his interests turned more towards functional analysis.
+
+His name persists among others in the Hille–Yosida theorem.
+
+Hille was a member of the London Mathematical Society and the Circolo Matematico di Palermo.
+
+Hille served as president of the American Mathematical Society (1947–48) and was the Society's Colloquium lecturer in 1944.
+
+He received many honours including election to the United States National Academy of Sciences (1953) and the Swedish Royal Academy of Sciences.
+
+He was awarded by Sweden with the Order of the Polar Star.
+
+[4] Personal life [ edit ] Einar Hille (top right with glasses), standing right behind Ms.
+
+Edla Hille (with headscarf), at the ICM 1932 Hille was married to Kirsti Ore Hille (1906–2001) in 1937, sister of Norwegian mathematician Øystein Ore.
+
+They had two sons, Harald and Bertil Hille.
+
+[5] Works [ edit ] with Ralph Phillips : Functional Analysis and Semi-Groups.
+
+1948, [6] 1957.
+
+Analytic Function Theory.
+
+2 vols.
+
+, 1959, [7] 1964.
+
+Analysis.
+
+2 vols.
+
+, 1964, 1966.
+
+Lectures on Ordinary Differential Equations.
+
+1969.
+
+Methods in Classical and Functional Analysis.
+
+1972.
+
+Ordinary Differential Equations in the Complex Domain.
+
+1976.
+
+[8] In Retrospect.
+
+Mathematical Intelligencer, Vol.
+
+3, 1980/81, No.
+
+1, pp.
+
+3–13.
+
+References [ edit ] ^ J J O'Connor; E F Robertson (July 2000).
+
+"Einar Carl Hille".
+
+School of Mathematics and Statistics, University of St Andrews, Scotland.
+
+Retrieved January 15, 2016.
+
+^ Ralph Phillips (1994).
+
+"Einar Hille, Biographical Memoir" (PDF).
+
+National Academy of Sciences.
+
+Retrieved January 15, 2016.
+
+^ Einar Hille.
+
+National Academies Press.
+
+Biographical Memoirs V.
+
+63.
+
+1994.
+
+doi : 10.
+
+17226/4560.
+
+ISBN 978-0-309-04976-4.
+
+Retrieved January 15, 2016.
+
+^ Hakan Hedenmalm.
+
+"Gösta Mittag-Leffler: A Man of Conviction" (PDF).
+
+Royal Institute of Technology, Stockholm.
+
+Retrieved January 15, 2016.
+
+^ Bertil Hille.
+
+"Bertil Hille".
+
+Society for Neuroscience.
+
+Retrieved January 15, 2016.
+
+^ Bochner, Salomon (1949).
+
+"Review: Functional analysis and semi-groups , by Einar Hille".
+
+Bull.
+
+Amer.
+
+Math.
+
+Soc.
+
+55 (5): 528–533.
+
+doi : 10.
+
+1090/s0002-9904-1949-09226-1.
+
+^ Johnson, Guy (1960).
+
+"Review: Analytic function theory , vol.
+
+1, by Einar Hille".
+
+Bull.
+
+Amer.
+
+Math.
+
+Soc.
+
+66 (4): 253–255.
+
+doi : 10.
+
+1090/s0002-9904-1960-10444-2.
+
+^ Sibuya, Yasutaka (1977).
+
+"Review: Ordinary differential equations in the complex domain , by Einar Hille".
+
+Bull.
+
+Amer.
+
+Math.
+
+Soc.
+
+83 (5): 935–939.
+
+doi : 10.
+
+1090/s0002-9904-1977-14328-0.
+
+Other sources [ edit ] Dunford, Nelson (1981).
+
+"Einar Hille (June 28, 1894—February 12, 1980)".
+
+Bull.
+
+Amer.
+
+Math.
+
+Soc.
+
+(N.
+
+S.
+
+).
+
+4 (3): 303–319.
+
+doi : 10.
+
+1090/s0273-0979-1981-14895-3.
+
+MR 0609040.
+
+Yosida, K.
+
+(1981).
+
+"Some aspects of E.
+
+Hille's contributions to semigroup theory".
+
+Integral Equations Operator Theory.
+
+4 (3): 311–329.
+
+doi : 10.
+
+1007/BF01697968.
+
+S2CID 120462444.
+
+Benson, Adolph B.
+
+; Hedin, Naboth (1969).
+
+Swedes In America.
+
+New York: Haskel House.
+
+External links [ edit ] O'Connor, John J.
+
+; Robertson, Edmund F.
+
+, "Einar Hille" , MacTutor History of Mathematics Archive , University of St Andrews v t e Presidents of the American Mathematical Society 1888–1900 John Howard Van Amringe (1888–1890) Emory McClintock (1891–1894) George William Hill (1895–1896) Simon Newcomb (1897–1898) Robert Simpson Woodward (1899–1900) 1901–1924 E.
+
+H.
+
+Moore (1901–1902) Thomas Fiske (1903–1904) William Fogg Osgood (1905–1906) Henry Seely White (1907–1908) Maxime Bôcher (1909–1910) Henry Burchard Fine (1911–1912) Edward Burr Van Vleck (1913–1914) Ernest William Brown (1915–1916) Leonard Eugene Dickson (1917–1918) Frank Morley (1919–1920) Gilbert Ames Bliss (1921–1922) Oswald Veblen (1923–1924) 1925–1950 George David Birkhoff (1925–1926) Virgil Snyder (1927–1928) Earle Raymond Hedrick (1929–1930) Luther P.
+
+Eisenhart (1931–1932) Arthur Byron Coble (1933–1934) Solomon Lefschetz (1935–1936) Robert Lee Moore (1937–1938) Griffith C.
+
+Evans (1939–1940) Marston Morse (1941–1942) Marshall H.
+
+Stone (1943–1944) Theophil Henry Hildebrandt (1945–1946) Einar Hille (1947–1948) Joseph L.
+
+Walsh (1949–1950) 1951–1974 John von Neumann (1951–1952) Gordon Thomas Whyburn (1953–1954) Raymond Louis Wilder (1955–1956) Richard Brauer (1957–1958) Edward J.
+
+McShane (1959–1960) Deane Montgomery (1961–1962) Joseph L.
+
+Doob (1963–1964) Abraham Adrian Albert (1965–1966) Charles B.
+
+Morrey Jr.
+
+(1967–1968) Oscar Zariski (1969–1970) Nathan Jacobson (1971–1972) Saunders Mac Lane (1973–1974) 1975–2000 Lipman Bers (1975–1976) R.
+
+H.
+
+Bing (1977–1978) Peter Lax (1979–1980) Andrew M.
+
+Gleason (1981–1982) Julia Robinson (1983–1984) Irving Kaplansky (1985–1986) George Mostow (1987–1988) William Browder (1989–1990) Michael Artin (1991–1992) Ronald Graham (1993–1994) Cathleen Synge Morawetz (1995–1996) Arthur Jaffe (1997–1998) Felix Browder (1999–2000) 2001–2024 Hyman Bass (2001–2002) David Eisenbud (2003–2004) James Arthur (2005–2006) James Glimm (2007–2008) George Andrews (2009–2010) Eric Friedlander (2011–2012) David Vogan (2013–2014) Robert Bryant (2015–2016) Ken Ribet (2017–2018) Jill Pipher (2019–2020) Ruth Charney (2021–2022) Bryna Kra (2023–2024) Authority control databases International FAST ISNI VIAF WorldCat National Norway Spain France BnF data Catalonia Germany Israel United States Sweden Latvia Czech Republic Netherlands Poland Academics CiNii MathSciNet Mathematics Genealogy Project Scopus zbMATH People Deutsche Biographie Trove Other SNAC IdRef Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Einar_Hille&oldid=1222488514 " Categories : 1894 births 1980 deaths 20th-century American mathematicians American mathematical analysts American people of Swedish descent Members of the United States National Academy of Sciences Order of the Polar Star Stockholm University alumni Presidents of the American Mathematical Society Members of the Royal Swedish Academy of Sciences Hidden categories: Articles with short description Short description matches Wikidata Articles with hCards Articles with FAST identifiers Articles with ISNI identifiers Articles with VIAF identifiers Articles with WorldCat Entities identifiers Articles with BIBSYS identifiers Articles with BNE identifiers Articles with BNF identifiers Articles with BNFdata identifiers Articles with CANTICN identifiers Articles with GND identifiers Articles with J9U identifiers Articles with LCCN identifiers Articles with Libris identifiers Articles with LNB identifiers Articles with NKC identifiers Articles with NTA identifiers Articles with PLWABN identifiers Articles with CINII identifiers Articles with MATHSN identifiers Articles with MGP identifiers Articles with Scopus identifiers Articles with ZBMATH identifiers Articles with DTBIO identifiers Articles with Trove identifiers Articles with SNAC-ID identifiers Articles with SUDOC identifiers This page was last edited on 6 May 2024, at 06:59 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

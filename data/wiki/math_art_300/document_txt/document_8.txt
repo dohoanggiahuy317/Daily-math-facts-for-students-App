@@ -1,0 +1,57 @@
+Incomplete Fermi–Dirac integral - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Special values 2 See also 3 References 4 External links Toggle the table of contents Incomplete Fermi–Dirac integral 3 languages Italiano Português Українська Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia This article relies largely or entirely on a single source.
+
+Relevant discussion may be found on the talk page.
+
+Please help improve this article by introducing citations to additional sources.
+
+Find sources: "Incomplete Fermi–Dirac integral" – news · newspapers · books · scholar · JSTOR ( December 2020 ) In mathematics , the incomplete Fermi-Dirac integral , named after Enrico Fermi and Paul Dirac , for an index j {\displaystyle j} and parameter b {\displaystyle b} is given by F j ⁡ ( x , b ) = d e f 1 Γ ( j + 1 ) ∫ b ∞ t j e t − x + 1 d t {\displaystyle \operatorname {F} _{j}(x,b){\overset {\mathrm {def} }{=}}{\frac {1}{\Gamma (j+1)}}\int _{b}^{\infty }\!{\frac {t^{j}}{e^{t-x}+1}}\;\mathrm {d} t} Its derivative is d d x F j ⁡ ( x , b ) = F j − 1 ⁡ ( x , b ) {\displaystyle {\frac {\mathrm {d} }{\mathrm {d} x}}\operatorname {F} _{j}(x,b)=\operatorname {F} _{j-1}(x,b)} and this derivative relationship may be used to find the value of the incomplete Fermi-Dirac integral for non-positive indices j {\displaystyle j}.
+
+[1] This is an alternate definition of the incomplete polylogarithm , since: F j ⁡ ( x , b ) = 1 Γ ( j + 1 ) ∫ b ∞ t j e t − x + 1 d t = 1 Γ ( j + 1 ) ∫ b ∞ t j e t e x + 1 d t = − 1 Γ ( j + 1 ) ∫ b ∞ t j e t − e x − 1 d t = − Li j + 1 ⁡ ( b , − e x ) {\displaystyle \operatorname {F} _{j}(x,b)={\frac {1}{\Gamma (j+1)}}\int _{b}^{\infty }\!{\frac {t^{j}}{e^{t-x}+1}}\;\mathrm {d} t={\frac {1}{\Gamma (j+1)}}\int _{b}^{\infty }\!{\frac {t^{j}}{\displaystyle {\frac {e^{t}}{e^{x}}}+1}}\;\mathrm {d} t=-{\frac {1}{\Gamma (j+1)}}\int _{b}^{\infty }\!{\frac {t^{j}}{\displaystyle {\frac {e^{t}}{-e^{x}}}-1}}\;\mathrm {d} t=-\operatorname {Li} _{j+1}(b,-e^{x})} Which can be used to prove the identity: F j ⁡ ( x , b ) = − ∑ n = 1 ∞ ( − 1 ) n n j + 1 Γ ( j + 1 , n b ) Γ ( j + 1 ) e n x {\displaystyle \operatorname {F} _{j}(x,b)=-\sum _{n=1}^{\infty }{\frac {(-1)^{n}}{n^{j+1}}}{\frac {\Gamma (j+1,nb)}{\Gamma (j+1)}}e^{nx}} where Γ ( s ) {\displaystyle \Gamma (s)} is the gamma function and Γ ( s , y ) {\displaystyle \Gamma (s,y)} is the upper incomplete gamma function.
+
+Since Γ ( s , 0 ) = Γ ( s ) {\displaystyle \Gamma (s,0)=\Gamma (s)} , it follows that: F j ⁡ ( x , 0 ) = F j ⁡ ( x ) {\displaystyle \operatorname {F} _{j}(x,0)=\operatorname {F} _{j}(x)} where F j ⁡ ( x ) {\displaystyle \operatorname {F} _{j}(x)} is the complete Fermi-Dirac integral.
+
+Special values [ edit ] The closed form of the function exists for j = 0 {\displaystyle j=0} : [1] F 0 ⁡ ( x , b ) = ln ( 1 + e x − b ) − ( b − x ) {\displaystyle \operatorname {F} _{0}(x,b)=\ln \!{\big (}1+e^{x-b}{\big )}-(b-x)} See also [ edit ] Complete Fermi–Dirac integral Fermi–Dirac statistics Incomplete polylogarithm Polylogarithm References [ edit ] ^ a b Guano, Michele (1995).
+
+"Algorithm 745: computation of the complete and incomplete Fermi-Dirac integral".
+
+ACM Transactions on Mathematical Software.
+
+21 (3).
+
+doi : 10.
+
+1145/210089.
+
+210090.
+
+Retrieved 26 June 2024.
+
+External links [ edit ] GNU Scientific Library - Reference Manual Weisstein, Eric W.
+
+"Fermi-Dirac distribution".
+
+MathWorld.
+
+This mathematical analysis –related article is a stub.
+
+You can help Wikipedia by expanding it.
+
+v t e Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Incomplete_Fermi–Dirac_integral&oldid=1231148270 " Categories : Special functions Mathematical analysis stubs Hidden categories: Articles needing additional references from December 2020 All articles needing additional references All stub articles This page was last edited on 26 June 2024, at 19:07 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

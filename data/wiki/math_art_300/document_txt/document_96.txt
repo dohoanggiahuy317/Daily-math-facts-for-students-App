@@ -1,0 +1,149 @@
+Integral transform - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 General form 2 Motivation 3 History 4 Usage example 5 Table of transforms 6 Different domains 7 General theory 8 See also 9 References 10 Further reading Toggle the table of contents Integral transform 23 languages العربية Català Čeština Deutsch Eesti Español Esperanto Euskara فارسی Français Galego 한국어 Italiano Nederlands 日本語 Português Русский Shqip Slovenščina ไทย Українська Tiếng Việt 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia Mapping involving integration between function spaces For other uses, see Transformation (mathematics).
+
+Part of a series of articles about Calculus ∫ a b f ′ ( t ) d t = f ( b ) − f ( a ) {\displaystyle \int _{a}^{b}f'(t)\,dt=f(b)-f(a)} Fundamental theorem Limits Continuity Rolle's theorem Mean value theorem Inverse function theorem Differential Definitions Derivative ( generalizations ) Differential infinitesimal of a function total Concepts Differentiation notation Second derivative Implicit differentiation Logarithmic differentiation Related rates Taylor's theorem Rules and identities Sum Product Chain Power Quotient L'Hôpital's rule Inverse General Leibniz Faà di Bruno's formula Reynolds Integral Lists of integrals Integral transform Leibniz integral rule Definitions Antiderivative Integral ( improper ) Riemann integral Lebesgue integration Contour integration Integral of inverse functions Integration by Parts Discs Cylindrical shells Substitution ( trigonometric , tangent half-angle , Euler ) Euler's formula Partial fractions Changing order Reduction formulae Differentiating under the integral sign Risch algorithm Series Geometric ( arithmetico-geometric ) Harmonic Alternating Power Binomial Taylor Convergence tests Summand limit (term test) Ratio Root Integral Direct comparison Limit comparison Alternating series Cauchy condensation Dirichlet Abel Vector Gradient Divergence Curl Laplacian Directional derivative Identities Theorems Gradient Green's Stokes' Divergence generalized Stokes Helmholtz decomposition Multivariable Formalisms Matrix Tensor Exterior Geometric Definitions Partial derivative Multiple integral Line integral Surface integral Volume integral Jacobian Hessian Advanced Calculus on Euclidean space Generalized functions Limit of distributions Specialized Fractional Malliavin Stochastic Variations Miscellaneous Precalculus History Glossary List of topics Integration Bee Mathematical analysis Nonstandard analysis v t e In mathematics , an integral transform is a type of transform that maps a function from its original function space into another function space via integration , where some of the properties of the original function might be more easily characterized and manipulated than in the original function space.
+
+The transformed function can generally be mapped back to the original function space using the inverse transform.
+
+General form [ edit ] An integral transform is any transform T {\displaystyle T} of the following form: ( T f ) ( u ) = ∫ t 1 t 2 f ( t ) K ( t , u ) d t {\displaystyle (Tf)(u)=\int _{t_{1}}^{t_{2}}f(t)\,K(t,u)\,dt} The input of this transform is a function f {\displaystyle f} , and the output is another function T f {\displaystyle Tf}.
+
+An integral transform is a particular kind of mathematical operator.
+
+There are numerous useful integral transforms.
+
+Each is specified by a choice of the function K {\displaystyle K} of two variables , that is called the kernel or nucleus of the transform.
+
+Some kernels have an associated inverse kernel K − 1 ( u , t ) {\displaystyle K^{-1}(u,t)} which (roughly speaking) yields an inverse transform: f ( t ) = ∫ u 1 u 2 ( T f ) ( u ) K − 1 ( u , t ) d u {\displaystyle f(t)=\int _{u_{1}}^{u_{2}}(Tf)(u)\,K^{-1}(u,t)\,du} A symmetric kernel is one that is unchanged when the two variables are permuted; it is a kernel function K {\displaystyle K} such that K ( t , u ) = K ( u , t ) {\displaystyle K(t,u)=K(u,t)}.
+
+In the theory of integral equations, symmetric kernels correspond to self-adjoint operators.
+
+[1] Motivation [ edit ] There are many classes of problems that are difficult to solve—or at least quite unwieldy algebraically—in their original representations.
+
+An integral transform "maps" an equation from its original "domain" into another domain, in which manipulating and solving the equation may be much easier than in the original domain.
+
+The solution can then be mapped back to the original domain with the inverse of the integral transform.
+
+There are many applications of probability that rely on integral transforms, such as "pricing kernel" or stochastic discount factor , or the smoothing of data recovered from robust statistics; see kernel (statistics).
+
+History [ edit ] The precursor of the transforms were the Fourier series to express functions in finite intervals.
+
+Later the Fourier transform was developed to remove the requirement of finite intervals.
+
+Using the Fourier series, just about any practical function of time (the voltage across the terminals of an electronic device for example) can be represented as a sum of sines and cosines , each suitably scaled (multiplied by a constant factor), shifted (advanced or retarded in time) and "squeezed" or "stretched" (increasing or decreasing the frequency).
+
+The sines and cosines in the Fourier series are an example of an orthonormal basis.
+
+Usage example [ edit ] As an example of an application of integral transforms, consider the Laplace transform.
+
+This is a technique that maps differential or integro-differential equations in the "time" domain into polynomial equations in what is termed the "complex frequency" domain.
+
+(Complex frequency is similar to actual, physical frequency but rather more general.
+
+Specifically, the imaginary component ω of the complex frequency s = − σ + iω corresponds to the usual concept of frequency, viz.
+
+, the rate at which a sinusoid cycles, whereas the real component σ of the complex frequency corresponds to the degree of "damping", i.
+
+e.
+
+an exponential decrease of the amplitude.
+
+) The equation cast in terms of complex frequency is readily solved in the complex frequency domain (roots of the polynomial equations in the complex frequency domain correspond to eigenvalues in the time domain), leading to a "solution" formulated in the frequency domain.
+
+Employing the inverse transform , i.
+
+e.
+
+, the inverse procedure of the original Laplace transform, one obtains a time-domain solution.
+
+In this example, polynomials in the complex frequency domain (typically occurring in the denominator) correspond to power series in the time domain, while axial shifts in the complex frequency domain correspond to damping by decaying exponentials in the time domain.
+
+The Laplace transform finds wide application in physics and particularly in electrical engineering, where the characteristic equations that describe the behavior of an electric circuit in the complex frequency domain correspond to linear combinations of exponentially scaled and time-shifted damped sinusoids in the time domain.
+
+Other integral transforms find special applicability within other scientific and mathematical disciplines.
+
+Another usage example is the kernel in the path integral : ψ ( x , t ) = ∫ − ∞ ∞ ψ ( x ′ , t ′ ) K ( x , t ; x ′ , t ′ ) d x ′.
+
+{\displaystyle \psi (x,t)=\int _{-\infty }^{\infty }\psi (x',t')K(x,t;x',t')dx'.
+
+} This states that the total amplitude ψ ( x , t ) {\displaystyle \psi (x,t)} to arrive at ( x , t ) {\displaystyle (x,t)} is the sum (the integral) over all possible values x ′ {\displaystyle x'} of the total amplitude ψ ( x ′ , t ′ ) {\displaystyle \psi (x',t')} to arrive at the point ( x ′ , t ′ ) {\displaystyle (x',t')} multiplied by the amplitude to go from x ′ {\displaystyle x'} to x {\displaystyle x} [ i.
+
+e.
+
+K ( x , t ; x ′ , t ′ ) {\displaystyle K(x,t;x',t')} ].
+
+[2] It is often referred to as the propagator for a given system.
+
+This (physics) kernel is the kernel of the integral transform.
+
+However, for each quantum system, there is a different kernel.
+
+[3] Table of transforms [ edit ] Table of integral transforms Transform Symbol K f ( t ) t 1 t 2 K −1 u 1 u 2 Abel transform F, f 2 t t 2 − u 2 {\displaystyle {\frac {2t}{\sqrt {t^{2}-u^{2}}}}} u {\displaystyle u} ∞ {\displaystyle \infty } − 1 π u 2 − t 2 d d u {\displaystyle {\frac {-1}{\pi {\sqrt {u^{2}\!-\!t^{2}}}}}{\frac {d}{du}}} [4] t ∞ {\displaystyle \infty } Associated Legendre transform J n , m {\displaystyle {\mathcal {J}}_{n,m}} ( 1 − x 2 ) − m / 2 P n m ( x ) {\displaystyle (1-x^{2})^{-m/2}P_{n}^{m}(x)} − 1 {\displaystyle -1} 1 {\displaystyle 1} 0 {\displaystyle 0} ∞ {\displaystyle \infty } Fourier transform F {\displaystyle {\mathcal {F}}} e − 2 π i u t {\displaystyle e^{-2\pi iut}} L 1 {\displaystyle L_{1}} − ∞ {\displaystyle -\infty } ∞ {\displaystyle \infty } e 2 π i u t {\displaystyle e^{2\pi iut}} − ∞ {\displaystyle -\infty } ∞ {\displaystyle \infty } Fourier sine transform F s {\displaystyle {\mathcal {F}}_{s}} 2 π sin ⁡ ( u t ) {\displaystyle {\sqrt {\frac {2}{\pi }}}\sin(ut)} on [ 0 , ∞ ) {\displaystyle [0,\infty )} , real-valued 0 {\displaystyle 0} ∞ {\displaystyle \infty } 2 π sin ⁡ ( u t ) {\displaystyle {\sqrt {\frac {2}{\pi }}}\sin(ut)} 0 {\displaystyle 0} ∞ {\displaystyle \infty } Fourier cosine transform F c {\displaystyle {\mathcal {F}}_{c}} 2 π cos ⁡ ( u t ) {\displaystyle {\sqrt {\frac {2}{\pi }}}\cos(ut)} on [ 0 , ∞ ) {\displaystyle [0,\infty )} , real-valued 0 {\displaystyle 0} ∞ {\displaystyle \infty } 2 π cos ⁡ ( u t ) {\displaystyle {\sqrt {\frac {2}{\pi }}}\cos(ut)} 0 {\displaystyle 0} ∞ {\displaystyle \infty } Hankel transform t J ν ( u t ) {\displaystyle t\,J_{\nu }(ut)} 0 {\displaystyle 0} ∞ {\displaystyle \infty } u J ν ( u t ) {\displaystyle u\,J_{\nu }(ut)} 0 {\displaystyle 0} ∞ {\displaystyle \infty } Hartley transform H {\displaystyle {\mathcal {H}}} cos ⁡ ( u t ) + sin ⁡ ( u t ) 2 π {\displaystyle {\frac {\cos(ut)+\sin(ut)}{\sqrt {2\pi }}}} − ∞ {\displaystyle -\infty } ∞ {\displaystyle \infty } cos ⁡ ( u t ) + sin ⁡ ( u t ) 2 π {\displaystyle {\frac {\cos(ut)+\sin(ut)}{\sqrt {2\pi }}}} − ∞ {\displaystyle -\infty } ∞ {\displaystyle \infty } Hermite transform H {\displaystyle H} e − x 2 H n ( x ) {\displaystyle e^{-x^{2}}H_{n}(x)} − ∞ {\displaystyle -\infty } ∞ {\displaystyle \infty } 0 {\displaystyle 0} ∞ {\displaystyle \infty } Hilbert transform H i l {\displaystyle {\mathcal {H}}il} 1 π 1 u − t {\displaystyle {\frac {1}{\pi }}{\frac {1}{u-t}}} − ∞ {\displaystyle -\infty } ∞ {\displaystyle \infty } 1 π 1 u − t {\displaystyle {\frac {1}{\pi }}{\frac {1}{u-t}}} − ∞ {\displaystyle -\infty } ∞ {\displaystyle \infty } Jacobi transform J {\displaystyle J} ( 1 − x ) α ( 1 + x ) β P n α , β ( x ) {\displaystyle (1-x)^{\alpha }\ (1+x)^{\beta }\ P_{n}^{\alpha ,\beta }(x)} − 1 {\displaystyle -1} 1 {\displaystyle 1} 0 {\displaystyle 0} ∞ {\displaystyle \infty } Laguerre transform L {\displaystyle L} e − x x α L n α ( x ) {\displaystyle e^{-x}\ x^{\alpha }\ L_{n}^{\alpha }(x)} 0 {\displaystyle 0} ∞ {\displaystyle \infty } 0 {\displaystyle 0} ∞ {\displaystyle \infty } Laplace transform L {\displaystyle {\mathcal {L}}} e − u t {\displaystyle e^{-ut}} 0 {\displaystyle 0} ∞ {\displaystyle \infty } e u t 2 π i {\displaystyle {\frac {e^{ut}}{2\pi i}}} c − i ∞ {\displaystyle c\!-\!i\infty } c + i ∞ {\displaystyle c\!+\!i\infty } Legendre transform J {\displaystyle {\mathcal {J}}} P n ( x ) {\displaystyle P_{n}(x)\,} − 1 {\displaystyle -1} 1 {\displaystyle 1} 0 {\displaystyle 0} ∞ {\displaystyle \infty } Mellin transform M {\displaystyle {\mathcal {M}}} t u − 1 {\displaystyle t^{u-1}} 0 {\displaystyle 0} ∞ {\displaystyle \infty } t − u 2 π i {\displaystyle {\frac {t^{-u}}{2\pi i}}\,} [5] c − i ∞ {\displaystyle c\!-\!i\infty } c + i ∞ {\displaystyle c\!+\!i\infty } Two-sided Laplace transform B {\displaystyle {\mathcal {B}}} e − u t {\displaystyle e^{-ut}} − ∞ {\displaystyle -\infty } ∞ {\displaystyle \infty } e u t 2 π i {\displaystyle {\frac {e^{ut}}{2\pi i}}} c − i ∞ {\displaystyle c\!-\!i\infty } c + i ∞ {\displaystyle c\!+\!i\infty } Poisson kernel 1 − r 2 1 − 2 r cos ⁡ θ + r 2 {\displaystyle {\frac {1-r^{2}}{1-2r\cos \theta +r^{2}}}} 0 {\displaystyle 0} 2 π {\displaystyle 2\pi } Radon transform Rƒ − ∞ {\displaystyle -\infty } ∞ {\displaystyle \infty } Weierstrass transform W {\displaystyle {\mathcal {W}}} e − ( u − t ) 2 4 4 π {\displaystyle {\frac {e^{-{\frac {(u-t)^{2}}{4}}}}{\sqrt {4\pi }}}\,} − ∞ {\displaystyle -\infty } ∞ {\displaystyle \infty } e ( u − t ) 2 4 i 4 π {\displaystyle {\frac {e^{\frac {(u-t)^{2}}{4}}}{i{\sqrt {4\pi }}}}} c − i ∞ {\displaystyle c\!-\!i\infty } c + i ∞ {\displaystyle c\!+\!i\infty } X-ray transform Xƒ − ∞ {\displaystyle -\infty } ∞ {\displaystyle \infty } In the limits of integration for the inverse transform, c is a constant which depends on the nature of the transform function.
+
+For example, for the one and two-sided Laplace transform, c must be greater than the largest real part of the zeroes of the transform function.
+
+Note that there are alternative notations and conventions for the Fourier transform.
+
+Different domains [ edit ] Here integral transforms are defined for functions on the real numbers, but they can be defined more generally for functions on a group.
+
+If instead one uses functions on the circle (periodic functions), integration kernels are then biperiodic functions; convolution by functions on the circle yields circular convolution.
+
+If one uses functions on the cyclic group of order n ( C n or Z / n Z ), one obtains n × n matrices as integration kernels; convolution corresponds to circulant matrices.
+
+General theory [ edit ] Although the properties of integral transforms vary widely, they have some properties in common.
+
+For example, every integral transform is a linear operator , since the integral is a linear operator, and in fact if the kernel is allowed to be a generalized function then all linear operators are integral transforms (a properly formulated version of this statement is the Schwartz kernel theorem ).
+
+The general theory of such integral equations is known as Fredholm theory.
+
+In this theory, the kernel is understood to be a compact operator acting on a Banach space of functions.
+
+Depending on the situation, the kernel is then variously referred to as the Fredholm operator , the nuclear operator or the Fredholm kernel.
+
+See also [ edit ] Bateman transform Convolution kernel Circular convolution Circulant matrix Differential equations Kernel method List of transforms List of operators List of Fourier-related transforms Nachbin's theorem Nonlocal operator Reproducing kernel Symbolic integration References [ edit ] ^ Chapter 8.
+
+2, Methods of Theoretical Physics Vol.
+
+I (Morse & Feshbach) ^ Eq 3.
+
+42 in Feynman and Hibbs, Quantum Mechanics and Path Integrals, emended edition: ^ Mathematically, what is the kernel in path integral? ^ Assuming the Abel transform is not discontinuous at u {\displaystyle u}.
+
+^ Some conditions apply, see Mellin inversion theorem for details.
+
+Further reading [ edit ] A.
+
+D.
+
+Polyanin and A.
+
+V.
+
+Manzhirov, Handbook of Integral Equations , CRC Press, Boca Raton, 1998.
+
+ISBN 0-8493-2876-4 R.
+
+K.
+
+M.
+
+Thambynayagam, The Diffusion Handbook: Applied Solutions for Engineers , McGraw-Hill, New York, 2011.
+
+ISBN 978-0-07-175184-1 "Integral transform" , Encyclopedia of Mathematics , EMS Press , 2001 [1994] Tables of Integral Transforms at EqWorld: The World of Mathematical Equations.
+
+v t e Lp spaces Basic concepts Banach & Hilbert spaces L p spaces Measure Lebesgue Measure space Measurable space / function Minkowski distance Sequence spaces L 1 spaces Integrable function Lebesgue integration Taxicab geometry L 2 spaces Bessel's Cauchy–Schwarz Euclidean distance Hilbert space Parseval's identity Polarization identity Pythagorean theorem Square-integrable function L ∞ {\displaystyle L^{\infty }} spaces Bounded function Chebyshev distance Infimum and supremum Essential Uniform norm Maps Almost everywhere Convergence almost everywhere Convergence in measure Function space Integral transform Locally integrable function Measurable function Symmetric decreasing rearrangement Inequalities Babenko–Beckner Chebyshev's Clarkson's Hanner's Hausdorff–Young Hölder's Markov's Minkowski Young's convolution Results Marcinkiewicz interpolation theorem Plancherel theorem Riemann–Lebesgue Riesz–Fischer theorem Riesz–Thorin theorem For Lebesgue measure Isoperimetric inequality Brunn–Minkowski theorem Milman's reverse Minkowski–Steiner formula Prékopa–Leindler inequality Vitale's random Brunn–Minkowski inequality Applications & related Bochner space Fourier analysis Lorentz space Probability theory Quasinorm Real analysis Sobolev space *-algebra C*-algebra Von Neumann Authority control databases : National Germany Israel United States Japan Czech Republic Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Integral_transform&oldid=1222367178 " Category : Integral transforms Hidden categories: Articles with short description Short description is different from Wikidata Pages using sidebar with the child parameter Articles with GND identifiers Articles with J9U identifiers Articles with LCCN identifiers Articles with NDL identifiers Articles with NKC identifiers This page was last edited on 5 May 2024, at 16:37 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

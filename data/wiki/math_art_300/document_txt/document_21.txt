@@ -1,0 +1,345 @@
+Slope - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Definition Toggle Definition subsection 1.
+
+1 Examples 2 Algebra and geometry Toggle Algebra and geometry subsection 2.
+
+1 Examples 3 Statistics 4 Slope of a road or railway 5 Calculus 6 Difference of slopes 7 Other uses 8 See also 9 References 10 External links Toggle the table of contents Slope 66 languages አማርኛ العربية Azərbaycanca বাংলা 閩南語 / Bân-lâm-gú Български Català Чӑвашла Čeština ChiShona Cymraeg Dansk الدارجة Deutsch Eesti Ελληνικά Español Euskara فارسی Français Gaeilge Galego 한국어 Հայերեն हिन्दी Hrvatski Ido Bahasa Indonesia Íslenska Italiano עברית ಕನ್ನಡ Қазақша Lietuvių Limburgs Македонски മലയാളം मराठी Bahasa Melayu Nederlands 日本語 Norsk bokmål Oromoo Oʻzbekcha / ўзбекча Polski Português Română Русский Shqip Simple English Slovenčina کوردی Српски / srpski Suomi Svenska Tagalog தமிழ் Taqbaylit ไทย Türkçe Українська Tiếng Việt 文言 吴语 粵語 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Mathematical term This article is about the mathematical term.
+
+For slope of a physical feature, see Grade (slope).
+
+For other uses, see Slope (disambiguation).
+
+Slope: m = Δ y Δ x = tan ⁡ ( θ ) {\displaystyle m={\frac {\Delta y}{\Delta x}}=\tan(\theta )} In mathematics, the slope or gradient of a line is a number that describes the direction and steepness of the line.
+
+[1] Often denoted by the letter m , slope is calculated as the ratio of the vertical change to the horizontal change ("rise over run") between two distinct points on the line, giving the same number for any choice of points.
+
+A line descending left-to-right has negative rise and negative slope.
+
+The line may be physical – as set by a road surveyor , pictorial as in a diagram of a road or roof, or abstract.
+
+The steepness , incline, or grade of a line is the absolute value of its slope: greater absolute value indicates a steeper line.
+
+Direction is defined as follows: An increasing line goes up from left to right, and has positive slope : m > 0 {\displaystyle m>0}.
+
+A decreasing line goes down from left to right, and has negative slope : m < 0 {\displaystyle m<0}.
+
+A horizontal line (the graph of a constant function ) has zero slope : m = 0 {\displaystyle m=0}.
+
+A vertical line has undefined or infinite slope (see below).
+
+If two points of a road have altitudes y 1 and y 2 , the rise is the difference ( y 2 − y 1 ) = Δ y.
+
+Neglecting the Earth's curvature , if the two points have horizontal distance x 1 and x 2 from a fixed point, the run is ( x 2 − x 1 ) = Δ x.
+
+The slope between the two points is the difference ratio : m = Δ y Δ x = y 2 − y 1 x 2 − x 1.
+
+{\displaystyle m={\frac {\Delta y}{\Delta x}}={\frac {y_{2}-y_{1}}{x_{2}-x_{1}}}.
+
+} This is equivalent to the grade or gradient in geography and civil engineering.
+
+Through trigonometry , the slope m of a line is related to its angle of inclination θ by the tangent function m = tan ⁡ ( θ ).
+
+{\displaystyle m=\tan(\theta ).
+
+} Thus, a 45° rising line has slope m = +1, and a 45° falling line has slope m = −1.
+
+Generalizing this, differential calculus defines the slope of a curve at a point as the slope of its tangent line at that point.
+
+When the curve is approximated by a series of points, the slope of the curve may be approximated by the slope of the secant line between two nearby points.
+
+When the curve is given as the graph of an algebraic expression , calculus gives formulas for the slope at each point.
+
+Slope is thus one of the central ideas of calculus and its applications to design.
+
+There seems to be no clear answer as to why the letter m is used for slope, but it first appears in English in O'Brien (1844) [2] who introduced the equation of a line as " y = mx + b " , and it can also be found in Todhunter (1888) [3] who wrote " y = mx + c ".
+
+[4] Definition [ edit ] Slope illustrated for y = (3/2) x − 1.
+
+Click on to enlarge Slope of a line in coordinates system, from f ( x ) = −12 x + 2 to f ( x ) = 12 x + 2 The slope of a line in the plane containing the x and y axes is generally represented by the letter m , [5] and is defined as the change in the y coordinate divided by the corresponding change in the x coordinate, between two distinct points on the line.
+
+This is described by the following equation: m = Δ y Δ x = vertical change horizontal change = rise run.
+
+{\displaystyle m={\frac {\Delta y}{\Delta x}}={\frac {{\text{vertical}}\,{\text{change}}}{{\text{horizontal}}\,{\text{change}}}}={\frac {\text{rise}}{\text{run}}}.
+
+} (The Greek letter delta , Δ, is commonly used in mathematics to mean "difference" or "change".
+
+) Given two points ( x 1 , y 1 ) {\displaystyle (x_{1},y_{1})} and ( x 2 , y 2 ) {\displaystyle (x_{2},y_{2})} , the change in x {\displaystyle x} from one to the other is x 2 − x 1 {\displaystyle x_{2}-x_{1}} ( run ), while the change in y {\displaystyle y} is y 2 − y 1 {\displaystyle y_{2}-y_{1}} ( rise ).
+
+Substituting both quantities into the above equation generates the formula: m = y 2 − y 1 x 2 − x 1.
+
+{\displaystyle m={\frac {y_{2}-y_{1}}{x_{2}-x_{1}}}.
+
+} The formula fails for a vertical line, parallel to the y {\displaystyle y} axis (see Division by zero ), where the slope can be taken as infinite , so the slope of a vertical line is considered undefined.
+
+Examples [ edit ] Suppose a line runs through two points: P = (1, 2) and Q = (13, 8).
+
+By dividing the difference in y {\displaystyle y} -coordinates by the difference in x {\displaystyle x} -coordinates, one can obtain the slope of the line: m = Δ y Δ x = y 2 − y 1 x 2 − x 1 = 8 − 2 13 − 1 = 6 12 = 1 2.
+
+{\displaystyle m={\frac {\Delta y}{\Delta x}}={\frac {y_{2}-y_{1}}{x_{2}-x_{1}}}={\frac {8-2}{13-1}}={\frac {6}{12}}={\frac {1}{2}}.
+
+} Since the slope is positive, the direction of the line is increasing.
+
+Since | m | < 1, the incline is not very steep (incline < 45°).
+
+As another example, consider a line which runs through the points (4, 15) and (3, 21).
+
+Then, the slope of the line is m = 21 − 15 3 − 4 = 6 − 1 = − 6.
+
+{\displaystyle m={\frac {21-15}{3-4}}={\frac {6}{-1}}=-6.
+
+} Since the slope is negative, the direction of the line is decreasing.
+
+Since | m | > 1, this decline is fairly steep (decline > 45°).
+
+Algebra and geometry [ edit ] Slopes of parallel and perpendicular lines If y {\displaystyle y} is a linear function of x {\displaystyle x} , then the coefficient of x {\displaystyle x} is the slope of the line created by plotting the function.
+
+Therefore, if the equation of the line is given in the form y = m x + b {\displaystyle y=mx+b} then m {\displaystyle m} is the slope.
+
+This form of a line's equation is called the slope-intercept form , because b {\displaystyle b} can be interpreted as the y-intercept of the line, that is, the y {\displaystyle y} -coordinate where the line intersects the y {\displaystyle y} -axis.
+
+If the slope m {\displaystyle m} of a line and a point ( x 1 , y 1 ) {\displaystyle (x_{1},y_{1})} on the line are both known, then the equation of the line can be found using the point-slope formula : y − y 1 = m ( x − x 1 ).
+
+{\displaystyle y-y_{1}=m(x-x_{1}).
+
+} The slope of the line defined by the linear equation a x + b y + c = 0 {\displaystyle ax+by+c=0} is − a b {\displaystyle -{\frac {a}{b}}}.
+
+Two lines are parallel if and only if they are not the same line (coincident) and either their slopes are equal or they both are vertical and therefore both have undefined slopes.
+
+Two lines are perpendicular if the product of their slopes is −1 or one has a slope of 0 (a horizontal line) and the other has an undefined slope (a vertical line).
+
+The angle θ between −90° and 90° that a line makes with the x -axis is related to the slope m as follows: m = tan ⁡ ( θ ) {\displaystyle m=\tan(\theta )} and θ = arctan ⁡ ( m ) {\displaystyle \theta =\arctan(m)} (this is the inverse function of tangent; see inverse trigonometric functions ).
+
+Examples [ edit ] For example, consider a line running through points (2,8) and (3,20).
+
+This line has a slope, m , of ( 20 − 8 ) ( 3 − 2 ) = 12.
+
+{\displaystyle {\frac {(20-8)}{(3-2)}}=12.
+
+} One can then write the line's equation, in point-slope form: y − 8 = 12 ( x − 2 ) = 12 x − 24.
+
+{\displaystyle y-8=12(x-2)=12x-24.
+
+} or: y = 12 x − 16.
+
+{\displaystyle y=12x-16.
+
+} The angle θ between −90° and 90° that this line makes with the x -axis is θ = arctan ⁡ ( 12 ) ≈ 85.
+
+2 ∘.
+
+{\displaystyle \theta =\arctan(12)\approx 85.
+
+2^{\circ }.
+
+} Consider the two lines: y = −3 x + 1 and y = −3 x − 2.
+
+Both lines have slope m = −3.
+
+They are not the same line.
+
+So they are parallel lines.
+
+Consider the two lines y = −3 x + 1 and y = ⁠ x / 3 ⁠ − 2.
+
+The slope of the first line is m 1 = −3.
+
+The slope of the second line is m 2 = ⁠ 1 / 3 ⁠.
+
+The product of these two slopes is −1.
+
+So these two lines are perpendicular.
+
+Statistics [ edit ] In statistics , the gradient of the least-squares regression best-fitting line for a given sample of data may be written as: m = r s y s x {\displaystyle m={\frac {rs_{y}}{s_{x}}}} , This quantity m is called as the regression slope for the line y = m x + c {\displaystyle y=mx+c}.
+
+The quantity r {\displaystyle r} is Pearson's correlation coefficient , s y {\displaystyle s_{y}} is the standard deviation of the y-values and s x {\displaystyle s_{x}} is the standard deviation of the x-values.
+
+This may also be written as a ratio of covariances : [6] m = cov ⁡ ( Y , X ) cov ⁡ ( X , X ) {\displaystyle m={\frac {\operatorname {cov} (Y,X)}{\operatorname {cov} (X,X)}}} Slope of a road or railway [ edit ] Main articles: Grade (slope) and Grade separation There are two common ways to describe the steepness of a road or railroad.
+
+One is by the angle between 0° and 90° (in degrees), and the other is by the slope in a percentage.
+
+See also steep grade railway and rack railway.
+
+The formulae for converting a slope given as a percentage into an angle in degrees and vice versa are: angle = arctan ⁡ ( slope 100 % ) {\displaystyle {\text{angle}}=\arctan \left({\frac {\text{slope}}{100\%}}\right)} (this is the inverse function of tangent; see trigonometry ) and slope = 100 % × tan ⁡ ( angle ) , {\displaystyle {\mbox{slope}}=100\%\times \tan({\mbox{angle}}),} where angle is in degrees and the trigonometric functions operate in degrees.
+
+For example, a slope of 100 % or 1000 ‰ is an angle of 45°.
+
+A third way is to give one unit of rise in say 10, 20, 50 or 100 horizontal units, e.
+
+g.
+
+1:10.
+
+1:20, 1:50 or 1:100 (or "1 in 10", "1 in 20", etc.
+
+) 1:10 is steeper than 1:20.
+
+For example, steepness of 20% means 1:5 or an incline with angle 11.
+
+3°.
+
+Roads and railways have both longitudinal slopes and cross slopes.
+
+Slope warning sign in the Netherlands Slope warning sign in Poland A 1371-meter distance of a railroad with a 20 ‰ slope.
+
+Czech Republic Steam-age railway gradient post indicating a slope in both directions at Meols railway station , United Kingdom Calculus [ edit ] At each point, the derivative is the slope of a line that is tangent to the curve at that point.
+
+Note: the derivative at point A is positive where green and dash–dot, negative where red and dashed, and zero where black and solid.
+
+The concept of a slope is central to differential calculus.
+
+For non-linear functions, the rate of change varies along the curve.
+
+The derivative of the function at a point is the slope of the line tangent to the curve at the point, and is thus equal to the rate of change of the function at that point.
+
+If we let Δ x and Δ y be the distances (along the x and y axes, respectively) between two points on a curve, then the slope given by the above definition, m = Δ y Δ x {\displaystyle m={\frac {\Delta y}{\Delta x}}} , is the slope of a secant line to the curve.
+
+For a line, the secant between any two points is the line itself, but this is not the case for any other type of curve.
+
+For example, the slope of the secant intersecting y = x 2 at (0,0) and (3,9) is 3.
+
+(The slope of the tangent at x = 3 ⁄ 2 is also 3 − a consequence of the mean value theorem.
+
+) By moving the two points closer together so that Δ y and Δ x decrease, the secant line more closely approximates a tangent line to the curve, and as such the slope of the secant approaches that of the tangent.
+
+Using differential calculus , we can determine the limit , or the value that Δ y /Δ x approaches as Δ y and Δ x get closer to zero ; it follows that this limit is the exact slope of the tangent.
+
+If y is dependent on x , then it is sufficient to take the limit where only Δ x approaches zero.
+
+Therefore, the slope of the tangent is the limit of Δ y /Δ x as Δ x approaches zero, or d y /d x.
+
+We call this limit the derivative.
+
+d y d x = lim Δ x → 0 Δ y Δ x {\displaystyle {\frac {\mathrm {d} y}{\mathrm {d} x}}=\lim _{\Delta x\to 0}{\frac {\Delta y}{\Delta x}}} The value of the derivative at a specific point on the function provides us with the slope of the tangent at that precise location.
+
+For example, let y = x 2.
+
+A point on this function is (−2,4).
+
+The derivative of this function is d y ⁄ d x = 2 x.
+
+So the slope of the line tangent to y at (−2,4) is 2 ⋅ (−2) = −4.
+
+The equation of this tangent line is: y − 4 = (−4)( x − (−2)) or y = −4 x − 4.
+
+Difference of slopes [ edit ] The illusion of a paradox of area is dispelled by comparing slopes where blue and red triangles meet.
+
+An extension of the idea of angle follows from the difference of slopes.
+
+Consider the shear mapping ( u , v ) = ( x , y ) ( 1 v 0 1 ).
+
+{\displaystyle (u,v)=(x,y){\begin{pmatrix}1&v\\0&1\end{pmatrix}}.
+
+} Then ( 1 , 0 ) {\displaystyle (1,0)} is mapped to ( 1 , v ) {\displaystyle (1,v)}.
+
+The slope of ( 1 , 0 ) {\displaystyle (1,0)} is zero and the slope of ( 1 , v ) {\displaystyle (1,v)} is v {\displaystyle v}.
+
+The shear mapping added a slope of v {\displaystyle v}.
+
+For two points on { ( 1 , y ) : y ∈ R } {\displaystyle \{(1,y):y\in \mathbb {R} \}} with slopes m {\displaystyle m} and n {\displaystyle n} , the image ( 1 , y ) ( 1 v 0 1 ) = ( 1 , y + v ) {\displaystyle (1,y){\begin{pmatrix}1&v\\0&1\end{pmatrix}}=(1,y+v)} has slope increased by v {\displaystyle v} , but the difference n − m {\displaystyle n-m} of slopes is the same before and after the shear.
+
+This invariance of slope differences makes slope an angular invariant measure , on a par with circular angle (invariant under rotation) and hyperbolic angle, with invariance group of squeeze mappings.
+
+[7] [8] Other uses [ edit ] The concept of a slope or gradient is also used as a basis for developing other applications in mathematics: Gradient descent , a first-order iterative optimization algorithm for finding the minimum of a function Gradient theorem , theorem that a line integral through a gradient field can be evaluated by evaluating the original scalar field at the endpoints of the curve Gradient method , an algorithm to solve problems with search directions defined by the gradient of the function at the current point Conjugate gradient method , an algorithm for the numerical solution of particular systems of linear equations Nonlinear conjugate gradient method , generalizes the conjugate gradient method to nonlinear optimization Stochastic gradient descent , iterative method for optimizing a differentiable objective function See also [ edit ] Euclidean distance Grade Inclined plane Linear function Line of greatest slope Mediant Slope definitions Theil–Sen estimator , a line with the median slope among a set of sample points References [ edit ] ^ Clapham, C.
+
+; Nicholson, J.
+
+(2009).
+
+"Oxford Concise Dictionary of Mathematics, Gradient" (PDF).
+
+Addison-Wesley.
+
+p.
+
+348.
+
+Archived from the original (PDF) on 29 October 2013.
+
+Retrieved 1 September 2013.
+
+^ O'Brien, M.
+
+(1844), A Treatise on Plane Co-Ordinate Geometry or the Application of the Method of Co-Ordinates in the Solution of Problems in Plane Geometry , Cambridge, England: Deightons ^ Todhunter, I.
+
+(1888), Treatise on Plane Co-Ordinate Geometry as Applied to the Straight Line and Conic Sections , London: Macmillan ^ Weisstein, Eric W.
+
+"Slope".
+
+MathWorld--A Wolfram Web Resource.
+
+Archived from the original on 6 December 2016.
+
+Retrieved 30 October 2016.
+
+^ An early example of this convention can be found in Salmon, George (1850).
+
+A Treatise on Conic Sections (2nd ed.
+
+).
+
+Dublin: Hodges and Smith.
+
+pp.
+
+14–15.
+
+^ Further Mathematics Units 3&4 VCE (Revised).
+
+Cambridge Senior Mathematics.
+
+2016.
+
+ISBN 9781316616222 – via Physical Copy.
+
+^ Bolt, Michael; Ferdinands, Timothy; Kavlie, Landon (2009).
+
+"The most general planar transformations that map parabolas into parabolas".
+
+Involve: A Journal of Mathematics.
+
+2 (1): 79–88.
+
+doi : 10.
+
+2140/involve.
+
+2009.
+
+2.
+
+79.
+
+ISSN 1944-4176.
+
+Archived from the original on 2020-06-12.
+
+Retrieved 2021-05-22.
+
+^ Abstract Algebra/Shear and Slope at Wikibooks External links [ edit ] Look up slope in Wiktionary, the free dictionary.
+
+"Slope of a Line (Coordinate Geometry)".
+
+Math Open Reference.
+
+2009.
+
+Retrieved 30 October 2016.
+
+interactive v t e Calculus Precalculus Binomial theorem Concave function Continuous function Factorial Finite difference Free variables and bound variables Graph of a function Linear function Radian Rolle's theorem Secant Slope Tangent Limits Indeterminate form Limit of a function One-sided limit Limit of a sequence Order of approximation (ε, δ)-definition of limit Differential calculus Derivative Second derivative Partial derivative Differential Differential operator Mean value theorem Notation Leibniz's notation Newton's notation Rules of differentiation linearity Power Sum Chain L'Hôpital's Product General Leibniz's rule Quotient Other techniques Implicit differentiation Inverse functions and differentiation Logarithmic derivative Related rates Stationary points First derivative test Second derivative test Extreme value theorem Maximum and minimum Further applications Newton's method Taylor's theorem Differential equation Ordinary differential equation Partial differential equation Stochastic differential equation Integral calculus Antiderivative Arc length Riemann integral Basic properties Constant of integration Fundamental theorem of calculus Differentiating under the integral sign Integration by parts Integration by substitution trigonometric Euler Tangent half-angle substitution Partial fractions in integration Quadratic integral Trapezoidal rule Volumes Washer method Shell method Integral equation Integro-differential equation Vector calculus Derivatives Curl Directional derivative Divergence Gradient Laplacian Basic theorems Line integrals Green's Stokes' Gauss' Multivariable calculus Divergence theorem Geometric Hessian matrix Jacobian matrix and determinant Lagrange multiplier Line integral Matrix Multiple integral Partial derivative Surface integral Volume integral Advanced topics Differential forms Exterior derivative Generalized Stokes' theorem Tensor calculus Sequences and series Arithmetico-geometric sequence Types of series Alternating Binomial Fourier Geometric Harmonic Infinite Power Maclaurin Taylor Telescoping Tests of convergence Abel's Alternating series Cauchy condensation Direct comparison Dirichlet's Integral Limit comparison Ratio Root Term Special functions and numbers Bernoulli numbers e (mathematical constant) Exponential function Natural logarithm Stirling's approximation History of calculus Adequality Brook Taylor Colin Maclaurin Generality of algebra Gottfried Wilhelm Leibniz Infinitesimal Infinitesimal calculus Isaac Newton Fluxion Law of Continuity Leonhard Euler Method of Fluxions The Method of Mechanical Theorems Lists Integrals rational functions irrational functions exponential functions logarithmic functions hyperbolic functions inverse trigonometric functions inverse Secant Secant cubed List of limits List of derivatives Miscellaneous topics Complex calculus Contour integral Differential geometry Manifold Curvature of curves of surfaces Tensor Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Regiomontanus' angle maximization problem Steinmetz solid Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Slope&oldid=1229449442 " Categories : Elementary mathematics Analytic geometry Ratios Hidden categories: Articles with short description Short description is different from Wikidata This page was last edited on 16 June 2024, at 21:38 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

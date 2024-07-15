@@ -1,0 +1,381 @@
+Colin Maclaurin - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Early life 2 Academic career 3 Contributions to mathematics 4 Personal life 5 Notable works 6 See also 7 References 8 Sources 9 Further reading Toggle the table of contents Colin Maclaurin 40 languages العربية Azərbaycanca تۆرکجه Беларуская Bosanski Brezhoneg Català Čeština Dansk Deutsch Español Euskara فارسی Français 한국어 Հայերեն Bahasa Indonesia Íslenska Italiano עברית Latina Magyar Malagasy مصرى Nederlands 日本語 Norsk nynorsk Piemontèis Polski Português Română Русский Slovenčina Српски / srpski Suomi Svenska Türkçe Українська Yorùbá 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikisource Appearance move to sidebar hide From Wikipedia, the free encyclopedia Scottish mathematician (1698 – 1746) Colin Maclaurin Drawing by David Steuart Erskine c.
+
+1795, from a portrait by James Ferguson Born February 1698 Kilmodan , Cowal , Argyll , Scotland Died 14 June 1746 (aged 48) Edinburgh , Scotland Nationality Scottish Citizenship Great Britain Alma mater University of Glasgow Known for Euler–Maclaurin formula Maclaurin's inequality Maclaurin series Maclaurin spheroid Maclaurin–Cauchy test Braikenridge–Maclaurin theorem Trisectrix of Maclaurin Awards Grand Prize of the French Academy of Sciences Scientific career Fields Mathematician Institutions Marischal College , University of Aberdeen University of Edinburgh Academic advisors Robert Simson Notable students Robert Adam Colin Maclaurin ( / m ə ˈ k l ɔː r ə n / ; Scottish Gaelic : Cailean MacLabhruinn ; [ pronunciation? ] February 1698 – 14 June 1746) [1] was a Scottish mathematician who made important contributions to geometry and algebra.
+
+[2] He is also known for being a child prodigy and holding the record for being the youngest professor.
+
+The Maclaurin series, a special case of the Taylor series , is named after him.
+
+Owing to changes in orthography since that time (his name was originally rendered as M'Laurine [3] ), his surname is alternatively written MacLaurin.
+
+[4] Early life [ edit ] This section does not cite any sources.
+
+Please help improve this section by adding citations to reliable sources.
+
+Unsourced material may be challenged and removed.
+
+Find sources: "Colin Maclaurin" – news · newspapers · books · scholar · JSTOR ( January 2023 ) ( Learn how and when to remove this message ) Maclaurin was born in Kilmodan , Argyll.
+
+His father, John Maclaurin, minister of Glendaruel , died when Maclaurin was in infancy, and his mother died before he reached nine years of age.
+
+He was then educated under the care of his uncle, Daniel Maclaurin, minister of Kilfinan.
+
+A child prodigy , he entered university at age 11.
+
+Academic career [ edit ] At eleven, Maclaurin, a child prodigy at the time, entered the University of Glasgow.
+
+He graduated Master of Arts three years later by defending a thesis on the Power of Gravity, and remained at Glasgow to study divinity until he was 19, when he was elected professor of mathematics in a ten-day competition at Marischal College and University in Aberdeen.
+
+This record as the world's youngest professor endured until March 2008, when the record was officially given to Alia Sabur.
+
+[5] In the vacations of 1719 and 1721, Maclaurin went to London, where he became acquainted with Isaac Newton , Benjamin Hoadly , Samuel Clarke , Martin Folkes , and other philosophers.
+
+He was admitted as a member of the Royal Society.
+
+In 1722, having provided a locum for his class at Aberdeen, he travelled on the Continent as tutor to George Hume, the son of Alexander Hume, 2nd Earl of Marchmont.
+
+During their time in Lorraine , he wrote his essay on the percussion of bodies ( Demonstration des loix du choc des corps ), which gained the prize of the Royal Academy of Sciences in 1724.
+
+Upon the death of his pupil at Montpellier , Maclaurin returned to Aberdeen.
+
+In 1725, Maclaurin was appointed deputy to the mathematical professor at the University of Edinburgh , James Gregory (brother of David Gregory and nephew of the esteemed James Gregory ), upon the recommendation of Isaac Newton.
+
+On 3 November of that year Maclaurin succeeded Gregory, and went on to raise the character of that university as a school of science.
+
+Newton was so impressed with Maclaurin that he had offered to pay his salary himself.
+
+Contributions to mathematics [ edit ] Illustration of critique of De fluxionibus libri duo published in Acta Eruditorum , 1747 Maclaurin used Taylor series to characterize maxima, minima, and points of inflection for infinitely differentiable functions in his Treatise of Fluxions.
+
+Maclaurin attributed the series to Brook Taylor , though the series was known before to Newton and Gregory , and in special cases to Madhava of Sangamagrama in fourteenth century India.
+
+[6] Nevertheless, Maclaurin received credit for his use of the series, and the Taylor series expanded around 0 is sometimes known as the Maclaurin series.
+
+[7] Colin Maclaurin (1698–1746) Maclaurin also made significant contributions to the gravitation attraction of ellipsoids, a subject that furthermore attracted the attention of d'Alembert, A.
+
+-C.
+
+Clairaut, Euler, Laplace, Legendre, Poisson and Gauss.
+
+Maclaurin showed that an oblate spheroid was a possible equilibrium in Newton's theory of gravity.
+
+The subject continues to be of scientific interest, and Nobel Laureate Subramanyan Chandrasekhar dedicated a chapter of his book Ellipsoidal Figures of Equilibrium to Maclaurin spheroids.
+
+[7] Maclaurin corresponded extensively with Clairaut , Maupertuis , and d'Ortous de Mairan.
+
+[8] [9] Independently from Euler and using the same methods, Maclaurin discovered the Euler–Maclaurin formula.
+
+He used it to sum powers of arithmetic progressions , derive Stirling's formula , and to derive the Newton–Cotes numerical integration formulas which includes Simpson's rule as a special case.
+
+[7] Maclaurin contributed to the study of elliptic integrals , reducing many intractable integrals to problems of finding arcs for hyperbolas.
+
+His work was continued by d'Alembert and Euler, who gave a more concise approach.
+
+[7] In his Treatise of Algebra (Ch.
+
+XII, Sect 86), published in 1748 two years after his death, Maclaurin proved a rule for solving square linear systems in the cases of 2 and 3 unknowns, and discussed the case of 4 unknowns.
+
+[10] [11] This publication preceded by two years Cramer 's publication of a generalization of the rule to n unknowns, now commonly known as Cramer's rule.
+
+Personal life [ edit ] The grave of Colin Maclaurin, Greyfriars Kirkyard Colin MacLaurin Road, Edinburgh In 1733, Maclaurin married Anne Stewart, the daughter of Walter Stewart, the Solicitor General for Scotland , by whom he had seven children.
+
+His eldest son John Maclaurin studied Law, was a Senator of the College of Justice , and became Lord Dreghorn; he was also joint founder of the Royal Society of Edinburgh.
+
+[12] Maclaurin actively opposed the Jacobite rising of 1745 and superintended the operations necessary for the defence of Edinburgh against the Highland army.
+
+Maclaurin compiled a diary of his exertions against the Jacobites, both within and without the city.
+
+[13] When the Highland army entered the city, however, he fled to York , where he was invited to stay by the Archbishop of York.
+
+Memorial, Greyfriars Kirkyard, Edinburgh On his journey south, Maclaurin fell from his horse, and the fatigue, anxiety, and cold to which he was exposed on that occasion laid the foundations of dropsy.
+
+He returned to Edinburgh after the Jacobite army marched south, but died soon after his return.
+
+He is buried at Greyfriars Kirkyard , Edinburgh.
+
+The simple table stone is inscribed simply "C.
+
+M.
+
+Nat MDCXCVIII Ob MDCCXLVI" and stands close to the south-west corner of the church but is supplemented by a more wordy memorial on the outer wall of the church.
+
+The mathematician and former MIT President Richard Cockburn Maclaurin was from the same family.
+
+The Maclaurin Society (MacSoc), the Mathematics and Statistics Society at Glasgow University, is named in his honour.
+
+Colin MacLaurin Road within Edinburgh University's King's Buildings complex is named in his honour.
+
+Notable works [ edit ] Some of his important works are: Geometria Organica – 1720 De Linearum Geometricarum Proprietatibus – 1720 Treatise on Fluxions – 1742 (763 pages in two volumes.
+
+The first systematic exposition of Newton's methods.
+
+) Treatise of Algebra – 1748 (two years after his death.
+
+) Account of Newton's Discoveries – Incomplete upon his death and published in 1748 [14] Account of Sir Isaac Newton's philosophical discoveries (in French).
+
+Paris: Laurent Durand.
+
+1749.
+
+Colin Maclaurin was the name used for the new Mathematics and Actuarial Mathematics and Statistics Building at Heriot-Watt University , Edinburgh.
+
+French edition of the Treatise of algebra (1748) French edition of the Account of Sir Isaac Newton's philosophical discoveries (1749) See also [ edit ] Braikenridge–Maclaurin theorem Trisectrix of Maclaurin Cayley's sextic Cramer's paradox Hesse configuration Sinusoidal spiral References [ edit ] ^ http://www-groups.
+
+dcs.
+
+st-and.
+
+ac.
+
+uk/Extras/Turnbull_Maclaurin_1.
+
+html Turnbull lectures on Colin Maclaurin (4 February 1947), Part I ^ Chisholm, Hugh , ed.
+
+(1911).
+
+"Maclaurin, Colin".
+
+Encyclopædia Britannica (11th ed.
+
+).
+
+Cambridge University Press.
+
+^ "Colin Maclaurin: A Biographical Note" by Robin Schlapp (6 December 1946).
+
+(Note that the quotation in [1] has been altered.
+
+) ^ "The prickly genius – Colin MacLaurin (1698–1746)" (PDF).
+
+Archived from the original (PDF) on 29 February 2008.
+
+Retrieved 20 January 2008.
+
+^ David McNeill (1 May 2008).
+
+"University appoints world's youngest professor".
+
+The Independent.
+
+^ "Neither Newton nor Leibniz – The Pre-History of Calculus and Celestial Mechanics in Medieval Kerala".
+
+MAT 314.
+
+Canisius College.
+
+Archived from the original on 6 August 2006.
+
+Retrieved 9 July 2006.
+
+^ a b c d Grabiner, Judith (May 1997).
+
+"Was Newton's Calculus a Dead End? The Continental Influence of Maclaurin's Treatise of Fluxions" ( PDF ).
+
+The American Mathematical Monthly.
+
+104 (5).
+
+Mathematical Association of America: 393–410.
+
+doi : 10.
+
+2307/2974733.
+
+JSTOR 2974733.
+
+^ Mills, Stella, ed.
+
+(1982).
+
+The collected letters of Colin Maclaurin (1698–1746).
+
+Nantwich, Cheshire, UK: Shiva.
+
+ISBN 0906812089.
+
+LCCN 81215733 ; xx+496 pages, 218 letters; correspondents include Newton, Halley, Simson , de Moivre, Voltaire, Sir Hans Sloane & Sir Martin Folkes {{ cite book }} : CS1 maint: postscript ( link ) ^ Hankins, Thomas L.
+
+(1982).
+
+"Review of The Collected Letters of Colin Maclaurin , edited by Stella Mills".
+
+Science.
+
+218 (4567): 45–46.
+
+doi : 10.
+
+1126/science.
+
+218.
+
+4567.
+
+45.
+
+PMID 17776705.
+
+^ MacLaurin, Colin (1748).
+
+A Treatise of Algebra, in Three Parts.
+
+Printed for A.
+
+Millar & J.
+
+Nourse.
+
+^ Hedman, Bruce (November 1999).
+
+"An Earlier Date for "Cramer's Rule" ".
+
+Historia Mathematica.
+
+26 (4).
+
+Academic Press Elsevier: 365–368.
+
+doi : 10.
+
+1006/hmat.
+
+1999.
+
+2247.
+
+^ Biographical Index of Former Fellows of the Royal Society of Edinburgh 1783–2002 (PDF).
+
+The Royal Society of Edinburgh.
+
+July 2006.
+
+ISBN 0-902-198-84-X.
+
+Archived from the original (PDF) on 4 March 2016.
+
+Retrieved 24 July 2017.
+
+^ Maclaurin, Colin (2004), "Colin Maclaurin's 'Journal of the Forty-five' ", in Hedman, Bruce (ed.
+
+), Miscellany XIII of the Scottish History Society Fifth Series volume 14 , Edinburgh, Scotland: Lothian Print, pp.
+
+312–322 ^ It cannot be in 1750, as the French translation is published in 1749 ( see online at Gallica ).
+
+Sources [ edit ] Anderson, William, The Scottish Nation , Edinburgh, 1867, vol.
+
+VII, p.
+
+37.
+
+Ball, W.
+
+W.
+
+Rouse (1908).
+
+A Short Account of the History of Mathematics (4th ed.
+
+).
+
+pp.
+
+384–387.
+
+Retrieved 20 January 2008.
+
+"Overview of Colin Maclaurin".
+
+Gazetteer for Scotland.
+
+University of Edinburgh School of GeoSciences.
+
+Retrieved 20 January 2008.
+
+Friedman, Erich.
+
+"Colin Maclaurin".
+
+Periodic Table of Mathematicians.
+
+Stetson University.
+
+Archived from the original on 14 February 2008.
+
+Retrieved 20 January 2008.
+
+O'Connor, John J.
+
+; Robertson, Edmund F.
+
+, "Colin Maclaurin" , MacTutor History of Mathematics Archive , University of St Andrews Sageng, Erik, 2005, "A treatise on fluxions" in Grattan-Guinness, I.
+
+, ed.
+
+, Landmark Writings in Western Mathematics.
+
+Elsevier: 143–58.
+
+Tweddle, Ian (November 1998).
+
+"The prickly genius—Colin Maclaurin (1698–1746)" (PDF).
+
+The Mathematical Gazette.
+
+82 (495).
+
+Leicester : Mathematical Association : 373–378.
+
+doi : 10.
+
+2307/3619883.
+
+JSTOR 3619883.
+
+Archived from the original (PDF) on 31 October 2007.
+
+Retrieved 20 January 2008.
+
+Further reading [ edit ] Wikimedia Commons has media related to: Colin Maclaurin ( category ) Bruce A.
+
+Hedman, "Colin Maclaurin's quaint word problems," College Mathematics Journal 31 (2000), 286–288.
+
+Bruneau, Olivier (2011).
+
+Colin Maclaurin, l'obstination mathématicienne d'un newtonien.
+
+Presses Universitaires de Nancy.
+
+Sageng, Erik (2006) [2004].
+
+"MacLaurin, Colin".
+
+Oxford Dictionary of National Biography (online ed.
+
+).
+
+Oxford University Press.
+
+doi : 10.
+
+1093/ref:odnb/17643.
+
+(Subscription or UK public library membership required.
+
+) Authority control databases International FAST ISNI VIAF WorldCat National Norway Chile France BnF data Germany Italy Israel Belgium United States Czech Republic Australia 2 Greece Croatia Netherlands Portugal Vatican Academics CiNii MathSciNet Mathematics Genealogy Project zbMATH People Deutsche Biographie Trove 2 Other SNAC IdRef Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Colin_Maclaurin&oldid=1217501570 " Categories : 1698 births 1746 deaths 18th-century Scottish mathematicians Burials at Greyfriars Kirkyard Alumni of the University of Glasgow Academics of the University of Edinburgh Academics of the University of Aberdeen Deaths from edema Fellows of the Royal Society Members of the Philosophical Society of Edinburgh People from Glendaruel Hidden categories: Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference CS1 maint: postscript Articles with short description Short description is different from Wikidata Use dmy dates from February 2020 Use British English from May 2012 Articles with hCards Articles containing Scottish Gaelic-language text Articles needing pronunciation Articles needing additional references from January 2023 All articles needing additional references CS1 French-language sources (fr) Wikipedia articles incorporating a citation from the ODNB Pages using cite ODNB with id parameter Articles with FAST identifiers Articles with ISNI identifiers Articles with VIAF identifiers Articles with WorldCat Entities identifiers Articles with BIBSYS identifiers Articles with BNC identifiers Articles with BNF identifiers Articles with BNFdata identifiers Articles with GND identifiers Articles with ICCU identifiers Articles with J9U identifiers Articles with KBR identifiers Articles with LCCN identifiers Articles with NKC identifiers Articles with NLA identifiers Articles with NLG identifiers Articles with NSK identifiers Articles with NTA identifiers Articles with PortugalA identifiers Articles with VcBA identifiers Articles with CINII identifiers Articles with MATHSN identifiers Articles with MGP identifiers Articles with ZBMATH identifiers Articles with DTBIO identifiers Articles with Trove identifiers Articles with SNAC-ID identifiers Articles with SUDOC identifiers This page was last edited on 6 April 2024, at 05:16 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

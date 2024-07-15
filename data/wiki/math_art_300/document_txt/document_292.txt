@@ -1,0 +1,115 @@
+Hyperfinite set - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Ultrapower construction 2 References 3 External links Toggle the table of contents Hyperfinite set Add languages Add links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Type of internal set in nonstandard analysis In nonstandard analysis , a branch of mathematics , a hyperfinite set or *-finite set is a type of internal set.
+
+An internal set H of internal cardinality g ∈ * N (the hypernaturals ) is hyperfinite if and only if there exists an internal bijection between G = {1,2,3,.
+
+, g } and H.
+
+[1] [2] Hyperfinite sets share the properties of finite sets: A hyperfinite set has minimal and maximal elements, and a hyperfinite union of a hyperfinite collection of hyperfinite sets may be derived.
+
+The sum of the elements of any hyperfinite subset of * R always exists, leading to the possibility of well-defined integration.
+
+[2] Hyperfinite sets can be used to approximate other sets.
+
+If a hyperfinite set approximates an interval, it is called a near interval with respect to that interval.
+
+Consider a hyperfinite set K = k 1 , k 2 , … , k n {\displaystyle K={k_{1},k_{2},\dots ,k_{n}}} with a hypernatural n.
+
+K is a near interval for [ a , b ] if k 1 = a and k n = b , and if the difference between successive elements of K is infinitesimal.
+
+Phrased otherwise, the requirement is that for every r ∈ [ a , b ] there is a k i ∈ K such that k i ≈ r.
+
+This, for example, allows for an approximation to the unit circle , considered as the set e i θ {\displaystyle e^{i\theta }} for θ in the interval [0,2π].
+
+[2] In general, subsets of hyperfinite sets are not hyperfinite, often because they do not contain the extreme elements of the parent set.
+
+[3] Ultrapower construction [ edit ] In terms of the ultrapower construction, the hyperreal line * R is defined as the collection of equivalence classes of sequences ⟨ u n , n = 1 , 2 , … ⟩ {\displaystyle \langle u_{n},n=1,2,\ldots \rangle } of real numbers u n.
+
+Namely, the equivalence class defines a hyperreal, denoted [ u n ] {\displaystyle [u_{n}]} in Goldblatt's notation.
+
+Similarly, an arbitrary hyperfinite set in * R is of the form [ A n ] {\displaystyle [A_{n}]} , and is defined by a sequence ⟨ A n ⟩ {\displaystyle \langle A_{n}\rangle } of finite sets A n ⊆ R , n = 1 , 2 , … {\displaystyle A_{n}\subseteq \mathbb {R} ,n=1,2,\ldots } [4] References [ edit ] ^ J.
+
+E.
+
+Rubio (1994).
+
+Optimization and nonstandard analysis.
+
+Marcel Dekker.
+
+p.
+
+110.
+
+ISBN 0-8247-9281-5.
+
+^ a b c R.
+
+Chuaqui (1991).
+
+Truth, possibility, and probability: new logical foundations of probability and statistical inference.
+
+Elsevier.
+
+pp.
+
+182 –3.
+
+ISBN 0-444-88840-3.
+
+^ L.
+
+Ambrosio ; et al.
+
+(2000).
+
+Calculus of variations and partial differential equations: topics on geometrical evolution problems and degree theory.
+
+Springer.
+
+p.
+
+203.
+
+ISBN 3-540-64803-8.
+
+^ Rob Goldblatt (1998).
+
+Lectures on the hyperreals.
+
+An introduction to nonstandard analysis.
+
+Springer.
+
+p.
+
+188.
+
+ISBN 0-387-98464-X.
+
+External links [ edit ] M.
+
+Insall.
+
+"Hyperfinite Set".
+
+MathWorld.
+
+v t e Infinitesimals History Adequality Leibniz's notation Integral symbol Criticism of nonstandard analysis The Analyst The Method of Mechanical Theorems Cavalieri's principle Related branches Nonstandard analysis Nonstandard calculus Internal set theory Synthetic differential geometry Smooth infinitesimal analysis Constructive nonstandard analysis Infinitesimal strain theory (physics) Formalizations Differentials Hyperreal numbers Dual numbers Surreal numbers Individual concepts Standard part function Transfer principle Hyperinteger Increment theorem Monad Internal set Levi-Civita field Hyperfinite set Law of continuity Overspill Microcontinuity Transcendental law of homogeneity Mathematicians Gottfried Wilhelm Leibniz Abraham Robinson Pierre de Fermat Augustin-Louis Cauchy Leonhard Euler Textbooks Analyse des Infiniment Petits Elementary Calculus Cours d'Analyse Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Hyperfinite_set&oldid=1125097958 " Category : Nonstandard analysis Hidden categories: Articles with short description Short description is different from Wikidata This page was last edited on 2 December 2022, at 04:59 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

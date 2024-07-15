@@ -1,0 +1,79 @@
+Shell integration - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Definition Toggle Definition subsection 1.
+
+1 Derivation of the formula 2 Example Toggle Example subsection 2.
+
+1 Comparison With Disc Integration 3 See also 4 References Toggle the table of contents Shell integration 6 languages العربية Català فارسی 한국어 Bahasa Indonesia 日本語 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Method for calculating the volume of a solid of revolution A volume is approximated by a collection of hollow cylinders.
+
+As the cylinder walls get thinner the approximation gets better.
+
+The limit of this approximation is the shell integral.
+
+Part of a series of articles about Calculus ∫ a b f ′ ( t ) d t = f ( b ) − f ( a ) {\displaystyle \int _{a}^{b}f'(t)\,dt=f(b)-f(a)} Fundamental theorem Limits Continuity Rolle's theorem Mean value theorem Inverse function theorem Differential Definitions Derivative ( generalizations ) Differential infinitesimal of a function total Concepts Differentiation notation Second derivative Implicit differentiation Logarithmic differentiation Related rates Taylor's theorem Rules and identities Sum Product Chain Power Quotient L'Hôpital's rule Inverse General Leibniz Faà di Bruno's formula Reynolds Integral Lists of integrals Integral transform Leibniz integral rule Definitions Antiderivative Integral ( improper ) Riemann integral Lebesgue integration Contour integration Integral of inverse functions Integration by Parts Discs Cylindrical shells Substitution ( trigonometric , tangent half-angle , Euler ) Euler's formula Partial fractions Changing order Reduction formulae Differentiating under the integral sign Risch algorithm Series Geometric ( arithmetico-geometric ) Harmonic Alternating Power Binomial Taylor Convergence tests Summand limit (term test) Ratio Root Integral Direct comparison Limit comparison Alternating series Cauchy condensation Dirichlet Abel Vector Gradient Divergence Curl Laplacian Directional derivative Identities Theorems Gradient Green's Stokes' Divergence generalized Stokes Helmholtz decomposition Multivariable Formalisms Matrix Tensor Exterior Geometric Definitions Partial derivative Multiple integral Line integral Surface integral Volume integral Jacobian Hessian Advanced Calculus on Euclidean space Generalized functions Limit of distributions Specialized Fractional Malliavin Stochastic Variations Miscellaneous Precalculus History Glossary List of topics Integration Bee Mathematical analysis Nonstandard analysis v t e Shell integration (the shell method in integral calculus ) is a method for calculating the volume of a solid of revolution , when integrating along an axis perpendicular to the axis of revolution.
+
+This is in contrast to disc integration which integrates along the axis parallel to the axis of revolution.
+
+Definition [ edit ] The shell method goes as follows: Consider a volume in three dimensions obtained by rotating a cross-section in the xy -plane around the y -axis.
+
+Suppose the cross-section is defined by the graph of the positive function f ( x ) on the interval [ a , b ].
+
+Then the formula for the volume will be: 2 π ∫ a b x f ( x ) d x {\displaystyle 2\pi \int _{a}^{b}xf(x)\,dx} If the function is of the y coordinate and the axis of rotation is the x -axis then the formula becomes: 2 π ∫ a b y f ( y ) d y {\displaystyle 2\pi \int _{a}^{b}yf(y)\,dy} If the function is rotating around the line x = h then the formula becomes: [1] { 2 π ∫ a b ( x − h ) f ( x ) d x , if h ≤ a < b 2 π ∫ a b ( h − x ) f ( x ) d x , if a < b ≤ h , {\displaystyle {\begin{cases}\displaystyle 2\pi \int _{a}^{b}(x-h)f(x)\,dx,&{\text{if}}\ h\leq a<b\\\displaystyle 2\pi \int _{a}^{b}(h-x)f(x)\,dx,&{\text{if}}\ a<b\leq h,\end{cases}}} and for rotations around y = k it becomes { 2 π ∫ a b ( y − k ) f ( y ) d y , if k ≤ a < b 2 π ∫ a b ( k − y ) f ( y ) d y , if a < b ≤ k.
+
+{\displaystyle {\begin{cases}\displaystyle 2\pi \int _{a}^{b}(y-k)f(y)\,dy,&{\text{if}}\ k\leq a<b\\\displaystyle 2\pi \int _{a}^{b}(k-y)f(y)\,dy,&{\text{if}}\ a<b\leq k.
+
+\end{cases}}} The formula is derived by computing the double integral in polar coordinates.
+
+Derivation of the formula [ edit ] A way to obtain the formula The method's formula can be derived as follows: Consider the function f ( x ) {\displaystyle f(x)} which describes our cross-section of the solid, now the integral of the function can be described as a Riemann integral: ∫ a b f ( x ) d x = lim n → ∞ ∑ i = 1 n f ( a + i b − a n ) ( b − a n ) {\displaystyle \int \limits _{a}^{b}f(x)dx=\lim _{n\to \infty }\sum _{i=1}^{n}f(a+i{\frac {b-a}{n}})({\frac {b-a}{n}})} The Riemann sum can be thought up as a sum of a number n of rectangles with ever shrinking bases, we might choose one of them: f ( a + k b − a n ) ( b − a n ) {\displaystyle f(a+k{\frac {b-a}{n}})({\frac {b-a}{n}})} Now, when we rotate the function around the axis of revolution, it is equivalent to rotating all of these rectangles around said axis, these rectangles end up becoming a hollow cylinder, composed by the difference of two normal cylinders.
+
+For our chosen rectangle, its made by obtaining a cylinder of radius a + ( k + 1 ) b − a n {\displaystyle a+(k+1){\frac {b-a}{n}}} with height f ( a + k b − a n ) {\displaystyle f(a+k{\frac {b-a}{n}})} , and substracting it another smaller cylinder of radius a + k b − a n {\displaystyle a+k{\frac {b-a}{n}}} , with the same height of f ( a + k b − a n ) {\displaystyle f(a+k{\frac {b-a}{n}})} , this difference of cylinder volumes is: π f ( a + k b − a n ) ( ( a + ( k + 1 ) b − a n ) 2 − ( a + k b − a n ) 2 ) {\displaystyle \pi f(a+k{\frac {b-a}{n}})((a+(k+1){\frac {b-a}{n}})^{2}-(a+k{\frac {b-a}{n}})^{2})} By difference of squares , the last factor can be reduced as: π f ( a + k b − a n ) ( 2 a + 2 k b − a n + b − a n ) b − a n {\displaystyle \pi f(a+k{\frac {b-a}{n}})(2a+2k{\frac {b-a}{n}}+{\frac {b-a}{n}}){\frac {b-a}{n}}} The third factor can be factored out by two, ending up as: 2 π f ( a + k b − a n ) ( a + k b − a n + b − a 2 n ) b − a n {\displaystyle 2\pi f(a+k{\frac {b-a}{n}})(a+k{\frac {b-a}{n}}+{\frac {b-a}{2n}}){\frac {b-a}{n}}} This same thing happens with all terms, so our total sum becomes: 2 π lim n → ∞ ∑ i = 1 n f ( a + i b − a n ) ( a + i b − a n + b − a 2 n ) b − a n {\displaystyle 2\pi \lim _{n\to \infty }\sum _{i=1}^{n}f(a+i{\frac {b-a}{n}})(a+i{\frac {b-a}{n}}+{\frac {b-a}{2n}}){\frac {b-a}{n}}} In the limit of n → ∞ {\displaystyle n\rightarrow \infty } , we can clearly identify that: f ( a + i b − a n ) {\displaystyle f(a+i{\frac {b-a}{n}})} as b − a n {\displaystyle {\frac {b-a}{n}}} goes to 0 ends up becoming f ( x ) {\displaystyle f(x)} ( a + i b − a n + b − a 2 n ) {\displaystyle (a+i{\frac {b-a}{n}}+{\frac {b-a}{2n}})} becomes x {\displaystyle x} itself, going from a to b (ignoring the last term which is now infinitesimal) b − a n {\displaystyle {\frac {b-a}{n}}} becomes an infinitesimal Thus, at the limit of infinity, the sum becomes the integral: 2 π ∫ a b x f ( x ) d x {\displaystyle 2\pi \int \limits _{a}^{b}xf(x)dx} QED ◻ {\displaystyle \square }.
+
+Example [ edit ] Consider the volume, depicted below, whose cross section on the interval [1, 2] is defined by: y = ( x − 1 ) 2 ( x − 2 ) 2 {\displaystyle y=(x-1)^{2}(x-2)^{2}} Cross-section 3D volume With the shell method we simply use the following formula: V = 2 π ∫ 1 2 x ( ( x − 1 ) 2 ( x − 2 ) 2 ) d x {\displaystyle V=2\pi \int _{1}^{2}x((x-1)^{2}(x-2)^{2})\,dx} By expanding the polynomial, the integration is easily done giving ⁠ π / 10 ⁠ cubic units.
+
+Comparison With Disc Integration [ edit ] Much more work is needed to find the volume if we use disc integration.
+
+First, we would need to solve y = ( x − 1 ) 2 ( x − 2 ) 2 {\displaystyle y=(x-1)^{2}(x-2)^{2}} for x.
+
+Next, because the volume is hollow in the middle, we would need two functions: one that defined an outer solid and one that defined the inner hollow.
+
+After integrating each of these two functions, we would subtract them to yield the desired volume.
+
+See also [ edit ] Solid of revolution Disc integration References [ edit ] ^ Heckman, Dave (2014).
+
+"Volume – Shell Method" (PDF).
+
+Retrieved 2016-09-28.
+
+Weisstein, Eric W.
+
+"Method of Shells".
+
+MathWorld.
+
+Frank Ayres , Elliott Mendelson.
+
+Schaum's Outlines : Calculus.
+
+McGraw-Hill Professional 2008, ISBN 978-0-07-150861-2.
+
+pp.
+
+244–248 ( online copy , p.
+
+244, at Google Books ) v t e Calculus Precalculus Binomial theorem Concave function Continuous function Factorial Finite difference Free variables and bound variables Graph of a function Linear function Radian Rolle's theorem Secant Slope Tangent Limits Indeterminate form Limit of a function One-sided limit Limit of a sequence Order of approximation (ε, δ)-definition of limit Differential calculus Derivative Second derivative Partial derivative Differential Differential operator Mean value theorem Notation Leibniz's notation Newton's notation Rules of differentiation linearity Power Sum Chain L'Hôpital's Product General Leibniz's rule Quotient Other techniques Implicit differentiation Inverse functions and differentiation Logarithmic derivative Related rates Stationary points First derivative test Second derivative test Extreme value theorem Maximum and minimum Further applications Newton's method Taylor's theorem Differential equation Ordinary differential equation Partial differential equation Stochastic differential equation Integral calculus Antiderivative Arc length Riemann integral Basic properties Constant of integration Fundamental theorem of calculus Differentiating under the integral sign Integration by parts Integration by substitution trigonometric Euler Tangent half-angle substitution Partial fractions in integration Quadratic integral Trapezoidal rule Volumes Washer method Shell method Integral equation Integro-differential equation Vector calculus Derivatives Curl Directional derivative Divergence Gradient Laplacian Basic theorems Line integrals Green's Stokes' Gauss' Multivariable calculus Divergence theorem Geometric Hessian matrix Jacobian matrix and determinant Lagrange multiplier Line integral Matrix Multiple integral Partial derivative Surface integral Volume integral Advanced topics Differential forms Exterior derivative Generalized Stokes' theorem Tensor calculus Sequences and series Arithmetico-geometric sequence Types of series Alternating Binomial Fourier Geometric Harmonic Infinite Power Maclaurin Taylor Telescoping Tests of convergence Abel's Alternating series Cauchy condensation Direct comparison Dirichlet's Integral Limit comparison Ratio Root Term Special functions and numbers Bernoulli numbers e (mathematical constant) Exponential function Natural logarithm Stirling's approximation History of calculus Adequality Brook Taylor Colin Maclaurin Generality of algebra Gottfried Wilhelm Leibniz Infinitesimal Infinitesimal calculus Isaac Newton Fluxion Law of Continuity Leonhard Euler Method of Fluxions The Method of Mechanical Theorems Lists Integrals rational functions irrational functions exponential functions logarithmic functions hyperbolic functions inverse trigonometric functions inverse Secant Secant cubed List of limits List of derivatives Miscellaneous topics Complex calculus Contour integral Differential geometry Manifold Curvature of curves of surfaces Tensor Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Regiomontanus' angle maximization problem Steinmetz solid Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Shell_integration&oldid=1219663670 " Category : Integral calculus Hidden categories: Articles with short description Short description matches Wikidata Pages using sidebar with the child parameter Pages using multiple image with manual scaled images This page was last edited on 19 April 2024, at 03:09 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

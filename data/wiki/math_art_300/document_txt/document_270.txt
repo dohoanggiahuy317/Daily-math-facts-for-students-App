@@ -1,0 +1,425 @@
+Gilbert Strang - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Biography 2 University Positions 3 Awards 4 Service 5 Publications Toggle Publications subsection 5.
+
+1 Books and monographs 6 See also 7 References 8 External links Toggle the table of contents Gilbert Strang 18 languages تۆرکجه Deutsch Español فارسی Français Հայերեն हिन्दी עברית مصرى Nederlands Polski Português Русский Simple English Slovenčina Suomi Українська 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia American mathematician (born 1934) This biography of a living person needs additional citations for verification.
+
+Please help by adding reliable sources.
+
+Contentious material about living persons that is unsourced or poorly sourced must be removed immediately from the article and its talk page, especially if potentially libelous.
+
+Find sources: "Gilbert Strang" – news · newspapers · books · scholar · JSTOR ( February 2013 ) ( Learn how and when to remove this message ) Gilbert Strang Strang in 2021 Born ( 1934-11-27 ) November 27, 1934 (age 89) Chicago, Illinois , U.
+
+S.
+
+Alma mater Massachusetts Institute of Technology (BS) Balliol College, Oxford (BA, MA) University of California, Los Angeles (PhD) Awards Chauvenet Prize (1977) Scientific career Fields Mathematics Institutions Massachusetts Institute of Technology Thesis Difference Methods for Mixed Boundary Value Problems (1959) Doctoral advisor Peter K.
+
+Henrici Doctoral students Alan Berger Hermann Flaschka Pavel Grinfeld Edward Packel William Gilbert Strang (born November 27, 1934 [1] ) is an American mathematician known for his contributions to finite element theory , the calculus of variations , wavelet analysis and linear algebra.
+
+He has made many contributions to mathematics education, including publishing mathematics textbooks.
+
+Strang was the MathWorks Professor of Mathematics at the Massachusetts Institute of Technology.
+
+[2] He taught Linear Algebra , Computational Science , and Engineering , Learning from Data, and his lectures are freely available through MIT OpenCourseWare.
+
+Strang popularized the designation of the Fundamental Theorem of Linear Algebra as such.
+
+[3] [4] Biography [ edit ] Strang was born in Chicago in 1934.
+
+His parents William and Mary Catherine Strang migrated to the USA from Scotland.
+
+He and his sister Vivian grew up in Washington DC and Cincinnati, and went to high school at Principia in St.
+
+Louis.
+
+Strang graduated from MIT in 1955 with a Bachelor of Science in mathematics.
+
+He then received a Rhodes Scholarship to University of Oxford , where he received his B.
+
+A.
+
+and M.
+
+A.
+
+from Balliol College in 1957.
+
+Strang earned his Ph.
+
+D.
+
+from UCLA in 1959 as a National Science Foundation Fellow, under the supervision of Peter K.
+
+Henrici.
+
+His dissertation was titled "Difference Methods for Mixed Boundary Value Problems ".
+
+[5] While at Oxford, Strang met his future wife Jillian Shannon, and they married in 1958.
+
+Following his Ph.
+
+D.
+
+at UCLA, they have lived in Wellesley, Massachusetts for almost all of his 62 years on the MIT faculty.
+
+The Strangs have three sons David, John, and Robert and describe themselves as a very close-knit family.
+
+He retired on May 15, 2023 after giving his final Linear Algebra and Learning from Data [6] lecture at MIT.
+
+[7] Strang's teaching has focused on linear algebra which has helped the subject become essential for students of many majors.
+
+His linear algebra video lectures are popular on YouTube and MIT OpenCourseware.
+
+Strang founded Wellesley-Cambridge Press to publish Introduction to Linear Algebra (now in 6th edition) and ten other books.
+
+University Positions [ edit ] PhD student, MIT (1957–1959) C.
+
+L.
+
+E.
+
+Moore instructor , MIT (1959–1961) NATO Postdoctoral Fellow, Oxford University (1961–1962) Mathematics faculty, MIT (1962–2023, as a professor from 1970) [8] [9] He has received Honorary Titles and Fellowships from the following institutes: Alfred P.
+
+Sloan Fellow (1966–1967) Honorary Professor, Xi'an Jiaotong University , China (1980) Honorary Fellow, Balliol College , Oxford University (1999) Honorary Member, Irish Mathematical Society (2002) Fellow of the Society for Industrial and Applied Mathematics (2009) [10] Doctor Honoris Causa , University of Toulouse (2010) Fellow of the American Mathematical Society (2012) [11] Doctor Honoris Causa, Aalborg University (2013) Awards [ edit ] Rhodes Scholar (1955) National Science Foundation Graduate Research Fellowship (1957) Chauvenet Prize , Mathematical Association of America (1977) [12] American Academy of Arts and Sciences (1985) Award for Distinguished Service to the Profession, Society for Industrial and Applied Mathematics (2003) Lester R.
+
+Ford Award (2005) [13] Von Neumann Medal , US Association for Computational Mechanics (2005) Haimo Prize , Mathematical Association of America (2007) [14] Su Buchin Prize , International Congress (ICIAM, 2007) Henrici Prize (2007) National Academy of Sciences (2009) Irwin Sizer Award for the Most Significant Improvement to MIT Education (2020) [15] Service [ edit ] President, Society for Industrial and Applied Mathematics (1999, 2000) [16] Chair, U.
+
+S.
+
+National Committee on Mathematics (2003–2004) Chair, National Science Foundation (NSF) Advisory Panel on Mathematics Board Member, International Council for Industrial and Applied Mathematics (ICIAM) Abel Prize Committee (2003–2005) Publications [ edit ] Books and monographs [ edit ] Introduction to Linear Algebra, Sixth Edition , Wellesley-Cambridge Press (2023), Introduction to Linear Algebra [17] Linear Algebra for Everyone (2020) [18] [19] Linear Algebra and Learning from Data (2019) [20] Calculus (2017) Textbook | Calculus Online Textbook | Supplemental Resources Introduction to Linear Algebra, Fifth Edition (2016) [21] [22] Differential Equations and Linear Algebra (2014) Differential Equations and Linear Algebra - New Book Website Essays in Linear Algebra (2012) Algorithms for Global Positioning , with Kai Borre (2012) An Analysis of the Finite Element Method , with George Fix (2008) Computational Science and Engineering (2007) Linear Algebra and Its Applications, Fourth Edition (2005) [23] Linear Algebra, Geodesy, and GPS , with Kai Borre (1997) Wavelets and Filter Banks , with Truong Nguyen (1996) Strang, Gilbert (1986).
+
+Introduction to Applied Mathematics.
+
+Wellesley, MA: Wellesley-Cambridge Press.
+
+pp.
+
+xii+758.
+
+MR 0870634.
+
+See also [ edit ] The Joint spectral radius , introduced by Strang and Rota in the early 60s.
+
+Strang splitting References [ edit ] ^ Roselle, D.
+
+P.
+
+(1977).
+
+"Award of the 1977 Chauvenet Prize to Professor Gilbert Strang".
+
+The American Mathematical Monthly.
+
+84 (6): 417.
+
+CiteSeerX 10.
+
+1.
+
+1.
+
+119.
+
+4043.
+
+doi : 10.
+
+1080/00029890.
+
+1977.
+
+11994378.
+
+JSTOR 2321898.
+
+^ "MIT announces Professor Gilbert Strang as the first MathWorks Professor of Mathematics".
+
+Cambridge, MA: MIT News.
+
+September 26, 2011.
+
+Retrieved September 26, 2011.
+
+^ Lu, Jun (2021).
+
+"Revisit the Fundamental Theorem of Linear Algebra".
+
+arXiv : 2108.
+
+04432 [ cs.
+
+LG ].
+
+^ "Fundamental Theorem of Linear Algebra".
+
+Wolfram MathWorld.
+
+Wolfram Research, Inc.
+
+May 29, 2014.
+
+Retrieved June 13, 2024.
+
+^ Strang, William Gilbert (1959).
+
+Difference Methods for Mixed Boundary Value Problems (PhD thesis).
+
+University of California, Los Angeles.
+
+ProQuest 301900319.
+
+^ "18.
+
+065 Matrix Methods in Data Analysis & Signal Processing".
+
+math.
+
+mit.
+
+edu.
+
+Retrieved May 15, 2023.
+
+^ Gil Strang's Final 18.
+
+06 Linear Algebra Lecture , May 15, 2023 , retrieved May 15, 2023 ^ "Gil Strang's Final 18.
+
+06 Linear Algebra Lecture".
+
+May 15, 2023 – via www.
+
+youtube.
+
+com.
+
+^ "Gilbert Strang".
+
+^ "Fellows Program | SIAM".
+
+www.
+
+siam.
+
+org.
+
+^ List of Fellows of the American Mathematical Society , retrieved 2013-08-05.
+
+^ Strang, Gilbert (November 1, 1973).
+
+"Piecewise polynomials and the finite element method".
+
+Bulletin of the American Mathematical Society.
+
+79 (6).
+
+American Mathematical Society (AMS): 1128–1138.
+
+doi : 10.
+
+1090/s0002-9904-1973-13351-8.
+
+ISSN 0002-9904.
+
+^ Edelman, Alan; Strang, Gilbert (2004).
+
+"Pascal matrices".
+
+Amer.
+
+Math.
+
+Monthly.
+
+111 (3): 189–197.
+
+doi : 10.
+
+2307/4145127.
+
+JSTOR 4145127.
+
+^ "Deborah and Franklin Tepper Haimo Award".
+
+^ Irwin Sizer Award , retrieved 2020-05-25.
+
+^ "Leadership | SIAM".
+
+www.
+
+siam.
+
+org.
+
+Retrieved September 11, 2019.
+
+^ Stenger, Allen (April 16, 2023).
+
+"review of Introduction to Linear Algebra , 6th edition by Gilbert Strang".
+
+MAA Reviews, Mathematical Association of America (MAA).
+
+^ "Linear Algebra for Everyone".
+
+math.
+
+mit.
+
+edu.
+
+Retrieved January 11, 2021.
+
+^ Stenger, Allen (May 10, 2022).
+
+"review of Linear Algebra for Everyone by Gilbert Strang".
+
+MAA Reviews, Mathematical Association of America (MAA).
+
+^ "Linear Algebra and Learning from Data".
+
+math.
+
+mit.
+
+edu.
+
+Retrieved September 11, 2019.
+
+^ Stenger, Allen (September 28, 2016).
+
+"review of Introduction to Linear Algebra , 5th edition by Gilbert Strang".
+
+MAA Reviews, Mathematical Association of America (MAA).
+
+^ Stenger, Allen (January 18, 2011).
+
+"review of Introduction to Linear Algebra , 4th edition, by Gilbert Strange".
+
+MAA Reviews, Mathematical Association of American (MAA).
+
+^ Stenger, Allen (December 28, 2021).
+
+"review of Linear Algebra and Its Applications , 4th edition by Gilbert Strang".
+
+MAA Reviews, Mathematical Association of America (MAA).
+
+External links [ edit ] Official website Gilbert Strang at the Mathematics Genealogy Project Wellesley Cambridge Press (USA) www.
+
+wellesleycambridge.
+
+com/ Wellesley Publishers (India) www.
+
+wellesleypublishers.
+
+com/ v t e Chauvenet Prize recipients 1925 G.
+
+A.
+
+Bliss 1929 T.
+
+H.
+
+Hildebrandt 1932 G.
+
+H.
+
+Hardy 1935 Dunham Jackson 1938 G.
+
+T.
+
+Whyburn 1941 Saunders Mac Lane 1944 R.
+
+H.
+
+Cameron 1947 Paul Halmos 1950 Mark Kac 1953 E.
+
+J.
+
+McShane 1956 Richard H.
+
+Bruck 1960 Cornelius Lanczos 1963 Philip J.
+
+Davis 1964 Leon Henkin 1965 Jack K.
+
+Hale and Joseph P.
+
+LaSalle 1967 Guido Weiss 1968 Mark Kac 1970 Shiing-Shen Chern 1971 Norman Levinson 1972 François Trèves 1973 Carl D.
+
+Olds 1974 Peter D.
+
+Lax 1975 Martin Davis and Reuben Hersh 1976 Lawrence Zalcman 1977 W.
+
+Gilbert Strang 1978 Shreeram S.
+
+Abhyankar 1979 Neil J.
+
+A.
+
+Sloane 1980 Heinz Bauer 1981 Kenneth I.
+
+Gross 1982 No award given.
+
+1983 No award given.
+
+1984 R.
+
+Arthur Knoebel 1985 Carl Pomerance 1986 George Miel 1987 James H.
+
+Wilkinson 1988 Stephen Smale 1989 Jacob Korevaar 1990 David Allen Hoffman 1991 W.
+
+B.
+
+Raymond Lickorish and Kenneth C.
+
+Millett 1992 Steven G.
+
+Krantz 1993 David H.
+
+Bailey , Jonathan M.
+
+Borwein and Peter B.
+
+Borwein 1994 Barry Mazur 1995 Donald G.
+
+Saari 1996 Joan Birman 1997 Tom Hawkins 1998 Alan Edelman and Eric Kostlan 1999 Michael I.
+
+Rosen 2000 Don Zagier 2001 Carolyn S.
+
+Gordon and David L.
+
+Webb 2002 Ellen Gethner , Stan Wagon , and Brian Wick 2003 Thomas C.
+
+Hales 2004 Edward B.
+
+Burger 2005 John Stillwell 2006 Florian Pfender & Günter M.
+
+Ziegler 2007 Andrew J.
+
+Simoson 2008 Andrew Granville 2009 Harold P.
+
+Boas 2010 Brian J.
+
+McCartin 2011 Bjorn Poonen 2012 Dennis DeTurck , Herman Gluck , Daniel Pomerleano & David Shea Vela-Vick 2013 Robert Ghrist 2014 Ravi Vakil 2015 Dana Mackenzie 2016 Susan H.
+
+Marshall & Donald R.
+
+Smith 2017 Mark Schilling 2018 Daniel J.
+
+Velleman 2019 Tom Leinster 2020 Vladimir Pozdnyakov & J.
+
+Michael Steele 2021 Travis Kowalski 2022 William Dunham , Ezra Brown & Matthew Crawford 2023 Kimmo Eriksson & Jonas Eliasson 2024 Jeffrey Whitmer Authority control databases International ISNI VIAF WorldCat National Norway France BnF data Catalonia Germany Israel United States Japan Czech Republic Greece Korea Netherlands Academics Association for Computing Machinery CiNii DBLP MathSciNet Mathematics Genealogy Project ORCID Scopus zbMATH Other IdRef Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Gilbert_Strang&oldid=1230020005 " Categories : 1934 births Living people 20th-century American mathematicians 21st-century American mathematicians Massachusetts Institute of Technology School of Science faculty American mathematics educators Fellows of the Society for Industrial and Applied Mathematics American Rhodes Scholars Massachusetts Institute of Technology alumni University of California, Los Angeles alumni People from Chicago Members of the United States National Academy of Sciences Fellows of the American Mathematical Society Presidents of the Society for Industrial and Applied Mathematics Foreign Members of the Russian Academy of Sciences Sloan Research Fellows Mathematicians from Illinois American textbook writers Hidden categories: Articles with short description Short description is different from Wikidata Use mdy dates from February 2024 BLP articles lacking sources from February 2013 All BLP articles lacking sources Articles with hCards Official website different in Wikidata and Wikipedia Articles with ISNI identifiers Articles with VIAF identifiers Articles with WorldCat Entities identifiers Articles with BIBSYS identifiers Articles with BNF identifiers Articles with BNFdata identifiers Articles with CANTICN identifiers Articles with GND identifiers Articles with J9U identifiers Articles with LCCN identifiers Articles with NDL identifiers Articles with NKC identifiers Articles with NLG identifiers Articles with NLK identifiers Articles with NTA identifiers Articles with ACM-DL identifiers Articles with CINII identifiers Articles with DBLP identifiers Articles with MATHSN identifiers Articles with MGP identifiers Articles with ORCID identifiers Articles with Scopus identifiers Articles with ZBMATH identifiers Articles with SUDOC identifiers This page was last edited on 20 June 2024, at 02:55 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

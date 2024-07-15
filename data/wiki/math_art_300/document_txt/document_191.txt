@@ -1,0 +1,203 @@
+Convergent series - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Examples of convergent and divergent series 2 Convergence tests 3 Conditional and absolute convergence 4 Uniform convergence 5 Cauchy convergence criterion 6 See also 7 External links Toggle the table of contents Convergent series 27 languages العربية Bosanski Català Dansk Español Esperanto Euskara فارسی Français 한국어 हिन्दी Bahasa Indonesia Italiano עברית Lombard Magyar മലയാളം Nederlands 日本語 Português Sicilianu සිංහල کوردی Српски / srpski Suomi Українська Tiếng Việt Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia (Redirected from Convergence (mathematics) ) Mathematical series with a finite sum For the short story collection, see Convergent Series (short story collection).
+
+"Convergence (mathematics)" redirects here.
+
+For other uses, see Convergence (disambiguation).
+
+In mathematics , a series is the sum of the terms of an infinite sequence of numbers.
+
+More precisely, an infinite sequence ( a 1 , a 2 , a 3 , … ) {\displaystyle (a_{1},a_{2},a_{3},\ldots )} defines a series S that is denoted S = a 1 + a 2 + a 3 + ⋯ = ∑ k = 1 ∞ a k.
+
+{\displaystyle S=a_{1}+a_{2}+a_{3}+\cdots =\sum _{k=1}^{\infty }a_{k}.
+
+} The n th partial sum S n is the sum of the first n terms of the sequence; that is, S n = a 1 + a 2 + ⋯ + a n = ∑ k = 1 n a k.
+
+{\displaystyle S_{n}=a_{1}+a_{2}+\cdots +a_{n}=\sum _{k=1}^{n}a_{k}.
+
+} A series is convergent (or converges ) if and only if the sequence ( S 1 , S 2 , S 3 , … ) {\displaystyle (S_{1},S_{2},S_{3},\dots )} of its partial sums tends to a limit ; that means that, when adding one a k {\displaystyle a_{k}} after the other in the order given by the indices , one gets partial sums that become closer and closer to a given number.
+
+More precisely, a series converges, if and only if there exists a number ℓ {\displaystyle \ell } such that for every arbitrarily small positive number ε {\displaystyle \varepsilon } , there is a (sufficiently large) integer N {\displaystyle N} such that for all n ≥ N {\displaystyle n\geq N} , | S n − ℓ | < ε.
+
+{\displaystyle \left|S_{n}-\ell \right|<\varepsilon.
+
+} If the series is convergent, the (necessarily unique) number ℓ {\displaystyle \ell } is called the sum of the series.
+
+The same notation ∑ k = 1 ∞ a k {\displaystyle \sum _{k=1}^{\infty }a_{k}} is used for the series, and, if it is convergent, to its sum.
+
+This convention is similar to that which is used for addition: a + b denotes the operation of adding a and b as well as the result of this addition , which is called the sum of a and b.
+
+Any series that is not convergent is said to be divergent or to diverge.
+
+Examples of convergent and divergent series [ edit ] The reciprocals of the positive integers produce a divergent series ( harmonic series ): 1 1 + 1 2 + 1 3 + 1 4 + 1 5 + 1 6 + ⋯ → ∞.
+
+{\displaystyle {1 \over 1}+{1 \over 2}+{1 \over 3}+{1 \over 4}+{1 \over 5}+{1 \over 6}+\cdots \rightarrow \infty.
+
+} Alternating the signs of the reciprocals of positive integers produces a convergent series ( alternating harmonic series ): 1 1 − 1 2 + 1 3 − 1 4 + 1 5 − ⋯ = ln ⁡ ( 2 ) {\displaystyle {1 \over 1}-{1 \over 2}+{1 \over 3}-{1 \over 4}+{1 \over 5}-\cdots =\ln(2)} The reciprocals of prime numbers produce a divergent series (so the set of primes is " large "; see divergence of the sum of the reciprocals of the primes ): 1 2 + 1 3 + 1 5 + 1 7 + 1 11 + 1 13 + ⋯ → ∞.
+
+{\displaystyle {1 \over 2}+{1 \over 3}+{1 \over 5}+{1 \over 7}+{1 \over 11}+{1 \over 13}+\cdots \rightarrow \infty.
+
+} The reciprocals of triangular numbers produce a convergent series: 1 1 + 1 3 + 1 6 + 1 10 + 1 15 + 1 21 + ⋯ = 2.
+
+{\displaystyle {1 \over 1}+{1 \over 3}+{1 \over 6}+{1 \over 10}+{1 \over 15}+{1 \over 21}+\cdots =2.
+
+} The reciprocals of factorials produce a convergent series (see e ): 1 1 + 1 1 + 1 2 + 1 6 + 1 24 + 1 120 + ⋯ = e.
+
+{\displaystyle {\frac {1}{1}}+{\frac {1}{1}}+{\frac {1}{2}}+{\frac {1}{6}}+{\frac {1}{24}}+{\frac {1}{120}}+\cdots =e.
+
+} The reciprocals of square numbers produce a convergent series (the Basel problem ): 1 1 + 1 4 + 1 9 + 1 16 + 1 25 + 1 36 + ⋯ = π 2 6.
+
+{\displaystyle {1 \over 1}+{1 \over 4}+{1 \over 9}+{1 \over 16}+{1 \over 25}+{1 \over 36}+\cdots ={\pi ^{2} \over 6}.
+
+} The reciprocals of powers of 2 produce a convergent series (so the set of powers of 2 is " small "): 1 1 + 1 2 + 1 4 + 1 8 + 1 16 + 1 32 + ⋯ = 2.
+
+{\displaystyle {1 \over 1}+{1 \over 2}+{1 \over 4}+{1 \over 8}+{1 \over 16}+{1 \over 32}+\cdots =2.
+
+} The reciprocals of powers of any n>1 produce a convergent series: 1 1 + 1 n + 1 n 2 + 1 n 3 + 1 n 4 + 1 n 5 + ⋯ = n n − 1.
+
+{\displaystyle {1 \over 1}+{1 \over n}+{1 \over n^{2}}+{1 \over n^{3}}+{1 \over n^{4}}+{1 \over n^{5}}+\cdots ={n \over n-1}.
+
+} Alternating the signs of reciprocals of powers of 2 also produces a convergent series: 1 1 − 1 2 + 1 4 − 1 8 + 1 16 − 1 32 + ⋯ = 2 3.
+
+{\displaystyle {1 \over 1}-{1 \over 2}+{1 \over 4}-{1 \over 8}+{1 \over 16}-{1 \over 32}+\cdots ={2 \over 3}.
+
+} Alternating the signs of reciprocals of powers of any n>1 produces a convergent series: 1 1 − 1 n + 1 n 2 − 1 n 3 + 1 n 4 − 1 n 5 + ⋯ = n n + 1.
+
+{\displaystyle {1 \over 1}-{1 \over n}+{1 \over n^{2}}-{1 \over n^{3}}+{1 \over n^{4}}-{1 \over n^{5}}+\cdots ={n \over n+1}.
+
+} The reciprocals of Fibonacci numbers produce a convergent series (see ψ ): 1 1 + 1 1 + 1 2 + 1 3 + 1 5 + 1 8 + ⋯ = ψ.
+
+{\displaystyle {\frac {1}{1}}+{\frac {1}{1}}+{\frac {1}{2}}+{\frac {1}{3}}+{\frac {1}{5}}+{\frac {1}{8}}+\cdots =\psi.
+
+} Convergence tests [ edit ] Main article: Convergence tests There are a number of methods of determining whether a series converges or diverges.
+
+If the blue series, Σ b n {\displaystyle \Sigma b_{n}} , can be proven to converge, then the smaller series, Σ a n {\displaystyle \Sigma a_{n}} must converge.
+
+By contraposition, if the red series Σ a n {\displaystyle \Sigma a_{n}} is proven to diverge, then Σ b n {\displaystyle \Sigma b_{n}} must also diverge.
+
+Comparison test.
+
+The terms of the sequence { a n } {\displaystyle \left\{a_{n}\right\}} are compared to those of another sequence { b n } {\displaystyle \left\{b_{n}\right\}}.
+
+If, for all n , 0 ≤ a n ≤ b n {\displaystyle 0\leq \ a_{n}\leq \ b_{n}} , and ∑ n = 1 ∞ b n {\textstyle \sum _{n=1}^{\infty }b_{n}} converges, then so does ∑ n = 1 ∞ a n.
+
+{\textstyle \sum _{n=1}^{\infty }a_{n}.
+
+} However, if, for all n , 0 ≤ b n ≤ a n {\displaystyle 0\leq \ b_{n}\leq \ a_{n}} , and ∑ n = 1 ∞ b n {\textstyle \sum _{n=1}^{\infty }b_{n}} diverges, then so does ∑ n = 1 ∞ a n.
+
+{\textstyle \sum _{n=1}^{\infty }a_{n}.
+
+} Ratio test.
+
+Assume that for all n , a n {\displaystyle a_{n}} is not zero.
+
+Suppose that there exists r {\displaystyle r} such that lim n → ∞ | a n + 1 a n | = r.
+
+{\displaystyle \lim _{n\to \infty }\left|{\frac {a_{n+1}}{a_{n}}}\right|=r.
+
+} If r < 1, then the series is absolutely convergent.
+
+If r > 1, then the series diverges.
+
+If r = 1, the ratio test is inconclusive, and the series may converge or diverge.
+
+Root test or n th root test.
+
+Suppose that the terms of the sequence in question are non-negative.
+
+Define r as follows: r = lim sup n → ∞ | a n | n , {\displaystyle r=\limsup _{n\to \infty }{\sqrt[{n}]{|a_{n}|}},} where "lim sup" denotes the limit superior (possibly ∞; if the limit exists it is the same value).
+
+If r < 1, then the series converges.
+
+If r > 1, then the series diverges.
+
+If r = 1, the root test is inconclusive, and the series may converge or diverge.
+
+The ratio test and the root test are both based on comparison with a geometric series, and as such they work in similar situations.
+
+In fact, if the ratio test works (meaning that the limit exists and is not equal to 1) then so does the root test; the converse, however, is not true.
+
+The root test is therefore more generally applicable, but as a practical matter the limit is often difficult to compute for commonly seen types of series.
+
+Integral test.
+
+The series can be compared to an integral to establish convergence or divergence.
+
+Let f ( n ) = a n {\displaystyle f(n)=a_{n}} be a positive and monotonically decreasing function.
+
+If ∫ 1 ∞ f ( x ) d x = lim t → ∞ ∫ 1 t f ( x ) d x < ∞ , {\displaystyle \int _{1}^{\infty }f(x)\,dx=\lim _{t\to \infty }\int _{1}^{t}f(x)\,dx<\infty ,} then the series converges.
+
+But if the integral diverges, then the series does so as well.
+
+Limit comparison test.
+
+If { a n } , { b n } > 0 {\displaystyle \left\{a_{n}\right\},\left\{b_{n}\right\}>0} , and the limit lim n → ∞ a n b n {\displaystyle \lim _{n\to \infty }{\frac {a_{n}}{b_{n}}}} exists and is not zero, then ∑ n = 1 ∞ a n {\textstyle \sum _{n=1}^{\infty }a_{n}} converges if and only if ∑ n = 1 ∞ b n {\textstyle \sum _{n=1}^{\infty }b_{n}} converges.
+
+Alternating series test.
+
+Also known as the Leibniz criterion , the alternating series test states that for an alternating series of the form ∑ n = 1 ∞ a n ( − 1 ) n {\textstyle \sum _{n=1}^{\infty }a_{n}(-1)^{n}} , if { a n } {\displaystyle \left\{a_{n}\right\}} is monotonically decreasing , and has a limit of 0 at infinity, then the series converges.
+
+Cauchy condensation test.
+
+If { a n } {\displaystyle \left\{a_{n}\right\}} is a positive monotone decreasing sequence, then ∑ n = 1 ∞ a n {\textstyle \sum _{n=1}^{\infty }a_{n}} converges if and only if ∑ k = 1 ∞ 2 k a 2 k {\textstyle \sum _{k=1}^{\infty }2^{k}a_{2^{k}}} converges.
+
+Dirichlet's test Abel's test Conditional and absolute convergence [ edit ] For any sequence { a 1 , a 2 , a 3 , … } {\displaystyle \left\{a_{1},\ a_{2},\ a_{3},\dots \right\}} , a n ≤ | a n | {\displaystyle a_{n}\leq \left|a_{n}\right|} for all n.
+
+Therefore, ∑ n = 1 ∞ a n ≤ ∑ n = 1 ∞ | a n |.
+
+{\displaystyle \sum _{n=1}^{\infty }a_{n}\leq \sum _{n=1}^{\infty }\left|a_{n}\right|.
+
+} This means that if ∑ n = 1 ∞ | a n | {\textstyle \sum _{n=1}^{\infty }\left|a_{n}\right|} converges, then ∑ n = 1 ∞ a n {\textstyle \sum _{n=1}^{\infty }a_{n}} also converges (but not vice versa).
+
+If the series ∑ n = 1 ∞ | a n | {\textstyle \sum _{n=1}^{\infty }\left|a_{n}\right|} converges, then the series ∑ n = 1 ∞ a n {\textstyle \sum _{n=1}^{\infty }a_{n}} is absolutely convergent.
+
+The Maclaurin series of the exponential function is absolutely convergent for every complex value of the variable.
+
+If the series ∑ n = 1 ∞ a n {\textstyle \sum _{n=1}^{\infty }a_{n}} converges but the series ∑ n = 1 ∞ | a n | {\textstyle \sum _{n=1}^{\infty }\left|a_{n}\right|} diverges, then the series ∑ n = 1 ∞ a n {\textstyle \sum _{n=1}^{\infty }a_{n}} is conditionally convergent.
+
+The Maclaurin series of the logarithm function ln ⁡ ( 1 + x ) {\displaystyle \ln(1+x)} is conditionally convergent for x = 1.
+
+The Riemann series theorem states that if a series converges conditionally, it is possible to rearrange the terms of the series in such a way that the series converges to any value, or even diverges.
+
+Uniform convergence [ edit ] Main article: Uniform convergence Let { f 1 , f 2 , f 3 , … } {\displaystyle \left\{f_{1},\ f_{2},\ f_{3},\dots \right\}} be a sequence of functions.
+
+The series ∑ n = 1 ∞ f n {\textstyle \sum _{n=1}^{\infty }f_{n}} is said to converge uniformly to f if the sequence { s n } {\displaystyle \{s_{n}\}} of partial sums defined by s n ( x ) = ∑ k = 1 n f k ( x ) {\displaystyle s_{n}(x)=\sum _{k=1}^{n}f_{k}(x)} converges uniformly to f.
+
+There is an analogue of the comparison test for infinite series of functions called the Weierstrass M-test.
+
+Cauchy convergence criterion [ edit ] The Cauchy convergence criterion states that a series ∑ n = 1 ∞ a n {\displaystyle \sum _{n=1}^{\infty }a_{n}} converges if and only if the sequence of partial sums is a Cauchy sequence.
+
+This means that for every ε > 0 , {\displaystyle \varepsilon >0,} there is a positive integer N {\displaystyle N} such that for all n ≥ m ≥ N {\displaystyle n\geq m\geq N} we have | ∑ k = m n a k | < ε.
+
+{\displaystyle \left|\sum _{k=m}^{n}a_{k}\right|<\varepsilon.
+
+} This is equivalent to lim m → ∞ ( sup n > m | ∑ k = m n a k | ) = 0.
+
+{\displaystyle \lim _{m\to \infty }\left(\sup _{n>m}\left|\sum _{k=m}^{n}a_{k}\right|\right)=0.
+
+} See also [ edit ] Normal convergence List of mathematical series External links [ edit ] "Series" , Encyclopedia of Mathematics , EMS Press , 2001 [1994] Weisstein, Eric (2005).
+
+Riemann Series Theorem.
+
+Retrieved May 16, 2005.
+
+v t e Sequences and series Integer sequences Basic Arithmetic progression Geometric progression Harmonic progression Square number Cubic number Factorial Powers of two Powers of three Powers of 10 Advanced ( list ) Complete sequence Fibonacci sequence Figurate number Heptagonal number Hexagonal number Lucas number Pell number Pentagonal number Polygonal number Triangular number array Properties of sequences Cauchy sequence Monotonic function Periodic sequence Properties of series Series Alternating Convergent Divergent Telescoping Convergence Absolute Conditional Uniform Explicit series Convergent 1/2 − 1/4 + 1/8 − 1/16 + ⋯ 1/2 + 1/4 + 1/8 + 1/16 + ⋯ 1/4 + 1/16 + 1/64 + 1/256 + ⋯ 1 + 1/2 s + 1/3 s +.
+
+(Riemann zeta function) Divergent 1 + 1 + 1 + 1 + ⋯ 1 − 1 + 1 − 1 + ⋯ (Grandi's series) 1 + 2 + 3 + 4 + ⋯ 1 − 2 + 3 − 4 + ⋯ 1 + 2 + 4 + 8 + ⋯ 1 − 2 + 4 − 8 + ⋯ Infinite arithmetic series 1 − 1 + 2 − 6 + 24 − 120 + ⋯ (alternating factorials) 1 + 1/2 + 1/3 + 1/4 + ⋯ (harmonic series) 1/2 + 1/3 + 1/5 + 1/7 + 1/11 + ⋯ (inverses of primes) Kinds of series Taylor series Power series Formal power series Laurent series Puiseux series Dirichlet series Trigonometric series Fourier series Generating series Hypergeometric series Generalized hypergeometric series Hypergeometric function of a matrix argument Lauricella hypergeometric series Modular hypergeometric series Riemann's differential equation Theta hypergeometric series Category Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Convergent_series&oldid=1202642134 " Categories : Mathematical series Convergence (mathematics) Hidden categories: Articles with short description Short description is different from Wikidata This page was last edited on 3 February 2024, at 06:11 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

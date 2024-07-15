@@ -1,0 +1,349 @@
+The Analyst - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Background and purpose 2 Content 3 Analysis 4 Influence Toggle Influence subsection 4.
+
+1 Ghosts of departed quantities 5 Text and commentary 6 References 7 Sources 8 External links Toggle the table of contents The Analyst 5 languages العربية Português Sicilianu Suomi 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia (Redirected from Ghosts of departed quantities ) 1734 book by George Berkeley For other uses, see The Analyst (disambiguation).
+
+The Analyst (subtitled A Discourse Addressed to an Infidel Mathematician: Wherein It Is Examined Whether the Object, Principles, and Inferences of the Modern Analysis Are More Distinctly Conceived, or More Evidently Deduced, Than Religious Mysteries and Points of Faith ) is a book by George Berkeley.
+
+It was first published in 1734, first by J.
+
+Tonson (London), then by S.
+
+Fuller (Dublin).
+
+The "infidel mathematician" is believed to have been Edmond Halley , though others have speculated Sir Isaac Newton was intended.
+
+[1] The book contains a direct attack on the foundations of calculus , specifically on Isaac Newton's notion of fluxions and on Leibniz 's notion of infinitesimal change.
+
+Background and purpose [ edit ] This section needs additional citations for verification.
+
+Please help improve this article by adding citations to reliable sources in this section.
+
+Unsourced material may be challenged and removed.
+
+( May 2011 ) ( Learn how and when to remove this message ) From his earliest days as a writer, Berkeley had taken up his satirical pen to attack what were then called ' free-thinkers ' ( secularists , sceptics , agnostics , atheists , etc.
+
+—in short, anyone who doubted the truths of received Christian religion or called for a diminution of religion in public life).
+
+[2] In 1732, in the latest installment in this effort, Berkeley published his Alciphron , a series of dialogues directed at different types of 'free-thinkers'.
+
+One of the archetypes Berkeley addressed was the secular scientist, who discarded Christian mysteries as unnecessary superstitions , and declared his confidence in the certainty of human reason and science.
+
+Against his arguments, Berkeley mounted a subtle defense of the validity and usefulness of these elements of the Christian faith.
+
+Alciphron was widely read and caused a bit of a stir.
+
+But it was an offhand comment mocking Berkeley's arguments by the 'free-thinking' royal astronomer Sir Edmund Halley that prompted Berkeley to pick up his pen again and try a new tack.
+
+The result was The Analyst , conceived as a satire attacking the foundations of mathematics with the same vigour and style as 'free-thinkers' routinely attacked religious truths.
+
+Berkeley sought to take apart the then foundations of calculus, claimed to uncover numerous gaps in proof, attacked the use of infinitesimals , the diagonal of the unit square , the very existence of numbers, etc.
+
+The general point was not so much to mock mathematics or mathematicians, but rather to show that mathematicians, like Christians, relied upon incomprehensible ' mysteries ' in the foundations of their reasoning.
+
+Moreover, the existence of these 'superstitions' was not fatal to mathematical reasoning, indeed it was an aid.
+
+So too with the Christian faithful and their 'mysteries'.
+
+Berkeley concluded that the certainty of mathematics is no greater than the certainty of religion.
+
+Content [ edit ] The Analyst was a direct attack on the foundations of calculus , specifically on Newton's notion of fluxions and on Leibniz 's notion of infinitesimal change.
+
+In section 16, Berkeley criticises.
+
+the fallacious way of proceeding to a certain Point on the Supposition of an Increment, and then at once shifting your Supposition to that of no Increment.
+
+Since if this second Supposition had been made before the common Division by o , all had vanished at once, and you must have got nothing by your Supposition.
+
+Whereas by this Artifice of first dividing, and then changing your Supposition, you retain 1 and nx n-1.
+
+But, notwithstanding all this address to cover it, the fallacy is still the same.
+
+[3] It is a frequently quoted passage, particularly when he wrote: [4] [5] And what are these Fluxions? The Velocities of evanescent Increments? And what are these same evanescent Increments? They are neither finite Quantities nor Quantities infinitely small, nor yet nothing.
+
+May we not call them the ghosts of departed quantities? [6] Berkeley did not dispute the results of calculus; he acknowledged the results were true.
+
+The thrust of his criticism was that Calculus was not more logically rigorous than religion.
+
+He instead questioned whether mathematicians "submit to Authority, take things upon Trust" [7] just as followers of religious tenets did.
+
+According to Burton, Berkeley introduced an ingenious theory of compensating errors that were meant to explain the correctness of the results of calculus.
+
+Berkeley contended that the practitioners of calculus introduced several errors which cancelled, leaving the correct answer.
+
+In his own words, "by virtue of a twofold mistake you arrive, though not at science, yet truth.
+
+" [8] Analysis [ edit ] The idea that Newton was the intended recipient of the discourse is put into doubt by a passage that appears toward the end of the book: "Query 58: Whether it be really an effect of Thinking, that the same Men admire the great author for his Fluxions, and deride him for his Religion?" [9] Here Berkeley ridicules those who celebrate Newton (the inventor of "fluxions", roughly equivalent to the differentials of later versions of the differential calculus) as a genius while deriding his well-known religiosity.
+
+Since Berkeley is here explicitly calling attention to Newton's religious faith, that seems to indicate he did not mean his readers to identify the "infidel (i.
+
+e.
+
+, lacking faith) mathematician" with Newton.
+
+Mathematics historian Judith Grabiner comments, "Berkeley's criticisms of the rigor of the calculus were witty, unkind, and — with respect to the mathematical practices he was criticizing — essentially correct".
+
+[10] While his critiques of the mathematical practices were sound, his essay has been criticised on logical and philosophical grounds.
+
+For example, David Sherry argues that Berkeley's criticism of infinitesimal calculus consists of a logical criticism and a metaphysical criticism.
+
+The logical criticism is that of a fallacia suppositionis , which means gaining points in an argument by means of one assumption and, while keeping those points, concluding the argument with a contradictory assumption.
+
+The metaphysical criticism is a challenge to the existence itself of concepts such as fluxions, moments, and infinitesimals, and is rooted in Berkeley's empiricist philosophy which tolerates no expression without a referent.
+
+[11] Andersen (2011) showed that Berkeley's doctrine of the compensation of errors contains a logical circularity.
+
+Namely, Berkeley relies upon Apollonius's determination of the tangent of the parabola in Berkeley's own determination of the derivative of the quadratic function.
+
+Influence [ edit ] Two years after this publication, Thomas Bayes published anonymously "An Introduction to the Doctrine of Fluxions, and a Defence of the Mathematicians Against the Objections of the Author of the Analyst" (1736), in which he defended the logical foundation of Isaac Newton's calculus against the criticism outlined in The Analyst.
+
+Colin Maclaurin 's two-volume Treatise of Fluxions published in 1742 also began as a response to Berkeley attacks, intended to show that Newton's calculus was rigorous by reducing it to the methods of Greek geometry.
+
+[10] Despite these attempts, calculus continued to be developed using non-rigorous methods until around 1830 when Augustin Cauchy , and later Bernhard Riemann and Karl Weierstrass , redefined the derivative and integral using a rigorous definition of the concept of limit.
+
+The idea of using limits as a foundation for calculus had been suggested by d'Alembert , but d'Alembert's definition was not rigorous by modern standards.
+
+[12] The concept of limits had already appeared in the work of Newton, [13] but was not stated with sufficient clarity to hold up to the criticism of Berkeley.
+
+[14] In 1966, Abraham Robinson introduced Non-standard Analysis , which provided a rigorous foundation for working with infinitely small quantities.
+
+This provided another way of putting calculus on a mathematically rigorous foundation, the way it was done before the (ε, δ)-definition of limit had been fully developed.
+
+Ghosts of departed quantities [ edit ] Towards the end of The Analyst, Berkeley addresses possible justifications for the foundations of calculus that mathematicians may put forward.
+
+In response to the idea fluxions could be defined using ultimate ratios of vanishing quantities, [15] Berkeley wrote: It must, indeed, be acknowledged, that [Newton] used Fluxions, like the Scaffold of a building, as things to be laid aside or got rid of, as soon as finite Lines were found proportional to them.
+
+But then these finite Exponents are found by the help of Fluxions.
+
+Whatever therefore is got by such Exponents and Proportions is to be ascribed to Fluxions: which must therefore be previously understood.
+
+And what are these Fluxions? The Velocities of evanescent Increments? And what are these same evanescent Increments? They are neither finite Quantities nor Quantities infinitely small, nor yet nothing.
+
+May we not call them the Ghosts of departed Quantities? [6] Edwards describes this as the most memorable point of the book.
+
+[14] Katz and Sherry argue that the expression was intended to address both infinitesimals and Newton's theory of fluxions.
+
+[16] Today the phrase "ghosts of departed quantities" is also used when discussing Berkeley's attacks on other possible foundations of Calculus.
+
+In particular it is used when discussing infinitesimals , [17] but it is also used when discussing differentials , [18] and adequality.
+
+[19] Text and commentary [ edit ] The full text of The Analyst can be read on Wikisource , as well as on David R.
+
+Wilkins' website, [20] which includes some commentary and links to responses by Berkeley's contemporaries.
+
+The Analyst is also reproduced, with commentary, in recent works: William Ewald's From Kant to Hilbert: A Source Book in the Foundations of Mathematics.
+
+[21] Ewald concludes that Berkeley's objections to the calculus of his day were mostly well taken at the time.
+
+D.
+
+M.
+
+Jesseph's overview in the 2005 "Landmark Writings in Western Mathematics".
+
+[22] References [ edit ] ^ Burton 1997 , 477.
+
+^ Walmsley, Peter (1990-08-31).
+
+The Rhetoric of Berkeley's Philosophy.
+
+Cambridge University Press.
+
+doi : 10.
+
+1017/cbo9780511519130.
+
+ISBN 978-0-521-37413-2.
+
+^ Berkeley, George (1734).
+
+The Analyst: a Discourse addressed to an Infidel Mathematician.
+
+London.
+
+p.
+
+25 – via Wikisource.
+
+^ "Mathematical Treasure: George Berkeley's The Analyst | Mathematical Association of America".
+
+maa.
+
+org.
+
+Retrieved 2023-12-26.
+
+^ "Mathematical Treasure: Berkeley's Critique of Calculus | Mathematical Association of America".
+
+maa.
+
+org.
+
+Retrieved 2023-12-26.
+
+^ a b Berkeley 1734 , p.
+
+59.
+
+^ Berkeley 1734 , p.
+
+93.
+
+^ Berkeley 1734 , p.
+
+34.
+
+^ Berkeley 1734 , p.
+
+92.
+
+^ a b Grabiner 1997.
+
+^ Sherry 1987.
+
+^ Burton 1997.
+
+^ Pourciau 2001.
+
+^ a b Edwards 1994.
+
+^ Boyer & Merzbach 1991.
+
+^ Katz & Sherry 2012.
+
+^ Arkeryd 2005.
+
+^ Leader 1986.
+
+^ Kleiner & Movshovitz-Hadar 1994.
+
+^ Wilkins, D.
+
+R.
+
+(2002).
+
+"The Analyst".
+
+The History of Mathematics.
+
+Trinity College, Dublin.
+
+^ Ewald, William, ed.
+
+(1996).
+
+From Kant to Hilbert: A Source Book in the Foundations of Mathematics.
+
+Vol.
+
+I.
+
+Oxford: Oxford University Press.
+
+ISBN 978-0198534709.
+
+^ Jesseph, D.
+
+M.
+
+(2005).
+
+"The analyst".
+
+In Grattan-Guinness, Ivor (ed.
+
+).
+
+Landmark Writings in Western Mathematics 1640–1940.
+
+Elsevier.
+
+pp.
+
+121–30.
+
+ISBN 978-0444508713.
+
+Sources [ edit ] Kirsti, Andersen (2011), "One of Berkeley's arguments on compensating errors in the calculus.
+
+", Historia Mathematica , 38 (2): 219–318, doi : 10.
+
+1016/j.
+
+hm.
+
+2010.
+
+07.
+
+001 Arkeryd, Leif (Dec 2005), "Nonstandard Analysis", The American Mathematical Monthly , 112 (10): 926–928, doi : 10.
+
+2307/30037635 , JSTOR 30037635 Błaszczyk, Piotr; Katz, Mikhail ; Sherry, David (2012), "Ten misconceptions from the history of analysis and their debunking", Foundations of Science , 18 : 43–74, arXiv : 1202.
+
+4153 , doi : 10.
+
+1007/s10699-012-9285-8 , S2CID 254508527 Boyer, C ; Merzbach, U (1991), A History of Mathematics (2 ed.
+
+) Burton, David (1997), The History of Mathematics: An Introduction , McGraw-Hill Edwards, C.
+
+H.
+
+(1994), The Historical Development of the Calculus , Springer Grabiner, Judith (May 1997), "Was Newton's Calculus a Dead End? The Continental Influence of Maclaurin's Treatise of Fluxions" , The American Mathematical Monthly , 104 (5): 393–410, doi : 10.
+
+2307/2974733 , JSTOR 2974733 Grabiner, Judith V.
+
+(Dec 2004), "Newton, Maclaurin, and the Authority of Mathematics" , The American Mathematical Monthly , 111 (10): 841–852, doi : 10.
+
+2307/4145093 , JSTOR 4145093 Katz, Mikhail ; Sherry, David (2012), "Leibniz's Infinitesimals: Their Fictionality, Their Modern Implementations, and Their Foes from Berkeley to Russell and Beyond", Erkenntnis , 78 (3): 571–625, arXiv : 1205.
+
+0174 , doi : 10.
+
+1007/s10670-012-9370-y , S2CID 254471766 Kleiner, I.
+
+; Movshovitz-Hadar, N.
+
+(Dec 1994), "The Role of Paradoxes in the Evolution of Mathematics", The American Mathematical Monthly , 101 (10): 963–974, doi : 10.
+
+2307/2975163 , JSTOR 2975163 Leader, Solomon (May 1986), "What is a Differential? A New Answer from the Generalized Riemann Integral", The American Mathematical Monthly , 93 (5): 348–356, doi : 10.
+
+2307/2323591 , JSTOR 2323591 Pourciau, Bruce (2001), "Newton and the notion of limit", Historia Math.
+
+, 28 (1): 393–30, doi : 10.
+
+1006/hmat.
+
+2000.
+
+2301 Robert, Alain (1988), Nonstandard analysis , New York: Wiley, ISBN 978-0-471-91703-8 Sherry, D.
+
+(1987), "The wake of Berkeley's Analyst: Rigor mathematicae ?", Studies in Historical Philosophy and Science , 18 (4): 455–480, doi : 10.
+
+1016/0039-3681(87)90003-3 Wren, F.
+
+L.
+
+; Garrett, J.
+
+A.
+
+(May 1933), "The Development of the Fundamental Concepts of Infinitesimal Analysis", The American Mathematical Monthly , 40 (5): 269–281, doi : 10.
+
+2307/2302202 , JSTOR 2302202 External links [ edit ] Works related to The Analyst: a Discourse addressed to an Infidel Mathematician at Wikisource v t e Infinitesimals History Adequality Leibniz's notation Integral symbol Criticism of nonstandard analysis The Analyst The Method of Mechanical Theorems Cavalieri's principle Related branches Nonstandard analysis Nonstandard calculus Internal set theory Synthetic differential geometry Smooth infinitesimal analysis Constructive nonstandard analysis Infinitesimal strain theory (physics) Formalizations Differentials Hyperreal numbers Dual numbers Surreal numbers Individual concepts Standard part function Transfer principle Hyperinteger Increment theorem Monad Internal set Levi-Civita field Hyperfinite set Law of continuity Overspill Microcontinuity Transcendental law of homogeneity Mathematicians Gottfried Wilhelm Leibniz Abraham Robinson Pierre de Fermat Augustin-Louis Cauchy Leonhard Euler Textbooks Analyse des Infiniment Petits Elementary Calculus Cours d'Analyse Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=The_Analyst&oldid=1215490378#Ghosts_of_departed_quantities " Categories : 1734 books Books by George Berkeley Mathematics books History of calculus Mathematics of infinitesimals Isaac Newton Freethought Satirical books Works about Gottfried Wilhelm Leibniz Hidden categories: Articles with short description Short description is different from Wikidata Articles needing additional references from May 2011 All articles needing additional references This page was last edited on 25 March 2024, at 13:11 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

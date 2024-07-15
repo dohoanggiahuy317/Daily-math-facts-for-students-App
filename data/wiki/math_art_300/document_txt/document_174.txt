@@ -1,0 +1,215 @@
+Newton–Cartan theory - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Classical spacetimes 2 Geometric formulation of Poisson's equation 3 Bargmann lift 4 References 5 Bibliography Toggle the table of contents Newton–Cartan theory 3 languages العربية Italiano Português Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Geometrical re-formulation of Newtonian gravity.
+
+Newton–Cartan theory (or geometrized Newtonian gravitation ) is a geometrical re-formulation, as well as a generalization, of Newtonian gravity first introduced by Élie Cartan [1] [2] and Kurt Friedrichs [3] and later developed by Dautcourt, [4] Dixon, [5] Dombrowski and Horneffer, Ehlers, Havas, [6] Künzle, [7] Lottermoser, Trautman , [8] and others.
+
+In this re-formulation, the structural similarities between Newton's theory and Albert Einstein 's general theory of relativity are readily seen, and it has been used by Cartan and Friedrichs to give a rigorous formulation of the way in which Newtonian gravity can be seen as a specific limit of general relativity, and by Jürgen Ehlers to extend this correspondence to specific solutions of general relativity.
+
+Classical spacetimes [ edit ] In Newton–Cartan theory, one starts with a smooth four-dimensional manifold M {\displaystyle M} and defines two (degenerate) metrics.
+
+A temporal metric t a b {\displaystyle t_{ab}} with signature ( 1 , 0 , 0 , 0 ) {\displaystyle (1,0,0,0)} , used to assign temporal lengths to vectors on M {\displaystyle M} and a spatial metric h a b {\displaystyle h^{ab}} with signature ( 0 , 1 , 1 , 1 ) {\displaystyle (0,1,1,1)}.
+
+One also requires that these two metrics satisfy a transversality (or "orthogonality") condition, h a b t b c = 0 {\displaystyle h^{ab}t_{bc}=0}.
+
+Thus, one defines a classical spacetime as an ordered quadruple ( M , t a b , h a b , ∇ ) {\displaystyle (M,t_{ab},h^{ab},\nabla )} , where t a b {\displaystyle t_{ab}} and h a b {\displaystyle h^{ab}} are as described, ∇ {\displaystyle \nabla } is a metrics-compatible covariant derivative operator; and the metrics satisfy the orthogonality condition.
+
+One might say that a classical spacetime is the analog of a relativistic spacetime ( M , g a b ) {\displaystyle (M,g_{ab})} , where g a b {\displaystyle g_{ab}} is a smooth Lorentzian metric on the manifold M {\displaystyle M}.
+
+Geometric formulation of Poisson's equation [ edit ] In Newton's theory of gravitation, Poisson's equation reads Δ U = 4 π G ρ {\displaystyle \Delta U=4\pi G\rho \,} where U {\displaystyle U} is the gravitational potential, G {\displaystyle G} is the gravitational constant and ρ {\displaystyle \rho } is the mass density.
+
+The weak equivalence principle motivates a geometric version of the equation of motion for a point particle in the potential U {\displaystyle U} m t x → ¨ = − m g ∇ → U {\displaystyle m_{t}\,{\ddot {\vec {x}}}=-m_{g}{\vec {\nabla }}U} where m t {\displaystyle m_{t}} is the inertial mass and m g {\displaystyle m_{g}} the gravitational mass.
+
+Since, according to the weak equivalence principle m t = m g {\displaystyle m_{t}=m_{g}} , the corresponding equation of motion x → ¨ = − ∇ → U {\displaystyle {\ddot {\vec {x}}}=-{\vec {\nabla }}U} no longer contains a reference to the mass of the particle.
+
+Following the idea that the solution of the equation then is a property of the curvature of space, a connection is constructed so that the geodesic equation d 2 x λ d s 2 + Γ μ ν λ d x μ d s d x ν d s = 0 {\displaystyle {\frac {d^{2}x^{\lambda }}{ds^{2}}}+\Gamma _{\mu \nu }^{\lambda }{\frac {dx^{\mu }}{ds}}{\frac {dx^{\nu }}{ds}}=0} represents the equation of motion of a point particle in the potential U {\displaystyle U}.
+
+The resulting connection is Γ μ ν λ = γ λ ρ U , ρ Ψ μ Ψ ν {\displaystyle \Gamma _{\mu \nu }^{\lambda }=\gamma ^{\lambda \rho }U_{,\rho }\Psi _{\mu }\Psi _{\nu }} with Ψ μ = δ μ 0 {\displaystyle \Psi _{\mu }=\delta _{\mu }^{0}} and γ μ ν = δ A μ δ B ν δ A B {\displaystyle \gamma ^{\mu \nu }=\delta _{A}^{\mu }\delta _{B}^{\nu }\delta ^{AB}} ( A , B = 1 , 2 , 3 {\displaystyle A,B=1,2,3} ).
+
+The connection has been constructed in one inertial system but can be shown to be valid in any inertial system by showing the invariance of Ψ μ {\displaystyle \Psi _{\mu }} and γ μ ν {\displaystyle \gamma ^{\mu \nu }} under Galilei-transformations.
+
+The Riemann curvature tensor in inertial system coordinates of this connection is then given by R κ μ ν λ = 2 γ λ σ U , σ [ μ Ψ ν ] Ψ κ {\displaystyle R_{\kappa \mu \nu }^{\lambda }=2\gamma ^{\lambda \sigma }U_{,\sigma [\mu }\Psi _{\nu ]}\Psi _{\kappa }} where the brackets A [ μ ν ] = 1 2 ! [ A μ ν − A ν μ ] {\displaystyle A_{[\mu \nu ]}={\frac {1}{2!}}[A_{\mu \nu }-A_{\nu \mu }]} mean the antisymmetric combination of the tensor A μ ν {\displaystyle A_{\mu \nu }}.
+
+The Ricci tensor is given by R κ ν = Δ U Ψ κ Ψ ν {\displaystyle R_{\kappa \nu }=\Delta U\Psi _{\kappa }\Psi _{\nu }\,} which leads to following geometric formulation of Poisson's equation R μ ν = 4 π G ρ Ψ μ Ψ ν {\displaystyle R_{\mu \nu }=4\pi G\rho \Psi _{\mu }\Psi _{\nu }} More explicitly, if the roman indices i and j range over the spatial coordinates 1, 2, 3, then the connection is given by Γ 00 i = U , i {\displaystyle \Gamma _{00}^{i}=U_{,i}} the Riemann curvature tensor by R 0 j 0 i = − R 00 j i = U , i j {\displaystyle R_{0j0}^{i}=-R_{00j}^{i}=U_{,ij}} and the Ricci tensor and Ricci scalar by R = R 00 = Δ U {\displaystyle R=R_{00}=\Delta U} where all components not listed equal zero.
+
+Note that this formulation does not require introducing the concept of a metric: the connection alone gives all the physical information.
+
+Bargmann lift [ edit ] It was shown that four-dimensional Newton–Cartan theory of gravitation can be reformulated as Kaluza–Klein reduction of five-dimensional Einstein gravity along a null-like direction.
+
+[9] This lifting is considered to be useful for non-relativistic holographic models.
+
+[10] References [ edit ] ^ Cartan, Élie (1923), "Sur les variétés à connexion affine et la théorie de la relativité généralisée (Première partie)" (PDF) , Annales Scientifiques de l'École Normale Supérieure , 40 : 325, doi : 10.
+
+24033/asens.
+
+751 ^ Cartan, Élie (1924), "Sur les variétés à connexion affine, et la théorie de la relativité généralisée (Première partie) (Suite)" (PDF) , Annales Scientifiques de l'École Normale Supérieure , 41 : 1, doi : 10.
+
+24033/asens.
+
+753 ^ Friedrichs, K.
+
+O.
+
+(1927), "Eine Invariante Formulierung des Newtonschen Gravitationsgesetzes und der Grenzüberganges vom Einsteinschen zum Newtonschen Gesetz", Mathematische Annalen , 98 : 566–575, doi : 10.
+
+1007/bf01451608 , S2CID 121571333 ^ Dautcourt, G.
+
+(1964), "Die Newtonische Gravitationstheorie als strenger Grenzfall der allgemeinen Relativitätstheorie", Acta Physica Polonica , 65 : 637–646 ^ Dixon, W.
+
+G.
+
+(1975), "On the uniqueness of the Newtonian theory as a geometric theory of gravitation" , Communications in Mathematical Physics , 45 (2): 167–182, Bibcode : 1975CMaPh.
+
+45.
+
+167D , doi : 10.
+
+1007/bf01629247 , S2CID 120158054 ^ Havas, P.
+
+(1964), "Four-dimensional formulations of Newtonian mechanics and their relation to the special and general theory of relativity", Reviews of Modern Physics , 36 (4): 938–965, Bibcode : 1964RvMP.
+
+36.
+
+938H , doi : 10.
+
+1103/revmodphys.
+
+36.
+
+938 ^ Künzle, H.
+
+(1976), "Covariant Newtonian limts of Lorentz space-times", General Relativity and Gravitation , 7 (5): 445–457, Bibcode : 1976GReGr.
+
+7.
+
+445K , doi : 10.
+
+1007/bf00766139 , S2CID 117098049 ^ Trautman, A.
+
+(1965), Deser, Jürgen; Ford, K.
+
+W.
+
+(eds.
+
+), Foundations and current problems of general relativity , vol.
+
+98, Englewood Cliffs, New Jersey: Prentice-Hall , pp.
+
+1–248 ^ Duval, C.
+
+; Burdet, G.
+
+; Künzle, H.
+
+P.
+
+; Perrin, M.
+
+(1985).
+
+"Bargmann structures and Newton-Cartan theory".
+
+Physical Review D.
+
+31 (8): 1841–1853.
+
+Bibcode : 1985PhRvD.
+
+31.
+
+1841D.
+
+doi : 10.
+
+1103/PhysRevD.
+
+31.
+
+1841.
+
+PMID 9955910.
+
+^ Goldberger, Walter D.
+
+(2009).
+
+"AdS/CFT duality for non-relativistic field theory".
+
+Journal of High Energy Physics.
+
+2009 (3): 069.
+
+arXiv : 0806.
+
+2867.
+
+Bibcode : 2009JHEP.
+
+03.
+
+069G.
+
+doi : 10.
+
+1088/1126-6708/2009/03/069.
+
+S2CID 118553009.
+
+Bibliography [ edit ] Cartan, Élie (1923), "Sur les variétés à connexion affine et la théorie de la relativité généralisée (Première partie)" (PDF) , Annales Scientifiques de l'École Normale Supérieure , 40 : 325, doi : 10.
+
+24033/asens.
+
+751 Cartan, Élie (1924), "Sur les variétés à connexion affine, et la théorie de la relativité généralisée (Première partie) (Suite)" (PDF) , Annales Scientifiques de l'École Normale Supérieure , 41 : 1, doi : 10.
+
+24033/asens.
+
+753 Cartan, Élie (1955), Œuvres complètes , vol.
+
+III/1, Gauthier-Villars, pp.
+
+659, 799 Renn, Jürgen; Schemmel, Matthias, eds.
+
+(2007), The Genesis of General Relativity , vol.
+
+4, Springer, pp.
+
+1107–1129 (English translation of Ann.
+
+Sci.
+
+Éc.
+
+Norm.
+
+Supér.
+
+#40 paper) Chapter 1 of Ehlers, Jürgen (1973), "Survey of general relativity theory", in Israel, Werner (ed.
+
+), Relativity, Astrophysics and Cosmology , D.
+
+Reidel, pp.
+
+1–125, ISBN 90-277-0369-8 v t e Sir Isaac Newton Publications Fluxions (1671) De Motu (1684) Principia (1687) Opticks (1704) Queries (1704) Arithmetica (1707) De Analysi (1711) Other writings Quaestiones (1661–1665) " standing on the shoulders of giants " (1675) Notes on the Jewish Temple (c.
+
+1680) " General Scholium " (1713; " hypotheses non fingo " ) Ancient Kingdoms Amended (1728) Corruptions of Scripture (1754) Contributions Calculus fluxion Impact depth Inertia Newton disc Newton polygon Newton–Okounkov body Newton's reflector Newtonian telescope Newton scale Newton's metal Spectrum Structural coloration Newtonianism Bucket argument Newton's inequalities Newton's law of cooling Newton's law of universal gravitation post-Newtonian expansion parameterized gravitational constant Newton–Cartan theory Schrödinger–Newton equation Newton's laws of motion Kepler's laws Newtonian dynamics Newton's method in optimization Apollonius's problem truncated Newton method Gauss–Newton algorithm Newton's rings Newton's theorem about ovals Newton–Pepys problem Newtonian potential Newtonian fluid Classical mechanics Corpuscular theory of light Leibniz–Newton calculus controversy Newton's notation Rotating spheres Newton's cannonball Newton–Cotes formulas Newton's method generalized Gauss–Newton method Newton fractal Newton's identities Newton polynomial Newton's theorem of revolving orbits Newton–Euler equations Newton number kissing number problem Newton's quotient Parallelogram of force Newton–Puiseux theorem Absolute space and time Luminiferous aether Newtonian series table Personal life Woolsthorpe Manor (birthplace) Cranbury Park (home) Early life Later life Apple tree Religious views Occult studies Scientific Revolution Copernican Revolution Relations Catherine Barton (niece) John Conduitt (nephew-in-law) Isaac Barrow (professor) William Clarke (mentor) Benjamin Pulleyn (tutor) John Keill (disciple) William Stukeley (friend) William Jones (friend) Abraham de Moivre (friend) Depictions Newton by Blake (monotype) Newton by Paolozzi (sculpture) Isaac Newton Gargoyle Astronomers Monument Namesake Newton (unit) Newton's cradle Isaac Newton Institute Isaac Newton Medal Isaac Newton Telescope Isaac Newton Group of Telescopes XMM-Newton Sir Isaac Newton Sixth Form Statal Institute of Higher Education Isaac Newton Newton International Fellowship Categories Isaac Newton This relativity -related article is a stub.
+
+You can help Wikipedia by expanding it.
+
+v t e Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Newton–Cartan_theory&oldid=1215690898 " Categories : Theories of gravity Relativity stubs Hidden categories: Articles with short description Short description is different from Wikidata CS1: long volume value All stub articles This page was last edited on 26 March 2024, at 15:58 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

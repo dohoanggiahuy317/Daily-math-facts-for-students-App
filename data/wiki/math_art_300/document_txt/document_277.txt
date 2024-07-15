@@ -1,0 +1,63 @@
+Monad (nonstandard analysis) - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 References Toggle the table of contents Monad (nonstandard analysis) 2 languages 日本語 Svenska Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Named set of points in nonstandard analysis In nonstandard analysis , a monad or also a halo is the set of points infinitesimally close to a given point.
+
+[1] [2] Given a hyperreal number x in R ∗ , the monad of x is the set monad ( x ) = { y ∈ R ∗ ∣ x − y is infinitesimal }.
+
+{\displaystyle {\text{monad}}(x)=\{y\in \mathbb {R} ^{*}\mid x-y{\text{ is infinitesimal}}\}.
+
+} If x is finite (limited), the unique real number in the monad of x is called the standard part of x.
+
+[3] References [ edit ] ^ Goldblatt, Robert (1998).
+
+Lectures on the Hyperreals.
+
+Berlin: Springer.
+
+ISBN 0-387-98464-X.
+
+^ Wood, Carol (4 Sep 2015).
+
+"The Infinitesimal Monad - Numberphile" (video).
+
+youtube.
+
+com.
+
+Numberphile.
+
+Retrieved 29 Dec 2022.
+
+^ Keisler, Howard (19 June 2022).
+
+Foundations of Infinitesimal Calculus (PDF).
+
+Madison, Wisconsin, USA: University of Wisconsin Press.
+
+p.
+
+2.
+
+Retrieved 12 July 2024.
+
+v t e Infinitesimals History Adequality Leibniz's notation Integral symbol Criticism of nonstandard analysis The Analyst The Method of Mechanical Theorems Cavalieri's principle Related branches Nonstandard analysis Nonstandard calculus Internal set theory Synthetic differential geometry Smooth infinitesimal analysis Constructive nonstandard analysis Infinitesimal strain theory (physics) Formalizations Differentials Hyperreal numbers Dual numbers Surreal numbers Individual concepts Standard part function Transfer principle Hyperinteger Increment theorem Monad Internal set Levi-Civita field Hyperfinite set Law of continuity Overspill Microcontinuity Transcendental law of homogeneity Mathematicians Gottfried Wilhelm Leibniz Abraham Robinson Pierre de Fermat Augustin-Louis Cauchy Leonhard Euler Textbooks Analyse des Infiniment Petits Elementary Calculus Cours d'Analyse This mathematical analysis –related article is a stub.
+
+You can help Wikipedia by expanding it.
+
+v t e Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=Monad_(nonstandard_analysis)&oldid=1172157096 " Categories : Nonstandard analysis Mathematical analysis stubs Hidden categories: Articles with short description Short description is different from Wikidata All stub articles This page was last edited on 25 August 2023, at 09:29 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

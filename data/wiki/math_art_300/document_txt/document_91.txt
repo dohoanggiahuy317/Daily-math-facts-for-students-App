@@ -1,0 +1,189 @@
+One-sided limit - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Formal definition Toggle Formal definition subsection 1.
+
+1 Definition 1.
+
+2 Intuition 2 Examples 3 Relation to topological definition of limit 4 Abel's theorem 5 Notes 6 References 7 See also Toggle the table of contents One-sided limit 15 languages العربية Bosanski Чӑвашла Čeština Esperanto فارسی Bahasa Indonesia Қазақша 日本語 Polski Русский Suomi Türkçe Українська Tiếng Việt Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version Appearance move to sidebar hide From Wikipedia, the free encyclopedia Limit of a function approaching a value point from values below or above the value point This article needs additional citations for verification.
+
+Please help improve this article by adding citations to reliable sources.
+
+Unsourced material may be challenged and removed.
+
+Find sources: "One-sided limit" – news · newspapers · books · scholar · JSTOR ( August 2021 ) ( Learn how and when to remove this message ) The function f ( x ) = x 2 + sign ⁡ ( x ) , {\displaystyle f(x)=x^{2}+\operatorname {sign} (x),} where sign ⁡ ( x ) {\displaystyle \operatorname {sign} (x)} denotes the sign function , has a left limit of − 1 , {\displaystyle -1,} a right limit of + 1 , {\displaystyle +1,} and a function value of 0 {\displaystyle 0} at the point x = 0.
+
+{\displaystyle x=0.
+
+} In calculus , a one-sided limit refers to either one of the two limits of a function f ( x ) {\displaystyle f(x)} of a real variable x {\displaystyle x} as x {\displaystyle x} approaches a specified point either from the left or from the right.
+
+[1] [2] The limit as x {\displaystyle x} decreases in value approaching a {\displaystyle a} ( x {\displaystyle x} approaches a {\displaystyle a} "from the right" [3] or "from above") can be denoted: [1] [2] lim x → a + f ( x ) or lim x ↓ a f ( x ) or lim x ↘ a f ( x ) or f ( x + ) {\displaystyle \lim _{x\to a^{+}}f(x)\quad {\text{ or }}\quad \lim _{x\,\downarrow \,a}\,f(x)\quad {\text{ or }}\quad \lim _{x\searrow a}\,f(x)\quad {\text{ or }}\quad f(x+)} The limit as x {\displaystyle x} increases in value approaching a {\displaystyle a} ( x {\displaystyle x} approaches a {\displaystyle a} "from the left" [4] [5] or "from below") can be denoted: [1] [2] lim x → a − f ( x ) or lim x ↑ a f ( x ) or lim x ↗ a f ( x ) or f ( x − ) {\displaystyle \lim _{x\to a^{-}}f(x)\quad {\text{ or }}\quad \lim _{x\,\uparrow \,a}\,f(x)\quad {\text{ or }}\quad \lim _{x\nearrow a}\,f(x)\quad {\text{ or }}\quad f(x-)} If the limit of f ( x ) {\displaystyle f(x)} as x {\displaystyle x} approaches a {\displaystyle a} exists then the limits from the left and from the right both exist and are equal.
+
+In some cases in which the limit lim x → a f ( x ) {\displaystyle \lim _{x\to a}f(x)} does not exist, the two one-sided limits nonetheless exist.
+
+Consequently, the limit as x {\displaystyle x} approaches a {\displaystyle a} is sometimes called a "two-sided limit".
+
+[ citation needed ] It is possible for exactly one of the two one-sided limits to exist (while the other does not exist).
+
+It is also possible for neither of the two one-sided limits to exist.
+
+Formal definition [ edit ] Definition [ edit ] If I {\displaystyle I} represents some interval that is contained in the domain of f {\displaystyle f} and if a {\displaystyle a} is a point in I {\displaystyle I} then the right-sided limit as x {\displaystyle x} approaches a {\displaystyle a} can be rigorously defined as the value R {\displaystyle R} that satisfies: [6] [ verification needed ] for all ε > 0 there exists some δ > 0 such that for all x ∈ I , if 0 < x − a < δ then | f ( x ) − R | < ε , {\displaystyle {\text{for all }}\varepsilon >0\;{\text{ there exists some }}\delta >0\;{\text{ such that for all }}x\in I,{\text{ if }}\;0<x-a<\delta {\text{ then }}|f(x)-R|<\varepsilon ,} and the left-sided limit as x {\displaystyle x} approaches a {\displaystyle a} can be rigorously defined as the value L {\displaystyle L} that satisfies: for all ε > 0 there exists some δ > 0 such that for all x ∈ I , if 0 < a − x < δ then | f ( x ) − L | < ε.
+
+{\displaystyle {\text{for all }}\varepsilon >0\;{\text{ there exists some }}\delta >0\;{\text{ such that for all }}x\in I,{\text{ if }}\;0<a-x<\delta {\text{ then }}|f(x)-L|<\varepsilon.
+
+} We can represent the same thing more symbolically, as follows.
+
+Let I {\displaystyle I} represent an interval, where I ⊆ d o m a i n ( f ) {\displaystyle I\subseteq \mathrm {domain} (f)} , and a ∈ I {\displaystyle a\in I}.
+
+lim x → a + f ( x ) = R ⟺ ( ∀ ε ∈ R + , ∃ δ ∈ R + , ∀ x ∈ I , ( 0 < x − a < δ ⟶ | f ( x ) − R | < ε ) ) {\displaystyle \lim _{x\to a^{+}}f(x)=R~~~\iff ~~~(\forall \varepsilon \in \mathbb {R} _{+},\exists \delta \in \mathbb {R} _{+},\forall x\in I,(0<x-a<\delta \longrightarrow |f(x)-R|<\varepsilon ))} lim x → a − f ( x ) = L ⟺ ( ∀ ε ∈ R + , ∃ δ ∈ R + , ∀ x ∈ I , ( 0 < a − x < δ ⟶ | f ( x ) − L | < ε ) ) {\displaystyle \lim _{x\to a^{-}}f(x)=L~~~\iff ~~~(\forall \varepsilon \in \mathbb {R} _{+},\exists \delta \in \mathbb {R} _{+},\forall x\in I,(0<a-x<\delta \longrightarrow |f(x)-L|<\varepsilon ))} Intuition [ edit ] In comparison to the formal definition for the limit of a function at a point, the one-sided limit (as the name would suggest) only deals with input values to one side of the approached input value.
+
+For reference, the formal definition for the limit of a function at a point is as follows: lim x → a f ( x ) = L ⟺ ∀ ε ∈ R + , ∃ δ ∈ R + , ∀ x ∈ I , 0 < | x − a | < δ ⟹ | f ( x ) − L | < ε.
+
+{\displaystyle \lim _{x\to a}f(x)=L~~~\iff ~~~\forall \varepsilon \in \mathbb {R} _{+},\exists \delta \in \mathbb {R} _{+},\forall x\in I,0<|x-a|<\delta \implies |f(x)-L|<\varepsilon.
+
+} To define a one-sided limit, we must modify this inequality.
+
+Note that the absolute distance between x {\displaystyle x} and a {\displaystyle a} is | x − a | = | ( − 1 ) ( − x + a ) | = | ( − 1 ) ( a − x ) | = | ( − 1 ) | | a − x | = | a − x |.
+
+{\displaystyle |x-a|=|(-1)(-x+a)|=|(-1)(a-x)|=|(-1)||a-x|=|a-x|.
+
+} For the limit from the right, we want x {\displaystyle x} to be to the right of a {\displaystyle a} , which means that a < x {\displaystyle a<x} , so x − a {\displaystyle x-a} is positive.
+
+From above, x − a {\displaystyle x-a} is the distance between x {\displaystyle x} and a {\displaystyle a}.
+
+We want to bound this distance by our value of δ {\displaystyle \delta } , giving the inequality x − a < δ {\displaystyle x-a<\delta }.
+
+Putting together the inequalities 0 < x − a {\displaystyle 0<x-a} and x − a < δ {\displaystyle x-a<\delta } and using the transitivity property of inequalities, we have the compound inequality 0 < x − a < δ {\displaystyle 0<x-a<\delta }.
+
+Similarly, for the limit from the left, we want x {\displaystyle x} to be to the left of a {\displaystyle a} , which means that x < a {\displaystyle x<a}.
+
+In this case, it is a − x {\displaystyle a-x} that is positive and represents the distance between x {\displaystyle x} and a {\displaystyle a}.
+
+Again, we want to bound this distance by our value of δ {\displaystyle \delta } , leading to the compound inequality 0 < a − x < δ {\displaystyle 0<a-x<\delta }.
+
+Now, when our value of x {\displaystyle x} is in its desired interval, we expect that the value of f ( x ) {\displaystyle f(x)} is also within its desired interval.
+
+The distance between f ( x ) {\displaystyle f(x)} and L {\displaystyle L} , the limiting value of the left sided limit, is | f ( x ) − L | {\displaystyle |f(x)-L|}.
+
+Similarly, the distance between f ( x ) {\displaystyle f(x)} and R {\displaystyle R} , the limiting value of the right sided limit, is | f ( x ) − R | {\displaystyle |f(x)-R|}.
+
+In both cases, we want to bound this distance by ε {\displaystyle \varepsilon } , so we get the following: | f ( x ) − L | < ε {\displaystyle |f(x)-L|<\varepsilon } for the left sided limit, and | f ( x ) − R | < ε {\displaystyle |f(x)-R|<\varepsilon } for the right sided limit.
+
+Examples [ edit ] Example 1 : The limits from the left and from the right of g ( x ) := − 1 x {\displaystyle g(x):=-{\frac {1}{x}}} as x {\displaystyle x} approaches a := 0 {\displaystyle a:=0} are lim x → 0 − − 1 / x = + ∞ and lim x → 0 + − 1 / x = − ∞ {\displaystyle \lim _{x\to 0^{-}}{-1/x}=+\infty \qquad {\text{ and }}\qquad \lim _{x\to 0^{+}}{-1/x}=-\infty } The reason why lim x → 0 − − 1 / x = + ∞ {\displaystyle \lim _{x\to 0^{-}}{-1/x}=+\infty } is because x {\displaystyle x} is always negative (since x → 0 − {\displaystyle x\to 0^{-}} means that x → 0 {\displaystyle x\to 0} with all values of x {\displaystyle x} satisfying x < 0 {\displaystyle x<0} ), which implies that − 1 / x {\displaystyle -1/x} is always positive so that lim x → 0 − − 1 / x {\displaystyle \lim _{x\to 0^{-}}{-1/x}} diverges [note 1] to + ∞ {\displaystyle +\infty } (and not to − ∞ {\displaystyle -\infty } ) as x {\displaystyle x} approaches 0 {\displaystyle 0} from the left.
+
+Similarly, lim x → 0 + − 1 / x = − ∞ {\displaystyle \lim _{x\to 0^{+}}{-1/x}=-\infty } since all values of x {\displaystyle x} satisfy x > 0 {\displaystyle x>0} (said differently, x {\displaystyle x} is always positive) as x {\displaystyle x} approaches 0 {\displaystyle 0} from the right, which implies that − 1 / x {\displaystyle -1/x} is always negative so that lim x → 0 + − 1 / x {\displaystyle \lim _{x\to 0^{+}}{-1/x}} diverges to − ∞.
+
+{\displaystyle -\infty.
+
+} Plot of the function 1 / ( 1 + 2 − 1 / x ).
+
+{\displaystyle 1/(1+2^{-1/x}).
+
+} Example 2 : One example of a function with different one-sided limits is f ( x ) = 1 1 + 2 − 1 / x , {\displaystyle f(x)={\frac {1}{1+2^{-1/x}}},} (cf.
+
+picture) where the limit from the left is lim x → 0 − f ( x ) = 0 {\displaystyle \lim _{x\to 0^{-}}f(x)=0} and the limit from the right is lim x → 0 + f ( x ) = 1.
+
+{\displaystyle \lim _{x\to 0^{+}}f(x)=1.
+
+} To calculate these limits, first show that lim x → 0 − 2 − 1 / x = ∞ and lim x → 0 + 2 − 1 / x = 0 {\displaystyle \lim _{x\to 0^{-}}2^{-1/x}=\infty \qquad {\text{ and }}\qquad \lim _{x\to 0^{+}}2^{-1/x}=0} (which is true because lim x → 0 − − 1 / x = + ∞ and lim x → 0 + − 1 / x = − ∞ {\displaystyle \lim _{x\to 0^{-}}{-1/x}=+\infty {\text{ and }}\lim _{x\to 0^{+}}{-1/x}=-\infty } ) so that consequently, lim x → 0 + 1 1 + 2 − 1 / x = 1 1 + lim x → 0 + 2 − 1 / x = 1 1 + 0 = 1 {\displaystyle \lim _{x\to 0^{+}}{\frac {1}{1+2^{-1/x}}}={\frac {1}{1+\displaystyle \lim _{x\to 0^{+}}2^{-1/x}}}={\frac {1}{1+0}}=1} whereas lim x → 0 − 1 1 + 2 − 1 / x = 0 {\displaystyle \lim _{x\to 0^{-}}{\frac {1}{1+2^{-1/x}}}=0} because the denominator diverges to infinity; that is, because lim x → 0 − 1 + 2 − 1 / x = ∞.
+
+{\displaystyle \lim _{x\to 0^{-}}1+2^{-1/x}=\infty.
+
+} Since lim x → 0 − f ( x ) ≠ lim x → 0 + f ( x ) , {\displaystyle \lim _{x\to 0^{-}}f(x)\neq \lim _{x\to 0^{+}}f(x),} the limit lim x → 0 f ( x ) {\displaystyle \lim _{x\to 0}f(x)} does not exist.
+
+Relation to topological definition of limit [ edit ] See also: Filters in topology The one-sided limit to a point p {\displaystyle p} corresponds to the general definition of limit , with the domain of the function restricted to one side, by either allowing that the function domain is a subset of the topological space, or by considering a one-sided subspace, including p.
+
+{\displaystyle p.
+
+} [1] [ verification needed ] Alternatively, one may consider the domain with a half-open interval topology.
+
+[ citation needed ] Abel's theorem [ edit ] Main article: Abel's Theorem A noteworthy theorem treating one-sided limits of certain power series at the boundaries of their intervals of convergence is Abel's theorem.
+
+[ citation needed ] Notes [ edit ] ^ A limit that is equal to ∞ {\displaystyle \infty } is said to di verge to ∞ {\displaystyle \infty } rather than con verge to ∞.
+
+{\displaystyle \infty.
+
+} The same is true when a limit is equal to − ∞.
+
+{\displaystyle -\infty.
+
+} References [ edit ] ^ a b c d "One-sided limit - Encyclopedia of Mathematics".
+
+encyclopediaofmath.
+
+org.
+
+Retrieved 7 August 2021.
+
+^ a b c Fridy, J.
+
+A.
+
+(24 January 2020).
+
+Introductory Analysis: The Theory of Calculus.
+
+Gulf Professional Publishing.
+
+p.
+
+48.
+
+ISBN 978-0-12-267655-0.
+
+Retrieved 7 August 2021.
+
+^ Hasan, Osman; Khayam, Syed (2014-01-02).
+
+"Towards Formal Linear Cryptanalysis using HOL4" (PDF).
+
+Journal of Universal Computer Science.
+
+20 (2): 209.
+
+doi : 10.
+
+3217/jucs-020-02-0193.
+
+ISSN 0948-6968.
+
+^ Gasic, Andrei G.
+
+(2020-12-12).
+
+Phase Phenomena of Proteins in Living Matter (Thesis thesis).
+
+^ Brokate, Martin; Manchanda, Pammy; Siddiqi, Abul Hasan (2019), "Limit and Continuity" , Calculus for Scientists and Engineers , Industrial and Applied Mathematics, Singapore: Springer Singapore, pp.
+
+39–53, doi : 10.
+
+1007/978-981-13-8464-6_2 , ISBN 978-981-13-8463-9 , S2CID 201484118 , retrieved 2022-01-11 ^ Giv, Hossein Hosseini (28 September 2016).
+
+Mathematical Analysis and Its Inherent Nature.
+
+American Mathematical Soc.
+
+p.
+
+130.
+
+ISBN 978-1-4704-2807-5.
+
+Retrieved 7 August 2021.
+
+See also [ edit ] Projectively extended real line Semi-differentiability Limit superior and limit inferior v t e Calculus Precalculus Binomial theorem Concave function Continuous function Factorial Finite difference Free variables and bound variables Graph of a function Linear function Radian Rolle's theorem Secant Slope Tangent Limits Indeterminate form Limit of a function One-sided limit Limit of a sequence Order of approximation (ε, δ)-definition of limit Differential calculus Derivative Second derivative Partial derivative Differential Differential operator Mean value theorem Notation Leibniz's notation Newton's notation Rules of differentiation linearity Power Sum Chain L'Hôpital's Product General Leibniz's rule Quotient Other techniques Implicit differentiation Inverse functions and differentiation Logarithmic derivative Related rates Stationary points First derivative test Second derivative test Extreme value theorem Maximum and minimum Further applications Newton's method Taylor's theorem Differential equation Ordinary differential equation Partial differential equation Stochastic differential equation Integral calculus Antiderivative Arc length Riemann integral Basic properties Constant of integration Fundamental theorem of calculus Differentiating under the integral sign Integration by parts Integration by substitution trigonometric Euler Tangent half-angle substitution Partial fractions in integration Quadratic integral Trapezoidal rule Volumes Washer method Shell method Integral equation Integro-differential equation Vector calculus Derivatives Curl Directional derivative Divergence Gradient Laplacian Basic theorems Line integrals Green's Stokes' Gauss' Multivariable calculus Divergence theorem Geometric Hessian matrix Jacobian matrix and determinant Lagrange multiplier Line integral Matrix Multiple integral Partial derivative Surface integral Volume integral Advanced topics Differential forms Exterior derivative Generalized Stokes' theorem Tensor calculus Sequences and series Arithmetico-geometric sequence Types of series Alternating Binomial Fourier Geometric Harmonic Infinite Power Maclaurin Taylor Telescoping Tests of convergence Abel's Alternating series Cauchy condensation Direct comparison Dirichlet's Integral Limit comparison Ratio Root Term Special functions and numbers Bernoulli numbers e (mathematical constant) Exponential function Natural logarithm Stirling's approximation History of calculus Adequality Brook Taylor Colin Maclaurin Generality of algebra Gottfried Wilhelm Leibniz Infinitesimal Infinitesimal calculus Isaac Newton Fluxion Law of Continuity Leonhard Euler Method of Fluxions The Method of Mechanical Theorems Lists Integrals rational functions irrational functions exponential functions logarithmic functions hyperbolic functions inverse trigonometric functions inverse Secant Secant cubed List of limits List of derivatives Miscellaneous topics Complex calculus Contour integral Differential geometry Manifold Curvature of curves of surfaces Tensor Euler–Maclaurin formula Gabriel's horn Integration Bee Proof that 22/7 exceeds π Regiomontanus' angle maximization problem Steinmetz solid Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=One-sided_limit&oldid=1214906606 " Categories : Real analysis Limits (mathematics) Functions and mappings Hidden categories: Articles with short description Short description matches Wikidata Articles needing additional references from August 2021 All articles needing additional references All articles with unsourced statements Articles with unsourced statements from August 2021 All pages needing factual verification Wikipedia articles needing factual verification from August 2021 This page was last edited on 21 March 2024, at 23:11 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.

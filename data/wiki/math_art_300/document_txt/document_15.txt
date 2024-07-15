@@ -1,0 +1,685 @@
+p-adic number - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Donate Contribute Help Learn to edit Community portal Recent changes Upload file Search Search Appearance Create account Log in Personal tools Create account Log in Pages for logged out editors learn more Contributions Talk Contents move to sidebar hide (Top) 1 Motivation 2 Basic lemmas 3 p -adic series Toggle p -adic series subsection 3.
+
+1 Normalization of a p -adic series 4 Definition 5 p -adic integers 6 Topological properties 7 p -adic expansion of rational numbers Toggle p -adic expansion of rational numbers subsection 7.
+
+1 Example 7.
+
+2 Positional notation 8 Modular properties 9 Notation 10 Cardinality 11 Algebraic closure 12 Multiplicative group 13 Local–global principle 14 Rational arithmetic with Hensel lifting 15 Generalizations and related concepts 16 See also 17 Footnotes Toggle Footnotes subsection 17.
+
+1 Notes 17.
+
+2 Citations 18 References 19 Further reading 20 External links Toggle the table of contents p -adic number 27 languages العربية Беларуская Български Català Čeština Deutsch Español فارسی Français 한국어 Italiano עברית Magyar Nederlands 日本語 Norsk bokmål Polski Português Русский Simple English Svenska Türkçe Українська Tiếng Việt 文言 粵語 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Special pages Permanent link Page information Cite this page Get shortened URL Download QR code Wikidata item Print/export Download as PDF Printable version In other projects Wikimedia Commons Appearance move to sidebar hide From Wikipedia, the free encyclopedia Number system extending the rational numbers In this article, unless otherwise stated, p denotes a prime number that is fixed once for all.
+
+The 3-adic integers, with selected corresponding characters on their Pontryagin dual group In number theory , given a prime number p , the p -adic numbers form an extension of the rational numbers which is distinct from the real numbers , though with some similar properties; p -adic numbers can be written in a form similar to (possibly infinite ) decimals , but with digits based on a prime number p rather than ten, and extending to the left rather than to the right.
+
+For example, comparing the expansion of the rational number 1 5 {\displaystyle {\tfrac {1}{5}}} in base 3 vs.
+
+the 3 -adic expansion, 1 5 = 0.
+
+01210121 … ( base 3 ) = 0 ⋅ 3 0 + 0 ⋅ 3 − 1 + 1 ⋅ 3 − 2 + 2 ⋅ 3 − 3 + ⋯ 1 5 = … 121012102 ( 3-adic ) = ⋯ + 2 ⋅ 3 3 + 1 ⋅ 3 2 + 0 ⋅ 3 1 + 2 ⋅ 3 0.
+
+{\displaystyle {\begin{alignedat}{3}{\tfrac {1}{5}}&{}=0.
+
+01210121\ldots \ ({\text{base }}3)&&{}=0\cdot 3^{0}+0\cdot 3^{-1}+1\cdot 3^{-2}+2\cdot 3^{-3}+\cdots \\[5mu]{\tfrac {1}{5}}&{}=\dots 121012102\ \ ({\text{3-adic}})&&{}=\cdots +2\cdot 3^{3}+1\cdot 3^{2}+0\cdot 3^{1}+2\cdot 3^{0}.
+
+\end{alignedat}}} Formally, given a prime number p , a p -adic number can be defined as a series s = ∑ i = k ∞ a i p i = a k p k + a k + 1 p k + 1 + a k + 2 p k + 2 + ⋯ {\displaystyle s=\sum _{i=k}^{\infty }a_{i}p^{i}=a_{k}p^{k}+a_{k+1}p^{k+1}+a_{k+2}p^{k+2}+\cdots } where k is an integer (possibly negative), and each a i {\displaystyle a_{i}} is an integer such that 0 ≤ a i < p.
+
+{\displaystyle 0\leq a_{i}<p.
+
+} A p -adic integer is a p -adic number such that k ≥ 0.
+
+{\displaystyle k\geq 0.
+
+} In general the series that represents a p -adic number is not convergent in the usual sense, but it is convergent for the p -adic absolute value | s | p = p − k , {\displaystyle |s|_{p}=p^{-k},} where k is the least integer i such that a i ≠ 0 {\displaystyle a_{i}\neq 0} (if all a i {\displaystyle a_{i}} are zero, one has the zero p -adic number, which has 0 as its p -adic absolute value).
+
+Every rational number can be uniquely expressed as the sum of a series as above, with respect to the p -adic absolute value.
+
+This allows considering rational numbers as special p -adic numbers, and alternatively defining the p -adic numbers as the completion of the rational numbers for the p -adic absolute value, exactly as the real numbers are the completion of the rational numbers for the usual absolute value.
+
+p -adic numbers were first described by Kurt Hensel in 1897, [1] though, with hindsight, some of Ernst Kummer's earlier work can be interpreted as implicitly using p -adic numbers.
+
+[note 1] Motivation [ edit ] Roughly speaking, modular arithmetic modulo a positive integer n consists of "approximating" every integer by the remainder of its division by n , called its residue modulo n.
+
+The main property of modular arithmetic is that the residue modulo n of the result of a succession of operations on integers is the same as the result of the same succession of operations on residues modulo n.
+
+If one knows that the absolute value of the result is less than n/2 , this allows a computation of the result which does not involve any integer larger than n.
+
+For larger results, an old method, still in common use, consists of using several small moduli that are pairwise coprime, and applying the Chinese remainder theorem for recovering the result modulo the product of the moduli.
+
+Another method discovered by Kurt Hensel consists of using a prime modulus p , and applying Hensel's lemma for recovering iteratively the result modulo p 2 , p 3 , … , p n , … {\displaystyle p^{2},p^{3},\ldots ,p^{n},\ldots } If the process is continued infinitely, this provides eventually a result which is a p -adic number.
+
+Basic lemmas [ edit ] The theory of p -adic numbers is fundamentally based on the two following lemmas Every nonzero rational number can be written p v m n , {\textstyle p^{v}{\frac {m}{n}},} where v , m , and n are integers and neither m nor n is divisible by p.
+
+The exponent v is uniquely determined by the rational number and is called its p -adic valuation (this definition is a particular case of a more general definition, given below).
+
+The proof of the lemma results directly from the fundamental theorem of arithmetic.
+
+Every nonzero rational number r of valuation v can be uniquely written r = a p v + s , {\displaystyle r=ap^{v}+s,} where s is a rational number of valuation greater than v , and a is an integer such that 0 < a < p.
+
+{\displaystyle 0<a<p.
+
+} The proof of this lemma results from modular arithmetic : By the above lemma, r = p v m n , {\textstyle r=p^{v}{\frac {m}{n}},} where m and n are integers coprime with p.
+
+The modular inverse of n is an integer q such that n q = 1 + p h {\displaystyle nq=1+ph} for some integer h.
+
+Therefore, one has 1 n = q − p h n , {\textstyle {\frac {1}{n}}=q-p{\frac {h}{n}},} and r = p v m q − p v + 1 h m n.
+
+{\textstyle r=p^{v}mq-p^{v+1}{\frac {hm}{n}}.
+
+} The Euclidean division of m q {\displaystyle mq} by p gives m q = p k + a {\displaystyle mq=pk+a} where 0 < a < p , {\displaystyle 0<a<p,} since mq is not divisible by p.
+
+So, r = a p v + p v + 1 k n − h m n , {\displaystyle r=ap^{v}+p^{v+1}{\frac {kn-hm}{n}},} which is the desired result.
+
+This can be iterated starting from s instead of r , giving the following.
+
+Given a nonzero rational number r of valuation v and a positive integer k , there are a rational number s k {\displaystyle s_{k}} of nonnegative valuation and k uniquely defined nonnegative integers a 0 , … , a k − 1 {\displaystyle a_{0},\ldots ,a_{k-1}} less than p such that a 0 > 0 {\displaystyle a_{0}>0} and r = a 0 p v + a 1 p v + 1 + ⋯ + a k − 1 p v + k − 1 + p v + k s k.
+
+{\displaystyle r=a_{0}p^{v}+a_{1}p^{v+1}+\cdots +a_{k-1}p^{v+k-1}+p^{v+k}s_{k}.
+
+} The p -adic numbers are essentially obtained by continuing this infinitely to produce an infinite series.
+
+p -adic series [ edit ] The p -adic numbers are commonly defined by means of p -adic series.
+
+A p -adic series is a formal power series of the form ∑ i = v ∞ r i p i , {\displaystyle \sum _{i=v}^{\infty }r_{i}p^{i},} where v {\displaystyle v} is an integer and the r i {\displaystyle r_{i}} are rational numbers that either are zero or have a nonnegative valuation (that is, the denominator of r i {\displaystyle r_{i}} is not divisible by p ).
+
+Every rational number may be viewed as a p -adic series with a single nonzero term, consisting of its factorization of the form p k n d , {\displaystyle p^{k}{\tfrac {n}{d}},} with n and d both coprime with p.
+
+Two p -adic series ∑ i = v ∞ r i p i {\textstyle \sum _{i=v}^{\infty }r_{i}p^{i}} and ∑ i = w ∞ s i p i {\textstyle \sum _{i=w}^{\infty }s_{i}p^{i}} are equivalent if there is an integer N such that, for every integer n > N , {\displaystyle n>N,} the rational number ∑ i = v n r i p i − ∑ i = w n s i p i {\displaystyle \sum _{i=v}^{n}r_{i}p^{i}-\sum _{i=w}^{n}s_{i}p^{i}} is zero or has a p -adic valuation greater than n.
+
+A p -adic series ∑ i = v ∞ a i p i {\textstyle \sum _{i=v}^{\infty }a_{i}p^{i}} is normalized if either all a i {\displaystyle a_{i}} are integers such that 0 ≤ a i < p , {\displaystyle 0\leq a_{i}<p,} and a v > 0 , {\displaystyle a_{v}>0,} or all a i {\displaystyle a_{i}} are zero.
+
+In the latter case, the series is called the zero series.
+
+Every p -adic series is equivalent to exactly one normalized series.
+
+This normalized series is obtained by a sequence of transformations, which are equivalences of series; see § Normalization of a p -adic series , below.
+
+In other words, the equivalence of p -adic series is an equivalence relation , and each equivalence class contains exactly one normalized p -adic series.
+
+The usual operations of series (addition, subtraction, multiplication, division) are compatible with equivalence of p -adic series.
+
+That is, denoting the equivalence with ~ , if S , T and U are nonzero p -adic series such that S ∼ T , {\displaystyle S\sim T,} one has S ± U ∼ T ± U , S U ∼ T U , 1 / S ∼ 1 / T.
+
+{\displaystyle {\begin{aligned}S\pm U&\sim T\pm U,\\SU&\sim TU,\\1/S&\sim 1/T.
+
+\end{aligned}}} The p -adic numbers are often defined as the equivalence classes of p -adic series, in a similar way as the definition of the real numbers as equivalence classes of Cauchy sequences.
+
+The uniqueness property of normalization, allows uniquely representing any p -adic number by the corresponding normalized p -adic series.
+
+The compatibility of the series equivalence leads almost immediately to basic properties of p -adic numbers: Addition , multiplication and multiplicative inverse of p -adic numbers are defined as for formal power series , followed by the normalization of the result.
+
+With these operations, the p -adic numbers form a field , which is an extension field of the rational numbers.
+
+The valuation of a nonzero p -adic number x , commonly denoted v p ( x ) {\displaystyle v_{p}(x)} is the exponent of p in the first non zero term of the corresponding normalized series; the valuation of zero is v p ( 0 ) = + ∞ {\displaystyle v_{p}(0)=+\infty } The p -adic absolute value of a nonzero p -adic number x , is | x | p = p − v ( x ) ; {\displaystyle |x|_{p}=p^{-v(x)};} for the zero p -adic number, one has | 0 | p = 0.
+
+{\displaystyle |0|_{p}=0.
+
+} Normalization of a p -adic series [ edit ] Starting with the series ∑ i = v ∞ r i p i , {\textstyle \sum _{i=v}^{\infty }r_{i}p^{i},} the first above lemma allows getting an equivalent series such that the p -adic valuation of r v {\displaystyle r_{v}} is zero.
+
+For that, one considers the first nonzero r i.
+
+{\displaystyle r_{i}.
+
+} If its p -adic valuation is zero, it suffices to change v into i , that is to start the summation from v.
+
+Otherwise, the p -adic valuation of r i {\displaystyle r_{i}} is j > 0 , {\displaystyle j>0,} and r i = p j s i {\displaystyle r_{i}=p^{j}s_{i}} where the valuation of s i {\displaystyle s_{i}} is zero; so, one gets an equivalent series by changing r i {\displaystyle r_{i}} to 0 and r i + j {\displaystyle r_{i+j}} to r i + j + s i.
+
+{\displaystyle r_{i+j}+s_{i}.
+
+} Iterating this process, one gets eventually, possibly after infinitely many steps, an equivalent series that either is the zero series or is a series such that the valuation of r v {\displaystyle r_{v}} is zero.
+
+Then, if the series is not normalized, consider the first nonzero r i {\displaystyle r_{i}} that is not an integer in the interval [ 0 , p − 1 ].
+
+{\displaystyle [0,p-1].
+
+} The second above lemma allows writing it r i = a i + p s i ; {\displaystyle r_{i}=a_{i}+ps_{i};} one gets n equivalent series by replacing r i {\displaystyle r_{i}} with a i , {\displaystyle a_{i},} and adding s i {\displaystyle s_{i}} to r i + 1.
+
+{\displaystyle r_{i+1}.
+
+} Iterating this process, possibly infinitely many times, provides eventually the desired normalized p -adic series.
+
+Definition [ edit ] There are several equivalent definitions of p -adic numbers.
+
+The one that is given here is relatively elementary, since it does not involve any other mathematical concepts than those introduced in the preceding sections.
+
+Other equivalent definitions use completion of a discrete valuation ring (see § p-adic integers ), completion of a metric space (see § Topological properties ), or inverse limits (see § Modular properties ).
+
+A p -adic number can be defined as a normalized p -adic series.
+
+Since there are other equivalent definitions that are commonly used, one says often that a normalized p -adic series represents a p -adic number, instead of saying that it is a p -adic number.
+
+One can say also that any p -adic series represents a p -adic number, since every p -adic series is equivalent to a unique normalized p -adic series.
+
+This is useful for defining operations (addition, subtraction, multiplication, division) of p -adic numbers: the result of such an operation is obtained by normalizing the result of the corresponding operation on series.
+
+This well defines operations on p -adic numbers, since the series operations are compatible with equivalence of p -adic series.
+
+With these operations, p -adic numbers form a field called the field of p -adic numbers and denoted Q p {\displaystyle \mathbb {Q} _{p}} or Q p.
+
+{\displaystyle \mathbf {Q} _{p}.
+
+} There is a unique field homomorphism from the rational numbers into the p -adic numbers, which maps a rational number to its p -adic expansion.
+
+The image of this homomorphism is commonly identified with the field of rational numbers.
+
+This allows considering the p -adic numbers as an extension field of the rational numbers, and the rational numbers as a subfield of the p -adic numbers.
+
+The valuation of a nonzero p -adic number x , commonly denoted v p ( x ) , {\displaystyle v_{p}(x),} is the exponent of p in the first nonzero term of every p -adic series that represents x.
+
+By convention, v p ( 0 ) = ∞ ; {\displaystyle v_{p}(0)=\infty ;} that is, the valuation of zero is ∞.
+
+{\displaystyle \infty.
+
+} This valuation is a discrete valuation.
+
+The restriction of this valuation to the rational numbers is the p -adic valuation of Q , {\displaystyle \mathbb {Q} ,} that is, the exponent v in the factorization of a rational number as n d p v , {\displaystyle {\tfrac {n}{d}}p^{v},} with both n and d coprime with p.
+
+p -adic integers [ edit ] The p -adic integers are the p -adic numbers with a nonnegative valuation.
+
+A p -adic integer can be represented as a sequence x = ( x 1 mod ⁡ p , x 2 mod ⁡ p 2 , x 3 mod ⁡ p 3 , … ) {\displaystyle x=(x_{1}\operatorname {mod} p,~x_{2}\operatorname {mod} p^{2},~x_{3}\operatorname {mod} p^{3},~\ldots )} of residues x e mod p e for each integer e , satisfying the compatibility relations x i ≡ x j ( mod ⁡ p i ) {\displaystyle x_{i}\equiv x_{j}~(\operatorname {mod} p^{i})} for i < j.
+
+Every integer is a p -adic integer (including zero, since 0 < ∞ {\displaystyle 0<\infty } ).
+
+The rational numbers of the form n d p k {\textstyle {\tfrac {n}{d}}p^{k}} with d coprime with p and k ≥ 0 {\displaystyle k\geq 0} are also p -adic integers (for the reason that d has an inverse mod p e for every e ).
+
+The p -adic integers form a commutative ring , denoted Z p {\displaystyle \mathbb {Z} _{p}} or Z p {\displaystyle \mathbf {Z} _{p}} , that has the following properties.
+
+It is an integral domain , since it is a subring of a field, or since the first term of the series representation of the product of two non zero p -adic series is the product of their first terms.
+
+The units (invertible elements) of Z p {\displaystyle \mathbb {Z} _{p}} are the p -adic numbers of valuation zero.
+
+It is a principal ideal domain , such that each ideal is generated by a power of p.
+
+It is a local ring of Krull dimension one, since its only prime ideals are the zero ideal and the ideal generated by p , the unique maximal ideal.
+
+It is a discrete valuation ring , since this results from the preceding properties.
+
+It is the completion of the local ring Z ( p ) = { n d ∣ n , d ∈ Z , d ∉ p Z } , {\displaystyle \mathbb {Z} _{(p)}=\{{\tfrac {n}{d}}\mid n,d\in \mathbb {Z} ,\,d\not \in p\mathbb {Z} \},} which is the localization of Z {\displaystyle \mathbb {Z} } at the prime ideal p Z.
+
+{\displaystyle p\mathbb {Z}.
+
+} The last property provides a definition of the p -adic numbers that is equivalent to the above one: the field of the p -adic numbers is the field of fractions of the completion of the localization of the integers at the prime ideal generated by p.
+
+Topological properties [ edit ] The p -adic valuation allows defining an absolute value on p -adic numbers: the p -adic absolute value of a nonzero p -adic number x is | x | p = p − v p ( x ) , {\displaystyle |x|_{p}=p^{-v_{p}(x)},} where v p ( x ) {\displaystyle v_{p}(x)} is the p -adic valuation of x.
+
+The p -adic absolute value of 0 {\displaystyle 0} is | 0 | p = 0.
+
+{\displaystyle |0|_{p}=0.
+
+} This is an absolute value that satisfies the strong triangle inequality since, for every x and y one has | x | p = 0 {\displaystyle |x|_{p}=0} if and only if x = 0 ; {\displaystyle x=0;} | x | p ⋅ | y | p = | x y | p {\displaystyle |x|_{p}\cdot |y|_{p}=|xy|_{p}} | x + y | p ≤ max ( | x | p , | y | p ) ≤ | x | p + | y | p.
+
+{\displaystyle |x+y|_{p}\leq \max(|x|_{p},|y|_{p})\leq |x|_{p}+|y|_{p}.
+
+} Moreover, if | x | p ≠ | y | p , {\displaystyle |x|_{p}\neq |y|_{p},} one has | x + y | p = max ( | x | p , | y | p ).
+
+{\displaystyle |x+y|_{p}=\max(|x|_{p},|y|_{p}).
+
+} This makes the p -adic numbers a metric space , and even an ultrametric space , with the p -adic distance defined by d p ( x , y ) = | x − y | p.
+
+{\displaystyle d_{p}(x,y)=|x-y|_{p}.
+
+} As a metric space, the p -adic numbers form the completion of the rational numbers equipped with the p -adic absolute value.
+
+This provides another way for defining the p -adic numbers.
+
+However, the general construction of a completion can be simplified in this case, because the metric is defined by a discrete valuation (in short, one can extract from every Cauchy sequence a subsequence such that the differences between two consecutive terms have strictly decreasing absolute values; such a subsequence is the sequence of the partial sums of a p -adic series, and thus a unique normalized p -adic series can be associated to every equivalence class of Cauchy sequences; so, for building the completion, it suffices to consider normalized p -adic series instead of equivalence classes of Cauchy sequences).
+
+As the metric is defined from a discrete valuation, every open ball is also closed.
+
+More precisely, the open ball B r ( x ) = { y ∣ d p ( x , y ) < r } {\displaystyle B_{r}(x)=\{y\mid d_{p}(x,y)<r\}} equals the closed ball B p − v [ x ] = { y ∣ d p ( x , y ) ≤ p − v } , {\displaystyle B_{p^{-v}}[x]=\{y\mid d_{p}(x,y)\leq p^{-v}\},} where v is the least integer such that p − v < r.
+
+{\displaystyle p^{-v}<r.
+
+} Similarly, B r [ x ] = B p − w ( x ) , {\displaystyle B_{r}[x]=B_{p^{-w}}(x),} where w is the greatest integer such that p − w > r.
+
+{\displaystyle p^{-w}>r.
+
+} This implies that the p -adic numbers form a locally compact space , and the p -adic integers—that is, the ball B 1 [ 0 ] = B p ( 0 ) {\displaystyle B_{1}[0]=B_{p}(0)} —form a compact space.
+
+p -adic expansion of rational numbers [ edit ] The decimal expansion of a positive rational number r {\displaystyle r} is its representation as a series r = ∑ i = k ∞ a i 10 − i , {\displaystyle r=\sum _{i=k}^{\infty }a_{i}10^{-i},} where k {\displaystyle k} is an integer and each a i {\displaystyle a_{i}} is also an integer such that 0 ≤ a i < 10.
+
+{\displaystyle 0\leq a_{i}<10.
+
+} This expansion can be computed by long division of the numerator by the denominator, which is itself based on the following theorem: If r = n d {\displaystyle r={\tfrac {n}{d}}} is a rational number such that 10 k ≤ r < 10 k + 1 , {\displaystyle 10^{k}\leq r<10^{k+1},} there is an integer a {\displaystyle a} such that 0 < a < 10 , {\displaystyle 0<a<10,} and r = a 10 k + r ′ , {\displaystyle r=a\,10^{k}+r',} with r ′ < 10 k.
+
+{\displaystyle r'<10^{k}.
+
+} The decimal expansion is obtained by repeatedly applying this result to the remainder r ′ {\displaystyle r'} which in the iteration assumes the role of the original rational number r {\displaystyle r}.
+
+The p - adic expansion of a rational number is defined similarly, but with a different division step.
+
+More precisely, given a fixed prime number p {\displaystyle p} , every nonzero rational number r {\displaystyle r} can be uniquely written as r = p k n d , {\displaystyle r=p^{k}{\tfrac {n}{d}},} where k {\displaystyle k} is a (possibly negative) integer, n {\displaystyle n} and d {\displaystyle d} are coprime integers both coprime with p {\displaystyle p} , and d {\displaystyle d} is positive.
+
+The integer k {\displaystyle k} is the p -adic valuation of r {\displaystyle r} , denoted v p ( r ) , {\displaystyle v_{p}(r),} and p − k {\displaystyle p^{-k}} is its p -adic absolute value , denoted | r | p {\displaystyle |r|_{p}} (the absolute value is small when the valuation is large).
+
+The division step consists of writing r = a p k + r ′ {\displaystyle r=a\,p^{k}+r'} where a {\displaystyle a} is an integer such that 0 ≤ a < p , {\displaystyle 0\leq a<p,} and r ′ {\displaystyle r'} is either zero, or a rational number such that | r ′ | p < p − k {\displaystyle |r'|_{p}<p^{-k}} (that is, v p ( r ′ ) > k {\displaystyle v_{p}(r')>k} ).
+
+The p {\displaystyle p} - adic expansion of r {\displaystyle r} is the formal power series r = ∑ i = k ∞ a i p i {\displaystyle r=\sum _{i=k}^{\infty }a_{i}p^{i}} obtained by repeating indefinitely the above division step on successive remainders.
+
+In a p -adic expansion, all a i {\displaystyle a_{i}} are integers such that 0 ≤ a i < p.
+
+{\displaystyle 0\leq a_{i}<p.
+
+} If r = p k n 1 {\displaystyle r=p^{k}{\tfrac {n}{1}}} with n > 0 {\displaystyle n>0} , the process stops eventually with a zero remainder; in this case, the series is completed by trailing terms with a zero coefficient, and is the representation of r {\displaystyle r} in base- p.
+
+The existence and the computation of the p -adic expansion of a rational number results from Bézout's identity in the following way.
+
+If, as above, r = p k n d , {\displaystyle r=p^{k}{\tfrac {n}{d}},} and d {\displaystyle d} and p {\displaystyle p} are coprime, there exist integers t {\displaystyle t} and u {\displaystyle u} such that t d + u p = 1.
+
+{\displaystyle td+up=1.
+
+} So r = p k n d ( t d + u p ) = p k n t + p k + 1 u n d.
+
+{\displaystyle r=p^{k}{\tfrac {n}{d}}(td+up)=p^{k}nt+p^{k+1}{\frac {un}{d}}.
+
+} Then, the Euclidean division of n t {\displaystyle nt} by p {\displaystyle p} gives n t = q p + a , {\displaystyle nt=qp+a,} with 0 ≤ a < p.
+
+{\displaystyle 0\leq a<p.
+
+} This gives the division step as r = p k ( q p + a ) + p k + 1 u n d = a p k + p k + 1 q d + u n d , {\displaystyle {\begin{array}{lcl}r&=&p^{k}(qp+a)+p^{k+1}{\frac {un}{d}}\\&=&ap^{k}+p^{k+1}\,{\frac {qd+un}{d}},\\\end{array}}} so that in the iteration r ′ = p k + 1 q d + u n d {\displaystyle r'=p^{k+1}\,{\frac {qd+un}{d}}} is the new rational number.
+
+The uniqueness of the division step and of the whole p -adic expansion is easy: if p k a 1 + p k + 1 s 1 = p k a 2 + p k + 1 s 2 , {\displaystyle p^{k}a_{1}+p^{k+1}s_{1}=p^{k}a_{2}+p^{k+1}s_{2},} one has a 1 − a 2 = p ( s 2 − s 1 ).
+
+{\displaystyle a_{1}-a_{2}=p(s_{2}-s_{1}).
+
+} This means p {\displaystyle p} divides a 1 − a 2.
+
+{\displaystyle a_{1}-a_{2}.
+
+} Since 0 ≤ a 1 < p {\displaystyle 0\leq a_{1}<p} and 0 ≤ a 2 < p , {\displaystyle 0\leq a_{2}<p,} the following must be true: 0 ≤ a 1 {\displaystyle 0\leq a_{1}} and a 2 < p.
+
+{\displaystyle a_{2}<p.
+
+} Thus, one gets − p < a 1 − a 2 < p , {\displaystyle -p<a_{1}-a_{2}<p,} and since p {\displaystyle p} divides a 1 − a 2 {\displaystyle a_{1}-a_{2}} it must be that a 1 = a 2.
+
+{\displaystyle a_{1}=a_{2}.
+
+} The p -adic expansion of a rational number is a series that converges to the rational number, if one applies the definition of a convergent series with the p -adic absolute value.
+
+In the standard p -adic notation, the digits are written in the same order as in a standard base- p system , namely with the powers of the base increasing to the left.
+
+This means that the production of the digits is reversed and the limit happens on the left hand side.
+
+The p -adic expansion of a rational number is eventually periodic.
+
+Conversely , a series ∑ i = k ∞ a i p i , {\textstyle \sum _{i=k}^{\infty }a_{i}p^{i},} with 0 ≤ a i < p {\displaystyle 0\leq a_{i}<p} converges (for the p -adic absolute value) to a rational number if and only if it is eventually periodic; in this case, the series is the p -adic expansion of that rational number.
+
+The proof is similar to that of the similar result for repeating decimals.
+
+Example [ edit ] Let us compute the 5-adic expansion of 1 3.
+
+{\displaystyle {\tfrac {1}{3}}.
+
+} Bézout's identity for 5 and the denominator 3 is 2 ⋅ 3 + ( − 1 ) ⋅ 5 = 1 {\displaystyle 2\cdot 3+(-1)\cdot 5=1} (for larger examples, this can be computed with the extended Euclidean algorithm ).
+
+Thus 1 3 = 2 + 5 ( − 1 3 ).
+
+{\displaystyle {\frac {1}{3}}=2+5({\frac {-1}{3}}).
+
+} For the next step, one has to expand − 1 / 3 {\displaystyle -1/3} (the factor 5 has to be viewed as a " shift " of the p -adic valuation, similar to the basis of any number expansion, and thus it should not be itself expanded).
+
+To expand − 1 / 3 {\displaystyle -1/3} , we start from the same Bézout's identity and multiply it by − 1 {\displaystyle -1} , giving − 1 3 = − 2 + 5 3.
+
+{\displaystyle -{\frac {1}{3}}=-2+{\frac {5}{3}}.
+
+} The "integer part" − 2 {\displaystyle -2} is not in the right interval.
+
+So, one has to use Euclidean division by 5 {\displaystyle 5} for getting − 2 = 3 − 1 ⋅ 5 , {\displaystyle -2=3-1\cdot 5,} giving − 1 3 = 3 − 5 + 5 3 = 3 − 10 3 = 3 + 5 ( − 2 3 ) , {\displaystyle -{\frac {1}{3}}=3-5+{\frac {5}{3}}=3-{\frac {10}{3}}=3+5({\frac {-2}{3}}),} and the expansion in the first step becomes 1 3 = 2 + 5 ⋅ ( 3 + 5 ⋅ ( − 2 3 ) ) = 2 + 3 ⋅ 5 + − 2 3 ⋅ 5 2.
+
+{\displaystyle {\frac {1}{3}}=2+5\cdot (3+5\cdot ({\frac {-2}{3}}))=2+3\cdot 5+{\frac {-2}{3}}\cdot 5^{2}.
+
+} Similarly, one has − 2 3 = 1 − 5 3 , {\displaystyle -{\frac {2}{3}}=1-{\frac {5}{3}},} and 1 3 = 2 + 3 ⋅ 5 + 1 ⋅ 5 2 + − 1 3 ⋅ 5 3.
+
+{\displaystyle {\frac {1}{3}}=2+3\cdot 5+1\cdot 5^{2}+{\frac {-1}{3}}\cdot 5^{3}.
+
+} As the "remainder" − 1 3 {\displaystyle -{\tfrac {1}{3}}} has already been found, the process can be continued easily, giving coefficients 3 {\displaystyle 3} for odd powers of five, and 1 {\displaystyle 1} for even powers.
+
+Or in the standard 5-adic notation 1 3 = … 1313132 5 {\displaystyle {\frac {1}{3}}=\ldots 1313132_{5}} with the ellipsis … {\displaystyle \ldots } on the left hand side.
+
+Positional notation [ edit ] It is possible to use a positional notation similar to that which is used to represent numbers in base p.
+
+Let ∑ i = k ∞ a i p i {\textstyle \sum _{i=k}^{\infty }a_{i}p^{i}} be a normalized p -adic series, i.
+
+e.
+
+each a i {\displaystyle a_{i}} is an integer in the interval [ 0 , p − 1 ].
+
+{\displaystyle [0,p-1].
+
+} One can suppose that k ≤ 0 {\displaystyle k\leq 0} by setting a i = 0 {\displaystyle a_{i}=0} for 0 ≤ i < k {\displaystyle 0\leq i<k} (if k > 0 {\displaystyle k>0} ), and adding the resulting zero terms to the series.
+
+If k ≥ 0 , {\displaystyle k\geq 0,} the positional notation consists of writing the a i {\displaystyle a_{i}} consecutively, ordered by decreasing values of i , often with p appearing on the right as an index: … a n … a 1 a 0 p {\displaystyle \ldots a_{n}\ldots a_{1}{a_{0}}_{p}} So, the computation of the example above shows that 1 3 = … 1313132 5 , {\displaystyle {\frac {1}{3}}=\ldots 1313132_{5},} and 25 3 = … 131313200 5.
+
+{\displaystyle {\frac {25}{3}}=\ldots 131313200_{5}.
+
+} When k < 0 , {\displaystyle k<0,} a separating dot is added before the digits with negative index, and, if the index p is present, it appears just after the separating dot.
+
+For example, 1 15 = … 3131313.
+
+5 2 , {\displaystyle {\frac {1}{15}}=\ldots 3131313.
+
+_{5}2,} and 1 75 = … 1313131.
+
+5 32.
+
+{\displaystyle {\frac {1}{75}}=\ldots 1313131.
+
+_{5}32.
+
+} If a p -adic representation is finite on the left (that is, a i = 0 {\displaystyle a_{i}=0} for large values of i ), then it has the value of a nonnegative rational number of the form n p v , {\displaystyle np^{v},} with n , v {\displaystyle n,v} integers.
+
+These rational numbers are exactly the nonnegative rational numbers that have a finite representation in base p.
+
+For these rational numbers, the two representations are the same.
+
+Modular properties [ edit ] The quotient ring Z p / p n Z p {\displaystyle \mathbb {Z} _{p}/p^{n}\mathbb {Z} _{p}} may be identified with the ring Z / p n Z {\displaystyle \mathbb {Z} /p^{n}\mathbb {Z} } of the integers modulo p n.
+
+{\displaystyle p^{n}.
+
+} This can be shown by remarking that every p -adic integer, represented by its normalized p -adic series, is congruent modulo p n {\displaystyle p^{n}} with its partial sum ∑ i = 0 n − 1 a i p i , {\textstyle \sum _{i=0}^{n-1}a_{i}p^{i},} whose value is an integer in the interval [ 0 , p n − 1 ].
+
+{\displaystyle [0,p^{n}-1].
+
+} A straightforward verification shows that this defines a ring isomorphism from Z p / p n Z p {\displaystyle \mathbb {Z} _{p}/p^{n}\mathbb {Z} _{p}} to Z / p n Z.
+
+{\displaystyle \mathbb {Z} /p^{n}\mathbb {Z}.
+
+} The inverse limit of the rings Z p / p n Z p {\displaystyle \mathbb {Z} _{p}/p^{n}\mathbb {Z} _{p}} is defined as the ring formed by the sequences a 0 , a 1 , … {\displaystyle a_{0},a_{1},\ldots } such that a i ∈ Z / p i Z {\displaystyle a_{i}\in \mathbb {Z} /p^{i}\mathbb {Z} } and a i ≡ a i + 1 ( mod p i ) {\textstyle a_{i}\equiv a_{i+1}{\pmod {p^{i}}}} for every i.
+
+The mapping that maps a normalized p -adic series to the sequence of its partial sums is a ring isomorphism from Z p {\displaystyle \mathbb {Z} _{p}} to the inverse limit of the Z p / p n Z p.
+
+{\displaystyle \mathbb {Z} _{p}/p^{n}\mathbb {Z} _{p}.
+
+} This provides another way for defining p -adic integers ( up to an isomorphism).
+
+This definition of p -adic integers is specially useful for practical computations, as allowing building p -adic integers by successive approximations.
+
+For example, for computing the p -adic (multiplicative) inverse of an integer, one can use Newton's method , starting from the inverse modulo p ; then, each Newton step computes the inverse modulo p n 2 {\textstyle p^{n^{2}}} from the inverse modulo p n.
+
+{\textstyle p^{n}.
+
+} The same method can be used for computing the p -adic square root of an integer that is a quadratic residue modulo p.
+
+This seems to be the fastest known method for testing whether a large integer is a square: it suffices to test whether the given integer is the square of the value found in Z p / p n Z p {\displaystyle \mathbb {Z} _{p}/p^{n}\mathbb {Z} _{p}}.
+
+Applying Newton's method to find the square root requires p n {\textstyle p^{n}} to be larger than twice the given integer, which is quickly satisfied.
+
+Hensel lifting is a similar method that allows to "lift" the factorization modulo p of a polynomial with integer coefficients to a factorization modulo p n {\textstyle p^{n}} for large values of n.
+
+This is commonly used by polynomial factorization algorithms.
+
+Notation [ edit ] There are several different conventions for writing p -adic expansions.
+
+So far this article has used a notation for p -adic expansions in which powers of p increase from right to left.
+
+With this right-to-left notation the 3-adic expansion of 1 5 , {\displaystyle {\tfrac {1}{5}},} for example, is written as 1 5 = … 121012102 3.
+
+{\displaystyle {\frac {1}{5}}=\dots 121012102_{3}.
+
+} When performing arithmetic in this notation, digits are carried to the left.
+
+It is also possible to write p -adic expansions so that the powers of p increase from left to right, and digits are carried to the right.
+
+With this left-to-right notation the 3-adic expansion of 1 5 {\displaystyle {\tfrac {1}{5}}} is 1 5 = 2.
+
+01210121 … 3 or 1 15 = 20.
+
+1210121 … 3.
+
+{\displaystyle {\frac {1}{5}}=2.
+
+01210121\dots _{3}{\mbox{ or }}{\frac {1}{15}}=20.
+
+1210121\dots _{3}.
+
+} p -adic expansions may be written with other sets of digits instead of {0, 1,.
+
+, p − 1 }.
+
+For example, the 3 -adic expansion of 1 5 {\displaystyle {\tfrac {1}{5}}} can be written using balanced ternary digits { 1 , 0, 1 }, with 1 representing negative one, as 1 5 = … 1 _ 11 11 _ 11 11 _ 11 1 _ 3.
+
+{\displaystyle {\frac {1}{5}}=\dots {\underline {1}}11{\underline {11}}11{\underline {11}}11{\underline {1}}_{\text{3}}.
+
+} In fact any set of p integers which are in distinct residue classes modulo p may be used as p -adic digits.
+
+In number theory, Teichmüller representatives are sometimes used as digits.
+
+[2] Quote notation is a variant of the p -adic representation of rational numbers that was proposed in 1979 by Eric Hehner and Nigel Horspool for implementing on computers the (exact) arithmetic with these numbers.
+
+[3] Cardinality [ edit ] Both Z p {\displaystyle \mathbb {Z} _{p}} and Q p {\displaystyle \mathbb {Q} _{p}} are uncountable and have the cardinality of the continuum.
+
+[4] For Z p , {\displaystyle \mathbb {Z} _{p},} this results from the p -adic representation, which defines a bijection of Z p {\displaystyle \mathbb {Z} _{p}} on the power set { 0 , … , p − 1 } N.
+
+{\displaystyle \{0,\ldots ,p-1\}^{\mathbb {N} }.
+
+} For Q p {\displaystyle \mathbb {Q} _{p}} this results from its expression as a countably infinite union of copies of Z p {\displaystyle \mathbb {Z} _{p}} : Q p = ⋃ i = 0 ∞ 1 p i Z p.
+
+{\displaystyle \mathbb {Q} _{p}=\bigcup _{i=0}^{\infty }{\frac {1}{p^{i}}}\mathbb {Z} _{p}.
+
+} Algebraic closure [ edit ] Q p {\displaystyle \mathbb {Q} _{p}} contains Q {\displaystyle \mathbb {Q} } and is a field of characteristic 0.
+
+Because 0 can be written as sum of squares, [5] Q p {\displaystyle \mathbb {Q} _{p}} cannot be turned into an ordered field.
+
+The field of real numbers R {\displaystyle \mathbb {R} } has only a single proper algebraic extension : the complex numbers C {\displaystyle \mathbb {C} }.
+
+In other words, this quadratic extension is already algebraically closed.
+
+By contrast, the algebraic closure of Q p {\displaystyle \mathbb {Q} _{p}} , denoted Q p ¯ , {\displaystyle {\overline {\mathbb {Q} _{p}}},} has infinite degree, [6] that is, Q p {\displaystyle \mathbb {Q} _{p}} has infinitely many inequivalent algebraic extensions.
+
+Also contrasting the case of real numbers, although there is a unique extension of the p -adic valuation to Q p ¯ , {\displaystyle {\overline {\mathbb {Q} _{p}}},} the latter is not (metrically) complete.
+
+[7] [8] Its (metric) completion is called C p {\displaystyle \mathbb {C} _{p}} or Ω p {\displaystyle \Omega _{p}}.
+
+[8] [9] Here an end is reached, as C p {\displaystyle \mathbb {C} _{p}} is algebraically closed.
+
+[8] [10] However unlike C {\displaystyle \mathbb {C} } this field is not locally compact.
+
+[9] C p {\displaystyle \mathbb {C} _{p}} and C {\displaystyle \mathbb {C} } are isomorphic as rings, [11] so we may regard C p {\displaystyle \mathbb {C} _{p}} as C {\displaystyle \mathbb {C} } endowed with an exotic metric.
+
+The proof of existence of such a field isomorphism relies on the axiom of choice , and does not provide an explicit example of such an isomorphism (that is, it is not constructive ).
+
+If K {\displaystyle K} is any finite Galois extension of Q p , {\displaystyle \mathbb {Q} _{p},} , the Galois group Gal ⁡ ( K / Q p ) {\displaystyle \operatorname {Gal} \left(K/\mathbb {Q} _{p}\right)} is solvable.
+
+Thus, the Galois group Gal ⁡ ( Q p ¯ / Q p ) {\displaystyle \operatorname {Gal} \left({\overline {\mathbb {Q} _{p}}}/\mathbb {Q} _{p}\right)} is prosolvable.
+
+Multiplicative group [ edit ] Q p {\displaystyle \mathbb {Q} _{p}} contains the n -th cyclotomic field ( n > 2 ) if and only if n | p − 1.
+
+[12] For instance, the n -th cyclotomic field is a subfield of Q 13 {\displaystyle \mathbb {Q} _{13}} if and only if n = 1, 2, 3, 4, 6 , or 12.
+
+In particular, there is no multiplicative p - torsion in Q p {\displaystyle \mathbb {Q} _{p}} if p > 2.
+
+Also, −1 is the only non-trivial torsion element in Q 2 {\displaystyle \mathbb {Q} _{2}}.
+
+Given a natural number k , the index of the multiplicative group of the k -th powers of the non-zero elements of Q p {\displaystyle \mathbb {Q} _{p}} in Q p × {\displaystyle \mathbb {Q} _{p}^{\times }} is finite.
+
+The number e , defined as the sum of reciprocals of factorials , is not a member of any p -adic field; but e p ∈ Q p {\displaystyle e^{p}\in \mathbb {Q} _{p}} for p ≠ 2 {\displaystyle p\neq 2}.
+
+For p = 2 one must take at least the fourth power.
+
+[13] (Thus a number with similar properties as e — namely a p -th root of e p — is a member of Q p {\displaystyle \mathbb {Q} _{p}} for all p.
+
+) Local–global principle [ edit ] Helmut Hasse 's local–global principle is said to hold for an equation if it can be solved over the rational numbers if and only if it can be solved over the real numbers and over the p -adic numbers for every prime p.
+
+This principle holds, for example, for equations given by quadratic forms , but fails for higher polynomials in several indeterminates.
+
+Rational arithmetic with Hensel lifting [ edit ] Main article: Hensel lifting Generalizations and related concepts [ edit ] The reals and the p -adic numbers are the completions of the rationals; it is also possible to complete other fields, for instance general algebraic number fields , in an analogous way.
+
+This will be described now.
+
+Suppose D is a Dedekind domain and E is its field of fractions.
+
+Pick a non-zero prime ideal P of D.
+
+If x is a non-zero element of E , then xD is a fractional ideal and can be uniquely factored as a product of positive and negative powers of non-zero prime ideals of D.
+
+We write ord P ( x ) for the exponent of P in this factorization, and for any choice of number c greater than 1 we can set | x | P = c − ord P ⁡ ( x ).
+
+{\displaystyle |x|_{P}=c^{-\!\operatorname {ord} _{P}(x)}.
+
+} Completing with respect to this absolute value |⋅| P yields a field E P , the proper generalization of the field of p -adic numbers to this setting.
+
+The choice of c does not change the completion (different choices yield the same concept of Cauchy sequence, so the same completion).
+
+It is convenient, when the residue field D / P is finite, to take for c the size of D / P.
+
+For example, when E is a number field , Ostrowski's theorem says that every non-trivial non-Archimedean absolute value on E arises as some |⋅| P.
+
+The remaining non-trivial absolute values on E arise from the different embeddings of E into the real or complex numbers.
+
+(In fact, the non-Archimedean absolute values can be considered as simply the different embeddings of E into the fields C p , thus putting the description of all the non-trivial absolute values of a number field on a common footing.
+
+) Often, one needs to simultaneously keep track of all the above-mentioned completions when E is a number field (or more generally a global field ), which are seen as encoding "local" information.
+
+This is accomplished by adele rings and idele groups.
+
+p -adic integers can be extended to p -adic solenoids T p {\displaystyle \mathbb {T} _{p}}.
+
+There is a map from T p {\displaystyle \mathbb {T} _{p}} to the circle group whose fibers are the p -adic integers Z p {\displaystyle \mathbb {Z} _{p}} , in analogy to how there is a map from R {\displaystyle \mathbb {R} } to the circle whose fibers are Z {\displaystyle \mathbb {Z} }.
+
+See also [ edit ] Non-Archimedean p-adic quantum mechanics p-adic Hodge theory p-adic Teichmuller theory p-adic analysis p-adic valuation 1 + 2 + 4 + 8 +.
+
+k -adic notation C-minimal theory Hensel's lemma Locally compact field Mahler's theorem Profinite integer Volkenborn integral Two's complement Footnotes [ edit ] Notes [ edit ] ^ Translator's introduction, page 35 : "Indeed, with hindsight it becomes apparent that a discrete valuation is behind Kummer's concept of ideal numbers.
+
+"( Dedekind & Weber 2012 , p.
+
+35) Citations [ edit ] ^ ( Hensel 1897 ) ^ ( Hazewinkel 2009 , p.
+
+342) ^ ( Hehner & Horspool 1979 , pp.
+
+124–134) ^ ( Robert 2000 , Chapter 1 Section 1.
+
+1) ^ According to Hensel's lemma Q 2 {\displaystyle \mathbb {Q} _{2}} contains a square root of −7 , so that 2 2 + 1 2 + 1 2 + 1 2 + ( − 7 ) 2 = 0 , {\displaystyle 2^{2}+1^{2}+1^{2}+1^{2}+\left({\sqrt {-7}}\right)^{2}=0,} and if p > 2 then also by Hensel's lemma Q p {\displaystyle \mathbb {Q} _{p}} contains a square root of 1 − p , thus ( p − 1 ) × 1 2 + ( 1 − p ) 2 = 0.
+
+{\displaystyle (p-1)\times 1^{2}+\left({\sqrt {1-p}}\right)^{2}=0.
+
+} ^ ( Gouvêa 1997 , Corollary 5.
+
+3.
+
+10) ^ ( Gouvêa 1997 , Theorem 5.
+
+7.
+
+4) ^ a b c ( Cassels 1986 , p.
+
+149) ^ a b ( Koblitz 1980 , p.
+
+13) ^ ( Gouvêa 1997 , Proposition 5.
+
+7.
+
+8) ^ Two algebraically closed fields are isomorphic if and only if they have the same characteristic and transcendence degree (see, for example Lang’s Algebra X §1), and both C p {\displaystyle \mathbb {C} _{p}} and C {\displaystyle \mathbb {C} } have characteristic zero and the cardinality of the continuum.
+
+^ ( Gouvêa 1997 , Proposition 3.
+
+4.
+
+2) ^ ( Robert 2000 , Section 4.
+
+1) References [ edit ] Cassels, J.
+
+W.
+
+S.
+
+(1986), Local Fields , London Mathematical Society Student Texts, vol.
+
+3, Cambridge University Press , ISBN 0-521-31525-5 , Zbl 0595.
+
+12006 Dedekind, Richard ; Weber, Heinrich (2012), Theory of Algebraic Functions of One Variable , History of mathematics, vol.
+
+39, American Mathematical Society, ISBN 978-0-8218-8330-3.
+
+— Translation into English by John Stillwell of Theorie der algebraischen Functionen einer Veränderlichen (1882).
+
+Gouvêa, F.
+
+Q.
+
+(March 1994), "A Marvelous Proof", American Mathematical Monthly , 101 (3): 203–222, doi : 10.
+
+2307/2975598 , JSTOR 2975598 Gouvêa, Fernando Q.
+
+(1997), p -adic Numbers: An Introduction (2nd ed.
+
+), Springer, ISBN 3-540-62911-4 , Zbl 0874.
+
+11002 Hazewinkel, M.
+
+, ed.
+
+(2009), Handbook of Algebra , vol.
+
+6, North Holland, p.
+
+342, ISBN 978-0-444-53257-2 Hehner, Eric C.
+
+R.
+
+; Horspool, R.
+
+Nigel (1979), "A new representation of the rational numbers for fast easy arithmetic" , SIAM Journal on Computing , 8 (2): 124–134, CiteSeerX 10.
+
+1.
+
+1.
+
+64.
+
+7714 , doi : 10.
+
+1137/0208011 Hensel, Kurt (1897), "Über eine neue Begründung der Theorie der algebraischen Zahlen" , Jahresbericht der Deutschen Mathematiker-Vereinigung , 6 (3): 83–88 Kelley, John L.
+
+(2008) [1955], General Topology , New York: Ishi Press, ISBN 978-0-923891-55-8 Koblitz, Neal (1980), p -adic analysis: a short course on recent work , London Mathematical Society Lecture Note Series, vol.
+
+46, Cambridge University Press , ISBN 0-521-28060-5 , Zbl 0439.
+
+12011 Robert, Alain M.
+
+(2000), A Course in p -adic Analysis , Springer, ISBN 0-387-98669-3 Further reading [ edit ] Bachman, George (1964), Introduction to p -adic Numbers and Valuation Theory , Academic Press, ISBN 0-12-070268-1 Borevich, Z.
+
+I.
+
+; Shafarevich, I.
+
+R.
+
+(1986), Number Theory , Pure and Applied Mathematics, vol.
+
+20, Boston, MA: Academic Press, ISBN 978-0-12-117851-2 , MR 0195803 Koblitz, Neal (1984), p -adic Numbers, p -adic Analysis, and Zeta-Functions , Graduate Texts in Mathematics , vol.
+
+58 (2nd ed.
+
+), Springer, ISBN 0-387-96017-1 Mahler, Kurt (1981), p -adic numbers and their functions , Cambridge Tracts in Mathematics, vol.
+
+76 (2nd ed.
+
+), Cambridge: Cambridge University Press , ISBN 0-521-23102-7 , Zbl 0444.
+
+12013 Steen, Lynn Arthur (1978), Counterexamples in Topology , Dover, ISBN 0-486-68735-X External links [ edit ] Wikimedia Commons has media related to P-adic numbers.
+
+Weisstein, Eric W.
+
+"p-adic Number".
+
+MathWorld.
+
+p -adic number at Springer On-line Encyclopaedia of Mathematics v t e Number systems Sets of definable numbers Natural numbers ( N {\displaystyle \mathbb {N} } ) Integers ( Z {\displaystyle \mathbb {Z} } ) Rational numbers ( Q {\displaystyle \mathbb {Q} } ) Constructible numbers Algebraic numbers ( A {\displaystyle \mathbb {A} } ) Closed-form numbers Periods Computable numbers Arithmetical numbers Set-theoretically definable numbers Gaussian integers Composition algebras Division algebras : Real numbers ( R {\displaystyle \mathbb {R} } ) Complex numbers ( C {\displaystyle \mathbb {C} } ) Quaternions ( H {\displaystyle \mathbb {H} } ) Octonions ( O {\displaystyle \mathbb {O} } ) Split types Over R {\displaystyle \mathbb {R} } : Split-complex numbers Split-quaternions Split-octonions Over C {\displaystyle \mathbb {C} } : Bicomplex numbers Biquaternions Bioctonions Other hypercomplex Dual numbers Dual quaternions Dual-complex numbers Hyperbolic quaternions Sedenions ( S {\displaystyle \mathbb {S} } ) Split-biquaternions Multicomplex numbers Geometric algebra / Clifford algebra Algebra of physical space Spacetime algebra Plane-based geometric algebra Infinities and infinitesimals Cardinal numbers Extended natural numbers Extended real numbers Projective Hyperreal numbers Levi-Civita field Ordinal numbers Supernatural numbers Surreal numbers Superreal numbers Other types Irrational numbers Fuzzy numbers Transcendental numbers p -adic numbers ( p -adic solenoids ) Profinite integers Normal numbers Classification List Authority control databases : National France BnF data Germany Israel United States Retrieved from " https://en.
+
+wikipedia.
+
+org/w/index.
+
+php?title=P-adic_number&oldid=1233868067 " Categories : Field (mathematics) Number theory P-adic numbers Hidden categories: Articles with short description Short description is different from Wikidata Commons category link is on Wikidata Articles with BNF identifiers Articles with BNFdata identifiers Articles with GND identifiers Articles with J9U identifiers Articles with LCCN identifiers This page was last edited on 11 July 2024, at 09:37 (UTC).
+
+Text is available under the Creative Commons Attribution-ShareAlike License 4.
+
+0 ; additional terms may apply.
+
+By using this site, you agree to the Terms of Use and Privacy Policy.
+
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+
+, a non-profit organization.
+
+Privacy policy About Wikipedia Disclaimers Contact Wikipedia Code of Conduct Developers Statistics Cookie statement Mobile view.
