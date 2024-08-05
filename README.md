@@ -1,7 +1,7 @@
-# Math Monster RAG App
+Daily math facts for students App
 
 ## 1. Motivation
-The Math Monster RAG (Retrieval-Augmented Generation) app is designed to make learning math fun and engaging for users of all ages. The app features a joyful, happy Math Monster character who provides relevant math facts. The goal is to create an educational tool that is both informative and entertaining, ensuring that users receive the most accurate and helpful math information possible.
+The Daily math facts for students App RAG (Retrieval-Augmented Generation) app is designed to make learning math fun and engaging for users of all ages. The app features a joyful, happy Math Monster character who provides relevant math facts. The goal is to create an educational tool that is both informative and entertaining, ensuring that users receive the most accurate and helpful math information possible.
 
 ## 2. Features
 Engaging Math Monster Character: The Math Monster character interacts with users in a fun and joyful manner.
