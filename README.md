@@ -5,8 +5,11 @@ The Daily math facts for students App RAG (Retrieval-Augmented Generation) app i
 
 ## 2. Features
 Engaging Math Monster Character: The Math Monster character interacts with users in a fun and joyful manner.
+
 Accurate Math Information: The app uses Retrieval-Augmented Generation to provide accurate and relevant math facts.
+
 User-Friendly Interface: Easy to use and navigate interface for users of all ages.
+
 Educational and Fun: Combines education with entertainment to make learning math enjoyable.
 
 ## 3. Setup
